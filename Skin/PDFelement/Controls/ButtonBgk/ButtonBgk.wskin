@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Skin>
+  <Item Name="ButtonBgk">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="ButtonBgk.svg" />
+      <State Left="0" Top="0" Width="32" Height="26">
+        <Margins Left="3" Top="3" Right="3" Bottom="3" />
+      </State>
+      <State Left="32" Top="0" Width="32" Height="26">
+        <Margins Left="3" Top="3" Right="3" Bottom="3" />
+      </State>
+      <State Left="64" Top="0" Width="32" Height="26">
+        <Margins Left="3" Top="3" Right="3" Bottom="3" />
+      </State>
+      <State Left="96" Top="0" Width="32" Height="26">
+        <Margins Left="3" Top="3" Right="3" Bottom="3" />
+      </State>
+    </Part>
+  </Item>
+</Skin>

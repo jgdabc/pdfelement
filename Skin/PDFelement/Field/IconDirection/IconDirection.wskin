@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="IconDirection">
+    <Part id="0" Name="Up" TransparentMode="Alpha">
+      <Image Name="Up.png" />
+      <Padding Left="8" Right="8" />
+      <State Left="0" Top="0" Width="16" Height="16" />
+    </Part>
+    <Part id="1" Name="Down" TransparentMode="Alpha">
+      <Image Name="Down.png" />
+     <Padding Left="8" Right="8" />
+      <State Left="0" Top="0" Width="16" Height="16" />
+    </Part>
+    <Part id="2" Name="Left" TransparentMode="Alpha">
+      <Image Name="Left.png" />
+       <Padding Left="8" Right="8" />
+      <State Left="0" Top="0" Width="16" Height="16" />
+    </Part>
+    <Part id="3" Name="Right" TransparentMode="Alpha">
+      <Image Name="Right.png" />
+       <Padding Left="8" Right="8" />
+      <State Left="0" Top="0" Width="16" Height="16" />
+    </Part>
+  </Item>
+</Skin>

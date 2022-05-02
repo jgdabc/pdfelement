@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="RadioButton">
+    <Part id="0" Name="Checked" TransparentMode="Alpha">
+      <Image Name="RadioButton_Checked.svg" />
+      <State Left="0" Top="0" Width="16" Height="16" />
+      <State Left="16" Top="0" Width="16" Height="16" />
+      <State Left="32" Top="0" Width="16" Height="16" />
+      <State Left="48" Top="0" Width="16" Height="16">
+        <Font Color="clGray" />
+      </State>
+    </Part>
+    <Part id="1" Name="UnChecked" TransparentMode="Alpha">
+      <Image Name="RadioButton_UnChecked.svg" />
+      <State Left="0" Top="0" Width="16" Height="16" />
+      <State Left="16" Top="0" Width="16" Height="16" />
+      <State Left="32" Top="0" Width="16" Height="16" />
+      <State Left="48" Top="0" Width="16" Height="16">
+        <Font Color="clGray" />
+      </State>
+    </Part>
+  </Item>
+</Skin>

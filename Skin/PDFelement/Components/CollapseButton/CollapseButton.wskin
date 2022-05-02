@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="CollapseButton">
+    <Part id="0" Name="Checked" FillMode="center" TransparentMode="Alpha">
+      <Image Name="CollapseButton.svg" />
+      <Extension Left="8" Top="4" Right="8" Bottom="12" />
+      <State Left="0" Top="0" Width="48" Height="48">
+      </State>
+      <State Left="48" Top="0" Width="48" Height="48">
+      </State>
+      <State Left="96" Top="0" Width="48" Height="48">
+      </State>
+      <State Left="144" Top="0" Width="48" Height="48">
+      </State>
+    </Part>
+    <Part id="1" Name="UnChecked" FillMode="center" TransparentMode="Alpha">
+      <Image Name="SpreadButton.svg" />
+      <Extension Left="8" Top="4" Right="8" Bottom="12" />
+      <State Left="0" Top="0" Width="48" Height="48">
+      </State>
+      <State Left="48" Top="0" Width="48" Height="48">
+      </State>
+      <State Left="96" Top="0" Width="48" Height="48">
+      </State>
+      <State Left="144" Top="0" Width="48" Height="48">
+      </State>
+    </Part>
+  </Item>
+</Skin>

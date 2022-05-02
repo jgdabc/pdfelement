@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="DownloadTip">
+    <Part id="0" Name="Form" Style="1" TransparentMode="Alpha">
+      <Image Name="DownloadTip.svg" />
+      <Region type="Auto" />
+      <Font Color="clWhite" />
+      <State Left="0" Top="0" Width="240" Height="48">
+        <Margins Left="20" Top="20" Right="20" Bottom="20" />
+      </State>
+    </Part>
+  </Item>
+</Skin>

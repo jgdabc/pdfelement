@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="DocTabControl">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+    <Part id="1" Name="TabButton" TransparentMode="Alpha">
+      <Image Name="DocTabControl_TabButton.svg" />
+      <State Left="0" Top="0" Width="20" Height="20">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+        <Font  Size="9"/>
+      </State>
+      <State Left="20" Top="0" Width="20" Height="20">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+      </State>
+      <State Left="20" Top="0" Width="20" Height="20">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+        <Font Color="#4864FF"  Style="Bold"/>
+      </State>
+      <State Left="40" Top="0" Width="20" Height="20">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+        <Font  Size="9"/>
+      </State>
+    </Part>
+    <Part id="2" Name="Header" TransparentMode="Alpha">
+      <Image Name="DocTabControl_Header.svg" />
+      <State Left="0" Top="0" Width="20" Height="20">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+      </State>
+    </Part>
+    <Part id="3" Name="Gap" TransparentMode="Alpha">
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+    <Part id="4" Name="DropDown" TransparentMode="Alpha">
+      <Image Name="DocTabControl_DropDown.svg" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="17" Height="16">
+        <Margins Left="8" Top="7" Right="8" Bottom="8" />
+      </State>
+      <State Left="17" Top="0" Width="17" Height="16">
+        <Margins Left="8" Top="7" Right="8" Bottom="8" />
+      </State>
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+    <Part id="5" Name="DropDownGlyph" FillMode="center" TransparentMode="Alpha">
+      <Image Name="DocTabControl_DropDownGlyph.svg" />
+      <State Left="0" Top="0" Width="7" Height="6" />
+    </Part>
+    <Part id="6" Name="Close" TransparentMode="Alpha">
+      <Image Name="DocTabControl_CloseBkg.svg" />
+      <State Left="0" Top="0" Width="23" Height="32" />
+      <State Left="25" Top="0" Width="23" Height="32" />
+      <State Left="49" Top="0" Width="23" Height="32" />
+      <State Left="73" Top="0" Width="23" Height="32" />
+    </Part>
+    <Part id="7" Name="CloseGlyph" FillMode="center" TransparentMode="Alpha">
+      <Image Name="DocTabControl_CloseGlyph.svg" />
+      <State Left="0" Top="0" Width="16" Height="16" />
+      <State Left="16" Top="0" Width="16" Height="16" />
+      <State Left="32" Top="0" Width="16" Height="16" />
+      <State Left="48" Top="0" Width="16" Height="16" />
+    </Part>
+    <Part id="8" Name="CloseHotGlyph" FillMode="center" TransparentMode="Alpha">
+      <Image Name="DocTabControl_CloseBtnHot.svg" />
+      <State Left="0" Top="0" Width="16" Height="16" />
+      <State Left="16" Top="0" Width="16" Height="16" />
+      <State Left="32" Top="0" Width="16" Height="16" />
+      <State Left="48" Top="0" Width="16" Height="16" />
+    </Part>
+  </Item>
+</Skin>

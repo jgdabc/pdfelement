@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="PricePageAuthStdBtnBkg">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Image Name="PricePageAuthStdBtnBkg.svg" />
+      <Padding Left="8" Right="8" />
+      <State Left="0" Top="0" Width="88" Height="26">
+        <Margins Left="19" Top="14" Right="19" Bottom="14" />
+        <Font Size="9" Color="0xff744b45" />
+      </State>
+    </Part>
+  </Item>
+</Skin>

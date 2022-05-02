@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="ScrollBar">
+    <Part id="0" Name="HorzBar_Left" Visible="False" TransparentMode="Alpha">
+      <Position Width="-1" Height="18" />
+    </Part>
+    <Part id="1" Name="HorzBar_Button" TransparentMode="Alpha">
+      <Image Name="ScrollbarHorz.svg" />
+      <State Left="0" Top="1" Width="9" Height="18">
+        <Margins Left="4" Top="8" Right="4" Bottom="8" />
+      </State>
+      <State Left="9" Top="1" Width="16" Height="18">
+        <Margins Left="7" Top="8" Right="7" Bottom="8" />
+      </State>
+      <State Left="9" Top="1" Width="16" Height="18">
+        <Margins Left="7" Top="8" Right="7" Bottom="8" />
+      </State>
+    </Part>
+    <Part id="2" Name="HorzBar_Right" Visible="False" TransparentMode="Alpha" />
+    <Part id="3" Name="HorzBar_Back" TransparentMode="Alpha" />
+    <Part id="4" Name="HorzBar_LeftArrow" TransparentMode="Alpha" />
+    <Part id="5" Name="HorzBar_RightArrow" TransparentMode="Alpha" />
+    <Part id="6" Name="HorzBar_ButtonCenter" TransparentMode="Alpha" />
+    <Part id="7" Name="VertBar_Top" Visible="False" TransparentMode="Alpha">
+      <Position Width="18" Height="-1" />
+    </Part>
+    <Part id="8" Name="VertBar_Button" TransparentMode="Alpha">
+      <Image Name="ScrollbarVert.svg" />
+      <State Left="1" Top="0" Width="18" Height="9">
+        <Margins Left="8" Top="4" Right="8" Bottom="4" />
+      </State>
+      <State Left="1" Top="9" Width="18" Height="16">
+        <Margins Left="8" Top="7" Right="8" Bottom="7" />
+      </State>
+      <State Left="1" Top="9" Width="18" Height="16">
+        <Margins Left="8" Top="7" Right="8" Bottom="7" />
+      </State>
+    </Part>
+    <Part id="9" Name="VertBar_Bottom" Visible="False" TransparentMode="Alpha" />
+    <Part id="10" Name="VertBar_Back" TransparentMode="Alpha" />
+    <Part id="11" Name="VertBar_TopArrow" TransparentMode="Alpha" />
+    <Part id="12" Name="VertBar_BottomArrow" TransparentMode="Alpha" />
+    <Part id="13" Name="VertBar_ButtonCenter" TransparentMode="Alpha" />
+  </Item>
+</Skin>

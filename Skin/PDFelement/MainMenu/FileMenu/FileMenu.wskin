@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="FileMenu">
+    <Part id="0" Name="Open" TransparentMode="Alpha">
+      <Image Name="Open.svg" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="1" Name="OpenRecent" TransparentMode="Alpha">
+      <Image Name="OpenRecent.svg" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="2" Name="Create" TransparentMode="Alpha">
+      <Image Name="Create.svg" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="3" Name="Save" TransparentMode="Alpha">
+      <Image Name="Save.svg" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="4" Name="SaveAs" TransparentMode="Alpha">
+      <Image Name="SaveAs.svg" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="5" Name="Share" TransparentMode="Alpha">
+      <Image Name="Share.svg" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="6" Name="ExportTo" TransparentMode="Alpha">
+      <Image Name="ExportTo.svg" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="7" Name="Print" TransparentMode="Alpha">
+      <Image Name="Print.svg" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="8" Name="Properties" TransparentMode="Alpha">
+      <Image Name="Properties.svg" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="9" Name="Preference" TransparentMode="Alpha">
+      <Image Name="Preference.svg" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="10" Name="Dropbox" TransparentMode="Alpha">
+      <Image Name="Dropbox.svg" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="11" Name="GoogleDrive" TransparentMode="Alpha">
+      <Image Name="GoogleDrive.svg" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="12" Name="WondershareCloud" TransparentMode="Alpha">
+      <Image Name="WondershareCloud.svg" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="13" Name="Computer" TransparentMode="Alpha">
+      <Image Name="Computer.svg" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="14" Name="BlankPdf" TransparentMode="Alpha">
+      <Image Name="BlankPdf.svg" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="15" Name="Epub" TransparentMode="Alpha">
+      <Image Name="Epub.svg" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="24" Name="Excel" TransparentMode="Alpha">
+      <Image Name="Excel.svg" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="17" Name="FromFile" TransparentMode="Alpha">
+      <Image Name="FromFile.svg" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="18" Name="FromScanner" TransparentMode="Alpha">
+      <Image Name="FromScanner.svg" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="19" Name="Html" TransparentMode="Alpha">
+      <Image Name="Html.svg" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="20" Name="Image" TransparentMode="Alpha">
+      <Image Name="Image.svg" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="21" Name="PdfA" TransparentMode="Alpha">
+      <Image Name="PdfA.svg" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="22" Name="PowerPoint" TransparentMode="Alpha">
+      <Image Name="PowerPoint.svg" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="23" Name="Rtf" TransparentMode="Alpha">
+      <Image Name="Rtf.svg" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="24" Name="Text" TransparentMode="Alpha">
+      <Image Name="Text.svg" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="25" Name="Word" TransparentMode="Alpha">
+      <Image Name="Word.svg" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="26" Name="OpenCloud" TransparentMode="Alpha">
+      <Image Name="OpenCloud.svg" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="27" Name="Library" TransparentMode="Alpha">
+      <Image Name="Library.svg" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+    </Part>	
+    <Part id="28" Name="Evernote" FillMode="center" TransparentMode="Alpha">
+      <Graphic Name="Evernote.svg" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="29" Name="Hwp" TransparentMode="Alpha">
+      <Image Name="Hwp.svg" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="30" Name="Portfolio" FillMode="center" TransparentMode="Alpha">
+      <Graphic Name="Portfolio.svg" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="31" Name="OneDrive" FillMode="center" TransparentMode="Alpha">
+      <Image Name="OneDrive.svg" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="32" Name="Box" FillMode="center" TransparentMode="Alpha">
+      <Image Name="Box.svg" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="33" Name="RecentFile" FillMode="center" TransparentMode="Alpha">
+      <Graphic Name="RecentFile.svg" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="34" Name="FromClipboard" TransparentMode="Alpha">
+      <Image Name="FromClipboard.svg" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="35" Name="SaveRecent" TransparentMode="Alpha">
+      <Image Name="SaveRecent.svg" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="36" Name="RecentFolder" TransparentMode="Alpha">
+      <Image Name="RecentFolder.svg" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+</Skin>

@@ -1,0 +1,26 @@
+<svg width="64" height="32" viewBox="0 0 64 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0)">
+<path d="M18.5 3.5H3.5V28.5H24.5V9.5L18.5 3.5Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M3 3H18.7071L25.7071 10H18V4H4V28H24V24H25V29H3V3ZM19 4.70711L23.2929 9H19V4.70711Z" fill="#5C6182"/>
+<rect x="8" y="12" width="13" height="2" fill="#BCBDD1"/>
+<rect x="8" y="15" width="13" height="2" fill="#BCBDD1"/>
+<rect x="8" y="18" width="13" height="7" fill="#BCBDD1"/>
+<path d="M19.6872 24.8247L14.9295 26.4106L16.5154 21.6529L27.0882 11.0801L30.26 14.2519L19.6872 24.8247Z" fill="#4864FF"/>
+</g>
+<g opacity="0.4" clip-path="url(#clip1)">
+<path d="M50.5 3.5H35.5V28.5H56.5V9.5L50.5 3.5Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M35 3H50.7071L57.7071 10H50V4H36V28H56V24H57V29H35V3ZM51 4.70711L55.2929 9H51V4.70711Z" fill="#5C6182"/>
+<rect x="40" y="12" width="13" height="2" fill="#BCBDD1"/>
+<rect x="40" y="15" width="13" height="2" fill="#BCBDD1"/>
+<rect x="40" y="18" width="13" height="7" fill="#BCBDD1"/>
+<path d="M51.6872 24.8247L46.9295 26.4106L48.5154 21.6529L59.0882 11.0801L62.26 14.2519L51.6872 24.8247Z" fill="#4864FF"/>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="32" height="32" fill="white"/>
+</clipPath>
+<clipPath id="clip1">
+<rect width="32" height="32" fill="white" transform="translate(32)"/>
+</clipPath>
+</defs>
+</svg>

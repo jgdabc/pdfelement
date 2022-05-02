@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="QatButton">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Image Name="QatButton.svg" />
+      <State Left="1" Top="1" Width="21" Height="21" />
+      <State Left="25" Top="1" Width="21" Height="21" />
+      <State Left="49" Top="1" Width="21" Height="21" />
+      <State Left="1" Top="1" Width="21" Height="21" />
+    </Part>
+  </Item>
+</Skin>

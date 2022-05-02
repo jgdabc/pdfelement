@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="OcrMiniProgress">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Image Name="OcrMiniProgress.svg" />
+      <State Left="0" Top="0" Width="24" Height="24">
+	    <Margins Left="1" Top="1" Right="1" Bottom="1" />
+      </State>
+      <State Left="24" Top="0" Width="24" Height="24">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+      </State>
+    </Part>
+  </Item>
+</Skin>

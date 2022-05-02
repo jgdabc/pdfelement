@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="UserCenterUpgradeEnterGly">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Image Name="UserCenterUpgradeEnterGly.svg" />
+      <State Left="0" Top="5" Width="212" Height="49">
+        <Margins Left="116" Right="82" />
+      </State>
+    </Part>
+  </Item>
+</Skin>

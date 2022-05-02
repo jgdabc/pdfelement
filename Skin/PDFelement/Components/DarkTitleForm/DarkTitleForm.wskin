@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="DarkTitleForm">
+    <Part id="0" Name="Form" Style="1" TransparentMode="Alpha">
+      <Image Name="DarkTitleForm.svg" />
+      <Region type="Auto" />
+      <Margins Left="64" Top="64" Right="64" Bottom="64" Caption="32" />
+      <Padding Top="-1" />
+      <State Left="0" Top="0" Width="160" Height="160">
+        <Margins Left="71" Top="71" Right="71" Bottom="71" />
+      </State>
+      <State Left="160" Top="0" Width="160" Height="160">
+        <Margins Left="71" Top="71" Right="71" Bottom="71" />
+      </State>
+    </Part>
+    <Part id="1" Name="Caption" Alignment="Center">
+      <Position RelPos="Top" X="70" Y="64" X2="70" Height="32" />
+      <Font Size="9.5" Color="0xff482621" Style="Bold" />
+      <State Left="0" Top="0" Width="0" Height="0">
+        <Font Color="0xff482621" />
+      </State>
+      <State Left="0" Top="0" Width="0" Height="0">
+        <Font Color="0xff482621" />
+      </State>
+    </Part>
+    <Part id="2" Name="Icon">
+      <Position RelPos="TopLeft" X="71" Y="71" Width="16" Height="16" />
+    </Part>
+    <Part id="3" Name="RestoreButton" TransparentMode="Alpha">
+      <Image Name="SkinFormRestoreButton.svg" />
+      <Position RelPos="TopRight" X="96" Y="64" Width="32" Height="32" />
+      <State Left="0" Top="0" Width="32" Height="32" />
+      <State Left="32" Top="0" Width="32" Height="32" />
+      <State Left="64" Top="0" Width="32" Height="32" />
+      <State Left="96" Top="0" Width="32" Height="32" />
+    </Part>
+    <Part id="4" Name="MinButton" TransparentMode="Alpha">
+      <Image Name="SkinFormMinButton.svg" />
+      <Position RelPos="TopRight" X="128" Y="64" Width="32" Height="32" />
+      <State Left="0" Top="0" Width="32" Height="32" />
+      <State Left="32" Top="0" Width="32" Height="32" />
+      <State Left="64" Top="0" Width="32" Height="32" />
+      <State Left="96" Top="0" Width="32" Height="32" />
+    </Part>
+    <Part id="5" Name="MaxButton" TransparentMode="Alpha">
+      <Image Name="SkinFormMaxButton.svg" />
+      <Position RelPos="TopRight" X="96" Y="64" Width="32" Height="32" />
+      <State Left="0" Top="0" Width="32" Height="32" />
+      <State Left="32" Top="0" Width="32" Height="32" />
+      <State Left="64" Top="0" Width="32" Height="32" />
+      <State Left="96" Top="0" Width="32" Height="32" />
+    </Part>
+    <Part id="6" Name="CloseButton" TransparentMode="Alpha">
+      <Image Name="SkinFormCloseButton.svg" />
+      <Position RelPos="TopRight" X="64" Y="64" Width="32" Height="32" />
+      <State Left="0" Top="0" Width="32" Height="32" />
+      <State Left="33" Top="0" Width="32" Height="32" />
+      <State Left="66" Top="0" Width="32" Height="32" />
+      <State Left="99" Top="0" Width="32" Height="32" />
+    </Part>
+  </Item>
+</Skin>

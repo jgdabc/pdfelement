@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="TabControl">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Image Name="TabControl_Frame.svg" />
+      <State Left="0" Top="0" Width="300" Height="2">
+        <Margins Left="33" Top="1" Right="32" />
+      </State>
+    </Part>
+    <Part id="1" Name="Header" TransparentMode="Alpha">
+      <Image Name="TabControl_Frame_Header.svg" />
+      <State Left="1" Top="0" Width="12" Height="2" />
+      <State Left="0" Top="0" Width="71" Height="5">
+        <Margins Left="1" Right="1" Bottom="3" />
+        <Font Color="0xffff6448" />
+      </State>
+      <State Left="0" Top="0" Width="71" Height="5">
+        <Margins Bottom="3" />
+        <Font Color="0xffff6448" />
+      </State>
+      <State Left="18" Top="0" Width="43" Height="2" />
+    </Part>
+    <Part id="2" Name="HeaderBkgnd" TransparentMode="Alpha">
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+  </Item>
+</Skin>

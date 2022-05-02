@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Skin>
+  <Item Name="PdfLineEndStyleStartSlash">
+    <Part id="0" Name="frame" TransparentMode="Alpha">
+      <Graphic Name="PdfLineEndStyleStartSlash.svg" />
+      <State Left="8" Top="0" Width="80" Height="20" />
+    </Part>
+  </Item>
+</Skin>

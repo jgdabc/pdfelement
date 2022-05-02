@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="HomePagePanelBkg">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Image Name="HomePagePanelBkg.svg" />
+      <Extension Left="18" Top="18" Right="18" Bottom="18" />
+      <State Left="0" Top="0" Width="64" Height="64">
+        <Margins Left="20" Top="20" Right="20" Bottom="20" />
+      </State>
+      <State Left="0" Top="0" Width="64" Height="64">
+        <Margins Left="20" Top="20" Right="20" Bottom="20" />
+      </State>
+      <State Left="0" Top="0" Width="64" Height="64">
+        <Margins Left="20" Top="20" Right="20" Bottom="20" />
+      </State>
+      <State Left="0" Top="0" Width="64" Height="64">
+        <Margins Left="20" Top="20" Right="20" Bottom="20" />
+      </State>
+    </Part>
+  </Item>
+</Skin>

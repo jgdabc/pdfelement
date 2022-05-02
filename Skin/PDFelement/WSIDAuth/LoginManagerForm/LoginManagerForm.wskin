@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="LoginManagerForm">
+    <Part id="0" Name="Form" Style="1" TransparentMode="Alpha">
+      <Image Name="LoginManagerForm.svg" />
+      <Region type="Auto" />
+      <Margins Left="64" Top="64" Right="64" Bottom="64" PseudoCaption="60" />
+      <Padding Top="-1" />
+      <State Left="0" Top="0" Width="160" Height="160">
+        <Margins Left="71" Top="71" Right="71" Bottom="71" />
+      </State>
+      <State Left="160" Top="0" Width="160" Height="160">
+        <Margins Left="71" Top="71" Right="71" Bottom="71" />
+      </State>
+    </Part>
+    <Part id="1" Name="Caption" Visible="False" Alignment="Center">
+      <Position RelPos="Top" X="70" Y="64" X2="70" Height="32" />
+      <Font Size="10.5" Color="0xff482621" />
+      <State Left="0" Top="0" Width="0" Height="0">
+        <Font Color="0xff482621" />
+      </State>
+      <State Left="0" Top="0" Width="0" Height="0">
+        <Font Color="0xff482621" />
+      </State>
+    </Part>
+    <Part id="2" Name="Icon">
+      <Position RelPos="TopLeft" X="71" Y="71" Width="16" Height="16" />
+    </Part>
+    <Part id="6" Name="CloseButton" TransparentMode="Alpha">
+      <Image Name="SkinFormCloseButton.svg" />
+      <Position RelPos="TopRight" X="64" Y="64" Width="32" Height="32" />
+      <State Left="0" Top="0" Width="32" Height="32" />
+      <State Left="32" Top="0" Width="32" Height="32" />
+      <State Left="64" Top="0" Width="32" Height="32" />
+      <State Left="96" Top="0" Width="32" Height="32" />
+    </Part>
+  </Item>
+</Skin>

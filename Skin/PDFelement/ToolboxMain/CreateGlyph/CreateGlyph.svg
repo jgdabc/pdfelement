@@ -1,0 +1,14 @@
+<svg width="48" height="24" viewBox="0 0 48 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="8" y="13" width="7" height="1" fill="#212648"/>
+<rect x="12" y="10" width="7" height="1" transform="rotate(90 12 10)" fill="#212648"/>
+<path d="M4.5 3.5H14.7929L19.5 8.20711V20.5H4.5V3.5Z" stroke="#212648"/>
+<path d="M14 9H20V8H15V3H14V9Z" fill="#212648"/>
+<rect x="32.25" y="13.25" width="6.5" height="0.5" fill="white" stroke="white" stroke-width="0.5"/>
+<rect x="35.75" y="10.25" width="6.5" height="0.5" transform="rotate(90 35.75 10.25)" fill="white" stroke="white" stroke-width="0.5"/>
+<path d="M28.5 3.5H38.7929L43.5 8.20711V20.5H28.5V3.5Z" stroke="white"/>
+<mask id="path-8-inside-1" fill="white">
+<path d="M38 9H44V8H39V3H38V9Z"/>
+</mask>
+<path d="M38 9H44V8H39V3H38V9Z" fill="white"/>
+<path d="M44 9V10H45V9H44ZM38 9H37V10H38V9ZM38 3V2H37V3H38ZM44 8H45V7H44V8ZM39 8H38V9H39V8ZM39 3H40V2H39V3ZM44 8H38V10H44V8ZM39 9V3H37V9H39ZM45 9V8H43V9H45ZM44 7H39V9H44V7ZM40 8V3H38V8H40ZM39 2H38V4H39V2Z" fill="white" mask="url(#path-8-inside-1)"/>
+</svg>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="UninstallReasonPage">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Image Name="UninstallReasonPage_Default.svg" />
+      <State Left="0" Top="0" Width="272" Height="480">
+        <Margins Top="13" Bottom="272" />
+      </State>
+    </Part>
+
+    <Part id="0" Name="Sweat" FillMode="stretch" TransparentMode="Alpha">
+      <Image Name="UninstallReasonPage_Sweat.png" />
+      <State Left="0" Top="0" Width="272" Height="480">
+        <Margins Top="13" Bottom="272" />
+      </State>
+    </Part>
+
+    <Part id="0" Name="Goodbye" FillMode="stretch" TransparentMode="Alpha">
+      <Image Name="UninstallReasonPage_Goodbye.png" />
+      <State Left="0" Top="0" Width="272" Height="480">
+        <Margins Top="13" Bottom="272" />
+      </State>
+    </Part>
+  </Item>
+
+</Skin>

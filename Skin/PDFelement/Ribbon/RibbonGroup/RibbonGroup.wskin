@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="RibbonGroup">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Image Name="RibbonGroup.svg" />
+      <State Left="0" Top="0" Width="2" Height="40">
+        <Margins Top="8" Right="1" Bottom="8" />
+      </State>
+      <State Left="0" Top="0" Width="2" Height="40">
+        <Margins Top="8" Right="1" Bottom="8" />
+      </State>
+      <State Left="0" Top="0" Width="2" Height="40">
+        <Margins Top="8" Right="1" Bottom="8" />
+      </State>
+      <State Left="0" Top="0" Width="2" Height="40">
+        <Margins Top="8" Right="1" Bottom="8" />
+      </State>
+    </Part>
+    <Part id="1" Name="Collapse" TransparentMode="Alpha">
+      <Image Name="GBBKG_Collapse.svg" />
+      <State Left="0" Top="0" Width="2" Height="10">
+        <Margins Right="1" />
+      </State>
+      <State Left="0" Top="0" Width="2" Height="10">
+        <Margins Right="1" />
+      </State>
+      <State Left="0" Top="0" Width="2" Height="10">
+        <Margins Right="1" />
+      </State>
+      <State Left="0" Top="0" Width="2" Height="10">
+        <Margins Right="1" />
+      </State>
+    </Part>
+    <Part id="2" Name="Glyph" TransparentMode="Alpha">
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+    <Part id="3" Name="Arrow" TransparentMode="Alpha">
+      <Image Name="GBBKG_Arrow.svg" />
+      <State Left="0" Top="0" Width="5" Height="3" />
+      <State Left="0" Top="0" Width="5" Height="3" />
+      <State Left="0" Top="0" Width="5" Height="3" />
+      <State Left="6" Top="0" Width="5" Height="3" />
+    </Part>
+    <Part id="4" Name="PopUPBKG" TransparentMode="Alpha">
+      <Image Name="GBBKG_PopUPBKG.svg" />
+      <State Left="0" Top="0" Width="17" Height="20" />
+      <State Left="17" Top="0" Width="17" Height="20" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="34" Top="0" Width="17" Height="20" />
+    </Part>
+  </Item>
+</Skin>

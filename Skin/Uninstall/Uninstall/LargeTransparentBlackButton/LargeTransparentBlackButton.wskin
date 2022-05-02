@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="LargeTransparentBlackButton">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Image Name="LargeTransparentBlackButton.svg" />
+      <Font Size="10.5" Style="Bold" />
+      <Padding Left="8" Right="8" />
+      <State Left="0" Top="0" Width="128" Height="40">
+        <Margins Left="21" Top="2" Right="21" Bottom="2" />
+        <Font Color="clBlack" />
+      </State>
+      <State Left="128" Top="0" Width="128" Height="40">
+        <Margins Left="21" Top="2" Right="21" Bottom="2" />
+        <Font Color="clBlack" />
+      </State>
+      <State Left="256" Top="0" Width="128" Height="40">
+        <Margins Left="21" Top="2" Right="21" Bottom="2" />
+        <Font Color="clBlack" />
+      </State>
+      <State Left="384" Top="0" Width="128" Height="40">
+        <Margins Left="21" Top="2" Right="21" Bottom="2" />
+        <Font Color="0xffa1a1a1" />
+      </State>
+    </Part>
+  </Item>
+</Skin>

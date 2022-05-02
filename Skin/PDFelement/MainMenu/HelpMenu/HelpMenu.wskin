@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="HelpMenu">
+    <Part id="0" Name="Feedback" TransparentMode="Alpha">
+      <Image Name="Feedback.svg" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="1" Name="UserGuide" TransparentMode="Alpha">
+      <Image Name="UserGuide.svg" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="2" Name="SupportCenter" TransparentMode="Alpha">
+      <Image Name="SupportCenter.svg" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="3" Name="Facebook" TransparentMode="Alpha">
+      <Image Name="Facebook.svg" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="4" Name="Youtube" TransparentMode="Alpha">
+      <Image Name="Youtube.svg" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="5" Name="CheckForUpdate" TransparentMode="Alpha">
+      <Image Name="CheckForUpdate.svg" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="6" Name="About" TransparentMode="Alpha">
+      <Image Name="About.svg" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="7" Name="Weibo" TransparentMode="Alpha">
+      <Image Name="Weibo.svg" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="8" Name="Bilibili" TransparentMode="Alpha">
+      <Image Name="Bilibili.svg" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+</Skin>

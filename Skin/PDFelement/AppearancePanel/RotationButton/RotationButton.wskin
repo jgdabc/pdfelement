@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="RotationButton">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Image Name="RotationButton.svg" />
+      <Font Style="Bold" />
+      <State Left="0" Top="0" Width="40" Height="32">
+        <Margins Left="15" Top="15" Right="15" Bottom="15" />
+      </State>
+      <State Left="40" Top="0" Width="40" Height="32">
+        <Margins Left="15" Top="15" Right="15" Bottom="15" />
+      </State>
+      <State Left="80" Top="0" Width="40" Height="32">
+        <Margins Left="15" Top="15" Right="15" Bottom="15" />
+        <Font Color="clWhite" />
+      </State>
+      <State Left="120" Top="0" Width="40" Height="32">
+        <Margins Left="15" Top="15" Right="15" Bottom="15" />
+        <Font Color="0x4d482621" />
+      </State>
+    </Part>
+  </Item>
+</Skin>

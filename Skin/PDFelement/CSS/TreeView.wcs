@@ -1,0 +1,12 @@
+<StyleSheet>
+  <Font>Segoe UI, 10.5pt</Font>
+  <BackColor>Transparent</BackColor>
+  <HighlightForeColor>#4D4D4D</HighlightForeColor>
+  <HighlightBackColor>#DEDEDE</HighlightBackColor>
+  <HighlightNoFocusForeColor>#4D4D4D</HighlightNoFocusForeColor>
+  <HighlightNoFocusBackColor>#DEDEDE</HighlightNoFocusBackColor>
+  <HotlightForeColor>#4D4D4D</HotlightForeColor>
+  <HotlightBackColor>#DEDEDE</HotlightBackColor>
+  <LineColor>#919191</LineColor>
+  <PlusMinusSkin>PlusMinusArrowGlyph</PlusMinusSkin>
+</StyleSheet>

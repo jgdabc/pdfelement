@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="SpinEdit">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Image Name="SpinEdit_Frame.svg" />
+      <Margins Left="4" Top="4" Right="4" Bottom="4" />
+      <State Left="0" Top="0" Width="32" Height="32">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="32" Top="0" Width="32" Height="32">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="64" Top="0" Width="32" Height="32">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="96" Top="0" Width="32" Height="32">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+        <Font Color="0xffc8bdbc" />
+      </State>
+    </Part>
+    <Part id="1" Name="UpButton" TransparentMode="Alpha">
+      <Image Name="SpinEdit_Button.svg" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="10" Top="0" Width="10" Height="10">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+      </State>
+      <State Left="20" Top="0" Width="10" Height="10">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+      </State>
+    </Part>
+    <Part id="2" Name="UpGlyph" TransparentMode="Alpha">
+      <Image Name="SpinEdit_UpGlyph.svg" />
+      <State Left="0" Top="0" Width="8" Height="8" />
+      <State Left="8" Top="0" Width="8" Height="8" />
+      <State Left="8" Top="0" Width="8" Height="8" />
+      <State Left="8" Top="0" Width="8" Height="8" />
+    </Part>
+    <Part id="3" Name="DownButton" TransparentMode="Alpha">
+      <Image Name="SpinEdit_Button.svg" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="10" Top="0" Width="10" Height="10">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+      </State>
+      <State Left="20" Top="0" Width="10" Height="10">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+      </State>
+    </Part>
+    <Part id="4" Name="DownGlyph" TransparentMode="Alpha">
+      <Image Name="SpinEdit_DownGlyph.svg" />
+      <State Left="0" Top="0" Width="8" Height="8" />
+      <State Left="8" Top="0" Width="8" Height="8" />
+      <State Left="8" Top="0" Width="8" Height="8" />
+      <State Left="8" Top="0" Width="8" Height="8" />
+    </Part>
+  </Item>
+</Skin>

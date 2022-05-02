@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="ImgDragMouseHover">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Image Name="ImgDragMouseHover.svg" />
+      <State Left="0" Top="0" Width="592" Height="304" />
+      <State Left="592" Top="0" Width="592" Height="304" />
+      <State Left="592" Top="0" Width="592" Height="304" />
+    </Part>
+  </Item>
+</Skin>

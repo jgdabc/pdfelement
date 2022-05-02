@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="BottomSlideButton">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Image Name="BottomSlideButton.svg" />
+      <State Left="0" Top="0" Width="8" Height="4">
+        <Margins Left="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="0" Top="0" Width="8" Height="4">
+        <Margins Left="2" Right="2" Bottom="2" />
+        <Font Color="0xffff6448" Style="Bold" />
+      </State>
+      <State Left="8" Top="0" Width="8" Height="4">
+        <Margins Left="2" Right="2" Bottom="2" />
+        <Font Color="0xffff6448" Style="Bold" />
+      </State>
+      <State Left="0" Top="0" Width="8" Height="4">
+        <Margins Left="2" Right="2" Bottom="2" />
+        <Font Color="0x4d482621" />
+      </State>
+    </Part>
+  </Item>
+</Skin>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Skin>
+  <Item Name="BorderStyleCloud1">
+    <Part id="0" Name="frame" TransparentMode="Alpha">
+      <Graphic Name="BorderStyleCloud1.svg" />
+      <State Left="0" Top="0" Width="160" Height="20" />
+    </Part>
+  </Item>
+</Skin>

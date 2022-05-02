@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="FormWhiteIcon">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Image Name="FormWhiteIcon.svg" />
+      <State Left="0" Top="0" Width="123" Height="32">
+        <Margins Left="123" Top="0" Right="0" Bottom="0" />
+      </State>
+    </Part>
+    <Part id="1" Name="Chs" FillMode="stretch" TransparentMode="Alpha">
+      <Image Name="FormWhiteIconChs.svg" />
+      <State Left="0" Top="0" Width="94" Height="32">
+        <Margins Left="94" Top="0" Right="0" Bottom="0" />
+      </State>
+    </Part>
+  </Item>
+</Skin>

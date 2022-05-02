@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageResource Id="CHT" Name="Traditional Chinese" LocaleName="繁体中文" Version="1.0" LangID="0x0404" CodePage="950">
+  <Default>
+    <Font Name="Microsoft JhengHei" Size="9" />
+    <FontMapping>
+      <Item From="Open Sans" To="Microsoft JhengHei" FailTo="Tahoma" />
+      <Item From="Open Sans Semibold" To="Microsoft JhengHei" FailTo="Tahoma" />
+      <Item From="Inter" To="Microsoft JhengHei" FailTo="Tahoma" />
+      <Item From="Tahoma" To="Microsoft JhengHei" FailTo="Tahoma" />
+      <Item From="Arial" To="Microsoft JhengHei" FailTo="Tahoma" />
+      <Item From="Segoe UI" To="Microsoft JhengHei" FailTo="Tahoma" />
+      <Item From="Segoe UI Semibold" To="Microsoft JhengHei" FailTo="Tahoma" />
+      <Item From="Helvetica" To="Microsoft JhengHei" Failto="Tahoma" />
+    </FontMapping>
+  </Default>
+  <Strings>
+    <Info_RemainTime>剩餘{0}秒</Info_RemainTime>
+    <Info_MoreApp>您或許會喜歡這些</Info_MoreApp>
+  </Strings>
+  <Forms>
+    <UninstallForm Text="卸載" />
+    <UninstallMakeSureForm>
+      <lblUninstallMakeSure Text="確定要卸載萬興PDF專家嗎？" />
+      <cbRemoveResource Text="Remove all the effect resource files" />
+      <btnRemove Text="刪除" />
+      <btnCancel Text="取消卸載" />
+    </UninstallMakeSureForm>
+    <UninstallProductMainPage>
+      <btnAll Text="所有產品" />
+      <btnCreativity Text="數字創意" />
+      <btnProductivity Text="辦公效率" />
+      <btnUtility Text="數據管理" />
+    </UninstallProductMainPage>
+    <UninstallReasonDefaultPage>
+      <lblMessage Text="您好，&#xA;&#xA;PDFelement隸屬於萬興科技，我們致力於創造好用、易用、符合廣大用戶期望的軟體。這是一份簡單的問卷調查，以方便我們改善產品。&#xA;&#xA;感謝您的反饋，希望再次見到你。&#xA;&#xA;謝謝！" />
+    </UninstallReasonDefaultPage>
+    <UninstallReasonMainPage>
+      <lblTitle Text="您能告訴我們卸載的原因嗎？" />
+      <rbCrash Text="軟體經常崩潰或者卡頓。" />
+      <rbFixSoftware Text="軟體修復" />
+      <rbOther Text="其他" />
+      <txtOther PlaceHolderText="請描述你遇到的問題" />
+      <btnCancel Text="取消" />
+      <btnContinue Text="繼續卸載" />
+    </UninstallReasonMainPage>
+    <UninstallReasonOtherPage>
+      <lblMessage Text="感謝你的反饋，我們下次再見！" />
+    </UninstallReasonOtherPage>
+    <UninstallUpdateLatestVersionForm>
+      <lblLatestVersion Text="您已經是最新版本！" />
+      <btnOK Text="好的" />
+    </UninstallUpdateLatestVersionForm>
+    <UninstallRepairProgressPage>
+      <lblWait Text="修復中，請稍等..." />
+      <btnCancel Text="取消" />
+    </UninstallRepairProgressPage>
+    <UninstallRepairSuccessfulPage>
+      <lblCompleted Text="修復完成" />
+      <btnExecute Text="啟動" />
+    </UninstallRepairSuccessfulPage>
+    <UninstallUpdateProgressPage>
+      <lblWait Text="升級中，請稍等..." />
+      <btnCancel Text="取消" />
+    </UninstallUpdateProgressPage>
+    <UninstallUpdateSuccessfulPage>
+      <btnExecute Text="啟動" />
+      <lblCompleted Text="升級完成" />
+      <lblNewVersion Text="新版本更穩定更流暢！" />
+    </UninstallUpdateSuccessfulPage>
+    <UninstallWorkeFailedPage>
+      <lblFailed Text="升級失敗" />
+      <lblTry Text="您的卸载出现错误，请尝试重新卸载。" />
+      <btnClose Text="關閉" />
+    </UninstallWorkeFailedPage>
+    <UninstallWorkeMainPage>
+      <lblMoreApp Text="您或許會喜歡這些" />
+      <btnMoreProduct Text="更多產品" />
+    </UninstallWorkeMainPage>
+    <UninstallWorkeProgressPage>
+      <lblThanks Text="感謝您的反饋！卸載中..." />
+    </UninstallWorkeProgressPage>
+    <UninstallWorkeSuccessfulPage>
+      <lblSuccessful Text="卸載成功" />
+      <txtContact PlaceHolderText="電子郵件" />
+      <lblUpdate Text="填寫電子郵件獲取產品最新消息" />
+      <lblContactError Text="請輸入正確的電子郵件" />
+      <btnDone Text="完成" />
+    </UninstallWorkeSuccessfulPage>
+    <UpdateFailedForm>
+      <lblMessage Text="升級失敗" />
+      <btnOK Text="好的" />
+    </UpdateFailedForm>
+    <UpdateLatestVersionForm>
+      <lblLatestVersion Text="您已經是最新版本！" />
+      <btnOK Text="好的" />
+    </UpdateLatestVersionForm>
+    <CloseMainAppForm>
+      <lblMessage Text="Wondershare PDFelement 正在運行中，請關閉它再試。" />
+      <btnRetry Text="重試" />
+      <btnCancel Text="取消" />
+    </CloseMainAppForm>
+    <RepairFailedForm>
+      <lblMessage Text="修復失敗" />
+      <btnOK Text="好的" />
+    </RepairFailedForm>
+  </Forms>
+</LanguageResource>

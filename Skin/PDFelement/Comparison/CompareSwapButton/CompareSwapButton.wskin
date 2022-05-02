@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="CompareSwapButton">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Image Name="CompareSwapButton.svg" />
+      <State Left="0" Top="0" Width="30" Height="30" />
+      <State Left="30" Top="0" Width="30" Height="30" />
+      <State Left="60" Top="0" Width="30" Height="30" />
+      <State Left="90" Top="0" Width="30" Height="30" />
+    </Part>
+  </Item>
+</Skin>

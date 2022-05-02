@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="PricePageStdTabBtn">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Image Name="PricePageStdTabBtn.svg" />
+      <Font Size="9" Style="Bold" />
+      <Padding Left="8" Right="8" />
+      <State Left="308" Top="0" Width="309" Height="40">
+        <Margins Left="17" Top="6" Right="6" Bottom="5" />
+        <Font Size="9.75" Color="0xff82615c" />
+      </State>
+      <State Left="308" Top="0" Width="309" Height="40">
+        <Margins Left="36" Top="6" Right="6" Bottom="5" />
+        <Font Size="9.75" Color="0xff82615c" />
+      </State>
+      <State Left="0" Top="0" Width="309" Height="40">
+        <Margins Left="59" Top="6" Right="35" Bottom="5" />
+        <Font Size="12" Color="0xff82615c" />
+      </State>
+      <State Left="309" Top="0" Width="309" Height="40">
+        <Margins Left="39" Top="6" Right="5" Bottom="5" />
+        <Font Size="9.75" Color="0xff82615c" />
+      </State>
+    </Part>
+  </Item>
+</Skin>

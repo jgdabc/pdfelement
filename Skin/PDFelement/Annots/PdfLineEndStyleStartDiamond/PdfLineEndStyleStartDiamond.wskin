@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="PdfLineEndStyleStartDiamond">
+    <Part id="0" Name="frame" TransparentMode="Alpha">
+      <Image Name="PdfLineEndStyleStartDiamond.svg" />
+      <State Left="7" Top="0" Width="80" Height="20" />
+    </Part>
+  </Item>
+</Skin>

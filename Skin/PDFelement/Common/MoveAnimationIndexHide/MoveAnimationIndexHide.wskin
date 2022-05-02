@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="MoveAnimationIndexHide">
+    <Part id="0" Name="Frame" FillMode="center" TransparentMode="Alpha">
+      <Image Name="MoveAnimationIndexHide.svg" />
+      <State Left="0" Top="0" Width="9" Height="9" />
+    </Part>
+  </Item>
+</Skin>

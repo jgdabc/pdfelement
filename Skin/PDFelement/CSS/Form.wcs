@@ -1,0 +1,12 @@
+<StyleSheet>
+  <ForeColor>#212648</ForeColor>
+  <BackColor>#FFFFFF</BackColor>
+  <Font>Segoe UI, 9pt</Font>
+  <TextRenderingHint>ClearTypeGridFit</TextRenderingHint>
+  <AppearTransition>
+    <AnimateType>AeroShake</AnimateType>
+  </AppearTransition>
+  <ExitTransition>
+    <AnimateType>AeroShake</AnimateType>
+  </ExitTransition>
+</StyleSheet>

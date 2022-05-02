@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="RibbonButton">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Image Name="RibbonButton.svg" />
+      <Padding Left="5" Right="5" />
+      <State Left="0" Top="0" Width="15" Height="15" />
+      <State Left="17" Top="0" Width="15" Height="15" />
+      <State Left="33" Top="0" Width="15" Height="15" />
+      <State Left="49" Top="0" Width="15" Height="15">
+        <Font Color="0xffcec2c0" />
+      </State>
+    </Part>
+  </Item>
+</Skin>

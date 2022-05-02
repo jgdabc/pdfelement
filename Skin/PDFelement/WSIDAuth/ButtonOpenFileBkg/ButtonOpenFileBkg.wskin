@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="ButtonOpenFileBkg">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Image Name="ButtonOpenFileBkg.svg" />
+      <Font Color="clWhite" />
+      <State Left="0" Top="0" Width="40" Height="28">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="40" Top="0" Width="40" Height="28">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="80" Top="0" Width="40" Height="28">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="120" Top="0" Width="40" Height="28">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+    </Part>
+  </Item>
+</Skin>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="PortfolioSplitterBkg">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Image Name="PortfolioSplitterBkg.svg" />
+      <State Left="0" Top="0" Width="7" Height="10">
+      </State>
+    </Part>
+  </Item>
+</Skin>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="RibbonDropDownArrow">
+    <Part id="0" Name="Frame" FillMode="center" TransparentMode="Alpha">
+      <Image Name="RibbonDropDownArrow.svg" />
+      <State Left="0" Top="0" Width="8" Height="6" />
+      <State Left="0" Top="0" Width="8" Height="6" />
+      <State Left="0" Top="0" Width="8" Height="6" />
+      <State Left="0" Top="0" Width="8" Height="6">
+        <Image Name="RibbonDropDownArrowHot.svg" />
+      </State>
+    </Part>
+  </Item>
+</Skin>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="PencilFloatingPnlSwitch">
+    <Part id="0" Name="Checked" FillMode="center" TransparentMode="Alpha">
+      <Image Name="PencilFloatingPnlSwitch_On.svg" />
+      <State Left="0" Top="0" Width="40" Height="20" />
+      <State Left="0" Top="0" Width="40" Height="20" />
+      <State Left="0" Top="0" Width="40" Height="20" />
+      <State Left="0" Top="0" Width="40" Height="20" />
+    </Part>
+    <Part id="1" Name="UnChecked" FillMode="center" TransparentMode="Alpha">
+      <Image Name="PencilFloatingPnlSwitch_Close.svg" />
+      <State Left="0" Top="0" Width="40" Height="20" />
+      <State Left="0" Top="0" Width="40" Height="20" />
+      <State Left="0" Top="0" Width="40" Height="20" />
+      <State Left="0" Top="0" Width="40" Height="20" />
+    </Part>
+  </Item>
+</Skin>

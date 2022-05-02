@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="AeroMainForm">
+    <Part id="0" Name="Form" Style="2" TransparentMode="Alpha">
+      <Image Name="MainFormBkg.svg" />
+      <Margins PseudoCaption="32" />
+      <Padding Top="32" />
+      <State Left="150" Top="30" Width="1" Height="33">
+        <Color>clWhite</Color>
+        <FrameColor>85,100,198</FrameColor>
+        <Margins Top="30" />
+      </State>
+      <State Left="50" Top="30" Width="1" Height="33">
+        <Color>clWhite</Color>
+        <FrameColor>43,56,153</FrameColor>
+        <Margins Top="30" />
+      </State>
+    </Part>
+    <Part id="1" Name="Caption">
+      <Position RelPos="TopLeft" X="30" Y="0" X2="93" Height="32" />
+      <Font Size="10" Color="clWhite" />
+      <State Left="0" Top="0" Width="0" Height="0">
+        <Font Color="clSilver" />
+      </State>
+      <State Left="0" Top="0" Width="0" Height="0">
+        <Font Color="clWhite" />
+      </State>
+    </Part>
+    <Part id="2" Name="Icon" FillMode="center" TransparentMode="Alpha">
+      <Image Name="MainIcon.svg" />
+      <Position RelPos="TopLeft" X="4" Y="4" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="3" Name="RestoreButton" TransparentMode="Alpha">
+      <Image Name="MainFormRestoreButton.svg" />
+      <Position RelPos="TopRight" X="40" Y="0" Width="40" Height="32" />
+      <State Left="0" Top="0" Width="40" Height="32" />
+      <State Left="40" Top="0" Width="40" Height="32" />
+      <State Left="80" Top="0" Width="40" Height="32" />
+      <State Left="0" Top="0" Width="40" Height="32" />
+    </Part>
+    <Part id="4" Name="MinButton" TransparentMode="Alpha">
+      <Image Name="MainFormMinButton.svg" />
+      <Position RelPos="TopRight" X="80" Width="40" Height="32" />
+      <State Left="0" Top="0" Width="40" Height="32" />
+      <State Left="40" Top="0" Width="40" Height="32" />
+      <State Left="80" Top="0" Width="40" Height="32" />
+      <State Left="0" Top="0" Width="40" Height="32" />
+    </Part>
+    <Part id="5" Name="MaxButton" TransparentMode="Alpha">
+      <Image Name="MainFormMaxButton.svg" />
+      <Position RelPos="TopRight" X="40" Width="40" Height="32" />
+      <State Left="0" Top="0" Width="40" Height="32" />
+      <State Left="40" Top="0" Width="40" Height="32" />
+      <State Left="80" Top="0" Width="40" Height="32" />
+      <State Left="0" Top="0" Width="40" Height="32" />
+    </Part>
+    <Part id="6" Name="CloseButton" TransparentMode="Alpha">
+      <Image Name="MainFormCloseButton.svg" />
+      <Position RelPos="TopRight" Width="40" Height="32" />
+      <State Left="0" Top="0" Width="40" Height="32" />
+      <State Left="40" Top="0" Width="40" Height="32" />
+      <State Left="80" Top="0" Width="40" Height="32" />
+      <State Left="0" Top="0" Width="40" Height="32" />
+    </Part>
+  </Item>
+</Skin>

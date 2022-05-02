@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="NavNormalButton">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Image Name="NavNormalButton.svg" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="4" Top="0" Width="4" Height="4" />
+      <State Left="0" Top="0" Width="8" Height="4">
+        <Margins Left="4" />
+      </State>
+      <State Left="0" Top="0" Width="0" Height="0">
+        <Font Color="0xff4864ff" />
+      </State>
+    </Part>
+  </Item>
+</Skin>

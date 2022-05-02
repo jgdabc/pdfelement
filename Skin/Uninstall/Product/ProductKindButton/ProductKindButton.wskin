@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="ProductKindButton">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Image Name="ProductKindButton.svg" />
+      <Font Size="10.5" />
+      <Padding Left="4" Right="4" />
+      <State Left="0" Top="0" Width="104" Height="32">
+        <Margins Left="8" Top="8" Right="8" Bottom="8" />
+        <Font Color="clBlack" />
+      </State>
+      <State Left="104" Top="0" Width="104" Height="32">
+        <Margins Left="8" Top="8" Right="8" Bottom="8" />
+        <Font Color="clBlack" />
+      </State>
+      <State Left="208" Top="0" Width="104" Height="32">
+        <Margins Left="8" Top="8" Right="8" Bottom="8" />
+        <Font Color="clBlack" />
+      </State>
+      <State Left="0" Top="0" Width="104" Height="32">
+        <Margins Left="8" Top="8" Right="8" Bottom="8" />
+        <Font Color="0xffa1a1a1" />
+      </State>
+    </Part>
+  </Item>
+</Skin>

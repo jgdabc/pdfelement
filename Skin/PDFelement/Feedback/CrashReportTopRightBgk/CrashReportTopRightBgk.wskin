@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="CrashReportTopRightBgk">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Image Name="CrashReportTopRightBgk.svg" />
+      <State Left="0" Top="0" Width="111" Height="72">
+        <Margins Left="0" Top="0" Right="111" Bottom="72" />
+      </State>
+    </Part>
+  </Item>
+</Skin>

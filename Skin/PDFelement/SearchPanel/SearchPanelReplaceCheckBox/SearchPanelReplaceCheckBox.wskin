@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="SearchPanelReplaceCheckBox">
+    <Part id="0" Name="Checked" FillMode="center" TransparentMode="Alpha">
+      <Image Name="SearchPanelReplaceCheckBox_Checked.svg" />
+      <State Left="0" Top="1" Width="8" Height="5" />
+      <State Left="0" Top="1" Width="8" Height="5" />
+      <State Left="0" Top="1" Width="8" Height="5" />
+      <State Left="8" Top="1" Width="8" Height="5">
+        <Font Color="clGray" />
+      </State>
+    </Part>
+    <Part id="1" Name="UnChecked" FillMode="center" TransparentMode="Alpha">
+      <Image Name="SearchPanelReplaceCheckBox_UnChecked.svg" />
+      <State Left="0" Top="2" Width="8" Height="5" />
+      <State Left="0" Top="2" Width="8" Height="5" />
+      <State Left="0" Top="2" Width="8" Height="5" />
+      <State Left="8" Top="2" Width="8" Height="5">
+        <Font Color="clGray" />
+      </State>
+    </Part>
+  </Item>
+</Skin>

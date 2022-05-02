@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="UserCenterGly">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Image Name="UserCenterGly.svg" />
+      <State Left="0" Top="0" Width="169" Height="156">
+        <Margins Left="118" Top="44" Right="8" Bottom="8" />
+      </State>
+    </Part>
+  </Item>
+</Skin>

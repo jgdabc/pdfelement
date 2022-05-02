@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="HotKeyHeader">
+    <Part id="0" Name="Frame" FillMode="bottom" TransparentMode="Alpha">
+      <Image Name="HotKeyHeaderLine.png" />
+      <State Left="0" Top="0" Width="1" Height="1" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="right" TransparentMode="Alpha">
+      <Image Name="HotKeyHeaderLine.png" />
+      <State Left="0" Top="0" Width="1" Height="1" />
+    </Part>
+  </Item>
+</Skin>

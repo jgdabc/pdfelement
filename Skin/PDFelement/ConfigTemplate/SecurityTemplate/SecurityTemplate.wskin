@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="SecurityTemplate">
+    <Part id="0" Name="Frame" FillMode="center" TransparentMode="Alpha">
+      <Image Name="SecurityTemplate.svg" />
+      <Region type="Auto" />
+      <State Left="0" Top="0" Width="70" Height="80" />
+    </Part>
+  </Item>
+</Skin>

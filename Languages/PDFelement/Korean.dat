@@ -1,0 +1,4252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageResource Id="KOR" Name="Korean" LocaleName="Korea" Version="1.1" LangID="0x0412" CodePage="949">
+  <Default>
+    <Font Name="Malgun Gothic" Size="9" />
+    <FontMapping>
+      <Item From="Open Sans" To="Malgun Gothic" FailTo="Tahoma" />
+      <Item From="Open Sans Semibold" To="Malgun Gothic" FailTo="Tahoma" />
+      <Item From="Tahoma" To="Malgun Gothic" FailTo="Tahoma" />
+      <Item From="Arial" To="Malgun Gothic" FailTo="Tahoma" />
+      <Item From="Inter" To="Malgun Gothic" FailTo="Tahoma" />
+      <Item From="Helvetica" To="Malgun Gothic" Failto="Tahoma" />
+    </FontMapping>
+  </Default>
+  <Strings>
+    <Info_ProductName>Wondershare PDFelement</Info_ProductName>
+    <Info_BusinessProductName>Wondershare PDFelement Business</Info_BusinessProductName>
+    <Info_CreatorApp>Wondershare PDFelement</Info_CreatorApp>
+    <Info_PDFVersion>1.7</Info_PDFVersion>
+    <Info_PermissionAllow>허용</Info_PermissionAllow>
+    <Info_PermissionNotAllow>허용되지 않음</Info_PermissionNotAllow>
+    <Info_DocProperty_EmbeddedSubset> (내장 서브셋 글꼴)</Info_DocProperty_EmbeddedSubset>
+    <Info_DocProperty_FontType>유형:</Info_DocProperty_FontType>
+    <Info_DocProperty_FontEncoding>인코딩:</Info_DocProperty_FontEncoding>
+    <Info_DocProperty_Custom>사용자 정의</Info_DocProperty_Custom>
+    <Info_DocProperty_ActualFont>실제 글꼴:</Info_DocProperty_ActualFont>
+    <Info_DocProperty_ActualType>실제 글꼴 유형:</Info_DocProperty_ActualType>
+    <Info_InvalidFileName>잘못된 파일 이름</Info_InvalidFileName>
+    <Info_FileNamePathToolLong>파일 이름 길이가 허용되는 최대 길이를 초과하였습니다.</Info_FileNamePathToolLong>
+    <Info_Copyof>복사</Info_Copyof>
+    <Info_PdfFileFilter>PDF 파일(*.pdf)|*.pdf</Info_PdfFileFilter>
+    <Info_AllFiles>모든 파일</Info_AllFiles>
+    <Info_Finished>완료</Info_Finished>
+    <Info_PrintToFile>PDF로 인쇄-Wondershare PDFelement 프린터</Info_PrintToFile>
+    <Info_InsertSameFileWarning>자신에게 삽입할 수 없습니다.  삽입할 다른 문서를 선택하십시오.</Info_InsertSameFileWarning>
+    <Info_Scan_CbbScanner_SelectScanner>스캐너를 선택해 주세요.</Info_Scan_CbbScanner_SelectScanner>
+    <SecurityPanel_PrintNone>인쇄는 제한됩니다</SecurityPanel_PrintNone>
+    <SecurityPanel_PrintLowResolution>저해상도 인쇄 가능</SecurityPanel_PrintLowResolution>
+    <SecurityPanel_PrintHighResolution>고해상도 인쇄 가능</SecurityPanel_PrintHighResolution>
+    <SecurityPanel_ChangesNone>변경할 수 없습니다.</SecurityPanel_ChangesNone>
+    <SecurityPanel_ChangesPages>페이지 삽입, 삭제 및 회전 허용</SecurityPanel_ChangesPages>
+    <SecurityPanel_ChangesFillingAndSigning>양식 필드 채우기 및 서명 추가 허용</SecurityPanel_ChangesFillingAndSigning>
+    <SecurityPanel_ChangesCommentingFillingAndSigning>주석 달기, 양식 필드 채우기 및 서명 허용</SecurityPanel_ChangesCommentingFillingAndSigning>
+    <SecurityPanel_ChangesAnyExceptExtractingPages>페이지 추출 금지</SecurityPanel_ChangesAnyExceptExtractingPages>
+    <SecurityPanel_OpenPassword>열기 암호</SecurityPanel_OpenPassword>
+    <SecurityPanel_PermissionPassword>권한 암호</SecurityPanel_PermissionPassword>
+    <SecurityPanel_PasswordEmptyWaring> {0}  입력란은 비워 둘 수 없습니다.</SecurityPanel_PasswordEmptyWaring>
+    <SecurityPanel_PasswordNotMatch> {0}이(가) 일치하지 않습니다. 다시 확인 해주세요.</SecurityPanel_PasswordNotMatch>
+    <SecurityTemplate_Title>보안</SecurityTemplate_Title>
+    <Security_EffectivePrompt>문서가 저장될 때까지 보안 설정이 활성화되지 않습니다.</Security_EffectivePrompt>
+    <SavedSettingPanel_NoneSpecified>[지장되지 않음]</SavedSettingPanel_NoneSpecified>
+    <SavedSettingPanel_CustomNotSaved>[사용자 지정 저장되지 않음]</SavedSettingPanel_CustomNotSaved>
+    <SavedSettingPanel_ReplaceWarning>파일 이름 "{0}"이(가) 이미 존재합니다. 파일을 바꾸시겠습니까?</SavedSettingPanel_ReplaceWarning>
+    <SavedSettingPanel_DeleteWarningWithName>"{0}"을(를) 삭제하시겠습니까?</SavedSettingPanel_DeleteWarningWithName>
+    <SavedSettingPanel_DeleteWarning>템플릿을 삭제하시겠습니까?</SavedSettingPanel_DeleteWarning>
+    <SavedSettingPanel_Delete>삭제</SavedSettingPanel_Delete>
+    <SavedSettingPanel_DeleteTitle> {0} 삭제</SavedSettingPanel_DeleteTitle>
+    <SavedSettingPanel_Replace>바꾸기</SavedSettingPanel_Replace>
+    <SavedSettingPanel_DeleteTag>{0}을(를) 삭제하시겠습니까?</SavedSettingPanel_DeleteTag>
+    <PageRangePanel_All>모든 페이지</PageRangePanel_All>
+    <PageRangePanel_Even>짝수 페이지</PageRangePanel_Even>
+    <PageRangePanel_Odd>홀수 페이지</PageRangePanel_Odd>
+    <PageRangePanel_SubsetAll>모두에서 서브셋</PageRangePanel_SubsetAll>
+    <PageRangePanel_SubsetRange>범위내 서브셋</PageRangePanel_SubsetRange>
+    <PageRangePanel_ErrorTips>유효한 페이지 범위를 입력하십시오.</PageRangePanel_ErrorTips>
+    <PageRangeToPanel_Current>현재 페이지</PageRangeToPanel_Current>
+    <WatermarkPanel_FileNotFound>워터 마크 소스 파일이 삭제되었습니다.</WatermarkPanel_FileNotFound>
+    <OcrPage_TextOnImage>편집 가능한 텍스트</OcrPage_TextOnImage>
+    <OcrPage_ImageOnText>검색 가능한 텍스트 및 이미지</OcrPage_ImageOnText>
+    <ProgressForm_CancelTips>{0}은(는) 완전하지 않습니다. 종료하시겠습까?</ProgressForm_CancelTips>
+    <Progress_ConvertTitle>{0}로 변환</Progress_ConvertTitle>
+    <Progress_ConvertDesc>{0}' 변환</Progress_ConvertDesc>
+    <Progress_ConvertSuccessTitle>변환 성공</Progress_ConvertSuccessTitle>
+    <Progress_ConvertSuccessContent>{0}'(으)로 변환되었습니다.</Progress_ConvertSuccessContent>
+    <Progress_ConvertSuccessContentFolder>{0}(으)로 변환되었습니다. 파일은 '{1}' 폴더에 있습니다.</Progress_ConvertSuccessContentFolder>
+    <Progress_ConvertFailTitle>변환 실패</Progress_ConvertFailTitle>
+    <Progress_ConvertFailContent>오류! {0}(으)로 변환하지 못했습니다.</Progress_ConvertFailContent>
+    <Progress_OverwriteError>파일 덮어쓰기에 실패했습니다. 경로를 다시 선택하십시오.</Progress_OverwriteError>
+    <Progress_CreatetTitle>PDF 새로 만들기</Progress_CreatetTitle>
+    <Progress_CreateDesc>PDF 생성</Progress_CreateDesc>
+    <Progress_CreateFailTitle>PDF 생성 실패</Progress_CreateFailTitle>
+    <Progress_CreateFailContent>오류! PDF를 작성하지 못했습니다.</Progress_CreateFailContent>
+    <Progress_ClipboardCreateFailContent>모두 바꾸기</Progress_ClipboardCreateFailContent>
+    <Progress_CombineTitle>PDF 합치기</Progress_CombineTitle>
+    <Progress_CombineDesc>PDF 합치는 중…</Progress_CombineDesc>
+    <Progress_DataExtractTitle>데이터 추출</Progress_DataExtractTitle>
+    <Progress_DataExtractDesc>데이터 추출</Progress_DataExtractDesc>
+    <Progress_DataExtractFailTitle>데이터 추출 실패</Progress_DataExtractFailTitle>
+    <Progress_DataExtractFailContent>오류! 데이터를 추출하지 못했습니다.</Progress_DataExtractFailContent>
+    <Progress_FlattenTitle>문서 평면화</Progress_FlattenTitle>
+    <Progress_FlattenDesc>문서 평면화중</Progress_FlattenDesc>
+    <Progress_FlattenFailTitle>PDF를 평면화하지 못했습니다</Progress_FlattenFailTitle>
+    <Progress_FlattenFailContent>오류! PDF를 평면화하지 못했습니다.</Progress_FlattenFailContent>
+    <Progress_OcrTitle>OCR</Progress_OcrTitle>
+    <Progress_OcrDesc>OCR 처리 중…</Progress_OcrDesc>
+    <Progress_OcrFailTitle>OCR 실패</Progress_OcrFailTitle>
+    <Progress_OcrFailContent>오류! OCR을 완료하지 못했습니다.</Progress_OcrFailContent>
+    <Progress_OcrAreaTitle>영역 문자인식(OCR)</Progress_OcrAreaTitle>
+    <Progress_OcrAreaDesc>OCR 영역 처리 중 …</Progress_OcrAreaDesc>
+    <Progress_OcrAreaFailTitle>OCR 영역 실패</Progress_OcrAreaFailTitle>
+    <Progress_OcrAreaFailContent>오류! OCR 영역을 완료하지 못했습니다.</Progress_OcrAreaFailContent>
+    <SplitByBookmark_HeadPartSuffix>머리글</SplitByBookmark_HeadPartSuffix>
+    <SplitByPages_PartSuffix>파트</SplitByPages_PartSuffix>
+    <Info_NotContainAnyBookmark>문서에 최상위 책갈피가 있지 않으므로 분할할 수 없습니다.
+옵션을 변경하고 다시 시도하십시오.</Info_NotContainAnyBookmark>
+    <Info_SplitSaveInfo>분할하기 전에 문서를 저장하십시오.</Info_SplitSaveInfo>
+    <Progress_SplitTitle>페이지 분할</Progress_SplitTitle>
+    <Progress_SplitDesc>페이지 분할 중…</Progress_SplitDesc>
+    <Progress_SplitResult>페이지가 성공적으로 분할되었습니다.
+문서가  {0} 개 문서로 분할되었습니다.</Progress_SplitResult>
+    <Progress_FileAttachmentTitle>첨부 파일 추가</Progress_FileAttachmentTitle>
+    <Progress_FileAttachmentDesc>첨부 파일 추가 중…</Progress_FileAttachmentDesc>
+    <DeletePage_Title>페이지 삭제</DeletePage_Title>
+    <Info_DeletePage>페이지를 삭제하시겠습니까?</Info_DeletePage>
+    <Info_DeletePages>페이지를 삭제하세겠습니까?</Info_DeletePages>
+    <Info_DeleteAllPagesWarning>모든 페이지를 삭제할 수 없습니다. 하나 이상의 페이지를 남겨주세요.</Info_DeleteAllPagesWarning>
+    <DeletePage_DeleteButtonText>삭제</DeletePage_DeleteButtonText>
+    <InsertPage_BlankPage>반 페아지</InsertPage_BlankPage>
+    <ExtractPagesForm_Caption>페이지 추출</ExtractPagesForm_Caption>
+    <Progress_CopyPagesDesc>페이지 복사…</Progress_CopyPagesDesc>
+    <Progress_PastingPages>페이지 붙여넣기</Progress_PastingPages>
+    <Progress_PagesExtractTitle>페이지 추출</Progress_PagesExtractTitle>
+    <Progress_PagesExtractDesc>페이지 추출 중…</Progress_PagesExtractDesc>
+    <Progress_Redaction>교정 적용</Progress_Redaction>
+    <Progress_Search>찾기</Progress_Search>
+    <Progress_MarkForRedactions>교정 표시</Progress_MarkForRedactions>
+    <TaskName_Combine>합치기</TaskName_Combine>
+    <TaskName_Create>새로 만들기</TaskName_Create>
+    <TaskName_Convert>변환</TaskName_Convert>
+    <TaskName_Flatten>문서 평면화</TaskName_Flatten>
+    <TaskName_Optimize>최적화</TaskName_Optimize>
+    <TaskName_DataExtract>데이터 추출</TaskName_DataExtract>
+    <Convert_Image>이미지</Convert_Image>
+    <Convert_KeepOriginalDPI>원본 DPI 유지</Convert_KeepOriginalDPI>
+    <Combine_CloseTips>파일을 종료하시겠습니까?</Combine_CloseTips>
+    <File_Image>이미지</File_Image>
+    <File_FdfField>PDF 파일</File_FdfField>
+    <File_XfaDataField>PDF 파일</File_XfaDataField>
+    <File_Files>파일</File_Files>
+    <File_NotExist>이 파일이 존재하지 않습니다.</File_NotExist>
+    <File_ImageDamaged>파일을 로드하지 못했습니다. 파일이 손상되었는지 확인하세요.</File_ImageDamaged>
+    <Ocr_DownloadTitle>OCR 다운로드</Ocr_DownloadTitle>
+    <Ocr_Downloading>OCR 다운로드 중… 잠시 기다려주세요.</Ocr_Downloading>
+    <Ocr_DownloadFail>OCR을 다운로드하지 못했습니다.</Ocr_DownloadFail>
+    <Ocr_FileCorrupt>다운로드 한 파일이 손상되었습니다. 다시 시도해주세요.</Ocr_FileCorrupt>
+    <Ocr_InstallTitile>OCR 설치</Ocr_InstallTitile>
+    <Ocr_Installing>OCR을 설치하는 중입니다. 잠시 기다려주세요.</Ocr_Installing>
+    <Ocr_InstallCompleted>OCR 설치가 완료되었습니다.</Ocr_InstallCompleted>
+    <Ocr_InstallFail>OCR을 선택하지 못했습니다. 다시 시도해주세요.</Ocr_InstallFail>
+    <Ocr_InstallerStartFail>OCR 다운로더를 시작하지 못했습니다.</Ocr_InstallerStartFail>
+    <Ocr_ContinueDownload>계속</Ocr_ContinueDownload>
+    <Ocr_CancelDownload>다운로드 취소</Ocr_CancelDownload>
+    <FilePrefix_ExtractPages>페이지 원본</FilePrefix_ExtractPages>
+    <FileSuffix_Create>새로 만들기</FileSuffix_Create>
+    <FileSuffix_DataExtract>데이터 추출</FileSuffix_DataExtract>
+    <FileSuffix_BatesNumber>베이츠 번호</FileSuffix_BatesNumber>
+    <FileSuffix_Watermark>워터마크</FileSuffix_Watermark>
+    <FileSuffix_Optimize>최적화</FileSuffix_Optimize>
+    <FileSuffix_Security>보안</FileSuffix_Security>
+    <FileSuffix_Background>배경</FileSuffix_Background>
+    <FileSuffix_Combine>합치기</FileSuffix_Combine>
+    <FileSuffix_HeaderFooter>머리글/바닥글</FileSuffix_HeaderFooter>
+    <FileSuffix_Flatten>문서 평면화</FileSuffix_Flatten>
+    <TagName_Watermark>워터마크</TagName_Watermark>
+    <TagName_BatesNumber>베이츠 번호</TagName_BatesNumber>
+    <TagName_Background>배경</TagName_Background>
+    <TagName_HeaderFooter>머리글 바닥글</TagName_HeaderFooter>
+    <TaskTips_UserCancel>작업이 취소되었습니다.</TaskTips_UserCancel>
+    <TaskTips_Fail>작업이 실패하였습니다.</TaskTips_Fail>
+    <TaskMain_Closing>진행중인 작업이 있습니다. 종료하시겠습니까?</TaskMain_Closing>
+    <TaskPage_Apply>적용</TaskPage_Apply>
+    <TaskPage_Cancel>취소</TaskPage_Cancel>
+    <TaskPage_Cancelling>취소 중…</TaskPage_Cancelling>
+    <FileListPanel_ClearAll>모두 지우기</FileListPanel_ClearAll>
+    <FileListPanel_ClearAllTips>모든 파일을 지우시겠습니까?</FileListPanel_ClearAllTips>
+    <FileItem_FileNotExisted>파일이 없습니다</FileItem_FileNotExisted>
+    <FileItem_NeedPermissionPwd>파일이 암호화되었습니다.</FileItem_NeedPermissionPwd>
+    <FileItem_CannotOpen>문서를 열 수 없습니다.</FileItem_CannotOpen>
+    <FileItem_NotSupportXFA>현재 기능으로  XFA 파일을 지원하지 않습니다.</FileItem_NotSupportXFA>
+    <FileItem_PageCount>페이지 수</FileItem_PageCount>
+    <FileItem_PageRange>페이지 범위</FileItem_PageRange>
+    <FileItem_All>모두</FileItem_All>
+    <FileItem_RangeExample>페이지: 예 ( 1,3,5,1-7 )</FileItem_RangeExample>
+    <FileFailReason_Duplicate>이 파일은 이미 추가되었습니다.</FileFailReason_Duplicate>
+    <FileFailReason_NotSupport>이 파일 형식은 지원되지 않습니다.</FileFailReason_NotSupport>
+    <FileFailReason_Damaged>문서를 열 수 없습니다. 문서가 손상되었거나 파일 형식이 PDFelement에서 지원되지 않습니다.</FileFailReason_Damaged>
+    <FileFailReason_NotExist>이 파일이 존재하지 않습니다.</FileFailReason_NotExist>
+    <FileFailReason_CreateFail>PDF를 작성하지 못했습니다.</FileFailReason_CreateFail>
+    <FileFailReason_MergeFail>PDF를 합치지 못했습니다.</FileFailReason_MergeFail>
+    <FileFailReason_NeedPassword>암호가 필요합니다</FileFailReason_NeedPassword>
+    <FileFailReason_PathInvalid>잘못된 경로</FileFailReason_PathInvalid>
+    <FileFailReason_Unauthorized>파일 접근 권한 없음</FileFailReason_Unauthorized>
+    <FileFailReason_OpenFail>열기 실패</FileFailReason_OpenFail>
+    <FileFailReason_Unknown>알 수 없는</FileFailReason_Unknown>
+    <OutputPanel_InvalidPath>유효하지 않은 경로</OutputPanel_InvalidPath>
+    <OutputPanel_ErrorFolder>폴더 경로가 잘못되었습니다. 다시 시도해주세요.</OutputPanel_ErrorFolder>
+    <OutputPanel_ErrorPath>경로가 잘못되었습니다. 확인하십시오.</OutputPanel_ErrorPath>
+    <OutputPanel_FolderReadOnly>폴더 경로가 읽기 전용입니다. 확인하십시오.</OutputPanel_FolderReadOnly>
+    <OutputPanel_TooLong>오류! 경로가 너무 깁니다.</OutputPanel_TooLong>
+    <DataExtract_ScannedNotForms>양식이 아닌 문서는 양식 인식 또는 데이터 추출을 사용할 수 없습니다.</DataExtract_ScannedNotForms>
+    <DataExtract_File>파일</DataExtract_File>
+    <DataExtract_Field>필드</DataExtract_Field>
+    <DataExtract_FileError>파일을 열지 못했고 미리 볼 수 없습니다. 파일이 삭제되었거나 암호가 변경되었을 수 있습니다.</DataExtract_FileError>
+    <DataExtract_NoFieldsTips>검색된 양식 필드가 없습니다.
+먼저 양식 필드로 텍스트를 선택하십시오.</DataExtract_NoFieldsTips>
+    <DataExtract_Apply>적용</DataExtract_Apply>
+    <DataExtract_ApplyTemplate>추출할 텍스트를 선택하세요</DataExtract_ApplyTemplate>
+    <DataExtract_HowToSelect>추출할 텍스트를 선택하는 방법은?</DataExtract_HowToSelect>
+    <Capture_CopyFinish>선택한 부분이 복사되었습니다.</Capture_CopyFinish>
+    <Operation_Add>추가</Operation_Add>
+    <Operation_Update>업데이트</Operation_Update>
+    <Operation_Remove>없애기</Operation_Remove>
+    <PageNumber_One>##1##</PageNumber_One>
+    <PageNumber_OneOfN>##1## of ##n##</PageNumber_OneOfN>
+    <PageNumber_OneSlashN>##1##/##n##</PageNumber_OneSlashN>
+    <PageNumber_PageOne>Page ##1##</PageNumber_PageOne>
+    <PageNumber_PageOneOfN>Page ##1## of ##n##</PageNumber_PageOneOfN>
+    <CropPageSize>잘린 페이지 크기:{0}</CropPageSize>
+    <PageBox_CropBox>크롭 박스</PageBox_CropBox>
+    <PageBox_BleedBox>블리드 박스</PageBox_BleedBox>
+    <PageBox_TrimBox>트림 박스</PageBox_TrimBox>
+    <PageBox_ArtBox>아트 박스</PageBox_ArtBox>
+    <PageBox_SizeNone>없음</PageBox_SizeNone>
+    <Password_NeedPwd>{0}' 은(는) 보호됩니다.</Password_NeedPwd>
+    <Password_OpenFail>비밀번호가 올바르지 않아 문서를 열지 못했습니다.</Password_OpenFail>
+    <OpenResult_Success>파일이 성공적으로 열렸습니다.</OpenResult_Success>
+    <OpenResult_Error>비밀번호가 틀렸습니다. 다시 시도해주세요.</OpenResult_Error>
+    <OpenResult_FileError>파일을 열지 못했습니다. 잘못된 형식 또는 파일 손상 때문일 수 있습니다.</OpenResult_FileError>
+    <OpenResult_EnterPassword>비밀번호를 입력해주세요.</OpenResult_EnterPassword>
+    <OpenResult_EnterOwner>이 문서는 암호가 설정되어 있습니다. 암호를 입력해주세요.</OpenResult_EnterOwner>
+    <OpenResult_PresetOpenFail>사전에 설정된 암호로는 문서를 열 수 없습니다.</OpenResult_PresetOpenFail>
+    <FilePrint_ShowSetting>자세한 설정</FilePrint_ShowSetting>
+    <FilePrint_HideSetting>숨기기</FilePrint_HideSetting>
+    <HomePage_GoodMorning>좋은 아침!</HomePage_GoodMorning>
+    <HomePage_GoodAfternoon>안녕하세요!</HomePage_GoodAfternoon>
+    <HomePage_GoodEvening>안녕하세요!</HomePage_GoodEvening>
+    <DocumentPage_ReadOnly>이 파일은 읽기 전용 파일입니다. 문서를 저장하려면 다른 이름이나 다른 폴더를 사용하세요.</DocumentPage_ReadOnly>
+    <DocumentPage_UseByOtherPorcesses>이 파일은 다른 프로그램에서 열려 있어 요청을 완료할 수 없습니다. 문서를 저장하려면 다른 이름이나 다른 폴더를 사용하십시오.</DocumentPage_UseByOtherPorcesses>
+    <Info_MaxTabs>50개 문서까지 열 수 있습니다. 새 문서를 열 수 없습니다.</Info_MaxTabs>
+    <Info_MaxTabsTitle>최대 탭 수</Info_MaxTabsTitle>
+    <Info_China_ExitTip>로그인 하지 않으면 제품을 사용할 수 없습니다. 제품을 종료하시겠습니까?</Info_China_ExitTip>
+    <Recent_FileNotAvailable>열려고 하는 문서가 존재하지 않습니다.
+이동되었거나 이름 변경 또는 삭제되었을 수 있습니다.</Recent_FileNotAvailable>
+    <Recent_FileNotAvailable_Title>파일 열기 실패</Recent_FileNotAvailable_Title>
+    <Info_SaveTipBeforeOperation>작업 전에 '{0}'에 대한 변경 사항을 저장하시겠습니까?</Info_SaveTipBeforeOperation>
+    <Info_RenameNeedSave>이름을 변경하기 전에 파일을 저장하십시오.</Info_RenameNeedSave>
+    <Info_RenameFail>파일 이름 변경 실패</Info_RenameFail>
+    <Info_RenameExist>동일한 이름의 '{0}'이(가) 이미 존재하므로 파일 이름을 바꿀 수 없습니다.</Info_RenameExist>
+    <Info_RenameInvalid>파일 이름에 유효하지 않은 문자를 포함할 수 없습니다.</Info_RenameInvalid>
+    <Info_RenamePathError>이름이 오류이므로 파일 이름을 바꿀 수 없습니다.</Info_RenamePathError>
+    <QatMenu_Email_SizeOver20>20MB 이상의 문서는 Outlook에 첨부할 수 없습니다.</QatMenu_Email_SizeOver20>
+    <QatMenu_Email_SizeOver20_Title>문서 크기가 20MB를 초과했습니다</QatMenu_Email_SizeOver20_Title>
+    <TaskName_Print>작업 인쇄</TaskName_Print>
+    <Print_PathError>파일에 쓸 수 없습니다. 잘못된 경로이거나 파일이 다른 응용 프로그램에서 사용 중일 수 있습니다. 다른 파일을 사용해 보시겠습니까?</Print_PathError>
+    <Print_PathError_Title>인쇄 오류</Print_PathError_Title>
+    <Print_PrintError>오류! PDF를 인쇄하지 못했습니다.</Print_PrintError>
+    <Print_PrintError_Title>인쇄 실패</Print_PrintError_Title>
+    <Print_Printer_Invalid>문서를 인쇄할 수 없습니다. 프린터가 컴퓨터에서 분리도었을 수 있습니다.</Print_Printer_Invalid>
+    <Print_Printer_Invalid_Title>인쇄 실패</Print_Printer_Invalid_Title>
+    <Print_Printer_NoExist>컴퓨터에 연결된 프린터가 없습니다. 확인하십시오.</Print_Printer_NoExist>
+    <Print_Printer_NoExist_Title>프린터 없음</Print_Printer_NoExist_Title>
+    <Print_Printer_Occupied>프린터가 다른 문서를 준비하고 있습니다. 현재 문서를 인쇄하려면 먼저 인쇄 패널을 닫습니다.</Print_Printer_Occupied>
+    <Print_Printer_Occupied_Title>프린터가 사용 중입니다.</Print_Printer_Occupied_Title>
+    <Bookmark_Newbookmark>새 책갈피</Bookmark_Newbookmark>
+    <Print_PagesPerSheetType_Sheets2>2</Print_PagesPerSheetType_Sheets2>
+    <Print_PagesPerSheetType_Sheets4>4</Print_PagesPerSheetType_Sheets4>
+    <Print_PagesPerSheetType_Sheets6>6</Print_PagesPerSheetType_Sheets6>
+    <Print_PagesPerSheetType_Sheets9>9</Print_PagesPerSheetType_Sheets9>
+    <Print_PagesPerSheetType_Sheets16>16</Print_PagesPerSheetType_Sheets16>
+    <Print_PagesPerSheetType_SheetsCustom>사용자 지정…</Print_PagesPerSheetType_SheetsCustom>
+    <Print_FlowDirection_LeftToRight>가로</Print_FlowDirection_LeftToRight>
+    <Print_FlowDirection_RightToLeft>가로 역순</Print_FlowDirection_RightToLeft>
+    <Print_FlowDirection_TopDown>세로</Print_FlowDirection_TopDown>
+    <Print_FlowDirection_BottomUp>세로 역순</Print_FlowDirection_BottomUp>
+    <Print_BindingType_Left>좌</Print_BindingType_Left>
+    <Print_BindingType_Right>우</Print_BindingType_Right>
+    <Print_BookletSubsetType_BothSides>양면</Print_BookletSubsetType_BothSides>
+    <Print_BookletSubsetType_OnlyPositive>앞면</Print_BookletSubsetType_OnlyPositive>
+    <Print_BookletSubsetType_OnlyBack>뒷면</Print_BookletSubsetType_OnlyBack>
+    <Print_DuplexType_Simplex>Single sided printing</Print_DuplexType_Simplex>
+    <Print_DuplexType_Vertical>Flip on long edge</Print_DuplexType_Vertical>
+    <Print_DuplexType_Horizontal>Flip on short edge</Print_DuplexType_Horizontal>
+    <Print_DuplexType_Manual>Manual duplex printing</Print_DuplexType_Manual>
+    <Print_ManualDuplex_Tips>Please take out the printed paper from the output tray and put it back into the tray, and then press "OK" to continue printing.</Print_ManualDuplex_Tips>
+    <Print_CannotPrint_Tips>죄송합니다. 파일을 인쇄할 수 없습니다.
+
+이유: 문서의 보안 권한으로 인쇄 기능이 금지되었습니다.</Print_CannotPrint_Tips>
+    <INF_NewText>새 텍스트</INF_NewText>
+    <INF_Information>정보</INF_Information>
+    <INF_Warning>경고</INF_Warning>
+    <INF_Error>오류</INF_Error>
+    <INF_OK>예</INF_OK>
+    <INF_Cancel>취소</INF_Cancel>
+    <INF_Abort>중단</INF_Abort>
+    <INF_Igore>뛰어넘기</INF_Igore>
+    <INF_Retry>재시도</INF_Retry>
+    <INF_Yes>예</INF_Yes>
+    <INF_No>아니요</INF_No>
+    <Preference_ChangeUILanguageTitle>Language settings</Preference_ChangeUILanguageTitle>
+    <Preference_ChangeUILanguageMessage>The set will be activated at the next start? Would you like to restart the program immediately?</Preference_ChangeUILanguageMessage>
+    <BookmarkList_Newbookmark>새 책갈피</BookmarkList_Newbookmark>
+    <BookmarkList_ResetBookmarkMsg>북마크 대상을 현재 페이지로 설정하시겠습니까?</BookmarkList_ResetBookmarkMsg>
+    <BookmarkList_SetBookmarkTitle>북마크 대상</BookmarkList_SetBookmarkTitle>
+    <AnnotationList_PageNumber>{0} 페이지</AnnotationList_PageNumber>
+    <AnnotationList_DoubleClickToNote>노트를 적으려면 더블 클릭 하십시오.</AnnotationList_DoubleClickToNote>
+    <SearchList_SearchingIsEmpty>검색 텍스트는 비워둘 수 없습니다.</SearchList_SearchingIsEmpty>
+    <SearchList_SearchResults>결과</SearchList_SearchResults>
+    <SearchList_SearchRecordChange>문서가 마지막으로 검색된 후 수정되어 검색 결과가 더 이상 유효하지 않습니다. 검색을 반복하시겠습니까?</SearchList_SearchRecordChange>
+    <AttachmentList_PageNumber> {0} 페이지</AttachmentList_PageNumber>
+    <AttachmentStyle_Graphics>그래프</AttachmentStyle_Graphics>
+    <AttachmentStyle_Paperclip>클립</AttachmentStyle_Paperclip>
+    <AttachmentStyle_Attachment>첨부 파일</AttachmentStyle_Attachment>
+    <AttachmentStyle_Tag>태그</AttachmentStyle_Tag>
+    <AdvancedSearch_LookFor>&lt;b&gt;{0}&lt;/b&gt; 찾기</AdvancedSearch_LookFor>
+    <AdvancedSearch_AllOpenDocuments>모든 열린 문서</AdvancedSearch_AllOpenDocuments>
+    <AdvancedSearch_ProgressDesc>{0}개 문서, {1}개 결과</AdvancedSearch_ProgressDesc>
+    <AdvancedSearch_ReplaceResult>{0} 파일이 교체되었습니다</AdvancedSearch_ReplaceResult>
+    <AdvancedSearch_NewSearch>새 검색</AdvancedSearch_NewSearch>
+    <AdvancedSearch_Stop>중단</AdvancedSearch_Stop>
+    <AdvancedSearch_AllDocuments>모든 문서</AdvancedSearch_AllDocuments>
+    <AdvancedSearch_FileIsDamaged>파일이 손상되었습니다</AdvancedSearch_FileIsDamaged>
+    <AdvancedSearch_FileIsEncrypted>파일이 암호화 되었습니다</AdvancedSearch_FileIsEncrypted>
+    <AdvancedSearch_ReplaceSuffix>바꾸기</AdvancedSearch_ReplaceSuffix>
+    <EditMenu_Redo>다시 실행</EditMenu_Redo>
+    <EditMenu_Undo>실행 취소</EditMenu_Undo>
+    <EditMenu_Cut>자르기</EditMenu_Cut>
+    <EditMenu_Copy>복사</EditMenu_Copy>
+    <EditMenu_Paste>붙여넣기</EditMenu_Paste>
+    <EditMenu_Delete>삭제</EditMenu_Delete>
+    <EditMenu_SelectAll>모두 선택</EditMenu_SelectAll>
+    <Info_Screenshot_Undo>취소</Info_Screenshot_Undo>
+    <Info_Screenshot_Copy>부</Info_Screenshot_Copy>
+    <Info_Screenshot_SaveAs>다른 이름으로 저장</Info_Screenshot_SaveAs>
+    <Info_Screenshot_Exit>낙하</Info_Screenshot_Exit>
+    <Info_Signed>서명됨</Info_Signed>
+    <Info_SignFailureIdentityExpired>유효하지 않은 인증서로 인해 서명에 실패했습니다.</Info_SignFailureIdentityExpired>
+    <Info_SignatureValidBy>유효한 서명입니다. {0}에 의해 서명되었습니다.</Info_SignatureValidBy>
+    <Info_SignatureValid>서명은 유효합니다.</Info_SignatureValid>
+    <Info_SimpleModified>이 서명이 있는 문서의 리비전은 바뀌지 않았습니다. 그러나 그 이후에 문서에 변경이 있었습니다.</Info_SimpleModified>
+    <Info_DamageModified>서명이 적용된 후에 문서가 변경되었거나 손상이 있었습니다.</Info_DamageModified>
+    <Info_NotModified>이 서명이 적용된 후 문서가 수정되지 않았습니다.</Info_NotModified>
+    <Info_TrustedUser>서명자의 ID가 유효합니다.</Info_TrustedUser>
+    <Info_UnTrustedUser>서명자의 ID가 신뢰할 수 있는 ID 목록에 포함되지 않았고 신뢰할 수 있는 상위 인증서가 없으므로 서명자의 ID를 알 수 없습니다.</Info_UnTrustedUser>
+    <Info_SignetimeOnComputer>서명 시간은 서명자 컴퓨터의 시간을 기준으로 합니다.</Info_SignetimeOnComputer>
+    <Info_Finish>마침</Info_Finish>
+    <Info_Next>다음</Info_Next>
+    <Info_Back>돌아가기</Info_Back>
+    <Info_DigitalIDTitle>로컬 디지털 ID 파일</Info_DigitalIDTitle>
+    <Info_DigitalIDFilesFilter>디지털 ID 파일</Info_DigitalIDFilesFilter>
+    <Info_FileNotExist>파일 또는 폴더가 없습니다.</Info_FileNotExist>
+    <Info_OpenIDFileFailed>제공된 암호로 디지털 ID 파일을 열 수 없습니다. 다시 시도하십시오.</Info_OpenIDFileFailed>
+    <Info_IdInfoNameRequired>자체 서명된 디지털 ID를 만들려면 이름이 필요합니다.</Info_IdInfoNameRequired>
+    <Info_EnterPasswordToOpen>디지털 ID 파일을 열려면 암호를 입력하십시오.</Info_EnterPasswordToOpen>
+    <Info_EmailFormError>이메일 주소는  xxx@xx.com 형식이어야 합니다.</Info_EmailFormError>
+    <Info_PasswordNotMatch>비밀번호가 일치하지 않습니다.</Info_PasswordNotMatch>
+    <Info_ReplaceExistID>이 이름의 디지털 ID 파일이 이미 있습니다. 기존 파일을 바꾸시겠습니까?</Info_ReplaceExistID>
+    <Info_PasswordSixlong>비밀번호 형식이 틀렸습니다. 비밀번호는 6자 이상이어야 합니다.</Info_PasswordSixlong>
+    <Info_ImageFileError>읽을 수 없는 사진 파일입니다. 사진 경로를 확인하거나 다른 파일을 시도해 보십시오.</Info_ImageFileError>
+    <Info_AutoSave>자동 저장</Info_AutoSave>
+    <MainMenus_BlankPdf>제목 없음</MainMenus_BlankPdf>
+    <Stamp_ImageFormatNotSupported>이미지 형식이 지원되지 않습니다.</Stamp_ImageFormatNotSupported>
+    <Info_NoFileSelected>파일이 선택되지 않았습니다.</Info_NoFileSelected>
+    <Warn_ReplaceSelf>문서는 자신으로 대체 할 수 없습니다. 다른 문서를 선택하십시오.</Warn_ReplaceSelf>
+    <PageLabelSettingsForm_NumberStyle_NotSet>없음</PageLabelSettingsForm_NumberStyle_NotSet>
+    <PageLabelSettingsForm_StError>1 이상의 시작 값을 입력하십시오.</PageLabelSettingsForm_StError>
+    <PageLabelSettingsForm_PageNumberError>문서에 '{0}'페이지가 존재하지 않습니다.</PageLabelSettingsForm_PageNumberError>
+    <PageLabelSettingsForm_PageRangeError>시작 페이지는 끝 페이지 번호보다 작거나 같아야 합니다</PageLabelSettingsForm_PageRangeError>
+    <Info_StandardStyle>표준 스타일</Info_StandardStyle>
+    <Info_RefreshIDList>ID 목록 새로 고침</Info_RefreshIDList>
+    <Info_CreateNewStyle>새로운 스타일 만들기</Info_CreateNewStyle>
+    <Info_SignReasonExample1>서명 이유</Info_SignReasonExample1>
+    <Info_SignReasonExample2>나는 이 파일의 소유자입니다.</Info_SignReasonExample2>
+    <Info_SignReasonExample3>이 문서를 검토했습니다.</Info_SignReasonExample3>
+    <Info_SignReasonExample4>문서의 내용이 사실입니다.</Info_SignReasonExample4>
+    <Info_SignReasonExample5>이 이용 약관을 읽었으며 이에 동의합니다.</Info_SignReasonExample5>
+    <Info_EnterPublicName>귀하의 공개 이름을 입력해주세요.</Info_EnterPublicName>
+    <Info_EnterDistinguishedName>귀하의 고유 이름을 입력하십시오.</Info_EnterDistinguishedName>
+    <Info_EnterYourSignature>서명 이유를 입력해주세요.</Info_EnterYourSignature>
+    <Info_EnterLocation>서명 위치를 입력하세요.</Info_EnterLocation>
+    <Info_NotAvailable>사용할 수 없습니다.</Info_NotAvailable>
+    <Info_NotSupportFontTip>선택한 글꼴의 일부 문자를 사용할 수 없습니다.  
+다른 글꼴을 선택해보십시오.</Info_NotSupportFontTip>
+    <Info_PdfAStanderTip>이 파일은 {0} 표준을 준수한다고 주장하며, 수정을 방지하기 위해 읽기 전용으로 열렸습니다.</Info_PdfAStanderTip>
+    <Save_SaveError_Title>저장 오류</Save_SaveError_Title>
+    <SaveAs_SaveAsError_Title>오류로 저장</SaveAs_SaveAsError_Title>
+    <Save_SaveNotice_Title>알림 저장</Save_SaveNotice_Title>
+    <Save_SaveNotice_Cancel>저장을 취소하였습니다. 문서는 저장되지 않은 상태로 유지됩니다.</Save_SaveNotice_Cancel>
+    <Save_SaveNotice_Unknown>저장하는 과정에서 문제가 생겼습니다. 다시 시도해주세요.</Save_SaveNotice_Unknown>
+    <Feedback_MailAddressToLong>이메일 주소는 200자를 초과 할 수 없습니다.</Feedback_MailAddressToLong>
+    <Feedback_MailAddressNotValid>입력 한 이메일 형식이 올바르지 않습니다. 확인하십시오.</Feedback_MailAddressNotValid>
+    <Feedback_MailAddressNotValidTitle>이메일 주소 무효입니다.</Feedback_MailAddressNotValidTitle>
+    <Feedback_MailNoContentAndAttachment>문제 설명을 입력하십시오</Feedback_MailNoContentAndAttachment>
+    <Feedback_AttachmentFileNotExist>첨부 파일이 없습니다.</Feedback_AttachmentFileNotExist>
+    <Feedback_AttachmentSizeOutOfRange>첨부 파일이 사용 가능한 최대 크기를 초과했습니다.</Feedback_AttachmentSizeOutOfRange>
+    <AnnotName_Rectangle>사각형</AnnotName_Rectangle>
+    <AnnotName_TypeWriter>타이프라이터</AnnotName_TypeWriter>
+    <AnnotName_TextBox>텍스트박스</AnnotName_TextBox>
+    <AnnotName_Circle>타원</AnnotName_Circle>
+    <AnnotName_Pencil>연필</AnnotName_Pencil>
+    <AnnotName_Polygon>다각형</AnnotName_Polygon>
+    <AnnotName_Cloud>클라우드</AnnotName_Cloud>
+    <AnnotName_Oval>타원</AnnotName_Oval>
+    <AnnotName_Line>선</AnnotName_Line>
+    <AnnotName_PolyLine>연결된 선</AnnotName_PolyLine>
+    <AnnotName_Arrow>화살</AnnotName_Arrow>
+    <AnnotName_Note>노트</AnnotName_Note>
+    <AnnotName_Link>링크</AnnotName_Link>
+    <AnnotName_Stamp>스템프</AnnotName_Stamp>
+    <AnnotName_Attachment>첨부 파일</AnnotName_Attachment>
+    <AnnotName_Redact>수정</AnnotName_Redact>
+    <AnnotName_Highlight>하이라이트</AnnotName_Highlight>
+    <AnnotName_AreaHighlight>영역 하이라이트</AnnotName_AreaHighlight>
+    <AnnotName_Caret>삽입 기호</AnnotName_Caret>
+    <AnnotName_Strikeout>취소선</AnnotName_Strikeout>
+    <AnnotName_Squigglyline>구불구불한 선</AnnotName_Squigglyline>
+    <AnnotName_Underline>밑줄</AnnotName_Underline>
+    <AnnotName_Callout>콜 아웃</AnnotName_Callout>
+    <Info_Redaction>편집</Info_Redaction>
+    <Info_ApplyRedactNote>수정을 통해 민감한 정보를 영구적으로 제거할 수 있습니다. 문서가 저장되면 이 작업은 취소할 수 없습니다. 진행하시겠습니까?</Info_ApplyRedactNote>
+    <ApplyRedact_DontShowAgain>다시 나타나지 않음</ApplyRedact_DontShowAgain>
+    <ApplyRedact_Continue>계속</ApplyRedact_Continue>
+    <Fields_DefaultName_Text>텍스트</Fields_DefaultName_Text>
+    <Fields_DefaultName_CheckBox>확인란</Fields_DefaultName_CheckBox>
+    <Fields_DefaultName_RadioBox>그룹</Fields_DefaultName_RadioBox>
+    <Fields_DefaultName_ComboBox>콤보 박스</Fields_DefaultName_ComboBox>
+    <Fields_DefaultName_ListBox>리스트 박스</Fields_DefaultName_ListBox>
+    <Fields_DefaultName_Button>버튼</Fields_DefaultName_Button>
+    <Fields_DefaultName_Signature>전자 서명</Fields_DefaultName_Signature>
+    <Fields_DefaultName_Image>이미지</Fields_DefaultName_Image>
+    <Fields_Properties_FormTitle>양식 속성</Fields_Properties_FormTitle>
+    <Fields_Properties_TextFieldProperties>텍스트 필드 속성</Fields_Properties_TextFieldProperties>
+    <Fields_Properties_CheckBoxProperties>확인란 속성</Fields_Properties_CheckBoxProperties>
+    <Fields_Properties_RadioButtonProperties>라디오 버튼 속성</Fields_Properties_RadioButtonProperties>
+    <Fields_Properties_DropdownProperties>콤보 박스 속성</Fields_Properties_DropdownProperties>
+    <Fields_Properties_ListBoxProperties>리스트 박스 속성</Fields_Properties_ListBoxProperties>
+    <Fields_Properties_ButtonProperties>버튼 속성</Fields_Properties_ButtonProperties>
+    <Fields_Properties_SignedTheseFields>이 필드만 선택</Fields_Properties_SignedTheseFields>
+    <Fields_Properties_DigitalSignatureProperties>전자 서명 속성</Fields_Properties_DigitalSignatureProperties>
+    <Fields_Properties_General>일반</Fields_Properties_General>
+    <Fields_Properties_Appearance>외관</Fields_Properties_Appearance>
+    <Fields_Properties_Positionl>위치</Fields_Properties_Positionl>
+    <Fields_Properties_Options>옵션</Fields_Properties_Options>
+    <Fields_Properties_Format>포멧</Fields_Properties_Format>
+    <Fields_Properties_Validate>확인</Fields_Properties_Validate>
+    <Fields_Properties_Calculation>계산</Fields_Properties_Calculation>
+    <Fields_Properties_Selection>선택 변경</Fields_Properties_Selection>
+    <Fields_Properties_Signed>서명됨</Fields_Properties_Signed>
+    <Fields_Properties_Action>실행</Fields_Properties_Action>
+    <Fields_Properties_Visible>표시</Fields_Properties_Visible>
+    <Fields_Properties_Hidden>숨기기</Fields_Properties_Hidden>
+    <Fields_Properties_VisibleNotPrint>보이지만 출력되지 않음</Fields_Properties_VisibleNotPrint>
+    <Fields_Properties_HiddenPrintable>숨겨졌지만 출력 가능</Fields_Properties_HiddenPrintable>
+    <Fields_Properties_FiledNameAlreadyExist>입력한 이름은 이미 다른 필드에서 사용 중입니다. 다른 이름을 선택하거나 기존 필드와 일치하도록 필드 유형을 변경하십시오.</Fields_Properties_FiledNameAlreadyExist>
+    <Fields_Properties_MulitActionText>Varies</Fields_Properties_MulitActionText>
+    <Fields_Properties_ActionsFile>파일: {0}</Fields_Properties_ActionsFile>
+    <Fields_Properties_ActionsPage>페이지: {0}</Fields_Properties_ActionsPage>
+    <Fields_Properties_Custom>사용자 정의</Fields_Properties_Custom>
+    <Fields_Properties_None>없음</Fields_Properties_None>
+    <Fields_Properties_JavaScriptLineColumn> {0}줄, {1}열</Fields_Properties_JavaScriptLineColumn>
+    <FontStyle_Regular>일반</FontStyle_Regular>
+    <FontStyle_Bold>굵게</FontStyle_Bold>
+    <FontStyle_Italic>기울임꼴</FontStyle_Italic>
+    <FontStyle_BoldItalic>굵은 기울임꼴</FontStyle_BoldItalic>
+    <FontStyle_Underline>밑줄</FontStyle_Underline>
+    <FontStyle_Strikeout>취소선</FontStyle_Strikeout>
+    <AntiPiracy_AuthFailedTitle>계정 로그인에 실패하였습니다.</AntiPiracy_AuthFailedTitle>
+    <AntiPiracy_AuthFailedMessage>인증 확인에 실패했습니다. 다시 로그인하십시오.</AntiPiracy_AuthFailedMessage>
+    <UserCenter_Trial>평가판</UserCenter_Trial>
+    <UserCenter_Standard>스탠다드</UserCenter_Standard>
+    <UserCenter_Professional>프로</UserCenter_Professional>
+    <UserCenter_Business>비즈니스</UserCenter_Business>
+    <Setting_RemoveAllDictionaryWords>모든 사전 단어를 제거하려면 "예"를 클릭하십시오.</Setting_RemoveAllDictionaryWords>
+    <HotKey_CommonHelpOnline>온라인 도움말 페이지 열기</HotKey_CommonHelpOnline>
+    <HotKey_CommonShowVersion>프롬프트 제품 버전 팝업</HotKey_CommonShowVersion>
+    <HotKey_CommonOpenFile>프롬프트 문서 팝업</HotKey_CommonOpenFile>
+    <HotKey_CommonSearchPanel>검색 패널 팝업</HotKey_CommonSearchPanel>
+    <HotKey_CommonAdvancedSearch>고급 검색 패널 열기</HotKey_CommonAdvancedSearch>
+    <HotKey_CommonRibbonToolTip>도구 설명 표시 리본 단축키 도구 설명</HotKey_CommonRibbonToolTip>
+    <HotKey_FileManageCloseFile>현재 문서 닫기</HotKey_FileManageCloseFile>
+    <HotKey_FileManageSaveFile>현재 문서 저장</HotKey_FileManageSaveFile>
+    <HotKey_FileManageSaveAsFile>현재 문서로 저장</HotKey_FileManageSaveAsFile>
+    <HotKey_FileManageUndo>마지막 변경 실행 취소</HotKey_FileManageUndo>
+    <HotKey_FilePanelRedo>마지막 변경 다시 실행</HotKey_FilePanelRedo>
+    <HotKey_FilePanelHideFilePanel>파일 패널 숨기기</HotKey_FilePanelHideFilePanel>
+    <HotKey_FilePanelNew>새 문서 패널로 이동</HotKey_FilePanelNew>
+    <HotKey_FilePanelPrint>인쇄 패널 팝업</HotKey_FilePanelPrint>
+    <HotKey_FilePanelFilePrintPanel>인쇄 문서 패널로 이동</HotKey_FilePanelFilePrintPanel>
+    <HotKey_FilePanelMaximumWindows>창 크기 최대화 또는 복원</HotKey_FilePanelMaximumWindows>
+    <HotKey_ViewScaleActually>실제 페이지 크기에 맞추기</HotKey_ViewScaleActually>
+    <HotKey_ViewScaleAdaptedWidth>창 너비에 맞추기</HotKey_ViewScaleAdaptedWidth>
+    <HotKey_ViewScaleAdaptedHeight>창 높이에 맞추기</HotKey_ViewScaleAdaptedHeight>
+    <HotKey_ViewScaleAdaptedPage>창에 페이지 맞추기</HotKey_ViewScaleAdaptedPage>
+    <HotKey_ViewScaleZoomPagePercent>페이지 확대</HotKey_ViewScaleZoomPagePercent>
+    <HotKey_ViewScaleZoomOutPange>페이지 축소</HotKey_ViewScaleZoomOutPange>
+    <HotKey_ViewScaleExitFullScreen>전체 화면 모드 시작 또는 종료</HotKey_ViewScaleExitFullScreen>
+    <HotKey_ViewModeSinglePage>한 페이지 보기</HotKey_ViewModeSinglePage>
+    <HotKey_ViewModeContinuePage>한 페이지 연속 보기</HotKey_ViewModeContinuePage>
+    <HotKey_ViewModeDoublePage>두 페이지 보기</HotKey_ViewModeDoublePage>
+    <HotKey_ViewModeDoubleContinuePage>두 페이지 연속 보기</HotKey_ViewModeDoubleContinuePage>
+    <HotKey_ViewJumpScrollingUp>위로 스크롤하거나 이전 페이지 표시</HotKey_ViewJumpScrollingUp>
+    <HotKey_ViewJumpScrollingDown>아래로 스크롤하거나 마지막 페이지 표시</HotKey_ViewJumpScrollingDown>
+    <HotKey_ViewJumpScrollingLeft>왼쪽 스크롤 보기</HotKey_ViewJumpScrollingLeft>
+    <HotKey_ViewJumpScrollingRight>오른쪽 스크롤 보기</HotKey_ViewJumpScrollingRight>
+    <HotKey_ViewJumpLastPage>이전 보기로 이동</HotKey_ViewJumpLastPage>
+    <HotKey_ViewJumpNextPage>다음 보기로 이동</HotKey_ViewJumpNextPage>
+    <HotKey_SidebarHideLeft>왼쪽 사이드바 숨기기</HotKey_SidebarHideLeft>
+    <HotKey_SidebarHideThumbnail>썸네일 표시</HotKey_SidebarHideThumbnail>
+    <HotKey_SidebarShowBookmark>책갈피  표시</HotKey_SidebarShowBookmark>
+    <HotKey_SidebarShowSearchList>검색 목록 보기</HotKey_SidebarShowSearchList>
+    <HotKey_SidebarShowAttachmentList>첨부 파일 목록 표시</HotKey_SidebarShowAttachmentList>
+    <HotKey_SidebarShowCommentList>주석 목록 보기</HotKey_SidebarShowCommentList>
+    <HotKey_RibbonMenuSwitchNextRibbonPage>다음 리본 탭으로 전환</HotKey_RibbonMenuSwitchNextRibbonPage>
+    <HotKey_RibbonMenuSwitchLastRibbonPage>이전 리본 탭으로 전환</HotKey_RibbonMenuSwitchLastRibbonPage>
+    <HotKey_RibbonMenuShowHideRibbonMenu>리본 메뉴 축소 또는 확장</HotKey_RibbonMenuShowHideRibbonMenu>
+    <HotKey_FileTabActiveNextFile>다음 문서로 전환</HotKey_FileTabActiveNextFile>
+    <HotKey_FileTabActiveLastFile>이전 문서로 전환</HotKey_FileTabActiveLastFile>
+    <HotKey_SwitchModelSwitchToSelect>선택 도구로 전환</HotKey_SwitchModelSwitchToSelect>
+    <HotKey_SwitchModelSwitchToEdit>텍스트 편집 모드로 전환</HotKey_SwitchModelSwitchToEdit>
+    <HotKey_SwitchModelSwitchToHand>텍스트 핸드 도구로 전환</HotKey_SwitchModelSwitchToHand>
+    <HotKey_SwitchModelSwitchToComment>주석으로 전환</HotKey_SwitchModelSwitchToComment>
+    <HotKey_SwitchModelSwitchToLink>링크 편집 모드로 전환</HotKey_SwitchModelSwitchToLink>
+    <HotKey_SwitchModelEscTempStatus>임시 수정 상태 종료</HotKey_SwitchModelEscTempStatus>
+    <HotKey_CommentBubble>풍선 주석 추가</HotKey_CommentBubble>
+    <HotKey_CommentTextbox>텍스트 박스 주석 추가</HotKey_CommentTextbox>
+    <HotKey_CommentLine>선 주석 추가</HotKey_CommentLine>
+    <HotKey_CommentArrow>화살표 주석 추가</HotKey_CommentArrow>
+    <HotKey_CommentEllipse>타원형 주석 추가</HotKey_CommentEllipse>
+    <HotKey_CommentRectangle>사각형 주석 추가</HotKey_CommentRectangle>
+    <HotKey_CommentPolygon>다각형 주석 추가</HotKey_CommentPolygon>
+    <HotKey_CommentCloud>클라우드 주석 추가</HotKey_CommentCloud>
+    <HotKey_CommentPolyline>연결된 선 주석 추가</HotKey_CommentPolyline>
+    <HotKey_CommentPen>연필 주석 추가</HotKey_CommentPen>
+    <HotKey_CommentErase>지우개</HotKey_CommentErase>
+    <HotKey_CommentUnderLine>밑줄</HotKey_CommentUnderLine>
+    <HotKey_TextEditEdit>텍스트 편집 모드 시작</HotKey_TextEditEdit>
+    <HotKey_TextEditBlod>선택한 텍스트를 굵게</HotKey_TextEditBlod>
+    <HotKey_TextEditItalic>선택한 텍스트를 기울임꼴로</HotKey_TextEditItalic>
+    <HotKey_TextEditChangeFontName>드롭 다운을 열어 글꼴 수정</HotKey_TextEditChangeFontName>
+    <HotKey_TextEditChangeFontSize>드롭 다운을 열어 글꼴 크기 수정</HotKey_TextEditChangeFontSize>
+    <HotKey_TextEditZoomOutFontSize>글꼴 크기 줄이기</HotKey_TextEditZoomOutFontSize>
+    <HotKey_TextEditZoomInFontSize>글꼴 크기 늘리기</HotKey_TextEditZoomInFontSize>
+    <HotKey_PageManagedShowDeleteDialog>드롭 다운을 열어 페이지 삭제</HotKey_PageManagedShowDeleteDialog>
+    <HotKey_PageManagedInsertBlankPage>드롭 다운을 열어 페이지 삽입</HotKey_PageManagedInsertBlankPage>
+    <HotKey_PageManagedRotateToLeft>페이지를 왼쪽으로 회전</HotKey_PageManagedRotateToLeft>
+    <HotKey_PageManagedRotateToRight>페이지를 오른쪽으로 회전</HotKey_PageManagedRotateToRight>
+    <HotKey_BookmarkAddBookmark>책갈피 추가</HotKey_BookmarkAddBookmark>
+    <HotKey_BookmarkRenameBookmark>선택한 책갈피 이름 바꾸기</HotKey_BookmarkRenameBookmark>
+    <Cloud_CancelButton>취소</Cloud_CancelButton>
+    <Cloud_UploadButton>업로드</Cloud_UploadButton>
+    <Cloud_OKButton>확인</Cloud_OKButton>
+    <Cloud_DownloadSuccessedStatus>다운로드 되었습니다!</Cloud_DownloadSuccessedStatus>
+    <Cloud_DownloadFailedStatus>다운로드 실패</Cloud_DownloadFailedStatus>
+    <Cloud_UploadSuccessedStatus>완료</Cloud_UploadSuccessedStatus>
+    <Cloud_UploadFailedStatus>업로드 실패</Cloud_UploadFailedStatus>
+    <Cloud_NetError>네트워크 연결을 확인하고 다시 시도하십시오.</Cloud_NetError>
+    <Cloud_DropboxUnAuth>먼저 Dropbox 계정에서 PDF 문서에 액세스 할 수 있도록 PDFelement를 승인한 다음 승인 후 아래 버튼을 클릭하십시오.</Cloud_DropboxUnAuth>
+    <Cloud_DropboxFileName>내 Dropbox</Cloud_DropboxFileName>
+    <Cloud_DropboxCloudFormText>Dropbox</Cloud_DropboxCloudFormText>
+    <Cloud_DropboxAuthFormText>Dropbox</Cloud_DropboxAuthFormText>
+    <Cloud_GoogleDriveUnAuth>먼저 Google Drive 계정에서 PDF 문서에 액세스 할 수 있도록 PDFelement를 승인한 다음 승인 후 아래 버튼을 클릭하십시오.</Cloud_GoogleDriveUnAuth>
+    <Cloud_GoogleDriveFileName>내 Google Drive</Cloud_GoogleDriveFileName>
+    <Cloud_GoogleDriveCloudFormText>Google Drive</Cloud_GoogleDriveCloudFormText>
+    <Cloud_GoogleDriveAuthFormText>Google Drive</Cloud_GoogleDriveAuthFormText>
+    <Cloud_PECloudFileName>내 Wondershare Cloud</Cloud_PECloudFileName>
+    <Cloud_PECloudCloudFormText>Wondershare Cloud</Cloud_PECloudCloudFormText>
+    <Cloud_PECloudAuthFormText>Wondershare Cloud</Cloud_PECloudAuthFormText>
+    <Cloud_OneDriveUnAuth>먼저 OneDrive 계정에서 PDF 문서에 액세스 할 수 있도록 PDFelement를 승인한 다음 승인 후 아래 버튼을 클릭하십시오.</Cloud_OneDriveUnAuth>
+    <Cloud_OneDriveFileName>내 OneDrive</Cloud_OneDriveFileName>
+    <Cloud_OneDriveCloudFormText>OneDrive</Cloud_OneDriveCloudFormText>
+    <Cloud_OneDriveAuthFormText>OneDrive</Cloud_OneDriveAuthFormText>
+    <Cloud_BoxUnAuth>먼저 Box 계정에서 PDF 문서에 액세스 할 수 있도록 PDFelement를 승인한 다음 승인 후 아래 버튼을 클릭하십시오.</Cloud_BoxUnAuth>
+    <Cloud_BoxFileName>내 Box</Cloud_BoxFileName>
+    <Cloud_BoxCloudFormText>Box</Cloud_BoxCloudFormText>
+    <Cloud_BoxAuthFormText>Box</Cloud_BoxAuthFormText>
+    <Cloud_BaiduPanUnAuth>먼저 BaiduPan 계정에서 PDF 문서에 액세스 할 수 있도록 PDFelement를 승인한 다음 승인 후 아래 버튼을 클릭하십시오.</Cloud_BaiduPanUnAuth>
+    <Cloud_BaiduPanFileName>내 BaiduPan</Cloud_BaiduPanFileName>
+    <Cloud_BaiduPanCloudFormText>BaiduPan</Cloud_BaiduPanCloudFormText>
+    <Cloud_BaiduPanAuthFormText>BaiduPan</Cloud_BaiduPanAuthFormText>
+    <Cloud_UploadLimitSize>업로드 실패하였습니다. 업로드 가능한 문서의 파일 크기는  {0} 미만으로 제한됩니다.</Cloud_UploadLimitSize>
+    <Cloud_DownloadNotEnoughSpace>다운로드 실패하였습니다. 컴퓨터에 충분한 저장 공간이 없습니다.</Cloud_DownloadNotEnoughSpace>
+    <Info_Account_DisableSendCode>&lt;Font color="#808080"&gt;메시지가 도착할 때까지 몇 분 정도 기다려주세요. 스팸 폴더를 확인하거나  &lt;/Font&gt; 재전송 코드 (&lt;Font color="#007BFF"&gt;{0}s&lt;/Font&gt;)를 확인하세요.</Info_Account_DisableSendCode>
+    <Info_Account_EnableSendCode>&lt;Font color="#808080"&gt; 메시지가 도착할 때까지 기다리십시오. 스팸 폴더를 확인하거나  &lt;/Font&gt;&lt;a color="#007BFF"&gt; 코드를 다시 전송 &lt;/a&gt; 할 수 있습니다.</Info_Account_EnableSendCode>
+    <Info_Account_Mobile_DisableSendCode>&lt;Font color ="#808080"&gt;短信已发送，请检查您的手机短信或&lt;/Font&gt;重新发送验证码（&lt;Font color ="#007BFF"&gt; {0} s &lt;/Font&gt;）。</Info_Account_Mobile_DisableSendCode>
+    <Info_Account_Mobile_EnableSendCode>&lt;Font color ="#808080"&gt;短信已发送，请检查您的手机短信或&lt;/Font&gt; &lt;a color ="#007BFF"&gt;重新发送验证码&lt;/a&gt;。</Info_Account_Mobile_EnableSendCode>
+    <Info_WSID_SendVerifyCodeFaild>확인 코드를 보내지 못했습니다. 오류 코드]:{0}</Info_WSID_SendVerifyCodeFaild>
+    <Info_WSID_Upgrade>업그레이드</Info_WSID_Upgrade>
+    <Info_WSID_BuyNow>지금 구매</Info_WSID_BuyNow>
+    <Info_WSID_Register>로그인</Info_WSID_Register>
+    <Info_WSID_DeviceDisableLogoutTip>계정이 비활성화되었기 때문에 자동으로 로그아웃되었습니다.</Info_WSID_DeviceDisableLogoutTip>
+    <Info_WSID_DeviceLimitFormTitle>기기 수가 한도 {0}을(를) 초과하였습니다.</Info_WSID_DeviceLimitFormTitle>
+    <Info_WSIDCodeMsg_ErrorCode>오류 코드</Info_WSIDCodeMsg_ErrorCode>
+    <Info_WSIDCodeMsg_Sucessed>성공</Info_WSIDCodeMsg_Sucessed>
+    <Info_WSIDCodeMsg_NetError>네트워크 연결에 실패하였습니다. 네트워크를 확인하거나 &lt;a href="ProxySetting"&gt; 프록시 설정 &lt;/a&gt;을 사용하여 다시 시도하세요.</Info_WSIDCodeMsg_NetError>
+    <Info_WSIDCodeMsg_PhoneFormatError>전화 번호 형식이 올바르지 않습니다.</Info_WSIDCodeMsg_PhoneFormatError>
+    <Info_WSIDCodeMsg_PhoneNumberError>잘못된 전화 번호</Info_WSIDCodeMsg_PhoneNumberError>
+    <Info_WSIDCodeMsg_PhoneNumberExist>이 전화 번호는 이미 시스템에 있습니다.</Info_WSIDCodeMsg_PhoneNumberExist>
+    <Info_WSIDCodeMsg_VerifyCodeWrong>확인 코드 오류입니다.</Info_WSIDCodeMsg_VerifyCodeWrong>
+    <Info_WSIDCodeMsg_UserNotExist>이 사용자는 존재하지 않습니다. 새 계정을 만드십시오.</Info_WSIDCodeMsg_UserNotExist>
+    <Info_WSIDCodeMsg_AccountOrPwdWrong>사용자 이름 또는 암호가 올바르지 않습니다.</Info_WSIDCodeMsg_AccountOrPwdWrong>
+    <Info_WSIDCodeMsg_SMSSendTooFrequent>SMS 메시지 수가 한도를 초과합니다.</Info_WSIDCodeMsg_SMSSendTooFrequent>
+    <Info_WSIDCodeMsg_SMSSendExceedLimit>보낸 문자 메시지 수가 한도를 초과했습니다.</Info_WSIDCodeMsg_SMSSendExceedLimit>
+    <Info_WSIDCodeMsg_EmailFormatError>이메일 형식이 올바르지 않습니다.</Info_WSIDCodeMsg_EmailFormatError>
+    <Info_WSIDCodeMsg_EmailExist>이 이메일은 이미 데이터베이스에 있습니다.</Info_WSIDCodeMsg_EmailExist>
+    <Info_WSIDCodeMsg_PwdError>잘못된 비밀번호</Info_WSIDCodeMsg_PwdError>
+    <Info_WSIDCodeMsg_EmailSendTooFrequent>보낸 이메일 수가 한도를 초과했습니다.</Info_WSIDCodeMsg_EmailSendTooFrequent>
+    <Info_WSIDCodeMsg_EmailVerifyCodeSendTooFrequent>인증 코드는 분당 한 번만 보낼 수 있습니다.</Info_WSIDCodeMsg_EmailVerifyCodeSendTooFrequent>
+    <Info_WSIDCodeMsg_AccountLocked>계정이 잠겨 있습니다. 문제가 지속되면 고객 지원에 문의하십시오. "url"&gt;(지원센터)&lt;/a&gt;</Info_WSIDCodeMsg_AccountLocked>
+    <Info_WSIDCodeMsg_PwdLengthError>비밀번호 길이가 틀렸습니다.</Info_WSIDCodeMsg_PwdLengthError>
+    <Info_WSIDCodeMsg_EmailSendExceedLimt>보낸 이메일 수가 한도를 초과했습니다.</Info_WSIDCodeMsg_EmailSendExceedLimt>
+    <Info_WSIDCodeMsg_AccountNotExist>이 계정은 존재하지 않습니다</Info_WSIDCodeMsg_AccountNotExist>
+    <Info_WSIDCodeMsg_AccountExist>이 계정은 이미 존재합니다</Info_WSIDCodeMsg_AccountExist>
+    <Info_WSIDCodeMsg_PasswordError5AccountWillLock>비밀번호를 5회 잘못 입력하면 1시간 동안 계정이 잠깁니다. 비밀번호를 재설정하려면 비밀번호 찾기를 클릭하십시오.</Info_WSIDCodeMsg_PasswordError5AccountWillLock>
+    <Info_WSIDCodeMsg_PasswordError5AccountLocked>잘못된 비밀번호를 5번 입력하여 계정이 잠겼습니다. 고객 지원에 문의하십시오.  &lt;a href="url"&gt;(지원 센터)&lt;/a&gt;.</Info_WSIDCodeMsg_PasswordError5AccountLocked>
+    <Info_WSIDCodeMsg_NotHaveEnableAuth>사용 가능한 라이센스가 없습니다.</Info_WSIDCodeMsg_NotHaveEnableAuth>
+    <Info_WSIDCodeMsg_NotHavePlan>권한 부여 플랜이 없습니다.</Info_WSIDCodeMsg_NotHavePlan>
+    <Info_WSIDCodeMsg_DevicesExceedLimit>사용된 장치 수가 제한을 초과했습니다.</Info_WSIDCodeMsg_DevicesExceedLimit>
+    <Info_WSIDCodeMsg_DeviceIsDisabled>장치가 비활성화되었습니다.</Info_WSIDCodeMsg_DeviceIsDisabled>
+    <Info_WSIDCodeMsg_RequestTooQuickly>요청 수가 최대 한도에 도달했습니다.</Info_WSIDCodeMsg_RequestTooQuickly>
+    <Info_WSIDDeviceLimit_Display>모니터</Info_WSIDDeviceLimit_Display>
+    <Info_WSIDDeviceLimit_DisplayTip>디 스 플레이 장치 가 계 정 에 연결 되 어 있 습 니 다.</Info_WSIDDeviceLimit_DisplayTip>
+    <Info_WSIDDeviceLimit_NetError>네트워크 가 불안정 한 것 같 습 니 다. 잠시 후에 다시 시도 하 셔 도 됩 니 다.</Info_WSIDDeviceLimit_NetError>
+    <Info_PwdPage_AccountType_Email>이메일 주소:</Info_PwdPage_AccountType_Email>
+    <Info_PwdPage_AccountType_Mobile>전화번호 또는 이메일 주소</Info_PwdPage_AccountType_Mobile>
+    <Info_UserCenter_PerpetualUserRight>영구</Info_UserCenter_PerpetualUserRight>
+    <Info_ProxyTestResult_Sucessed>프록시 서비스를 사용할 수 있습니다.</Info_ProxyTestResult_Sucessed>
+    <Info_ProxyTestResult_Faild>프록시 서비스를 사용할 수 없습니다.</Info_ProxyTestResult_Faild>
+    <Info_ProxyTestResult_AuthError>프록시 서비스에 인증 오류가 발생했습니다.</Info_ProxyTestResult_AuthError>
+    <Info_Ribbon_HideAnnot>주석 숨기기</Info_Ribbon_HideAnnot>
+    <Info_Ribbon_ShowAnnot>주석 표시</Info_Ribbon_ShowAnnot>
+    <Info_Recent_Today>오늘</Info_Recent_Today>
+    <Info_Recent_Yesterday>어제</Info_Recent_Yesterday>
+    <Info_Recent_ThisWeek>이번 주</Info_Recent_ThisWeek>
+    <Info_Recent_LastWeek>지난 주</Info_Recent_LastWeek>
+    <Info_Recent_Earlier>이전</Info_Recent_Earlier>
+    <Info_Stamp_Custom>사용자 지정</Info_Stamp_Custom>
+    <Info_Stamp_Standard>표준 비즈니스</Info_Stamp_Standard>
+    <Info_Stamp_SignHera>서명</Info_Stamp_SignHera>
+    <Info_Stamp_Dynamic>동적</Info_Stamp_Dynamic>
+    <Info_Stamp_Digital>디지털 스탬프</Info_Stamp_Digital>
+    <Info_Chinese_VipPage>Member Center</Info_Chinese_VipPage>
+    <Info_Chinese_UpgradeAccount>계 정 업그레이드</Info_Chinese_UpgradeAccount>
+    <Info_Chinese_ExpirationDate>Expiration：</Info_Chinese_ExpirationDate>
+    <Info_QRCodePayPage_OriginPrice>Original price:</Info_QRCodePayPage_OriginPrice>
+    <Info_LicenseTime_Subscription>{0} months</Info_LicenseTime_Subscription>
+    <Info_LicenseTime_Perpetual>영구</Info_LicenseTime_Perpetual>
+    <Info_LicenseTime_ThreeYear>3 years in total, Equivalent to ￥ {0} yuan / month</Info_LicenseTime_ThreeYear>
+    <Info_PriceTip_PerMonth>Equivalent to ￥ {0} yuan / month</Info_PriceTip_PerMonth>
+    <Info_PriceTip_Perpetual>permanent use</Info_PriceTip_Perpetual>
+    <Info_BuyPage_3Year>2 years get 1 year</Info_BuyPage_3Year>
+    <Info_PriceItem_OriginPrice>Original price:{0}</Info_PriceItem_OriginPrice>
+    <Info_BuyPage_Year>{0}year</Info_BuyPage_Year>
+    <Info_EditPDFFile>Edit PDF file</Info_EditPDFFile>
+    <Info_ConvertPDF>Convert PDF format</Info_ConvertPDF>
+    <Info_CommentPDF>Notes, comments pdf</Info_CommentPDF>
+    <Info_DigitalSignature>Digital signature</Info_DigitalSignature>
+    <Info_InfiniteExport>Export PDF unlimited</Info_InfiniteExport>
+    <Info_InfiniteConvert>Unlimited conversion of documents</Info_InfiniteConvert>
+    <Info_SaveWithoutWatermark>Save document without watermark</Info_SaveWithoutWatermark>
+    <Info_BatchProcessing>Batch processing</Info_BatchProcessing>
+    <Info_OCRFuncion>OCR</Info_OCRFuncion>
+    <Info_UserCenter_MoreDevice>디바이스 더 보기 &gt;</Info_UserCenter_MoreDevice>
+    <Info_UserCenter_Upgrade>업그레이드&gt;</Info_UserCenter_Upgrade>
+    <Info_UserCenter_Buy>구매하기 &gt;</Info_UserCenter_Buy>
+    <Catalog_Title>목록</Catalog_Title>
+    <ConfigPreview_Add>{0} 추가</ConfigPreview_Add>
+    <ConfigPreview_Edit>{0} 편집</ConfigPreview_Edit>
+    <MultipleTemplate_NoTags>이 문서에는 {0}이(가) 없습니다.</MultipleTemplate_NoTags>
+    <Tag_CurrentPdf>현재 PDF</Tag_CurrentPdf>
+    <Tag_CurrentImage>현재 이미지</Tag_CurrentImage>
+    <Annot_PopupContextMenu_Edit>편집</Annot_PopupContextMenu_Edit>
+    <Annot_PopupContextMenu_Delete>삭제</Annot_PopupContextMenu_Delete>
+    <Annot_LinkToolTip_Goto>페이지로 이동</Annot_LinkToolTip_Goto>
+    <Annot_LinkToolTip_OpenUrl>링크 열기</Annot_LinkToolTip_OpenUrl>
+    <Annot_LinkToolTip_OpenFile>파일 열기</Annot_LinkToolTip_OpenFile>
+    <Annot_Stamp_SelectPictureDlgFileFilter>지원되는 이미지 파일 유형 (*.bmp;*.jpg;*.jpeg;*.png;*.tif;*.tiff;*.svg;*.svgz)|*.bmp;*.jpg;*.jpeg;*.png;*.tif;*.tiff;*.svg;*.svgz</Annot_Stamp_SelectPictureDlgFileFilter>
+    <Update_CancelUpdateTips>업데이트를 취소하시겠습니까?</Update_CancelUpdateTips>
+    <Update_ContinueUpdate>업데이트 계속</Update_ContinueUpdate>
+    <Update_CancelUpdate>업데이트 취소</Update_CancelUpdate>
+    <Update_Downloading>새 버전 다운로드 중…</Update_Downloading>
+    <Update_DownloadFileError>다운로드 한 파일이 손상되었습니다. 다시 시도해주세요.</Update_DownloadFileError>
+    <Update_DownloadFail>다운로드에 실패햇습니다. 네트워크를 확인하십시오.</Update_DownloadFail>
+    <Update_WhatsNewTitle>새로운 기능</Update_WhatsNewTitle>
+    <Update_Version>버전</Update_Version>
+    <SearchReplace_Search>검색</SearchReplace_Search>
+    <SearchReplace_NoResult>검색이 완료되었습니다. 찾고 있는 것과 일치한 항목이 없습니다.</SearchReplace_NoResult>
+    <View_Single>단일 페이지 보기</View_Single>
+    <View_SingleContinue>연속 단일 페이지</View_SingleContinue>
+    <View_Facing>두 페이지 보기</View_Facing>
+    <View_FacingContinue>연속 두 페이지</View_FacingContinue>
+    <HomePage_RemoveAllHistory>목록에서 모든 항목을 제거하시겠습니까?</HomePage_RemoveAllHistory>
+    <OcrSetting_LanguageNone>OCR을 수행할 언어를 선택하십시오.</OcrSetting_LanguageNone>
+    <MsgBar_EditingPDFA>PDF를 편집하면 PDF가 더 이상 PDF/A를 준수하지 않게 됩니다. 계속하시겠습니까?
+
+참고: 편집이 완료되었을 때 PDF/A 준수가 필요한 경우 파일-&gt; 내보내기-&gt; PDF/A를 사용해야 합니다.</MsgBar_EditingPDFA>
+    <Info_OpenAttachmentForbid_Tip>PDF 파일 첨부 설정에서 이 파일 형식을 열 수 없기 때문에 "{0}" 파일이 첨부 파일을 열 수 없습니다.</Info_OpenAttachmentForbid_Tip>
+    <Info_OpenAttachmentOnce>파일 열기</Info_OpenAttachmentOnce>
+    <Info_OpenAttachmentAlways>이 유형의 파일 열기 항상 허용</Info_OpenAttachmentAlways>
+    <Info_OpenAttachmentNever>이 유형의 파일 열기 항상 허용 안 함</Info_OpenAttachmentNever>
+    <Info_AttachmentsInUse_Tip>다음 파일은 다른 응용 프로그램에서 열려 있습니다. 열린 파일을 저장하고 닫지 않으면 이러한 파일에 대한 변경 사항은 이 PDF 문서에 저장할 수 없습니다. {0}</Info_AttachmentsInUse_Tip>
+    <Info_AttachmentsInUseClick>파일을 닫고 다시 시도하여 파일의 변경 사항을 저장하십시오.  \n 모든 열린 파일의 변경 사항을 무시하려면 '무시'를 눌러주세요.</Info_AttachmentsInUseClick>
+    <Info_Attachment_ReplacePrompt>첨부 파일 리스트에 "{0}"이라는 이름이 이미 포함되어 있습니다.\n을(를) 바꾸시겠습니까?</Info_Attachment_ReplacePrompt>
+    <Info_OpenAttachment_Conflict_Tip>이 파일이 이미 열려 있거나 다른 응용 프로그램에 사용되어 있습니다.</Info_OpenAttachment_Conflict_Tip>
+    <Info_AllFilesFilter>모든 파일(*.*)|*.*</Info_AllFilesFilter>
+    <INFO_AutoSaveMessage>PDFelement가 종료되기 전에 제대로 저장되지 않은 하나 이상의 문서를 복구했습니다.
+
+'예'를 클릭하여 복구된 문서를 엽니다. 
+변경 사항을 무시하려면 '아니오'를 클릭하십시오.</INFO_AutoSaveMessage>
+    <INFO_AutoSave_Title>문서 복구</INFO_AutoSave_Title>
+    <Info_AutoSaveTask>자동 저장…</Info_AutoSaveTask>
+    <Info_SaveTitle>저장</Info_SaveTitle>
+    <Info_SaveTip>닫기 전에 '{0}'을(를) 저장하시겠습니까?</Info_SaveTip>
+    <Info_SaveTask>저장…</Info_SaveTask>
+    <Info_SaveAsTask>다른 이름으로 저장…</Info_SaveAsTask>
+    <Info_SaveAsTitle>다른 이름으로 저장</Info_SaveAsTitle>
+    <OpenRecent_ClearAll>모두 지우기</OpenRecent_ClearAll>
+    <Fields_RangeValidate_InvalidValue>잘못된 값:  {0} 보다 크거나 같고  {1}보다 작거나 같아야 합니다.</Fields_RangeValidate_InvalidValue>
+    <Fields_ActionSetting_URLNotAllowEmpty>URL은 비워둘 수 없습니다.</Fields_ActionSetting_URLNotAllowEmpty>
+    <Fields_ActionSetting_SaveDocBeforeSubmitForm>문서를 저장하시겠습니까?</Fields_ActionSetting_SaveDocBeforeSubmitForm>
+    <Fields_ActionSetting_EMailSubject>문서 찾기 {0}</Fields_ActionSetting_EMailSubject>
+    <Fields_ActionSetting_EMailContent_Pdf>첨부된 파일에는 양식 필드 데이터를 포함한 원본 PDF 콘텐츠가 포함되어 있습니다.</Fields_ActionSetting_EMailContent_Pdf>
+    <Fields_ActionSetting_EMailContent_Data>첨부 파일에는 PDF 양식에 입력한 데이터만 포함되어 있습니다. PDF 양식 자체가 아닙니다.</Fields_ActionSetting_EMailContent_Data>
+    <Fields_ActionSetting_EMailUserAbort>사용자가 요청을 취소하여 데이터가 제출되지 않았습니다.</Fields_ActionSetting_EMailUserAbort>
+    <Fields_ActionSetting_ExportDataNotSupport>프로그램은 이 파일 포멧에서 데이터 추출을 지원하지 않습니다.</Fields_ActionSetting_ExportDataNotSupport>
+    <Fields_ActionSetting_SubmitProgress>데이터 추출 중…</Fields_ActionSetting_SubmitProgress>
+    <Fields_ActionSetting_SubmitSuccess>데이터가 성공적으로 제출되었습니다.</Fields_ActionSetting_SubmitSuccess>
+    <Fields_ActionSetting_SubmitFail>데이터를 추출하지 못했습니다.</Fields_ActionSetting_SubmitFail>
+    <Fields_ActionSetting_SubmitUserAbort>사용자가 요청을 취소하여 데이터 제출에 실패했습니다.</Fields_ActionSetting_SubmitUserAbort>
+    <Fields_ActionSetting_OpenUrlWarnTitle>경고</Fields_ActionSetting_OpenUrlWarnTitle>
+    <Fields_ActionSetting_OpenUrlWarnMsgHead>지금 열려고 하는 페이지에 보안 위험이 있습니다.</Fields_ActionSetting_OpenUrlWarnMsgHead>
+    <Fields_ActionSetting_OpenUrlWarnMsgFmt>URL "{0}"을(를) 여시겠습니까?</Fields_ActionSetting_OpenUrlWarnMsgFmt>
+    <Fields_ActionSetting_ClickResult>허용하려면 "예"를 클릭하고 취소하려면 "아니오"를 클릭하십시오.</Fields_ActionSetting_ClickResult>
+    <Fields_ActionSetting_ExportDataFail>데이터를 내보내지 못했습니다.</Fields_ActionSetting_ExportDataFail>
+    <Fields_ActionSetting_SelectFieldsToReset>재설정할 필드 선택</Fields_ActionSetting_SelectFieldsToReset>
+    <Fields_ActionSetting_MultilineNotFormat>여러 줄 텍스트 필드에 서식을 적용할 수 없습니다. 서식을 적용하려면 '옵션' 패널로 이동하여 '여러 줄' 선택을 취소하십시오.</Fields_ActionSetting_MultilineNotFormat>
+    <Fields_ActionSetting_FormatNotMacthValue>이 형식은 지정된 기본값[{0}]과 일치하지 않습니다. 기본값과 일치하는 형식을 선택하거나 이 형식과 일치하도록 옵션 패널에서 기본값을 변경하십시오.</Fields_ActionSetting_FormatNotMacthValue>
+    <Fields_ActionSetting_ValueNotMacthFormat>이 기본값은 지정된 형식 ({0})과 일치하지 않습니다. 형식과 일치하는 기본값을 입력하거나 이 기본 값과 일치하도록 형식 패널을 변경하십시오.</Fields_ActionSetting_ValueNotMacthFormat>
+    <Fields_Action_InvalidDateTime>유효하지 않은 날짜/시간: 데이터/시간이 유효한지 확인하십시오. 필드[{0}] 은  {1} 형식과 일치해야 합니다.</Fields_Action_InvalidDateTime>
+    <Fields_Action_InvalidSpecialFormat>입력한 값이 필드 [{0}]의 형식과 일치하지 않습니다.</Fields_Action_InvalidSpecialFormat>
+    <Fields_Action_FileNotExist>파일 또는 폴더가 없습니다.</Fields_Action_FileNotExist>
+    <Fields_Action_FileTypeNotDefaultApp>파일 유형 : {0}에는 연관된 기본 애플리케이션이 없습니다.</Fields_Action_FileTypeNotDefaultApp>
+    <Fields_Action_OpenFileConfirmation>{0} 파일 열기를 요청합니다. 이 파일에는 컴퓨터를 손상시킬 수 있는 프로그램, 매크로 또는 바이러스가 포함되어 있을 수 있습니다. 안전하다고 확신 하는 경우에만 파일을 엽니다. 신뢰할 수 있는 사람이나 프로그램이 이 파일을 만든 경우 "열기"를 클릭하여 파일을 볼 수 있습니다.</Fields_Action_OpenFileConfirmation>
+    <Fields_Action_OpenUrlWarnTitle>경고</Fields_Action_OpenUrlWarnTitle>
+    <Fields_Action_OpenUrlWarnMsgFormat> ‘{0}’을(를) 여는 중입니다. 사이트를 신뢰하는 경우 '예'를 클릭하고 그렇지 않으면 '아니오'를 클릭하십시오.</Fields_Action_OpenUrlWarnMsgFormat>
+    <MsgForm_DontShowAgain>이 메시지 다시 보지 않기.</MsgForm_DontShowAgain>
+    <Fields_TabOrderCompleted>모든 필드의 순서</Fields_TabOrderCompleted>
+    <Fields_RecognizedClearStack>작업을 취소할 수 없습니다. 계속하시겠습니까?</Fields_RecognizedClearStack>
+    <Fields_RecognizedFail>새 양식 필드가 감지되지 않았습니다.</Fields_RecognizedFail>
+    <FiledEditingContextMenu_Properties>속성</FiledEditingContextMenu_Properties>
+    <FiledEditingContextMenu_CreateMultipleCopies>여러 복사본 만들기</FiledEditingContextMenu_CreateMultipleCopies>
+    <FiledEditingContextMenu_SetTabOrder>탭 순서 설정</FiledEditingContextMenu_SetTabOrder>
+    <FiledEditingContextMenu_UseAsDefault>기본 값으로 사용</FiledEditingContextMenu_UseAsDefault>
+    <ContextMenu_Cut>자르기</ContextMenu_Cut>
+    <ContextMenu_Copy>복사</ContextMenu_Copy>
+    <ContextMenu_Paste>붙여넣기</ContextMenu_Paste>
+    <ContextMenu_Delete>삭제</ContextMenu_Delete>
+    <ContextMenu_SelectAll>전체 선택</ContextMenu_SelectAll>
+    <ContextMenu_Alignment>조정</ContextMenu_Alignment>
+    <ContextMenu_Distribute>배포</ContextMenu_Distribute>
+    <Info_CertificateNotIndate>선택한 인증서는 만료되었습니다!</Info_CertificateNotIndate>
+    <Info_PasswordRequired>이 디지털 ID를 쓰기 위해서는 암호가 필요합니다.</Info_PasswordRequired>
+    <Info_AllSignatureValidata>서명되었으며 모든 서명이 유효합니다.</Info_AllSignatureValidata>
+    <Info_LetSignatureInvalidate>하나 이상의 서명이 잘못되었습니다.</Info_LetSignatureInvalidate>
+    <Info_SignedByNode>서명자:</Info_SignedByNode>
+    <Info_SignedByUnkonwn>알 수 없는 신원에 의해 서명됨</Info_SignedByUnkonwn>
+    <Info_SignatureDetails>서명 상세 정보</Info_SignatureDetails>
+    <Info_CertifacateDetail>인증 상세 정보…</Info_CertifacateDetail>
+    <Info_SignatureInvalid>서명이 유효하지 않습니다.</Info_SignatureInvalid>
+    <Info_SignatureUnknown>서명 유효성을 알 수 없습니다.</Info_SignatureUnknown>
+    <Info_SaveFailed>저장에 실패했습니다. 파일이 읽기 전용이거나 다른 사람이 열었을 수 있습니다. 문서를 다른 이름이나 다른 경로에 저장하십시오.</Info_SaveFailed>
+    <Info_MouseClickDragSignArea>마우스를 사용하여 서명을 표시 할 영역을 클릭하고 끌어서 그립니다. 원하는 영역을 끌어다 놓으면 서명 프로세스의 다음 단계로 이동합니다.</Info_MouseClickDragSignArea>
+    <Info_MultiSignatureDocument>이 문서에는 서명되지 않은 서명 필드가 두 개 이상 있습니다. 서명을 원하는 서명 필드에 클릭하여 서명 프로세스를 시작하십시오.</Info_MultiSignatureDocument>
+    <DigitalSignature_Signer>전자 서명:</DigitalSignature_Signer>
+    <DigitalSignature_DistinguishedName>DN:</DigitalSignature_DistinguishedName>
+    <DigitalSignature_Reason>이유:</DigitalSignature_Reason>
+    <DigitalSignature_Location>위치:</DigitalSignature_Location>
+    <DigitalSignature_Date>날짜:</DigitalSignature_Date>
+    <Fields_FontSize_Auto>자동</Fields_FontSize_Auto>
+    <Info_SignTask>서명…</Info_SignTask>
+    <CaptionStyle_CaptionOnly>라벨만</CaptionStyle_CaptionOnly>
+    <CaptionStyle_IconOnly>아이콘만</CaptionStyle_IconOnly>
+    <CaptionStyle_CapBelowIC>아이콘 상단, 라벨 하단</CaptionStyle_CapBelowIC>
+    <CaptionStyle_CapAboveIC>라벨 상단, 아이콘 하단</CaptionStyle_CapAboveIC>
+    <CaptionStyle_CapRightIC>아이콘 왼쪽, 라벨 오른쪽</CaptionStyle_CapRightIC>
+    <CaptionStyle_CapLeftIC>라벨 왼쪽, 아이콘 오른쪽</CaptionStyle_CapLeftIC>
+    <CaptionStyle_CapOverlaidIC>아이콘 위에 라벨</CaptionStyle_CapOverlaidIC>
+    <Info_None>없음</Info_None>
+    <HighlightModeKind_None>없음</HighlightModeKind_None>
+    <HighlightModeKind_Push>밀어넣기</HighlightModeKind_Push>
+    <HighlightModeKind_Outline>윤곽선</HighlightModeKind_Outline>
+    <HighlightModeKind_Invert>거꾸로</HighlightModeKind_Invert>
+    <FieldButtonState_Up>위로</FieldButtonState_Up>
+    <FieldButtonState_Down>아래로</FieldButtonState_Down>
+    <FieldButtonState_Rollover>롤오버</FieldButtonState_Rollover>
+    <IconScaleStyle_Always>항상</IconScaleStyle_Always>
+    <IconScaleStyle_Never>사용 안 함</IconScaleStyle_Never>
+    <IconScaleStyle_IconBigger>아이콘이 너무 큽니다</IconScaleStyle_IconBigger>
+    <IconScaleStyle_IconSmaller>아이콘이 너무 작습니다</IconScaleStyle_IconSmaller>
+    <IconScalingStyle_Proportional>비례</IconScalingStyle_Proportional>
+    <IconScalingStyle_Anamorphic>비례하지 않음</IconScalingStyle_Anamorphic>
+    <BorderThickness_Thin>가늘게</BorderThickness_Thin>
+    <BorderThickness_Medium>보통</BorderThickness_Medium>
+    <BorderThickness_Thick>굵게</BorderThickness_Thick>
+    <BorderStyleKind_Solid>실선</BorderStyleKind_Solid>
+    <BorderStyleKind_Dashed>대시</BorderStyleKind_Dashed>
+    <BorderStyleKind_Beveled>사선</BorderStyleKind_Beveled>
+    <BorderStyleKind_Insert>삽입</BorderStyleKind_Insert>
+    <BorderStyleKind_Underline>밑줄</BorderStyleKind_Underline>
+    <BoxButtonStyle_Checkmark>확인 표시</BoxButtonStyle_Checkmark>
+    <BoxButtonStyle_Circle>원</BoxButtonStyle_Circle>
+    <BoxButtonStyle_Furcation>분기</BoxButtonStyle_Furcation>
+    <BoxButtonStyle_Diamond>다이아몬드</BoxButtonStyle_Diamond>
+    <BoxButtonStyle_Square>사각형</BoxButtonStyle_Square>
+    <BoxButtonStyle_Star>별모양</BoxButtonStyle_Star>
+    <TextAlignKind_LeftJustified>왼쪽</TextAlignKind_LeftJustified>
+    <TextAlignKind_Centered>가운데</TextAlignKind_Centered>
+    <TextAlignKind_RightJustified>오른쪽</TextAlignKind_RightJustified>
+    <FieldsLockState_All>모든 필드</FieldsLockState_All>
+    <FieldsLockState_Exclude>선택한 항목을 제외한 모든 필드</FieldsLockState_Exclude>
+    <FieldsLockState_Include>이 필드만</FieldsLockState_Include>
+    <TriggerEventKind_AnnotMouseUp>마우스 위로</TriggerEventKind_AnnotMouseUp>
+    <TriggerEventKind_AnnotMouseDown>마우스 아래로</TriggerEventKind_AnnotMouseDown>
+    <TriggerEventKind_AnnotMouseEnter>마우스 입력</TriggerEventKind_AnnotMouseEnter>
+    <TriggerEventKind_AnnotMouseExit>마우스 종료</TriggerEventKind_AnnotMouseExit>
+    <TriggerEventKind_WidgetGotFocus>초점</TriggerEventKind_WidgetGotFocus>
+    <TriggerEventKind_WidgetLostFocus>흐릿하게</TriggerEventKind_WidgetLostFocus>
+    <PDFActionKind_URI>웹 링크 열기</PDFActionKind_URI>
+    <PDFActionKind_Launch>파일 열기</PDFActionKind_Launch>
+    <PDFActionKind_ImportData>양식 데이터 가져오기</PDFActionKind_ImportData>
+    <PDFActionKind_SubmitForm>양식 제출</PDFActionKind_SubmitForm>
+    <PDFActionKind_GoTo>페이지 보기로 이동</PDFActionKind_GoTo>
+    <PDFActionKind_Hide>필드 표시/숨기기</PDFActionKind_Hide>
+    <PDFActionKind_JavaScript>자바 스크립트 실행</PDFActionKind_JavaScript>
+    <PDFActionKind_ResetForm>양식 재설정</PDFActionKind_ResetForm>
+    <FormSubmitMethod_HTTPAddress>HTTP 주소</FormSubmitMethod_HTTPAddress>
+    <FormSubmitMethod_EmailAddress>이메일 주소</FormSubmitMethod_EmailAddress>
+    <FieldFormatType_None>없음</FieldFormatType_None>
+    <FieldFormatType_Number>번호</FieldFormatType_Number>
+    <FieldFormatType_Percentage>백분율</FieldFormatType_Percentage>
+    <FieldFormatType_Date>날짜</FieldFormatType_Date>
+    <FieldFormatType_Time>시간</FieldFormatType_Time>
+    <FieldFormatType_Special>특수</FieldFormatType_Special>
+    <FieldFormatType_Custom>사용자 지정</FieldFormatType_Custom>
+    <SpecialFormatType_ZipCode>우편번호</SpecialFormatType_ZipCode>
+    <SpecialFormatType_ZipCode4>우편번호 +4</SpecialFormatType_ZipCode4>
+    <SpecialFormatType_PhoneNumber>전화 번호</SpecialFormatType_PhoneNumber>
+    <SpecialFormatType_SocialSecurityNumber>주민등록번호</SpecialFormatType_SocialSecurityNumber>
+    <SpecialFormatType_ArbitraryMask>임의 마스크</SpecialFormatType_ArbitraryMask>
+    <EvaluateType_Sum>합계 (+)</EvaluateType_Sum>
+    <EvaluateType_Prd>제품 (x)</EvaluateType_Prd>
+    <EvaluateType_Avg>평균</EvaluateType_Avg>
+    <EvaluateType_Min>최소</EvaluateType_Min>
+    <EvaluateType_Max>최대</EvaluateType_Max>
+    <ScreenshotForm_DragTip>마우스 왼쪽 버튼을 드래그하여 스크린 샷 영역을 그립니다.</ScreenshotForm_DragTip>
+    <MessageType_Campaign>[이벤트]</MessageType_Campaign>
+    <MessageType_Tutorial>[자료실]</MessageType_Tutorial>
+    <MessageType_Update>[업데이트]</MessageType_Update>
+    <MessageType_Function>[기능]</MessageType_Function>
+    <MessageType_Research>[리서치]</MessageType_Research>
+    <MessageType_Test>[테스트]</MessageType_Test>
+    <MessageType_Notice>[게시판]</MessageType_Notice>
+    <MessageType_Other>[기타]</MessageType_Other>
+    <Info_PEServer_ChangePwd_AccountNotExist>암호 재설정에 실패했으며 계정이 존재하지 않습니다.</Info_PEServer_ChangePwd_AccountNotExist>
+    <Info_PEServer_ChangePwd_FaildUnKnown>원인불명으로 암호 재설정에 실패했습니다.</Info_PEServer_ChangePwd_FaildUnKnown>
+    <Info_PEServer_ChangePwd_NewPwdInvalid>암호 재설정에 실패했습니다. 새로운 암호가 무효입니다.</Info_PEServer_ChangePwd_NewPwdInvalid>
+    <Info_PEServer_ChangePwd_OldPwdWrong>암호 재설정에 실패했습니다. 기준 암호가 틀렸습니다.</Info_PEServer_ChangePwd_OldPwdWrong>
+    <Info_PEServerLogin_AccountNotExist>계정이 존재하지 않습니다! 관리자한테 연락하십시오.</Info_PEServerLogin_AccountNotExist>
+    <Info_PEServerLogin_PwdWrong>암호가 틀렸습니다. 로그인할 수 없습니다.</Info_PEServerLogin_PwdWrong>
+    <Info_PEServerLogin_UsingByOhterAccount>지금 다른 계정으로 로그인되고 있습니다.</Info_PEServerLogin_UsingByOhterAccount>
+    <Info_PEServerLogin_LoggedInAnohterDevice>계정이 다른 장치에서 로그인되었습니다.</Info_PEServerLogin_LoggedInAnohterDevice>
+    <Info_PEServerLogin_ForceLogin>로그인하시겠습니까? 로그인하시면 다른 장치에서 로그인된 계정은 자동으로 로그아웃됩니다.</Info_PEServerLogin_ForceLogin>
+    <Info_PEServer_Conected>접속 완료</Info_PEServer_Conected>
+    <Info_PEServer_NotConected>연결한지 않음</Info_PEServer_NotConected>
+    <Info_PEServer_ChangePwd_Sucessed>암호가 업데이트되었습니다.</Info_PEServer_ChangePwd_Sucessed>
+    <Info_OldPassword>기준 암호</Info_OldPassword>
+    <Info_NewPassword>새로운 암호</Info_NewPassword>
+    <Info_ConfirmPassword>암호 확인</Info_ConfirmPassword>
+    <Info_PEServer_ChangePwd_NewPwdNotMatch>새로운 암호가 일치하지 않습니다.</Info_PEServer_ChangePwd_NewPwdNotMatch>
+    <Info_PEServer_NameInvalid>계정 이름이 무효입니다.</Info_PEServer_NameInvalid>
+    <Info_PEServer_NameRepeated>이미 존재한 계정입니다. 직접 이 계정으로 로그인하시면 됩니다.</Info_PEServer_NameRepeated>
+    <Info_PEServer_NoEnoughLicenses>서버 권하 부여 수량을 초과했습니다. 관리자에게 문의하시면 됩니다.</Info_PEServer_NoEnoughLicenses>
+    <Info_PEServer_RegisterFaildunknown>에러가 생겨 등록에 실패했습니다. 에러코드:{0}</Info_PEServer_RegisterFaildunknown>
+    <Info_Account>계정</Info_Account>
+    <Info_Password>암호</Info_Password>
+    <Info_PEServer_ConnetServerFaild>서버 연결에 실패했습니다. 관리자한테 연락하시길 바랍니다.</Info_PEServer_ConnetServerFaild>
+    <Info_PEServer_OffLineTimeWarning>PDFelement 서버에 {0} 일 이상 접속하지 않았습니다. {1}일 후에 계정이 비인가 상태가 됩니다.  제 시간에 PDFelement 서버에 연결하십시오.</Info_PEServer_OffLineTimeWarning>
+    <Info_ServerRefuseAuth>서버가  권한 부여 신청을 거절했습니다. 관리자한테 문의하시길 바랍니다.</Info_ServerRefuseAuth>
+    <Info_CBSOnlineDeactivePcMessage>라이선스 등록이 취소되었습니다.  세부 사항은 시스템 관리자에게 연락하시길 바랍니다.##</Info_CBSOnlineDeactivePcMessage>
+    <Info_FileAuthBeyondLimitDate>서버에 연결할 수 없습니다, 그리고 이미 오프라인 시간을 초과했습니다. 관리자한테 문의하시길 바랍니다.</Info_FileAuthBeyondLimitDate>
+    <Info_FileAuthNotAuthorized>서버에 연결할 수 없습니다, 권한 부여를 받지 못했습니다. 관리자한테 문의하시길 바랍니다.</Info_FileAuthNotAuthorized>
+    <Info_Register>레지스터</Info_Register>
+    <Info_NoDefaultMailClient>기본 메일 클라이언트가 없거나 현재 메일 클라이언트가 메일 요청을 수행할 수 없습니다.</Info_NoDefaultMailClient>
+    <Info_NoDefaultMailClientCaption>전송 실패</Info_NoDefaultMailClientCaption>
+    <Info_CustomStamp>사용자 지정</Info_CustomStamp>
+    <Info_DigitalSignatureGroupText>디지털 스탬프</Info_DigitalSignatureGroupText>
+    <!--Stamp-->
+    <Info_DynamicGroupText>동적</Info_DynamicGroupText>
+    <Info_SignHereGroupText>서명</Info_SignHereGroupText>
+    <Info_StandardBusinessGroupText>표준 비즈니스</Info_StandardBusinessGroupText>
+    <Info_DynamicRevised>변경됨</Info_DynamicRevised>
+    <Info_DynamicReviewed>검토됨</Info_DynamicReviewed>
+    <Info_DynamicReceived>수신됨</Info_DynamicReceived>
+    <Info_DynamicApproved>승인됨</Info_DynamicApproved>
+    <Info_DynamicConfidential>기밀</Info_DynamicConfidential>
+    <Info_SignHereWitness>증인</Info_SignHereWitness>
+    <Info_SignHereInitialHere>이름의 앞글자를 입력해 주세요.</Info_SignHereInitialHere>
+    <Info_SignHereSignHere>여기에 서명하세요.</Info_SignHereSignHere>
+    <Info_SignHereAccepted>승인됨</Info_SignHereAccepted>
+    <Info_SignHereRejected>거절됨</Info_SignHereRejected>
+    <Info_StandardApproved>승인됨</Info_StandardApproved>
+    <Info_StandardNotApproved>승인되지 않음</Info_StandardNotApproved>
+    <Info_StandardDraft>초안</Info_StandardDraft>
+    <Info_StandardFinal>최종</Info_StandardFinal>
+    <Info_StandarCompleted>완료</Info_StandarCompleted>
+    <Info_StandarConfidential>기밀</Info_StandarConfidential>
+    <Info_StandarForPublicRelease>공개 자료</Info_StandarForPublicRelease>
+    <Info_StandarNotForPublicRelease>비공개 자료</Info_StandarNotForPublicRelease>
+    <Info_StandarForComment>검토용</Info_StandarForComment>
+    <Info_StandarVoid>비어있음</Info_StandarVoid>
+    <Info_StandarPreliminaryResults>예비 결과</Info_StandarPreliminaryResults>
+    <Info_StandarInformationOnly>정보만</Info_StandarInformationOnly>
+    <Info_StampProperties>스탬프 속성</Info_StampProperties>
+    <Info_Scan_MorePages>추가 페이지 검색 (시트 {0})</Info_Scan_MorePages>
+    <Info_Scan_ReverseSides>반대쪽 (용지 {0}의 반대면) 스캔</Info_Scan_ReverseSides>
+    <PageSize_Auto>자동</PageSize_Auto>
+    <PageSize_Letter>US Letter (8.5x17 in)</PageSize_Letter>
+    <PageSize_Legal>US Legal (8.5x14 in)</PageSize_Legal>
+    <PageSize_A5>A5 (148x213 mm)</PageSize_A5>
+    <PageSize_A4>A4 (210 x300 mm)</PageSize_A4>
+    <PageSize_A3>A3 (297x423 mm)</PageSize_A3>
+    <PageSize_B5>B5 (176x253 mm)</PageSize_B5>
+    <PageSize_B4>B4 (250x356 mm)</PageSize_B4>
+    <PageSize_Custom>사용자 정의</PageSize_Custom>
+    <Dpi_100>100 dpi</Dpi_100>
+    <Dpi_150>150 dpi</Dpi_150>
+    <Dpi_200>200 dpi</Dpi_200>
+    <Dpi_300>300 dpi</Dpi_300>
+    <Dpi_400>400 dpi</Dpi_400>
+    <Dpi_600>600 dpi</Dpi_600>
+    <Dpi_800>800 dpi</Dpi_800>
+    <Dpi_1200>1200 dpi</Dpi_1200>
+    <Info_Layer_DeleteTip>선택한 레이어를 삭제하시겠습니까? 이 작업은 취소할 수 없습니다.</Info_Layer_DeleteTip>
+    <Layer_CheckBoxTip_Locked>해당 레이어는 잠겨있으므로 표시 여부 설정을 변경할 수 없습니다.</Layer_CheckBoxTip_Locked>
+    <Layer_CheckBoxTip_ApplyPrint>인쇄 재정의가 적용 중이므로 이 레이어는 비활성화되었습니다.</Layer_CheckBoxTip_ApplyPrint>
+    <Layer_CheckBoxTip_ApplyExport>내보내기 재정의가 적용되고 있기 때문에 이 레이어는 비활성화되었습니다.</Layer_CheckBoxTip_ApplyExport>
+    <Layer_CheckBoxTip_ApplyLayer>레이어 재정의가 적용되고 있기 때문에 이 레이어는 비활성화되었습니다.</Layer_CheckBoxTip_ApplyLayer>
+    <Layer_CheckBoxTip_ParentUnChecked>해당 레이어는 상위 레이어가 비활성화되었기 때문에 비활성화되었습니다.</Layer_CheckBoxTip_ParentUnChecked>
+    <Layer_Visible_WhenOn>열 때 표시</Layer_Visible_WhenOn>
+    <Layer_Visible_Never>항상 표시하지 않기</Layer_Visible_Never>
+    <Layer_Visible_Always>항상 표시하기</Layer_Visible_Always>
+    <Layer_Print_WhenOn>표시할 경우 인쇄 허용</Layer_Print_WhenOn>
+    <Layer_Print_Never>인쇄 금지</Layer_Print_Never>
+    <Layer_Print_Always>항상 인쇄 허용</Layer_Print_Always>
+    <Layer_Export_WhenOn>표시할 경우 내보내기</Layer_Export_WhenOn>
+    <Layer_Export_Never>항상 내보내지 않기</Layer_Export_Never>
+    <Layer_Export_Always>항상 내보내기</Layer_Export_Always>
+    <Layer_DefState_On>열기</Layer_DefState_On>
+    <Layer_DefState_Off>닫기</Layer_DefState_Off>
+    <Source_Glass>정면</Source_Glass>
+    <Source_Feeder>Feeder</Source_Feeder>
+    <Source_Duplex>양면</Source_Duplex>
+    <BitDepth_24Color>컬러</BitDepth_24Color>
+    <BitDepth_8Grayscale>그레이 스케일</BitDepth_8Grayscale>
+    <BitDepth_1BlackAndWhite>흑백</BitDepth_1BlackAndWhite>
+    <BitDepth_AutoDetect>자동 감지</BitDepth_AutoDetect>
+    <Info_Please_Select_Scanner>스캐너를 선택해 주세요.</Info_Please_Select_Scanner>
+    <PageSizeUnit_Inch>in</PageSizeUnit_Inch>
+    <PageSizeUnit_Centimetre>cm</PageSizeUnit_Centimetre>
+    <PageSizeUnit_Millimetre>mm</PageSizeUnit_Millimetre>
+    <PaperKind_Letter>편지</PaperKind_Letter>
+    <PaperKind_Tabloid>타블로이드</PaperKind_Tabloid>
+    <PaperKind_Legal>법적 문서 전용지</PaperKind_Legal>
+    <PaperKind_Custom>사용자 지정</PaperKind_Custom>
+    <Sign_TextFont_Pristina>Pristina</Sign_TextFont_Pristina>
+    <Sign_TextFont_Parchment>Parchment</Sign_TextFont_Parchment>
+    <Sign_TextFont_Vivaldi>Vivaldi</Sign_TextFont_Vivaldi>
+    <Sign_TextFont_Magneto>Magneto</Sign_TextFont_Magneto>
+    <Sign_TextFont_Mistral>Mistral</Sign_TextFont_Mistral>
+    <Portfolio_CeateFileName>PDF 포트폴리오</Portfolio_CeateFileName>
+    <Portfolio_OpenFileTips>‘{0}’파일에는 컴퓨터를 손상시킬 수 있는 프로그램, 매크로 또는 바이러스가 포함되어 있을 수 있습니다.
+
+안전하다고 확신하는 경우에만 파일을 엽니다.</Portfolio_OpenFileTips>
+    <Portfolio_GetPdfelement>PDFelement 다운하기</Portfolio_GetPdfelement>
+    <Portfolio_OpenPortfolioInPDFelement>더 나은 경험을 위해 PDFelement에서 이 PDF 포트폴리오를 여십시오.</Portfolio_OpenPortfolioInPDFelement>
+    <Portfolio_FolderBrowserDialogTip>포트폴리오를 추가할 폴더 선택:</Portfolio_FolderBrowserDialogTip>
+    <Portfolio_DeleteDialogMsg>선택하신 파일을 삭제하시겠습니까?</Portfolio_DeleteDialogMsg>
+    <Portfolio_DeleteDialogCaption>파일 삭제</Portfolio_DeleteDialogCaption>
+    <Portfolio_DeleteDialogYesBtn>삭제</Portfolio_DeleteDialogYesBtn>
+    <Portfolio_ReplaceFileTips>포트폴리오에 이름이 "{0}"인 파일이 이미 있습니다.
+
+"{0}"파일을 바꾸시겠습니까?</Portfolio_ReplaceFileTips>
+    <RegCodeAuth_EmailOrCodeError>*The licensed e-mail or registration code you entered is invalid. Please try again with a vaild licensed e-mail or registration code. If the problem persists, contract customer support. ee &lt;a href="SupportPage"&gt;(Support Center)&lt;/a&gt;</RegCodeAuth_EmailOrCodeError>
+    <RegCodeAuth_RegisterSuccess>Register Success</RegCodeAuth_RegisterSuccess>
+    <RegCodeAuth_AuthExpired>Your license has expired, please purchase a new license to continue using PDFelement.</RegCodeAuth_AuthExpired>
+    <RegCodeAuth_AuthExceedPcs>You have exceeded the permitted number of program activations. Please Contact &lt;a href="ContactPage"&gt;Customer Service&lt;/a&gt; immediately for assistance.</RegCodeAuth_AuthExceedPcs>
+    <RegCodeAuth_AuthTrialOrQuit>Your product key has been cancelled or is no longer valid. Please Contact &lt;a href="ContactPage"&gt;Customer Service&lt;/a&gt; immediately for assistance.</RegCodeAuth_AuthTrialOrQuit>
+    <RegCodeAuth_AuthBlackList>Your product key has been cancelled or is no longer valid. If this is not a genuine copy or your license has expired, please purchase a new license to continue using PDFelement.</RegCodeAuth_AuthBlackList>
+    <RegCodeAuth_AuthRefundQuit>Your product key has been refunded, please purchase a new license to continue using PDFelement.</RegCodeAuth_AuthRefundQuit>
+    <Comparison_Title>파일 비교</Comparison_Title>
+    <Comparison_SameDocError>비교할 두 가지 문서를 선택하십시오.</Comparison_SameDocError>
+    <Comparison_OldFile>이전 파일</Comparison_OldFile>
+    <Comparison_NewFile>새 파일</Comparison_NewFile>
+    <Comparison_CompareFile>파일 비교</Comparison_CompareFile>
+    <Progress_CompareTitle>파일 비교</Progress_CompareTitle>
+    <Progress_CompareDesc>비교하는 중...</Progress_CompareDesc>
+    <Progress_CompareFailTitle>비교 작업이 실패하였습니다</Progress_CompareFailTitle>
+    <Progress_CompareFailContent>이런! 비교하지 못했습니다.</Progress_CompareFailContent>
+    <Progress_CompareNoDifferent>두 문서에는 차이가 없습니다.</Progress_CompareNoDifferent>
+    <Comparison_Delete>삭제</Comparison_Delete>
+    <Comparison_Insert>삽입</Comparison_Insert>
+    <Comparison_Modify>수정</Comparison_Modify>
+    <Comparison_Document>문서</Comparison_Document>
+    <Comparison_Page>페이지</Comparison_Page>
+    <Comparison_TextObject>텍스트 개체</Comparison_TextObject>
+    <Comparison_Flow>텍스트 내용</Comparison_Flow>
+    <Comparison_Block>블록</Comparison_Block>
+    <Comparison_Paragraph>단락</Comparison_Paragraph>
+    <Comparison_TextLine>텍스트 줄</Comparison_TextLine>
+    <Comparison_Word>텍스트</Comparison_Word>
+    <Comparison_Char>자</Comparison_Char>
+    <Comparison_Path>경로</Comparison_Path>
+    <Comparison_PathLine>경로 선</Comparison_PathLine>
+    <Comparison_Image>이미지</Comparison_Image>
+    <Comparison_ImagePixels>이미지 픽셀</Comparison_ImagePixels>
+    <GeneralConfig_PageLayoutKind_Automatic>자동</GeneralConfig_PageLayoutKind_Automatic>
+    <GeneralConfig_PageLayoutKind_SinglePage>단일 페이지 보기</GeneralConfig_PageLayoutKind_SinglePage>
+    <GeneralConfig_PageLayoutKind_SinglePageContinuous>한 페이지씩 계속하기</GeneralConfig_PageLayoutKind_SinglePageContinuous>
+    <GeneralConfig_PageLayoutKind_TwoPages>두 페이지 보기</GeneralConfig_PageLayoutKind_TwoPages>
+    <GeneralConfig_PageLayoutKind_TwoPagesContinuous>두 페이지를 계속하기</GeneralConfig_PageLayoutKind_TwoPagesContinuous>
+    <AdvancedSearch_Replace>바꾸기</AdvancedSearch_Replace>
+    <AdvancedSearch_SearchRecordChange>문서가 마지막 검색 이후 수정되었으며 검색 결과가 더 이상 유효하지 않습니다. 다시 검색하십시오.</AdvancedSearch_SearchRecordChange>
+    <AdvancedSearch_SearchFailedMessage>{0} 파일이 손상되었거나 파일을 열 수 있는 권한이 없기 때문에 검색에서 **을 건너뛰었습니다</AdvancedSearch_SearchFailedMessage>
+    <AdvancedSearch_ReplaceFailedMessage>파일이 손상되었거나 수정할 권한이 없기 때문에 바꾸기에서 {0}개의 파일을 건너뛰었습니다.</AdvancedSearch_ReplaceFailedMessage>
+  </Strings>
+  <Forms>
+    <AuthMessageForm>
+      <lblTitle Text="액세스 권한" />
+      <btnGoogleLogin Text="Google로 로그인" />
+      <btnRefreshAuth Text="새로 고침" />
+    </AuthMessageForm>
+    <CloudFileForm>
+      <btnUpload Text="업로드" />
+    </CloudFileForm>
+    <CloudNetErrorForm>
+      <btnRefreshAuth Text="새로 고침" />
+    </CloudNetErrorForm>
+    <CloudAuthFailedForm>
+      <lblTitle Text="액세스 권한" />
+      <btnRefreshAuth Text="새로 고침" />
+      <btnGoogleLogin Text="Google로 로그인" />
+    </CloudAuthFailedForm>
+    <DownloadTipForm>
+      <lblPdfOnly Text="오류! PDF 파일만 열 수 있습니다." />
+    </DownloadTipForm>
+    <CombineForm>
+      <btnApply Text="적용" />
+      <ckbGenerateCatalog Text="책갈피에서 새 목록 생성" />
+      <fileListPanel FileTips="파일을 여기로 끌어다 놓습니다." TaskName="결합하기">
+      </fileListPanel>
+    </CombineForm>
+    <CropSettingForm Text="자르기 설정">
+      <btnOk Text="확인" />
+      <btnCancel Text="취소" />
+      <lblTips Text="자르기 영역 조정" />
+      <lblTop Text="위쪽" />
+      <lblBottom Text="아래쪽" />
+      <lblRight Text="오른쪽" />
+      <lblLeft Text="왼쪽" />
+      <pageRangePanel GropName="페이지 범위">
+      </pageRangePanel>
+      <lblSetCropBox Text="크롭 박스 설정" />
+      <lblCropMargin Text="자르기 여백" />
+      <btnApply Text="적용" />
+    </CropSettingForm>
+    <PageBoxPanel>
+      <lblCroppedPageSize Text="잘린 페이지 크기:{0}" />
+    </PageBoxPanel>
+    <PageBoxSettingForm Text="페이지 박스 설정 양식">
+      <lblSetPageBox Text="페이지 크기 설정" />
+      <btnCancel Text="취소" />
+      <btnApply Text="적용" />
+      <lblLeft Text="왼쪽" />
+      <lblRight Text="오른쪽" />
+      <lblBottom Text="아래쪽" />
+      <lblTop Text="위쪽" />
+      <lblApplyTo Text="적용 대상" />
+      <btnReset Text="다시 설정" />
+      <btnChangePageSize Text="페이지 크기 변경" />
+      <btnPageRange Text="페이지 범위" />
+      <cbbPageSize Text="없음">
+      </cbbPageSize>
+      <lblPageSize Text="페이지 크기" />
+      <rdoFixedSize Text="고정 크기" />
+      <lblWidth Text="너비" />
+      <rdoCustom Text="사용자 지정" />
+      <lblHeight Text="높이" />
+      <lblXOffset Text="X 오프셋" />
+      <ckbCenter Text="가운데" />
+      <lblYOffset Text="Y 오프셋" />
+      <pageRangePanel GropName="" Text="페이지 범위 패널 1">
+      </pageRangePanel>
+      <pageBoxPanel Text="페이지 박스 패널">
+      </pageBoxPanel>
+    </PageBoxSettingForm>
+    <DataExtractModeForm Text="추출 모드">
+      <btnApply Text="적용" />
+      <btnCancel Text="취소" />
+      <rdoFromFields Text="PDF 양식 필드에서 데이터 추출" />
+      <rdoFromMarkedPdf Text="선택에 따라 데이터 추출" />
+      <lblFromFields Text="양식 필드의 데이터는 CSV로 추출됩니다." />
+      <lblFromSelection Text="추출할 텍스트를 선택하세요" />
+    </DataExtractModeForm>
+    <PE.UI.Document.DocumentsPage />
+    <GotoActionControl>
+      <pageTurnCtrl Text="페이지 회전 제어 1">
+      </pageTurnCtrl>
+      <listView Text="페이지 보기 1">
+      </listView>
+    </GotoActionControl>
+    <LinkAppearanceControl>
+      <gLabel1 Text="색상" />
+      <gLabel2 Text="선 두께" />
+      <gLabel3 Text="하이라이트 스타일" />
+      <gLabel4 Text="선 스타일" />
+      <gLabel5 Text="연결 종류" />
+      <cboHightLineMode>
+        <Items>없음
+거꾸로
+밀어넣기
+윤곽선</Items>
+      </cboHightLineMode>
+      <cboLineStyle>
+        <Items>실선
+대시
+밑줄</Items>
+      </cboLineStyle>
+      <cboLinkVisible>
+        <Items>직사각형 표시
+직사각형 표시 안 함</Items>
+      </cboLinkVisible>
+    </LinkAppearanceControl>
+    <LinkAppearanceControlSmall>
+      <gLabel1 Text="색상" />
+      <gLabel2 Text="선 두께" />
+      <gLabel3 Text="하이라이트 스타일" />
+      <gLabel4 Text="선 스타일" />
+      <gLabel5 Text="연결 종류" />
+      <cboHightLineMode>
+        <Items>없음
+거꾸로
+밀어넣기
+윤곽선</Items>
+      </cboHightLineMode>
+      <cboLineStyle>
+        <Items>실선
+대시
+밑줄</Items>
+      </cboLineStyle>
+      <cboThickness>
+        <Items>1
+2
+3
+4
+5
+6
+7
+8
+9
+10</Items>
+      </cboThickness>
+      <cboLinkVisible>
+        <Items>직사각형 표시
+직사각형 표시 안 함</Items>
+      </cboLinkVisible>
+    </LinkAppearanceControlSmall>
+    <LinkEditingGotoForm Text="페이지 링크">
+      <btnCancel Text="취소" />
+      <btnOK Text="확인" />
+      <lblLinkTip Text="페이지 링크" />
+      <tabAction ImageKey="" Text="동작" ToolTipText="">
+      </tabAction>
+      <tabAppearance ImageKey="" Text="디자인" ToolTipText="">
+      </tabAppearance>
+      <actionCtrl Text="동작 제어 1로 이동">
+      </actionCtrl>
+      <appearanceCtrl Text="링크 디자인 제어 1">
+      </appearanceCtrl>
+    </LinkEditingGotoForm>
+    <LinkEditingOpenFileForm Text="파일 링크">
+      <btnCancel Text="취소" />
+      <btnOK Text="확인" />
+      <tabAction ImageKey="" Text="동작" ToolTipText="">
+      </tabAction>
+      <tabAppearance ImageKey="" Text="디자인" ToolTipText="">
+      </tabAppearance>
+      <actionCtrl Text="파일 동작 제어 1 열기">
+      </actionCtrl>
+      <appearanceCtrl Text="링크 디자인 제어 1">
+      </appearanceCtrl>
+    </LinkEditingOpenFileForm>
+    <LinkEditingOpenWebForm Text="웹 링크">
+      <btnCancel Text="취소" />
+      <btnOK Text="확인" />
+      <tabAction ImageKey="" Text="동작" ToolTipText="">
+      </tabAction>
+      <tabAppearance ImageKey="" Text="디자인" ToolTipText="">
+      </tabAppearance>
+      <appearanceCtrl Text="링크 디자인 제어 1">
+      </appearanceCtrl>
+      <actionCtrl Text="파일 동작 제어 1 열기">
+      </actionCtrl>
+    </LinkEditingOpenWebForm>
+    <OpenFileActionControl>
+      <gLabel1 Text="파일 선택" />
+      <txtPath PlaceHolderText="파일 경로">
+      </txtPath>
+    </OpenFileActionControl>
+    <OpenUrlActionControl>
+      <gLabel1 Text="웹 URL을 입력하세요." />
+    </OpenUrlActionControl>
+    <SignForm Text="서명 추가하기">
+      <btnOK Text="예" ToolTip="" />
+      <btnCancel Text="취소" ToolTip="" />
+      <btnDraw Text="그리기" />
+      <btnText Text="입력하기" />
+      <btnImage Text="업로드" />
+      <cmbFont ToolTip="폰트" />
+      <lblImageNote Text="참고: 하얀 색 배경의 이미지를 업로드해주세요." />
+    </SignForm>
+    <SignImagePage>
+      <btnChooseImage Text="이미지 선택하기" />
+    </SignImagePage>
+    <SignCreateItem>
+      <btnCreate Text="만들기" />
+    </SignCreateItem>
+    <SignTextPage>
+      <txbText PlaceHolderText="서명을 입력하세요" />
+    </SignTextPage>
+    <StampCategoryPanel>
+      <labTitle Text="제목" />
+    </StampCategoryPanel>
+    <StampCreateCustomForm Text="맞춤 스탬프 양식">
+      <btnBrower Text="이미지 선택" />
+      <lblName Text="이름" />
+      <btnOK Text="확인" />
+      <btnCancel Text="취소" />
+      <lblPreview Text="미리 보기" />
+      <txbName Text="새 스탬프">
+      </txbName>
+    </StampCreateCustomForm>
+    <StampIdentityEditForm Text="ID 편집">
+      <lblTitle Text="디지털 신분 스탬프에 표시될 정보를 입력하세요." />
+      <lblUserName Text="이름" />
+      <lblCompany Text="회사" />
+      <lblDepartment Text="부서" />
+      <lblLoginNameTitle Text="로그인 이름" />
+      <lblLoginNameContent Text="로그인 이름" />
+      <btnOK Text="확인" />
+      <btnCancel Text="취소" />
+      <lblIdentity Text="ID" />
+    </StampIdentityEditForm>
+    <StampManageForm Text="사용자 지정 스탬프 관리">
+      <btnCreate Text="만들기" />
+      <btnEdit Text="편집" />
+      <btnDelete Text="삭제" />
+      <btnOK Text="확인" />
+      <btnCancel Text="취소" />
+      <lblName Text="이름" />
+      <lblPreview Text="미리 보기" />
+    </StampManageForm>
+    <PopupControl>
+      <lblAnnotType />
+      <lblModifyDate />
+      <lblAuthor />
+    </PopupControl>
+    <AttachmentStyleComboxItem />
+    <AttachmentStyleItem>
+      <lblStyle Text="스타일" />
+      <lblColor Text="색상" />
+    </AttachmentStyleItem>
+    <ColorItem>
+      <lblColor Text="색상" />
+    </ColorItem>
+    <EndItem>
+      <lblEnd Text="종료" />
+    </EndItem>
+    <FillColorItem>
+      <lblFillColor Text="채우기 색" />
+    </FillColorItem>
+    <OpacityItem>
+      <lblOpacity Text="불투명도" />
+    </OpacityItem>
+    <RedactOverlayTextItem>
+      <lblFillColor Text="채우기 색" />
+      <ckbOverlayText Text="오버레이 텍스트" />
+      <rdbtnActionText Text="동작 텍스트" />
+      <rdbtnCustomText Text="사용자 지정 텍스트" />
+      <btnAlignRight ToolTip="가운데 맞춤" />
+      <btnAlignCenter ToolTip="오른쪽 맞춤" />
+      <btnAlignLeft ToolTip="왼쪽 맞춤" />
+      <lstbCodeEntries>
+        <Items>(b)(1)(A)
+(b)(1)(B)
+(b)(1)(A)
+(b)(1)(B)
+(b)(1)(A)
+(b)(1)(B)
+(b)(1)(A)
+(b)(1)(B)
+(b)(1)(A)
+(b)(1)(B)
+(b)(1)(A)
+(b)(1)(B)</Items>
+      </lstbCodeEntries>
+      <lblCodeEntries Text="코드 항목" />
+      <lblCodeSets Text="코드 세트" />
+      <cmboxRedactSize Text="10">
+        <Items>Auto
+5
+5.5
+6.5
+7.5
+8
+9
+10
+10.5
+11
+12
+14
+16
+18
+20
+22
+24
+26
+28
+36
+48
+72</Items>
+      </cmboxRedactSize>
+      <cmboxCodeSets>
+        <Items>U.S.FOIA
+U.S.FOIA
+U.S.FOIA
+U.S.FOIA</Items>
+      </cmboxCodeSets>
+    </RedactOverlayTextItem>
+    <StartItem>
+      <lblStart Text="시작" />
+    </StartItem>
+    <StyleItem>
+      <lblStyle Text="스타일" />
+    </StyleItem>
+    <ThicknessItem>
+      <lblThickness Text="두께" />
+    </ThicknessItem>
+    <AnnotAppearanceControl>
+      <lblAppearance Text="디자인" />
+      <ckbOverlayText Text="오버레이 텍스트" />
+      <rdbtnActionText Text="동작 텍스트" />
+      <rdbtnCustomText Text="사용자 지정 텍스트" />
+      <btnAlignRight ToolTip="가운데 맞춤" />
+      <btnAlignCenter ToolTip="오른쪽 맞춤" />
+      <btnAlignLeft ToolTip="왼쪽 맞춤" />
+      <cmboxRedactSize Text="10">
+        <Items>5
+5.5
+6.5
+7.5
+8
+9
+10
+10.5
+11
+12
+14
+16
+18
+20
+22
+24
+26
+28
+36
+48
+72</Items>
+      </cmboxRedactSize>
+      <lstboxCodeSets>
+        <Items>(b)(1)(A)
+(b)(1)(B)
+(b)(1)(A)
+(b)(1)(B)
+(b)(1)(A)
+(b)(1)(B)
+(b)(1)(A)
+(b)(1)(B)
+(b)(1)(A)
+(b)(1)(B)
+(b)(1)(A)
+(b)(1)(B)</Items>
+      </lstboxCodeSets>
+      <lblCodeEntries Text="코드 세트" />
+      <cmboxCodeSets>
+        <Items>U.S.FOIA
+U.S.FOIA
+U.S.FOIA
+U.S.FOIA</Items>
+      </cmboxCodeSets>
+      <lblCodeSets Text="코드 세트" />
+    </AnnotAppearanceControl>
+    <AnnotDateControl>
+      <lblDate Text="날짜" />
+      <lblCreatedTime />
+      <lblCreated Text="만든 날짜" />
+      <lblModifiedTime />
+      <lblModified Text="수정한 날짜" />
+    </AnnotDateControl>
+    <AnnotFontControl>
+      <lblFontTitle Text="글꼴" />
+      <lblFont Text="글꼴" />
+      <lblFontColor Text="색상" />
+      <lblFontStyle Text="스타일" />
+      <lblFontSize Text="크기" />
+    </AnnotFontControl>
+    <AnnotInfoControl>
+      <lblAuthor Text="작성자" />
+      <lblInfo Text="정보" />
+      <lblSubject Text="제목" />
+      <lblDescription Text="설명" />
+    </AnnotInfoControl>
+    <AnnotTypeControl>
+      <lblType Text="종류" />
+    </AnnotTypeControl>
+    <AnnotUseAsDefaultControl>
+      <btnUseAsDefault Text="기본값으로 사용" />
+    </AnnotUseAsDefaultControl>
+    <PencilFloatingPanleOptionControl>
+      <lblTitle Text="속성 팝업창" />
+    </PencilFloatingPanleOptionControl>
+    <HighlightTextFloatControl>
+      <btnHighlight ToolTip="하이라이트" />
+      <btnStrikeout ToolTip="취소선" />
+      <btnUnderline ToolTip="밑줄" />
+      <btnSquiggly ToolTip="구불구불한 선" />
+      <btnCaret ToolTip="삽입 기호" />
+    </HighlightTextFloatControl>
+    <ContentPropertyPage>
+      <btnFontUnderline ToolTip="밑줄" />
+      <btnFontItalic ToolTip="선택한 텍스트를 기울임꼴로 표시" />
+      <btnFontBold ToolTip="선택한 텍스트를 굵게 표시" />
+      <btnFontStrikeout ToolTip="취소선" />
+      <btnFontSuperscript ToolTip="위 첨자" />
+      <btnFontSubscript ToolTip="아래 첨자" />
+      <btnFontZoomIn ToolTip="글꼴 크기를 늘립니다" />
+      <btnFontZoomOut ToolTip="글꼴 크기를 줄입니다" />
+      <btnAlignLeft ToolTip="왼쪽 맞춤" />
+      <btnAlignCenter ToolTip="가운데 맞춤" />
+      <btnAlignRight ToolTip="오른쪽 맞춤" />
+      <btnAlignJustify ToolTip="양쪽 맞춤" />
+      <btnOverturnHorizontal ToolTip="수평으로 뒤집기" />
+      <btnOverturnVertical ToolTip="수직으로 뒤집기" />
+      <btnRotateRight ToolTip="오른쪽으로 회전" />
+      <btnRotateLeft ToolTip="왼쪽으로 회전" />
+      <btnClipObject ToolTip="개체 잘라내기" />
+      <btnReplaceImage ToolTip="이미지 바꾸기" />
+      <btnArrangeDistribute ToolTip="선택한 모든 개체 배포" />
+      <btnArrangeAlignment ToolTip="선택한 모든 개체 정렬" />
+      <lblOpacityTitle Text="불투명도" />
+      <lblActionTitle Text="동작" />
+    </ContentPropertyPage>
+    <TextPropertyFloatControl>
+      <btnFontZoomIn ToolTip="글꼴 크기 늘리기" />
+      <btnFontZoomOut ToolTip="글꼴 크기 줄이기" />
+      <btnFontBold ToolTip="선택한 텍스트를 굵게 만들기" />
+      <btnFontItalic ToolTip="선택한 텍스트를 기울임꼴로 표시" />
+      <btnFontUnderline ToolTip="밑줄" />
+      <btnFontStrikeout ToolTip="취소선" />
+    </TextPropertyFloatControl>
+    <FieldSelectorForm Text="필드 선택">
+      <btnOK Text="확인" />
+      <btnCancel Text="취소" />
+      <lblSelectFieldText Text="필드 선택" />
+      <cbSelectAll Text="모두 선택" />
+    </FieldSelectorForm>
+    <JavaScriptEditorForm Text="Javascript 편집기">
+      <btnSelectLine Text="이동…" />
+      <btnCancel Text="취소" />
+      <btnOK Text="확인" />
+      <lblTitle Text="JavaScript 생성 및 편집" />
+    </JavaScriptEditorForm>
+    <LineSelectorForm Text="행으로 이동">
+      <lblLineNumber Text="행 번호" />
+      <btnOK Text="확인" />
+      <btnCancel Text="취소" />
+    </LineSelectorForm>
+    <OpenWaySelectorForm Text="공개 기본 설정 지정">
+      <lblOpenDocumentWay Text="문서를 여는 방법을 지정하세요." />
+      <rbNewWindow Text="새 창" />
+      <rbExistingWindow Text="기존 창" />
+      <btnOK Text="확인" />
+      <btnCancel Text="취소" />
+    </OpenWaySelectorForm>
+    <PreviewPageSelectorForm Text="페이지 보기로 이동">
+      <btnOK Text="확인" />
+      <btnCancel Text="취소" />
+      <pagePreview1 Text="페이지 미리보기 1" />
+      <pagePreviewPanel Text="페이지 미리보기 패널 1">
+      </pagePreviewPanel>
+    </PreviewPageSelectorForm>
+    <ShowHideFieldSelectorForm Text="필드 표시/숨기기">
+      <btnOK Text="확인" />
+      <btnCancel Text="취소" />
+      <cbSelectAll Text="모두 선택" />
+      <lblSelectFieldText Text="필드 선택" />
+      <rbShow Text="표시" />
+      <rbHide Text="숨기기" />
+    </ShowHideFieldSelectorForm>
+    <SubmitFormForm Text="양식 전송">
+      <lblDateOptionInfo Text="날짜는 YYYYMMDD 형식으로 제출됩니다.." />
+      <cbConvertDate Text="날짜를 표준 형식으로 변환" />
+      <lblEnterURL Text="URL" />
+      <rbFDF Text="FDF" />
+      <rbHTML Text="HTML" />
+      <rbXFDF Text="XFDF" />
+      <rbPDF Text="PDF" />
+      <cbFieldData Text="필드 데이터" />
+      <cbComments Text="주석" />
+      <cbIncrementalPDF Text="PDF 증분 변경" />
+      <cbCommentsXFDF Text="주석" />
+      <cbFieldDataXFDF Text="필드 데이터" />
+      <cbSelectAll Text="모두 선택" />
+      <lblUrlMethod Text="제출" />
+      <btnCancel Text="취소" />
+      <btnOK Text="확인" />
+      <gLabel1 Text="내보내기 형식" />
+      <gLabel2 Text="저장 방법" />
+      <gLabel3 Text="날짜 옵션" />
+      <gLabel4 Text="필드 선택" />
+    </SubmitFormForm>
+    <UrlEditorForm Text="웹 링크 열기">
+      <lblEnterUrl Text="이 링크의 URL을 입력하세요" />
+      <btnOK Text="확인" />
+      <btnCancel Text="취소" />
+    </UrlEditorForm>
+    <CalculationOrderForm Text="계산 순서">
+      <btnOK Text="확인" />
+      <btnCancel Text="취소" />
+      <lblSelectFieldText Text="양식 필드" />
+      <btnUp Text="위로" />
+      <btnDown Text="아래로" />
+    </CalculationOrderForm>
+    <LaunchFileForm Text="파일 시작">
+      <chbxShow Text="이 메시지 다시 보지 않기." />
+      <btnOpen Text="열기" />
+      <btnNoOpen Text="열지 않기" />
+      <lblFilePath Text="파일 경로:" />
+    </LaunchFileForm>
+    <ButtonIconPlacementForm Text="아이콘 배치">
+      <lblWhenToScale Text="확장 시기:" />
+      <lblScale Text="규모:" />
+      <cbFitBounds Text="경계에 맞추기" />
+      <lblButton Text="단추" />
+      <lblIcon Text="아이콘" />
+      <lblUse Text="대화 상자를 사용하여 크기에 맞게 아이콘을 조정합니다." />
+      <btnReset Text="다시 설정" />
+      <btnOK Text="확인" />
+      <btnCancel Text="취소" />
+      <lblLocation Text="(100,100)" />
+    </ButtonIconPlacementForm>
+    <FieldPropertyForm>
+      <lblFormTitle Text="속성" />
+      <btnGeneral Text="일반" />
+      <btnAppearance Text="디자인" />
+      <btnPosition Text="위치" />
+      <btnTextBoxOtpion Text="옵션" />
+      <btnCheckBoxOption Text="옵션" />
+      <btnRadioBoxOption Text="옵션" />
+      <btnListBoxOption Text="옵션" />
+      <btnComboBoxOption Text="옵션" />
+      <btnButtonOption Text="옵션" />
+      <btnActions Text="동작" />
+      <btnSelectionChange Text="선택 변경" />
+      <btnSigned Text="서명됨" />
+      <btnFormat Text="양식" />
+      <btnValidate Text="유효성 검사" />
+      <btnCalculate Text="계산" />
+      <btnClose Text="닫기" />
+      <cbLocked Text="잠금" />
+    </FieldPropertyForm>
+    <ActionSettingPanel>
+      <lblSelectTrigger Text="트리거 선택:" />
+      <lblSelectAction Text="작업 선택:" />
+      <btnUp Text="위로" />
+      <btnDown Text="아래로" />
+      <btnEdit Text="편집" />
+      <btnDelete Text="삭제" />
+      <lblAddAction Text="작업 추가" />
+      <lblActions Text="동작" />
+      <btnAdd Text="추가" />
+    </ActionSettingPanel>
+    <AppearancePropertyPanel>
+      <lblBorderColor Text="테두리 색" />
+      <lblFillColor Text="채우기 색" />
+      <lblLineThickness Text="선 두께" />
+      <lblLineStyle Text="선 스타일" />
+      <lblFontSize Text="크기" />
+      <lblTextColor Text="텍스트 색" />
+      <lblFont Text="글꼴" />
+      <gLabel1 Text="테두리와 색" />
+      <gLabel2 Text="텍스트" />
+      <gLabel3 Text="스타일" />
+    </AppearancePropertyPanel>
+    <ButtonOptionPropertyPanel>
+      <lblLayout Text="레이아웃" />
+      <lblBehavior Text="동작" />
+      <btnAdvanced Text="고급" />
+      <lblState Text="동작 상태" />
+      <lblLabel Text="레이블" />
+      <lblIcon Text="아이콘" />
+      <btnChooseIcon Text="아이콘 선택" />
+      <btnClear Text="지우기" />
+    </ButtonOptionPropertyPanel>
+    <CalculatePropertyPanel>
+      <rbValueNotCalculated Text="값이 계산되지 않음" />
+      <rbValueIs Text="값은" />
+      <lblFollowingField Text="다음 필드 중:" />
+      <btnPick Text="값을 다시 계산하면 원본이 삭제되고 복원이 불가능합니다." />
+      <lblCustomCalculateWarning Text="값을 다시 계산하면 원본이 삭제되고 복원이 불가능합니다." />
+      <rbRunCalculate Text="사용자 지정 계산 스크립트 실행" />
+      <rbSimplifiedFieldNotation Text="단순화된 필드 표기법" />
+      <btnSimplifiedFieldNotationEdit Text="편집" />
+    </CalculatePropertyPanel>
+    <CheckBoxOptionPropertyPanel>
+      <lblCheckboxStyle Text="확인란 스타일" />
+      <lblCheckboxExportValue Text="값 내보내기" />
+      <cbDefaultChecked Text="확인란은 기본적으로 선택되어 있습니다." />
+      <lblCheckboxOptionInfo Text="한 번에 하나 이상의 항목을 선택할 수 있는 항목 목록을 만들려면 확인란을 사용해야 합니다. 하나의 항목만 선택할 수 있는 항목 목록을 만들려면 라디오 버튼 필드를 사용합니다." />
+    </CheckBoxOptionPropertyPanel>
+    <ComboBoxOptionPropertyPanel BaseType="ListOptionPropertyPanelBase">
+      <cbAllowEnterText Text="사용자가 사용자 정의 텍스트를 입력하도록 허용" />
+      <cbCommit Text="선택한 값을 즉시 입력" />
+    </ComboBoxOptionPropertyPanel>
+    <FormatPropertyPanel>
+      <lblSelectFormat Text="형식 카테고리 선택:" />
+    </FormatPropertyPanel>
+    <CustomFormatSettingPanel>
+      <lblOptions Text="사용자 지정 옵션" />
+      <btnCustomKeystrokeEdit Text="편집" />
+      <lblCustomKeystrokeScript Text="사용자 정의 키 입력 스크립트:" />
+      <btnCustomFormatEdit Text="편집" />
+      <lblCustomFormat Text="사용자 정의 형식 스크립트:" />
+      <lblCustom Text="사용자 지정 형식 및 키 입력 유효성 검사를 위해 Javascript를 정의하는 기능" />
+    </CustomFormatSettingPanel>
+    <DateFormatSettingPanel>
+      <lblDateExample Text="현재 형식의 예:" />
+      <lblDate Text="날짜 형식 범주를 사용하여 날짜만 표시하거나 날짜 및 시간 값을 모두 표시하고 시간 형식 범주를 사용하여 시간만 표시합니다." />
+      <lblOptions Text="날짜 옵션" />
+    </DateFormatSettingPanel>
+    <NoneFormatSettingPanel>
+      <gLabelNone Text="필드 값은 입력한대로 형식이 지정됩니다. 필드를 자동으로 형식화하려면 형식 범주 목록에서 형식을 선택합니다." />
+    </NoneFormatSettingPanel>
+    <NumberFormatSettingPanel>
+      <lblDecimalPlaces Text="소수 자릿수" />
+      <lblSeparatorStyle Text="구분 기호 스타일" />
+      <lblCurrencySymbol Text="통화 기호" />
+      <lblNegativeNumberStyle Text="음수 스타일" />
+      <lblExample Text="현재 형식의 예:" />
+      <cbbDecimalPlaces>
+        <Items>0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10</Items>
+      </cbbDecimalPlaces>
+      <cbShowParentheses Text="괄호 표시" />
+      <cbUseRedText Text="빨간색 텍스트 사용" />
+      <lblShowExample Text="-4,123.03" />
+      <lblNumber Text="숫자 형식의 카테고리를 사용하여 화폐 종류를 포함한 숫자를 표시합니다." />
+      <lblNumberOptions Text="번호 옵션" />
+    </NumberFormatSettingPanel>
+    <PercentFormatSettingPanel>
+      <lblPercentage Text="백분율 형식 범주는 필드 값에 100을 곱하고 백분율 기호로 표시합니다." />
+      <lblPercentageDecimal Text="소수 자릿수" />
+      <cbbPercentageDecimal>
+        <Items>0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10</Items>
+      </cbbPercentageDecimal>
+      <lblSeparator Text="구분 기호 스타일" />
+      <lblPercantageShowExample Text="1,234.56%" />
+      <lblPercantageExample Text="현재 형식의 예:" />
+      <lblOptions Text="백분율 옵션" />
+    </PercentFormatSettingPanel>
+    <SpecialFormatSettingPanel>
+      <lblOptions Text="특수 옵션" />
+      <lblSpecial Text="특수 형식 범주를 사용하여 지정 형식을 설정하고 전화 번호, 우편 번호 및 주민등록번호를 표시합니다." />
+    </SpecialFormatSettingPanel>
+    <TimeFormatSettingPanel>
+      <lblTimeExample Text="현재 형식의 예:" />
+      <lblTime Text="시간 형식 범주를 사용하여 시간 값만 표시" />
+      <lblOptions Text="시간 옵션" />
+    </TimeFormatSettingPanel>
+    <GeneralPropertyPanel>
+      <lblName Text="이름" />
+      <lblTooltip Text="도구 설명" />
+      <lblFormField Text="폼 필드" />
+      <cbReadOnly Text="읽기 전용" />
+      <cbRequired Text="필수 항목" />
+      <gLabel1 Text="일반 속성" />
+    </GeneralPropertyPanel>
+    <ListBoxOptionPropertyPanel BaseType="ListOptionPropertyPanelBase">
+      <cbCommit Text="선택한 값을 즉시 입력" />
+      <cbMultipleSelection Text="다중 선택" />
+    </ListBoxOptionPropertyPanel>
+    <ListOptionPropertyPanelBase>
+      <lblItem Text="아이템" />
+      <lblExportValue Text="값 내보내기" />
+      <lblItemList Text="아이템 리스트" />
+      <btnItemAdd Text="추가" />
+      <btnDeleteItemList Text="삭제" />
+      <btnUpItemList Text="위로" />
+      <btnDownItemList Text="아래로" />
+      <cbSortItem Text="항목 정렬" />
+      <lblListOptionInfo Text="목록에서 항목을 선택하여 기본 선택으로 만듭니다." />
+    </ListOptionPropertyPanelBase>
+    <PositionlPropertyPanel>
+      <gGroupBoxCommonProperties Text="위치">
+      </gGroupBoxCommonProperties>
+      <gLabel1 Text="왼쪽 맞춤:" />
+      <gLabel2 Text="오른쪽 맞춤:" />
+      <gLabel3 Text="위쪽 맞춤:" />
+      <gLabel4 Text="아래쪽 맞춤:" />
+      <gLabel5 Text="너비:" />
+      <gLabel7 Text="높이:" />
+      <cbChangeSize Text="위치를 변경할 때 높이와 너비를 변경하지 마십시오." />
+    </PositionlPropertyPanel>
+    <RadioBoxOptionPropertyPanel>
+      <lblRadiobuttonOptionInfo Text="상호 배타적인 라디오 버튼 세트(즉, 한 번에 하나만 선택할 수 있음)를 만들려면 필드에 동일한 이름을 지정하고 다른 버튼 선택을 할당합니다." />
+      <cbSameChoiceSelect Text="동일한 이름과 버튼 선택을 가진 버튼이 동시에 선택됩니다." />
+      <cbChecked Text="버튼은 기본적으로 선택되어 있습니다." />
+      <lblRadioButtonChoice Text="라디오 버튼 선택" />
+      <lblButtonStyle Text="단추 스타일" />
+    </RadioBoxOptionPropertyPanel>
+    <SelectionChangePropertyPanel>
+      <lblSelectionChanges Text="목록 상자 선택이 변경되는 경우:" />
+      <rbDoNothing Text="아무 작업도 하지 않음" />
+      <rbExecuteScript Text="이 스크립트를 실행하십시오." />
+      <btnSelectionChangeScriptEdit Text="편집" />
+      <lblWarning4 Text="선택 변경을 위한 사용자 지정 컨텐츠가 있습니다.  &quot;아무것도 하지 않음&quot;을 선택하면 원본 스크립트가 삭제되고 이를 복원할 수 없습니다." />
+    </SelectionChangePropertyPanel>
+    <SignedPropertyPanel>
+      <rbNothingHappen Text="Nothing happens when signed" />
+      <rbMarkReadOnly Text="읽기 전용으로 표시:" />
+      <rbSignScriptExecute Text="사용자 지정 스크립트 실행" />
+      <btnSignedPick Text="선택" />
+      <btnSignScriptExecute Text="편집" />
+      <lblSignedWarning Text="서명에 대한 사용자 정의 스크립트가 있습니다. 다른 작업으로 전환하면 원본 스크립트가 삭제되고 복원할 수 없습니다." />
+    </SignedPropertyPanel>
+    <TextBoxOptionPropertyPanel>
+      <lblCharacters2 Text="문자" />
+      <cbCombOf Text="빗" />
+      <cbCheckSpell Text="맞춤법 검사" />
+      <cbPassword Text="암호" />
+      <lblCharacters Text="문자" />
+      <cbLimitOf Text="제한" />
+      <cbScrollLongText Text="긴 텍스트 스크롤" />
+      <cbMultiLine Text="여러 줄" />
+      <gLabelDefaultValue Text="기본값" />
+      <gLabelAlignment Text="맞춤" />
+      <cbFieldIsUse Text="필드는 파일 선택에 사용됩니다." />
+    </TextBoxOptionPropertyPanel>
+    <ValidatePropertyPanel>
+      <tbFieldValueInvalidate Text="필드 값이 확인되지 않았습니다" />
+      <tbFieldValueRange Text="필드 값이 범위 내에 있습니다:" />
+      <btnRunScriptEdit Text="편집" />
+      <btnRunScript Text="사용자 지정 유효성 검사 스크립트를 실행합니다." />
+      <lblCustomValidateWarning Text="사용자 지정 유효선 검사 스크립트가 있습니다. 필드 값의 유효성을 검사하는 다른 방법을 서택하면 사용자 지정 유효성 검사 스크립트가 삭제되고 복원할 수 없습니다." />
+      <lblFrom Text="보낸 사람:" />
+      <lblTo Text="받는 사람:" />
+    </ValidatePropertyPanel>
+    <AcroFormMsgBarPage>
+      <lblTip Text="이 문서에는 대화형 양식 필드가 포함되어 있습니다." />
+      <btnHighlight Text="하이라이트 필드" />
+    </AcroFormMsgBarPage>
+    <ArchivesMsgBarPage>
+      <lblTip Text="이 파일은 {0} 표준을 준수한다고 주장하며, 수정을 방지하기 위해 읽기 전용으로 설정되어 있습니다." />
+      <btnStartEditing Text="편집 사용" />
+    </ArchivesMsgBarPage>
+    <ScanMsgBarPage>
+      <lblTip Text="스캔된 PDF임을 감지하고 스탠한 PDF 문서에서 텍스트를 복사, 편집 및 검색할 수 있는 OCR을 수행하는 것이 좋습니다." />
+      <btnExecuteOcr Text="OCR 수행" />
+      <btnNotShow Text="이 파일을 다시 표시하지 않음" />
+    </ScanMsgBarPage>
+    <SecurityMsgBarPage>
+      <lblTip Text="이 문서는 보호됩니다. 편집을 활성화하려면 권한 암호를 입력하세요." />
+      <btnStartEditing Text="편집 사용" />
+      <lblProtectedView Text="문서 제한" />
+    </SecurityMsgBarPage>
+    <SignedMsgBarPage>
+      <lblTip Text="Tip:SignedMsgBarPage" />
+      <btnJumpTo Text="서명으로 이동" />
+      <btnHighlight Text="하이라이트 필드" />
+    </SignedMsgBarPage>
+    <XFAMsgBarPage>
+      <lblTip Text="이 문서에는 XFA 양식 필드가 포함되어 있습니다." />
+      <btnHighlight Text="하이라이트 필드" />
+    </XFAMsgBarPage>
+    <AnnotationsPage Text="주석">
+      <btnExport ToolTip="주석 내보내기" />
+      <btnImport ToolTip="주석 가져오기" />
+      <btnSortMenu ToolTip="정렬 기준" />
+    </AnnotationsPage>
+    <cmsAnnotation>
+      <miDelete ShortcutKeyDisplayString="" Text="삭제" ToolTipText="" />
+      <miExpandAll ShortcutKeyDisplayString="" Text="모두 확장" ToolTipText="" />
+      <miCollapseAll ShortcutKeyDisplayString="" Text="모두 축소" ToolTipText="" />
+    </cmsAnnotation>
+    <cmsSort>
+      <miSortByPage ShortcutKeyDisplayString="" Text="페이지" ToolTipText="" />
+      <miSortByDate ShortcutKeyDisplayString="" Text="날짜" ToolTipText="" />
+      <miSortByAuthor ShortcutKeyDisplayString="" Text="작성자" ToolTipText="" />
+      <miSortByType ShortcutKeyDisplayString="" Text="종류" ToolTipText="" />
+    </cmsSort>
+    <AnnotListItem />
+    <AttachListItem />
+    <AttachmentsPage Text="첨부 파일">
+      <btnDel ToolTip="첨부 파일 삭제" />
+      <btnEdit ToolTip="설명 편집" />
+      <btnAdd ToolTip="첨부 파일 추가" />
+      <btnSaveAs ToolTip="첨부 파일 다른 이름으로 저장" />
+      <btnOpen ToolTip="첨부 파일 열기" />
+      <miOpen ShortcutKeyDisplayString="" Text="첨부 파일 열기" ToolTipText="" />
+      <miSaveAs ShortcutKeyDisplayString="" Text="첨부 파일 저장" ToolTipText="" />
+      <miAdd ShortcutKeyDisplayString="" Text="첨부 파일 추가" ToolTipText="" />
+      <miEdit ShortcutKeyDisplayString="" Text="설명 편집" ToolTipText="" />
+      <miDelete ShortcutKeyDisplayString="" Text="삭제" ToolTipText="" />
+      <miExpandAll ShortcutKeyDisplayString="" Text="모두 확장" ToolTipText="" />
+      <miCollapseAll ShortcutKeyDisplayString="" Text="모두 축소" ToolTipText="" />
+    </AttachmentsPage>
+    <BookmarksPage Text="책갈피">
+      <miDelete ShortcutKeyDisplayString="" Text="책갈피 삭제" ToolTipText="" />
+      <miRename ShortcutKeyDisplayString="" Text="책갈피 이름 바꾸기" ToolTipText="" />
+      <miAdd ShortcutKeyDisplayString="" Text="책갈피 추가" ToolTipText="" />
+      <miAddChild ShortcutKeyDisplayString="" Text="하위 추가" ToolTipText="" />
+      <miSetDestination ShortcutKeyDisplayString="" Text="대상 설정" ToolTipText="" />
+      <miExpandAll ShortcutKeyDisplayString="" Text="모든 책갈피 확장" ToolTipText="" />
+      <miCollapseAll ShortcutKeyDisplayString="" Text="모든 책갈피 축소" ToolTipText="" />
+      <miPrintPages ShortcutKeyDisplayString="" Text="인쇄 페이지" ToolTipText="" />
+      <btnAdd Text="추가" />
+      <lblNoBookmark Text="책갈피가 없습니다." />
+    </BookmarksPage>
+    <BottomStatusBar>
+      <btnHand ToolTip="문서를 이동하려면 클릭하세요." />
+      <btnSelect ToolTip="텍스트와 이미지를 선택하려면 클릭하세요." />
+      <btnZoomOut ToolTip="축소" />
+      <btnZoomIn ToolTip="확대" />
+      <btnPrevPage ToolTip="이전 페이지" />
+      <btnNextPage ToolTip="다음 페이지" />
+      <btnHide ToolTip="왼쪽으로 숨기기" />
+    </BottomStatusBar>
+    <NavigatePage>
+      <btnThumbnail ToolTip="썸네일" />
+      <btnBookmark ToolTip="책갈피" />
+      <btnAnnotations ToolTip="주석" />
+      <btnAttachments ToolTip="첨부 파일" />
+      <btnSearch ToolTip="검색" />
+      <btnSearchForRedaction ToolTip="교정 검색" />
+      <labTitle Text="썸네일" />
+      <btnClose ToolTip="닫기" />
+      <btnOptionalContent ToolTip="레이어" />
+    </NavigatePage>
+    <NavigateStatusBar>
+      <btnShowStatus ToolTip="문서에 표시" />
+      <btnZoomIn ToolTip="확대" />
+      <btnZoomOut ToolTip="축소" />
+      <btnSelect ToolTip="텍스트와 이미지를 선택하려면 클릭하세요." />
+      <btnHand ToolTip="문서를 움직이려면 클릭하세요." />
+    </NavigateStatusBar>
+    <OptionalContentPage Text="레이어">
+      <btnOperationMenu ToolTip="Options" />
+    </OptionalContentPage>
+    <OptionContentPropertyForm Text="레이어 속성">
+      <btnCancel Text="취소" />
+      <btnOK Text="예" />
+      <lblLayerName Text="레이어 이름:" />
+      <lblIntent Text="의도:" />
+      <rbtnView Text="미리보기" />
+      <rbtnReference Text="참조" />
+      <lblDefaultState Text="기본 상태:" />
+      <chkLocked Text="잠금" />
+      <lblIniteVisible Text="표시 상태:" />
+      <lblInitePrint Text="인쇄:" />
+      <lblInitExport Text="내보내기:" />
+      <lblPropertyTitle Text="속성" />
+      <gLabel1 Text="초기 상태" />
+      <gLabel2 Text="잠금 상태" />
+    </OptionContentPropertyForm>
+    <cmsOptionalContetNode>
+      <miVisible Text="레이어 표시" />
+      <miRename Text="이름 변경" />
+      <miDelete Text="레이어 삭제" />
+      <miProperty Text="속성" />
+    </cmsOptionalContetNode>
+    <cmsOptionalContentTree>
+      <miListAllPagesLayers Text="모든 페이지의 레이어를 표시하기" />
+      <miListVisiblePagesLayer Text="보이는 페이지에 대한 레이어 나열" />
+      <miReset Text="레이어 표시를 초기 상태로 재설정" />
+      <miExpandAll Text="모두 확장" />
+      <miCollapseAll Text="모두 숨기기" />
+      <miApplyPrint Text="인쇄 설정 우선 적용" />
+      <miApplyExport Text="내보내기 설정 우선 적용" />
+      <miApplyLayer Text="레이어 설정 우선 적용" />
+      <miDeleteLayer Text=" 레이어 삭제" />
+      <miLayerProperty Text="레이어 속성" />
+    </cmsOptionalContentTree>
+    <InsertBlankPageForm Text="삽입">
+      <gLabel1 Text="페이지 수:" />
+      <btnOK Text="확인" />
+      <lblLimiteInfo Text="제한된 &quot;1-100&quot;정수" />
+    </InsertBlankPageForm>
+    <InsertPageForm Text="삽입">
+      <lblInsert Text="삽입" />
+      <lblPlaceAt Text="장소" />
+      <rdoFirstPage Text="첫 페이지" />
+      <rdoLastPage Text="마지막 페이지" />
+      <rdoPage Text="페이지" />
+      <lblLocation Text="위치:" />
+      <btnCancel Text="취소" />
+      <btnOK Text="확인" />
+      <lblSlash Text="/" />
+      <rdoBefore Text="이전" />
+      <rdoAfter Text="이후" />
+    </InsertPageForm>
+    <PageLabelSettingForm Text="페이지 레이블">
+      <btnOK Text="적용" />
+      <btnCancel Text="취소" />
+      <btnDefault Text="모두 지우기" />
+      <lblPageRangeTitle Text="페이지 범위" />
+      <lblPageNumbering Text="페이지 번호 매기기" />
+      <lblStyle Text="스타일" />
+      <lblPrifix Text="접두사" />
+      <lblStartNumber Text="시작" />
+      <rdoNewSection Text="새 섹션 시작" />
+      <rdoContinue Text="이전 섹션에서 사용된 번호 매기기를 선택한 페이지로 확장" />
+      <rdoAllPages Text="모든 페이지" />
+      <rdoSelectedPages Text="선택한 페이지" />
+      <rdoPageRange Text="범위" />
+      <lblTo Text="에게" />
+      <lblSamples Text="1,2,3..." />
+      <lblSampleTitle Text="예:" />
+    </PageLabelSettingForm>
+    <ReplaceForm Text="바꾸기">
+      <lblSelectPage Text="페이지 바꾸기" />
+      <lblReplace Text="페이지 포함" />
+      <lblSelectFile Text="FROM" />
+      <btnOK Text="확인" />
+      <btnCancel Text="취소" />
+      <txtFilePath Text="선택된 파일이 없습니다">
+      </txtFilePath>
+      <lblTo Text="받는 사람" />
+      <lblIn Text="범위" />
+      <lblTo2 Text="받는 사람" />
+      <lblAddedDocPagesCount Text="/" />
+    </ReplaceForm>
+    <RotateForm Text="페이지 회전">
+      <btnOK Text="확인" />
+      <btnCancel Text="취소" />
+      <lblDirection Text="방향" />
+      <lblTitle Text="회전" />
+      <pageRangePanel GropName="페이지 범위" />
+    </RotateForm>
+    <SearchForRedactionPage Text="검색 &amp; 수정">
+      <chkMatchWholeWord Text="단어 단위로" />
+      <chkMatchCase Text="대/소문자 구분" />
+      <lblCount Text="0개의 결과" />
+      <btnApply Text="모든 마크 적용" />
+      <btnClear Text="결과 지우기" />
+    </SearchForRedactionPage>
+    <SearchPanelItem Text="검색">
+      <chkMatchCase Text="대/소문자 구분" />
+      <chkMatchWholeWord Text="단어 단위로" />
+      <lblTitle Text="현재 문서에서 단어나 구문을 검색하고 결과를 나열합니다." />
+    </SearchPanelItem>
+    <SearchReplacePanel>
+      <btnReplace Text="바꾸기" />
+      <btnReplaceAll Text="모두 바꾸기" />
+      <lbFind Text="찾기" />
+      <btnSearchPrev Text="이전" ToolTip="이전 텍스트를 찾습니다." />
+      <btnSearchNext Text="다음" ToolTip="다음 텍스트를 찾습니다." />
+      <ckbWholeWordsOnly Text="단어 단위로" />
+      <ckbCaseSensitive Text="대/소문자 구분" />
+      <ckbReplaceWith Text="바꿀 내용" />
+    </SearchReplacePanel>
+    <ThumbnailsPage Text="썸네일" />
+    <OcrSettingForm Text="OCR PDF">
+      <lblOcrDescription Text="OCR은 스캔한 PDF 문서를 편집하거나 검색할 수 있도록 합니다." />
+      <lblScanOption Text="스캔 옵션" />
+      <rdoSelectedPages Text="선택된 페이지" />
+      <rdoAllPages Text="모든 페이지" />
+      <rdoPageRange Text="범위" />
+      <lblPageRangeTitle Text="페이지 범위" />
+      <btnApply Text="적용" />
+      <btnCancel Text="취소" />
+      <lblLanguage Text="문서 언어" />
+      <btnChangeLanguage Text="언어 바꾸기" />
+      <rdoEditableText Text="편집 가능한 텍스트로 스캔" />
+      <rdoSearchableText Text="이미지에서 검색 가능한 텍스트로 스캔" />
+      <btnEditableText ToolTip="PDF 이미지의 텍스트는 스캔 후 편집 할 수 있습니다." />
+      <btnSearchableText ToolTip="PDF 이미지의 텍스트는 스캔 후에 만 ​​검색 할 수 있습니다." />
+      <lblTo Text="TO" />
+    </OcrSettingForm>
+    <OcrRegionPropertyPage>
+      <btnRecognize Text="인식" />
+    </OcrRegionPropertyPage>
+    <OptimizeForm Text="PDF 최적화">
+      <rdoLowCompression Text="낮음" />
+      <rdoMediumCompression Text="보통" />
+      <rdoHighCompression Text="높음" />
+      <lblHighDesc Text="강한 압축,&#xA;저품질" />
+      <lblMediumDesc Text="중간 압축,&#xA;중간 품질" />
+      <lblLowDesc Text="약한 압축,&#xA;고품질" />
+      <lblFinalSize Text="최종 크기:" />
+      <lblSizeReduced Text="크기 감소:" />
+      <lblFail Text="이 PDF의 크기가 최대한으로 축소되었으며 더 이상 축소할 수 없습니다." />
+      <btnApply Text="적용" />
+      <btnCancel Text="취소" />
+      <btnOpen Text="열기" />
+      <btnStartOver Text="다시 시작" />
+    </OptimizeForm>
+    <ExitTipPanel>
+      <gLabelBorderColor Text="전체 화면을 종료하려면 &quot;ESC&quot;를 누르십시오." />
+    </ExitTipPanel>
+    <FullScreenForm Text="전체 화면 양식">
+      <docTabControl Text="문서 탭 컨트롤">
+      </docTabControl>
+    </FullScreenForm>
+    <BlankPortfolioView>
+      <btnAddFiles Text="파일 추가하기" />
+      <btnAddFolder Text="폴더 추가하기" />
+    </BlankPortfolioView>
+    <DetailPortfolioView>
+      <btnOpen Text="열기" />
+    </DetailPortfolioView>
+    <FileIconView>
+      <btnOpen Text="열기" />
+    </FileIconView>
+    <FilePreviewView>
+      <btnPreView Text="미리보기" />
+      <btnAlwaysCheck Text="항상 이 유형의 파일을 신뢰하고 미리보기를 표시합니다." />
+    </FilePreviewView>
+    <FilePropertiesForm Text="파일 속성">
+      <btnOK Text="확인" />
+      <lblSize Text="크기" />
+      <lblCreated Text="만든 날짜" />
+      <lblModified Text="수정한 날짜" />
+    </FilePropertiesForm>
+    <NewFolderForm Text="새로운 폴더">
+      <btnEnterfolderName Text="폴더 이름 입력하기" />
+      <btnOK Text="확인" />
+      <btnCancel Text="취소" />
+    </NewFolderForm>
+    <OpenFileForm Text="파일 열기">
+      <btnOK Text="확인" />
+      <btnCancel Text="취소" />
+      <lblWouldyouLikeTo Text="다음 프로세스를 진행하시겠습니까?" />
+      <rbOpenFile Text="파일 열기" />
+      <rbAlwayallowOpen Text="다음 형식의 파일을 항상 열 수 있습니다" />
+      <rbNotOpenFile Text="파일 열지 않기" />
+    </OpenFileForm>
+    <PdfFileViewFloater>
+      <btnExtract ToolTip="내보내기" />
+      <btnPrint ToolTip="인쇄" />
+      <btnZoomOut ToolTip="축소" />
+      <btnZoomIn ToolTip="확대" />
+      <btnPrevious ToolTip="이전" />
+      <btnNext ToolTip="다음" />
+    </PdfFileViewFloater>
+    <PortfolioListView>
+      <btnDetails ToolTip="세부 정보" />
+      <btnIcons ToolTip="레이아웃" />
+      <btnDelete ToolTip="포트폴리오에서 삭제..." />
+      <btnExtract ToolTip="포트폴리오에서 추출..." />
+      <btnAdd ToolTip="파일 추가..." />
+      <btnGoBack ToolTip="돌아가기" />
+    </PortfolioListView>
+    <cmsPortfolioContext>
+      <tsmiOpen Text="열기" />
+      <tsmiExtract Text="내보내기" />
+      <tsmiDelete Text="삭제" />
+      <tsmiProperties Text="속성" />
+      <tsmiSortBy Text="정렬 기준" />
+      <tsmiName Text="이름" />
+      <tsmiType Text="종류" />
+      <tsmiSize Text="크기" />
+      <tsmiCreated Text="만든 날짜" />
+      <tsmiIncrease Text="증가" />
+      <tsmiDecrease Text="감소" />
+      <tsmiSelectAll Text="모두 선택" />
+    </cmsPortfolioContext>
+    <cmsPortfolioAdd>
+      <tsmiAddFiles Text="파일 추가" />
+      <tsmiAddFolder Text="폴더 추가" />
+      <tsmiCreateFolder Text="폴더 생성..." />
+    </cmsPortfolioAdd>
+    <FilePrintForm Text="파일 인쇄 양식">
+      <lblPrint Text="인쇄" />
+      <lblPrinter Text="프린터" />
+      <lblCopies Text="인쇄 매수" />
+      <lblPageSize Text="용지 크기" />
+      <ckbGrayPrint Text="흑백 인쇄" />
+      <lblQrientation Text="방향" />
+      <btnPrint Text="인쇄" />
+      <ckbForm Text="양식" />
+      <lblPrintContent Text="내용 인쇄" />
+      <ckbComment Text="주석" />
+      <ckbReversePages Text="페이지 역순" />
+      <ckbDocument Text="문서" />
+      <ckbPrintAsImg Text="이미지로 인쇄" ToolTip="PDF를 간단한 이미지로 인쇄합니다." />
+      <lblPrintOption Text="인쇄 옵션" />
+      <btnSize Text="크기" />
+      <btnPoster Text="포스터" />
+      <btnMultiple Text="여러 페이지" />
+      <btnBooklet Text="소책자" />
+      <lblPrintMode Text="인쇄 모드" />
+      <btnAdvancePrintMode ToolTip="설정 더 보기" />
+      <ckbSelectPaper Text="PDF 페이지 크기에 따라 용지 소스 선택" />
+      <filePrintPreview Text="파일 인쇄 미리보기 1">
+      </filePrintPreview>
+    </FilePrintForm>
+    <PageRangeControl>
+      <lblPageRange Text="페이지 범위" />
+      <lblPages Text="페이지" />
+      <lblSubset Text="서브셋" />
+      <cmbPageRange>
+        <Items>모든 페이지 인쇄
+현재 페이지 인쇄
+사용자 정의 페이지 인쇄</Items>
+      </cmbPageRange>
+      <txbPages ToolTip="일부 페이지, 예:1,3,4-8,9,11-19">
+      </txbPages>
+      <cmbSubset>
+        <Items>모든 페이지
+홀수 페이지
+짝수 페이지</Items>
+      </cmbSubset>
+    </PageRangeControl>
+    <BookletPage>
+      <ckbAutoRotate Text="자동 회전" />
+      <ckbAutoCenter Text="자동 가운데 맞춤" />
+      <lblBinding Text="제본:" />
+      <lblTo Text="받는 사람" />
+      <lblSheetsFrom Text="시작 시트:" />
+      <lblBookletSubset Text="소책자 서브셋:" />
+      <cmbBinding>
+        <Items>좌
+우</Items>
+      </cmbBinding>
+      <cmbBookletSubset>
+        <Items>양면
+앞면
+뒷면</Items>
+      </cmbBookletSubset>
+    </BookletPage>
+    <MultiplePage>
+      <ckbPrintPageBorder Text="페이지 테두리 인쇄" />
+      <ckbAutoRotate Text="자동 회전" />
+      <ckbAutoCenter Text="자동 가운데 맞춤" />
+      <lblPageOrder Text="페이지 순서:" />
+      <lblPagesPerSheet Text="시트 당 페이지:" />
+      <lblX Text="X" />
+      <cmbPageOrder>
+        <Items>가로
+가로 역순
+세로
+세로 역순</Items>
+      </cmbPageOrder>
+      <cmbPagePreSheet>
+        <Items>2
+4
+6
+9
+16
+사용자 지정…</Items>
+      </cmbPagePreSheet>
+    </MultiplePage>
+    <PosterPage>
+      <ckbAutoRotate Text="자동 회전" />
+      <ckbAutoCenter Text="자동 가운데 맞춤" />
+      <ckbLabels Text="레이블" />
+      <ckbCutMarks Text="컷 마크" />
+      <lblOverlap Text="겹침:" />
+      <lblTileScale Text="타일 스케일:" />
+    </PosterPage>
+    <SizePage>
+      <ckbAutoRotate Text="자동 회전" />
+      <ckbAutoCenter Text="자동 가운데 맞춤" />
+      <rbCustomScale Text="사용자 지정 배율:" />
+      <rbActualSize Text="실제 크기" />
+      <rbFit Text="맞춤" />
+    </SizePage>
+    <FilePrintPreview>
+      <pageTurn Text="페이지 회전 제어 1">
+      </pageTurn>
+    </FilePrintPreview>
+    <PageTurnControl />
+    <PrintProgressForm Text="인쇄">
+      <btnCancel Text="취소" />
+      <lblPage Text="페이지" />
+      <lblslash Text="/" />
+    </PrintProgressForm>
+    <ProgressDialogForm Text="진행률">
+      <btnCancel Text="취소" />
+      <lblTopDescritption Text="처리 중" />
+      <lblPercent Text="0%" />
+      <lblSuccessContent Text="성공적으로 처리되었습니다." />
+      <lblSuccessTitle Text="성공적으로 처리되었습니다." />
+      <btnSuccessOk Text="열기" />
+      <btnFailOk Text="확인" />
+      <lblFailTitle Text="처리 실패" />
+      <lblFailContent Text="처리 실패" />
+    </ProgressDialogForm>
+    <ProgressForm Text="진행 양식">
+      <lblMsg Text="메시지" />
+    </ProgressForm>
+    <PropertiesForm>
+      <lblFormTitle Text="권한" />
+      <btnDescription Text="설명" />
+      <btnInitialView Text="초기 보기" />
+      <btnSecurity Text="보안" />
+      <btnFonts Text="글꼴" />
+      <btnApply Text="적용" />
+      <btnCancel Text="삭제" />
+    </PropertiesForm>
+    <DescriptionPage>
+      <lblApplication Text="프로그램:" />
+      <lblPDFVersion Text="PDF 버전:" />
+      <lblApplicationInfo Text="프로그램 정보" />
+      <lblFilePath Text="파일 경로" />
+      <lblPDFProducer Text="PDF 작성 프로그램:" />
+      <lblFileName Text="파일 이름" />
+      <lblPDFVersionInfo Text="PDF 버전 정보" />
+      <lblFileSize Text="파일 크기" />
+      <lblLastModified Text="마지막 수정:" />
+      <lblPageSizeInfo Text="페이지 크기 정보:" />
+      <lblPDFProducerInfo Text="PDF 작성 프로그램 정보" />
+      <lblFileSizeInfo Text="파일 크기 정보" />
+      <lblCreated Text="만든 날짜:" />
+      <lblNumberOfPagesInfo Text="페이지 정보" />
+      <lblLastModifiedInfo Text="마지막 수정 정보" />
+      <lblPageSize Text="페이지 크기:" />
+      <lblAuthor Text="작성자:" />
+      <lblNumberOfPages Text="페이지 번호:" />
+      <lblCreatedInfo Text="생성된 정보:" />
+      <lblTitle Text="제목:" />
+      <lblSubject Text="주제:" />
+      <lblKeywords Text="키워드:" />
+      <txbTitle PlaceHolderText="제목 입력">
+      </txbTitle>
+      <txbKeywords PlaceHolderText="키워드 입력">
+      </txbKeywords>
+      <txbAuthor PlaceHolderText="작성자 입력">
+      </txbAuthor>
+      <txbSubject PlaceHolderText="카테고리 입력">
+      </txbSubject>
+    </DescriptionPage>
+    <FontsPage>
+      <lblFonts Text="글꼴" />
+    </FontsPage>
+    <InitialViewPage>
+      <lblLayoutAndView Text="레이아웃 및 보기" />
+      <lblPageMode Text="탐색 탭:" />
+      <cmbPageMode>
+        <Items>페이지만 
+북마크 및 페이지
+썸네일 및 페이지</Items>
+      </cmbPageMode>
+      <lblPageLayout Text="레이아웃:" />
+      <cmbPageLayout>
+        <Items>기본
+단일 페이지 보기
+단일 페이지 계속
+두 페이지 보기 
+두 페이지 계속</Items>
+      </cmbPageLayout>
+      <lblPageZoom Text="보기:" />
+      <cmbPageZoom>
+        <Items>기본
+실제 크기
+페이지 맞춤
+너비 맞춤
+높이 맞춤
+10%
+25%
+50%
+75%
+100%
+125%
+150%
+200%
+400%
+800%
+1600%
+2400%
+3200%
+6400%</Items>
+      </cmbPageZoom>
+      <lblOpenToPage Text="페이지 열기:" />
+      <lblOfPage Text="/ {0}" />
+    </InitialViewPage>
+    <SecurityPage>
+      <lblPermissions Text="권한:" />
+      <btnPermissions Text="권한:" />
+      <lblPrinting Text="복사:" />
+      <lblCreationTempPages Text="임시 페이지 작성:" />
+      <lblPrintingInfo Text="허용" />
+      <lblRestrictionsSummary Text="문서 제한 사항 요약" />
+      <lblChangeDocInfo Text="허용" />
+      <lblCreationTempPagesInfo Text="허용" />
+      <lblChangeDoc Text="문서 변경:" />
+      <lblSigning Text="서명:" />
+      <lblDocAssembleInfo Text="허용" />
+      <lblSigningInfo Text="허용" />
+      <lblDocAssemble Text="문서 조립" />
+      <lblFillFormFields Text="양식 필드 채우기:" />
+      <lblContenCopyInfo Text="허용" />
+      <lblFillFormFieldsInfo Text="허용" />
+      <lblContenCopy Text="내용 복사:" />
+      <lblComment Text="주석:" />
+      <lblContentCopyAccessInfo Text="허용" />
+      <lblCommentInfo Text="허용" />
+      <lblContentCopyAccess Text="접근성을 위해 내용 복제:" />
+      <lblPageExtraction Text="페이지 추출:" />
+      <lblPageExtractionInfo Text="허용" />
+      <fileListPanel FileTips="PDF 파일을 여기로 끌어다 놓습니다." TaskName="세큐리티" />
+      <btnApply Text="적용" />
+    </SecurityPage>
+    <WatermarkPage>
+      <fileListPanel FileTips="PDF 파일을 여기로 끌어다 놓습니다." TaskName="워터마크">
+      </fileListPanel>
+      <btnApply Text="적용" />
+    </WatermarkPage>
+    <SearchSettingPanel>
+      <lblSearching Text="찾기" />
+      <cbMatchCase Text="대/소문자 구분" />
+      <cbMatchWholeWord Text="단어 단위로" />
+      <cbIncludeComments Text="메모 포함" />
+      <cbIncludeBookmarks Text="북마크 포함" />
+      <cbIncludeAttachement Text="첨부 파일 포함" />
+      <btnCancel Text="취소" />
+      <btnSearch Text="검색" />
+      <rbAllOpenDocuments Text="모든 열린 문서" />
+      <txtLocation PlaceHolderText="파일 경로" />
+      <txtSearchKey PlaceHolderText="단어 또는 구절 검색" />
+      <labFileLocation Text="파일 위치" />
+      <rbCurrentDoc Text="현재 문서" />
+      <rbBrowseLocation Text="폴더 위치 찾기" />
+    </SearchSettingPanel>
+    <SearchResultPanel>
+      <lblReplace Text="바꾸기" />
+      <lblResults Text="결과:" />
+      <btnStop Text="중단" />
+    </SearchResultPanel>
+    <ReplaceSettingPanel>
+      <lblReplaceWith Text="바꿀 내용" />
+      <lblSaveAs Text="다른 이름으로 저장" />
+      <btnApply Text="적용" />
+      <lblReplace Text="바꾸기" />
+      <lblNote Text="팁: 텍스트만 교체" />
+      <lblSelectDoc Text="문서 선택" />
+      <lblInitialText Text="초기 텍스트" />
+    </ReplaceSettingPanel>
+    <ReplaceResultPanel>
+      <lblSaveAs Text="다른 이름으로 저장" />
+      <lblResults Text="결과:" />
+      <btnCancel Text="취소" />
+      <cbOpenFolder Text="교체 완료 후 폴더 열기" />
+      <btnFinish Text="마침" />
+      <lblReplace Text="바꾸기" />
+    </ReplaceResultPanel>
+    <ReplacePanelItem Text="검색&amp;&amp;바꾸기">
+      <ckbCaseSensitive Text="대/소문자 구분" />
+      <ckbWholeWordsOnly Text="단어 단위로" />
+      <btnSearchNext Text="다음" ToolTip="다음 텍스트를 찾습니다." />
+      <btnSearchPrev Text="이전" ToolTip="이전 텍스트를 찾습니다." />
+      <btnReplace Text="바꾸기" />
+      <btnReplaceAll Text="모두 바꾸기" />
+      <lblCount Text="바꿀 내용" />
+    </ReplacePanelItem>
+    <AdvancedSearchForm Text="고급 검색">
+    </AdvancedSearchForm>
+    <FileListMessageForm>
+      <cbNeverShow Text="이 메시지 다시 보지 않기." />
+      <btnOK Text="확인" />
+    </FileListMessageForm>
+    <cmsSearchMode>
+      <tsmiSearch Text="검색" />
+      <tsmiSearchAndReplace Text="검색&amp;&amp;바꾸기" />
+      <tsmiAdvancedSearch Text="고급 검색" />
+    </cmsSearchMode>
+    <cmsFormMenu>
+      <miProperties Text="속성" />
+      <miCut Text="자르기" />
+      <miCopy Text="복사" />
+      <miPaste Text="붙여넣기" />
+      <miDelete Text="삭제" />
+      <miSelectAll Text="모두 선택" />
+      <miAlignment Text="맞춤" />
+      <miAlignLeft Text="왼쪽 맞춤" />
+      <miAlignRight Text="오른쪽 맞춤" />
+      <miAlignTop Text="위쪽 맞춤" />
+      <miAlignBottom Text="아래쪽 맞춤" />
+      <miAlignHorizontalCenter Text="가로 가운데 맞춤" />
+      <miAlignVerticalCenter Text="세로 가운데 맞춤" />
+      <miCenterPageHorizontally Text="페이지 가로 가운데" />
+      <miCenterPageVertically Text="페이지 세로 가운데" />
+      <miBoth Text="페이지 가로 세로 가운데" />
+      <miDistribute Text="배포" />
+      <miDistributeHorizontally Text="가로" />
+      <miDistributeVertically Text="세로" />
+      <miMultipleCopiesOfFields Text="여러 필드 복사본 만들기" />
+      <miSetTabOrder Text="탭 순서 설정" />
+      <miSetAsDefault Text="기본값으로 설정" />
+    </cmsFormMenu>
+    <cmsAlignment>
+      <miAlignLeft Text="왼쪽 맞춤" />
+      <miAlignRight Text="오른쪽 맞춤" />
+      <miAlignTop Text="위쪽 맞춤" />
+      <miAlignBottom Text="아래쪽 맞춤" />
+      <miAlignHorizontalCenter Text="가로 가운데 맞춤" />
+      <miAlignVerticalCenter Text="세로 가운데 맞춤" />
+      <miCenterPageHorizontal Text="페이지 가로 가운데" />
+      <miCenterPageVertical Text="페이지 세로 가운데" />
+      <miCenterPage Text="페이지 가로 세로 가운데" />
+    </cmsAlignment>
+    <cmsAnnotMenu>
+      <miAddAttachment Text="첨부 파일 열기" />
+      <miSaveAttachment Text="첨부 파일 저장" />
+      <miOpenPopupNote Text="팝업 노트 열기" />
+      <miCut Text="자르기" />
+      <miCopy Text="복사" />
+      <miPaste Text="붙여넣기" />
+      <miDelete Text="삭제" />
+      <miSelectAll Text="모두 선택" />
+      <miSetAsDefault Text="기본값으로 설정" />
+      <miProperties Text="속성" />
+      <miEditLink Text="편집" />
+    </cmsAnnotMenu>
+    <cmsContentMenu>
+      <miCut Text="자르기" />
+      <miCopy Text="복사" />
+      <miPaste Text="붙여넣기" />
+      <miDelete Text="삭제" />
+      <miSelectAll Text="모두 선택" />
+      <miZOrder Text="Z 순서" />
+      <miBringToFront Text="맨 앞으로 가져오기" />
+      <miSendToBack Text="맨 뒤로 보내기" />
+      <miBringForward Text="앞으로 가져오기" />
+      <miSendBackward Text="뒤로 보내기" />
+      <miRotateLeft Text="왼쪽으로 회전" />
+      <miRotateRight Text="오른쪽으로 회전" />
+      <miHorizontalFlip Text="수평으로 뒤집기" />
+      <miVerticalFlip Text="수직으로 뒤집기" />
+      <miExtractImage Text="이미지 추출" />
+      <miReplaceImage Text="이미지 바꾸기" />
+      <miAlignment Text="맞춤" />
+      <miDistribute Text="배포" />
+      <miProperties Text="속성" />
+    </cmsContentMenu>
+    <cmsDistribute>
+      <miDistributeHorizontally Text="가로" />
+      <miDistributeVertically Text="세로" />
+    </cmsDistribute>
+    <menuDropAddImage>
+      <miAddAsImage Text="이미지로 추가" />
+      <miCreateAsPdf Text="새 PDF 파일로 만들기" />
+    </menuDropAddImage>
+    <cmsEditMenu>
+      <miCut Text="자르기" />
+      <miCopy Text="복사" />
+      <miPaste Text="붙여넣기" />
+      <miDelete Text="삭제" />
+      <miSelectAll Text="모두 선택" />
+      <miAddText Text="텍스트 추가" />
+      <miAddImage Text="이미지 추가" />
+    </cmsEditMenu>
+    <cmsHandMenu>
+      <miZoomIn Text="확대" />
+      <miZoomOut Text="축소" />
+      <miNextView Text="다음 보기" />
+      <miPreviousView Text="이전 보기" />
+      <miRotatePages Text="페이지 회전" />
+      <miAddNote Text="노트 추가" />
+      <miAddBookmark Text="책갈피 추가" />
+      <miPrint Text="인쇄" />
+      <miShare Text="공유" />
+    </cmsHandMenu>
+    <cmsOcrRegion>
+      <miDelete Text="삭제" />
+      <miSelectAll Text="모두 선택" />
+    </cmsOcrRegion>
+    <cmsSelectMenu>
+      <miPaste Text="붙여넣기" />
+      <miSelectAll Text="모두 선택" />
+    </cmsSelectMenu>
+    <cmsShare>
+      <miSendToEvernote Text="Evernote 전송" />
+      <miSendToDropBox Text="PDF를 Dropbox로 보내기" />
+      <miSendAllToDropBox Text="열려있는 모든 PDF를 Dropbox로 보내기" />
+      <miSendToGoogleDrive Text="PDF를 Google 드라이브로 보내기" />
+      <miSendAllToGoogleDrive Text="열려있는 모든 PDF를 Google 드라이브로 보내기" />
+      <miSendToPECloud Text="PDF를 Wondershare Cloud로 보내기" />
+      <miSendAllToPECloud Text="열려있는 모든 PDF를 Wondershare Cloud로 보내기" />
+      <miSendToOneDrive Text="PDF를 OneDrive로 보내기" />
+      <miSendAllToOneDrive Text="열려있는 모든 PDF를 OneDrive로 보내기" />
+      <miSendToBox Text="PDF를 Box로 보내기" />
+      <miSendAllToBox Text="열려있는 모든 PDF를 Box로 보내기" />
+      <miSendToBaiduPan Text="PDF를 BaiduPan로 보내기" />
+      <miSendAllToBaiduPan Text="열려있는 모든 PDF를 BaiduPan로 보내기" />
+    </cmsShare>
+    <cmsTextEdit>
+      <miCut Text="자르기" />
+      <miCopy Text="복사" />
+      <miPaste Text="붙여넣기" />
+      <miDelete Text="삭제" />
+      <miSelectAll Text="모두 선택" />
+      <miCreateLink Text="연결 만들기" />
+      <miProperties Text="속성" />
+    </cmsTextEdit>
+    <cmsTextSelectionMenu>
+      <miCopyText Text="텍스트 복사" />
+      <miSelectAll Text="모두 선택" />
+      <miDeselectAll Text="모두 선택 취소" />
+      <miHighlight Text="강조" />
+      <miUnderline Text="밑줄" />
+      <miStrikeout Text="취소선" />
+      <miReplace Text="바꾸기" />
+      <miSquiggly Text="구불구불한 선" />
+      <miCaret Text="삽입 기호" />
+      <miAddNote Text="노트를 텍스트에 추가" />
+      <miAddBookmark Text="책갈피 추가" />
+      <miCreateLink Text="연결 만들기" />
+    </cmsTextSelectionMenu>
+    <cmsZoom>
+      <miActualSize Text="실제 크기" />
+      <miFitPage Text="페이지에 맞추기" />
+      <miFitWidth Text="너비에 맞추기" />
+      <miFitHeight Text="높이에 맞추기" />
+      <miFullScreen Text="전체 화면" />
+    </cmsZoom>
+    <cmsViewMode>
+      <tsmiSingle Text="단일 페이지 보기" />
+      <tsmiSingleContinue Text="연속 단일 페이지" />
+      <tsmiFacing Text="두 페이지 보기" />
+      <tsmiFacingContinue Text="연속 두 페이지" />
+    </cmsViewMode>
+    <cmsThumbnail>
+      <miCopyPages Text="복사" />
+      <miPastePages Text="붙여넣기" />
+      <miDeletePages Text="삭제" />
+      <miInsertPages Text="페이지 삽입" />
+      <miInsertBlankPages Text="빈 페이지" />
+      <miInsertFromPDF Text="PDF에서" />
+      <miReplacePages Text="페이지 바꾸기" />
+      <miExtractPages Text="페이지 추출" />
+      <miRotatePages Text="페이지 회전" />
+      <miOCRPages Text="OCR 페이지" />
+      <miPageBoxes Text="페이지 박스" />
+      <miPageLabels Text="페이지 레이블" />
+      <miPrintPages Text="인쇄 페이지" />
+      <miExtractToImage Text="모든 페이지를 하나의 이미지로 결합" />
+      <miEnlargeThumb Text="페이지 썸네일 확대" />
+      <miReduceThumb Text="페이지 썸네일 축소" />
+    </cmsThumbnail>
+    <cmsHelp>
+      <miFeedback Text="피드백을 남겨주세요." />
+      <miUserGuide Text="사용자 가이드" />
+      <miSupportCenter Text="고객센터" />
+      <miFacebook Text="Facebook" />
+      <miYoutube Text="Youtube" />
+      <miWeibo Text="Weibo" />
+      <miBilibili Text="Bilibili" />
+      <miCheckForUpdates Text="업데이트 정보 확인" />
+      <miAbout Text="제품정보" />
+    </cmsHelp>
+    <cmsFile>
+      <tsmiOpen Text="열기" />
+      <tsmiOpenRecent Text="최근 파일 열기" />
+      <tsmiOpenCloud Text="Cloud 열기" />
+      <tsmiFromDropbox Text="Dropbox에서" />
+      <tsmiGoogleDrive Text="Google Drive에서" />
+      <tsmiPECloud Text="Wondershare Cloud에서" />
+      <tsmiOneDrive Text="OneDrive에서" />
+      <tsmiBox Text="Box에서" />
+      <tsmiBaiduPan Text="BaiduPan에서" />
+      <tsmiFromLibrary Text="라이브러리에서" />
+      <tsmiFromWsCloud Text="Wondershare Document Cloud에서" />
+      <tsmiCreate Text="생성" />
+      <tsmiFromFile Text="파일에서 생성" />
+      <tsmiFromScanner Text="스캐너에서 생성" />
+      <tsmiBlankPdf Text="빈 PDF" />
+      <tsmiFromClipboard Text="클립보드에서 가져오기" />
+      <tsmiPortfolio Text="PDF 포트폴리오" />
+      <tsmiSave Text="저장" />
+      <tsmiSaveAs Text="다른 이름으로 저장" />
+      <tsmiSaveRecent Text="최근 폴더에 저장" />
+      <tsmiShare Text="공유" />
+      <tsmiShareEvernote Text="Evernote" />
+      <tsmiShareDropbox Text="Dropbox" />
+      <tsmiShareGoogleDrive Text="Google Drive" />
+      <tsmiShareWSCloud Text="Wondershare Cloud" />
+      <tsmiShareOneDrive Text="OneDrive" />
+      <tsmiShareBox Text="Box" />
+      <tsmiShareBaiduPan Text="BaiduPan" />
+      <tsmiExportTo Text="내보내기" />
+      <tsmiWord Text="Word" />
+      <tsmiExcel Text="Excel" />
+      <tsmiPowerPoint Text="PowerPoint" />
+      <tsmiImage Text="이미지" />
+      <tsmiText Text="텍스트" />
+      <tsmiEpub Text="Epub" />
+      <tsmiHtml Text="HTML" />
+      <tsmiRtf Text="RTF" />
+      <tsmiPdfA Text="PDF/A" />
+      <tsmiHwp Text="HWP" />
+      <tsmiPrint Text="인쇄" />
+      <tsmiProperties Text="속성" />
+      <tsmiPerferences Text="환경 설정" />
+      <tsmiPng Text="PNG" />
+      <tsmiBMP Text="BMP" />
+      <tsmiGif Text="GIF" />
+      <tsmiTiff Text="TIFF" />
+      <tsmiPdfA_1a Text="PDF/A-1a" />
+      <tsmiPdfA_1b Text="PDF/A-1b" />
+      <tsmiPdfA_2a Text="PDF/A-2a" />
+      <tsmiPdfA_2b Text="PDF/A-2b" />
+      <tsmiPdfA_2u Text="PDF/A-2u" />
+      <tsmiPdfA_3a Text="PDF/A-3a" />
+      <tsmiPdfA_3b Text="PDF/A-3b" />
+      <tsmiPdfA_3u Text="PDF/A-3u" />
+    </cmsFile>
+    <cmsCommentShapeMore>
+      <miLine Text="선" />
+      <miCloud Text="클라우드" />
+      <miPolygon Text="다각형" />
+      <miConnectedLine Text="연결된 선" />
+    </cmsCommentShapeMore>
+    <cmsCommentTextMore>
+      <miAreaHighlight Text="영역 강조" />
+      <miSquigglyLine Text="구불구불한 선" />
+      <miInsertText Text="삽입 기호" />
+    </cmsCommentTextMore>
+    <cmsEditMode>
+      <miLineMode Text="선 모드" />
+      <miLineMode ToolTipText="Edit the text line by line " />
+      <miParagraphMode Text="단락 모드" />
+      <miParagraphMode ToolTipText="Edit the text by Paragraph " />
+    </cmsEditMode>
+    <cmsLink>
+      <tsmiActionGoto Text="페이지 보기로 이동" />
+      <tsmiActionWeb Text="웹 페이지 열기" />
+      <tsmiActionFile Text="파일 열기" />
+    </cmsLink>
+    <cmsTile>
+      <miHorizontalTile Text="가로 제목" />
+      <miVerticalTile Text="세로 제목" />
+    </cmsTile>
+    <cmsInsertPages>
+      <miInsertBlankPages Text="빈 페이지" />
+      <miInsertPagesFromPDF Text="PDF에서" />
+    </cmsInsertPages>
+    <cmsConvertToOther>
+      <miToPDFA Text="PDF/A로" />
+      <miToEpub Text="EPUB로" />
+      <miToRtf Text="RTF로" />
+      <miToHtml Text="HTML로" />
+      <miToHwp Text="HWP로" />
+    </cmsConvertToOther>
+    <cmsFormAlign>
+      <miAlignLeft Text="왼쪽 맞춤" />
+      <miAlignRight Text="오른쪽 맞춤" />
+      <miAlignTop Text="위쪽 맞춤" />
+      <miAlignBottom Text="아래쪽 맞춤" />
+      <miAlignHorizontalCenter Text="가로 가운데 맞춤" />
+      <miAlignVerticalCenter Text="세로 가운데 맞춤" />
+      <miCenterPageHorizontally Text="페이지 가로 가운데" />
+      <miCenterPageVertically Text="페이지 세로 가운데" />
+      <miBoth Text="페이지 가로 세로 가운데" />
+    </cmsFormAlign>
+    <cmsFormMore>
+      <tsmiDataExtraction Text="내보낸 데이터" />
+      <tsmiFieldRecognition Text="인식 폼" />
+      <tsmiCalculateOrder Text="계산 순서" />
+      <tsmiDataExport Text="데이터 내보내기" />
+      <tsmiDataImport Text="데이터 가져오기" />
+    </cmsFormMore>
+    <cmsToolsMore>
+      <miBackground Text="배경" />
+      <miToolAddBackground Text="배경 추가" />
+      <miToolEditBackground Text="배경 편집" />
+      <miHeaderFooter Text="머리글 &amp;&amp; 바닥글" />
+      <miAddHeaderFooter Text="머리글 &amp;&amp; 바닥글 추가" />
+      <miEditHeaderFooter Text="머리글 &amp;&amp; 바닥글 편집" />
+      <miBatesNumber Text="베이츠 번호" />
+      <miAddBatesNumber Text="베이츠 번호 추가" />
+      <miEditBatesNumber Text="베이츠 번호 편집" />
+      <miDataExtract Text="내보낸 데이터" />
+    </cmsToolsMore>
+    <cmsHeaderFooter>
+      <tsmiAddHeaderFooter Text="머리글 &amp;&amp; 바닥글 추가" />
+      <tsmiEditHeaderFooter Text="머리글 &amp;&amp; 바닥글 편집" />
+    </cmsHeaderFooter>
+    <cmsWatermark>
+      <tsmiAddWatermark Text="워터마크 추가" />
+      <tsmiEditWatermark Text="워터마크 편집" />
+    </cmsWatermark>
+    <cmsBatesNumber>
+      <tsmiAddBatesNumber Text="베이츠 번호 추가" />
+      <tsmiEditBatesNumber Text="베이츠 번호 편집" />
+    </cmsBatesNumber>
+    <cmsBackground>
+      <tsmiAddBackground Text="배경 추가" />
+      <tsmiEditBackground Text="배경 편집" />
+    </cmsBackground>
+    <cmsDataExtract>
+      <miDeleteItems Text="선택한 항목 삭제" />
+    </cmsDataExtract>
+    <cmsFileTab>
+      <tsmiRenameFile Text="파일 이름 바꾸기" />
+      <tsmiOpenFileLocation Text="파일 위치 열기" />
+      <tsmiClose Text="닫기" />
+      <tsmiCloseOthers Text="기타 항목 닫기" />
+      <tsmiCloseAll Text="모두 닫기" />
+    </cmsFileTab>
+    <cmsMsg>
+      <tsmiArchives Text="아카이브 문서입니다." />
+      <tsmiSecurity Text="문서에 암호화된 권한이 포함되어 있습니다." />
+      <tsmiSigned Text="문서에 디지털 서명이 포함되어 있습니다." />
+      <tsmiScanned Text="스캔한 문서입니다" />
+      <tsmiXfa Text="문서에 XFA 양식 컨트롤이 포함되어 있습니다." />
+      <tsmiAcroForm Text="문서에 양식 컨트롤이 있습니다." />
+    </cmsMsg>
+    <cmsCloud>
+      <tsmiDropbox Text="Dropbox" />
+      <tsmiGoogleDrive Text="Google Drive" />
+      <tsmiPECloud Text="Wondershare Cloud" />
+      <tsmiOneDrive Text="OneDrive" />
+      <tsmiBox Text="Box" />
+      <tsmiBaiduPan Text="BaiduPan" />
+      <tsmiEvernote Text="Evernote" />
+    </cmsCloud>
+    <cmsQat>
+      <tsmiOpen Text="열기" />
+      <tsmiSave Text="저장" />
+      <tsmiEmail Text="전자 메일에 첨부" />
+      <tsmiPrint Text="인쇄" />
+      <tsmiShare Text="공유" />
+      <tsmiUndo Text="실행 취소" />
+      <tsmiRedo Text="다시 실행" />
+      <tsmiRibbon Text="리본" />
+    </cmsQat>
+    <cmsSignature>
+      <miClear Text="서명 지우기" />
+      <miValidate Text="서명 인증" />
+      <miProperties Text="서명 속성 보기" />
+    </cmsSignature>
+    <cmsCommentStamp>
+      <tsmiStampCreate Text="생성" />
+      <tsmiStampManage Text="스탬프 관리" />
+      <tsmiStampIdentityEdit Text="ID 편집" />
+    </cmsCommentStamp>
+    <GColorPalettePanel2>
+      <labTheme Text="테마 색" />
+      <labStand Text="표준 색" />
+      <labRecent Text="최근에 사용한 색" />
+      <labTransparent Text="투명색" />
+      <labMore Text="더보기…" />
+    </GColorPalettePanel2>
+    <APNetworkErrorForm Text="계정 로그인에 실패하였습니다.">
+      <lblMessage Text="계정을 확인할 수 없습니다. 다시 시도해주세요." />
+      <btnClose Text="종료" />
+      <btnRetry Text="재시도" />
+      <gLabel1 Text="참고: 3회 시도 후 애플리케이션이 종료됩니다." />
+    </APNetworkErrorForm>
+    <AppDamagedForm Text=" PDFelement가 손상되었습니다.">
+      <lblMessage Text="PDFelement를 사용해 주셔서 감사합니다. PDFelement가 손상된 것 같습니다. 공식 웹 사이트에서 애플리케이션을 다운로드하고 다시 설치하십시오." />
+      <btnOK Text="다운로드" />
+    </AppDamagedForm>
+    <WIDVictimForm Text="PDFelement 정품 다운로드">
+      <lblMessage Text="PDFelement를 사용해 주셔서 감사합니다. 더 나은 경험을 위해 공식 웹 사이트에서 PDFelement를 다운로드하는 것이 좋습니다." />
+      <btnOK Text="다운로드" />
+    </WIDVictimForm>
+    <RecentFilesControl>
+      <lblRecent Text="최근" />
+      <btnClearRecent ToolTip="제거" />
+      <btnOpenFile Text="파일 열기…" />
+      <lblNoneRecentTip Text="아직 파일을 열리지 않았습니다.파일 열기를 눌러 문서를 선택하세요." />
+    </RecentFilesControl>
+    <RecentListItem>
+      <btnPin ToolTip="핀" />
+      <btnDelete ToolTip="삭제" />
+      <labFileName Text="파일 이름" />
+      <labPath Text="경로" />
+    </RecentListItem>
+    <RecentFolderListItem>
+      <btnPin ToolTip="핀" />
+      <btnDelete ToolTip="삭제" />
+      <labPath Text="경로" />
+    </RecentFolderListItem>
+    <RedactMarkMsgForm Text="수정">
+      <lblAllow Text="선택한 중요한 텍스트 및 이미지를 검은색으로 완전히 가리기." />
+      <lblRequires Text="수정에는 두 단계가 필요합니다:" />
+      <lblMark Text="1. 수정할 부분을 표시" />
+      <lblApply Text="2. &quot;적용&quot;을 선택하여 수정 내용 적용" />
+      <lblNote Text="참고:" />
+      <lblNoteMsg Text="변경사항을 저장하려면&quot;적용&quot;을 클릭하세요." />
+      <chkNeverShow Text="다시 보지 않기" />
+      <btnOK Text="예" />
+    </RedactMarkMsgForm>
+    <RightSideView>
+      <labTitle Text="속성" />
+      <btnClose ToolTip="닫기" />
+    </RightSideView>
+    <AddDigitalIDForm Text="디지털 ID 추가">
+      <gBtnCancel Text="취소" />
+      <gBtnNext Text="다음&gt;" />
+      <gBtnBack Text="&lt;돌아가기" />
+      <gRBtnNewID Text="새로운 디지털 ID 만들기" />
+      <gLabelPassword Text="비밀번호:" />
+      <gBtnBrowse Text="브라우저…" />
+      <gRBtnExistingID Text="파일에서 기존 디지털 ID를 가져오기" />
+      <gLabelUsing Text="디지털 서명을 다음 문서에 사용:" />
+      <gLabelStore Text="자체 서명된 디지털 ID를 어디에 저장하시겠습니까?" />
+      <gRadioBtnPKCSID Text="새 PKCS#12 디지털 ID 파일" />
+      <gRadioButton2 Text="Windows 인증서 저장 위치" />
+      <gLabelPKCSInfo Text="표준 PKCS#12 형식을 사용하는 디지털 ID 파일을 보호하기 위해 새 암호를 만듭니다. 이 일반적인 디지털 ID 파일 형식은 주요 웹 브라우저를 포함한 대부분의 보안 소프트웨어 응용 프로그램에서 지원됩니다. PKCS#12 파일의 확장자에는 .pfx 또는 .p12가 있습니다." />
+      <gLabelWinCertificateStoreInfo Text="디지털 ID는 다른 Windows 응용 프로그램에서도 사용할 수 있는 Windows 인증서 저장 위치에 저장됩니다. 디지털 ID는 Windows 로그인으로 보호됩니다." />
+      <gLabelEnterInfo Text="자체 서명된 인증서를 생성할 때 사용할 식별 정보를 입력하세요." />
+      <gLabelName Text="이름:" />
+      <gLabelOrganizationUnit Text="구성 단위:" />
+      <gLabelOrganizationName Text="조직 이름:" />
+      <gLabelAsterisk2 Text="*" />
+      <gLabelEmailAddress Text="이메일 주소:" />
+      <gLabelCounty Text="국가/지역" />
+      <gLabelAsterisk1 Text="*" />
+      <gLabelEnterPathInfo Text="새 디지털 ID 파일의 파일 위치와 암호를 입력합니다. 디지털 ID를 사용하여 문서에 서명하거나 암호를 해독할 때 암호가 필요합니다. 백업 또는 기타 용도로 이 파일을 복사할 수 있도록 파일 위치를 기록해두어야 합니다. 나중에 보안 설정 대화 상자를 사용하여 이 파일에 대한 옵션을 변경할 수 있습니다." />
+      <gLabelFileName Text="파일 이름:" />
+      <gLabelPassword2 Text="비밀번호:" />
+      <gLabelConfirmPassword Text="비밀번호 확인:" />
+      <gButtonBrowse Text="브라우저…" />
+      <gLabelListTitle Text="다음 디지털 ID 가 서명 또는 암호화에 사용할 수 있는 디지털 ID 목록에 추가됩니다:" />
+      <gHeaderItemName Text="이름">
+      </gHeaderItemName>
+      <gHeaderItemIssuser Text="발행인">
+      </gHeaderItemIssuser>
+      <gHeaderItemExpires Text="만료">
+      </gHeaderItemExpires>
+    </AddDigitalIDForm>
+    <SelectPictureForm Text="이미지 선택">
+      <lblFilePath Text="파일:" />
+      <btnBrower Text="검색…" />
+      <gbSample Text="예시">
+      </gbSample>
+      <btnOK Text="예" />
+      <btnCancel Text="취소" />
+    </SelectPictureForm>
+    <SignAppearanceForm Text="서명 스타일 구성">
+      <gGroupBoxTextProperties Text="텍스트 특성">
+      </gGroupBoxTextProperties>
+      <gLabelDirection Text="텍스트 방향:" />
+      <gRadioButtonAuto Text="자동" />
+      <gRadioButtonLeftToRight Text="왼쪽으로부터 오른쪽" />
+      <gRadioButtonRightToLeft Text="오른쪽으로부터 왼쪽" />
+      <gGroupBoxConfigureText Text="텍스트 구성">
+      </gGroupBoxConfigureText>
+      <gLabelTextShow Text="표시:" />
+      <gCheckBoxName Text="이름" />
+      <gCheckBoxLocation Text="지역" />
+      <gCheckBoxDistinguishedName Text="고유 이름" />
+      <gCheckBoxLogo Text="로고" />
+      <gCheckBoxDate Text="날짜" />
+      <gCheckBoxReason Text="원인" />
+      <gCheckBoxLabels Text="라벨" />
+      <gGroupBoxConfigureGraphic Text="도형 구성">
+      </gGroupBoxConfigureGraphic>
+      <gLabelShow Text="표시:" />
+      <gRadioButtonNoGraphic Text="도형 없음" />
+      <gRadioButtonImportedGraphic Text="가져온 도형" />
+      <gRadioButtonName Text="이름" />
+      <gBtnFile Text="찾아보기" />
+      <gLabelTitle Text="제목:" />
+      <gGroupBoxPreview Text="미리보기">
+      </gGroupBoxPreview>
+      <btnOK Text="예" />
+      <btnCancel Text="취소" />
+    </SignAppearanceForm>
+    <SignatureDocForm Text="문서에 서명">
+      <gLabelSignAs Text="로그인:" />
+      <gLabelPassword Text="비밀번호:" />
+      <gBtnNewID Text="새 ID" />
+      <gLabelIssuedBy Text="인증서 발급인:" />
+      <gBtnInfo Text="정보" />
+      <gLabelAppearance Text="외관:" />
+      <gBtnSign Text="서명" />
+      <gBtnCancel Text="취소" />
+      <gCheckBoxLock Text="서명 후 문서 잠금" />
+      <gLabelSignatrueReason Text="이유:" />
+      <gLabelLocation Text="지역:" />
+    </SignatureDocForm>
+    <SignaturePropertiesForm Text="서명 속성">
+      <gLabelSignInfo Text="서명이 유효합니다." />
+      <gGroupBoxAdvanceInfo Text="세부사항">
+      </gGroupBoxAdvanceInfo>
+      <gLabelSignedBy Text="서명:" />
+      <gLabelReason Text="원인:" />
+      <gLabelDate Text="날짜:" />
+      <gLabelLocation Text="지역:" />
+      <gButton1 Text="인증서 표시" />
+      <gGroupBoxValiditySummary Text="유효성 요약">
+      </gGroupBoxValiditySummary>
+      <gLabelSummaryDocModify Text="서명이 적용된 후 문서가 수정되지 않았습니다." />
+      <gLabelSummaryDocSignUser Text="문서가 현재 사용자에 의해 서명됩니다." />
+      <gLabelSummaryDocSignTime Text="서명 날짜/시간은 서명자 컴퓨터의 날짜/시간입니다." />
+      <gBtnValidateSignature Text="서명 유효성 검사" />
+      <gBtnClose Text="닫기" />
+    </SignaturePropertiesForm>
+    <SignatureValidStatusForm Text="서명 확인 상태">
+      <gLabelSingInfo Text="서명이 유효합니다." />
+      <gBtnSignProperties Text="서명 속성" />
+      <gBtnClose Text="닫기" />
+    </SignatureValidStatusForm>
+    <ValidataAllSignatureForm Text="모든 서명 확인">
+      <btnOK Text="예" />
+      <btnCancel Text="취소" />
+    </ValidataAllSignatureForm>
+    <SplitForm Text="분할">
+      <rdoNumber Text="페이지 번호로 분할" />
+      <rdoBookmarks Text="상위 북마크로 분할" />
+      <lblMax Text="페이지" />
+      <lblOutputFolder Text="저장" />
+      <btnOK Text="예" />
+      <btnCancel Text="취소" />
+      <txtFolderPath Text="파일이 선택되지 않았습니다.">
+      </txtFolderPath>
+    </SplitForm>
+    <AboutForm>
+      <lblVersion Text="버전: {0}" />
+      <lblCopyrightMessage Text="Copyright © 2021 Wondershare. All rights reserved." />
+      <lblAboutMessage Text="2003년 설립된 wondershare는 앞서가는 독자적 글로벌 애플리케이션 공급업체로 '스마트홈 해피라이프'를 기업 사명으로 삼고, 전세계에 개인과 가정에 소비자용 소프트웨어, 하드웨어 제품과 서비스를 제공하고 있습니다. 150개국 이상에서 사용자를 보유하고 있으며 &quot;지속적인 고객 만족도와  충성도 제고&quot;를 취지로 글로벌 사용자에게 7*24 시간 온라인 다국어 상담 서비스를 제공하고 있습니다.&lt;br/&gt;&lt;br/&gt;자세한 내용은 &lt;a href=&quot;HomePage&quot;&gt;Wondershare&lt;/a&gt;와 &lt;a href=&quot;ProductPage&quot;&gt;Wondershare PDFelement&lt;/a&gt;를 방문하십시오." />
+    </AboutForm>
+    <HomeLoginToBuy>
+      <btnBuyNow Text="구매" />
+      <btnLogin Text="로그인" />
+      <avatarCtrl Text="아이콘 편집">
+      </avatarCtrl>
+      <btnMobile Text="iPhone / iPad" />
+    </HomeLoginToBuy>
+    <HomePage>
+      <btnBack Text="돌아가기" />
+    </HomePage>
+    <RecentControl>
+      <lblHello Text="Hello" />
+      <btnClearAll Text="모두 지우기" />
+      <lblRecent Text="최근" />
+      <btnOpenFiles Text="파일 열기">
+      </btnOpenFiles>
+      <btnComparePdf Text="PDF 비교" />
+      <btnCombinePdf Text="PDF 합치기">
+      </btnCombinePdf>
+      <btnOptimizePdf Text="PDF 최적화">
+      </btnOptimizePdf>
+      <btnOcr Text="OCR PDF">
+      </btnOcr>
+      <btnConverPdf Text="PDF 변환">
+      </btnConverPdf>
+      <btnCreatePdf Text="PDF 생성">
+      </btnCreatePdf>
+      <btnBatchPdf Text="PDF 일괄 처리">
+      </btnBatchPdf>
+      <lblNoRecentTitle Text="최근 파일이 없습니다." />
+      <lblNoRecentContent Text="보았던 PDF 파일이 여기에 나타납니다." />
+    </RecentControl>
+    <MainForm Text="Wondershare PDFelement">
+      <btnFile Text="파일" />
+      <btnHome Text="홈" />
+      <btnHelp Text="도움말" />
+      <commentPage ImageKey="" Text="주석">
+      </commentPage>
+      <editPage ImageKey="" Text="편집">
+      </editPage>
+      <convertPage ImageKey="" Text="변환">
+      </convertPage>
+      <toolPage ImageKey="" Text="도구">
+      </toolPage>
+      <viewPage ImageKey="" Text="미리보기">
+      </viewPage>
+      <formPage ImageKey="" Text="양식">
+      </formPage>
+      <protectPage ImageKey="" Text="보안">
+      </protectPage>
+      <pagePage ImageKey="" Text="페이지">
+      </pagePage>
+    </MainForm>
+    <QatTopMenu>
+      <btnOpen ToolTip="열기" />
+      <btnSave ToolTip="저장" />
+      <btnEmail ToolTip="이메일 전송" />
+      <btnPrint ToolTip="인쇄" />
+      <btnShare ToolTip="공유" />
+      <btnUndo ToolTip="실행 취소" />
+      <btnRedo ToolTip="다시 실행" />
+      <btnCustomize ToolTip="사용자 정의" />
+    </QatTopMenu>
+    <BaseRibbonPage />
+    <CommentRibbonPage>
+      <btnHighlight ToolTip="강조" />
+      <btnUnderline ToolTip="밑줄" />
+      <btnStrikeout ToolTip="취소선" />
+      <btnAreaHighlight ToolTip="영역 강조" />
+      <btnRect ToolTip="직사각형" />
+      <btnOval ToolTip="타원" />
+      <btnArrow ToolTip="화살표" />
+      <btnPencil ToolTip="연필" />
+      <btnEraser ToolTip="지우개" />
+      <btnStamp ToolTip="스탬프" />
+      <btnCustomStamp ToolTip="사용자 정의 스탬프" />
+      <btnSign ToolTip="서명" />
+      <btnNote ToolTip="노트" />
+      <btnTypeWriter ToolTip="타자기" />
+      <btnTextBox ToolTip="텍스트 박스" />
+      <btnCallout ToolTip="콜 아웃" />
+      <btnAttachment ToolTip="첨부 파일 추가" />
+      <ckbKeepToolSelected Text="도구 선택 유지" />
+    </CommentRibbonPage>
+    <ConvertRibbonPage>
+      <btnToHWP Text="HWP 변환" ToolTip="PDF를 HWP로 변환" />
+      <btnToPPT Text="PowerPoint로 변환" ToolTip="PDF를 PowerPoint로 변환" />
+      <btnToWord Text="Word로 변환" ToolTip="PDF를 Word로 변환" />
+      <btnToExcel Text="Excel로 변환" ToolTip="PDF를 Excel로 변환" />
+      <btnToImage Text="이미지로 변환" ToolTip="PDF를 이미지로 변환" />
+      <btnToText Text="텍스트로 변환" ToolTip="PDF를 텍스트로 변환" />
+      <btnToPDFA Text="PDF/A로 변환" ToolTip="PDF를 PDF/A로 변환" />
+      <btnToOther ToolTip="PDF를 EPUB, RTF, HTML로 변환" />
+      <btnConvertSetting ToolTip="설정 변환" />
+      <btnBatchProcess Text="일괄 처리" ToolTip="일괄 처리" />
+    </ConvertRibbonPage>
+    <EditRibbonPage>
+      <lblEdit Text="편집" />
+      <btnEdit ToolTip="편집" />
+      <ckbEdit ToolTip="편집" />
+      <lblRead Text="읽기" />
+      <btnAddText Text="텍스트 추가" ToolTip="문서에 텍스트 추가" />
+      <btnAddImage Text="이미지 추가" ToolTip="문서에 이미지 추가" />
+      <btnAddLink Text="링크" ToolTip="문서 또는 웹 페이지에 링크 추가" />
+      <btnWatermark Text="워터마크" ToolTip="문서에 워터마크를 추가하거나 편집" />
+      <btnBackground Text="배경화면" ToolTip="문서에 배경을 추가하거나 편집" />
+      <btnHeaderFooter Text="머리글&amp;&amp;바닥글" ToolTip="문서의 머리글 및 바닥글을 추가하거나 편집" />
+      <btnBatesNumber Text="베이츠 번호" ToolTip="문서의 베이츠 번호를 추가하거나 편집" />
+      <btnEditSetting ToolTip="편집 모드 설정" />
+    </EditRibbonPage>
+    <FormRibbonPage>
+      <lblEdit Text="편집" />
+      <btnFormsEditPreview ToolTip="양식 편집" />
+      <lblPreview Text="미리보기" />
+      <ckbKeepToolSelected Text="도구 선택 유지" />
+      <btnTextField ToolTip="텍스트 추가" />
+      <btnCheckBox ToolTip="체크 박스 추가" />
+      <btnRadioButton ToolTip="라디오 버튼 추가" />
+      <btnComboBox ToolTip="콤보 박스 추가" />
+      <btnListBox ToolTip="목록 박스 추가" />
+      <btnPushButton ToolTip="누름 버튼 추가" />
+      <btnImageButton ToolTip="이미지 추가" />
+      <btnSignature ToolTip="디지털 서명 추가" />
+      <btnClear ToolTip="폼 필드에서 기본 데이터를 복구" />
+      <btnAlign Text="정렬" ToolTip="선택한 모든 개체를 정렬" />
+      <btnMore Text="더보기" />
+    </FormRibbonPage>
+    <HelpRibbonPage>
+      <btnFeedback Text="피드백을 남겨주세요." />
+      <btnUserGuide Text="사용 안내서" />
+      <btnCommunity Text="커뮤니티" />
+      <btnYoutube Text="YouTube" />
+      <btnSupport Text="고객센터" />
+      <btnCheckUpdate Text="업데이트 정보 확인" />
+      <btnAbout Text="정보" />
+    </HelpRibbonPage>
+    <PageRibbonPage>
+      <btnExtract Text="내보내기" ToolTip="새 PDF 문서로 페이지를 내보내기" />
+      <btnInsert Text="삽입" ToolTip="빈 페이지 또는 PDF 문서를 현재 문서에 삽입" />
+      <btnSplit Text="분할" ToolTip="현재 문서를 여러 PDF 문서로 분할" />
+      <btnReplace Text="바꾸기" ToolTip="현재 문서의 페이지를 바꾸기" />
+      <btnPageBoxes Text="페이지 박스" ToolTip="문서의 페이지 크기 자르기" />
+      <btnPageLabel Text="페이지 레이블" ToolTip="문서에 페이지 레이블을 설정" />
+      <btnZoomIn ToolTip="썸네일 확대" />
+      <btnZoomOut ToolTip="썸네일 축소" />
+      <cbxPageRange PlaceHolderText="페이지 번호 입력" ToolTip="예: 1,3,5,7-10" />
+      <btnRotateLeft ToolTip="왼쪽 회전" />
+      <btnRotateRight ToolTip="오른쪽 회전" />
+      <btnPageDel ToolTip="페이지 삭제" />
+    </PageRibbonPage>
+    <ProtectRibbonPage>
+      <btnPassword Text="비밀번호 설정" ToolTip="문서에 비밀번호 설정" />
+      <btnMarkRedaction Text="마크 수정" ToolTip="민감한 텍스트 또는 이미지를 검은색으로 완전히 가리기" />
+      <btnApplyRedaction Text="수정 내용 적용" ToolTip="민감한 텍스트 또는 이미지를 검은색으로 완전히 가리기" />
+      <btnSearchRedaction Text="검색 &amp;&amp; 수정" ToolTip="편집하기 위한 텍스트를 검색" />
+      <btnSignDocument Text="디지털 서명" ToolTip="문서에 전자 서명 추가" />
+      <btnValidAllSignatures Text="모든 서명 인증" ToolTip="서명 유효 검사" />
+      <btnClearSignature Text="모든 서명 제거" ToolTip="모든 서명 제거" />
+      <btnSignCloudFile Text="디지털 서명" ToolTip="wondershare 온라인 서비스를 사용하여 문서에 서명합니다." />
+    </ProtectRibbonPage>
+    <ShareRibbonPage>
+      <btnToDocSend Text="DocSend로 전송 및 추적" />
+      <btnSendToEmail Text="이메일 전송" />
+      <btnSendToEvernote Text="Evernote 전송" />
+      <btnSendToDropbox Text="Dropbox 전송" />
+      <btnSendToGoogleDrive Text="구글 드라이브 전송" />
+    </ShareRibbonPage>
+    <ToolRibbonPage>
+      <btnCombineFiles Text="파일 합치기" ToolTip="여러 문서를 단일 PDF로 합치기" />
+      <btnOCR Text="OCR" ToolTip="스캔한 PDF 문서를 편집 가능하고 검색할 수 있도록 문자 인식 합니다" />
+      <btnOCRArea Text="영역 OCR" ToolTip="스캔 이미지의 선택한 범위를 편집 가능한 텍스트로 문자 인식합니다." />
+      <btnOptimizePDF Text="PDF 최적화" ToolTip="문서 크기 줄이기" />
+      <btnFlattenFile Text="파일 평면화" ToolTip="문서내 주석, 폼 필드, 레이어를 평면화(제거)" />
+      <btnPagesCrop Text="크롭" ToolTip="문서의 페이지 크기를 자르기" />
+      <btnWatermark Text="워터마크" ToolTip="문서에 워터마크를 추가하거나 편집" />
+      <btnSnapshot Text="캡처" ToolTip="문서의 스냅 샷 만들기" />
+      <btnMore Text="더보기" />
+      <btnBatchProcess Text="일괄 처리" ToolTip="일괄 처리" />
+      <btnCompareFiles Text="파일 비교" ToolTip="두 파일의 차이점을 비교하십시오." />
+    </ToolRibbonPage>
+    <ViewRibbonPage>
+      <btnZoomOut ToolTip="축소" />
+      <btnZoomIn ToolTip="확대" />
+      <btnActualSize ToolTip="실제 페이지 크기에 맞추기" />
+      <btnFitWidth ToolTip="창 너비에 맞추기" />
+      <btnFitHeight ToolTip="창 높이에 맞추기" />
+      <btnFitPage ToolTip="창 크기에 맞추기" />
+      <btnFullScreen ToolTip="전체 화면" />
+      <btnFirstPage ToolTip="첫 페이지" />
+      <btnPrevPage ToolTip="이전" />
+      <btnNextPage ToolTip="다음" />
+      <btnLastPage ToolTip="마지막 페이지" />
+      <btnSinglContinue ToolTip="스크롤 활성화 상태로 페이지 보기" />
+      <btnSingle ToolTip="한 페이지씩 보기" />
+      <btnFacing ToolTip="양 옆으로 두페이지 보기" />
+      <btnFacingContinue ToolTip="스크롤 활성화 상태로 양 옆으로 보기" />
+      <btnCompareFiles ToolTip="두 파일의 차이점을 비교하십시오." />
+      <btnTile ToolTip="타일 문서" />
+    </ViewRibbonPage>
+    <MessageCenterForm Text="메시지 센터" />
+    <NPSForm />
+    <UpdateForm Text="업데이트">
+      <btnUpdate Text="업데이트" />
+      <btnCancelUpdate Text="취소" />
+      <btnCancelChecking Text="취소" />
+      <lblUpdateChecking Text="새 버전 확인" />
+      <btnLatestVersion Text="예" />
+      <lblLatestVersion Text="이미 최신 버전입니다. 현재 사용 가능한 새 버전이 없습니다." />
+      <lblCheckFailTips Text="재시도하거나 네트워크가 정상인지 확인해주세요." />
+      <lblCheckFail Text="업데이트에 실패하였습니다." />
+      <btnCancelCheckFail Text="취소" />
+      <btnRetryCheck Text="재시도" />
+      <imgDownloadFail ToolTip="다운로드에 실패하였습니다. 네트워크 상태를 확인해 주세요." />
+      <lblTopDescritption Text="새 버전 다운로드중입니다." />
+      <btnRetryDownload Text="재시도" />
+      <btnCancelDownload Text="취소" />
+      <btnInstall Text="설치" />
+      <btnCancelInstall Text="취소" />
+      <lblDownloadSuccess Text="다운로드가 완료되었습니다." />
+      <lblInstallTips Text="새 버전이 준비되었습니다.새 버전으로 업데이트하려면 인스톨을 클릭하십시오." />
+    </UpdateForm>
+    <AttachmentOpenAttentionForm>
+      <gLabelMsg Text="다음 파일은 컴퓨터에 피해를 줄 수 있는 프로그램또는 바이러가 포함되어있을 수 있습니다.파일을 여시겠습니까?" />
+      <gRadioButtonOpen Text="파일 열기" />
+      <gRadioButtonAlwaysOpen Text="다음 형식의 파일을 항상 열 수 있습니다" />
+      <gRadioButtonNeverOpen Text="다음 형식의 파일을 열 수 없습니다" />
+      <btnOk Text="예" />
+      <btnCancel Text="취소" />
+    </AttachmentOpenAttentionForm>
+    <AttachmentOpenForbid>
+      <lblMsg Text="PDF 파일 첨부 파일 설정 때문에 파일 첨부를 열 수 없습니다." />
+      <btnClear Text="제거" />
+      <btnOk Text="예" />
+    </AttachmentOpenForbid>
+    <BasePdfCloseForm>
+      <gButtonCancel Text="취소" />
+      <gButtonTryAgain Text="재시도" />
+      <gButtonIgnore Text="뛰어넘기" />
+      <gLabelMsg Text="파일이 다른 응용 프로그램에서 열려 있습니다.이 파일에 대한 변경 내용은 파일을 저장하고 닫지 않는 한 PDF 문서에 저장할 수 없습니다." />
+      <gLabelClick Text="파일을 닫고 재시도를 클릭하여 파일에 대한 변경사항을 저장합니다.이 파일의 변경 내용을 무시하려면 뛰어넘기를 클릭하십시오." />
+    </BasePdfCloseForm>
+    <ConfigPreviewForm>
+      <btnApply Text="적용" />
+      <multipleTemplatePanel TemplateTips="먼저 템플릿을 만드십시오.">
+      </multipleTemplatePanel>
+      <pagePreviewPanel Text="페이지 미리보기 패널">
+      </pagePreviewPanel>
+    </ConfigPreviewForm>
+    <MultipleTemplatePanel>
+      <lblTemplateTips Text="먼저 템플릿을 만드십시오." />
+    </MultipleTemplatePanel>
+    <FilesFailTipsForm Text="파일 실패">
+      <lblFileAddedFail Text="다음 파일에서 작동하지 않습니다." />
+      <btnOk Text="예" />
+    </FilesFailTipsForm>
+    <OutputPanel>
+      <gbOutputFolder Text="내보내기 폴더" />
+      <txtOutputDir />
+    </OutputPanel>
+    <PageRangeForm Text="페이지 범위">
+      <btnOK Text="예" />
+      <btnCancel Text="취소" />
+      <pageRangeControl GropName="페이지 범위">
+      </pageRangeControl>
+    </PageRangeForm>
+    <PageRangePanel>
+      <rdoRange Text="범위" />
+      <rdoAllPage Text="모두" />
+      <btnRangeTips ToolTip="페이지 범위를 입력: 1,3,5,7-10" />
+      <lblPageRange Text="페이지 범위" />
+      <lblSubset Text="모두에서 서브셋" />
+    </PageRangePanel>
+    <AppearancePanel>
+      <btn45Degree Text="45°" />
+      <btn0Degree Text="0°" />
+      <btnMinus45Degree Text="-45°" />
+      <lblOpacity Text="불투명도" />
+      <lblRotation Text="회전" />
+    </AppearancePanel>
+    <FontPanel>
+      <lblFont Text="글꼴" />
+    </FontPanel>
+    <ImageSelectPanel>
+      <lblImage Text="이미지&lt;Font color=&quot;red&quot;&gt;*&lt;/Font&gt;" />
+      <txtPath PlaceHolderText="파일 경로" />
+    </ImageSelectPanel>
+    <MarginPanel>
+      <lblTop Text="머리위치" />
+      <lblBottom Text="바닥위치" />
+      <lblLeft Text="왼쪽" />
+      <lblRight Text="오른쪽" />
+    </MarginPanel>
+    <PdfFileSelectPanel>
+      <lblPdf Text="PDF 파일&lt;Font color=&quot;red&quot;&gt;*&lt;/Font&gt;" />
+      <lblPageNumber Text="페이지 번호 선택" />
+      <txtPath PlaceHolderText="파일 경로" />
+    </PdfFileSelectPanel>
+    <PositionPanel>
+      <lblPosition Text="포지션" />
+    </PositionPanel>
+    <TaggedScalePanel>
+      <rdoAbsoluteScale Text="최대 척도" />
+      <rdoRelativeScale Text="페이지 비율" />
+    </TaggedScalePanel>
+    <ConvertSettingsForm>
+      <lblSetting Text="설정" />
+      <btnToWord Text="PDF를 Word로" />
+      <btnToExcel Text="PDF를 Excel로" />
+      <btnToPpt Text="PDF를 Powerpoint로" />
+      <btnToImage Text="PDF를 이미지로" />
+      <btnToText Text="PDF를 텍스트로" />
+      <btnToRtf Text="PDF를 RTF로" />
+      <btnToEpub Text="PDF를 Epub로" />
+      <btnToHtml Text="PDF를 HTML로" />
+      <btnApply Text="적용" />
+      <btnCancel Text="취소" />
+    </ConvertSettingsForm>
+    <EpubBookCoverPanel>
+      <gbBookCover Text="책 표지" />
+      <rdoNoCover Text="책 표지 없음" />
+      <rdoAddCover Text="책 표지 추가:" />
+      <txtCoverPath />
+    </EpubBookCoverPanel>
+    <EpubSettingForm Text="Epub 설정">
+      <btnDefault Text="기본" />
+      <btnCancel Text="취소" />
+      <btnOk Text="예" />
+    </EpubSettingForm>
+    <ExcelSettingForm Text="Excel 설정">
+      <btnDefault Text="기본" />
+      <btnCancel Text="취소" />
+      <btnOk Text="예" />
+      <ckbCombineAll Text="모든 페이지를 하나의 Excel 시트로 합치기" />
+    </ExcelSettingForm>
+    <HtmlSettingForm Text="Html 설정">
+      <btnDefault Text="기본" />
+      <btnCancel Text="취소" />
+      <btnOk Text="예" />
+    </HtmlSettingForm>
+    <ImageSettingForm Text="이미지 설정">
+      <btnDefault Text="기본" />
+      <btnCancel Text="취소" />
+      <btnOk Text="예" />
+      <imageSettingPanel Text="이미지 설정 패널 1">
+      </imageSettingPanel>
+      <pageRangePanel GropName="페이지 범위">
+      </pageRangePanel>
+    </ImageSettingForm>
+    <ImageSettingPanel>
+      <gbImageQuality Text="이미지 품질" />
+      <gbImageSetting Text="이미지 설정" />
+      <rdoToSingleImage Text="모든 페이지를 하나의 이미지로 합치기" />
+      <rdoPageAsImage Text="PDF의 각 페이지는 별도의 이미지로 표시됩니다" />
+      <rdoExtractImage Text="PDF의 모든 이미지를 내보내기" />
+      <lblZoom Text="확대/축소" />
+      <lblBorderWidth Text="테두리 굵기" />
+      <lblBorderColor Text="테두리 색상" />
+      <btnDPITips ToolTip="문서를 변환할 때 더 높은 DPI를 사용하십시오. 소프트웨어가 멈추고 변환 속도가 느릴 수 있습니다." />
+    </ImageSettingPanel>
+    <OcrPriorityPanel>
+      <gbPriority Text="우선 순위" />
+      <rdoRecognitionPriority Text="텍스트 인식 우선 순위" />
+      <rdoLayoutPriority Text="텍스트 레이아웃 우선 순위" />
+    </OcrPriorityPanel>
+    <OcrRecognitionPanel>
+      <gbOcrRecognition Text="OCR 인식" />
+      <rdoAllFiles Text="모든 파일" />
+      <rdoOnlyScannedPdf Text="스캔된 PDF" />
+      <rdoDisable Text="OCR 인식 비활성화" />
+    </OcrRecognitionPanel>
+    <PdfASettingForm Text="PDF/A 설정">
+      <btnCancel Text="설정" />
+      <btnOk Text="예" />
+      <gbPdfAStandard Text="PDF/A 표준" />
+    </PdfASettingForm>
+    <PowerPointSettingForm Text="PowerPoint 설정">
+      <btnDefault Text="기본" />
+      <btnCancel Text="취소" />
+      <btnOk Text="예" />
+    </PowerPointSettingForm>
+    <RtfSettingForm Text="Rtf 설정">
+      <btnDefault Text="기본" />
+      <btnCancel Text="취소" />
+      <btnOk Text="예" />
+    </RtfSettingForm>
+    <ToEpubPage>
+      <epubBookCoverPanel Text="전자책 표지 패널">
+      </epubBookCoverPanel>
+    </ToEpubPage>
+    <ToExcelPage>
+      <ckbCombineAll Text="모든 페이지를 하나의 Excel 시트로 합치기" />
+    </ToExcelPage>
+    <ToImagePage>
+      <imageSettingPanel Text="이미지 설정 패널">
+      </imageSettingPanel>
+      <pageRangePanel GropName="페이지 범위" Text="페이지 범위 패널">
+      </pageRangePanel>
+    </ToImagePage>
+    <TxtSettingForm Text="Txt 설정">
+      <btnDefault Text="기본" />
+      <btnCancel Text="취소" />
+      <btnOk Text="예" />
+    </TxtSettingForm>
+    <WordSettingForm Text="Word 설정">
+      <btnOk Text="예" />
+      <btnCancel Text="취소" />
+      <btnDefault Text="기본" />
+    </WordSettingForm>
+    <XmlSettingForm Text="XML 설정">
+      <btnDefault Text="기본" />
+      <btnCancel Text="취소" />
+      <btnOk Text="예" />
+      <ckbCombineAll Text="모든 페이지를 하나의 Excel 시트로 합치기" />
+    </XmlSettingForm>
+    <BackgroundColorTemplateForm Text="워터마크 형식">
+      <lblCreateTemplate Text="배경 템플릿 만들기" />
+      <lblColor Text="색상" />
+      <btnCancel Text="취소" />
+      <btnSave Text="저장" />
+    </BackgroundColorTemplateForm>
+    <BackgroundImageTemplateForm Text="워터마크 형식">
+      <lblCreateTemplate Text="배경 템플릿 만들기" />
+      <btnCancel Text="취소" />
+      <btnSave Text="저장" />
+    </BackgroundImageTemplateForm>
+    <BackgroundMoreSettingPanel>
+      <btnAppearance Text="외관" />
+      <btnPageRange Text="페이지 범위" />
+      <pageRangePanel GropName="">
+      </pageRangePanel>
+    </BackgroundMoreSettingPanel>
+    <BackgroundPdfTemplateForm Text="워터마크 형식">
+      <lblCreateTemplate Text="배경 템플릿 만들기" />
+      <btnCancel Text="취소" />
+      <btnSave Text="저장" />
+      <pagePreviewPanel Text="페이지 미리보기 패널 1">
+      </pagePreviewPanel>
+    </BackgroundPdfTemplateForm>
+    <BackgroundTypeForm Text="배경화면 타입">
+      <btnColor Text="색상" />
+      <btnPdf Text="PDF" />
+      <btnImage Text="이미지" />
+    </BackgroundTypeForm>
+    <PrintPreviewForm>
+      <lblPrint Text="인쇄 미리보기" />
+      <btnOk Text="예" />
+    </PrintPreviewForm>
+    <PrintSettingsForm>
+      <lblPrinter Text="프린터" />
+      <lblPrint Text="인쇄 설정" />
+      <ckbSelectPaper Text="PDF 페이지 크기에 따라 용지 소스 선택" />
+      <lblCopies Text="인쇄 매수" />
+      <lblPageSize Text="용지 크기" />
+      <ckbGrayPrint Text="흑백 인쇄" />
+      <lblQrientation Text="방향" />
+      <btnApply Text="적용" />
+      <ckbForm Text="양식" />
+      <lblPrintContent Text="내용 인쇄" />
+      <ckbComment Text="주석" />
+      <ckbReversePages Text="페이지 역순" />
+      <ckbDocument Text="문서" />
+      <ckbPrintAsImg Text="이미지로 인쇄" ToolTip="PDF를 간단한 이미지로 인쇄합니다." />
+      <lblPrintOption Text="인쇄 옵션" />
+      <lblPrintMode Text="인쇄 모드" />
+      <btnSize Text="크기" />
+      <btnPoster Text="포스터" />
+      <btnMultiple Text="여러 페이지" />
+      <btnBooklet Text="소책자" />
+      <btnAdvancePrintMode ToolTip="설정 더 보기" />
+    </PrintSettingsForm>
+    <BatesNumberTemplateForm Text="워터마크 형식">
+      <lblCreateTemplate Text="베이츠 번호 템플릿을 만들기" />
+      <btnCancel Text="취소" />
+      <btnSave Text="저장" />
+      <ckbNumberReverse Text="베이츠 번호 변경" />
+      <txtSuffix />
+      <lblSuffix Text="접미사" />
+      <lblStartAt Text="시작:" />
+      <txtStartAt Text="1" PlaceHolderText="전화 번호를 입력하세요" />
+      <txtPrefix />
+      <lblPrefix Text="접두사" />
+      <btnAppearance Text="외관" />
+      <btnPageRange Text="페이지 범위" />
+      <pageRangePanel GropName="">
+      </pageRangePanel>
+      <rdoIncrementEveryPage Text="모든 페이지의 번호 증가" />
+      <rdoIncrementBatesPages Text="베이츠 번호 포함 페이지의 번호만 증가" />
+      <btnPosition Text="포지션" />
+    </BatesNumberTemplateForm>
+    <DataExtractTemplateForm Text="데이터 추출 템플릿 양식">
+      <lblDataExtractTitle Text="영역 인식 프레임 템플릿 만들기" />
+      <btnCancel Text="취소" />
+      <btnSave Text="저장" />
+      <lblTemplateName Text="템플릿 이름" />
+      <lblTemplateDuplicate Text="이름이 이미 존재합니다." />
+      <txtTemplateName PlaceHolderText="첨부 파일이 없습니다." />
+      <lblField Text="필드 이름" />
+      <lblLanguage Text="언어 인식" />
+      <linkHowToCreate Text="템플릿을 만드는 방법?" />
+    </DataExtractTemplateForm>
+    <HeaderFooterTemplateForm Text="워터마크 형식">
+      <lblCreateTemplate Text="머리글&amp;바닥글" />
+      <lblText Text="머리글&amp;바닥글&lt;Font color=&quot;red&quot;&gt;*&lt;/Font&gt;" />
+      <txtContent PlaceHolderText="내용" />
+      <btnCancel Text="취소" />
+      <btnSave Text="저장" />
+      <lblPageNumberStyle Text="페이지 번호 스타일" />
+      <lblStartPage Text="시작 페이지 번호" />
+      <btnAddPageNumber Text="페이지 번호 추가" />
+      <btnAddDate Text="데이터 추가" />
+      <lblDateStyle Text="데이터 스타일" />
+      <pageRangePanel GropName="">
+      </pageRangePanel>
+      <btnPageRange Text="페이지 범위" />
+      <btnPosition Text="포지션" />
+      <btnMacros Text="매크로" />
+    </HeaderFooterTemplateForm>
+    <WatermarkImageTemplateForm Text="워터마크 형식">
+      <lblCreateTemplate Text="워터마크 템플릿 만들기" />
+      <btnCancel Text="취소" />
+      <btnSave Text="저장" />
+    </WatermarkImageTemplateForm>
+    <WatermarkMoreSettingPanel>
+      <btnAppearance Text="외관" />
+      <btnPosition Text="포지션" />
+      <btnPageRange Text="페이지 범위" />
+      <pageRangePanel GropName="">
+      </pageRangePanel>
+    </WatermarkMoreSettingPanel>
+    <WatermarkPdfTemplateForm Text="워터마크 형식">
+      <lblCreateTemplate Text="워터마크 템플릿 만들기" />
+      <btnCancel Text="취소" />
+      <btnSave Text="저장" />
+    </WatermarkPdfTemplateForm>
+    <WatermarkPositionPanel>
+      <lblVertical Text="수직" />
+      <lblHorizontal Text="수평" />
+      <ckbTile Text="타일" />
+      <rdoBehind Text="페이지 아래에서 검색" />
+      <rdoAbove Text="페이지 위에서 검색" />
+      <cbbTileHorizontal ToolTip="단어 간격 옵션을 선택하세요.">
+      </cbbTileHorizontal>
+      <cbbTileVertical ToolTip="빈 줄 수량을 선택하세요.">
+      </cbbTileVertical>
+    </WatermarkPositionPanel>
+    <WatermarkTextTemplateForm Text="워터마크 형식">
+      <lblCreateTemplate Text="워터마크 템플릿 만들기" />
+      <lblText Text="텍스트&lt;Font color=&quot;red&quot;&gt;*&lt;/Font&gt;" />
+      <ckbRelativeScale Text="페이지 비율" />
+      <txtWatermarkContent PlaceHolderText="내용" />
+      <btnCancel Text="취소" />
+      <btnSave Text="저장" />
+    </WatermarkTextTemplateForm>
+    <WatermarkTypeForm Text="워터마크 타입">
+      <btnText Text="텍스트" />
+      <btnPdf Text="PDF" />
+      <btnImage Text="이미지" />
+    </WatermarkTypeForm>
+    <AddFilesProgressForm Text="로딩중">
+      <btnCancel Text="취소" />
+      <lblAddingFiles Text="파일 추가중…" />
+    </AddFilesProgressForm>
+    <FileItem>
+      <btnRemove ToolTip="제거" />
+    </FileItem>
+    <PdfFileItem>
+      <btnRemove ToolTip="제거" />
+    </PdfFileItem>
+    <FileListPanel>
+      <btnAdd Text="파일 추가" />
+      <btnClearAll ToolTip="모두 지우기" />
+      <hiNo Text="번호." />
+      <hiName Text="이름" />
+      <hiSize Text="크기" />
+      <hiStatus Text="상태" />
+      <hiAction Text="동작" />
+    </FileListPanel>
+    <FileToAddPanel>
+      <btnChooseFile Text="파일 선택" />
+      <lblOr Text="또는" />
+    </FileToAddPanel>
+    <OcrDownloadForm Text="OCR 구성 요소 다운로드">
+      <lblOcrDownload Text="변환 인식을 다운로드하려면 먼저 OCR을 다운로드해야 합니다" />
+      <btnDownloadOCR Text="다운로드" />
+      <lblOcrDescription Text="OCR (광 문자 인식) 기술은 텍스트 내용을 편집, 복사 및 검색할 수 있습니다." />
+      <btnCancel Text="취소" />
+    </OcrDownloadForm>
+    <OcrLanguageEnumeratePanel>
+      <btnLanguageOver Text="세개 이상의 언어는 인식 속도를 늦출 수 있습니다." />
+    </OcrLanguageEnumeratePanel>
+    <OcrLanguagePanel>
+      <lblLanguageOver Text="세개 이상의 언어는 인식 속도를 늦출 수 있습니다." />
+      <lblTextFont Text="언어 인식" />
+    </OcrLanguagePanel>
+    <PasswordForm Text="비밀번호">
+      <lblOpenBy Text="문서 열기.." />
+      <btnCancel Text="취소" />
+      <btnOk Text="예" />
+      <lblPasswordWrong Text="비밀번호가 정확하지 않습니다.  다른 비밀번호로 재시도하십시오." />
+      <txtPassword PlaceHolderText="암호를 입력">
+      </txtPassword>
+      <lblPresetWrong Text="사전 설정 비밀번호로 문서를 열 수 없습니다." />
+      <lblUsing Text="사용" />
+      <linkPresetPassword Text="사전 설정 비밀번호" />
+    </PasswordForm>
+    <OwnerPasswordForm Text="비밀번호">
+      <lblPasswordTitle Text="편집을 활성화하려면 비밀번호를 입력하세요." />
+      <btnCancel Text="취소" />
+      <btnOk Text="예" />
+      <lblPasswordWrong Text="비밀번호가 정확하지 않습니다. 기타 비밀번호로 재시도하십시오." />
+      <txtPassword PlaceHolderText="암호를 입력" />
+    </OwnerPasswordForm>
+    <CustomDictionaryForm Text="사용자 정의 사전">
+      <txtWord />
+      <lblWord Text="단어" />
+      <lblDictionary Text="사전" />
+      <btnAdd Text="추가" />
+      <btnRemove Text="제거" />
+      <btnRemoveAll Text="모두 제거" />
+    </CustomDictionaryForm>
+    <FontPage Text="글꼴">
+      <lblEditTextFont Text="텍스트 글꼴 편집" />
+      <lblTextFont Text="글꼴" />
+      <lblTextSize Text="크기" />
+      <cbxTextStyle>
+        <Items>일반</Items>
+      </cbxTextStyle>
+      <lblTextStyle Text="스타일" />
+      <lblTextColor Text="색상" />
+      <btnResetTextDefault Text="기본 재설정" />
+      <lblCommentBoxFont Text="주석 텍스트 박스 글꼴" />
+      <lblCommentFont Text="글꼴" />
+      <lblCommentSize Text="크기" />
+      <cbxCommentStyle>
+        <Items>일반</Items>
+      </cbxCommentStyle>
+      <lblCommentStyle Text="스타일" />
+      <lblCommentColor Text="색상" />
+      <btnResetCommentDefault Text="기본 재설정" />
+    </FontPage>
+    <GeneralPage Text="일반">
+      <lblRecentFilesList Text="최근 파일 목록" />
+      <lblDefaultPageLayout Text="기본 페이지 레이아웃" />
+      <lblDefaultZoom Text="기본 확대/축소" />
+      <cbxDefaultZoom>
+        <Items>자동
+Fit 굵기
+Fit 높이
+Fit 페이지
+10%
+25%
+50%
+75%
+100%
+125%
+150%
+200%
+400%
+600%</Items>
+      </cbxDefaultZoom>
+      <cbHideMessageBar Text="항상 양식 문서 메시지 표시줄 숨기기" />
+      <lblSaveSetting Text="설정 저장" />
+      <lblMeasurementUnits Text="측정 단위" />
+      <cbCheckWordSpell Text="맞춤법 검사" />
+      <btnCustomDictionary Text="사용자 정의 사전" />
+      <cbAutoSave Text="모든 파일 자동 저장" />
+      <lblAutoSaveMinutes Text="분" />
+      <rbInchs Text="인치" />
+      <rbCentimeters Text="센티미터" />
+      <rbMillimeters Text="밀리미터" />
+      <rbPoints Text="포인트" />
+      <rbPicas Text="피카스" />
+    </GeneralPage>
+    <HotKeyPage Text="단축키">
+      <hiDescription Text="설명:" />
+      <hiShortcutKey Text="단축키" />
+    </HotKeyPage>
+    <OcrPage Text="OCR">
+      <lblOcrMessage Text="OCR (광 문자 인식)을 사용하면 스캔한 PDF 문서에서 텍스트를 복사, 편집 및 검색할 수 있습니다." />
+      <btnLanguageOver Text="OCR" />
+      <fileListPanel FileTips="PDF 파일을 여기로 끌어다 놓습니다." TaskName="OCR" />
+      <btnApply Text="적용" />
+      <gbOcrOption Text="OCR 옵션" />
+      <btnOcrOptionTips Text="" ToolTip="편집 가능한 텍스트: PDF 이미지의 텍스트는 OCR후 편집할 수 있습니다.&#xA;검색 가능한 텍스트: PDF 이미지의 텍스트는 OCR후에만 검색할 수 있습니다." />
+    </OcrPage>
+    <OptimizePage>
+      <fileListPanel FileTips="PDF 파일을 여기로 끌어다 놓습니다." TaskName="최적화">
+      </fileListPanel>
+      <btnApply Text="적용" />
+      <rdoHighCompression Text="높음" ToolTip="높은 압축, 낮은 품질" />
+      <rdoMediumCompression Text="중간" ToolTip="좋은 압축, 좋은 품질" />
+      <rdoLowCompression Text="낮음" ToolTip="저압축, 고품질" />
+      <lblOutputFormat Text="최적화 옵션" ToolTip="" />
+    </OptimizePage>
+    <PasswordPage Text="OCR">
+      <lblPasswordDescription Text="암호화된 문서를 열 때 PDFelement는 아래 설정한 비밀번호를 사용하여 암호화된 문서를 잠금 해제합니다." />
+      <lblPassword1 Text="비밀번호1" />
+      <lblPassword2 Text="비밀번호2" />
+      <lblPassword3 Text="비밀번호3" />
+      <ckbAutoUnlock Text="문서의 잠금을 자동으로 해제하려면 항상 위의 비밀번호를 사용하십시오" />
+    </PasswordPage>
+    <PreferencesForm>
+      <lblFormTitle Text="환경 설정" />
+      <btnGeneral Text="일반" />
+      <btnFont Text="글꼴" />
+      <btnOCR Text="OCR" />
+      <btnUpdate Text="업데이트" />
+      <btnProxy Text="프록시" />
+      <btnPassword Text="비밀번호" />
+      <btnRedaction Text="수정" />
+      <btnCreateBlankPdf Text="빈 PDF" />
+      <btnShortcut Text="단축키" />
+      <btnLanguage Text="언어" />
+      <btnApply Text="적용" />
+      <btnCancel Text="취소" />
+    </PreferencesForm>
+    <ProxyPage Text="프록시">
+      <rbtnNoProxy Text="프록시 설정 사용 안함" />
+      <lblProxyOptions Text="프록시 옵션" />
+      <rbtnIEProxy Text="IE 프록시 설정 사용" />
+      <rbtnCustomProxy Text="사용자 지정 프록시 설정 사용" />
+      <lblHost Text="호스트" />
+      <lblUserName Text="사용자 이름" />
+      <lblPort Text="포트" />
+      <lblPassword Text="비밀번호" />
+      <txtHost />
+      <txtUserName />
+      <txtPort />
+      <txtPassword />
+      <btnTestConnection Text="연결 테스트" />
+    </ProxyPage>
+    <RedactionPage>
+      <lblEditCodeText Text="텍스트 글꼴 편집" />
+      <btnAddSet Text="세트 추가" />
+      <txbSet />
+      <lblCodeSets Text="코드 세트" />
+      <btnRemoveSet Text="세트 제거" />
+      <btnAddEntry Text="코드 추가" />
+      <btnRemoveEntry Text="코드 제거" />
+      <txbEntry />
+      <lblCodeEntries Text="코드 항목" />
+    </RedactionPage>
+    <UpdatePage Text="업데이트">
+      <lblUpdatesAutomatically Text="업데이트 정보 자동 검색" />
+      <cbxUpdatesAutomatically Text="업데이트">
+        <Items>매일
+매주
+매월
+매 분기
+매년
+자동 업데이트 끄기</Items>
+      </cbxUpdatesAutomatically>
+    </UpdatePage>
+    <LanguagePage>
+      <lblDisplayLanguage Text="표시 언어: " />
+      <lblRestartTip Text="* 이 설정은 다시 시작한 후에 적용됩니다." />
+    </LanguagePage>
+    <SecurityTemplateForm Text="보안 템플릿 만들기">
+      <btnSave Text="저장" />
+      <btnCancel Text="취소" />
+      <ckbOpenPassword Text="문서를 열 때 암호를 요구합니다." />
+      <ckbPermissionPassword Text="문서 보안 설정 변경이나 특정 기능 사용 시 암호를 요구합니다." />
+      <lblPrintPermission Text="권한 복사" />
+      <lblChangesPermission Text="권한 수정" />
+      <ckbEnableCopy Text="텍스트,이미지 및 기타 내용의 복사가 가능합니다." />
+      <lblEncryptionLevel Text="암호화 수준" />
+      <rdo128AES Text="128 bit AES" />
+      <rdo256AES Text="256 bit AES" />
+      <rdo128RC4 Text="128 bit RC4" />
+      <lblTemplateName Text="이름&lt;Font color=&quot;red&quot;&gt;*&lt;/Font&gt;" />
+      <lblTemplateDuplicate Text="이름이 같은 템플릿이 이미 존재합니다." />
+      <txtOpenPassword PlaceHolderText="암호를 입력">
+      </txtOpenPassword>
+      <txtPermissionPassword PlaceHolderText="암호를 입력">
+      </txtPermissionPassword>
+      <txtTemplateName PlaceHolderText="첨부 파일이 없습니다." />
+      <lblPasswordTips Text="열려 있는 비밀번호와 권한 비밀번호가 부동하여야 합니다." />
+    </SecurityTemplateForm>
+    <ScanMorePagesForm Text="스캔">
+      <btnYes Text="예" />
+      <rbComplete Text="스캔이 완료되었습니다." />
+      <rbMorePages Text="추가 페이지 검색 (시트 2)" />
+      <rbReverseSides Text="반대쪽 (용지 1의 반대면) 스캔" />
+    </ScanMorePagesForm>
+    <ScannerForm Text="스캔">
+      <cbPDFA Text="PDF/A-2b 송장을 작성하세요." />
+      <cbOCR Text="텍스트 인식 (OCR)" />
+      <cbbPreSet>
+        <Items>스캐너를 선택해 주세요.</Items>
+      </cbbPreSet>
+      <lbOptimize Text="스캔된 PDF 최적화" />
+      <btnOK Text="스캔" />
+      <btnCancel Text="취소" />
+      <lblScanner Text="스캐너" />
+      <cbbScanner>
+        <Items>스캐너를 선택해 주세요.</Items>
+      </cbbScanner>
+      <cbShowScannerUI Text="스캐너 인터페이스 사용" />
+      <btnSaveSetting Text="설정 저장" />
+      <cbbPages>
+        <Items>정면 양쪽</Items>
+      </cbbPages>
+      <lbPages Text="페이지:" />
+      <btnDefault Text="기본값 복원" />
+      <lbHeightTitle Text="높이:" />
+      <lbWidthTitle Text="너비:" />
+      <cbbColorMode>
+        <Items>자동 감지
+컬러
+그레이 스케일
+흑백</Items>
+      </cbbColorMode>
+      <lbSanUsing Text="스캔 사용" />
+      <lbColorMode Text="컬러 모드:" />
+      <cbbResolution>
+        <Items>75 DPI
+100 DPI
+200 DPI
+300 DPI
+600 DPI
+1200 DPI</Items>
+      </cbbResolution>
+      <lbResolution Text="해상도:" />
+      <lbPaperSize Text="용지 크기:" />
+    </ScannerForm>
+    <OcrMiniForm>
+      <lblPercent Text="0%" />
+    </OcrMiniForm>
+    <OcrProcessProgressForm Text="OCR 라이브러리 다운로드">
+      <btnCancel Text="취소" />
+      <lblTopDescritption Text="OCR 다운로드 중입니다… 잠시만 기다려 주세요." />
+      <lblPercent Text="0%" />
+      <btnHide Text="숨기기" />
+      <lblBottomDescription Text="인스톨" />
+      <imgDownloadFail ToolTip="다운로드에 실패하였습니다. 네트워크 상태를 확인해 주세요." />
+      <btnRetry Text="재시도" />
+    </OcrProcessProgressForm>
+    <SupportRemoveListItem>
+      <lblItemText Text="아이템 텍스트" />
+    </SupportRemoveListItem>
+    <ScanForm Text="스캔">
+      <ckbPDFA Text="PDF/A-2b 송장을 작성하세요." />
+      <ckbOCR Text="텍스트 인식 (OCR)" />
+      <lblOptimize Text="스캔된 PDF 최적화" />
+      <btnOK Text="스캔" />
+      <btnCancel Text="취소" />
+      <lblScanner Text="스캐너" />
+      <cmbScanner>
+        <Items>스캐너를 선택해 주세요.</Items>
+      </cmbScanner>
+      <ckbShowScannerUI Text="스캐너 인터페이스 사용" />
+      <lblPages Text="페이지:" />
+      <lblHeightTitle Text="높이:" />
+      <lblWidthTitle Text="너비:" />
+      <lblScanUsing Text="스캔 사용" />
+      <lblColorMode Text="컬러 모드:" />
+      <lblResolution Text="해상도:" />
+      <btnDefault Text="기본값 복원" />
+      <btnSaveSetting Text="설정 저장" />
+      <lblPaperSize Text="용지 크기:" />
+    </ScanForm>
+    <CrashReportForm Text="시스템 오류 보고서">
+      <btnCancel Text="취소" />
+      <btnSubmit Text="제출" />
+      <lblHelp Text="다른 문제가 없다면, 빠른 문제 파악 및 수정을 위해 문제가 발생한 문서 파일을 첨부해 주시면 감사하겠습니다." />
+      <lblThankYou Text="불편을 드려 죄송합니다!" />
+      <btnEditEmail Text="이메일 편집" />
+      <btnAddFile Text="첨부 파일" />
+      <rbSuggest Text="제안" />
+      <rbBug Text="버그" />
+      <rbComment Text="주석" />
+      <txtDescription Text="" PlaceHolderText="설명..." />
+      <txtUserEmail Text="" PlaceHolderText="Need Email" />
+      <btnEmailOK Text="예" />
+      <cbAddLogs Text="로그 파일 첨부 (필수)" />
+    </CrashReportForm>
+    <FeedbackForm Text="고객의 목소리에 귀 기울이겠습니다. ">
+      <lblHelp Text="위 체크박스를 누르면 오류가 난 문서가 첨부되어 보내집니다. 빠른 문제 파악 및 수정을 위해 파일을 첨부해 주시면 감사하겠습니다." />
+      <btnAddFile Text="첨부 파일" />
+      <lblThankYou Text="피드백을 남겨주세요." />
+      <txtUserEmail PlaceHolderText="Need Email" />
+      <btnEmailOK Text="확인" />
+      <btnEditEmail Text="이메일 편집" />
+      <txtDescription PlaceHolderText="첨부 파일이 없습니다." />
+      <btnCancel Text="취소" />
+      <rbBug Text="버그" />
+      <rbComment Text="주석" />
+      <rbSuggest Text="제안" />
+      <btnSubmit Text="제출" />
+    </FeedbackForm>
+    <TrialPurchaseTipForm>
+      <btnContinue Text="계속하여 체험판 사용" />
+      <btnBuy Text="구매" />
+      <lblTitle Text="구독 권한" />
+      <llblLogin Text="로그인" />
+    </TrialPurchaseTipForm>
+    <TrialNoAuthPage>
+      <lblTitleWatermark Text="워터마크 없이 문서 저장." />
+      <lblDescWatermark Text="체험판은 문서 저장시 워터마크가 표시됩니다." />
+      <lblTitlePageLimit Text="변환 문서수 제한이 없습니다" />
+      <lblDescPageLimit Text="체험판에서는 문서 저장이 5개 페이지로 제한됩니다." />
+      <lblTitleOcr Text="OCR 텍스트 인식 수행 문서 지원" />
+      <lblDescOcr Text="체험판 버전은 OCR 기능의 사용을 지원하지 않습니다" />
+      <lblTitleDataExtraction Text="일괄 처리 데이터 추출시 페이지 수에 대한 제한이 없습니다" />
+      <lblDescDataExtraction Text="체함판에서는 일괄 처리 데이터 추출이 최대 2개의 파일로 제한됩니다." />
+      <lblTitleSupportXFA Text="XFA 문서 폼 채우기를 지원합니다." />
+      <lblNote Text="참고: 체험버전에서는 해당 기능을 지원하지 않습니다." />
+    </TrialNoAuthPage>
+    <TrialStdAuthPage>
+      <lblTitleOcr Text="OCR 텍스트 인식 수행 문서 지원" />
+      <lblDescOcr Text="스탠다드 버전은 OCR 기능 사용을 지원하지 않습니다." />
+      <lblTitleOptimize Text="문서를 최적화하여 파일 크기 줄이기" />
+      <lblDescOptimize Text="스탠다드 버전은 문서 최적화를 지원하지 않습니다." />
+      <lblTitleRedaction Text="문서를 수정하여 민감한 텍스트 또는 도형을 영구적으로 삭제" />
+      <lblDescRedaction Text="스탠다드 버전은 교정 기능을 지원하지 않습니다." />
+      <lblTitleFormExtract Text="문서 양식에서 데이터 추출" />
+      <lblDescFormExtract Text="스탠다드 버전은 교정 기능을 지원하지 않습니다." />
+      <lblTitleSupportXFA Text="XFA 문서 폼 채우기를 지원합니다." />
+      <lblNote Text="참고: 스탠다드 버전에서 해당 기능을 지원하지 않습니다." />
+    </TrialStdAuthPage>
+    <NewVersionNoteForm Text="새 버전 노트">
+      <btnBuy Text="구매" />
+      <btnInstallVersion7 Text="버전 7 설치" />
+      <lblInstalled Text="PDFelement 8 버전 설치가 완료되었습니다." />
+      <lblHelper Text="PDFelement 8은 PDF 문서 작업을 돕기 위해 더 빠르고 강력합니다." />
+      <lblLicense Text="PDFelement 8의 영구 라이선스를 받게 됩니다." />
+      <lblOnly Text="전용" />
+    </NewVersionNoteForm>
+    <TrialTipsForm>
+      <lblTitle Text="구독 권한" />
+      <lblDescWatermark Text="체험판은 문서 저장시 워터마크가 표시됩니다." />
+      <lblTitleWatermark Text="워터마크 없이 문서 저장." />
+      <lblDescPageLimit Text="체험판에서는 문서 저장이 5개 페이지로 제한됩니다." />
+      <lblTitlePageLimit Text="변환 문서수 제한이 없습니다" />
+      <lblDescOcr Text="체험판 버전은 OCR 기능의 사용을 지원하지 않습니다" />
+      <lblTitleOcr Text="OCR 텍스트 인식 수행 문서 지원" />
+      <lblDescDataExtraction Text="체함판에서는 일괄 처리 데이터 추출이 최대 2개의 파일로 제한됩니다." />
+      <lblTitleDataExtraction Text="일괄 처리 데이터 추출시 페이지 수에 대한 제한이 없습니다" />
+      <btnBuy Text="구매" />
+      <btnContinue Text="계속하여 체험판 사용" />
+    </TrialTipsForm>
+    <UpdateIsPayPage>
+      <lblTitle Text="결제가 완료되었습니까?" />
+      <btnLeftBottom Text="아니요" />
+      <btnRightBottom Text="예" />
+    </UpdateIsPayPage>
+    <UpdatePayNotCompletePage>
+      <lblTitle Text="결제가 완료되지 않았습니다." />
+      <lblMessage Text="이미 구입한 경우 '새로 고침'을 클릭하여 PDFelement 8 Pro의 영구 라이센스를 받으십시오." />
+      <btnLeftBottom Text="취소" />
+      <btnRightBottom Text="새로 고침" />
+    </UpdatePayNotCompletePage>
+    <UpdatePaySuccessfulPage>
+      <lblTitle Text="구매가 완료되었습니다." />
+      <lblMessage Text="이제 PDFelement 8 Pro의 영구 라이센스를 소유하고 계십니다." />
+      <btnRightBottom Text="예" />
+    </UpdatePaySuccessfulPage>
+    <UpdateReLoginPage>
+      <lblTitle Text="네트워크 상태가 불안정합니다." />
+      <lblMessage Text="PDFelement 8 Pro의 영구 라이센스를 받으려면 로그아웃 후 다시 로그인하십시오." />
+      <btnLeftBottom Text="취소" />
+      <btnRightBottom Text="로그아웃" />
+    </UpdateReLoginPage>
+    <BuyPage>
+      <gLabel1 Text="Alipay, WeChat 스캔 코드 결제" />
+      <labPayWait Text="결제중. . . . ." />
+      <lbPayTip Text="결제가 성공하였습니다!" />
+      <gLabel2 Text="결제 금액:" />
+      <lbpaiedName Text="Wondershare PDF Expert - 3개월 표준 버전" />
+      <gLabel3 Text="생성 시간:" />
+      <lbpaiedCreateDate Text="2019-06-06" />
+      <gLabel4 Text="거래 주문:" />
+      <lbpaiedOrderId Text="123456789" />
+      <gLabel5 Text="상품:" />
+      <lbpaiedPrice Text="￥199" />
+    </BuyPage>
+    <PriceForm />
+    <PriceItem>
+      <labPrice Text="399" />
+      <labTime Text="gLabel3" />
+      <labTip Text="gLabel" />
+      <gLabel2 Text="￥" />
+      <gLabel3 Text="￥" />
+    </PriceItem>
+    <PricePage>
+      <lbMoney Text="0" />
+      <gLabel1 Text="합계:" />
+      <gLabel3 Text="￥" />
+      <btnPro Text="Pro 버전" />
+      <btnStd Text="스탠다드 버전" />
+      <btnBuy Text="구입" />
+      <gLabel2 Text="Wondershare PDF Expert 구입을 환영합니다!" />
+      <gLabel5 Text="네트워크 연결을 확인하고 새로 고침하세요!" />
+      <gLabel4 Text="정보를 로드하지 못했습니다!" />
+      <btnReload Text="새로 고침" />
+    </PricePage>
+    <DeviceExceedLimitPage>
+      <lblTitle Text="장치 수량 제한에 도달하였습니다." />
+      <gLabel2 Text="계정을 업그레이드하여 사용 가능한 장치를 추가하거나 아래 장치 중 하나를 제거하여 현재 장치에 로그인하십시오." />
+      <gHeaderItem1 Text="장치명" />
+      <gHeaderItem2 Text="상태" />
+      <btnUpgrade Text="업그레이드" />
+      <llblRefresh Text="업그레이드 준비가 되었으면 &lt;a&gt;새로 고침&lt;/a&gt;을 클릭해 주세요." />
+    </DeviceExceedLimitPage>
+    <DeviceListViewItem>
+      <rbMac Text="Mac주소" />
+      <btnUnbind Text="해제" />
+    </DeviceListViewItem>
+    <LabelErrorPanel>
+      <lblErrorTip Text="lblErrorTip" />
+    </LabelErrorPanel>
+    <LoginAccountPage>
+      <btnNext Text="다음" />
+      <lblSignin Text="Wondershare ID로 로그인" />
+      <lblCreateAccount Text="Wondershare ID가 없나요? &lt;a&gt;계정을 만들어 보세요.&lt;/a&gt;" />
+      <lblAccountError Text="정확한 이메일 주소를 입력해 주세요." />
+      <txtAccount PlaceHolderText="이메일 주소" />
+      <gLabel1 Text="기타 로그인 방법" />
+      <labLoginStyle Text="Wechat 스캔 코드 로그인" />
+    </LoginAccountPage>
+    <LoginPwdPage>
+      <btnLogin Text="로그인" />
+      <lblSignAnotherAccount Text="기타 계정으로 로그인" />
+      <lblForgetPwd Text="비밀번호를 잊으셨나요?" />
+      <lblEnterPassword Text="비밀번호를 입력해 주세요." />
+      <lblAccountTip Text="이메일 주소:" />
+      <lblAccount Text="dour@wondershare.cn" />
+      <lblPasswordError Text="비밀번호를 입력해 주세요." />
+      <txtPassword PlaceHolderText="パスワード">
+      </txtPassword>
+    </LoginPwdPage>
+    <LoginRegisterForm />
+    <ProxySettingPage>
+      <rbtnNoProxy Text="프록시 설정 사용 안함" />
+      <rbtnIEProxy Text="IE 프록시 설정 사용" />
+      <rbtnCustomProxy Text="사용자 지정 프록시 설정 사용" />
+      <lblHost Text="호스트" />
+      <lblUserName Text="사용자 이름" />
+      <lblPort Text="포트" />
+      <lblPassword Text="비밀번호" />
+      <btnTest Text="테스트" />
+      <lblProxyOptions Text="프록시 설정" />
+      <btnReturn Text="돌아가기" />
+    </ProxySettingPage>
+    <QRCodeLoginControl>
+      <lblQrCodeLoadFaild Text="二维码加载失败！" />
+      <gLabel3 Text="请检查您的网络连接状况后重新加载！" />
+      <btnReload Text="重新加载" />
+      <gLabel1 Text="微信扫码，关注公众号即可注册登录" />
+    </QRCodeLoginControl>
+    <QRCodeLoginPage>
+      <gLabel1 Text="其他登录方式" />
+      <labLoginStyle Text="万兴账号登录" />
+      <qrCodeCtrl Text="qrCodePanel1">
+      </qrCodeCtrl>
+    </QRCodeLoginPage>
+    <RegisterAccountPwdPage>
+      <btnRegister Text="계정 만들기" />
+      <lblToLogin Text="다시 로그인하기" />
+      <lblAccountError Text="올바른 이메일 주소를 입력해 주세요." />
+      <lblAccount Text="&lt;Font color=&quot;#FF4F4F&quot;&gt;*&lt;/Font&gt;이메일 주소를 입력하세요." />
+      <lblPassword Text="&lt;Font color=&quot;#FF4F4F&quot;&gt;*&lt;/Font&gt;비밀번호" />
+      <lblPasswordError Text="비밀번호는 문자와 숫자를 포함해야 하며 길이는 6 ~ 32 자리 이어야 합니다. (~! @ # $ % ^ &amp; * () _ + =-{}) 이외의 문자는 허용되지 않습니다." />
+      <txtFirstName PlaceHolderText="이름" />
+      <txtLastName PlaceHolderText="성함" />
+      <lblAgreement Text="&lt;div style=&quot;text-align:center&quot;&gt;계정 만들기를 클릭하시면 &lt;a href=&quot;TermUrl&quot;&gt;이용 약관&lt;/a&gt; 과&lt;a href=&quot;PrivacyUrl&quot;&gt;개인정보 보호 방침&lt;/a&gt;에 동의하는 것으로 됩니다.&lt;/div&gt;" />
+      <lblCountry Text="&lt;Font color=&quot;#FF4F4F&quot;&gt;*&lt;/Font&gt;국가" />
+      <lblCountryError Text="국가/지역을 선택해 주세요." />
+      <lblCreateAccount Text="Wondershare ID 만들기" />
+    </RegisterAccountPwdPage>
+    <RegisterCodePage>
+      <lblVerifyIdentity Text="신분 인증" />
+      <lblSendAccountCode Text="받으신 인증코드를 입력해 주세요." />
+      <lblSendAccount Text="morg@wondershare.cn" />
+      <btnRegister Text="인증 코드" />
+      <lblNotReceiveCode Text="코드가 도착하지 않았나요?" />
+      <lblSignAnotherAccount Text="다시 로그인하기" />
+      <lblBack Text="돌아가기" />
+    </RegisterCodePage>
+    <UserCenterControl>
+      <lblUserCenter Text="사용자 센터&gt;" />
+      <lblEmail Text="morg@wondershare.cn" />
+      <btnExit Text="편집" />
+    </UserCenterControl>
+    <UserCenterAuthInfoControl>
+      <btnExpirationDate Text="만료 날짜" />
+      <btnDeviceNumber Text="장치 번호" />
+    </UserCenterAuthInfoControl>
+    <UserCenterProfessionalPage>
+    </UserCenterProfessionalPage>
+    <UserCenterStandradPage>
+    </UserCenterStandradPage>
+    <UserCenterTrailPage>
+      <lblPermissions Text="구독 권한" />
+      <btnWatermark Text="워터마크가 있는 형식으로 문서 저장." />
+      <btnPageLimited Text="페이지 제한 없이 문서 변환" />
+      <btnOcr Text="OCR 지원은 Pro 버전에서 지원합니다." />
+    </UserCenterTrailPage>
+    <ToolboxMainForm>
+      <lblBatchProcess Text="일괄 프로세스" />
+      <btnConvert Text="변환" />
+      <btnCreate Text="생성" />
+      <btnOptimize Text="최적화" />
+      <btnOcr Text="OCR" />
+      <btnBatesNumber Text="베이츠 번호" />
+      <btnWatermark Text="워터마크" />
+      <btnSecurity Text="보안" />
+      <btnDataExtract Text="내보낸 데이터" />
+      <btnBatchPrint Text="일괄 인쇄" />
+    </ToolboxMainForm>
+    <BackgroundPage>
+      <btnApply Text="적용" />
+      <fileListPanel FileTips="PDF 파일을 여기로 끌어다 놓습니다." TaskName="배경화면">
+      </fileListPanel>
+    </BackgroundPage>
+    <BaseTaskPage>
+      <btnApply Text="적용" />
+    </BaseTaskPage>
+    <BatchPrintPage>
+      <fileListPanel FileTips="PDF 파일을 여기로 끌어다 놓습니다." TaskName="일괄 인쇄">
+      </fileListPanel>
+      <btnApply Text="적용" />
+      <btnMoreSettings Text="설정 더 보기" />
+    </BatchPrintPage>
+    <BatesNumberPage>
+      <fileListPanel FileTips="PDF 파일을 여기로 끌어다 놓습니다." TaskName="베이츠 번호">
+      </fileListPanel>
+      <btnApply Text="적용" />
+      <ckbSortDocument Text="정렬 문서" />
+    </BatesNumberPage>
+    <ConvertPage>
+      <fileListPanel FileTips="PDF 파일을 여기로 끌어다 놓습니다." TaskName="전환">
+      </fileListPanel>
+      <btnApply Text="적용" />
+      <gbOutputFormat Text="추출 형식" />
+    </ConvertPage>
+    <CreatePage>
+      <fileListPanel FileTips="파일을 여기로 끌어다 놓습니다." TaskName="제작">
+      </fileListPanel>
+      <btnApply Text="적용" />
+      <lblOutputFormat Text="추출 형식" />
+      <lblPdf Text="PDF(*.pdf)" />
+    </CreatePage>
+    <DataExtractPage>
+      <fileListPanel FileTips="PDF 파일을 여기로 끌어다 놓습니다." TaskName="낸보낸 데이터" Text="" ToolTip="">
+      </fileListPanel>
+      <btnApply Text="적용" />
+      <rdoFromMarkedPdf Text="표시된 PDF에서 데이터를 내보내기" />
+      <rdoFromFields Text="PDF 양식 필드에서 데이터를 내보내기" />
+      <multipleTemplatePanel TemplateTips="먼저 템플릿을 만드십시오.&#xD;&#xA;참고 : PDF에서 데이터 추출 필드를 설정하여 템플릿을 만듭니다.">
+      </multipleTemplatePanel>
+      <lblTemplateTips Text="참고:필드에서 PDF 형식의 데이터는 CSV 파일로 추출됩니다." ToolTip="" />
+    </DataExtractPage>
+    <HeaderFooterPage>
+      <fileListPanel FileTips="PDF 파일을 여기로 끌어다 놓습니다." TaskName="머리글 &amp; 바닥글">
+      </fileListPanel>
+      <btnApply Text="적용" />
+    </HeaderFooterPage>
+    <BlankPageView>
+      <btnOpenFile Text="파일 열기" />
+    </BlankPageView>
+    <MessagePushForm Text="메시지 센터">
+      <linkAllRead Text="모두 읽기 표시" />
+      <btnCancel Text="취소" />
+      <lblNoMessage Text="메시지 없음" />
+      <lblLoadFail Text="네트워크 연결 시간이 초과되었습니다" />
+      <lblLoading Text="로딩중" />
+      <linkRefresh Text="새로 고침을 누르세요" />
+    </MessagePushForm>
+    <cmsMessage>
+      <miDelete Text="삭제" />
+    </cmsMessage>
+    <CloudForm>
+      <lblNotfile Text="파일이 없습니다." />
+      <btnDetail Text="클라우드 세부 정보" />
+    </CloudForm>
+    <BlankFileCreatePage Text="빈 PDF">
+      <lblPageSize Text="크기" />
+      <lblPages Text="페이지" />
+      <lblQrientation Text="방향" />
+      <lblFileName Text="파일 이름" />
+      <lblWidth Text="너비" />
+      <lblHeight Text="높이" />
+    </BlankFileCreatePage>
+    <CreateMultipleCopiesForm Text="여러 복사본 만들기">
+      <btnOK Text="확인" />
+      <btnCancel Text="취소" />
+      <lblHor Text="수평 간격:" />
+      <lblVer Text="수직 간격:" />
+      <lbVerTip Text="선택한 필드를 아래로 복사:" />
+      <lbHorTip Text="선택한 필드를 수평 복사:" />
+      <btnTop Text="위로" />
+      <btnDown Text="아래로" />
+      <btnLeft Text="왼쪽" />
+      <btnRight Text="오른쪽" />
+      <lbNumOfFields Text="필드 수량:" />
+      <lbIntervalOfFields Text="필드 간격:" />
+      <lbPositionOfFields Text="전체 위치(모든 필드):" />
+      <lbTimes1 Text="번" />
+      <lbTimes2 Text="번" />
+    </CreateMultipleCopiesForm>
+    <PencilColorFloatControl>
+      <lblOpacityTitle Text="불투명도" />
+      <lblThicknessTitle Text="두께" />
+      <lblProperties Text="설정" />
+    </PencilColorFloatControl>
+    <DataExtractInstructionPanel>
+      <lblStep1Title Text="첫째" />
+      <lblStep1Content Text="미리보기가 너무 작으면(크면) 여기를 클릭하여 확대(축소)하세요." />
+      <btnStep1GotIt Text="다음" />
+      <lblStep2Title Text="둘째" />
+      <lblStep2Content Text="마킹 필드 모드를 선택합니다." />
+      <btnStep2GotIt Text="다음" />
+      <lblStep3Title Text="셋째" />
+      <lblStep3Content Text="데이터를 추출할 필드를 표시하세요." />
+      <btnStep3GotIt Text="다음" />
+      <lblStep4Title Text="넷째" />
+      <lblStep4Content Text="필드 이름을 변경합니다." />
+      <btnStep4GotIt Text="다음" />
+      <lblStep5Title Text="다섯째" />
+      <lblStep5Content Text="템플릿을 저장합니다." />
+      <btnStep5GotIt Text="완료" />
+      <lblField Text="필드" />
+    </DataExtractInstructionPanel>
+    <MobileDownloadPanel>
+      <lblSearchPDFelement Text="App Store에서 &lt;span style=&quot;color:#4864FF;font-weight:bold;&quot;&gt;&lt;a href=&quot;https://pdf.wondershare.kr/pdfelement-ios/?utm_source=link_in_app&amp;utm_medium=ownmedia&amp;utm_campaign=wspe&amp;utm_term=2021-0428-windows-kr&amp;utm_content=link_pe_pe_en_17092820_2021-04-28&quot;&gt;‘PDFelement - PDF 편집기’&lt;/a&gt;&lt;/span&gt; 를 검색하여 다운하세요." />
+      <lblScanQRCode Text="카메라로 다음 QR코드를 스캔하여 App Store에서 &lt;span style=&quot;color:#4864FF;font-weight:bold;&quot;&gt;&lt;a href=&quot;https://pdf.wondershare.kr/pdfelement-ios/?utm_source=link_in_app&amp;utm_medium=ownmedia&amp;utm_campaign=wspe&amp;utm_term=2021-0428-windows-kr&amp;utm_content=link_pe_pe_en_17092820_2021-04-28&quot;&gt;‘PDFelement - PDF 편집기’&lt;/a&gt;&lt;/span&gt;를 다운할 수 있습니다." />
+      <ckbGotIt Text="다운 완료" />
+    </MobileDownloadPanel>
+    <RegCodeLoginControl>
+      <btnRegister Text="Register" />
+    </RegCodeLoginControl>
+    <RegCodeProfilePanel>
+      <btnExpirationDate Text="Expiration Date" />
+      <btnExit Text="Exit" />
+    </RegCodeProfilePanel>
+    <RegisterForm>
+      <lnklblForgotKey Text="Oops, i forgot my keys!" />
+      <btnRegister Text="Register" />
+      <txtEmail PlaceHolderText="Email address" />
+      <txtRegCode PlaceHolderText="Registration code" />
+    </RegisterForm>
+    <CompareDashboardPage Text="파일 비교">
+      <btnChangesList Text="변경 내용 목록" />
+      <btnDashboard Text="대시보드" />
+      <lblTotalChange Text="총 변경 항목:" />
+    </CompareDashboardPage>
+    <CompareFilterBar>
+      <lblDeletion Text="삭제" />
+      <lblInsertion Text="삽입" />
+      <lblModification Text="수정" />
+      <btnPreviousChange Text="이전 변경 내용" />
+      <btnNextChange Text="다음 변경 내용" />
+      <btnFilter Text="필터" />
+      <btnShow Text="표시" />
+    </CompareFilterBar>
+    <cmsFileSelection>
+      <miBrowseFile Text="파일 찾아보기" />
+    </cmsFileSelection>
+    <cmsFilter>
+      <miText Text="텍스트" />
+      <miImage Text="이미지" />
+    </cmsFilter>
+    <cmsShow>
+      <miHideAll Text="모두 숨기기" />
+      <miShowAll Text="모두 표시" />
+      <miHideDeletion Text="삭제 항목 숨기기" />
+      <miShowDeletion Text="삭제 항목 표시" />
+      <miHideInsertion Text="삽입 항목 숨기기" />
+      <miShowInsertion Text="삽입 항목 표시" />
+      <miHideModification Text="수정 항목 숨기기" />
+      <miShowModification Text="수정 항목 표시" />
+    </cmsShow>
+    <CompareNavigatePage>
+      <btnComparison ToolTip="파일 비교" />
+    </CompareNavigatePage>
+    <CompareSaveForm Text="저장">
+      <lblChoose Text="저장할 파일을 선택하십시오:" />
+      <btnSave Text="저장" />
+      <btnCancel Text="취소" />
+    </CompareSaveForm>
+    <CompareSelectionForm Text="파일 비교">
+      <lblSelectFile Text="비교활 파일을 선택하세요." />
+      <lblOldFile Text="이전 파일" />
+      <lblNewFile Text="새 파일" />
+      <btnSelectOldFile Text="파일 선택" />
+      <btnSelectNewFile Text="파일 선택" />
+      <btnCompare Text="비교" />
+    </CompareSelectionForm>
+  </Forms>
+</LanguageResource>

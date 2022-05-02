@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="StatusBackground">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Image Name="StatusBackground.svg" />
+      <Extension Left="26" Top="26" Right="26" Bottom="26" />
+      <State Left="0" Top="0" Width="64" Height="64">
+        <Margins Left="26" Top="26" Right="26" Bottom="26" />
+      </State>
+    </Part>
+  </Item>
+</Skin>

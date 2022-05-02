@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="CommonGreyBkg">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Image Name="CommonGreyBkg.svg" />
+      <State Left="0" Top="0" Width="132" Height="117" />
+    </Part>
+  </Item>
+</Skin>

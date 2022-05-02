@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="Rotate90Glyph">
+    <Part id="0" Name="Frame" FillMode="center" TransparentMode="Alpha">
+      <Image Name="Rotate90Glyph.svg" />
+      <State Left="0" Top="0" Width="40" Height="40" />
+      <State Left="0" Top="0" Width="40" Height="40" />
+      <State Left="40" Top="0" Width="40" Height="40" />
+      <State Left="80" Top="0" Width="40" Height="40" />
+    </Part>
+  </Item>
+</Skin>

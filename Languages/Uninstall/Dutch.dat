@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageResource Id="NLD" Name="Dutch" LocaleName="Netherlands" Version="1.1" LangID="0x0413" CodePage="1252">
+  <Default>
+    <Font Name="Segoe UI" Size="9" />
+    <FontMapping>
+      <Item From="Open Sans" To="Segoe UI" FailTo="Tahoma" />
+      <Item From="Open Sans Semibold" To="Segoe UI Semibold" FailTo="Tahoma" />
+      <Item From="Tahoma" To="Segoe UI" FailTo="Tahoma" />
+      <Item From="Arial" To="Segoe UI" FailTo="Tahoma" />
+      <Item From="Inter" To="Segoe UI" FailTo="Tahoma" />
+      <Item From="Helvetica" To="Segoe UI" Failto="Tahoma" />
+    </FontMapping>
+  </Default>
+  <Strings>
+    <Info_RemainTime>Nog ongeveer {0} seconden</Info_RemainTime>
+    <Info_MoreApp>Meer apps die je misschien leuk vindt</Info_MoreApp>
+  </Strings>
+  <Forms>
+    <UninstallForm Text="Verwijderen" />
+    <UninstallMakeSureForm>
+      <lblUninstallMakeSure Text="Weet je zeker dat je Wondershare PDFelement wil verwijderen?" />
+      <cbRemoveResource Text="Remove all the effect resource files" />
+      <btnRemove Text="Verwijderen" />
+      <btnCancel Text="Annuleren" />
+    </UninstallMakeSureForm>
+    <UninstallProductMainPage>
+      <btnAll Text="Alles" />
+      <btnCreativity Text="Creativiteit" />
+      <btnProductivity Text="Productiviteit" />
+      <btnUtility Text="Bruikbaarheid" />
+    </UninstallProductMainPage>
+    <UninstallReasonDefaultPage>
+      <lblMessage Text="Hallo daar, &#xA;&#xA;Wondershare PDFelement valt onder Wondershare Technology. We zijn toegewijd aan het maken van gebruiksvriendelijke software. We zullen ons best doen om het zo geschikt mogelijk voor u te maken. Hierbij ontvangt u een eenvoudige vragenlijst die ons helpt het product te verbeteren. &#xA;&#xA;Bedankt voor uw feedback, we hopen u weer te ontmoeten. &#xA;&#xA;dank u!" />
+    </UninstallReasonDefaultPage>
+    <UninstallReasonMainPage>
+      <lblTitle Text="Kun je me vertellen waarom je wil deïnstalleren?" />
+      <rbCrash Text="Het is vastgelopen op mijn computer." />
+      <rbFixSoftware Text="Herstel software" />
+      <rbOther Text="Anders" />
+      <txtOther PlaceHolderText="Omschrijf het probleem dat je hebt" />
+      <btnCancel Text="Annuleren" />
+      <btnContinue Text="Doorgaan" />
+    </UninstallReasonMainPage>
+    <UninstallReasonOtherPage>
+      <lblMessage Text="Bedankt voor uw feedback, ik kijk ernaar uit u weer te zien!" />
+    </UninstallReasonOtherPage>
+    <UninstallUpdateLatestVersionForm>
+      <lblLatestVersion Text="Je hebt de nieuwste versie al!" />
+      <btnOK Text="OK" />
+    </UninstallUpdateLatestVersionForm>
+    <UninstallRepairProgressPage>
+      <lblWait Text="Reparatie, een ogenblik geduld ..." />
+      <btnCancel Text="Annuleren" />
+    </UninstallRepairProgressPage>
+    <UninstallRepairSuccessfulPage>
+      <lblCompleted Text="Reparatie voltooid" />
+      <btnExecute Text="Lancering" />
+    </UninstallRepairSuccessfulPage>
+    <UninstallUpdateProgressPage>
+      <lblWait Text="Upgraden, een ogenblik geduld .." />
+      <btnCancel Text="Annuleren" />
+    </UninstallUpdateProgressPage>
+    <UninstallUpdateSuccessfulPage>
+      <btnExecute Text="Lancering" />
+      <lblCompleted Text="Upgrade voltooid" />
+      <lblNewVersion Text="De nieuwe versie is stabieler en sneller!" />
+    </UninstallUpdateSuccessfulPage>
+    <UninstallWorkeFailedPage>
+      <lblFailed Text="Upgrade is mislukt" />
+      <lblTry Text="Bij het verwijderen zijn fouten opgetreden. Probeer opnieuw te verwijderen." />
+      <btnClose Text="Sluiten" />
+    </UninstallWorkeFailedPage>
+    <UninstallWorkeMainPage>
+      <lblMoreApp Text="Meer apps die je misschien leuk vindt" />
+      <btnMoreProduct Text="Meer producten" />
+    </UninstallWorkeMainPage>
+    <UninstallWorkeProgressPage>
+      <lblThanks Text="Bedankt voor de feedback! Verwijderen.." />
+    </UninstallWorkeProgressPage>
+    <UninstallWorkeSuccessfulPage>
+      <lblSuccessful Text="Succesvol verwijderd" />
+      <txtContact PlaceHolderText="E-mailadres" />
+      <lblUpdate Text="Vul je e-mailadres in om het laatste nieuws te ontvangen" />
+      <lblContactError Text="Vul uw juiste e-mailadres." />
+      <btnDone Text="Gedaan" />
+    </UninstallWorkeSuccessfulPage>
+    <UpdateFailedForm>
+      <lblMessage Text="Upgrade is mislukt" />
+      <btnOK Text="OK" />
+    </UpdateFailedForm>
+    <UpdateLatestVersionForm>
+      <lblLatestVersion Text="Je hebt de nieuwste versie al!" />
+      <btnOK Text="OK" />
+    </UpdateLatestVersionForm>
+    <CloseMainAppForm>
+      <lblMessage Text="Wondershare PDFelement is actief, sluit het eerst af." />
+      <btnRetry Text="Opnieuw proberen" />
+      <btnCancel Text="Annuleren" />
+    </CloseMainAppForm>
+    <RepairFailedForm>
+      <lblMessage Text="Reparatie is mislukt" />
+      <btnOK Text="OK" />
+    </RepairFailedForm>
+  </Forms>
+</LanguageResource>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="TaskButton">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Image Name="TaskButton.svg" />
+      <Font Style="Bold" />
+      <State Left="0" Top="0" Width="56" Height="56" />
+      <State Left="56" Top="0" Width="56" Height="56" />
+      <State Left="112" Top="0" Width="56" Height="56">
+        <Font Color="clWhite" />
+      </State>
+    </Part>
+  </Item>
+</Skin>

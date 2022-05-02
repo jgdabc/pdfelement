@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="StatusPageLayoutGlyph">
+    <Image Name="StatusPageLayoutGlyph.svg" />
+    <Slice Id="SingleContinue" rect="0,0,40,42" />
+    <Slice Id="Single" rect="40,0,40,42" />
+    <Slice Id="Facing" rect="80,0,40,42" />
+    <Slice Id="FacingContinue" rect="120,0,40,42" />
+  </Item>
+</Skin>

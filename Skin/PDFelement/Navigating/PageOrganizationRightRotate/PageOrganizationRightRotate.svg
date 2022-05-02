@@ -1,0 +1,12 @@
+<svg width="48" height="24" viewBox="0 0 48 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="2.5" y="2.5" width="9" height="19" fill="#D3D4E0" stroke="#212648"/>
+<path d="M14 4.5H18.5V9.5M18.5 9.5L20.5 7.5M18.5 9.5L16.5 7.5" stroke="#212648"/>
+<path d="M20 21.5H21.5V20M18 21.5H16M14 21.5H12M14 12.5H12M18 12.5H16M21.5 14V12.5H20M21.5 18V16" stroke="#212648"/>
+<path d="M11.5 12.5H21.5V21.5H11.5" stroke="#212648" stroke-dasharray="1 1"/>
+<g opacity="0.4">
+<rect x="26.5" y="2.5" width="9" height="19" fill="#D3D4E0" stroke="#212648"/>
+<path d="M38 4.5H42.5V9.5M42.5 9.5L44.5 7.5M42.5 9.5L40.5 7.5" stroke="#212648"/>
+<path d="M44 21.5H45.5V20M42 21.5H40M38 21.5H36M38 12.5H36M42 12.5H40M45.5 14V12.5H44M45.5 18V16" stroke="#212648"/>
+<path d="M35.5 12.5H45.5V21.5H35.5" stroke="#212648" stroke-dasharray="1 1"/>
+</g>
+</svg>

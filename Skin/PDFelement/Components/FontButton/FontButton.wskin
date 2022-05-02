@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="FontButton">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Image Name="FontButton.svg" />
+      <State Left="0" Top="0" Width="26" Height="26">
+        <Margins Left="3" Top="3" Right="3" Bottom="3" />
+      </State>
+      <State Left="26" Top="0" Width="26" Height="26">
+        <Margins Left="3" Top="3" Right="3" Bottom="3" />
+      </State>
+      <State Left="52" Top="0" Width="26" Height="26">
+        <Margins Left="3" Top="3" Right="3" Bottom="3" />
+      </State>
+      <State Left="78" Top="0" Width="26" Height="26">
+        <Margins Left="3" Top="3" Right="3" Bottom="3" />
+      </State>
+    </Part>
+  </Item>
+</Skin>

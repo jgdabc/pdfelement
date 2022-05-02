@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="ProgressBar">
+    <Part id="0" Name="Frame" Style="1" TransparentMode="Alpha">
+      <Image Name="ProgressBar.svg" />
+      <State Left="9" Top="0" Width="9" Height="8">
+        <Margins Left="4" Top="2" Right="4" Bottom="2" />
+        <Font Color="clWhite" />
+      </State>
+      <State Left="0" Top="0" Width="9" Height="8">
+        <Margins Left="4" Top="2" Right="4" Bottom="2" />
+        <Font Color="0xff482621" />
+      </State>
+    </Part>
+  </Item>
+</Skin>

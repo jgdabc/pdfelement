@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="PricePageCaption">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Image Name="PricePageCaption.svg" />
+      <Font Size="9" Color="clWhite" Style="Bold" />
+      <Padding Left="8" Right="8" />
+      <State Left="0" Top="0" Width="834" Height="102" />
+    </Part>
+  </Item>
+</Skin>

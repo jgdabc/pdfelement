@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="PreferencesButton">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Image Name="PreferencesButton.png" />
+      <Font Size="9" Style="Bold" />
+      <State Left="0" Top="0" Width="2" Height="37">
+        <Font Color="0xff666666" />
+      </State>
+      <State Left="4" Top="0" Width="2" Height="37">
+        <Font Color="0xff666666" />
+      </State>
+      <State Left="2" Top="0" Width="2" Height="37">
+        <Font Color="clWhite" />
+      </State>
+      <State Left="0" Top="0" Width="2" Height="37">
+        <Font Color="0xffa5a5a5" />
+      </State>
+    </Part>
+  </Item>
+</Skin>

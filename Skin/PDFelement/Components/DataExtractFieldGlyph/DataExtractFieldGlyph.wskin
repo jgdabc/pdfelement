@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="DataExtractFieldGlyph">
+    <Part id="0" Name="Frame" FillMode="center" TransparentMode="Alpha">
+      <Image Name="DataExtractFieldGlyph.svg" />
+      <State Left="0" Top="0" Width="16" Height="16" />
+      <State Left="0" Top="0" Width="16" Height="16" />
+      <State Left="16" Top="0" Width="16" Height="16" />
+      <State Left="32" Top="0" Width="16" Height="16" />
+    </Part>
+  </Item>
+</Skin>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Skin>
+  <Item Name="IconArrangeDistribute">
+    <Part id="0" Name="frame" TransparentMode="Alpha">
+      <Graphic Name="IconArrangeDistribute_frame.svg" />
+      <State Left="0" Top="0" Width="16" Height="16" />
+    </Part>
+    <Part id="1" Name="frame" TransparentMode="Alpha">
+      <Graphic Name="IconArrangeDistribute_frame.svg" />
+      <State Left="0" Top="0" Width="16" Height="16" />
+    </Part>
+  </Item>
+</Skin>

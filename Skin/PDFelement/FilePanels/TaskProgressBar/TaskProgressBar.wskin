@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="TaskProgressBar">
+    <Part id="0" Name="Frame" Style="1" TransparentMode="Alpha">
+      <Image Name="TaskProgressBar.svg" />
+      <State Left="8" Top="0" Width="8" Height="4">
+        <Margins Left="2" Right="2" />
+        <Font Color="clWhite" />
+      </State>
+      <State Left="0" Top="0" Width="8" Height="4">
+        <Margins Left="2" Right="2" />
+        <Font Color="0xff482621" />
+      </State>
+    </Part>
+  </Item>
+</Skin>

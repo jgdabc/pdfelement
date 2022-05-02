@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="RibbonTabControl">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Image Name="RibbonTabControl_Frame.svg" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+    <Part id="1" Name="TabButton" TransparentMode="Alpha">
+      <State Left="0" Top="0" Width="0" Height="0">
+        <Font Color="0xff482621" />
+      </State>
+      <State Left="0" Top="0" Width="0" Height="0">
+        <Font Color="0xffff6448" />
+      </State>
+      <State Left="0" Top="0" Width="0" Height="0">
+        <Font Color="0xffff6448" />
+      </State>
+      <State Left="0" Top="0" Width="0" Height="0">
+        <Font Color="clLightGray" />
+      </State>
+    </Part>
+    <Part id="2" Name="Header" TransparentMode="Alpha">
+      <Image Name="RibbonTabControl_Header.svg" />
+      <State Left="0" Top="0" Width="13" Height="12" />
+    </Part>
+    <Part id="3" Name="Gap" TransparentMode="Alpha" />
+    <Part id="4" Name="NextButton" TransparentMode="Alpha">
+      <Image Name="RibbonTabControl_NextButton.svg" />
+      <State Left="64" Top="0" Width="15" Height="29" />
+      <State Left="80" Top="0" Width="15" Height="29" />
+      <State Left="96" Top="0" Width="15" Height="29" />
+      <State Left="64" Top="0" Width="15" Height="29" />
+    </Part>
+    <Part id="5" Name="NextButtonGlyph" TransparentMode="Alpha" />
+    <Part id="6" Name="PreButton" TransparentMode="Alpha">
+      <Image Name="RibbonTabControl_NextButton.svg" />
+      <State Left="0" Top="0" Width="15" Height="29" />
+      <State Left="16" Top="0" Width="15" Height="29" />
+      <State Left="32" Top="0" Width="15" Height="29" />
+      <State Left="48" Top="0" Width="15" Height="29" />
+    </Part>
+    <Part id="7" Name="PreButtonGlyph" TransparentMode="Alpha" />
+  </Item>
+</Skin>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="LandscapeButtonBkg">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Image Name="LandscapeButtonBkg.svg" />
+      <State Left="0" Top="0" Width="40" Height="40" />
+      <State Left="40" Top="0" Width="40" Height="40" />
+      <State Left="80" Top="0" Width="40" Height="40" />
+      <State Left="120" Top="0" Width="40" Height="40" />
+    </Part>
+  </Item>
+</Skin>

@@ -1,0 +1,8 @@
+<StyleSheet>
+  <ForeColor>#333333</ForeColor>
+  <LinkColor>0,123,255</LinkColor>
+  <ActiveLinkColor>0,123,255</ActiveLinkColor>
+  <DisabledLinkColor>0,123,255</DisabledLinkColor>
+  <VisitedLinkColor>0,123,255</VisitedLinkColor>
+  <LinkBehavior>NeverUnderline</LinkBehavior>
+</StyleSheet>

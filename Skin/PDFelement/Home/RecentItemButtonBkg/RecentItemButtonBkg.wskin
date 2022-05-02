@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="RecentItemButtonBkg">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Image Name="RecentItemButtonBkg.svg" />
+      <State Left="0" Top="0" Width="16" Height="16" />
+      <State Left="16" Top="0" Width="16" Height="16" />
+      <State Left="32" Top="0" Width="16" Height="16" />
+      <State Left="48" Top="0" Width="16" Height="16" />
+    </Part>
+  </Item>
+</Skin>

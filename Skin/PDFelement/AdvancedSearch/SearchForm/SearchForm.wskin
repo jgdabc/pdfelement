@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="SearchForm">
+    <Part id="0" Name="Form" Style="1" TransparentMode="Alpha">
+      <Image Name="SearchFormBkg.svg" />
+      <Region type="Auto" />
+      <Margins Left="30" Top="30" Right="30" Bottom="30" PseudoCaption="32" />
+      <Padding Top="-1" />
+      <State Left="100" Top="0" Width="100" Height="100">
+        <Color>clWhite</Color>
+        <Margins Left="30" Top="62" Right="30" Bottom="30" />
+      </State>
+      <State Left="0" Top="0" Width="100" Height="100">
+        <Color>clWhite</Color>
+        <Margins Left="30" Top="62" Right="30" Bottom="30" />
+      </State>
+    </Part>
+    <Part id="1" Name="Caption" Alignment="Center">
+      <Position RelPos="Top" X="60" Y="30" X2="93" Height="32" />
+      <Font Size="10" Color="clWhite" />
+      <State Left="0" Top="0" Width="0" Height="0">
+        <Font Color="clSilver" />
+      </State>
+      <State Left="0" Top="0" Width="0" Height="0">
+        <Font Color="clWhite" />
+      </State>
+    </Part>
+    <Part id="2" Name="Icon" FillMode="center" TransparentMode="Alpha">
+      <Image Name="SearchFormIcon.svg" />
+      <Position RelPos="TopLeft" X="34" Y="34" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="3" Name="RestoreButton" TransparentMode="Alpha">
+      <Image Name="SearchFormRestoreButton.svg" />
+      <Position RelPos="TopRight" X="70" Y="30" Width="40" Height="32" />
+      <State Left="0" Top="0" Width="40" Height="32" />
+      <State Left="40" Top="0" Width="40" Height="32" />
+      <State Left="80" Top="0" Width="40" Height="32" />
+      <State Left="0" Top="0" Width="40" Height="32" />
+    </Part>
+    <Part id="4" Name="MinButton" TransparentMode="Alpha">
+      <Image Name="SearchFormMinButton.svg" />
+      <Position RelPos="TopRight" X="70" Y="30" Width="40" Height="32" />
+      <State Left="0" Top="0" Width="40" Height="32" />
+      <State Left="40" Top="0" Width="40" Height="32" />
+      <State Left="80" Top="0" Width="40" Height="32" />
+      <State Left="0" Top="0" Width="40" Height="32" />
+    </Part>
+    <Part id="5" Name="MaxButton" Visible="False" TransparentMode="Alpha">
+      <Image Name="SearchFormMaxButton.svg" />
+      <Position RelPos="TopRight" X="70" Y="30" Width="40" Height="32" />
+      <State Left="0" Top="0" Width="40" Height="32" />
+      <State Left="40" Top="0" Width="40" Height="32" />
+      <State Left="80" Top="0" Width="40" Height="32" />
+      <State Left="0" Top="0" Width="40" Height="32" />
+    </Part>
+    <Part id="6" Name="CloseButton" TransparentMode="Alpha">
+      <Image Name="SearchFormCloseButton.svg" />
+      <Position RelPos="TopRight" X="30" Y="30" Width="40" Height="32" />
+      <State Left="0" Top="0" Width="40" Height="32" />
+      <State Left="40" Top="0" Width="40" Height="32" />
+      <State Left="80" Top="0" Width="40" Height="32" />
+      <State Left="0" Top="0" Width="40" Height="32" />
+    </Part>
+  </Item>
+</Skin>

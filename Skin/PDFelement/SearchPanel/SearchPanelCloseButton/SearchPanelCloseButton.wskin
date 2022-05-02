@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="SearchPanelCloseButton">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Image Name="SearchPanelCloseButton.svg" />
+      <State Left="0" Top="0" Width="32" Height="32" />
+      <State Left="32" Top="0" Width="32" Height="32" />
+      <State Left="64" Top="0" Width="32" Height="32" />
+      <State Left="96" Top="0" Width="32" Height="32" />
+    </Part>
+  </Item>
+</Skin>

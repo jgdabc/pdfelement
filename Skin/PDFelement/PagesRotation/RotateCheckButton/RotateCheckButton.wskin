@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="RotateCheckButton">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Image Name="RotateCheckButton.svg" />
+      <State Left="0" Top="0" Width="40" Height="40">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="40" Top="0" Width="40" Height="40">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="80" Top="0" Width="40" Height="40">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="120" Top="0" Width="40" Height="40">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+    </Part>
+  </Item>
+</Skin>

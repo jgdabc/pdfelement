@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="CloudHeaderBtnBkg">
+    <Part id="0" Name="Frame" FillMode="center" TransparentMode="Alpha">
+    </Part>
+  </Item>
+</Skin>

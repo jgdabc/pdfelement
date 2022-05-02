@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Skin>
+  <Item Name="AttachmentTypePaperclip12">
+    <Part id="0" Name="frame" TransparentMode="Alpha">
+      <Graphic Name="AttachmentTypePaperclip12.png" />
+      <State Left="0" Top="0" Width="12" Height="12" />
+    </Part>
+  </Item>
+</Skin>

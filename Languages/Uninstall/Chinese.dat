@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageResource Id="CHS" Name="Simplified Chinese" LocaleName="简体中文" Version="1.0" LangID="0x0804" CodePage="936">
+  <Default>
+    <Font Name="微软雅黑" Size="9" />
+    <FontMapping>
+      <Item From="Open Sans" To="微软雅黑" FailTo="Tahoma" />
+      <Item From="Open Sans Semibold" To="微软雅黑" FailTo="Tahoma" />
+      <Item From="Inter" To="微软雅黑" FailTo="Tahoma" />
+      <Item From="Tahoma" To="微软雅黑" FailTo="Tahoma" />
+      <Item From="Arial" To="微软雅黑" FailTo="Tahoma" />
+      <Item From="Segoe UI" To="微软雅黑" FailTo="Tahoma" />
+      <Item From="Segoe UI Semibold" To="微软雅黑" FailTo="Tahoma" />
+      <Item From="Helvetica" To="微软雅黑" Failto="Tahoma" />
+    </FontMapping>
+  </Default>
+  <Strings>
+    <Info_RemainTime>剩余{0}秒</Info_RemainTime>
+    <Info_MoreApp>您或许会喜欢这些</Info_MoreApp>
+    <Info_AccountErrorTip>请输入正确的邮箱地址</Info_AccountErrorTip>
+    <Info_AccountPlaceHolder>邮箱</Info_AccountPlaceHolder>
+  </Strings>
+  <Forms>
+    <UninstallForm Text="卸载" />
+    <UninstallMakeSureForm>
+      <lblUninstallMakeSure Text="确定要卸载万兴PDF吗？" />
+      <cbRemoveResource Text="Remove all the effect resource files" />
+      <btnRemove Text="删除" />
+      <btnCancel Text="取消卸载" />
+    </UninstallMakeSureForm>
+    <UninstallProductMainPage>
+      <btnAll Text="所有产品" />
+      <btnCreativity Text="数字创意" />
+      <btnProductivity Text="办公效率" />
+      <btnUtility Text="数据管理" />
+    </UninstallProductMainPage>
+    <UninstallReasonDefaultPage>
+      <lblMessage Text="您好,&#xA;&#xA;万兴PDF隶属于万兴科技，我们致力于创造好用、易用、符合广大用户期望的软件。这是一份简单的问卷调查，以方便我们改善产品。&#xA;&#xA;感谢您的反馈，希望再次见到你。&#xA;&#xA;谢谢！" />
+    </UninstallReasonDefaultPage>
+    <UninstallReasonMainPage>
+      <lblTitle Text="您能告诉我们卸载的原因吗？" />
+      <rbCrash Text="软件经常崩溃或者卡顿。" />
+      <rbFixSoftware Text="软件修复" />
+      <rbOther Text="其他" />
+      <txtOther PlaceHolderText="请描述你遇到的问题" />
+      <btnCancel Text="取消" />
+      <btnContinue Text="继续卸载" />
+    </UninstallReasonMainPage>
+    <UninstallReasonOtherPage>
+      <lblMessage Text="感谢你的反馈，我们下次再见！" />
+    </UninstallReasonOtherPage>
+    <UninstallUpdateLatestVersionForm>
+      <lblLatestVersion Text="您已是最新版本！" />
+      <btnOK Text="好的" />
+    </UninstallUpdateLatestVersionForm>
+    <UninstallRepairProgressPage>
+      <lblWait Text="修复中，请稍等..." />
+      <btnCancel Text="取消" />
+    </UninstallRepairProgressPage>
+    <UninstallRepairSuccessfulPage>
+      <lblCompleted Text="修复完成" />
+      <btnExecute Text="启动" />
+    </UninstallRepairSuccessfulPage>
+    <UninstallUpdateProgressPage>
+      <lblWait Text="升级中，请稍等..." />
+      <btnCancel Text="取消" />
+    </UninstallUpdateProgressPage>
+    <UninstallUpdateSuccessfulPage>
+      <btnExecute Text="启动" />
+      <lblCompleted Text="升级完成" />
+      <lblNewVersion Text="新版本更稳定更流畅！" />
+    </UninstallUpdateSuccessfulPage>
+    <UninstallWorkeFailedPage>
+      <lblFailed Text="升级失败" />
+      <lblTry Text="您的卸载出现错误，请尝试重新卸载。" />
+      <btnClose Text="关闭" />
+    </UninstallWorkeFailedPage>
+    <UninstallWorkeMainPage>
+      <lblMoreApp Text="您或许会喜欢这些" />
+      <btnMoreProduct Text="更多产品" />
+    </UninstallWorkeMainPage>
+    <UninstallWorkeProgressPage>
+      <lblThanks Text="感谢您的反馈！卸载中..." />
+    </UninstallWorkeProgressPage>
+    <UninstallWorkeSuccessfulPage>
+      <lblSuccessful Text="卸载成功" />
+      <txtContact PlaceHolderText="邮箱/手机" />
+      <lblUpdate Text="填写邮箱获得产品最新消息" />
+      <lblContactError Text="请输入正确的邮箱地址或者手机号码" />
+      <btnDone Text="完成" />
+    </UninstallWorkeSuccessfulPage>
+    <UpdateFailedForm>
+      <lblMessage Text="升级失败" />
+      <btnOK Text="好的" />
+    </UpdateFailedForm>
+    <UpdateLatestVersionForm>
+      <lblLatestVersion Text="您已是最新版本！" />
+      <btnOK Text="好的" />
+    </UpdateLatestVersionForm>
+    <CloseMainAppForm>
+      <lblMessage Text="万兴PDF 正在运行中，请关闭它再试。" />
+      <btnRetry Text="重试" />
+      <btnCancel Text="取消" />
+    </CloseMainAppForm>
+    <RepairFailedForm>
+      <lblMessage Text="修复失败" />
+      <btnOK Text="好的" />
+    </RepairFailedForm>
+  </Forms>
+</LanguageResource>

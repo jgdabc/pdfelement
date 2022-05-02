@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="ImgTaskStatus">
+    <Image Name="ImgTaskStatus.svg" />
+    <Slice Id="Success" rect="0,0,16,16" />
+    <Slice Id="Fail" rect="16,0,16,16" />
+  </Item>
+</Skin>

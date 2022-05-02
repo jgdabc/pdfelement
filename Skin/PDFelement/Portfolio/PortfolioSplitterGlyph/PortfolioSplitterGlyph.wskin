@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="PortfolioSplitterGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Image Name="PortfolioSplitterGlyph.svg" />
+      <State Left="0" Top="0" Width="8" Height="72" />
+      <State Left="0" Top="0" Width="8" Height="72" />
+      <State Left="0" Top="0" Width="8" Height="72" />
+      <State Left="0" Top="0" Width="8" Height="72">
+        <Font Color="clGray" />
+      </State>
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Image Name="PortfolioSplitterGlyph.svg" />
+      <State Left="0" Top="0" Width="8" Height="72" />
+      <State Left="0" Top="0" Width="8" Height="72" />
+      <State Left="0" Top="0" Width="8" Height="72" />
+      <State Left="0" Top="0" Width="8" Height="72">
+        <Font Color="clGray" />
+      </State>
+    </Part>
+  </Item>
+</Skin>

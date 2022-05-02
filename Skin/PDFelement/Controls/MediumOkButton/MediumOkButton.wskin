@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="MediumOkButton">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Image Name="MediumOkButton.svg" />
+      <Padding Left="8" Right="8" />
+      <State Left="0" Top="0" Width="63" Height="24">
+        <Margins Left="14" Top="2" Right="14" Bottom="2" />
+        <Font Color="clWhite" Style="Bold" />
+      </State>
+      <State Left="64" Top="0" Width="63" Height="24">
+        <Margins Left="14" Top="2" Right="14" Bottom="2" />
+        <Font Color="clWhite" Style="Bold" />
+      </State>
+      <State Left="128" Top="0" Width="63" Height="24">
+        <Margins Left="14" Top="2" Right="14" Bottom="2" />
+        <Font Color="clWhite" Style="Bold" />
+      </State>
+      <State Left="192" Top="0" Width="63" Height="24">
+        <Margins Left="14" Top="2" Right="14" Bottom="2" />
+        <Font Color="clWhite" Style="Bold" />
+      </State>
+    </Part>
+  </Item>
+</Skin>

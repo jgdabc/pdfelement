@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="ComboBox">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Image Name="ComboBox_Frame.svg" />
+      <Margins Left="4" Top="4" Right="4" Bottom="4" />
+      <State Left="0" Top="0" Width="32" Height="32">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="32" Top="0" Width="32" Height="32">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="64" Top="0" Width="32" Height="32">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="96" Top="0" Width="32" Height="32">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+        <Font Color="0xffc8bdbc" />
+      </State>
+    </Part>
+    <Part id="2" Name="ButtonGlyph" TransparentMode="Alpha">
+      <Image Name="DownGlyph.svg" />
+      <Margins Left="6" Top="6" Right="6" Bottom="6" />
+      <State Left="0" Top="0" Width="8" Height="8" />
+      <State Left="0" Top="0" Width="8" Height="8" />
+      <State Left="0" Top="0" Width="8" Height="8" />
+      <State Left="8" Top="0" Width="8" Height="8" />
+    </Part>
+  </Item>
+</Skin>

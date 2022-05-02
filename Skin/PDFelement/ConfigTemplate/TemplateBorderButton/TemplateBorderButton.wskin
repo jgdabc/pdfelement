@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="TemplateBorderButton">
+    <Part id="0" Name="Checked" TransparentMode="Alpha">
+      <Image Name="TemplateBorderHot.svg" />
+      <State Left="0" Top="0" Width="16" Height="16">
+        <Margins Left="4" Top="4" Right="4" Bottom="4" />
+      </State>
+      <State Left="0" Top="0" Width="16" Height="16">
+        <Margins Left="4" Top="4" Right="4" Bottom="4" />
+      </State>
+      <State Left="0" Top="0" Width="16" Height="16">
+        <Margins Left="4" Top="4" Right="4" Bottom="4" />
+      </State>
+      <State Left="16" Top="0" Width="16" Height="16">
+        <Margins Left="4" Top="4" Right="4" Bottom="4" />
+      </State>
+    </Part>
+    <Part id="1" Name="UnChecked" TransparentMode="Alpha">
+      <Image Name="TemplateBorder.svg" />
+      <State Left="0" Top="0" Width="16" Height="16">
+        <Margins Left="4" Top="4" Right="4" Bottom="4" />
+      </State>
+      <State Left="16" Top="0" Width="16" Height="16">
+        <Margins Left="4" Top="4" Right="4" Bottom="4" />
+      </State>
+      <State Left="32" Top="0" Width="16" Height="16">
+        <Margins Left="4" Top="4" Right="4" Bottom="4" />
+      </State>
+      <State Left="48" Top="0" Width="16" Height="16">
+        <Margins Left="4" Top="4" Right="4" Bottom="4" />
+      </State>
+    </Part>
+  </Item>
+</Skin>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="OcrMiniDownloadStatus">
+    <Image Name="OcrMiniDownloadStatus.svg" />
+    <Part id="0" Name="Retry" TransparentMode="Alpha">
+      <Image Name="OcrMiniRetry.svg" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+    <Slice Id="Downloading" rect="0,0,24,24" />
+  </Item>
+</Skin>

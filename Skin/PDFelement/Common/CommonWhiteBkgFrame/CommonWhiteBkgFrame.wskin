@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="CommonWhiteBkgFrame">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Image Name="CommonWhiteBkgFrame.svg" />
+      <State Left="0" Top="0" Width="32" Height="64">
+        <Margins Left="4" Top="6" Right="5" Bottom="4" />
+      </State>
+    </Part>
+  </Item>
+</Skin>

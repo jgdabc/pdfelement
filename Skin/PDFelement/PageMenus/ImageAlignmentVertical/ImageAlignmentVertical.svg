@@ -1,0 +1,12 @@
+<svg width="32" height="16" viewBox="0 0 32 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="8.5" y="14" width="1" height="3" rx="0.5" transform="rotate(-180 8.5 14)" fill="#212648"/>
+<rect x="8.5" y="5" width="1" height="3" rx="0.5" transform="rotate(-180 8.5 5)" fill="#212648"/>
+<path d="M5.5 11L5.5 5C5.5 4.72386 5.72386 4.5 6 4.5L10 4.5C10.2761 4.5 10.5 4.72386 10.5 5L10.5 11C10.5 11.2761 10.2761 11.5 10 11.5L6 11.5C5.72386 11.5 5.5 11.2761 5.5 11Z" stroke="#212648"/>
+<path d="M0.5 0.5H15.5V15.5H0.5V0.5Z" stroke="#212648" stroke-linecap="round" stroke-dasharray="2 2"/>
+<g opacity="0.4">
+<rect x="24.5" y="14" width="1" height="3" rx="0.5" transform="rotate(-180 24.5 14)" fill="#212648"/>
+<rect x="24.5" y="5" width="1" height="3" rx="0.5" transform="rotate(-180 24.5 5)" fill="#212648"/>
+<path d="M21.5 11L21.5 5C21.5 4.72386 21.7239 4.5 22 4.5L26 4.5C26.2761 4.5 26.5 4.72386 26.5 5L26.5 11C26.5 11.2761 26.2761 11.5 26 11.5L22 11.5C21.7239 11.5 21.5 11.2761 21.5 11Z" stroke="#212648"/>
+<path d="M16.5 0.5H31.5V15.5H16.5V0.5Z" stroke="#212648" stroke-linecap="round" stroke-dasharray="2 2"/>
+</g>
+</svg>

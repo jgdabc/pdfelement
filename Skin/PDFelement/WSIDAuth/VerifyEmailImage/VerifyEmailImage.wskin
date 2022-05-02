@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="VerifyEmailImage">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Image Name="VerifyEmailImage.svg" />
+      <State Left="0" Top="0" Width="72" Height="72" />
+    </Part>
+  </Item>
+</Skin>

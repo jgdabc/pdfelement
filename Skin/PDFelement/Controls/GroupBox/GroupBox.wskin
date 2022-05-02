@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="GroupBox">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Image Name="GroupBox.svg" />
+      <Font Color="0xff222222" />
+      <State Left="0" Top="0" Width="30" Height="30">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+    </Part>
+  </Item>
+</Skin>

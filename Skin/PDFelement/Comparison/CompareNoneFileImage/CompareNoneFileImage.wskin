@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="CompareNoneFileImage">
+    <Part id="0" Name="Frame" TransparentMode="Alpha" FillMode="center">
+      <Image Name="CompareNoneFileImage.svg" />
+      <State Left="0" Top="0" Width="146" Height="201" />
+      <State Left="146" Top="0" Width="146" Height="201" />
+      <State Left="146" Top="0" Width="146" Height="201" />
+      <State Left="0" Top="0" Width="146" Height="201" />
+    </Part>
+  </Item>
+</Skin>

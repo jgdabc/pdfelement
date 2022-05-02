@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageResource Id="ESP" Name="Spanish" LocaleName="Spain (Traditional sort)" Version="1.1" LangID="0x040a" CodePage="1252">
+  <Default>
+    <Font Name="Segoe UI" Size="9" />
+    <FontMapping>
+      <Item From="Open Sans" To="Segoe UI" FailTo="Tahoma" />
+      <Item From="Open Sans Semibold" To="Segoe UI Semibold" FailTo="Tahoma" />
+      <Item From="Tahoma" To="Segoe UI" FailTo="Tahoma" />
+      <Item From="Arial" To="Segoe UI" FailTo="Tahoma" />
+      <Item From="Inter" To="Segoe UI" FailTo="Tahoma" />
+      <Item From="Helvetica" To="Segoe UI" Failto="Tahoma" />
+    </FontMapping>
+  </Default>
+  <Strings>
+    <Info_RemainTime>Quedan {0} segundos</Info_RemainTime>
+    <Info_MoreApp>Más Aplicaciones que Te Pueden Gustar</Info_MoreApp>
+  </Strings>
+  <Forms>
+    <UninstallForm Text="Desinstalar" />
+    <UninstallMakeSureForm>
+      <lblUninstallMakeSure Text="¿Estás seguro de que desea eliminar Wondershare PDFelement?" />
+      <cbRemoveResource Text="Remove all the effect resource files" />
+      <btnRemove Text="Eliminar" />
+      <btnCancel Text="Cancelar" />
+    </UninstallMakeSureForm>
+    <UninstallProductMainPage>
+      <btnAll Text="Todo" />
+      <btnCreativity Text="Creatividad" />
+      <btnProductivity Text="Productividad" />
+      <btnUtility Text="Utilidad" />
+    </UninstallProductMainPage>
+    <UninstallReasonDefaultPage>
+      <lblMessage Text="Hola, &#xA;&#xA;Wondershare PDFelement pertenece a Wondershare Technology. Estamos comprometidos con la creación de softwares fáciles de usar. Haremos todo lo posible para que sean los más adecuado para ti. Aquí hay un cuestionario simple que nos ayudará a mejorar nuestros productos. &#xA;&#xA;Gracias por tus comentarios, esperamos volver a verte. &#xA;&#xA;¡Gracias!" />
+    </UninstallReasonDefaultPage>
+    <UninstallReasonMainPage>
+      <lblTitle Text="¿Puedes decirme por qué quieres desinstalar?" />
+      <rbCrash Text="El software a menudo se congela o se bloquea." />
+      <rbFixSoftware Text="Reparar software" />
+      <rbOther Text="Otro" />
+      <txtOther PlaceHolderText="Describe el problema que encuentras." />
+      <btnCancel Text="Cancelar" />
+      <btnContinue Text="Continuar" />
+    </UninstallReasonMainPage>
+    <UninstallReasonOtherPage>
+      <lblMessage Text="Gracias por tus comentarios, espero verte de nuevo." />
+    </UninstallReasonOtherPage>
+    <UninstallUpdateLatestVersionForm>
+      <lblLatestVersion Text="¡Ya estás usando la última versión!" />
+      <btnOK Text="OK" />
+    </UninstallUpdateLatestVersionForm>
+    <UninstallRepairProgressPage>
+      <lblWait Text="Raparando, por favor espera..." />
+      <btnCancel Text="Cancelar" />
+    </UninstallRepairProgressPage>
+    <UninstallRepairSuccessfulPage>
+      <lblCompleted Text="Reparación completada" />
+      <btnExecute Text="Iniciar" />
+    </UninstallRepairSuccessfulPage>
+    <UninstallUpdateProgressPage>
+      <lblWait Text="Actualizando, por favor espere ..." />
+      <btnCancel Text="Cancelar" />
+    </UninstallUpdateProgressPage>
+    <UninstallUpdateSuccessfulPage>
+      <btnExecute Text="Iniciar" />
+      <lblCompleted Text="Actualización completada." />
+      <lblNewVersion Text="¡La nueva versión es más estable y fluida!" />
+    </UninstallUpdateSuccessfulPage>
+    <UninstallWorkeFailedPage>
+      <lblFailed Text="Error de actualización" />
+      <lblTry Text="La desinstalación se encontró errores. Intentes desinstalarlo de nuevo." />
+      <btnClose Text="Cerrar" />
+    </UninstallWorkeFailedPage>
+    <UninstallWorkeMainPage>
+      <lblMoreApp Text="Más aplicaciones que te pueden gustar" />
+      <btnMoreProduct Text="Más Productos" />
+    </UninstallWorkeMainPage>
+    <UninstallWorkeProgressPage>
+      <lblThanks Text="¡Gracias por tus comentarios! Desinstalando ..." />
+    </UninstallWorkeProgressPage>
+    <UninstallWorkeSuccessfulPage>
+      <lblSuccessful Text="Desinstalado con éxito" />
+      <txtContact PlaceHolderText="Dirección de correo" />
+      <lblUpdate Text="Ingrese tu correo electrónico para recibir las últimas noticias" />
+      <lblContactError Text="Por favor introduce una dirección de correo electrónico correcta." />
+      <btnDone Text="Finalizado" />
+    </UninstallWorkeSuccessfulPage>
+    <UpdateFailedForm>
+      <lblMessage Text="Error de actualización" />
+      <btnOK Text="OK" />
+    </UpdateFailedForm>
+    <UpdateLatestVersionForm>
+      <lblLatestVersion Text="¡Ya estás usando la última versión!" />
+      <btnOK Text="OK" />
+    </UpdateLatestVersionForm>
+    <CloseMainAppForm>
+      <lblMessage Text="El Wondershare PDFelement se está ejecutando, por favor, váyase primero." />
+      <btnRetry Text="Reintentar" />
+      <btnCancel Text="Cancelar" />
+    </CloseMainAppForm>
+    <RepairFailedForm>
+      <lblMessage Text="Error en repararción" />
+      <btnOK Text="OK" />
+    </RepairFailedForm>
+  </Forms>
+</LanguageResource>

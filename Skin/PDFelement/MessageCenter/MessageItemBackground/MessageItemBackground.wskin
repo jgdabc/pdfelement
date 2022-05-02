@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="MessageItemBackground">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Image Name="MessageItemBackground.svg" />
+      <State Left="0" Top="0" Width="16" Height="16">
+        <Margins Bottom="1" />
+      </State>
+      <State Left="16" Top="0" Width="16" Height="16">
+        <Margins Bottom="1" />
+      </State>
+      <State Left="32" Top="0" Width="16" Height="16">
+        <Margins Bottom="1" />
+      </State>
+    </Part>
+  </Item>
+</Skin>

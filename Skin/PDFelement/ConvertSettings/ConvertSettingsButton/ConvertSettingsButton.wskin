@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="ConvertSettingsButton">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Image Name="ConvertSettingsButton.svg" />
+      <Font Style="Bold" />
+      <State Left="0" Top="0" Width="56" Height="56" />
+      <State Left="56" Top="0" Width="56" Height="56" />
+      <State Left="112" Top="0" Width="56" Height="56">
+        <Font Color="clWhite" />
+      </State>
+      <State Left="0" Top="0" Width="56" Height="56">
+        <Font Color="0xffa5a5a5" />
+      </State>
+    </Part>
+  </Item>
+</Skin>

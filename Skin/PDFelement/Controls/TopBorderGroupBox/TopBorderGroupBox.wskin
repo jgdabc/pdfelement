@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="TopBorderGroupBox">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Image Name="TopBorderGroupBox.svg" />
+      <State Left="0" Top="0" Width="22" Height="2">
+        <Margins Top="1" />
+        <Font Name="Segoe UI" Size="9" Style="Bold" />
+      </State>
+    </Part>
+  </Item>
+</Skin>

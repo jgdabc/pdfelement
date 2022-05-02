@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="IconLicenseInfoBkg">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Image Name="IconLicenseInfoBkg.svg" />
+      <State Left="0" Top="0" Width="326" Height="190">
+        <Margins Left="13" Right="13" Bottom="25" />
+      </State>
+    </Part>
+  </Item>
+</Skin>

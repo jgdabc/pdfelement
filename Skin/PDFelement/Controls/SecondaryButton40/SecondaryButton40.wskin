@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="SecondaryButton40">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Image Name="SecondaryButton40.svg" />
+      <Font Color="0xfffd5b43" />
+      <Padding Left="8" Right="8" />
+      <State Left="0" Top="0" Width="65" Height="40">
+        <Margins Left="23" Top="19" Right="25" Bottom="19" />
+        <Font Color="0xff222222" Style="Bold" />
+      </State>
+      <State Left="65" Top="0" Width="65" Height="40">
+        <Margins Left="23" Top="19" Right="25" Bottom="19" />
+        <Font Color="0xffff6448" Style="Bold" />
+      </State>
+      <State Left="130" Top="0" Width="65" Height="40">
+        <Margins Left="23" Top="19" Right="25" Bottom="19" />
+        <Font Color="clWhite" Style="Bold" />
+      </State>
+      <State Left="195" Top="0" Width="65" Height="40">
+        <Margins Left="23" Top="19" Right="25" Bottom="19" />
+        <Font Color="0xffc9bfbd" Style="Bold" />
+      </State>
+    </Part>
+  </Item>
+</Skin>

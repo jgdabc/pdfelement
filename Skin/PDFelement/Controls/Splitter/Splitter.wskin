@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="Splitter">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Image Name="Splitter_Frame.svg" />
+      <State Left="0" Top="0" Width="20" Height="10">
+        <Margins Left="2" Top="2" Right="5" Bottom="3" />
+      </State>
+    </Part>
+  </Item>
+</Skin>

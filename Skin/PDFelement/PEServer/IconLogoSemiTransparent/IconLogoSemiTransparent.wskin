@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="IconLogoSemiTransparent">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Image Name="IconLogoSemiTransparent.svg" />
+      <State Left="0" Top="0" Width="58" Height="61">
+        <Margins Left="1" Top="4" Right="1" Bottom="3" />
+      </State>
+    </Part>
+  </Item>
+</Skin>

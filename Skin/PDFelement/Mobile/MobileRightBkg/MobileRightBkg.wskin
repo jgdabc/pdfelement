@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="MobileRightBkg">
+    <Part id="0" Name="Frame" FillMode="Stretch" TransparentMode="Alpha">
+      <Image Name="MobileRightBkg.svg" />
+      <State Left="0" Top="0" Width="250" Height="288" />
+    </Part>
+  </Item>
+</Skin>

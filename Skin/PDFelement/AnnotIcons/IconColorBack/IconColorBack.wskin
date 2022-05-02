@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Skin>
+  <Item Name="IconColorBack">
+    <Part id="0" Name="frame" TransparentMode="Alpha">
+      <Graphic Name="IconColorBack.svg" />
+      <State />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+</Skin>

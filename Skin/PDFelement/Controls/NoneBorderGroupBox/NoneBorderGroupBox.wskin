@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="NoneBorderGroupBox">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Image Name="NoneBorderGroupBox.png" />
+      <State Left="0" Top="0" Width="22" Height="2">
+        <Margins Top="1" />
+        <Font Size="9" Color="0xff85706c" />
+      </State>
+    </Part>
+  </Item>
+</Skin>

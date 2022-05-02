@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="PdfLineEndStyleStartSquare">
+    <Part id="0" Name="frame" TransparentMode="Alpha">
+      <Image Name="PdfLineEndStyleStartSquare.svg" />
+      <State Left="8" Top="0" Width="80" Height="20" />
+    </Part>
+  </Item>
+</Skin>

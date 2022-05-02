@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="ImageTileHorizontal">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Image Name="ImageTileHorizontal_Frame.svg" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+</Skin>

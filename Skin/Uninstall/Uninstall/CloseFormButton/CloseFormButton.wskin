@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="CloseFormButton">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Image Name="CloseFormButton.svg" />
+      <State Left="0" Top="0" Width="32" Height="32">
+        <Margins Left="4" Top="4" Right="4" Bottom="4" />
+      </State>
+      <State Left="32" Top="0" Width="32" Height="32">
+        <Margins Left="4" Top="4" Right="4" Bottom="4" />
+      </State>
+      <State Left="64" Top="0" Width="32" Height="32">
+        <Margins Left="4" Top="4" Right="4" Bottom="4" />
+      </State>
+      <State Left="96" Top="0" Width="32" Height="32">
+        <Margins Left="4" Top="4" Right="4" Bottom="4" />
+      </State>
+    </Part>
+  </Item>
+</Skin>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="PageNumberBackground">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Image Name="PageNumberBackground.svg" />
+      <Font Size="10" Color="clWhite" />
+      <State Left="0" Top="0" Width="16" Height="16">
+        <Margins Left="4" Top="4" Right="4" Bottom="4" />
+      </State>
+    </Part>
+  </Item>
+</Skin>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="AboutLeftLogo">
+    <Part id="0" Name="Frame" FillMode="left" TransparentMode="Alpha">
+      <Image Name="AboutLeftLogo.svg" />
+      <State Left="0" Top="0" Width="226" Height="72" />
+    </Part>
+  </Item>
+</Skin>

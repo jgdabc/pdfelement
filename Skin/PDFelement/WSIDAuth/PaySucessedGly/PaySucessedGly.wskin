@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="PaySucessedGly">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Image Name="PaySucessedGly.svg" />
+      <Font Size="9" Color="clWhite" Style="Bold" />
+      <Padding Left="8" Right="8" />
+      <State Left="0" Top="0" Width="48" Height="48" />
+    </Part>
+  </Item>
+</Skin>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="UpdateMarqueeBackground">
+    <Part id="0" Name="Frame" Style="1" TransparentMode="Alpha">
+      <Image Name="UpdateMarqueeBackground.svg" />
+      <Region type="Auto" />
+      <State Left="0" Top="0" Width="16" Height="8">
+        <Margins Left="4" Top="4" Right="4" Bottom="4" />
+      </State>
+    </Part>
+  </Item>
+</Skin>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="LeftRadiusPanel">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Image Name="LeftRadiusPanel.svg" />
+      <State Left="0" Top="0" Width="49" Height="56">
+        <Margins Left="7" Top="7" Bottom="7" />
+      </State>
+    </Part>
+  </Item>
+</Skin>

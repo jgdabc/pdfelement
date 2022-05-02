@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="NoCaptionRectForm">
+    <Part id="0" Name="Form" Style="1" TransparentMode="Alpha">
+      <Image Name="NoCaptionRectForm.svg" />
+      <Region type="Auto" />
+      <Margins Left="16" Top="8" Right="16" Bottom="24" />
+      <Padding Top="-1" />
+      <State Left="0" Top="0" Width="72" Height="72">
+        <Margins Left="16" Top="8" Right="16" Bottom="24" />
+      </State>
+      <State Left="0" Top="0" Width="72" Height="72">
+        <Margins Left="16" Top="8" Right="16" Bottom="24" />
+      </State>
+    </Part>
+    <Part id="1" Name="Caption" Alignment="Center">
+      <Position RelPos="Top" X="70" Y="64" X2="70" Height="32" />
+      <Font Size="10.5" Color="0xff482621" Style="Bold" />
+      <State Left="0" Top="0" Width="0" Height="0">
+        <Font Color="0xff482621" />
+      </State>
+      <State Left="0" Top="0" Width="0" Height="0">
+        <Font Color="0xff482621" />
+      </State>
+    </Part>
+    <Part id="2" Name="Icon">
+      <Position RelPos="TopLeft" X="71" Y="71" Width="16" Height="16" />
+    </Part>
+    <Part id="3" Name="RestoreButton" TransparentMode="Alpha">
+      <Image Name="NoCaptionRectFormRestoreButton.svg" />
+      <Position RelPos="TopRight" X="47" Y="7" Width="32" Height="32" />
+      <State Left="0" Top="0" Width="32" Height="32" />
+      <State Left="32" Top="0" Width="32" Height="32" />
+      <State Left="64" Top="0" Width="32" Height="32" />
+      <State Left="96" Top="0" Width="32" Height="32" />
+    </Part>
+    <Part id="4" Name="MinButton" TransparentMode="Alpha">
+      <Image Name="NoCaptionRectFormMinButton.svg" />
+      <Position RelPos="TopRight" X="79" Y="7" Width="32" Height="32" />
+      <State Left="0" Top="0" Width="32" Height="32" />
+      <State Left="32" Top="0" Width="32" Height="32" />
+      <State Left="64" Top="0" Width="32" Height="32" />
+      <State Left="96" Top="0" Width="32" Height="32" />
+    </Part>
+    <Part id="5" Name="MaxButton" TransparentMode="Alpha">
+      <Image Name="NoCaptionRectFormMaxButton.svg" />
+      <Position RelPos="TopRight" X="47" Y="7" Width="32" Height="32" />
+      <State Left="0" Top="0" Width="32" Height="32" />
+      <State Left="32" Top="0" Width="32" Height="32" />
+      <State Left="64" Top="0" Width="32" Height="32" />
+      <State Left="96" Top="0" Width="32" Height="32" />
+    </Part>
+    <Part id="6" Name="CloseButton" TransparentMode="Alpha">
+      <Image Name="NoCaptionRectFormCloseButton.svg" />
+      <Position RelPos="TopRight" X="15" Y="7" Width="32" Height="32" />
+      <State Left="4" Top="0" Width="32" Height="32" />
+      <State Left="44" Top="0" Width="32" Height="32" />
+      <State Left="85" Top="0" Width="32" Height="32" />
+      <State Left="84" Top="0" Width="32" Height="32" />
+    </Part>
+  </Item>
+</Skin>

@@ -1,0 +1,10 @@
+<StyleSheet>
+  <AppearTransition>
+    <AnimateType>AeroShake</AnimateType>
+    <Duration>100</Duration>
+  </AppearTransition>
+  <ExitTransition>
+    <AnimateType>AeroShake</AnimateType>
+    <Duration>100</Duration>
+  </ExitTransition>
+</StyleSheet>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="BorderComboBox">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Image Name="BorderComboBox_Frame.svg" />
+      <State Left="0" Top="0" Width="26" Height="9">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="26" Top="0" Width="25" Height="9">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="0" Top="0" Width="26" Height="9">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="51" Top="0" Width="25" Height="9">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+    </Part>
+    <Part id="1" Name="Button" TransparentMode="Alpha" />
+    <Part id="2" Name="ButtonGlyph" TransparentMode="Alpha">
+      <Image Name="BorderComboBox_ButtonGlyph.svg" />
+      <State Left="0" Top="0" Width="9" Height="6" />
+      <State Left="9" Top="0" Width="9" Height="6" />
+      <State Left="18" Top="0" Width="9" Height="6" />
+      <State Left="18" Top="0" Width="9" Height="6" />
+    </Part>
+  </Item>
+</Skin>

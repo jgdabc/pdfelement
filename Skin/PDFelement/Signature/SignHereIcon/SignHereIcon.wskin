@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Skin>
+  <Item Name="SignHereIcon">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="SignHereIcon.svg" />
+      <State Left="0" Top="0" Width="80" Height="21">
+        <Margins Left="6" Top="4" Right="22" Bottom="4" />
+      </State>
+    </Part>
+  </Item>
+</Skin>

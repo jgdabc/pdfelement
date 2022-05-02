@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="MessageImageLoading">
+    <Part id="0" Name="Frame" FillMode="center" TransparentMode="Alpha">
+      <Image Name="MessageImageLoading.svg" />
+      <State Left="0" Top="0" Width="96" Height="96">
+        <Animation FrameCount="27" FrameDelay="80" />
+      </State>
+    </Part>
+  </Item>
+</Skin>

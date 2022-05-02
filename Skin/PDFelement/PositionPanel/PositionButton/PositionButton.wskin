@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="PositionButton">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Image Name="PositionButton.svg" />
+      <State Left="0" Top="0" Width="14" Height="14">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+      </State>
+      <State Left="14" Top="0" Width="14" Height="14">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+      </State>
+      <State Left="28" Top="0" Width="14" Height="14">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+      </State>
+      <State Left="42" Top="0" Width="14" Height="14">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+      </State>
+    </Part>
+  </Item>
+</Skin>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="FileItemCheckedNoHot">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Image Name="FileItemChecked.svg" />
+      <Extension Left="18" Top="18" Right="18" Bottom="18" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="72" Top="0" Width="72" Height="72">
+        <Margins Left="18" Top="18" Right="18" Bottom="18" />
+        <Font Color="0xff482621" Style="Bold" />
+      </State>
+      <State Left="72" Top="0" Width="0" Height="0">
+        <Font Color="0x4d482621" />
+      </State>
+    </Part>
+  </Item>
+</Skin>

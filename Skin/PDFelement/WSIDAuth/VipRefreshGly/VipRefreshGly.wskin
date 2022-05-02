@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="VipRefreshGly">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Image Name="VipRefreshGly.svg" />
+      <Font Size="7.5" />
+      <Padding Left="8" Right="8" />
+      <State Left="0" Top="0" Width="12" Height="12" />
+      <State Left="12" Top="0" Width="12" Height="12" />
+      <State Left="24" Top="0" Width="12" Height="12" />
+    </Part>
+  </Item>
+</Skin>

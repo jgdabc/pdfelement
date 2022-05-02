@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="PricePageBuyBtn">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Image Name="PricePageBuyBtn.svg" />
+      <Font Size="9" Color="clWhite" Style="Bold" />
+      <Padding Left="8" Right="8" />
+      <State Left="0" Top="0" Width="48" Height="40">
+        <Margins Left="19" Top="19" Right="19" Bottom="19" />
+        <Font Size="9.75" Color="clWhite" />
+      </State>
+      <State Left="48" Top="0" Width="48" Height="40">
+        <Margins Left="19" Top="19" Right="19" Bottom="19" />
+        <Font Size="9.75" Color="clWhite" />
+      </State>
+      <State Left="96" Top="0" Width="48" Height="40">
+        <Margins Left="19" Top="19" Right="19" Bottom="19" />
+        <Font Size="12" Color="clWhite" />
+      </State>
+      <State Left="144" Top="0" Width="48" Height="40">
+        <Margins Left="19" Top="19" Right="19" Bottom="19" />
+        <Font Size="9.75" Color="clWhite" />
+      </State>
+    </Part>
+  </Item>
+</Skin>

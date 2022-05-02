@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="CommentHideAnnotationsGlyph">
+    <Part id="0" Name="Checked" FillMode="center" TransparentMode="Alpha">
+      <Image Name="CommentEyeClosed.svg" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="1" Name="UnChecked" FillMode="center" TransparentMode="Alpha">
+      <Image Name="CommentEyeOpened.svg" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+</Skin>

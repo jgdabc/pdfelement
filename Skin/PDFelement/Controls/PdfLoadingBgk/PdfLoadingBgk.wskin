@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="PdfLoadingBgk">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Image Name="PdfLoadingBgk.svg" />
+      <State Left="0" Top="0" Width="24" Height="24">
+        <Margins Left="10" Top="10" Right="10" Bottom="10" />
+      </State>
+    </Part>
+  </Item>
+</Skin>

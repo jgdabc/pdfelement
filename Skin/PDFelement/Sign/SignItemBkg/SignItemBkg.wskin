@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="SignItemBkg">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Image Name="SignItemBkg.svg" />
+      <State Left="0" Top="0" Width="20" Height="20">
+        <Margins Left="4" Top="4" Right="4" Bottom="4" />
+      </State>
+      <State Left="20" Top="0" Width="20" Height="20">
+        <Margins Left="4" Top="4" Right="4" Bottom="4" />
+      </State>
+      <State Left="40" Top="0" Width="20" Height="20">
+        <Margins Left="4" Top="4" Right="4" Bottom="4" />
+      </State>
+      <State Left="60" Top="0" Width="20" Height="20">
+        <Margins Left="4" Top="5" Right="4" Bottom="5" />
+      </State>
+    </Part>
+  </Item>
+</Skin>

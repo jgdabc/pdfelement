@@ -1,0 +1,4416 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageResource Id="CHT" Name="Traditional Chinese" LocaleName="繁体中文" Version="1.0" LangID="0x0404" CodePage="950">
+  <Default>
+    <Font Name="Microsoft JhengHei" Size="9" />
+    <FontMapping>
+      <Item From="Open Sans" To="Microsoft JhengHei" FailTo="Tahoma" />
+      <Item From="Open Sans Semibold" To="Microsoft JhengHei" FailTo="Tahoma" />
+      <Item From="Inter" To="Microsoft JhengHei" FailTo="Tahoma" />
+      <Item From="Tahoma" To="Microsoft JhengHei" FailTo="Tahoma" />
+      <Item From="Arial" To="Microsoft JhengHei" FailTo="Tahoma" />
+      <Item From="Segoe UI" To="Microsoft JhengHei" FailTo="Tahoma" />
+      <Item From="Segoe UI Semibold" To="Microsoft JhengHei" FailTo="Tahoma" />
+      <Item From="Helvetica" To="Microsoft JhengHei" Failto="Tahoma" />
+    </FontMapping>
+  </Default>
+  <Strings>
+    <Info_ProductName>Wondershare PDFelement</Info_ProductName>
+    <Info_BusinessProductName>Wondershare PDFelement Business</Info_BusinessProductName>
+    <Info_CreatorApp>Wondershare PDFelement</Info_CreatorApp>
+    <Info_PDFVersion>1.7</Info_PDFVersion>
+    <Info_PermissionAllow>允許</Info_PermissionAllow>
+    <Info_PermissionNotAllow>不允許</Info_PermissionNotAllow>
+    <Info_DocProperty_EmbeddedSubset>（嵌入字符集）</Info_DocProperty_EmbeddedSubset>
+    <Info_DocProperty_FontType>類型：</Info_DocProperty_FontType>
+    <Info_DocProperty_FontEncoding>編碼：</Info_DocProperty_FontEncoding>
+    <Info_DocProperty_Custom>自訂：</Info_DocProperty_Custom>
+    <Info_DocProperty_ActualFont>實際字體：</Info_DocProperty_ActualFont>
+    <Info_DocProperty_ActualType>實際字體類型：</Info_DocProperty_ActualType>
+    <Info_InvalidFileName>無效的檔案名稱</Info_InvalidFileName>
+    <Info_FileNamePathToolLong>檔案名稱長度超過系統支援的最大範圍</Info_FileNamePathToolLong>
+    <Info_Copyof>複製</Info_Copyof>
+    <Info_PdfFileFilter>PDF 文件(*.pdf)|*.pdf</Info_PdfFileFilter>
+    <Info_AllFiles>所有檔案</Info_AllFiles>
+    <Info_Finished>完成</Info_Finished>
+    <Info_PrintToFile>列印成PDF檔案-PDFelement印表機</Info_PrintToFile>
+    <Info_DeleteAllPagesWarning>您無法刪除所有頁面，請留下至少一個頁面</Info_DeleteAllPagesWarning>
+    <Info_Scan_CbbScanner_SelectScanner>請選擇一個掃描機</Info_Scan_CbbScanner_SelectScanner>
+    <DeletePage_DeleteButtonText>刪除</DeletePage_DeleteButtonText>
+    <InsertPage_BlankPage>空白頁面</InsertPage_BlankPage>
+    <ExtractPagesForm_Caption>擷取頁面</ExtractPagesForm_Caption>
+    <Progress_CopyPagesDesc>正在復制頁面...</Progress_CopyPagesDesc>
+    <Progress_PastingPages>貼上頁面</Progress_PastingPages>
+    <Progress_PagesExtractTitle>擷取頁面</Progress_PagesExtractTitle>
+    <Progress_PagesExtractDesc>正在擷取頁面….</Progress_PagesExtractDesc>
+    <Progress_Redaction>應用編輯</Progress_Redaction>
+    <Progress_Search>搜尋中</Progress_Search>
+    <Progress_MarkForRedactions>標記為編輯</Progress_MarkForRedactions>
+    <Info_InsertSameFileWarning>檔案不能被插入到本身，請選擇另外一個不同的檔案</Info_InsertSameFileWarning>
+    <SecurityPanel_PrintNone>不允許印刷</SecurityPanel_PrintNone>
+    <SecurityPanel_PrintLowResolution>低解析度</SecurityPanel_PrintLowResolution>
+    <SecurityPanel_PrintHighResolution>高解析度</SecurityPanel_PrintHighResolution>
+    <SecurityPanel_ChangesNone>不允許任何更改（只讀）</SecurityPanel_ChangesNone>
+    <SecurityPanel_ChangesPages>插入，刪除和旋轉頁面</SecurityPanel_ChangesPages>
+    <SecurityPanel_ChangesFillingAndSigning>填寫表單和簽名</SecurityPanel_ChangesFillingAndSigning>
+    <SecurityPanel_ChangesCommentingFillingAndSigning>註釋，填寫表單和簽名</SecurityPanel_ChangesCommentingFillingAndSigning>
+    <SecurityPanel_ChangesAnyExceptExtractingPages>禁止擷取頁面</SecurityPanel_ChangesAnyExceptExtractingPages>
+    <SecurityPanel_OpenPassword>打開密碼</SecurityPanel_OpenPassword>
+    <SecurityPanel_PermissionPassword>權限密碼</SecurityPanel_PermissionPassword>
+    <SecurityPanel_PasswordEmptyWaring>{0}不能為空</SecurityPanel_PasswordEmptyWaring>
+    <SecurityPanel_PasswordNotMatch>{0}不一致，請確認</SecurityPanel_PasswordNotMatch>
+    <SecurityTemplate_Title>安全</SecurityTemplate_Title>
+    <Security_EffectivePrompt>儲存檔案之前，不會啟用安全設置。</Security_EffectivePrompt>
+    <SavedSettingPanel_NoneSpecified>[未指定]</SavedSettingPanel_NoneSpecified>
+    <SavedSettingPanel_CustomNotSaved>[自訂未儲存]</SavedSettingPanel_CustomNotSaved>
+    <SavedSettingPanel_ReplaceWarning>檔案名稱“{0}”已存在，確認取代原檔案嗎？</SavedSettingPanel_ReplaceWarning>
+    <SavedSettingPanel_DeleteWarningWithName>確認刪除模板“{0}”嗎?</SavedSettingPanel_DeleteWarningWithName>
+    <SavedSettingPanel_DeleteWarning>確認要刪除嗎?</SavedSettingPanel_DeleteWarning>
+    <SavedSettingPanel_Delete>刪除</SavedSettingPanel_Delete>
+    <SavedSettingPanel_DeleteTitle>刪除 {0}</SavedSettingPanel_DeleteTitle>
+    <SavedSettingPanel_Replace>取代</SavedSettingPanel_Replace>
+    <SavedSettingPanel_DeleteTag>該元素將被永久刪除。</SavedSettingPanel_DeleteTag>
+    <PageRangePanel_All>所有頁面</PageRangePanel_All>
+    <PageRangePanel_Even>偶數頁面</PageRangePanel_Even>
+    <PageRangePanel_Odd>奇數頁面</PageRangePanel_Odd>
+    <PageRangePanel_SubsetAll>全部的子集</PageRangePanel_SubsetAll>
+    <PageRangePanel_SubsetRange>範圍中的子集</PageRangePanel_SubsetRange>
+    <PageRangePanel_ErrorTips>請輸入正確的頁面範圍</PageRangePanel_ErrorTips>
+    <PageRangeToPanel_Current>目前的頁面</PageRangeToPanel_Current>
+    <WatermarkPanel_FileNotFound>浮水印原始檔案已被刪除</WatermarkPanel_FileNotFound>
+    <OcrPage_TextOnImage>可編輯的文本</OcrPage_TextOnImage>
+    <OcrPage_ImageOnText>可搜尋的文本及圖片</OcrPage_ImageOnText>
+    <ProgressForm_CancelTips>{0}不完整。你確定要離開？</ProgressForm_CancelTips>
+    <Progress_ConvertTitle>轉換為{0}</Progress_ConvertTitle>
+    <Progress_ConvertDesc>轉換“ {0}”</Progress_ConvertDesc>
+    <Progress_ConvertSuccessTitle>轉換成功</Progress_ConvertSuccessTitle>
+    <Progress_ConvertSuccessContent>成功轉換為“ {0}”</Progress_ConvertSuccessContent>
+    <Progress_ConvertSuccessContentFolder>已成功轉換為{0}，該檔案位於資料夾“ {1}”中</Progress_ConvertSuccessContentFolder>
+    <Progress_ConvertFailTitle>轉換失敗</Progress_ConvertFailTitle>
+    <Progress_ConvertFailContent>糟糕！無法轉換為{0}</Progress_ConvertFailContent>
+    <Progress_OverwriteError>檔案覆蓋失敗，請重新選擇路徑</Progress_OverwriteError>
+    <Progress_CreatetTitle>建立PDF</Progress_CreatetTitle>
+    <Progress_CreateDesc>正在建立PDF</Progress_CreateDesc>
+    <Progress_CreateFailTitle>PDF建立失敗</Progress_CreateFailTitle>
+    <Progress_CreateFailContent>糟糕！無法建立PDF</Progress_CreateFailContent>
+    <Progress_ClipboardCreateFailContent>從剪貼板創建PDF 文件時遇到錯誤。</Progress_ClipboardCreateFailContent>
+    <Progress_CombineTitle>合併PDF</Progress_CombineTitle>
+    <Progress_CombineDesc>PDF 合併中</Progress_CombineDesc>
+    <Progress_DataExtractTitle>擷取資料</Progress_DataExtractTitle>
+    <Progress_DataExtractDesc>擷取資料</Progress_DataExtractDesc>
+    <Progress_DataExtractFailTitle>擷取資料失敗</Progress_DataExtractFailTitle>
+    <Progress_DataExtractFailContent>糟糕！無法截取數據</Progress_DataExtractFailContent>
+    <Progress_FlattenTitle>壓平檔案</Progress_FlattenTitle>
+    <Progress_FlattenDesc>壓平檔案中</Progress_FlattenDesc>
+    <Progress_FlattenFailTitle>壓平PDF檔案失敗</Progress_FlattenFailTitle>
+    <Progress_FlattenFailContent>糟糕！無法壓平PDF檔案</Progress_FlattenFailContent>
+    <Progress_OcrTitle>OCR</Progress_OcrTitle>
+    <Progress_OcrDesc>OCR正在處理中...</Progress_OcrDesc>
+    <Progress_OcrFailTitle>OCR失敗</Progress_OcrFailTitle>
+    <Progress_OcrFailContent>糟糕！無法完成OCR</Progress_OcrFailContent>
+    <Progress_OcrAreaTitle>區域OCR</Progress_OcrAreaTitle>
+    <Progress_OcrAreaDesc>區域OCR正在處理中…</Progress_OcrAreaDesc>
+    <Progress_OcrAreaFailTitle>區域OCR失敗</Progress_OcrAreaFailTitle>
+    <Progress_OcrAreaFailContent>糟糕！無法完成區域CR</Progress_OcrAreaFailContent>
+    <SplitByBookmark_HeadPartSuffix>頁眉</SplitByBookmark_HeadPartSuffix>
+    <SplitByPages_PartSuffix>部分</SplitByPages_PartSuffix>
+    <Info_NotContainAnyBookmark>該文檔不包含頂級書籤，無法拆分。 請修改選項，然後重試。</Info_NotContainAnyBookmark>
+    <Info_SplitSaveInfo>分割前請先儲存該檔案</Info_SplitSaveInfo>
+    <Progress_SplitTitle>分割頁面</Progress_SplitTitle>
+    <Progress_SplitDesc>分割頁面中….</Progress_SplitDesc>
+    <Progress_SplitResult>成功分割頁面，該檔案分為{0}個檔案</Progress_SplitResult>
+    <Progress_FileAttachmentTitle>新增附件檔案</Progress_FileAttachmentTitle>
+    <Progress_FileAttachmentDesc>正在新增附件檔案...</Progress_FileAttachmentDesc>
+    <DeletePage_Title>刪除頁面</DeletePage_Title>
+    <Info_DeletePage>您確定要刪除頁面嗎？</Info_DeletePage>
+    <Info_DeletePages>您確定要刪除頁面嗎？</Info_DeletePages>
+    <TaskName_Combine>合併</TaskName_Combine>
+    <TaskName_Create>建立</TaskName_Create>
+    <TaskName_Convert>轉換</TaskName_Convert>
+    <TaskName_Flatten>壓平檔案</TaskName_Flatten>
+    <TaskName_Optimize>壓縮</TaskName_Optimize>
+    <TaskName_DataExtract>資料擷取</TaskName_DataExtract>
+    <Convert_Image>圖像</Convert_Image>
+    <Convert_KeepOriginalDPI>保留原始DPI</Convert_KeepOriginalDPI>
+    <Combine_CloseTips>確認要退出嗎？</Combine_CloseTips>
+    <File_Image>圖片</File_Image>
+    <File_FdfField>FDF 文件</File_FdfField>
+    <File_XfaDataField>FDF 文件</File_XfaDataField>
+    <File_Files>檔案</File_Files>
+    <File_NotExist>檔案已經不存在了</File_NotExist>
+    <File_ImageDamaged>圖片下載失敗，請檢查檔案是否損壞</File_ImageDamaged>
+    <Ocr_DownloadTitle>OCR下載</Ocr_DownloadTitle>
+    <Ocr_Downloading>OCR下載中，請稍等...</Ocr_Downloading>
+    <Ocr_DownloadFail>OCR下載失敗</Ocr_DownloadFail>
+    <Ocr_FileCorrupt>下載的文件已損壞，請重試</Ocr_FileCorrupt>
+    <Ocr_InstallTitile>OCR安裝</Ocr_InstallTitile>
+    <Ocr_Installing>OCR安裝中，請稍等...</Ocr_Installing>
+    <Ocr_InstallCompleted>OCR安裝完成</Ocr_InstallCompleted>
+    <Ocr_InstallFail>OCR安裝失敗請重試</Ocr_InstallFail>
+    <Ocr_InstallerStartFail>OCR下載器啟動失敗</Ocr_InstallerStartFail>
+    <Ocr_ContinueDownload>繼續</Ocr_ContinueDownload>
+    <Ocr_CancelDownload>取消下載</Ocr_CancelDownload>
+    <FilePrefix_ExtractPages>頁面從</FilePrefix_ExtractPages>
+    <FileSuffix_Create>新建</FileSuffix_Create>
+    <FileSuffix_DataExtract>資料擷取</FileSuffix_DataExtract>
+    <FileSuffix_BatesNumber>貝茨碼</FileSuffix_BatesNumber>
+    <FileSuffix_Watermark>浮水印</FileSuffix_Watermark>
+    <FileSuffix_Optimize>壓縮</FileSuffix_Optimize>
+    <FileSuffix_Security>加密</FileSuffix_Security>
+    <FileSuffix_Background>背景</FileSuffix_Background>
+    <FileSuffix_Combine>合併</FileSuffix_Combine>
+    <FileSuffix_HeaderFooter>頁首頁尾</FileSuffix_HeaderFooter>
+    <FileSuffix_Flatten>壓平檔案</FileSuffix_Flatten>
+    <TagName_Watermark>浮水印</TagName_Watermark>
+    <TagName_BatesNumber>貝茨碼</TagName_BatesNumber>
+    <TagName_Background>背景</TagName_Background>
+    <TagName_HeaderFooter>頁首頁尾</TagName_HeaderFooter>
+    <TaskTips_UserCancel>操作被取消</TaskTips_UserCancel>
+    <TaskTips_Fail>操作失敗</TaskTips_Fail>
+    <TaskMain_Closing>目前任務正在進行中，確定要關閉嗎？</TaskMain_Closing>
+    <TaskPage_Apply>套用</TaskPage_Apply>
+    <TaskPage_Cancel>取消</TaskPage_Cancel>
+    <TaskPage_Cancelling>取消中...</TaskPage_Cancelling>
+    <FileListPanel_ClearAll>清空所有</FileListPanel_ClearAll>
+    <FileListPanel_ClearAllTips>確定要清空所有檔案嗎？</FileListPanel_ClearAllTips>
+    <FileItem_FileNotExisted>文件不存在</FileItem_FileNotExisted>
+    <FileItem_NeedPermissionPwd>該檔案已加密</FileItem_NeedPermissionPwd>
+    <FileItem_CannotOpen>無法打開此檔案</FileItem_CannotOpen>
+    <FileItem_NotSupportXFA>當前功能不支持XFA文檔。</FileItem_NotSupportXFA>
+    <FileItem_PageCount>頁數</FileItem_PageCount>
+    <FileItem_PageRange>頁面範圍</FileItem_PageRange>
+    <FileItem_All>全部</FileItem_All>
+    <FileItem_RangeExample>頁面：如（1,3,5,1-7）</FileItem_RangeExample>
+    <FileFailReason_Duplicate>檔案已經在列表中</FileFailReason_Duplicate>
+    <FileFailReason_NotSupport>不支援此檔案格式</FileFailReason_NotSupport>
+    <FileFailReason_Damaged>檔案損壞或格式不正確</FileFailReason_Damaged>
+    <FileFailReason_NotExist>檔案不存在</FileFailReason_NotExist>
+    <FileFailReason_CreateFail>建立失敗</FileFailReason_CreateFail>
+    <FileFailReason_MergeFail>合併失敗</FileFailReason_MergeFail>
+    <FileFailReason_NeedPassword>需要密碼</FileFailReason_NeedPassword>
+    <FileFailReason_PathInvalid>路徑無效</FileFailReason_PathInvalid>
+    <FileFailReason_Unauthorized>未經授權訪問文件</FileFailReason_Unauthorized>
+    <FileFailReason_OpenFail>開啟失敗</FileFailReason_OpenFail>
+    <FileFailReason_Unknown>未知</FileFailReason_Unknown>
+    <OutputPanel_InvalidPath>無效的路徑</OutputPanel_InvalidPath>
+    <OutputPanel_ErrorFolder>資料夾的路徑無效，請再試一次</OutputPanel_ErrorFolder>
+    <OutputPanel_ErrorPath>路徑無效，請檢查</OutputPanel_ErrorPath>
+    <OutputPanel_FolderReadOnly>該資料夾的路徑是唯讀的，請檢查</OutputPanel_FolderReadOnly>
+    <OutputPanel_TooLong>糟糕！路徑太長了。</OutputPanel_TooLong>
+    <DataExtract_ScannedNotForms>非表單檔案無法用表單識別進行資料擷取</DataExtract_ScannedNotForms>
+    <DataExtract_File>檔案</DataExtract_File>
+    <DataExtract_Field>區域</DataExtract_Field>
+    <DataExtract_FileError>無法打開或預覽檔案，可能是檔案已遭刪除或修改密碼</DataExtract_FileError>
+    <DataExtract_NoFieldsTips>未檢測到表單字段，請先選擇PDF中的文本作為表單字段</DataExtract_NoFieldsTips>
+    <DataExtract_Apply>套用</DataExtract_Apply>
+    <DataExtract_ApplyTemplate>選擇要擷取的文本</DataExtract_ApplyTemplate>
+    <DataExtract_HowToSelect>如何選擇要提取的文本？</DataExtract_HowToSelect>
+    <Capture_CopyFinish>已複製選中區域</Capture_CopyFinish>
+    <Operation_Add>新增</Operation_Add>
+    <Operation_Update>更新</Operation_Update>
+    <Operation_Remove>刪除</Operation_Remove>
+    <PageNumber_One>##1##</PageNumber_One>
+    <PageNumber_OneOfN>##1## /##n##</PageNumber_OneOfN>
+    <PageNumber_OneSlashN>##1##/##n##</PageNumber_OneSlashN>
+    <PageNumber_PageOne>頁 ##1##</PageNumber_PageOne>
+    <PageNumber_PageOneOfN>頁 ##1## / ##n##</PageNumber_PageOneOfN>
+    <CropPageSize>裁切後的頁面大小：{0}</CropPageSize>
+    <PageBox_CropBox>裁切框</PageBox_CropBox>
+    <PageBox_BleedBox>出血框</PageBox_BleedBox>
+    <PageBox_TrimBox>裁切框</PageBox_TrimBox>
+    <PageBox_ArtBox>作品框</PageBox_ArtBox>
+    <PageBox_SizeNone>無</PageBox_SizeNone>
+    <Password_NeedPwd>{0} 已設定密碼保護檔案</Password_NeedPwd>
+    <Password_OpenFail>密碼錯誤，打開失敗</Password_OpenFail>
+    <OpenResult_Success>文件打開成功</OpenResult_Success>
+    <OpenResult_Error>密碼錯誤，請重新輸入</OpenResult_Error>
+    <OpenResult_FileError>檔案打開失敗，可能是格式不正確或檔案已損壞</OpenResult_FileError>
+    <OpenResult_EnterPassword>請輸入密碼</OpenResult_EnterPassword>
+    <OpenResult_EnterOwner>該檔案有許可權密碼，請輸入許可權密碼</OpenResult_EnterOwner>
+    <OpenResult_PresetOpenFail>預設密碼無法打開檔案</OpenResult_PresetOpenFail>
+    <FilePrint_ShowSetting>顯示設定</FilePrint_ShowSetting>
+    <FilePrint_HideSetting>隱藏設定</FilePrint_HideSetting>
+    <HomePage_GoodMorning>早安！</HomePage_GoodMorning>
+    <HomePage_GoodAfternoon>午安！</HomePage_GoodAfternoon>
+    <HomePage_GoodEvening>晚安！</HomePage_GoodEvening>
+    <DocumentPage_ReadOnly>該檔案是唯讀檔案，無法儲存。請用不同的名稱或不同的資料夾儲存該檔案</DocumentPage_ReadOnly>
+    <DocumentPage_UseByOtherPorcesses>檔案被其他程式使用中，無法完成操作。請用不同的名稱或不同的資料夾儲存該檔案</DocumentPage_UseByOtherPorcesses>
+    <Info_MaxTabs>您最多只能打開50個檔案，您無法打開任何新的檔案</Info_MaxTabs>
+    <Info_MaxTabsTitle>最大定位字元</Info_MaxTabsTitle>
+    <Info_China_ExitTip>如果您尚未登錄，則將無法使用該產品，而且未保存的檔案將不會被保存，您確定要退出該產品嗎？</Info_China_ExitTip>
+    <Recent_FileNotAvailable>你嘗試打開的文檔不存在。
+文件可能被移動、重命名或刪除了。</Recent_FileNotAvailable>
+    <Recent_FileNotAvailable_Title>文件打開失敗</Recent_FileNotAvailable_Title>
+    <Info_SaveTipBeforeOperation>您是否要在操作前將更改儲存為“ {0}”？</Info_SaveTipBeforeOperation>
+    <Info_RenameNeedSave>請在重命名之前保存檔案。</Info_RenameNeedSave>
+    <Info_RenameFail>重命名檔案失敗</Info_RenameFail>
+    <Info_RenameExist>無法重命名該檔案，因為已存在同名的{0}。</Info_RenameExist>
+    <Info_RenameInvalid>檔名不能包含無效字元。</Info_RenameInvalid>
+    <Info_RenamePathError>無法重命名檔案，因為名稱錯誤。</Info_RenamePathError>
+    <QatMenu_Email_SizeOver20>無法將超過20MB的檔案附加到Outlook中。</QatMenu_Email_SizeOver20>
+    <QatMenu_Email_SizeOver20_Title>文件大小超過20MB</QatMenu_Email_SizeOver20_Title>
+    <TaskName_Print>列印任務列表</TaskName_Print>
+    <Print_PathError>無法寫入檔案，它可能是非法路徑，或者該檔案正在被另一個應用程式使用。您想嘗試其他檔案嗎？</Print_PathError>
+    <Print_PathError_Title>列印路徑錯誤</Print_PathError_Title>
+    <Print_PrintError>無法列印PDF</Print_PrintError>
+    <Print_PrintError_Title>列印失败</Print_PrintError_Title>
+    <Print_Printer_Invalid>無法列印文檔，打印機可能與電腦斷開連接。</Print_Printer_Invalid>
+    <Print_Printer_Invalid_Title>列印失败</Print_Printer_Invalid_Title>
+    <Print_Printer_NoExist>沒有打印機連接到您的電腦，請檢查一下。</Print_Printer_NoExist>
+    <Print_Printer_NoExist_Title>不存在打印機</Print_Printer_NoExist_Title>
+    <Print_Printer_Occupied>打印機正在準備另一個文檔。 如果要打印當前文檔，請首先關閉“打印”面板。</Print_Printer_Occupied>
+    <Print_Printer_Occupied_Title>打印機被佔用</Print_Printer_Occupied_Title>
+    <Print_PagesPerSheetType_Sheets2>2</Print_PagesPerSheetType_Sheets2>
+    <Print_PagesPerSheetType_Sheets4>4</Print_PagesPerSheetType_Sheets4>
+    <Print_PagesPerSheetType_Sheets6>6</Print_PagesPerSheetType_Sheets6>
+    <Print_PagesPerSheetType_Sheets9>9</Print_PagesPerSheetType_Sheets9>
+    <Print_PagesPerSheetType_Sheets16>16</Print_PagesPerSheetType_Sheets16>
+    <Print_PagesPerSheetType_SheetsCustom>自定義...</Print_PagesPerSheetType_SheetsCustom>
+    <Print_FlowDirection_LeftToRight>橫向</Print_FlowDirection_LeftToRight>
+    <Print_FlowDirection_RightToLeft>橫向反序</Print_FlowDirection_RightToLeft>
+    <Print_FlowDirection_TopDown>縱向</Print_FlowDirection_TopDown>
+    <Print_FlowDirection_BottomUp>縱向反序</Print_FlowDirection_BottomUp>
+    <Print_BindingType_Left>左</Print_BindingType_Left>
+    <Print_BindingType_Right>右</Print_BindingType_Right>
+    <Print_BookletSubsetType_BothSides>雙面</Print_BookletSubsetType_BothSides>
+    <Print_BookletSubsetType_OnlyPositive>僅正面</Print_BookletSubsetType_OnlyPositive>
+    <Print_BookletSubsetType_OnlyBack>僅反面</Print_BookletSubsetType_OnlyBack>
+    <Print_DuplexType_Simplex>Single sided printing</Print_DuplexType_Simplex>
+    <Print_DuplexType_Vertical>Flip on long edge</Print_DuplexType_Vertical>
+    <Print_DuplexType_Horizontal>Flip on short edge</Print_DuplexType_Horizontal>
+    <Print_DuplexType_Manual>Manual duplex printing</Print_DuplexType_Manual>
+    <Print_ManualDuplex_Tips>Please take out the printed paper from the output tray and put it back into the tray, and then press "OK" to continue printing.</Print_ManualDuplex_Tips>
+    <Print_CannotPrint_Tips>抱歉，該檔案不能被列印。
+
+原因：該檔案的安全許可權禁止了列印功能</Print_CannotPrint_Tips>
+    <AnnotName_Rectangle>矩形</AnnotName_Rectangle>
+    <AnnotName_TypeWriter>註解類型</AnnotName_TypeWriter>
+    <AnnotName_TextBox>文字方塊</AnnotName_TextBox>
+    <AnnotName_Circle>橢圓形</AnnotName_Circle>
+    <AnnotName_Pencil>鉛筆</AnnotName_Pencil>
+    <AnnotName_Polygon>多邊形</AnnotName_Polygon>
+    <AnnotName_Cloud>雲形</AnnotName_Cloud>
+    <AnnotName_Oval>圓形</AnnotName_Oval>
+    <AnnotName_Line>線條</AnnotName_Line>
+    <AnnotName_PolyLine>連接線</AnnotName_PolyLine>
+    <AnnotName_Arrow>箭頭</AnnotName_Arrow>
+    <AnnotName_Note>便條紙</AnnotName_Note>
+    <AnnotName_Link>連結</AnnotName_Link>
+    <AnnotName_Stamp>簽章</AnnotName_Stamp>
+    <AnnotName_Attachment>附件</AnnotName_Attachment>
+    <AnnotName_Redact>編輯</AnnotName_Redact>
+    <AnnotName_Highlight>突顯</AnnotName_Highlight>
+    <AnnotName_AreaHighlight>突顯區域</AnnotName_AreaHighlight>
+    <AnnotName_Caret>插入符號</AnnotName_Caret>
+    <AnnotName_Strikeout>刪除線</AnnotName_Strikeout>
+    <AnnotName_Squigglyline>波浪線</AnnotName_Squigglyline>
+    <AnnotName_Underline>下劃線</AnnotName_Underline>
+    <AnnotName_Callout>文本標注</AnnotName_Callout>
+    <Info_Redaction>密文</Info_Redaction>
+    <Info_ApplyRedactNote>修改可讓您永久性中斷並刪除敏感資訊。儲存檔案後，此操作將無法復原，你確定你要繼續嗎？</Info_ApplyRedactNote>
+    <ApplyRedact_DontShowAgain>不再顯示</ApplyRedact_DontShowAgain>
+    <ApplyRedact_Continue>繼續</ApplyRedact_Continue>
+    <Fields_DefaultName_Text>文字</Fields_DefaultName_Text>
+    <Fields_DefaultName_CheckBox>核取方塊</Fields_DefaultName_CheckBox>
+    <Fields_DefaultName_RadioBox>組</Fields_DefaultName_RadioBox>
+    <Fields_DefaultName_ComboBox>下拉式選單</Fields_DefaultName_ComboBox>
+    <Fields_DefaultName_ListBox>列表</Fields_DefaultName_ListBox>
+    <Fields_DefaultName_Button>按鈕</Fields_DefaultName_Button>
+    <Fields_DefaultName_Signature>數位簽章</Fields_DefaultName_Signature>
+    <Fields_DefaultName_Image>圖像</Fields_DefaultName_Image>
+    <Fields_Properties_FormTitle>表單屬性</Fields_Properties_FormTitle>
+    <Fields_Properties_TextFieldProperties>文字區域屬性</Fields_Properties_TextFieldProperties>
+    <Fields_Properties_CheckBoxProperties>核取方塊屬性</Fields_Properties_CheckBoxProperties>
+    <Fields_Properties_RadioButtonProperties>單選按鈕屬性</Fields_Properties_RadioButtonProperties>
+    <Fields_Properties_DropdownProperties>下拉式選單屬性</Fields_Properties_DropdownProperties>
+    <Fields_Properties_ListBoxProperties>列表屬性</Fields_Properties_ListBoxProperties>
+    <Fields_Properties_ButtonProperties>按鈕屬性</Fields_Properties_ButtonProperties>
+    <Fields_Properties_SignedTheseFields>僅選擇這些欄位</Fields_Properties_SignedTheseFields>
+    <Fields_Properties_DigitalSignatureProperties>數位簽章屬性</Fields_Properties_DigitalSignatureProperties>
+    <Fields_Properties_General>常規</Fields_Properties_General>
+    <Fields_Properties_Appearance>外觀</Fields_Properties_Appearance>
+    <Fields_Properties_Positionl>位置</Fields_Properties_Positionl>
+    <Fields_Properties_Options>選項</Fields_Properties_Options>
+    <Fields_Properties_Format>格式</Fields_Properties_Format>
+    <Fields_Properties_Validate>驗證</Fields_Properties_Validate>
+    <Fields_Properties_Calculation>計算方式</Fields_Properties_Calculation>
+    <Fields_Properties_Selection>變更選擇</Fields_Properties_Selection>
+    <Fields_Properties_Signed>簽名</Fields_Properties_Signed>
+    <Fields_Properties_Action>行動</Fields_Properties_Action>
+    <Fields_Properties_Visible>可見</Fields_Properties_Visible>
+    <Fields_Properties_Hidden>隱藏</Fields_Properties_Hidden>
+    <Fields_Properties_VisibleNotPrint>可見，但不列印</Fields_Properties_VisibleNotPrint>
+    <Fields_Properties_HiddenPrintable>隱藏但可列印</Fields_Properties_HiddenPrintable>
+    <Fields_Properties_FiledNameAlreadyExist>您輸入的名稱已在另一個欄位中使用。請選擇其他名稱，或更改欄位類型與現有欄位一致。</Fields_Properties_FiledNameAlreadyExist>
+    <Fields_Properties_MulitActionText>無效</Fields_Properties_MulitActionText>
+    <Fields_Properties_ActionsFile>文件: {0}</Fields_Properties_ActionsFile>
+    <Fields_Properties_ActionsPage>頁面: {0}</Fields_Properties_ActionsPage>
+    <Fields_Properties_Custom>自訂</Fields_Properties_Custom>
+    <Fields_Properties_None>無</Fields_Properties_None>
+    <Fields_RangeValidate_InvalidValue>無效值：必須大於等於 {0} 和小於等於 {1}</Fields_RangeValidate_InvalidValue>
+    <Fields_ActionSetting_URLNotAllowEmpty>網址不能為空白</Fields_ActionSetting_URLNotAllowEmpty>
+    <Fields_ActionSetting_SaveDocBeforeSubmitForm>您要儲存檔案嗎？</Fields_ActionSetting_SaveDocBeforeSubmitForm>
+    <Fields_ActionSetting_EMailSubject>來自於{0}的數據資料</Fields_ActionSetting_EMailSubject>
+    <Fields_ActionSetting_EMailContent_Pdf>附件包含原始 PDF 內容，包括表單字段資料</Fields_ActionSetting_EMailContent_Pdf>
+    <Fields_ActionSetting_EMailContent_Data>附件僅包含輸入到PDF表單中的資料，並非PDF表單本身</Fields_ActionSetting_EMailContent_Data>
+    <Fields_ActionSetting_EMailUserAbort>由於使用者取消了請求，因此未提交任何資料</Fields_ActionSetting_EMailUserAbort>
+    <Fields_ActionSetting_ExportDataNotSupport>該程式不支援從此檔案格式中擷取資料</Fields_ActionSetting_ExportDataNotSupport>
+    <Fields_ActionSetting_SubmitProgress>提交資料中...</Fields_ActionSetting_SubmitProgress>
+    <Fields_ActionSetting_SubmitSuccess>資料已成功提交</Fields_ActionSetting_SubmitSuccess>
+    <Fields_ActionSetting_SubmitFail>提交資料失敗</Fields_ActionSetting_SubmitFail>
+    <Fields_ActionSetting_SubmitUserAbort>由於使用者取消了請求，因此未能提交資料</Fields_ActionSetting_SubmitUserAbort>
+    <Fields_ActionSetting_OpenUrlWarnTitle>警告</Fields_ActionSetting_OpenUrlWarnTitle>
+    <Fields_ActionSetting_OpenUrlWarnMsgHead>您嘗試打開的頁面存在安全風險</Fields_ActionSetting_OpenUrlWarnMsgHead>
+    <Fields_ActionSetting_OpenUrlWarnMsgFmt>您確定要打開URL“ {0}”嗎？</Fields_ActionSetting_OpenUrlWarnMsgFmt>
+    <Fields_ActionSetting_ClickResult>按一下“是”允許，或按一下“否”取消</Fields_ActionSetting_ClickResult>
+    <Fields_ActionSetting_ExportDataFail>匯出數據失敗</Fields_ActionSetting_ExportDataFail>
+    <Fields_ActionSetting_SelectFieldsToReset>選擇表單欄位重置</Fields_ActionSetting_SelectFieldsToReset>
+    <Fields_ActionSetting_MultilineNotFormat>無法將格式套用於多行文字欄位，如果您希望套用格式設定，請轉到“選項”面板，然後取消選中“多行”。</Fields_ActionSetting_MultilineNotFormat>
+    <Fields_ActionSetting_FormatNotMacthValue>此格式不一致 [{0}]指定的預設值。請選擇一個與預設值一致的格式或在選項面板更改預設值</Fields_ActionSetting_FormatNotMacthValue>
+    <Fields_ActionSetting_ValueNotMacthFormat>此預設值和({0}) 指定的格式不一致。請輸入與格式相匹配的預設值或更改格式面板</Fields_ActionSetting_ValueNotMacthFormat>
+    <Fields_Action_InvalidDateTime>無效的日期/時間：請確保資料/時間有效。欄位[{0}]應與格式{1}一致</Fields_Action_InvalidDateTime>
+    <Fields_Action_InvalidSpecialFormat>輸入的值和欄位的格式不一致 [{0}]</Fields_Action_InvalidSpecialFormat>
+    <Fields_Action_FileNotExist>文件或資料夾不存在</Fields_Action_FileNotExist>
+    <Fields_Action_FileTypeNotDefaultApp>文件類型：{0}沒有關聯的默認應用程序。</Fields_Action_FileTypeNotDefaultApp>
+    <Fields_Action_OpenFileConfirmation>您正在請求打開檔案{0}。此檔案可能包含可能危害電腦的程式或病毒。請確定在檔案是安全的情況下才打開該檔案。如果此檔案是由信任的人或程式新建的，則可以按一下“打開”查看該檔案。</Fields_Action_OpenFileConfirmation>
+    <Fields_Action_OpenUrlWarnTitle>警告</Fields_Action_OpenUrlWarnTitle>
+    <Fields_Action_OpenUrlWarnMsgFormat>你正在打開網站“{0}”如果你信任此網站，請點擊“是”，否則點擊“否”</Fields_Action_OpenUrlWarnMsgFormat>
+    <MsgForm_DontShowAgain>不再顯示此消息</MsgForm_DontShowAgain>
+    <!--{0}{1}都会替换成阿拉伯数字。-->
+    <Fields_Properties_JavaScriptLineColumn>行 {0}, 列 {1}</Fields_Properties_JavaScriptLineColumn>
+    <!--字体样式。-->
+    <FontStyle_Regular>普通</FontStyle_Regular>
+    <FontStyle_Bold>加粗</FontStyle_Bold>
+    <FontStyle_Italic>傾斜</FontStyle_Italic>
+    <FontStyle_BoldItalic>粗體斜體</FontStyle_BoldItalic>
+    <FontStyle_Underline>底線</FontStyle_Underline>
+    <FontStyle_Strikeout>刪除線</FontStyle_Strikeout>
+    <AntiPiracy_AuthFailedTitle>帳號授權驗證失敗</AntiPiracy_AuthFailedTitle>
+    <AntiPiracy_AuthFailedMessage>授權驗證失敗，請重新登錄</AntiPiracy_AuthFailedMessage>
+    <UserCenter_Trial>試用版</UserCenter_Trial>
+    <UserCenter_Standard>標準版</UserCenter_Standard>
+    <UserCenter_Professional>專業版</UserCenter_Professional>
+    <UserCenter_Business>商業版</UserCenter_Business>
+    <Setting_RemoveAllDictionaryWords>點擊“是”將移除字典中的所有單字</Setting_RemoveAllDictionaryWords>
+    <!--热键功能的提示字符串。-->
+    <HotKey_CommonHelpOnline>打開在線幫助頁面</HotKey_CommonHelpOnline>
+    <HotKey_CommonShowVersion>彈出產品版本提示框</HotKey_CommonShowVersion>
+    <HotKey_CommonOpenFile>彈出檔案對話方塊</HotKey_CommonOpenFile>
+    <HotKey_CommonSearchPanel>彈出查找視窗</HotKey_CommonSearchPanel>
+    <HotKey_CommonAdvancedSearch>打開高級搜索面板</HotKey_CommonAdvancedSearch>
+    <HotKey_CommonRibbonToolTip>顯示菜单栏快速鍵工具提示</HotKey_CommonRibbonToolTip>
+    <HotKey_FileManageCloseFile>關閉目前檔案</HotKey_FileManageCloseFile>
+    <HotKey_FileManageSaveFile>儲存目前檔案</HotKey_FileManageSaveFile>
+    <HotKey_FileManageSaveAsFile>另存目前檔案</HotKey_FileManageSaveAsFile>
+    <HotKey_FileManageUndo>取消上一步操作</HotKey_FileManageUndo>
+    <HotKey_FilePanelRedo>還原上一步取消的操作</HotKey_FilePanelRedo>
+    <HotKey_FilePanelHideFilePanel>隱藏檔案菜單</HotKey_FilePanelHideFilePanel>
+    <HotKey_FilePanelNew>轉換到新建檔案介面（檔案 -&gt; 新建)</HotKey_FilePanelNew>
+    <HotKey_FilePanelPrint>轉換到列印檔案介面（檔案 -&gt; 列印）</HotKey_FilePanelPrint>
+    <HotKey_FilePanelFilePrintPanel>轉換到列印檔案介面（檔案 -&gt; 列印）</HotKey_FilePanelFilePrintPanel>
+    <HotKey_FilePanelMaximumWindows>切換視窗的最大化、還原狀態</HotKey_FilePanelMaximumWindows>
+    <HotKey_ViewScaleActually>頁面真實比例，100%</HotKey_ViewScaleActually>
+    <HotKey_ViewScaleAdaptedWidth>適應頁面寬度</HotKey_ViewScaleAdaptedWidth>
+    <HotKey_ViewScaleAdaptedHeight>適應高度</HotKey_ViewScaleAdaptedHeight>
+    <HotKey_ViewScaleAdaptedPage>適應頁面大小</HotKey_ViewScaleAdaptedPage>
+    <HotKey_ViewScaleZoomPagePercent>放大頁面比例</HotKey_ViewScaleZoomPagePercent>
+    <HotKey_ViewScaleZoomOutPange>縮小頁面比例</HotKey_ViewScaleZoomOutPange>
+    <HotKey_ViewScaleExitFullScreen>進入或退出全螢幕模式</HotKey_ViewScaleExitFullScreen>
+    <HotKey_ViewModeSinglePage>單頁模式</HotKey_ViewModeSinglePage>
+    <HotKey_ViewModeContinuePage>連續模式</HotKey_ViewModeContinuePage>
+    <HotKey_ViewModeDoublePage>雙頁模式</HotKey_ViewModeDoublePage>
+    <HotKey_ViewModeDoubleContinuePage>雙頁連續模式</HotKey_ViewModeDoubleContinuePage>
+    <HotKey_ViewJumpScrollingUp>向上滑動或回到上一頁</HotKey_ViewJumpScrollingUp>
+    <HotKey_ViewJumpScrollingDown>向下滑動或換下一頁</HotKey_ViewJumpScrollingDown>
+    <HotKey_ViewJumpScrollingLeft>向左滾動視圖</HotKey_ViewJumpScrollingLeft>
+    <HotKey_ViewJumpScrollingRight>向右滾動視圖</HotKey_ViewJumpScrollingRight>
+    <HotKey_ViewJumpLastPage>回到上一個視圖</HotKey_ViewJumpLastPage>
+    <HotKey_ViewJumpNextPage>換下一個視圖</HotKey_ViewJumpNextPage>
+    <HotKey_SidebarHideLeft>隱藏左邊側邊欄</HotKey_SidebarHideLeft>
+    <HotKey_SidebarHideThumbnail>顯示縮圖</HotKey_SidebarHideThumbnail>
+    <HotKey_SidebarShowBookmark>顯示書籤</HotKey_SidebarShowBookmark>
+    <HotKey_SidebarShowSearchList>顯示搜索清單</HotKey_SidebarShowSearchList>
+    <HotKey_SidebarShowAttachmentList>顯示附件清單</HotKey_SidebarShowAttachmentList>
+    <HotKey_SidebarShowCommentList>顯示註解清單</HotKey_SidebarShowCommentList>
+    <HotKey_RibbonMenuSwitchNextRibbonPage>切換到下一個菜單標籤頁</HotKey_RibbonMenuSwitchNextRibbonPage>
+    <HotKey_RibbonMenuSwitchLastRibbonPage>切換到上一個菜單標籤頁</HotKey_RibbonMenuSwitchLastRibbonPage>
+    <HotKey_RibbonMenuShowHideRibbonMenu>收起或展開菜單選單</HotKey_RibbonMenuShowHideRibbonMenu>
+    <HotKey_FileTabActiveNextFile>切換啟動下一個檔案</HotKey_FileTabActiveNextFile>
+    <HotKey_FileTabActiveLastFile>切換啟動上一個檔案</HotKey_FileTabActiveLastFile>
+    <HotKey_SwitchModelSwitchToSelect>切換到選擇模式</HotKey_SwitchModelSwitchToSelect>
+    <HotKey_SwitchModelSwitchToEdit>切換到文本編輯模式</HotKey_SwitchModelSwitchToEdit>
+    <HotKey_SwitchModelSwitchToHand>切換到手型模式</HotKey_SwitchModelSwitchToHand>
+    <HotKey_SwitchModelSwitchToComment>切換到註解</HotKey_SwitchModelSwitchToComment>
+    <HotKey_SwitchModelSwitchToLink>切換到連結編輯模式</HotKey_SwitchModelSwitchToLink>
+    <HotKey_SwitchModelEscTempStatus>退出各種臨時編輯（新增）狀態</HotKey_SwitchModelEscTempStatus>
+    <HotKey_CommentBubble>新增氣泡註解</HotKey_CommentBubble>
+    <HotKey_CommentTextbox>新增文字方塊註解</HotKey_CommentTextbox>
+    <HotKey_CommentLine>新增線條註解</HotKey_CommentLine>
+    <HotKey_CommentArrow>新增箭頭註解</HotKey_CommentArrow>
+    <HotKey_CommentEllipse>新增橢圓註解</HotKey_CommentEllipse>
+    <HotKey_CommentRectangle>新增矩形註解</HotKey_CommentRectangle>
+    <HotKey_CommentPolygon>新增多邊形註解</HotKey_CommentPolygon>
+    <HotKey_CommentCloud>新增雲型註解</HotKey_CommentCloud>
+    <HotKey_CommentPolyline>新增線條註解</HotKey_CommentPolyline>
+    <HotKey_CommentPen>新增鉛筆註解</HotKey_CommentPen>
+    <HotKey_CommentErase>橡皮擦</HotKey_CommentErase>
+    <HotKey_CommentUnderLine>底線</HotKey_CommentUnderLine>
+    <HotKey_TextEditEdit>進入文本編輯模式</HotKey_TextEditEdit>
+    <HotKey_TextEditBlod>設定目前選中文字為粗體</HotKey_TextEditBlod>
+    <HotKey_TextEditItalic>設定目前選中文字為斜體</HotKey_TextEditItalic>
+    <HotKey_TextEditChangeFontName>彈出字體下拉清單以便修改字體</HotKey_TextEditChangeFontName>
+    <HotKey_TextEditChangeFontSize>彈出字型大小下來列表以便修改字型大小</HotKey_TextEditChangeFontSize>
+    <HotKey_TextEditZoomOutFontSize>放大選中文字的字型大小</HotKey_TextEditZoomOutFontSize>
+    <HotKey_TextEditZoomInFontSize>縮小選中文字的字型大小</HotKey_TextEditZoomInFontSize>
+    <HotKey_PageManagedShowDeleteDialog>彈出刪除頁面對話方塊</HotKey_PageManagedShowDeleteDialog>
+    <HotKey_PageManagedInsertBlankPage>彈出插入空白頁對話方塊</HotKey_PageManagedInsertBlankPage>
+    <HotKey_PageManagedRotateToLeft>向左旋轉頁面</HotKey_PageManagedRotateToLeft>
+    <HotKey_PageManagedRotateToRight>向右旋轉頁面</HotKey_PageManagedRotateToRight>
+    <HotKey_BookmarkAddBookmark>新增書籤</HotKey_BookmarkAddBookmark>
+    <HotKey_BookmarkRenameBookmark>重新命名選中書籤</HotKey_BookmarkRenameBookmark>
+    <Cloud_CancelButton>取消</Cloud_CancelButton>
+    <Cloud_UploadButton>上傳</Cloud_UploadButton>
+    <Cloud_OKButton>確定</Cloud_OKButton>
+    <Cloud_DownloadSuccessedStatus>檔案已下載</Cloud_DownloadSuccessedStatus>
+    <Cloud_DownloadFailedStatus>檔案下載失敗</Cloud_DownloadFailedStatus>
+    <Cloud_UploadSuccessedStatus>完成！</Cloud_UploadSuccessedStatus>
+    <Cloud_UploadFailedStatus>上傳失敗</Cloud_UploadFailedStatus>
+    <Cloud_NetError>請檢查您的網路連接並重試</Cloud_NetError>
+    <Cloud_DropboxUnAuth>首先，請授權PDFelement從您的Dropbox帳戶使用PDF檔案，授權後再按一下下面的按鈕。</Cloud_DropboxUnAuth>
+    <Cloud_DropboxFileName>我的Dropbox</Cloud_DropboxFileName>
+    <Cloud_DropboxCloudFormText>Dropbox</Cloud_DropboxCloudFormText>
+    <Cloud_DropboxAuthFormText>Dropbox</Cloud_DropboxAuthFormText>
+    <Cloud_GoogleDriveUnAuth>首先，請授權PDFelement從您的Google Drive帳戶使用PDF檔案，授權後再按一下下面的按鈕。</Cloud_GoogleDriveUnAuth>
+    <Cloud_GoogleDriveFileName>我的Google Drive</Cloud_GoogleDriveFileName>
+    <Cloud_GoogleDriveCloudFormText>Google Drive</Cloud_GoogleDriveCloudFormText>
+    <Cloud_GoogleDriveAuthFormText>Google Drive</Cloud_GoogleDriveAuthFormText>
+    <Cloud_PECloudFileName>我的Wondershare Cloud</Cloud_PECloudFileName>
+    <Cloud_PECloudCloudFormText>Wondershare Cloud</Cloud_PECloudCloudFormText>
+    <Cloud_PECloudAuthFormText>Wondershare Cloud</Cloud_PECloudAuthFormText>
+    <Cloud_OneDriveUnAuth>首先，請授權PDFelement從您的OneDrive帳戶使用PDF檔案，授權後再按一下下面的按鈕。</Cloud_OneDriveUnAuth>
+    <Cloud_OneDriveFileName>我的OneDrive</Cloud_OneDriveFileName>
+    <Cloud_OneDriveCloudFormText>OneDrive</Cloud_OneDriveCloudFormText>
+    <Cloud_OneDriveAuthFormText>OneDrive</Cloud_OneDriveAuthFormText>
+    <Cloud_BoxUnAuth>首先，請授權PDFelement從您的Box帳戶使用PDF檔案，授權後再按一下下面的按鈕。</Cloud_BoxUnAuth>
+    <Cloud_BoxFileName>我的Box</Cloud_BoxFileName>
+    <Cloud_BoxCloudFormText>Box</Cloud_BoxCloudFormText>
+    <Cloud_BoxAuthFormText>Box</Cloud_BoxAuthFormText>
+    <Cloud_BaiduPanUnAuth>首先，請授權PDFelement從您的BaiduPan帳戶使用PDF檔案，授權後再按一下下面的按鈕。</Cloud_BaiduPanUnAuth>
+    <Cloud_BaiduPanFileName>我的BaiduPan</Cloud_BaiduPanFileName>
+    <Cloud_BaiduPanCloudFormText>BaiduPan</Cloud_BaiduPanCloudFormText>
+    <Cloud_BaiduPanAuthFormText>BaiduPan</Cloud_BaiduPanAuthFormText>
+    <Cloud_UploadLimitSize>上傳失敗，上傳的檔案的檔大小限制為小於{0}。</Cloud_UploadLimitSize>
+    <Cloud_DownloadNotEnoughSpace>下載失敗，您的電腦沒有足夠的儲存空間。</Cloud_DownloadNotEnoughSpace>
+    <Info_Account_DisableSendCode>&lt;Font color ="#808080"&gt;郵件傳送中，請稍等。檢查您的垃圾郵件資料夾或&lt;/Font&gt;重新發送代碼（&lt;Font color ="#007BFF"&gt; {0} s &lt;/Font&gt;）。</Info_Account_DisableSendCode>
+    <Info_Account_EnableSendCode>&lt;Font color ="#808080"&gt;郵件傳送中，請稍等。您還可以檢查垃圾郵件資料夾或&lt;/Font&gt; &lt;a color ="#007BFF"&gt;重新發送代碼&lt;/a&gt;。</Info_Account_EnableSendCode>
+    <Info_Account_Mobile_DisableSendCode>&lt;Font color ="#808080"&gt;短信已发送，请检查您的手机短信或&lt;/Font&gt;重新发送验证码（&lt;Font color ="#007BFF"&gt; {0} s &lt;/Font&gt;）。</Info_Account_Mobile_DisableSendCode>
+    <Info_Account_Mobile_EnableSendCode>&lt;Font color ="#808080"&gt;短信已发送，请检查您的手机短信或&lt;/Font&gt; &lt;a color ="#007BFF"&gt;重新发送验证码&lt;/a&gt;。</Info_Account_Mobile_EnableSendCode>
+    <Info_WSID_SendVerifyCodeFaild>驗證碼發送失敗。錯誤碼：{0}</Info_WSID_SendVerifyCodeFaild>
+    <Catalog_Title>目錄</Catalog_Title>
+    <ConfigPreview_Add>新增</ConfigPreview_Add>
+    <ConfigPreview_Edit>編輯{0}</ConfigPreview_Edit>
+    <MultipleTemplate_NoTags>沒有可以修改的內容了。</MultipleTemplate_NoTags>
+    <Tag_CurrentPdf>目前PDF</Tag_CurrentPdf>
+    <Tag_CurrentImage>目前圖片</Tag_CurrentImage>
+    <Annot_PopupContextMenu_Edit>編輯</Annot_PopupContextMenu_Edit>
+    <Annot_PopupContextMenu_Delete>刪除</Annot_PopupContextMenu_Delete>
+    <Annot_LinkToolTip_Goto>前往頁面</Annot_LinkToolTip_Goto>
+    <Annot_LinkToolTip_OpenUrl>打開網頁</Annot_LinkToolTip_OpenUrl>
+    <Annot_LinkToolTip_OpenFile>打開檔案</Annot_LinkToolTip_OpenFile>
+    <Annot_Stamp_SelectPictureDlgFileFilter>支援的影像檔案類型（* .bmp; *.jpg; *.jpeg; *.png; *.tif; *.tiff; *.svg; *.svgz）| *.bmp; *.jpg; *.jpeg; *.png; *.tif; *.tiff; *.svg; *.svgz</Annot_Stamp_SelectPictureDlgFileFilter>
+    <Info_WSID_Upgrade>升級</Info_WSID_Upgrade>
+    <Info_WSID_BuyNow>購買</Info_WSID_BuyNow>
+    <Info_WSID_Register>登入</Info_WSID_Register>
+    <Info_WSID_DeviceDisableLogoutTip>由於您的帳戶已被禁用，因此您已自動登出。</Info_WSID_DeviceDisableLogoutTip>
+    <Info_WSID_DeviceLimitFormTitle>設備數量超過限制{0}</Info_WSID_DeviceLimitFormTitle>
+    <Info_WSIDCodeMsg_ErrorCode>錯誤代碼</Info_WSIDCodeMsg_ErrorCode>
+    <Info_WSIDCodeMsg_Sucessed>成功！</Info_WSIDCodeMsg_Sucessed>
+    <Info_WSIDCodeMsg_NetError>網路連接失敗，請檢查您的網路或使用&lt;a href="ProxySetting"&gt;代理設置&lt;/a&gt;重試</Info_WSIDCodeMsg_NetError>
+    <Info_WSIDCodeMsg_PhoneFormatError>您的電話號碼格式不正確</Info_WSIDCodeMsg_PhoneFormatError>
+    <Info_WSIDCodeMsg_PhoneNumberError>電話號碼錯誤</Info_WSIDCodeMsg_PhoneNumberError>
+    <Info_WSIDCodeMsg_PhoneNumberExist>該電話號碼已經存在於我們的系統中</Info_WSIDCodeMsg_PhoneNumberExist>
+    <Info_WSIDCodeMsg_VerifyCodeWrong>驗證碼錯誤</Info_WSIDCodeMsg_VerifyCodeWrong>
+    <Info_WSIDCodeMsg_UserNotExist>該用戶不存在，請建立一個新帳戶</Info_WSIDCodeMsg_UserNotExist>
+    <Info_WSIDCodeMsg_AccountOrPwdWrong>用戶名或密碼不正確</Info_WSIDCodeMsg_AccountOrPwdWrong>
+    <Info_WSIDCodeMsg_SMSSendTooFrequent>SMS訊息量超過限制</Info_WSIDCodeMsg_SMSSendTooFrequent>
+    <Info_WSIDCodeMsg_SMSSendExceedLimit>發送短訊的數量超過限制</Info_WSIDCodeMsg_SMSSendExceedLimit>
+    <Info_WSIDCodeMsg_EmailFormatError>您的電子郵件格式不正確</Info_WSIDCodeMsg_EmailFormatError>
+    <Info_WSIDCodeMsg_EmailExist>該電子郵件已經存在於我們的資料庫中</Info_WSIDCodeMsg_EmailExist>
+    <Info_WSIDCodeMsg_PwdError>密碼錯誤</Info_WSIDCodeMsg_PwdError>
+    <Info_WSIDCodeMsg_EmailSendTooFrequent>發送的電子郵件數量超過了限制</Info_WSIDCodeMsg_EmailSendTooFrequent>
+    <Info_WSIDCodeMsg_EmailVerifyCodeSendTooFrequent>驗證碼每分鐘只能發送一次</Info_WSIDCodeMsg_EmailVerifyCodeSendTooFrequent>
+    <Info_WSIDCodeMsg_AccountLocked>您的帳戶已被鎖定，如果問題仍然存在，請聯繫客服。 &lt;a href="url"&gt;（支持中心）&lt;/a&gt;</Info_WSIDCodeMsg_AccountLocked>
+    <Info_WSIDCodeMsg_PwdLengthError>密碼長度不符合規則</Info_WSIDCodeMsg_PwdLengthError>
+    <Info_WSIDCodeMsg_EmailSendExceedLimt>發送的電子郵件數量超過了限制</Info_WSIDCodeMsg_EmailSendExceedLimt>
+    <Info_WSIDCodeMsg_AccountNotExist>此帳戶不存在</Info_WSIDCodeMsg_AccountNotExist>
+    <Info_WSIDCodeMsg_AccountExist>此帳戶已經存在</Info_WSIDCodeMsg_AccountExist>
+    <Info_WSIDCodeMsg_PasswordError5AccountWillLock>如果您輸入5次錯誤的密碼，您的帳戶將被鎖定1小時。如果要重設密碼，請按一下“忘記密碼”。</Info_WSIDCodeMsg_PasswordError5AccountWillLock>
+    <Info_WSIDCodeMsg_PasswordError5AccountLocked>您輸入了5次錯誤的密碼，現在您的帳戶已被鎖定。請聯繫客服。 &lt;a href="url"&gt;（支持中心）&lt;/a&gt;。</Info_WSIDCodeMsg_PasswordError5AccountLocked>
+    <Info_WSIDCodeMsg_NotHaveEnableAuth>沒有可用的許可證</Info_WSIDCodeMsg_NotHaveEnableAuth>
+    <Info_WSIDCodeMsg_NotHavePlan>沒有授權計畫</Info_WSIDCodeMsg_NotHavePlan>
+    <Info_WSIDCodeMsg_DevicesExceedLimit>使用的設備數量超過了限制</Info_WSIDCodeMsg_DevicesExceedLimit>
+    <Info_WSIDCodeMsg_DeviceIsDisabled>您的設備已被禁用</Info_WSIDCodeMsg_DeviceIsDisabled>
+    <Info_WSIDCodeMsg_RequestTooQuickly>請求數量已達到最大限制</Info_WSIDCodeMsg_RequestTooQuickly>
+    <Info_WSIDDeviceLimit_Display>顯示</Info_WSIDDeviceLimit_Display>
+    <Info_WSIDDeviceLimit_DisplayTip>顯示已綁定到當前帳號的設備。</Info_WSIDDeviceLimit_DisplayTip>
+    <Info_WSIDDeviceLimit_NetError>似乎網絡不穩定，你可以稍後重試。</Info_WSIDDeviceLimit_NetError>
+    <Info_PwdPage_AccountType_Email>電子郵件：</Info_PwdPage_AccountType_Email>
+    <Info_PwdPage_AccountType_Mobile>手機號：</Info_PwdPage_AccountType_Mobile>
+    <Info_UserCenter_PerpetualUserRight>終身授權</Info_UserCenter_PerpetualUserRight>
+    <Info_ProxyTestResult_Sucessed>代理服務可用</Info_ProxyTestResult_Sucessed>
+    <Info_ProxyTestResult_Faild>代理服務不可用</Info_ProxyTestResult_Faild>
+    <Info_ProxyTestResult_AuthError>代理服務遇到身份驗證錯誤</Info_ProxyTestResult_AuthError>
+    <Info_Ribbon_HideAnnot>隱藏注釋</Info_Ribbon_HideAnnot>
+    <Info_Ribbon_ShowAnnot>顯示注釋</Info_Ribbon_ShowAnnot>
+    <Info_Recent_Today>今天</Info_Recent_Today>
+    <Info_Recent_Yesterday>昨天</Info_Recent_Yesterday>
+    <Info_Recent_ThisWeek>本周</Info_Recent_ThisWeek>
+    <Info_Recent_LastWeek>上周</Info_Recent_LastWeek>
+    <Info_Recent_Earlier>更早</Info_Recent_Earlier>
+    <Info_Stamp_Custom>自訂</Info_Stamp_Custom>
+    <Info_Stamp_Standard>标准商务</Info_Stamp_Standard>
+    <Info_Stamp_SignHera>標準商務</Info_Stamp_SignHera>
+    <Info_Stamp_Dynamic>動態</Info_Stamp_Dynamic>
+    <Info_Stamp_Digital>數字簽章</Info_Stamp_Digital>
+    <Info_Chinese_UpgradeAccount>升級賬戶</Info_Chinese_UpgradeAccount>
+    <Info_UserCenter_MoreDevice>更多設備 &gt;</Info_UserCenter_MoreDevice>
+    <Info_UserCenter_Upgrade>升級 &gt;</Info_UserCenter_Upgrade>
+    <Info_UserCenter_Buy>購買 &gt;</Info_UserCenter_Buy>
+    <Info_Chinese_VipPage>會員中心</Info_Chinese_VipPage>
+    <Info_Chinese_ExpirationDate>有效期：</Info_Chinese_ExpirationDate>
+    <Info_QRCodePayPage_OriginPrice>Original price:</Info_QRCodePayPage_OriginPrice>
+    <Info_LicenseTime_Subscription>{0}個月</Info_LicenseTime_Subscription>
+    <Info_LicenseTime_Perpetual>終身授權</Info_LicenseTime_Perpetual>
+    <Info_LicenseTime_ThreeYear>3 years in total, Equivalent to ￥ {0} yuan / month</Info_LicenseTime_ThreeYear>
+    <Info_PriceTip_PerMonth>折合￥{0}元/月</Info_PriceTip_PerMonth>
+    <Info_PriceTip_Perpetual>永久使用</Info_PriceTip_Perpetual>
+    <Info_BuyPage_3Year>2年送1年</Info_BuyPage_3Year>
+    <Info_PriceItem_OriginPrice>Original price:{0}</Info_PriceItem_OriginPrice>
+    <Info_BuyPage_Year>{0}年</Info_BuyPage_Year>
+    <Info_EditPDFFile>編輯PDF文件</Info_EditPDFFile>
+    <Info_ConvertPDF>轉換PDF格式</Info_ConvertPDF>
+    <Info_CommentPDF>註釋、批註PDF</Info_CommentPDF>
+    <Info_DigitalSignature>電子簽名</Info_DigitalSignature>
+    <Info_InfiniteExport>不限量導出PDF</Info_InfiniteExport>
+    <Info_InfiniteConvert>無限量轉換文檔</Info_InfiniteConvert>
+    <Info_SaveWithoutWatermark>保存文檔無浮水印</Info_SaveWithoutWatermark>
+    <Info_BatchProcessing>批次處理</Info_BatchProcessing>
+    <Info_OCRFuncion>OCR</Info_OCRFuncion>
+    <Fields_TabOrderCompleted>您已完成所有欄位的設定，是否需要退出設定？</Fields_TabOrderCompleted>
+    <Fields_RecognizedClearStack>該操作不能取消及復原。你想繼續嗎？</Fields_RecognizedClearStack>
+    <Fields_RecognizedFail>未檢測到新的表單</Fields_RecognizedFail>
+    <FiledEditingContextMenu_Properties>屬性</FiledEditingContextMenu_Properties>
+    <FiledEditingContextMenu_CreateMultipleCopies>新建多個副本</FiledEditingContextMenu_CreateMultipleCopies>
+    <FiledEditingContextMenu_SetTabOrder>設定選單順序</FiledEditingContextMenu_SetTabOrder>
+    <FiledEditingContextMenu_UseAsDefault>設為預設</FiledEditingContextMenu_UseAsDefault>
+    <ContextMenu_Cut>剪裁</ContextMenu_Cut>
+    <ContextMenu_Copy>複製</ContextMenu_Copy>
+    <ContextMenu_Paste>貼上</ContextMenu_Paste>
+    <ContextMenu_Delete>刪除</ContextMenu_Delete>
+    <ContextMenu_SelectAll>全選</ContextMenu_SelectAll>
+    <ContextMenu_Alignment>對齊</ContextMenu_Alignment>
+    <ContextMenu_Distribute>分散</ContextMenu_Distribute>
+    <Info_CertificateNotIndate>所選擇的證書已過期！</Info_CertificateNotIndate>
+    <Info_PasswordRequired>需要輸入密碼才能使用此數字標識。</Info_PasswordRequired>
+    <Info_AllSignatureValidata>已簽名且所有簽名都是有效的</Info_AllSignatureValidata>
+    <Info_LetSignatureInvalidate>至少一個簽名是無效的</Info_LetSignatureInvalidate>
+    <Info_SignedByNode>簽名者:</Info_SignedByNode>
+    <Info_SignedByUnkonwn>未知用戶簽名</Info_SignedByUnkonwn>
+    <Info_SignatureDetails>簽名詳細信息</Info_SignatureDetails>
+    <Info_CertifacateDetail>證書詳細信息...</Info_CertifacateDetail>
+    <Info_SignatureInvalid>簽名無效。</Info_SignatureInvalid>
+    <Info_SignatureUnknown>簽名有效性未知。</Info_SignatureUnknown>
+    <Info_SaveFailed>檔案無法保存。檔案可能是只讀檔案，或已被其他用戶打開。請使用其他名稱保存檔案，或保存到其他資料夾中。</Info_SaveFailed>
+    <Info_MouseClickDragSignArea>用鼠標單擊並拖動以繪製要顯示簽名的區域。完成拖動到所需區域後，將進入下一步的簽名過程。</Info_MouseClickDragSignArea>
+    <Info_MultiSignatureDocument>此檔案包含多個未簽名的簽名欄位。要開始簽名過程，請點擊要簽名的簽名欄位。</Info_MultiSignatureDocument>
+    <DigitalSignature_Signer>數位簽章:</DigitalSignature_Signer>
+    <DigitalSignature_DistinguishedName>DN:</DigitalSignature_DistinguishedName>
+    <DigitalSignature_Reason>原因:</DigitalSignature_Reason>
+    <DigitalSignature_Location>位置:</DigitalSignature_Location>
+    <DigitalSignature_Date>日期:</DigitalSignature_Date>
+    <Fields_FontSize_Auto>自動</Fields_FontSize_Auto>
+    <Info_SignTask>簽名...</Info_SignTask>
+    <CaptionStyle_CaptionOnly>僅標籤</CaptionStyle_CaptionOnly>
+    <CaptionStyle_IconOnly>僅圖示</CaptionStyle_IconOnly>
+    <CaptionStyle_CapBelowIC>圖示在上，標籤在下</CaptionStyle_CapBelowIC>
+    <CaptionStyle_CapAboveIC>標籤在上，圖示在下</CaptionStyle_CapAboveIC>
+    <CaptionStyle_CapRightIC>圖示在左，標籤在右</CaptionStyle_CapRightIC>
+    <CaptionStyle_CapLeftIC>標籤在左，圖示在右</CaptionStyle_CapLeftIC>
+    <CaptionStyle_CapOverlaidIC>標籤在圖示的上面</CaptionStyle_CapOverlaidIC>
+    <Info_None>無</Info_None>
+    <HighlightModeKind_None>無</HighlightModeKind_None>
+    <HighlightModeKind_Push>推</HighlightModeKind_Push>
+    <HighlightModeKind_Outline>邊框</HighlightModeKind_Outline>
+    <HighlightModeKind_Invert>反轉</HighlightModeKind_Invert>
+    <FieldButtonState_Up>向上</FieldButtonState_Up>
+    <FieldButtonState_Down>向下</FieldButtonState_Down>
+    <FieldButtonState_Rollover>翻轉</FieldButtonState_Rollover>
+    <IconScaleStyle_Always>永遠</IconScaleStyle_Always>
+    <IconScaleStyle_Never>從不</IconScaleStyle_Never>
+    <IconScaleStyle_IconBigger>圖示太大</IconScaleStyle_IconBigger>
+    <IconScaleStyle_IconSmaller>圖示太小</IconScaleStyle_IconSmaller>
+    <IconScalingStyle_Proportional>成比例的</IconScalingStyle_Proportional>
+    <IconScalingStyle_Anamorphic>非成比例的</IconScalingStyle_Anamorphic>
+    <BorderThickness_Thin>細</BorderThickness_Thin>
+    <BorderThickness_Medium>中等</BorderThickness_Medium>
+    <BorderThickness_Thick>粗</BorderThickness_Thick>
+    <BorderStyleKind_Solid>實線</BorderStyleKind_Solid>
+    <BorderStyleKind_Dashed>虛線</BorderStyleKind_Dashed>
+    <BorderStyleKind_Beveled>斜線</BorderStyleKind_Beveled>
+    <BorderStyleKind_Insert>插入</BorderStyleKind_Insert>
+    <BorderStyleKind_Underline>底線</BorderStyleKind_Underline>
+    <BoxButtonStyle_Checkmark>校驗標記</BoxButtonStyle_Checkmark>
+    <BoxButtonStyle_Circle>圓形</BoxButtonStyle_Circle>
+    <BoxButtonStyle_Furcation>分叉</BoxButtonStyle_Furcation>
+    <BoxButtonStyle_Diamond>菱形</BoxButtonStyle_Diamond>
+    <BoxButtonStyle_Square>正方形</BoxButtonStyle_Square>
+    <BoxButtonStyle_Star>星形</BoxButtonStyle_Star>
+    <TextAlignKind_LeftJustified>左</TextAlignKind_LeftJustified>
+    <TextAlignKind_Centered>中心</TextAlignKind_Centered>
+    <TextAlignKind_RightJustified>右</TextAlignKind_RightJustified>
+    <FieldsLockState_All>所有表單</FieldsLockState_All>
+    <FieldsLockState_Exclude>除所選欄位外的所有欄位。</FieldsLockState_Exclude>
+    <FieldsLockState_Include>僅這些欄位</FieldsLockState_Include>
+    <TriggerEventKind_AnnotMouseUp>滑鼠鬆開</TriggerEventKind_AnnotMouseUp>
+    <TriggerEventKind_AnnotMouseDown>滑鼠按下</TriggerEventKind_AnnotMouseDown>
+    <TriggerEventKind_AnnotMouseEnter>滑鼠進入</TriggerEventKind_AnnotMouseEnter>
+    <TriggerEventKind_AnnotMouseExit>滑鼠離開</TriggerEventKind_AnnotMouseExit>
+    <TriggerEventKind_WidgetGotFocus>焦點</TriggerEventKind_WidgetGotFocus>
+    <TriggerEventKind_WidgetLostFocus>模糊</TriggerEventKind_WidgetLostFocus>
+    <PDFActionKind_URI>打開網頁連結</PDFActionKind_URI>
+    <PDFActionKind_Launch>打開文件</PDFActionKind_Launch>
+    <PDFActionKind_ImportData>導入表單數據</PDFActionKind_ImportData>
+    <PDFActionKind_SubmitForm>提交表單</PDFActionKind_SubmitForm>
+    <PDFActionKind_GoTo>轉到頁面檢視</PDFActionKind_GoTo>
+    <PDFActionKind_Hide>顯示/隱藏表單欄位</PDFActionKind_Hide>
+    <PDFActionKind_JavaScript>使用JavaScript</PDFActionKind_JavaScript>
+    <PDFActionKind_ResetForm>重新設定表單</PDFActionKind_ResetForm>
+    <FormSubmitMethod_HTTPAddress>Http地址</FormSubmitMethod_HTTPAddress>
+    <FormSubmitMethod_EmailAddress>電子郵件</FormSubmitMethod_EmailAddress>
+    <FieldFormatType_None>無</FieldFormatType_None>
+    <FieldFormatType_Number>數字</FieldFormatType_Number>
+    <FieldFormatType_Percentage>百分比</FieldFormatType_Percentage>
+    <FieldFormatType_Date>日期</FieldFormatType_Date>
+    <FieldFormatType_Time>時間</FieldFormatType_Time>
+    <FieldFormatType_Special>特殊</FieldFormatType_Special>
+    <FieldFormatType_Custom>自訂</FieldFormatType_Custom>
+    <SpecialFormatType_ZipCode>郵編</SpecialFormatType_ZipCode>
+    <SpecialFormatType_ZipCode4>郵編 +4</SpecialFormatType_ZipCode4>
+    <SpecialFormatType_PhoneNumber>電話號碼</SpecialFormatType_PhoneNumber>
+    <SpecialFormatType_SocialSecurityNumber>身分證字號</SpecialFormatType_SocialSecurityNumber>
+    <SpecialFormatType_ArbitraryMask>隨機遮罩</SpecialFormatType_ArbitraryMask>
+    <EvaluateType_Sum>相加（+）</EvaluateType_Sum>
+    <EvaluateType_Prd>相乘 (x)</EvaluateType_Prd>
+    <EvaluateType_Avg>取平均值</EvaluateType_Avg>
+    <EvaluateType_Min>取最小值</EvaluateType_Min>
+    <EvaluateType_Max>取最大值</EvaluateType_Max>
+    <Update_CancelUpdateTips>您確定要取消更新嗎？</Update_CancelUpdateTips>
+    <Update_ContinueUpdate>繼續更新</Update_ContinueUpdate>
+    <Update_CancelUpdate>取消更新</Update_CancelUpdate>
+    <Update_Downloading>正在下載新版本...</Update_Downloading>
+    <Update_DownloadFileError>下載的文件已損壞，請重試</Update_DownloadFileError>
+    <Update_DownloadFail>下載失敗，請檢查網路</Update_DownloadFail>
+    <Update_WhatsNewTitle>更新如下</Update_WhatsNewTitle>
+    <Update_Version>版本</Update_Version>
+    <SearchReplace_Search>搜尋</SearchReplace_Search>
+    <SearchReplace_NoResult>無法找到你搜索的資料，請更換關鍵字</SearchReplace_NoResult>
+    <View_Single>單頁流覽</View_Single>
+    <View_SingleContinue>連續滑動瀏覽單頁</View_SingleContinue>
+    <View_Facing>並排查看頁面</View_Facing>
+    <View_FacingContinue>並排滾動查看頁面</View_FacingContinue>
+    <HomePage_RemoveAllHistory>您確定要從列表中刪除所有項目嗎?</HomePage_RemoveAllHistory>
+    <OcrSetting_LanguageNone>要執行OCR請至少選擇一種語言</OcrSetting_LanguageNone>
+    <MsgBar_EditingPDFA>編輯PDF將導致PDF不再符合PDF / A標準，您確定要繼續嗎？注意：如果在編輯完成後需要符合PDF / A標準，請點擊“檔案”-&gt;“另存為-&gt; PDF / A”。</MsgBar_EditingPDFA>
+    <Info_OpenAttachmentForbid_Tip>附件 “{0}” 無法打開，因為您的PDF檔案附件設置不允許打開此類型的檔案</Info_OpenAttachmentForbid_Tip>
+    <Info_OpenAttachmentOnce>打開文件</Info_OpenAttachmentOnce>
+    <Info_OpenAttachmentAlways>總是允許打開此類型檔案</Info_OpenAttachmentAlways>
+    <Info_OpenAttachmentNever>不允許打開此類型檔案</Info_OpenAttachmentNever>
+    <Info_AttachmentsInUse_Tip>在其他應用程式中打開了以下檔案，您對該檔案所做的任何更改都無法儲存到本PDF檔案中，除非您保存並關閉打開的檔案{0}</Info_AttachmentsInUse_Tip>
+    <Info_AttachmentsInUseClick>關閉這些檔案，並按一下“重試”可保存對該檔的更改\n按一下“忽略”可忽略對所有打開的檔案的更改</Info_AttachmentsInUseClick>
+    <Info_Attachment_ReplacePrompt>附件列表中已包含名為“{0}”的文件。 \n要替換嗎？</Info_Attachment_ReplacePrompt>
+    <Info_OpenAttachment_Conflict_Tip>本文件已打開、或正被其他應用程序使用。</Info_OpenAttachment_Conflict_Tip>
+    <Info_AllFilesFilter>所有文件(*.*)|*.*</Info_AllFilesFilter>
+    <INFO_AutoSaveMessage>PDFelement已經恢復了一個或多個在關閉前未正確儲存的檔案。按一下“是”打開恢復的檔案，按一下“否”忽略您的更改。</INFO_AutoSaveMessage>
+    <INFO_AutoSave_Title>恢復檔案</INFO_AutoSave_Title>
+    <Info_AutoSaveTask>自動儲存...</Info_AutoSaveTask>
+    <Info_SaveTitle>儲存目前檔案</Info_SaveTitle>
+    <Info_SaveTip>您要在關閉前儲存“ {0}”嗎？</Info_SaveTip>
+    <Info_SaveTask>儲存檔案中...</Info_SaveTask>
+    <Info_SaveAsTask>另存為中...</Info_SaveAsTask>
+    <Info_SaveAsTitle>另存為</Info_SaveAsTitle>
+    <OpenRecent_ClearAll>清除所有</OpenRecent_ClearAll>
+    <Bookmark_Newbookmark>新建书签</Bookmark_Newbookmark>
+    <INF_NewText>新文本</INF_NewText>
+    <!--MessageBox-->
+    <INF_Information>消息</INF_Information>
+    <INF_Warning>警告</INF_Warning>
+    <INF_Error>錯誤</INF_Error>
+    <INF_OK>確定</INF_OK>
+    <INF_Cancel>取消</INF_Cancel>
+    <INF_Abort>中止</INF_Abort>
+    <INF_Igore>忽略</INF_Igore>
+    <INF_Retry>重試</INF_Retry>
+    <INF_Yes>是</INF_Yes>
+    <INF_No>否</INF_No>
+    <Preference_ChangeUILanguageTitle>語言設定</Preference_ChangeUILanguageTitle>
+    <Preference_ChangeUILanguageMessage>該設定需要下次啟動後才生效？是否立即重新啟動程式？</Preference_ChangeUILanguageMessage>
+    <BookmarkList_Newbookmark>新建书签</BookmarkList_Newbookmark>
+    <BookmarkList_ResetBookmarkMsg>確定要將書籤的跳轉目標設置為當前頁嗎？</BookmarkList_ResetBookmarkMsg>
+    <BookmarkList_SetBookmarkTitle>書籤目標</BookmarkList_SetBookmarkTitle>
+    <AnnotationList_PageNumber>頁面 {0}</AnnotationList_PageNumber>
+    <AnnotationList_DoubleClickToNote>按兩下添加注釋。</AnnotationList_DoubleClickToNote>
+    <SearchList_SearchingIsEmpty>搜索文字不能為空。</SearchList_SearchingIsEmpty>
+    <SearchList_SearchResults>結果</SearchList_SearchResults>
+    <SearchList_SearchRecordChange>自上次搜索以來，該文檔已被修改，搜索結果不再有效。 您想重複搜索嗎？</SearchList_SearchRecordChange>
+    <AttachmentList_PageNumber>在頁面 {0}</AttachmentList_PageNumber>
+    <AttachmentStyle_Graphics>繪圖</AttachmentStyle_Graphics>
+    <AttachmentStyle_Paperclip>迴紋針</AttachmentStyle_Paperclip>
+    <AttachmentStyle_Attachment>附件</AttachmentStyle_Attachment>
+    <AttachmentStyle_Tag>標籤</AttachmentStyle_Tag>
+    <AdvancedSearch_LookFor>查找&lt;b&gt;{0}&lt;/b&gt; 在</AdvancedSearch_LookFor>
+    <AdvancedSearch_AllOpenDocuments>所有打開的文檔</AdvancedSearch_AllOpenDocuments>
+    <AdvancedSearch_ProgressDesc>有 {0} 個文檔，{1} 個結果</AdvancedSearch_ProgressDesc>
+    <AdvancedSearch_ReplaceResult>{0} 文件被替換</AdvancedSearch_ReplaceResult>
+    <AdvancedSearch_NewSearch>新建搜索</AdvancedSearch_NewSearch>
+    <AdvancedSearch_Stop>停止</AdvancedSearch_Stop>
+    <AdvancedSearch_AllDocuments>全部文件</AdvancedSearch_AllDocuments>
+    <AdvancedSearch_FileIsDamaged>文件已損壞</AdvancedSearch_FileIsDamaged>
+    <AdvancedSearch_FileIsEncrypted>文檔已加密</AdvancedSearch_FileIsEncrypted>
+    <AdvancedSearch_ReplaceSuffix>替換</AdvancedSearch_ReplaceSuffix>
+    <EditMenu_Redo>重做</EditMenu_Redo>
+    <EditMenu_Undo>取消</EditMenu_Undo>
+    <EditMenu_Cut>剪裁</EditMenu_Cut>
+    <EditMenu_Copy>複製</EditMenu_Copy>
+    <EditMenu_Paste>貼上</EditMenu_Paste>
+    <EditMenu_Delete>刪除</EditMenu_Delete>
+    <EditMenu_SelectAll>全選</EditMenu_SelectAll>
+    <Info_Screenshot_Undo>撤銷</Info_Screenshot_Undo>
+    <Info_Screenshot_Copy>複製</Info_Screenshot_Copy>
+    <Info_Screenshot_SaveAs>另存為之</Info_Screenshot_SaveAs>
+    <Info_Screenshot_Exit>退出</Info_Screenshot_Exit>
+    <Info_Signed>已簽名</Info_Signed>
+    <Info_SignFailureIdentityExpired>無效證書導致簽名失敗。</Info_SignFailureIdentityExpired>
+    <Info_SignatureValidBy>簽名有效，由 {0} 簽名</Info_SignatureValidBy>
+    <Info_SignatureValid>簽名有效。</Info_SignatureValid>
+    <Info_SimpleModified>由本簽名覆蓋的文檔修訂版並未被更改，但在簽名應用後，文檔被更改過。</Info_SimpleModified>
+    <Info_DamageModified>本簽名應用後，該文件已被更改或損壞。</Info_DamageModified>
+    <Info_NotModified>本簽名應用後，文檔未被修改。</Info_NotModified>
+    <Info_TrustedUser>簽名者的身份是有效的。</Info_TrustedUser>
+    <Info_UnTrustedUser>簽名者的身份未知，因為它尚未包含在您的可信身份列表中，並且其父證書都不是可信身份。</Info_UnTrustedUser>
+    <Info_SignetimeOnComputer>簽名時間是按照簽名者的計算機上的時鐘計算的</Info_SignetimeOnComputer>
+    <Info_Finish>完成</Info_Finish>
+    <Info_Next>下一頁</Info_Next>
+    <Info_Back>返回</Info_Back>
+    <Info_DigitalIDTitle>本地數字證書文件</Info_DigitalIDTitle>
+    <Info_DigitalIDFilesFilter>數字證書文件</Info_DigitalIDFilesFilter>
+    <Info_FileNotExist>文件或文件夾不存在</Info_FileNotExist>
+    <Info_OpenIDFileFailed>無法使用提供的密碼打開數字身份證文件，請重試。</Info_OpenIDFileFailed>
+    <Info_IdInfoNameRequired>輸入名稱來創建簽名數字身份證。</Info_IdInfoNameRequired>
+    <Info_EnterPasswordToOpen>輸入密碼以打開數字身份證文件。</Info_EnterPasswordToOpen>
+    <Info_EmailFormError>電子郵件地址的格式必須為xxx@xx.com</Info_EmailFormError>
+    <Info_PasswordNotMatch>密碼不匹配。</Info_PasswordNotMatch>
+    <Info_ReplaceExistID>具有此名稱的數字身份證文件已存在。是否要替換現有文件？</Info_ReplaceExistID>
+    <Info_PasswordSixlong>密碼必須至少六個字符。</Info_PasswordSixlong>
+    <Info_ImageFileError>圖片有誤！請檢查圖片路徑或嘗試其他圖片。</Info_ImageFileError>
+    <Info_AutoSave>自動保存</Info_AutoSave>
+    <MainMenus_BlankPdf>無標題</MainMenus_BlankPdf>
+    <Stamp_ImageFormatNotSupported>不支持圖像格式。</Stamp_ImageFormatNotSupported>
+    <Info_NoFileSelected>未選中文件</Info_NoFileSelected>
+    <Warn_ReplaceSelf>不能選擇當前文檔來替換自己，請選擇其他文檔。</Warn_ReplaceSelf>
+    <PageLabelSettingsForm_NumberStyle_NotSet>無</PageLabelSettingsForm_NumberStyle_NotSet>
+    <PageLabelSettingsForm_StError>請輸入一個至少為1的起始值</PageLabelSettingsForm_StError>
+    <PageLabelSettingsForm_PageNumberError>檔案中沒有頁面編號'{0}'。</PageLabelSettingsForm_PageNumberError>
+    <PageLabelSettingsForm_PageRangeError>起始頁碼必須小於或等於結尾頁碼</PageLabelSettingsForm_PageRangeError>
+    <Info_RefreshIDList>刷新證書列表</Info_RefreshIDList>
+    <Info_StandardStyle>標準樣式</Info_StandardStyle>
+    <Info_CreateNewStyle>創建新樣式</Info_CreateNewStyle>
+    <Info_SignReasonExample1>簽名原因</Info_SignReasonExample1>
+    <Info_SignReasonExample2>我是這個文件的所有者</Info_SignReasonExample2>
+    <Info_SignReasonExample3>我已查看這個文件</Info_SignReasonExample3>
+    <Info_SignReasonExample4>文檔內容真實</Info_SignReasonExample4>
+    <Info_SignReasonExample5>我已閱讀並同意這些條款條件</Info_SignReasonExample5>
+    <Info_EnterPublicName>在此添加您的常用数字签名</Info_EnterPublicName>
+    <Info_EnterDistinguishedName>在此您的专有名</Info_EnterDistinguishedName>
+    <Info_EnterYourSignature>在此添加您的签名原因</Info_EnterYourSignature>
+    <Info_EnterLocation>在此添加您的签名位置</Info_EnterLocation>
+    <Info_NotAvailable>不可用</Info_NotAvailable>
+    <Info_NotSupportFontTip>您選擇的字體中的某些字符不可用，
+請嘗試選擇其他字體。</Info_NotSupportFontTip>
+    <Info_PdfAStanderTip>该文件符合{0}标准规范，并且已在替换模式下打开以防被修改。</Info_PdfAStanderTip>
+    <!--保存_另存-->
+    <Save_SaveError_Title>保存錯誤</Save_SaveError_Title>
+    <SaveAs_SaveAsError_Title>另存為錯誤</SaveAs_SaveAsError_Title>
+    <Save_SaveNotice_Title>保存通知</Save_SaveNotice_Title>
+    <Save_SaveNotice_Cancel>取消保存，文件將不會被保存</Save_SaveNotice_Cancel>
+    <Save_SaveNotice_Unknown>保存時出了點狀況，您可以再嘗試下。</Save_SaveNotice_Unknown>
+    <Feedback_MailAddressToLong>電子郵件地址不能超過200個字符。</Feedback_MailAddressToLong>
+    <Feedback_MailAddressNotValid>您輸入的電子郵件格式不正確，請檢查。</Feedback_MailAddressNotValid>
+    <Feedback_MailAddressNotValidTitle>無效的電子郵件地址格式。</Feedback_MailAddressNotValidTitle>
+    <Feedback_MailNoContentAndAttachment>請輸入問題描述。</Feedback_MailNoContentAndAttachment>
+    <Feedback_AttachmentFileNotExist>附件不存在</Feedback_AttachmentFileNotExist>
+    <Feedback_AttachmentSizeOutOfRange>附件已超過最大可用大小。</Feedback_AttachmentSizeOutOfRange>
+    <ScreenshotForm_DragTip>拖動滑鼠左鍵以繪製螢幕截圖區域。</ScreenshotForm_DragTip>
+    <MessageType_Campaign>【活動】</MessageType_Campaign>
+    <MessageType_Tutorial>【教程】</MessageType_Tutorial>
+    <MessageType_Update>【更新】</MessageType_Update>
+    <MessageType_Function>【功能】</MessageType_Function>
+    <MessageType_Research>【調研】</MessageType_Research>
+    <MessageType_Test>【測試】</MessageType_Test>
+    <MessageType_Notice>【公告】</MessageType_Notice>
+    <MessageType_Other>【其他】</MessageType_Other>
+    <Info_PEServer_ChangePwd_AccountNotExist>密碼修改失敗，該帳戶不存在。</Info_PEServer_ChangePwd_AccountNotExist>
+    <Info_PEServer_ChangePwd_FaildUnKnown>密碼修改失敗，原因未知。</Info_PEServer_ChangePwd_FaildUnKnown>
+    <Info_PEServer_ChangePwd_NewPwdInvalid>密碼修改失敗，新密碼無效。</Info_PEServer_ChangePwd_NewPwdInvalid>
+    <Info_PEServer_ChangePwd_OldPwdWrong>密碼修改失敗，舊密碼錯誤。</Info_PEServer_ChangePwd_OldPwdWrong>
+    <Info_PEServerLogin_AccountNotExist>該帳戶不存在！ 請與管理員聯繫。</Info_PEServerLogin_AccountNotExist>
+    <Info_PEServerLogin_PwdWrong>密碼錯誤，無法登錄PEServer。</Info_PEServerLogin_PwdWrong>
+    <Info_PEServerLogin_UsingByOhterAccount>當前，您已經登錄到另一個帳戶。</Info_PEServerLogin_UsingByOhterAccount>
+    <Info_PEServerLogin_LoggedInAnohterDevice>該帳戶已在另一台設備上登錄。</Info_PEServerLogin_LoggedInAnohterDevice>
+    <Info_PEServerLogin_ForceLogin>是否必須登錄？ 這將啟動另一個正在使用該帳戶的設備。</Info_PEServerLogin_ForceLogin>
+    <Info_PEServer_Conected>已連接</Info_PEServer_Conected>
+    <Info_PEServer_NotConected>未連接</Info_PEServer_NotConected>
+    <Info_PEServer_ChangePwd_Sucessed>密碼已更新。</Info_PEServer_ChangePwd_Sucessed>
+    <Info_OldPassword>舊密碼</Info_OldPassword>
+    <Info_NewPassword>新密碼</Info_NewPassword>
+    <Info_ConfirmPassword>確認密碼</Info_ConfirmPassword>
+    <Info_PEServer_ChangePwd_NewPwdNotMatch>兩個新的密碼輸入不一致。</Info_PEServer_ChangePwd_NewPwdNotMatch>
+    <Info_PEServer_NameInvalid>無效的帳戶名。</Info_PEServer_NameInvalid>
+    <Info_PEServer_NameRepeated>該帳戶已經存在，您可以使用該帳戶登錄。</Info_PEServer_NameRepeated>
+    <Info_PEServer_NoEnoughLicenses>服務器授權數量已用盡。 請與管理員聯繫。</Info_PEServer_NoEnoughLicenses>
+    <Info_PEServer_RegisterFaildunknown>註冊失敗，錯誤原因未知。 錯誤代碼：{0}</Info_PEServer_RegisterFaildunknown>
+    <Info_Account>帳戶</Info_Account>
+    <Info_Password>密碼</Info_Password>
+    <Info_PEServer_ConnetServerFaild>無法連接到服務器，請與管理員聯繫。</Info_PEServer_ConnetServerFaild>
+    <Info_PEServer_OffLineTimeWarning>您已斷開與PDFelement Server的連接超過{0}天，您的帳戶將在{1}天后被取消授權，請及時連接PDFelement Server。</Info_PEServer_OffLineTimeWarning>
+    <Info_ServerRefuseAuth>服務器未通過您的註冊申請，請與管理員聯繫。</Info_ServerRefuseAuth>
+    <Info_CBSOnlineDeactivePcMessage>糟糕！ 許可證註冊已撤回。 請與您的系統管理員聯繫以獲取更多信息。</Info_CBSOnlineDeactivePcMessage>
+    <Info_FileAuthBeyondLimitDate>無法連接到服務器，並且您已經超過了脫機使用時間，請與管理員聯繫。</Info_FileAuthBeyondLimitDate>
+    <Info_FileAuthNotAuthorized>無法連接到服務器，並且您沒有授權，請聯繫管理員。</Info_FileAuthNotAuthorized>
+    <Info_Register>註冊</Info_Register>
+    <Info_NoDefaultMailClient>沒有默認的郵件客戶端，或者當前的郵件客戶端無法完成郵件請求。</Info_NoDefaultMailClient>
+    <Info_NoDefaultMailClientCaption>發送失敗</Info_NoDefaultMailClientCaption>
+    <!--Stamp-->
+    <Info_CustomStamp>自訂</Info_CustomStamp>
+    <Info_DigitalSignatureGroupText>數字簽章</Info_DigitalSignatureGroupText>
+    <Info_DynamicGroupText>動態</Info_DynamicGroupText>
+    <Info_SignHereGroupText>標準商務</Info_SignHereGroupText>
+    <Info_StandardBusinessGroupText>标准商务</Info_StandardBusinessGroupText>
+    <Info_DynamicRevised>已修訂</Info_DynamicRevised>
+    <Info_DynamicReviewed>已審閱</Info_DynamicReviewed>
+    <Info_DynamicReceived>已收到</Info_DynamicReceived>
+    <Info_DynamicApproved>已批准</Info_DynamicApproved>
+    <Info_DynamicConfidential>機密</Info_DynamicConfidential>
+    <Info_SignHereWitness>見證人</Info_SignHereWitness>
+    <Info_SignHereInitialHere>在此處填寫姓名首字母</Info_SignHereInitialHere>
+    <Info_SignHereSignHere>在此處簽名</Info_SignHereSignHere>
+    <Info_SignHereAccepted>已接受</Info_SignHereAccepted>
+    <Info_SignHereRejected>已拒絕</Info_SignHereRejected>
+    <Info_StandardApproved>已批准</Info_StandardApproved>
+    <Info_StandardNotApproved>未批准</Info_StandardNotApproved>
+    <Info_StandardDraft>草稿</Info_StandardDraft>
+    <Info_StandardFinal>終稿</Info_StandardFinal>
+    <Info_StandarCompleted>已完成</Info_StandarCompleted>
+    <Info_StandarConfidential>機密</Info_StandarConfidential>
+    <Info_StandarForPublicRelease>公開發布</Info_StandarForPublicRelease>
+    <Info_StandarNotForPublicRelease>不公開發布</Info_StandarNotForPublicRelease>
+    <Info_StandarForComment>請註釋</Info_StandarForComment>
+    <Info_StandarVoid>無效</Info_StandarVoid>
+    <Info_StandarPreliminaryResults>初步結果</Info_StandarPreliminaryResults>
+    <Info_StandarInformationOnly>僅供參考</Info_StandarInformationOnly>
+    <Info_StampProperties>簽章屬性</Info_StampProperties>
+    <Info_Scan_MorePages>掃描更多頁面（第{0}頁）</Info_Scan_MorePages>
+    <Info_Scan_ReverseSides>掃描反面（紙張{0}的反面）</Info_Scan_ReverseSides>
+    <PageSize_Auto>自動</PageSize_Auto>
+    <PageSize_Letter>US Letter (8.5x25 in)</PageSize_Letter>
+    <PageSize_Legal>US Legal (8.5x22 in)</PageSize_Legal>
+    <PageSize_A5>A5 (148x221 mm)</PageSize_A5>
+    <PageSize_A4>A4 (210 x308 mm)</PageSize_A4>
+    <PageSize_A3>A3 (297x431 mm)</PageSize_A3>
+    <PageSize_B5>B5 (176x261 mm)</PageSize_B5>
+    <PageSize_B4>B4 (250x364 mm)</PageSize_B4>
+    <PageSize_Custom>自訂</PageSize_Custom>
+    <Dpi_100>100 dpi</Dpi_100>
+    <Dpi_150>150 dpi</Dpi_150>
+    <Dpi_200>200 dpi</Dpi_200>
+    <Dpi_300>300 dpi</Dpi_300>
+    <Dpi_400>400 dpi</Dpi_400>
+    <Dpi_600>600 dpi</Dpi_600>
+    <Dpi_800>800 dpi</Dpi_800>
+    <Dpi_1200>1200 dpi</Dpi_1200>
+    <Info_Layer_DeleteTip>你確定要删除所選圖層嗎？該操作無法撤銷！</Info_Layer_DeleteTip>
+    <Layer_CheckBoxTip_Locked>該圖層已鎖定，您無法更改其可見性</Layer_CheckBoxTip_Locked>
+    <Layer_CheckBoxTip_ApplyPrint>圖層已禁用，因為已應用打印優先。</Layer_CheckBoxTip_ApplyPrint>
+    <Layer_CheckBoxTip_ApplyExport>圖層已禁用，因為已應用導出優先。</Layer_CheckBoxTip_ApplyExport>
+    <Layer_CheckBoxTip_ApplyLayer>圖層已禁用，因為已應用圖層優先。</Layer_CheckBoxTip_ApplyLayer>
+    <Layer_CheckBoxTip_ParentUnChecked>圖層已禁用，因為父圖層已被禁用。</Layer_CheckBoxTip_ParentUnChecked>
+    <Layer_Visible_WhenOn>打開時可見</Layer_Visible_WhenOn>
+    <Layer_Visible_Never>永不可見</Layer_Visible_Never>
+    <Layer_Visible_Always>總是可見</Layer_Visible_Always>
+    <Layer_Print_WhenOn>可見時打印</Layer_Print_WhenOn>
+    <Layer_Print_Never>永不打印</Layer_Print_Never>
+    <Layer_Print_Always>總是打印</Layer_Print_Always>
+    <Layer_Export_WhenOn>可見時導出</Layer_Export_WhenOn>
+    <Layer_Export_Never>永不導出</Layer_Export_Never>
+    <Layer_Export_Always>總是導出</Layer_Export_Always>
+    <Layer_DefState_On>打開</Layer_DefState_On>
+    <Layer_DefState_Off>關閉</Layer_DefState_Off>
+    <Source_Glass>正面</Source_Glass>
+    <Source_Feeder>Feeder</Source_Feeder>
+    <Source_Duplex>雙面</Source_Duplex>
+    <BitDepth_24Color>彩色</BitDepth_24Color>
+    <BitDepth_8Grayscale>灰度</BitDepth_8Grayscale>
+    <BitDepth_1BlackAndWhite>黑白</BitDepth_1BlackAndWhite>
+    <BitDepth_AutoDetect>自動檢測</BitDepth_AutoDetect>
+    <Info_Please_Select_Scanner>請選擇一個掃描機</Info_Please_Select_Scanner>
+    <PageSizeUnit_Inch>in</PageSizeUnit_Inch>
+    <PageSizeUnit_Centimetre>cm</PageSizeUnit_Centimetre>
+    <PageSizeUnit_Millimetre>mm</PageSizeUnit_Millimetre>
+    <PaperKind_Letter>信紙</PaperKind_Letter>
+    <PaperKind_Tabloid>小報</PaperKind_Tabloid>
+    <PaperKind_Legal>法律專用紙</PaperKind_Legal>
+    <PaperKind_Custom>自訂</PaperKind_Custom>
+    <Sign_TextFont_Pristina>Pristina</Sign_TextFont_Pristina>
+    <Sign_TextFont_Parchment>Parchment</Sign_TextFont_Parchment>
+    <Sign_TextFont_Vivaldi>Vivaldi</Sign_TextFont_Vivaldi>
+    <Sign_TextFont_Magneto>Magneto</Sign_TextFont_Magneto>
+    <Sign_TextFont_Mistral>Mistral</Sign_TextFont_Mistral>
+    <Portfolio_CeateFileName>PDF 文件夾</Portfolio_CeateFileName>
+    <Portfolio_OpenFileTips>檔案‘{0}’可能包含程式，宏或病毒，這些可能會損害您的電腦。
+
+只有在你確定安全的情况下才打開文件。</Portfolio_OpenFileTips>
+    <Portfolio_GetPdfelement>立即下載PDFelement</Portfolio_GetPdfelement>
+    <Portfolio_OpenPortfolioInPDFelement>為了更好的體驗，請在PDFelement中打開此PDF 文件夾</Portfolio_OpenPortfolioInPDFelement>
+    <Portfolio_FolderBrowserDialogTip>選擇要添加到包的文件夾：</Portfolio_FolderBrowserDialogTip>
+    <Portfolio_DeleteDialogMsg>你確定要删除選中的檔案嗎？</Portfolio_DeleteDialogMsg>
+    <Portfolio_DeleteDialogCaption>刪除文件</Portfolio_DeleteDialogCaption>
+    <Portfolio_DeleteDialogYesBtn>刪除</Portfolio_DeleteDialogYesBtn>
+    <Portfolio_ReplaceFileTips>包中已包含名為“{0}”的文件。
+
+要替換文件"{0}"嗎?</Portfolio_ReplaceFileTips>
+    <RegCodeAuth_EmailOrCodeError>*The licensed e-mail or registration code you entered is invalid. Please try again with a vaild licensed e-mail or registration code. If the problem persists, contract customer support. ee &lt;a href="SupportPage"&gt;(Support Center)&lt;/a&gt;</RegCodeAuth_EmailOrCodeError>
+    <RegCodeAuth_RegisterSuccess>Register Success</RegCodeAuth_RegisterSuccess>
+    <RegCodeAuth_AuthExpired>Your license has expired, please purchase a new license to continue using PDFelement.</RegCodeAuth_AuthExpired>
+    <RegCodeAuth_AuthExceedPcs>You have exceeded the permitted number of program activations. Please Contact &lt;a href="ContactPage"&gt;Customer Service&lt;/a&gt; immediately for assistance.</RegCodeAuth_AuthExceedPcs>
+    <RegCodeAuth_AuthTrialOrQuit>Your product key has been cancelled or is no longer valid. Please Contact &lt;a href="ContactPage"&gt;Customer Service&lt;/a&gt; immediately for assistance.</RegCodeAuth_AuthTrialOrQuit>
+    <RegCodeAuth_AuthBlackList>Your product key has been cancelled or is no longer valid. If this is not a genuine copy or your license has expired, please purchase a new license to continue using PDFelement.</RegCodeAuth_AuthBlackList>
+    <RegCodeAuth_AuthRefundQuit>Your product key has been refunded, please purchase a new license to continue using PDFelement.</RegCodeAuth_AuthRefundQuit>
+    <Comparison_Title>檔案對比</Comparison_Title>
+    <Comparison_SameDocError>請選擇兩個不同的檔案進行比較</Comparison_SameDocError>
+    <Comparison_OldFile>[舊檔案]</Comparison_OldFile>
+    <Comparison_NewFile>[新檔案]</Comparison_NewFile>
+    <Comparison_CompareFile>[比較檔案]</Comparison_CompareFile>
+    <Progress_CompareTitle>檔案對比</Progress_CompareTitle>
+    <Progress_CompareDesc>正在進行檔案比較…</Progress_CompareDesc>
+    <Progress_CompareFailTitle>比較失敗</Progress_CompareFailTitle>
+    <Progress_CompareFailContent>糟糕！無法比較。</Progress_CompareFailContent>
+    <Progress_CompareNoDifferent>兩個文檔沒有存在不同之處。</Progress_CompareNoDifferent>
+    <Comparison_Delete>刪除</Comparison_Delete>
+    <Comparison_Insert>插入</Comparison_Insert>
+    <Comparison_Modify>修改</Comparison_Modify>
+    <Comparison_Document>正文</Comparison_Document>
+    <Comparison_Page>頁面</Comparison_Page>
+    <Comparison_TextObject>文字對象</Comparison_TextObject>
+    <Comparison_Flow>文字內容</Comparison_Flow>
+    <Comparison_Block>塊</Comparison_Block>
+    <Comparison_Paragraph>段落</Comparison_Paragraph>
+    <Comparison_TextLine>文字行</Comparison_TextLine>
+    <Comparison_Word>文字</Comparison_Word>
+    <Comparison_Char>字元</Comparison_Char>
+    <Comparison_Path>路徑</Comparison_Path>
+    <Comparison_PathLine>路徑線</Comparison_PathLine>
+    <Comparison_Image>圖像</Comparison_Image>
+    <Comparison_ImagePixels>影像點數</Comparison_ImagePixels>
+    <GeneralConfig_PageLayoutKind_Automatic>自動</GeneralConfig_PageLayoutKind_Automatic>
+    <GeneralConfig_PageLayoutKind_SinglePage>單頁</GeneralConfig_PageLayoutKind_SinglePage>
+    <GeneralConfig_PageLayoutKind_SinglePageContinuous>單頁連續</GeneralConfig_PageLayoutKind_SinglePageContinuous>
+    <GeneralConfig_PageLayoutKind_TwoPages>雙頁</GeneralConfig_PageLayoutKind_TwoPages>
+    <GeneralConfig_PageLayoutKind_TwoPagesContinuous>雙頁連續</GeneralConfig_PageLayoutKind_TwoPagesContinuous>
+    <AdvancedSearch_Replace>替換</AdvancedSearch_Replace>
+    <AdvancedSearch_SearchRecordChange>搜索無效，請重新搜索。</AdvancedSearch_SearchRecordChange>
+    <AdvancedSearch_SearchFailedMessage>搜索跳過 {0} 個文件，因為這些文件已損壞或者你沒有權限打開。</AdvancedSearch_SearchFailedMessage>
+    <AdvancedSearch_ReplaceFailedMessage>替換跳過 {0} 個文件，因為這些文件已損壞或者你沒有權限編輯。</AdvancedSearch_ReplaceFailedMessage>
+  </Strings>
+  <Forms>
+    <MainForm Text="Wondershare PDFelement">
+      <btnFile Text="檔案" />
+      <btnHome Text="首頁" />
+      <btnHelp Text="幫助" />
+      <filePage Text="文件" />
+      <homePage Text="首頁" />
+      <viewPage Text="視圖" />
+      <convertPage Text="轉換" />
+      <toolPage Text="工具" />
+      <editPage Text="編輯" />
+      <commentPage Text="註解" />
+      <pagePage Text="頁面" />
+      <formPage Text="表單" />
+      <protectPage Text="保護" />
+      <sharePage Text="分享" />
+      <helpPage Text="幫助" />
+      <ToolPage Text="工具" />
+    </MainForm>
+    <QatTopMenu>
+      <btnOpen ToolTip="打開" />
+      <btnSave ToolTip="儲存" />
+      <btnEmail ToolTip="發送電子郵件" />
+      <btnPrint ToolTip="列印" />
+      <btnShare ToolTip="分享" />
+      <btnUndo ToolTip="取消" />
+      <btnRedo ToolTip="重做" />
+      <btnCustomize ToolTip="自訂" />
+    </QatTopMenu>
+    <BaseRibbonPage>
+      <btnRegister Text="註冊" />
+      <btnPurchase Text="購買" />
+      <btnSelect ToolTip="文本和圖像選擇工具" />
+      <btnHand ToolTip="按一下以圍繞文檔平移" />
+      <btnEdit ToolTip="編輯文本、圖像等物件" />
+      <btnZoomIn ToolTip="放大" />
+      <btnZoomOut ToolTip="縮小" />
+      <btnPrevPage ToolTip="上一頁" />
+      <btnNextPage ToolTip="下一頁" />
+      <gbClient Text="gRibbonGroupBoxContainer1" />
+    </BaseRibbonPage>
+    <HomeRibbonPage BaseType="BaseRibbonPage">
+      <btnFromFile Text="從文件" />
+      <btnFromScanner Text="從掃描器" />
+      <btnCombineFiles Text="合併檔案" />
+      <btnFlattenFile Text="壓平檔案" />
+      <btnFitWidthContinuours ToolTip="連續使用適合寬度模式瀏覽頁面" />
+      <btnFitPageSingle ToolTip="使用單頁適合模式流覽頁面" />
+      <btnFullScreen ToolTip="進入全螢幕模式" />
+      <btnSnapshot ToolTip="捕獲檔案特定部分" />
+      <btnBookmark ToolTip="在檔案中新增一個書簽" />
+    </HomeRibbonPage>
+    <ViewRibbonPage BaseType="BaseRibbonPage">
+      <btnFitWidth ToolTip="適應寬度" />
+      <btnFullScreen ToolTip="進入全螢幕模式" />
+      <btnFirstPage ToolTip="第一頁" />
+      <btnPrevPage ToolTip="上一頁" />
+      <btnNextPage ToolTip="下一頁" />
+      <btnLastPage ToolTip="最後頁" />
+      <btnFitPage ToolTip="適應頁面到視窗" />
+      <btnFitHeight ToolTip="適應高寬" />
+      <btnActualSize ToolTip="實際大小" />
+      <btnSinglContinue ToolTip="滾動查看連續頁面" />
+      <btnSingle ToolTip="一次查看一頁" />
+      <btnFacing ToolTip="查看並排兩頁" />
+      <btnFacingContinue ToolTip="滾動查看，連續並排頁面" />
+      <btnCompareFiles ToolTip="比較兩個文件之間的差異。" />
+      <btnTile ToolTip="平鋪檔案" />
+      <gbClient Text="gRibbonGroupBoxContainer1" />
+      <btnZoomOut ToolTip="縮小" />
+      <btnZoomIn ToolTip="放大" />
+    </ViewRibbonPage>
+    <MessageCenterForm Text="訊息中心" />
+    <NPSForm />
+    <UpdateForm Text="更新">
+      <btnUpdate Text="更新" />
+      <btnCancelUpdate Text="取消" />
+      <btnCancelChecking Text="取消" />
+      <lblUpdateChecking Text="正在檢查新版本..." />
+      <btnLatestVersion Text="確定" />
+      <lblLatestVersion Text="您現在擁有最新版本。目前沒有可用的更新" />
+      <lblCheckFailTips Text="您可以重試或檢查網路是否正常" />
+      <lblCheckFail Text="更新失敗" />
+      <btnCancelCheckFail Text="取消" />
+      <btnRetryCheck Text="重試" />
+      <imgDownloadFail ToolTip="下載失敗，請檢查您的網路" />
+      <lblTopDescritption Text="正在下載新版本..." />
+      <btnRetryDownload Text="重試" />
+      <btnCancelDownload Text="取消" />
+      <btnInstall Text="安裝" />
+      <btnCancelInstall Text="取消" />
+      <lblDownloadSuccess Text="下載成功。" />
+      <lblInstallTips Text="新版本已準備就緒，按一下“安裝”以更新到新版本" />
+    </UpdateForm>
+    <AttachmentOpenAttentionForm>
+      <gLabelMsg Text="該檔案可能包含可能會潛在損害電腦的程式，宏或病毒。僅在確定安全的情況下才打開檔。你是否想要：" />
+      <gRadioButtonOpen Text="打開這個檔" />
+      <gRadioButtonAlwaysOpen Text="總是允許打開此類型檔案" />
+      <gRadioButtonNeverOpen Text="不允許打開此類型檔案" />
+      <btnOk Text="是" />
+      <btnCancel Text="取消" />
+    </AttachmentOpenAttentionForm>
+    <AttachmentOpenForbid>
+      <lblMsg Text="由於您的PDF檔案附件設置，無法打開檔案附件" />
+      <btnClear Text="清除" />
+      <btnOk Text="確定" />
+    </AttachmentOpenForbid>
+    <BasePdfCloseForm>
+      <gButtonCancel Text="取消" />
+      <gButtonTryAgain Text="重試" />
+      <gButtonIgnore Text="忽略" />
+      <gLabelMsg Text="該檔案在另一個應用程式中打開。除非您儲存並關閉檔案，否則對該檔案所做的任何更改都無法儲存到該PDF檔案中。" />
+      <gLabelClick Text="關閉檔案，然後按一下“重試”將更改儲存到該檔案，按一下忽略以忽略對此檔案的更改。" />
+    </BasePdfCloseForm>
+    <ConfigPreviewForm>
+      <btnApply Text="應用" />
+      <multipleTemplatePanel TemplateTips="請先建立一個範本.">
+      </multipleTemplatePanel>
+      <pagePreviewPanel Text="pagePreviewPanel">
+      </pagePreviewPanel>
+    </ConfigPreviewForm>
+    <MultipleTemplatePanel>
+      <lblTemplateTips Text="請先建立一個範本" />
+    </MultipleTemplatePanel>
+    <FilesFailTipsForm Text="檔案失敗">
+      <lblFileAddedFail Text="無法操作以下檔案" />
+      <btnOk Text="確定" />
+    </FilesFailTipsForm>
+    <OutputPanel>
+      <gbOutputFolder Text="輸出資料夾" />
+      <txtOutputDir />
+    </OutputPanel>
+    <PageRangeForm Text="頁面範圍">
+      <btnOK Text="確定" />
+      <btnCancel Text="取消" />
+      <pageRangeControl GropName="頁面範圍">
+      </pageRangeControl>
+    </PageRangeForm>
+    <PageRangePanel>
+      <rdoRange Text="範圍" />
+      <rdoAllPage Text="全部" />
+      <btnRangeTips ToolTip="請輸入頁面範圍，例如：1、3、5、7-10" />
+      <lblPageRange Text="頁面範圍" />
+      <lblSubset Text="全部子集" />
+    </PageRangePanel>
+    <AppearancePanel>
+      <btn45Degree Text="45°" />
+      <btn0Degree Text="0°" />
+      <btnMinus45Degree Text="-45°" />
+      <lblOpacity Text="透明度" />
+      <lblRotation Text="回轉" />
+    </AppearancePanel>
+    <FontPanel>
+      <lblFont Text="字體" />
+    </FontPanel>
+    <ImageSelectPanel>
+      <lblImage Text="圖片&lt;Font color=&quot;red&quot;&gt;*&lt;/Font&gt;" />
+      <txtPath PlaceHolderText="檔案路徑" />
+    </ImageSelectPanel>
+    <MarginPanel>
+      <lblTop Text="頂部" />
+      <lblBottom Text="底部" />
+      <lblLeft Text="左" />
+      <lblRight Text="右" />
+    </MarginPanel>
+    <PdfFileSelectPanel>
+      <lblPdf Text="PDF檔案&lt;Font color=&quot;red&quot;&gt;*&lt;/Font&gt;" />
+      <lblPageNumber Text="選擇頁碼" />
+      <txtPath PlaceHolderText="檔案路徑" />
+    </PdfFileSelectPanel>
+    <PositionPanel>
+      <lblPosition Text="位置" />
+    </PositionPanel>
+    <TaggedScalePanel>
+      <rdoAbsoluteScale Text="絕對規模" />
+      <rdoRelativeScale Text="頁面比例" />
+    </TaggedScalePanel>
+    <ConvertSettingsForm>
+      <lblSetting Text="設定" />
+      <btnToWord Text="PDF轉Word" />
+      <btnToExcel Text="PDF轉Excel" />
+      <btnToPpt Text="PDF轉PPT" />
+      <btnToImage Text="PDF到圖像" />
+      <btnToText Text="PDF轉文字" />
+      <btnToRtf Text="PDF轉RTF" />
+      <btnToEpub Text="PDF到Epub" />
+      <btnToHtml Text="PDF轉HTML" />
+      <btnApply Text="套用" />
+      <btnCancel Text="取消" />
+    </ConvertSettingsForm>
+    <EpubBookCoverPanel>
+      <gbBookCover Text="書籍封面" />
+      <rdoNoCover Text="無書籍封面" />
+      <rdoAddCover Text="新增書籍封面：" />
+      <txtCoverPath />
+    </EpubBookCoverPanel>
+    <EpubSettingForm Text="EPUB設定">
+      <btnDefault Text="預設" />
+      <btnCancel Text="取消" />
+      <btnOk Text="確定" />
+    </EpubSettingForm>
+    <ExcelSettingForm Text="Excel設置">
+      <btnDefault Text="預設" />
+      <btnCancel Text="取消" />
+      <btnOk Text="確定" />
+      <ckbCombineAll Text="將所有的頁面到一個單一的 Excel 工作表" />
+    </ExcelSettingForm>
+    <HtmlSettingForm Text="HTML設置">
+      <btnDefault Text="預設" />
+      <btnCancel Text="取消" />
+      <btnOk Text="確定" />
+    </HtmlSettingForm>
+    <ImageSettingForm Text="影像設定">
+      <btnDefault Text="預設" />
+      <btnCancel Text="取消" />
+      <btnOk Text="確定" />
+      <imageSettingPanel Text="imageSettingPanel1">
+      </imageSettingPanel>
+      <pageRangePanel GropName="頁面範圍">
+      </pageRangePanel>
+    </ImageSettingForm>
+    <ImageSettingPanel>
+      <gbImageQuality Text="畫面品質" />
+      <gbImageSetting Text="圖片設置" />
+      <rdoToSingleImage Text="擷取頁面（圖像）作為一個圖像" />
+      <rdoPageAsImage Text="PDF檔案的每一頁作為一個圖像" />
+      <rdoExtractImage Text="擷取PDF檔案裡所有的圖像" />
+      <lblZoom Text="縮放" />
+      <lblBorderWidth Text="邊框寬度" />
+      <lblBorderColor Text="邊框顏色" />
+      <btnDPITips ToolTip="文檔轉換時使用更高的DPI，有可能會出現軟體卡頓和轉換緩慢" />
+    </ImageSettingPanel>
+    <OcrPriorityPanel>
+      <gbPriority Text="優先" />
+      <rdoRecognitionPriority Text="文本識別優先" />
+      <rdoLayoutPriority Text="文本佈局優先" />
+    </OcrPriorityPanel>
+    <OcrRecognitionPanel>
+      <gbOcrRecognition Text="OCR識別" />
+      <rdoAllFiles Text="所有檔案" />
+      <rdoOnlyScannedPdf Text="僅針對掃描 PDF" />
+      <rdoDisable Text="OCR 識別關閉" />
+    </OcrRecognitionPanel>
+    <PdfASettingForm Text="PDF / A設置">
+      <btnCancel Text="取消" />
+      <btnOk Text="確定" />
+      <gbPdfAStandard Text="PDF/A 標準：" />
+    </PdfASettingForm>
+    <PowerPointSettingForm Text="PowerPoint設置">
+      <btnDefault Text="預設" />
+      <btnCancel Text="取消" />
+      <btnOk Text="確定" />
+    </PowerPointSettingForm>
+    <RtfSettingForm Text="Rtf設定">
+      <btnDefault Text="預設" />
+      <btnCancel Text="取消" />
+      <btnOk Text="確定" />
+    </RtfSettingForm>
+    <ToEpubPage>
+      <epubBookCoverPanel Text="epubBookCoverPanel">
+      </epubBookCoverPanel>
+    </ToEpubPage>
+    <ToExcelPage>
+      <ckbCombineAll Text="將所有的頁面到一個單一的 Excel 工作表" />
+    </ToExcelPage>
+    <ToImagePage>
+      <imageSettingPanel Text="imageSettingPanel">
+      </imageSettingPanel>
+      <pageRangePanel GropName="頁面範圍" Text="pageRangePanel">
+      </pageRangePanel>
+    </ToImagePage>
+    <TxtSettingForm Text="發射設定">
+      <btnDefault Text="預設" />
+      <btnCancel Text="取消" />
+      <btnOk Text="確定" />
+    </TxtSettingForm>
+    <WordSettingForm Text="字設定">
+      <btnOk Text="確定" />
+      <btnCancel Text="取消" />
+      <btnDefault Text="預設" />
+    </WordSettingForm>
+    <XmlSettingForm Text="XML設置">
+      <btnDefault Text="預設" />
+      <btnCancel Text="取消" />
+      <btnOk Text="確定" />
+      <ckbCombineAll Text="將所有的頁面到一個單一的 Excel 工作表" />
+    </XmlSettingForm>
+    <BackgroundColorTemplateForm Text="浮水印範本">
+      <lblCreateTemplate Text="新建背景範本" />
+      <lblColor Text="彩色" />
+      <btnCancel Text="取消" />
+      <btnSave Text="保存" />
+    </BackgroundColorTemplateForm>
+    <BackgroundImageTemplateForm Text="浮水印範本">
+      <lblCreateTemplate Text="新建背景範本" />
+      <btnCancel Text="取消" />
+      <btnSave Text="保存" />
+    </BackgroundImageTemplateForm>
+    <BackgroundMoreSettingPanel>
+      <btnAppearance Text="外觀" />
+      <btnPageRange Text="頁面範圍" />
+      <pageRangePanel GropName="">
+      </pageRangePanel>
+    </BackgroundMoreSettingPanel>
+    <BackgroundPdfTemplateForm Text="浮水印範本">
+      <lblCreateTemplate Text="新建背景範本" />
+      <btnCancel Text="取消" />
+      <btnSave Text="儲存" />
+      <pagePreviewPanel Text="pagePreviewPanel1">
+      </pagePreviewPanel>
+    </BackgroundPdfTemplateForm>
+    <BackgroundTypeForm Text="背景類型">
+      <btnColor Text="彩色" />
+      <btnPdf Text="PDF 格式的完整檔案" />
+      <btnImage Text="圖像" />
+    </BackgroundTypeForm>
+    <PrintPreviewForm>
+      <lblPrint Text="列印預覽" />
+      <btnOk Text="確定" />
+    </PrintPreviewForm>
+    <PrintSettingsForm>
+      <lblPrinter Text="印表機" />
+      <lblPrint Text="列印設置" />
+      <ckbSelectPaper Text="根據PDF頁面大小選擇紙張來源" />
+      <lblCopies Text="複本" />
+      <lblPageSize Text="紙張規格" />
+      <ckbGrayPrint Text="灰度列印" />
+      <lblQrientation Text="方向" />
+      <btnApply Text="套用" />
+      <ckbForm Text="表單" />
+      <lblPrintContent Text="列印內容" />
+      <ckbComment Text="評論" />
+      <ckbReversePages Text="逆頁序列印" />
+      <ckbDocument Text="正文" />
+      <ckbPrintAsImg Text="列印為圖片" ToolTip="將PDF列印為圖片" />
+      <lblPrintOption Text="列印選項" />
+      <lblPrintMode Text="列印模式" />
+      <btnSize Text="大小" />
+      <btnPoster Text="海報" />
+      <btnMultiple Text="多頁" />
+      <btnBooklet Text="小册子" />
+      <btnAdvancePrintMode ToolTip="更多設定" />
+    </PrintSettingsForm>
+    <BatesNumberTemplateForm Text="浮水印範本">
+      <lblCreateTemplate Text="新建貝茨編號範本" />
+      <btnCancel Text="取消" />
+      <btnSave Text="儲存" />
+      <ckbNumberReverse Text="貝茨碼逆序" />
+      <txtSuffix />
+      <lblSuffix Text="尾碼" />
+      <lblStartAt Text="開始於" />
+      <txtStartAt Text="1" PlaceHolderText="請輸入號碼" />
+      <txtPrefix />
+      <lblPrefix Text="字首" />
+      <btnAppearance Text="外觀" />
+      <btnPageRange Text="頁面範圍" />
+      <pageRangePanel GropName="">
+      </pageRangePanel>
+      <rdoIncrementEveryPage Text="增加每一頁上的號碼" />
+      <rdoIncrementBatesPages Text="僅增加編號貝茨頁數" />
+      <btnPosition Text="位置" />
+    </BatesNumberTemplateForm>
+    <DataExtractTemplateForm Text="數據截取範本">
+      <lblDataExtractTitle Text="新建區域識別框架範本" />
+      <btnCancel Text="取消" />
+      <btnSave Text="儲存" />
+      <lblTemplateName Text="範本名稱" />
+      <lblTemplateDuplicate Text="該名稱已經存在" />
+      <txtTemplateName PlaceHolderText="請輸入範本名稱" />
+      <lblField Text="檔案名稱" />
+      <lblLanguage Text="識別語言" />
+      <linkHowToCreate Text="如何創建模板？" />
+    </DataExtractTemplateForm>
+    <HeaderFooterTemplateForm Text="浮水印範本">
+      <lblCreateTemplate Text="頁首和頁尾" />
+      <lblText Text="頁首和頁尾&lt;Font color=&quot;red&quot;&gt;*&lt;/Font&gt;" />
+      <txtContent PlaceHolderText="內容" />
+      <btnCancel Text="取消" />
+      <btnSave Text="保存" />
+      <lblPageNumberStyle Text="頁碼樣式" />
+      <lblStartPage Text="起始頁碼" />
+      <btnAddPageNumber Text="新增頁碼" />
+      <btnAddDate Text="新增日期" />
+      <lblDateStyle Text="日期樣式" />
+      <pageRangePanel GropName="">
+      </pageRangePanel>
+      <btnPageRange Text="頁面範圍" />
+      <btnPosition Text="位置" />
+      <btnMacros Text="宏" />
+    </HeaderFooterTemplateForm>
+    <WatermarkImageTemplateForm Text="浮水印範本">
+      <lblCreateTemplate Text="新建浮水印範本" />
+      <btnCancel Text="取消" />
+      <btnSave Text="儲存" />
+    </WatermarkImageTemplateForm>
+    <WatermarkMoreSettingPanel>
+      <btnAppearance Text="外觀" />
+      <btnPosition Text="位置" />
+      <btnPageRange Text="頁面範圍" />
+      <pageRangePanel GropName="">
+      </pageRangePanel>
+    </WatermarkMoreSettingPanel>
+    <WatermarkPdfTemplateForm Text="浮水印範本">
+      <lblCreateTemplate Text="新建浮水印範本" />
+      <btnCancel Text="取消" />
+      <btnSave Text="儲存" />
+    </WatermarkPdfTemplateForm>
+    <WatermarkPositionPanel>
+      <lblVertical Text="縱向" />
+      <lblHorizontal Text="橫向" />
+      <ckbTile Text="平鋪" />
+      <rdoBehind Text="在頁面後面看" />
+      <rdoAbove Text="在頁面上方看" />
+      <cbbTileHorizontal ToolTip="選擇字間距選項">
+      </cbbTileHorizontal>
+      <cbbTileVertical ToolTip="選擇空行數.">
+      </cbbTileVertical>
+    </WatermarkPositionPanel>
+    <WatermarkTextTemplateForm Text="浮水印範本">
+      <lblCreateTemplate Text="新建浮水印範本" />
+      <lblText Text="文字&lt;Font color=&quot;red&quot;&gt;*&lt;/Font&gt;" />
+      <ckbRelativeScale Text="頁面比例" />
+      <txtWatermarkContent PlaceHolderText="內容" />
+      <btnCancel Text="取消" />
+      <btnSave Text="儲存" />
+    </WatermarkTextTemplateForm>
+    <WatermarkTypeForm Text="浮水印類型">
+      <btnText Text="文本" />
+      <btnPdf Text="PDF 格式的完整檔案" />
+      <btnImage Text="圖像" />
+    </WatermarkTypeForm>
+    <AddFilesProgressForm Text="載入中">
+      <btnCancel Text="取消" />
+      <lblAddingFiles Text="正在新增文件…." />
+    </AddFilesProgressForm>
+    <FileItem>
+      <btnRemove ToolTip="刪除" />
+    </FileItem>
+    <PdfFileItem>
+      <btnRemove ToolTip="刪除" />
+    </PdfFileItem>
+    <FileListPanel>
+      <btnAdd Text="新增文件" />
+      <btnClearAll ToolTip="清除所有" />
+      <hiNo Text="序號" />
+      <hiName Text="名稱" />
+      <hiSize Text="大小" />
+      <hiStatus Text="狀態" />
+      <hiAction Text="行動" />
+    </FileListPanel>
+    <FileToAddPanel>
+      <btnChooseFile Text="選擇檔案" />
+      <lblOr Text="或者" />
+    </FileToAddPanel>
+    <OcrDownloadForm Text="OCR組件下載">
+      <lblOcrDownload Text="轉化識別需要下載OCR" />
+      <btnDownloadOCR Text="下載" />
+      <lblOcrDescription Text="OCR（光學字元辨識）技術可以識別檔案或圖像中的文本，以便您可以編輯，複製和搜尋文本內容。" />
+      <btnCancel Text="取消" />
+    </OcrDownloadForm>
+    <OcrLanguageEnumeratePanel>
+      <btnLanguageOver Text="三種以上的語言會減慢識別速度。" />
+    </OcrLanguageEnumeratePanel>
+    <OcrLanguagePanel>
+      <lblLanguageOver Text="三種以上的語言會減慢識別速度。" />
+      <lblTextFont Text="識別語言" />
+    </OcrLanguagePanel>
+    <PasswordForm Text="密碼">
+      <lblOpenBy Text="開啟文件者" />
+      <btnCancel Text="取消" />
+      <btnOk Text="確定" />
+      <lblPasswordWrong Text="密碼錯誤，請重試。" />
+      <txtPassword PlaceHolderText="輸入密碼">
+      </txtPassword>
+      <lblPresetWrong Text="預設密碼無法打開檔案" />
+      <lblUsing Text="使用" />
+      <linkPresetPassword Text="預設密碼" />
+    </PasswordForm>
+    <OwnerPasswordForm Text="密碼">
+      <lblPasswordTitle Text="輸入密碼進行編輯" />
+      <btnCancel Text="取消" />
+      <btnOk Text="確定" />
+      <lblPasswordWrong Text="密碼錯誤，請重試。" />
+      <txtPassword PlaceHolderText="輸入密碼" />
+    </OwnerPasswordForm>
+    <ConvertRibbonPage BaseType="BaseRibbonPage">
+      <btnToHWP Text="轉換為 HWP" ToolTip="轉換為 HWP" />
+      <btnOptimizePDF Text="壓縮PDF" ToolTip="壓縮PDF" />
+      <btnToPPT Text="轉換為 PPT" ToolTip="轉換為 PPT" />
+      <btnToWord Text="轉換為 Word" ToolTip="轉換為 Word" />
+      <btnToExcel Text="轉換為 Excel" ToolTip="轉換為 Excel" />
+      <btnToImage Text="轉換為圖像" ToolTip="轉換為圖像" />
+      <btnToText Text="轉換為 TXT" ToolTip="轉換為 TXT" />
+      <btnToEPUB ToolTip="轉換為 EPUB" />
+      <btnToHtml ToolTip="轉換為 HTML" />
+      <btnToRTF ToolTip="轉換為 RTF" />
+      <btnToPDFA Text="轉換為 PDF/A" ToolTip="轉換為 PDF/A" />
+      <btnToOther ToolTip="將PDF轉換為EPUB，RTF或HTML" />
+      <btnConvertSetting ToolTip="轉換設置" />
+      <btnBatchProcess Text="批次處理" ToolTip="批次處理" />
+    </ConvertRibbonPage>
+    <EditRibbonPage BaseType="BaseRibbonPage">
+      <btnAddImage Text="新增圖像" ToolTip="新增圖像" />
+      <btnAddText Text="新增文本" ToolTip="新增文本" />
+      <btnAddLink Text="連結" ToolTip="連結" />
+      <btnPagesCrop ToolTip="調整頁面可見區域" />
+      <btnWatermark Text="浮水印" ToolTip="添加或編輯浮水印" />
+      <btnBackground Text="背景" ToolTip="添加或編輯背景" />
+      <btnHeaderFooter Text="頁首&amp;頁尾" ToolTip="添加或編輯頁首頁尾" />
+      <btnBatesNumber Text="貝茨碼" ToolTip="添加或編輯頁茨碼" />
+      <btnEditSetting ToolTip="編輯模式設定" />
+      <rbLineEditMode Text="行模式" />
+      <rbParaEditMode Text="段落模式" />
+      <lblEdit Text="編輯" />
+      <btnEdit ToolTip="編輯" />
+      <lblRead Text="閱讀" />
+    </EditRibbonPage>
+    <CommentRibbonPage BaseType="BaseRibbonPage">
+      <btnHighlight ToolTip="凸顯" />
+      <btnUnderline ToolTip="底線" />
+      <btnStrikeout ToolTip="刪除線" />
+      <btnAreaHighlight ToolTip="區域凸顯" />
+      <btnRect ToolTip="矩形" />
+      <btnOval ToolTip="圓形" />
+      <btnArrow ToolTip="箭頭" />
+      <btnPencil ToolTip="鉛筆" />
+      <btnEraser ToolTip="橡皮擦" />
+      <btnStamp ToolTip="簽章" />
+      <btnCustomStamp ToolTip="自訂郵票" />
+      <btnSign ToolTip="簽字" />
+      <btnNote ToolTip="便利貼" />
+      <btnTypeWriter ToolTip="類型作家" />
+      <btnTextBox ToolTip="文字方塊" />
+      <btnCallout ToolTip="文本標注" />
+      <btnAttachment ToolTip="新增附件" />
+      <ckbKeepToolSelected Text="連續添加" />
+      <btnHideAnnotation ToolTip="隱藏註解" />
+    </CommentRibbonPage>
+    <PageRibbonPage BaseType="BaseRibbonPage">
+      <btnPageBoxes Text="頁面框" ToolTip="裁剪文檔的頁面大小" />
+      <btnExtract Text="擷取" ToolTip="將頁面提取到新的PDF文檔" />
+      <btnInsert Text="插入" ToolTip="將空白頁或PDF文檔插入當前文檔" />
+      <btnSplit Text="拆分" ToolTip="將當前文檔分解為多個PDF文檔" />
+      <btnReplace Text="替換" ToolTip="替換當前文檔上的頁面" />
+      <btnPageLabel Text="頁面標籤" ToolTip="將頁面標籤設置到文檔" />
+      <btnZoomIn ToolTip="放大縮圖" />
+      <btnZoomOut ToolTip="縮小縮圖" />
+      <cbxPageRange PlaceHolderText="輸入頁碼" ToolTip="例如：1,3,5,7-10" />
+      <btnRotateLeft ToolTip="逆時針旋轉頁面" />
+      <btnRotateRight ToolTip="順時針旋轉頁面" />
+      <btnPageDel ToolTip="從檔案中刪除頁面" />
+      <btnPageCrop Text="頁面裁切" />
+    </PageRibbonPage>
+    <FormRibbonPage BaseType="BaseRibbonPage">
+      <lblEdit Text="編輯" />
+      <btnFormsEditPreview ToolTip="編輯表單" />
+      <lblPreview Text="預覽" />
+      <ckbKeepToolSelected Text="連續添加" />
+      <btnTextField ToolTip="新增文本" />
+      <btnCheckBox ToolTip="新增核取方塊" />
+      <btnRadioButton ToolTip="新增單選框" />
+      <btnComboBox ToolTip="新增下拉式方塊" />
+      <btnListBox ToolTip="新增清單方塊" />
+      <btnPushButton ToolTip="新增按鈕" />
+      <btnImageButton ToolTip="新增圖片" />
+      <btnSignature ToolTip="新增數位簽章" />
+      <btnClear ToolTip="恢復表單字段中的預設資料" />
+      <btnAlign Text="對齊" ToolTip="對齊所選對象" />
+      <btnMore Text="更多" />
+    </FormRibbonPage>
+    <ProtectRibbonPage BaseType="BaseRibbonPage">
+      <btnPassword Text="設定密碼" ToolTip="設定檔案密碼" />
+      <btnMarkRedaction Text="標記為修訂" ToolTip="標記敏感的文本或圖像，以使永久塗黑" />
+      <btnApplyRedaction Text="應用編輯" ToolTip="永久塗黑敏感文本或圖像" />
+      <btnSearchRedaction Text="搜尋和＆編輯" ToolTip="搜尋文本以進行編輯" />
+      <btnSignDocument Text="簽名檔案" ToolTip="將數位簽章新增到檔案" />
+      <btnValidAllSignatures Text="驗證所有簽名" ToolTip="驗證檔案上的所有簽名" />
+      <btnClearSignature Text="清除所有簽名" ToolTip="清除檔上的所有簽名" />
+      <btnSignCloudFile Text="電子簽名" ToolTip="通過Wondershare線上簽名服務簽署檔案。" />
+    </ProtectRibbonPage>
+    <ShareRibbonPage BaseType="BaseRibbonPage">
+      <btnToDocSend Text="分享並關注" />
+      <btnSendToEmail Text="發送到電子郵件" />
+      <btnSendToEvernote Text="發送到 Evernote" />
+      <btnSendToDropbox Text="發送到 Dropbox" />
+      <btnSendToGoogleDrive Text="發送到 Google Drive" />
+    </ShareRibbonPage>
+    <ToolRibbonPage>
+      <btnCombineFiles Text="合併檔案" ToolTip="將多個檔案合併為一個PDF" />
+      <btnOCR Text="OCR" ToolTip="識別掃描文檔，使之可編輯和可搜索" />
+      <btnOCRArea Text="區域OCR" ToolTip="將掃描圖像的選定區域識別為可編輯的文本。" />
+      <btnOptimizePDF Text="壓縮PDF" ToolTip="壓縮檔大小" />
+      <btnFlattenFile Text="壓平檔案" ToolTip="展開註解，表單字段和PDF圖層" />
+      <btnPagesCrop Text="裁剪" ToolTip="裁剪檔案的頁面大小" />
+      <btnWatermark Text="浮水印" ToolTip="添加或編輯浮水印" />
+      <btnSnapshot Text="螢幕截圖" ToolTip="拍攝文件快照" />
+      <btnMore Text="更多" />
+      <btnBatchProcess Text="批次處理" ToolTip="批次處理" />
+      <btnCompareFiles Text="比較文件" ToolTip="比較兩個文件之間的差異。" />
+    </ToolRibbonPage>
+    <HelpRibbonPage BaseType="BaseRibbonPage">
+      <btnFeedback Text="回饋" />
+      <btnCommunity Text="論壇" />
+      <btnUserGuide Text="線上說明" />
+      <btnYoutube Text="影片教學" />
+      <btnSupport Text="線上支持" />
+      <btnCheckUpdate Text="檢查更新" />
+      <btnAbout Text="關於" />
+    </HelpRibbonPage>
+    <DescriptionPage>
+      <lblProperties Text="屬性" />
+      <lblFileSize Text="檔案大小:" />
+      <lblPageSize Text="頁面尺寸:" />
+      <lblNumberOfPages Text="頁數:" />
+      <lblCreatedInfo Text="建立資訊" />
+      <lblTitle Text="標題:" />
+      <txbTitle PlaceHolderText="添加标题" />
+      <lblSubject Text="主題:" />
+      <txbSubject PlaceHolderText="添加主题" />
+      <lblKeywords Text="關鍵字:" />
+      <txbKeywords PlaceHolderText="添加关键词" />
+      <lblRelateDates Text="相關日期" />
+      <lblCreated Text="建立時間：" />
+      <lblNumberOfPagesInfo Text="頁數" />
+      <lblLastModifiedInfo Text="修改時間" />
+      <lblLastModified Text="修改時間:" />
+      <lblPageSizeInfo Text="頁面大小" />
+      <lblPDFProducerInfo Text="PDF製作程式" />
+      <lblFileSizeInfo Text="文件大小" />
+      <lblRelatedPeople Text="相關人" />
+      <lblAuthor Text="作者:" />
+      <txbAuthor PlaceHolderText="新增作者" />
+      <lblAdvancedProperty Text="高級屬性" />
+      <lblPDFProducer Text="PDF 製作程式:" />
+      <lblFileName Text="檔案名" />
+      <lblPDFVersionInfo Text="PDF版本資訊" />
+      <lblPDFVersion Text="PDF 版本:" />
+      <lblApplicationInfo Text="應用資訊" />
+      <lblFilePath Text="檔案路徑" />
+      <lblApplication Text="PDF 應用程式:" />
+    </DescriptionPage>
+    <FontsPage>
+      <lblFonts Text="字體" />
+    </FontsPage>
+    <InitialViewPage>
+      <lblLayoutAndView Text="排版和視圖" />
+      <lblPageMode Text="導航欄" />
+      <cmbPageMode>
+        <Items>頁面
+頁面和書簽
+頁面和縮略圖</Items>
+      </cmbPageMode>
+      <lblPageLayout Text="排版" />
+      <cmbPageLayout>
+        <Items>預設
+單個頁面
+單頁連續
+雙頁面
+雙頁連續</Items>
+      </cmbPageLayout>
+      <lblPageZoom Text="佈局:" />
+      <cmbPageZoom>
+        <Items>默認
+實際大小
+適合頁面
+適合寬度
+適合高度
+10%
+25%
+50%
+75%
+100%
+125%
+150%
+200%
+400%
+800%
+1600%
+2400%
+3200%
+6400%</Items>
+      </cmbPageZoom>
+      <lblOpenToPage Text="打開到頁面:" />
+      <lblOfPage Text="/ {0}" />
+    </InitialViewPage>
+    <SecurityPage>
+      <lblPermissions Text="許可權" />
+      <lblRestrictionsSummary Text="檔案限制摘要:" />
+      <lblPrinting Text="列印:" />
+      <lblPrintingInfo Text="允許" />
+      <lblChangeDoc Text="更改檔案:" />
+      <lblChangeDocInfo Text="允許" />
+      <lblDocAssemble Text="檔案重組:" />
+      <lblDocAssembleInfo Text="允許" />
+      <lblContenCopy Text="內容複製:" />
+      <lblContenCopyInfo Text="允許" />
+      <lblContentCopyAccess Text="可使用性內容複製:" />
+      <lblContentCopyAccessInfo Text="允許" />
+      <lblPageExtraction Text="頁面擷取:" />
+      <lblPageExtractionInfo Text="允許" />
+      <lblComment Text="註解:" />
+      <lblCommentInfo Text="允許" />
+      <lblFillFormFields Text="表單字段填寫:" />
+      <lblFillFormFieldsInfo Text="允許" />
+      <lblSigning Text="簽署:" />
+      <lblSigningInfo Text="允許" />
+      <lblCreationTempPages Text="新建範本頁面：" />
+      <lblCreationTempPagesInfo Text="允許" />
+      <btnPermissions Text="許可權" />
+      <fileListPanel FileTips="拖拽 PDF 檔案到此處" TaskName="安全" />
+      <btnApply Text="套用" />
+    </SecurityPage>
+    <WatermarkPage>
+      <fileListPanel FileTips="在此處拖放PDF檔案" TaskName="浮水印">
+      </fileListPanel>
+      <btnApply Text="套用" />
+    </WatermarkPage>
+    <SearchSettingPanel>
+      <lblSearching Text="搜尋中" />
+      <cbMatchCase Text="區分大小寫" />
+      <cbMatchWholeWord Text="全字匹配" />
+      <cbIncludeComments Text="包含註釋" />
+      <cbIncludeBookmarks Text="包含書籤" />
+      <cbIncludeAttachement Text="包含附件" />
+      <btnCancel Text="取消" />
+      <btnSearch Text="搜尋" />
+      <rbAllOpenDocuments Text="所有打開的文檔" />
+      <txtLocation PlaceHolderText="選擇文件路徑" />
+      <txtSearchKey PlaceHolderText="搜索單詞或短語" />
+      <labFileLocation Text="文件位置" />
+      <rbCurrentDoc Text="當前文件" />
+      <rbBrowseLocation Text="瀏覽文件夾位置" />
+    </SearchSettingPanel>
+    <SearchResultPanel>
+      <lblReplace Text="替換" />
+      <lblResults Text="結果：" />
+      <btnStop Text="停止" />
+    </SearchResultPanel>
+    <ReplaceSettingPanel>
+      <lblReplaceWith Text="取代為" />
+      <lblSaveAs Text="另存為" />
+      <btnApply Text="套用" />
+      <lblReplace Text="替換" />
+      <lblNote Text="提示：僅替換正文" />
+      <lblSelectDoc Text="選擇文件" />
+      <lblInitialText Text="初始文本" />
+    </ReplaceSettingPanel>
+    <ReplaceResultPanel>
+      <lblSaveAs Text="另存為" />
+      <lblResults Text="結果：" />
+      <btnCancel Text="取消" />
+      <cbOpenFolder Text="替換後打開文件夾" />
+      <btnFinish Text="完成" />
+      <lblReplace Text="替換" />
+    </ReplaceResultPanel>
+    <ReplacePanelItem Text="搜索&amp;&amp;替換">
+      <ckbCaseSensitive Text="區分大小寫" />
+      <ckbWholeWordsOnly Text="全字匹配" />
+      <btnSearchNext Text="下一個" ToolTip="查詢下一個結果" />
+      <btnSearchPrev Text="上一個" ToolTip="查詢上一個結果" />
+      <btnReplace Text="替換" />
+      <btnReplaceAll Text="全部替換" />
+      <lblCount Text="取代為" />
+    </ReplacePanelItem>
+    <AdvancedSearchForm Text="高級搜索">
+    </AdvancedSearchForm>
+    <FileListMessageForm>
+      <cbNeverShow Text="不再顯示此消息" />
+      <btnOK Text="確定" />
+    </FileListMessageForm>
+    <cmsSearchMode>
+      <tsmiSearch Text="搜尋" />
+      <tsmiSearchAndReplace Text="搜索&amp;&amp;替換" />
+      <tsmiAdvancedSearch Text="高級搜索" />
+    </cmsSearchMode>
+    <cmsFormMenu>
+      <miProperties Text="屬性" />
+      <miCut Text="剪裁" />
+      <miCopy Text="複製" />
+      <miPaste Text="貼上" />
+      <miDelete Text="刪除" />
+      <miSelectAll Text="全選" />
+      <miAlignment Text="對齊" />
+      <miAlignLeft Text="左對齊" />
+      <miAlignRight Text="右對齊" />
+      <miAlignTop Text="頂部對齊" />
+      <miAlignBottom Text="底部對齊" />
+      <miAlignHorizontalCenter Text="水准居中對齊" />
+      <miAlignVerticalCenter Text="垂直居中對齊" />
+      <miCenterPageHorizontally Text="頁面水准居中" />
+      <miCenterPageVertically Text="頁面垂直居中" />
+      <miBoth Text="頁面水准垂直居中" />
+      <miDistribute Text="分散" />
+      <miDistributeHorizontally Text="橫向分佈" />
+      <miDistributeVertically Text="縱向分佈" />
+      <miMultipleCopiesOfFields Text="創建多個副本" />
+      <miSetTabOrder Text="設定Tab鍵順序" />
+      <miSetAsDefault Text="設定為默認" />
+    </cmsFormMenu>
+    <cmsAlignment>
+      <miAlignLeft Text="左對齊" />
+      <miAlignRight Text="右對齊" />
+      <miAlignTop Text="頂部對齊" />
+      <miAlignBottom Text="底部對齊" />
+      <miAlignHorizontalCenter Text="水准居中對齊" />
+      <miAlignVerticalCenter Text="垂直居中對齊" />
+      <miCenterPageHorizontal Text="頁面水准居中" />
+      <miCenterPageVertical Text="頁面垂直居中" />
+      <miCenterPage Text="頁面水准垂直居中" />
+    </cmsAlignment>
+    <cmsAnnotMenu>
+      <miAddAttachment Text="打開附件" />
+      <miSaveAttachment Text="保存附件" />
+      <miOpenPopupNote Text="打開彈出注釋" />
+      <miCut Text="剪裁" />
+      <miCopy Text="複製" />
+      <miPaste Text="貼上" />
+      <miDelete Text="刪除" />
+      <miSelectAll Text="全選" />
+      <miSetAsDefault Text="設定為默認" />
+      <miProperties Text="屬性" />
+      <miEditLink Text="編輯" />
+    </cmsAnnotMenu>
+    <cmsContentMenu>
+      <miCut Text="剪裁" />
+      <miCopy Text="複製" />
+      <miPaste Text="貼上" />
+      <miDelete Text="刪除" />
+      <miSelectAll Text="全選" />
+      <miZOrder Text="層級" />
+      <miBringToFront Text="置於頂層" />
+      <miSendToBack Text="置於底層" />
+      <miBringForward Text="上移一層" />
+      <miSendBackward Text="下移一層" />
+      <miRotateLeft Text="逆時針旋轉" />
+      <miRotateRight Text="順時針旋轉" />
+      <miHorizontalFlip Text="水准翻轉" />
+      <miVerticalFlip Text="垂直翻轉" />
+      <miExtractImage Text="選取圖片" />
+      <miReplaceImage Text="圖片替換" />
+      <miAlignment Text="對齊" />
+      <miDistribute Text="分散" />
+      <miProperties Text="屬性" />
+    </cmsContentMenu>
+    <cmsDistribute>
+      <miDistributeHorizontally Text="水准" />
+      <miDistributeVertically Text="垂直" />
+    </cmsDistribute>
+    <menuDropAddImage>
+      <miAddAsImage Text="作為圖片插入" />
+      <miCreateAsPdf Text="創建一個新的 PDF 檔案" />
+    </menuDropAddImage>
+    <cmsEditMenu>
+      <miCut Text="剪裁" />
+      <miCopy Text="複製" />
+      <miPaste Text="貼上" />
+      <miDelete Text="刪除" />
+      <miSelectAll Text="全選" />
+      <miAddText Text="添加文字" />
+      <miAddImage Text="新增圖像" />
+    </cmsEditMenu>
+    <cmsHandMenu>
+      <miZoomIn Text="放大" />
+      <miZoomOut Text="縮小" />
+      <miNextView Text="下個視圖" />
+      <miPreviousView Text="上個視圖" />
+      <miRotatePages Text="旋轉頁面" />
+      <miAddNote Text="添加注釋" />
+      <miAddBookmark Text="添加書簽" />
+      <miPrint Text="列印" />
+      <miShare Text="分享" />
+    </cmsHandMenu>
+    <cmsOcrRegion>
+      <miDelete Text="刪除" />
+      <miSelectAll Text="全選" />
+    </cmsOcrRegion>
+    <cmsSelectMenu>
+      <miPaste Text="貼上" />
+      <miSelectAll Text="全選" />
+    </cmsSelectMenu>
+    <cmsShare>
+      <miSendToEvernote Text="發送到 Evernote" />
+      <miSendToDropBox Text="發送PDF檔案到Dropbox" />
+      <miSendAllToDropBox Text="發送所有PDF檔案到Dropbox" />
+      <miSendToGoogleDrive Text="發送PDF檔案到Google Drive" />
+      <miSendAllToGoogleDrive Text="發送所有打開檔案到Google Drive" />
+      <miSendToPECloud Text="發送PDF檔案到 Wondershare Cloud" />
+      <miSendAllToPECloud Text="發送所有打開檔案到 Wondershare Cloud" />
+      <miSendToOneDrive Text="發送PDF檔案到OneDrive" />
+      <miSendAllToOneDrive Text="發送所有PDF檔案到OneDrive" />
+      <miSendToBox Text="發送PDF檔案到Box" />
+      <miSendAllToBox Text="發送所有PDF檔案到Box" />
+      <miSendToBaiduPan Text="發送PDF檔案到BaiduPan" />
+      <miSendAllToBaiduPan Text="發送所有PDF檔案到BaiduPan" />
+    </cmsShare>
+    <cmsTextEdit>
+      <miCut Text="剪裁" />
+      <miCopy Text="複製" />
+      <miPaste Text="貼上" />
+      <miDelete Text="刪除" />
+      <miSelectAll Text="全選" />
+      <miCreateLink Text="創建連結" />
+      <miProperties Text="屬性" />
+    </cmsTextEdit>
+    <cmsTextSelectionMenu>
+      <miCopyText Text="拷貝文字" />
+      <miSelectAll Text="全選" />
+      <miDeselectAll Text="取消全選" />
+      <miHighlight Text="凸顯" />
+      <miUnderline Text="底線" />
+      <miStrikeout Text="删除線" />
+      <miReplace Text="替換" />
+      <miSquiggly Text="波浪線" />
+      <miCaret Text="插入符" />
+      <miAddNote Text="添加注釋" />
+      <miAddBookmark Text="添加書簽" />
+      <miCreateLink Text="創建連結" />
+    </cmsTextSelectionMenu>
+    <cmsZoom>
+      <miActualSize Text="實際大小" />
+      <miFitPage Text="適合頁面" />
+      <miFitWidth Text="適合寬度" />
+      <miFitHeight Text="適合高度" />
+      <miFullScreen Text="進入全螢幕模式" />
+    </cmsZoom>
+    <cmsViewMode>
+      <tsmiSingle Text="單頁" />
+      <tsmiSingleContinue Text="單頁連續" />
+      <tsmiFacing Text="雙頁" />
+      <tsmiFacingContinue Text="雙頁連續" />
+    </cmsViewMode>
+    <cmsThumbnail>
+      <miCopyPages Text="複製" />
+      <miPastePages Text="貼上" />
+      <miDeletePages Text="刪除" />
+      <miInsertPages Text="插入頁面" />
+      <miInsertBlankPages Text="空白頁" />
+      <miInsertFromPDF Text="從PDF檔案插入" />
+      <miReplacePages Text="替換頁面" />
+      <miExtractPages Text="擷取頁面" />
+      <miRotatePages Text="旋轉頁面" />
+      <miOCRPages Text="OCR頁面" />
+      <miPageBoxes Text="頁面框" />
+      <miPageLabels Text="頁面標籤" />
+      <miPrintPages Text="列印頁面" />
+      <miExtractToImage Text="拼接所有頁面到一張圖片" />
+      <miEnlargeThumb Text="放大縮略圖" />
+      <miReduceThumb Text="縮小縮略圖" />
+    </cmsThumbnail>
+    <cmsHelp>
+      <miFeedback Text="用戶反饋" />
+      <miUserGuide Text="線上說明" />
+      <miSupportCenter Text="線上支持" />
+      <miFacebook Text="Facebook" />
+      <miYoutube Text="Youtube" />
+      <miWeibo Text="微博" />
+      <miBilibili Text="Bilibili" />
+      <miCheckForUpdates Text="檢查更新" />
+      <miAbout Text="關於" />
+    </cmsHelp>
+    <cmsFile>
+      <tsmiOpen Text="打開" />
+      <tsmiOpenRecent Text="最近打開" />
+      <tsmiOpenCloud Text="雲盤打開" />
+      <tsmiFromDropbox Text="從Dropbox打開" />
+      <tsmiGoogleDrive Text="從Google Drive打開" />
+      <tsmiPECloud Text="從 Wondershare Cloud 打開" />
+      <tsmiOneDrive Text="從OneDrive打開" />
+      <tsmiBox Text="從Box打開" />
+      <tsmiBaiduPan Text="從BaiduPan打開" />
+      <tsmiFromLibrary Text="從表單範本打開" />
+      <tsmiFromWsCloud Text="從 Wondershare Cloud 打開" />
+      <tsmiCreate Text="新建" />
+      <tsmiFromFile Text="從檔案創建" />
+      <tsmiFromScanner Text="從掃描儀創建" />
+      <tsmiBlankPdf Text="空白PDF檔案" />
+      <tsmiFromClipboard Text="從剪貼板創建" />
+      <tsmiPortfolio Text="PDF 文件夾" />
+      <tsmiSave Text="保存" />
+      <tsmiSaveAs Text="另存為" />
+      <tsmiSaveRecent Text="保存到最近文件夾" />
+      <tsmiShare Text="分享" />
+      <tsmiShareEvernote Text="Evernote" />
+      <tsmiShareDropbox Text="Dropbox" />
+      <tsmiShareGoogleDrive Text="Google Drive" />
+      <tsmiShareWSCloud Text="Wondershare Cloud" />
+      <tsmiShareOneDrive Text="OneDrive" />
+      <tsmiShareBox Text="Box" />
+      <tsmiShareBaiduPan Text="BaiduPan" />
+      <tsmiExportTo Text="匯出到" />
+      <tsmiWord Text="Word" />
+      <tsmiExcel Text="Excel" />
+      <tsmiPowerPoint Text="PowerPoint" />
+      <tsmiImage Text="圖像" />
+      <tsmiText Text="文本" />
+      <tsmiEpub Text="Epub" />
+      <tsmiHtml Text="HTML" />
+      <tsmiRtf Text="RTF" />
+      <tsmiPdfA Text="PDF/A" />
+      <tsmiHwp Text="HWP" />
+      <tsmiPrint Text="列印" />
+      <tsmiProperties Text="屬性" />
+      <tsmiPerferences Text="偏好設置" />
+      <tsmiPng Text="PNG" />
+      <tsmiBMP Text="BMP" />
+      <tsmiGif Text="GIF" />
+      <tsmiTiff Text="TIFF" />
+      <tsmiPdfA_1a Text="PDF/A-1a" />
+      <tsmiPdfA_1b Text="PDF/A-1b" />
+      <tsmiPdfA_2a Text="PDF/A-2a" />
+      <tsmiPdfA_2b Text="PDF/A-2b" />
+      <tsmiPdfA_2u Text="PDF/A-2u" />
+      <tsmiPdfA_3a Text="PDF/A-3a" />
+      <tsmiPdfA_3b Text="PDF/A-3b" />
+      <tsmiPdfA_3u Text="PDF/A-3u" />
+    </cmsFile>
+    <cmsCommentShapeMore>
+      <miLine Text="線條" />
+      <miCloud Text="雲形" />
+      <miPolygon Text="多邊形" />
+      <miConnectedLine Text="連接線" />
+    </cmsCommentShapeMore>
+    <cmsCommentTextMore>
+      <miAreaHighlight Text="區域凸顯" />
+      <miSquigglyLine Text="波浪線" />
+      <miInsertText Text="插入符號" />
+    </cmsCommentTextMore>
+    <cmsCommentStamp>
+      <tsmiStampCreate Text="新建" />
+      <tsmiStampManage Text="管理簽章" />
+      <tsmiStampIdentityEdit Text="編輯身份" />
+    </cmsCommentStamp>
+    <cmsEditMode>
+      <miLineMode Text="行模式" />
+      <miLineMode ToolTipText="編輯行內容" />
+      <miParagraphMode Text="段落模式" />
+      <miParagraphMode ToolTipText="編輯段落內容" />
+    </cmsEditMode>
+    <cmsLink>
+      <tsmiActionGoto Text="跳轉頁面" />
+      <tsmiActionWeb Text="打開網頁" />
+      <tsmiActionFile Text="打開文件" />
+    </cmsLink>
+    <cmsTile>
+      <miHorizontalTile Text="水准平鋪" />
+      <miVerticalTile Text="垂直平鋪" />
+    </cmsTile>
+    <cmsInsertPages>
+      <miInsertBlankPages Text="空白頁面" />
+      <miInsertPagesFromPDF Text="從PDF文件插入" />
+    </cmsInsertPages>
+    <cmsConvertToOther>
+      <miToPDFA Text="轉換為 PDF/A" />
+      <miToEpub Text="轉換為 EPUB" />
+      <miToRtf Text="轉換為 RTF" />
+      <miToHtml Text="轉換為 HTML" />
+      <miToHwp Text="轉換為 HWP" />
+    </cmsConvertToOther>
+    <cmsFormAlign>
+      <miAlignLeft Text="左對齊" />
+      <miAlignRight Text="右對齊" />
+      <miAlignTop Text="頂部對齊" />
+      <miAlignBottom Text="底部對齊" />
+      <miAlignHorizontalCenter Text="水准居中對齊" />
+      <miAlignVerticalCenter Text="垂直居中對齊" />
+      <miCenterPageHorizontally Text="頁面水准居中" />
+      <miCenterPageVertically Text="頁面垂直居中" />
+      <miBoth Text="頁面水准垂直居中" />
+    </cmsFormAlign>
+    <cmsFormMore>
+      <tsmiDataExtraction Text="數據截取" />
+      <tsmiFieldRecognition Text="表單域自動識別" />
+      <tsmiCalculateOrder Text="計算順序" />
+      <tsmiDataExport Text="匯出數據" />
+      <tsmiDataImport Text="導入數據" />
+    </cmsFormMore>
+    <cmsToolsMore>
+      <miBackground Text="背景" />
+      <miHeaderFooter Text="頁首&amp;頁尾" />
+      <miBatesNumber Text="貝茨碼" />
+      <miDataExtract Text="數據截取" />
+      <miToolAddBackground Text="添加背景" />
+      <miToolEditBackground Text="編輯背景" />
+      <miAddBatesNumber Text="添加貝茨碼" />
+      <miEditBatesNumber Text="編輯貝茨碼" />
+      <miAddHeaderFooter Text="添加頁首 &amp;&amp; 頁脚" />
+      <miEditHeaderFooter Text="編輯頁首 &amp;&amp; 頁脚" />
+    </cmsToolsMore>
+    <cmsHeaderFooter>
+      <tsmiAddHeaderFooter Text="添加頁首 &amp;&amp; 頁脚" />
+      <tsmiEditHeaderFooter Text="編輯頁首 &amp;&amp; 頁脚" />
+    </cmsHeaderFooter>
+    <cmsBackground>
+      <tsmiAddBackground Text="添加背景" />
+      <tsmiEditBackground Text="編輯背景" />
+    </cmsBackground>
+    <cmsWatermark>
+      <tsmiAddWatermark Text="添加浮水印" />
+      <tsmiEditWatermark Text="編輯浮水印" />
+    </cmsWatermark>
+    <cmsBatesNumber>
+      <tsmiAddBatesNumber Text="添加貝茨碼" />
+      <tsmiEditBatesNumber Text="編輯貝茨碼" />
+    </cmsBatesNumber>
+    <cmsDataExtract>
+      <miDeleteItems Text="删除選中" />
+    </cmsDataExtract>
+    <cmsFileTab>
+      <tsmiRenameFile Text="重命名" />
+      <tsmiOpenFileLocation Text="打開文件所在目錄" />
+      <tsmiClose Text="關閉" />
+      <tsmiCloseOthers Text="關閉其他檔案" />
+      <tsmiCloseAll Text="關閉所有檔案" />
+    </cmsFileTab>
+    <cmsMsg>
+      <tsmiArchives Text="該檔案已歸檔" />
+      <tsmiSecurity Text="該檔案包含加密許可權" />
+      <tsmiSigned Text="該檔案已經進行數位簽章保護" />
+      <tsmiScanned Text="該檔案是掃描檔案" />
+      <tsmiXfa Text="該檔案包含 XFA 表單控制項" />
+      <tsmiAcroForm Text="該檔案包含表單控制項" />
+    </cmsMsg>
+    <cmsCloud>
+      <tsmiDropbox Text="Dropbox" />
+      <tsmiGoogleDrive Text="Google Drive" />
+      <tsmiPECloud Text="Wondershare Cloud" />
+      <tsmiOneDrive Text="OneDrive" />
+      <tsmiBox Text="Box" />
+      <tsmiBaiduPan Text="BaiduPan" />
+      <tsmiEvernote Text="Evernote" />
+    </cmsCloud>
+    <cmsQat>
+      <tsmiOpen Text="打開" />
+      <tsmiSave Text="保存" />
+      <tsmiEmail Text="附加到郵件" />
+      <tsmiPrint Text="列印" />
+      <tsmiShare Text="分享" />
+      <tsmiUndo Text="取消" />
+      <tsmiRedo Text="重做" />
+      <tsmiRibbon Text="選單" />
+    </cmsQat>
+    <cmsSignature>
+      <miClear Text="清除簽名" />
+      <miValidate Text="驗證簽名" />
+      <miProperties Text="顯示簽名屬性" />
+    </cmsSignature>
+    <RecentFilesControl>
+      <lblRecent Text="最近" />
+      <btnClearRecent ToolTip="清除" />
+      <btnOpenFile Text="打開檔案..." />
+      <lblNoneRecentTip Text="你還沒有打開任何檔案，點擊“打開檔案”打開一個檔案" />
+    </RecentFilesControl>
+    <RecentListItem>
+      <btnPin ToolTip="固定" />
+      <btnDelete ToolTip="刪除" />
+      <labFileName Text="檔案名稱" />
+      <labPath Text="路徑" />
+    </RecentListItem>
+    <RecentFolderListItem>
+      <btnPin ToolTip="固定" />
+      <btnDelete ToolTip="刪除" />
+      <labPath Text="路徑" />
+    </RecentFolderListItem>
+    <RedactMarkMsgForm Text="密文">
+      <lblAllow Text="允許永久影藏或刪除敏感內容" />
+      <lblRequires Text="密文所需的兩的步驟" />
+      <lblMark Text="1.標記為密文" />
+      <lblApply Text="2.套用密文" />
+      <lblNote Text="注意：" />
+      <lblNoteMsg Text="密文將不會被永久應用，除非選擇“套用密文”" />
+      <chkNeverShow Text="不再顯示" />
+      <btnOK Text="確定" />
+    </RedactMarkMsgForm>
+    <RightSideView>
+      <labTitle Text="屬性" />
+      <btnClose ToolTip="關閉" />
+    </RightSideView>
+    <AddDigitalIDForm Text="新增數字身份證">
+      <gBtnCancel Text="取消" />
+      <gBtnNext Text="下一頁 &gt;" />
+      <gBtnBack Text="&lt; 返回" />
+      <gRBtnNewID Text="我想新建一個新的數字身份證" />
+      <gLabelPassword Text="密碼:" />
+      <gBtnBrowse Text="瀏覽…." />
+      <gRBtnExistingID Text="從檔案中現有的數字身份證" />
+      <gLabelUsing Text="我想簽名該檔案:" />
+      <gLabelStore Text="你想要儲存自簽名數位身份證嗎?" />
+      <gRadioBtnPKCSID Text="新建 PKCS#12 數位身份證檔案" />
+      <gRadioButton2 Text="Windows 憑證存放區區" />
+      <gLabelPKCSInfo Text="建立一個新密碼來保護使用標準PKCS#12的數位識別碼檔案格式。大多數安全軟體應用程式（包括主要的web）都支援通用的數位識別碼檔案格式瀏覽器.PKCS#12文件的副檔名為.pfx或.p12。" />
+      <gLabelWinCertificateStoreInfo Text="您的數位 ID 將被儲存在 Windows 證書管理器裡，也將提供給其他 Windows 應用程式。以 Windows 登入的數位 ID 將受保護" />
+      <gLabelEnterInfo Text="輸入建立自簽章憑證時要使用的身份資訊" />
+      <gLabelName Text="名稱:" />
+      <gLabelOrganizationUnit Text="組織單位:" />
+      <gLabelOrganizationName Text="組織名稱:" />
+      <gLabelAsterisk2 Text="*" />
+      <gLabelEmailAddress Text="電子郵件：" />
+      <gLabelCounty Text="國家/地區:" />
+      <gLabelAsterisk1 Text="*" />
+      <gLabelEnterPathInfo Text="輸入新數位識別碼的檔案位置和密碼檔案。你使用數位識別碼進行簽名或解密時需要密碼檔案。請記下檔案的位置，以便複製此檔案以備備份或其他用途目的。你以後可以使用“安全設定”對話方塊更改此檔案的選項。" />
+      <gLabelFileName Text="檔案名稱：" />
+      <gLabelPassword2 Text="密碼:" />
+      <gLabelConfirmPassword Text="確認密碼:" />
+      <gButtonBrowse Text="瀏覽：" />
+      <gLabelListTitle Text="將新增以下的數位 ID，您可以使用簽名或加密的數位 ID 清單:" />
+      <gHeaderItemName Text="名稱">
+      </gHeaderItemName>
+      <gHeaderItemIssuser Text="發行者">
+      </gHeaderItemIssuser>
+      <gHeaderItemExpires Text="過期">
+      </gHeaderItemExpires>
+    </AddDigitalIDForm>
+    <SelectPictureForm Text="選擇圖片">
+      <lblFilePath Text="文件:" />
+      <btnBrower Text="瀏覽…." />
+      <gbSample Text="範例">
+      </gbSample>
+      <btnOK Text="確定" />
+      <btnCancel Text="取消" />
+    </SelectPictureForm>
+    <SignAppearanceForm Text="配置簽名樣式">
+      <gGroupBoxTextProperties Text="文字屬性">
+      </gGroupBoxTextProperties>
+      <gLabelDirection Text="文本方向:" />
+      <gRadioButtonAuto Text="自動" />
+      <gRadioButtonLeftToRight Text="從左到右" />
+      <gRadioButtonRightToLeft Text="從右到左" />
+      <gGroupBoxConfigureText Text="配置文本">
+      </gGroupBoxConfigureText>
+      <gLabelTextShow Text="顯示:" />
+      <gCheckBoxName Text="名稱" />
+      <gCheckBoxLocation Text="位置" />
+      <gCheckBoxDistinguishedName Text="可分辨名稱" />
+      <gCheckBoxLogo Text="標誌" />
+      <gCheckBoxDate Text="日期" />
+      <gCheckBoxReason Text="原因" />
+      <gCheckBoxLabels Text="標籤" />
+      <gGroupBoxConfigureGraphic Text="配置圖形">
+      </gGroupBoxConfigureGraphic>
+      <gLabelShow Text="顯示:" />
+      <gRadioButtonNoGraphic Text="無圖形" />
+      <gRadioButtonImportedGraphic Text="導入圖形" />
+      <gRadioButtonName Text="名稱" />
+      <gBtnFile Text="瀏覽" />
+      <gLabelTitle Text="標題：" />
+      <gGroupBoxPreview Text="預覽">
+      </gGroupBoxPreview>
+      <btnOK Text="確定" />
+      <btnCancel Text="取消" />
+    </SignAppearanceForm>
+    <SignatureDocForm Text="簽名檔案">
+      <gLabelSignAs Text="簽名為:" />
+      <gLabelPassword Text="密碼:" />
+      <gBtnNewID Text="新 ID" />
+      <gLabelIssuedBy Text="證書頒發者:" />
+      <gBtnInfo Text="訊息" />
+      <gLabelAppearance Text="外觀:" />
+      <gBtnSign Text="簽名" />
+      <gBtnCancel Text="取消" />
+      <gCheckBoxLock Text="鎖定檔案之後簽名" />
+      <gLabelSignatrueReason Text="原因:" />
+      <gLabelLocation Text="位置:" />
+    </SignatureDocForm>
+    <SignaturePropertiesForm Text="簽名屬性">
+      <gLabelSignInfo Text="簽名是有效的由 {0} 簽名" />
+      <gGroupBoxAdvanceInfo Text="詳細資訊">
+      </gGroupBoxAdvanceInfo>
+      <gLabelSignedBy Text="簽名者:" />
+      <gLabelReason Text="原因:" />
+      <gLabelDate Text="日期:" />
+      <gLabelLocation Text="位置:" />
+      <gButton1 Text="顯示證書" />
+      <gGroupBoxValiditySummary Text="有效期摘要">
+      </gGroupBoxValiditySummary>
+      <gLabelSummaryDocModify Text="套用簽名後，該檔案沒有被修改" />
+      <gLabelSummaryDocSignUser Text="該文件是由目前用戶所簽名" />
+      <gLabelSummaryDocSignTime Text="簽名日期/時間是簽名者電腦上的時鐘" />
+      <gBtnValidateSignature Text="驗證簽名" />
+      <gBtnClose Text="關閉" />
+    </SignaturePropertiesForm>
+    <SignatureValidStatusForm Text="簽名驗證狀態">
+      <gLabelSingInfo Text="簽名是有效的由 {0} 簽名" />
+      <gBtnSignProperties Text="簽名屬性" />
+      <gBtnClose Text="關閉" />
+    </SignatureValidStatusForm>
+    <ValidataAllSignatureForm Text="驗證所有簽名">
+      <btnOK Text="確定" />
+      <btnCancel Text="取消" />
+    </ValidataAllSignatureForm>
+    <SplitForm Text="分割">
+      <rdoNumber Text="按頁數分割" />
+      <rdoBookmarks Text="按頂級書籤分割" />
+      <lblMax Text="頁面" />
+      <lblOutputFolder Text="儲存" />
+      <btnOK Text="確定" />
+      <btnCancel Text="取消" />
+      <txtFolderPath Text="未選中文件">
+      </txtFolderPath>
+    </SplitForm>
+    <AboutForm>
+      <lblVersion Text="版本：{0}" />
+      <lblCopyrightMessage Text="Copyright © 2021 Wondershare. 保留所有權利" />
+      <lblAboutMessage Text="Wondershare 成立於2003年，是軟體發展產業的全球領導者，也是數字創意領域的先驅。我們的技術強大，提供的解決方案易上手且方便使用。這就是為什麼我們受到全世界150多個國家數百萬人的信任。協助用戶追求他們的熱忱，一同打造一個更具創造力的世界。&lt;br/&gt;&lt;br/&gt;請訪問 &lt;a href=&quot;HomePage&quot;&gt;Wondershare&lt;/a&gt; 和 &lt;a href=&quot;ProductPage&quot;&gt;Wondershare PDFelement&lt;/a&gt; 瞭解更多資訊。" />
+    </AboutForm>
+    <HomeLoginToBuy>
+      <btnBuyNow Text="購買" />
+      <btnLogin Text="登入" />
+      <avatarCtrl Text="avatarControl1">
+      </avatarCtrl>
+      <btnMobile Text="iPhone / iPad" />
+    </HomeLoginToBuy>
+    <HomePage>
+      <btnBack Text="返回" />
+    </HomePage>
+    <RecentControl>
+      <lblHello Text="您好" />
+      <btnClearAll Text="清除所有" />
+      <lblRecent Text="最近" />
+      <btnOpenFiles Text="打開文件">
+      </btnOpenFiles>
+      <btnComparePdf Text="比較PDF" />
+      <btnCombinePdf Text="PDF 合併">
+      </btnCombinePdf>
+      <btnOptimizePdf Text="壓縮PDF">
+      </btnOptimizePdf>
+      <btnOcr Text="OCR PDF">
+      </btnOcr>
+      <btnConverPdf Text="PDF 轉換">
+      </btnConverPdf>
+      <btnCreatePdf Text="建立PDF">
+      </btnCreatePdf>
+      <btnBatchPdf Text="批次PDF">
+      </btnBatchPdf>
+      <lblNoRecentTitle Text="沒有最近打開的文件。" />
+      <lblNoRecentContent Text="您查看過的所有PDF檔案都會顯示在此處" />
+    </RecentControl>
+    <FileProperty Text="屬性">
+      <btnDescription Text="描述" />
+      <btnInitialView Text="初始視圖" />
+      <btnSecurity Text="安全" />
+      <btnFonts Text="字體" />
+    </FileProperty>
+    <FileNew Text="新建">
+      <lblInfo Text="訊息" />
+      <lblFileName Text="檔案名稱：" />
+      <lblSize Text="大小" />
+      <lblWideHigh Text="高 x 寬" />
+      <lblPages Text="頁面:" />
+      <btnCreateNewFile Text="空白檔案" />
+      <lblCreating Text="正在新建，請稍後" />
+      <lblX Text="x" />
+      <lblWideHighUnit Text="in" />
+      <txbFileName Text="" />
+      <txbWidth Text="" />
+      <txbHeight Text="" />
+    </FileNew>
+    <FileOpen Text="打開">
+      <btnRecentDocument Text="最近打開" />
+      <btnRecentLocation Text="最近使用的資料夾" />
+      <btnCloud Text="雲端" />
+      <btnBrowse Text="瀏覽" />
+    </FileOpen>
+    <FileSaveAs Text="另存為">
+      <btnThisPC Text="這台電腦" />
+      <btnCloud Text="雲端" />
+      <btnBrowse Text="瀏覽" />
+    </FileSaveAs>
+    <ThisPCPage>
+      <lblCurrentFolder Text="目前資料夾" />
+      <lblRecentUsedFolders Text="最近使用的資料夾" />
+    </ThisPCPage>
+    <FilePrintForm Text="列印">
+      <lblPrint Text="列印" />
+      <btnPrint Text="列印" />
+      <lblCopies Text="複本" />
+      <btnPrintAsImgTip Text="" ToolTip="將PDF列印為圖片" />
+      <ckbPrintAsImg Text="列印為圖片" ToolTip="將PDF列印為圖片" />
+      <lblPrinter Text="印表機" />
+      <btnPrinterTip Text="" ToolTip="請選擇印表機" />
+      <cmbPrinter Text="" />
+      <lnkPrinterSetting Text="印表機設定" />
+      <lblQrientation Text="方向" />
+      <cmbQrientation>
+        <Items>縱向橫向</Items>
+      </cmbQrientation>
+      <lblColor Text="顏色" />
+      <cmbColor>
+        <Items>彩色灰色</Items>
+      </cmbColor>
+      <lblPageSize Text="紙張規格" />
+      <cmbPageSize Text="" />
+      <lblPageRange Text="頁面範圍" />
+      <cmbPageRange>
+        <Items>所有頁面
+目前頁面
+頁面範圍</Items>
+      </cmbPageRange>
+      <lblPages Text="頁面:" />
+      <txbPages Text="" ToolTip="某些頁面, 如: 1,3,4-8,9,11-19" />
+      <lblSubset Text="子集:" />
+      <ckbGrayPrint Text="灰度列印" />
+      <cmbSubset>
+        <Items>範圍中的所有頁面僅奇數頁僅偶數頁</Items>
+      </cmbSubset>
+      <ckbReversePages Text="逆頁序列印" />
+      <lblPrintMode Text="列印模式" />
+      <btnAdvancePrintMode ToolTip="更多設定" />
+      <ckbSelectPaper Text="根據PDF頁面大小選擇紙張來源" />
+      <filePrintPreview Text="filePrintPreview1" />
+      <btnSize Text="大小" />
+      <btnPoster Text="海報" />
+      <btnMultiple Text="多頁" />
+      <btnBooklet Text="小册子" />
+      <ckbAutoRotate Text="自動旋轉" />
+      <ckbAutoCenter Text="自動置中" />
+      <lblPrintWhat Text="列印內容" />
+      <lblPrintContent Text="列印內容" />
+      <lblPrintOption Text="列印選項" />
+      <btnPrintWhatTip Text="" ToolTip="請至少選擇一項" />
+      <ckbDocument Text="正文" />
+      <ckbComment Text="註解" />
+      <ckbForm Text="表單" />
+      <lblDocument Text="檔案" />
+      <lblDocumentInfo Text="11111111x11111111" />
+      <lblDocumentUnit Text="mm" />
+      <lblPaper Text="紙張" />
+      <lblPaperInfo Text="2222222222x2222222" />
+      <lblPaperUnit Text="mm" />
+      <lblScale Text="比例" />
+      <lblScaleInfo Text="333333333" />
+      <lblScalePercent Text="%" />
+    </FilePrintForm>
+    <PageRangeControl>
+      <lblPageRange Text="頁面範圍" />
+      <lblPages Text="頁面" />
+      <lblSubset Text="子集" />
+      <cmbPageRange>
+        <Items>列印全部頁面
+列印當前頁面
+列印自定義頁面範圍</Items>
+      </cmbPageRange>
+      <txbPages ToolTip="某些頁面，如：1,3,4-8,9,11-19">
+      </txbPages>
+      <cmbSubset>
+        <Items>所有頁面
+奇數頁面
+偶數頁面</Items>
+      </cmbSubset>
+    </PageRangeControl>
+    <SizePage>
+      <lblPrecent Text="%" />
+      <rbCustomScale Text="自訂比例" />
+      <rbActualSize Text="實際大小" />
+      <rbFit Text="適合" />
+      <ckbAutoCenter Text="自動居中" />
+      <ckbAutoRotate Text="自動旋轉" />
+    </SizePage>
+    <FilePrintPreview>
+      <pageTurn Text="pageTurnControl1">
+      </pageTurn>
+    </FilePrintPreview>
+    <PageTurnControl />
+    <PrintProgressForm Text="列印">
+      <btnCancel Text="取消" />
+      <lblPage Text="頁面" />
+      <lblslash Text="/" />
+    </PrintProgressForm>
+    <ProgressDialogForm Text="進展">
+      <btnCancel Text="取消" />
+      <lblTopDescritption Text="處理中..." />
+      <lblPercent Text="0%" />
+      <lblSuccessContent Text="處理成功" />
+      <lblSuccessTitle Text="處理成功" />
+      <btnSuccessOk Text="打開" />
+      <btnFailOk Text="確定" />
+      <lblFailTitle Text="處理失敗" />
+      <lblFailContent Text="處理失敗" />
+    </ProgressDialogForm>
+    <ProgressForm Text="進度">
+      <lblMsg Text="訊息" />
+    </ProgressForm>
+    <PropertiesForm>
+      <lblFormTitle Text="屬性" />
+      <btnDescription Text="描述" />
+      <btnInitialView Text="初始視圖" />
+      <btnSecurity Text="安全" />
+      <btnFonts Text="字體" />
+      <btnApply Text="套用" />
+      <btnCancel Text="取消" />
+    </PropertiesForm>
+    <PosterPage>
+      <lblTileScale Text="平鋪百分比" />
+      <lblPercent Text="%" />
+      <lblOverlap Text="重疊" />
+      <lblUnit Text="mm" />
+      <ckbCutMarks Text="裁剪標記" />
+      <ckbLabels Text="標籤" />
+      <ckbAutoCenter Text="自動置中" />
+      <ckbAutoRotate Text="自動旋轉" />
+    </PosterPage>
+    <MultiplePage>
+      <lblPagesPerSheet Text="每張紙列印的頁數" />
+      <lblX Text="x" />
+      <cmbPagePreSheet Text="">
+        <Items>2
+4
+6
+9
+16
+自定義...</Items>
+      </cmbPagePreSheet>
+      <lblX Text="x" />
+      <lblPageOrder Text="頁面順序" />
+      <cmbPageOrder Text="">
+        <Items>橫向
+橫向反序
+縱向
+縱向反序</Items>
+      </cmbPageOrder>
+      <ckbPrintPageBorder Text="列印頁面邊框" />
+      <ckbAutoCenter Text="自動置中" />
+      <ckbAutoRotate Text="自動旋轉" />
+    </MultiplePage>
+    <BookletPage>
+      <lblBookletSubset Text="小冊子子集" />
+      <cmbBookletSubset Text="">
+        <Items>雙面
+僅正面
+僅反面</Items>
+      </cmbBookletSubset>
+      <lblSheetsFrom Text="頁面, 從" />
+      <lblTo Text="到" />
+      <lblBinding Text="裝訂" />
+      <cmbBinding Text="">
+        <Items>左
+右</Items>
+      </cmbBinding>
+      <ckbAutoCenter Text="自動置中" />
+      <ckbAutoRotate Text="自動旋轉" />
+    </BookletPage>
+    <PreferencesForm Text="偏好設置">
+      <lblFormTitle Text="偏好設置" />
+      <btnGeneral Text="通用" />
+      <btnFont Text="字體" />
+      <btnOCR Text="OCR" />
+      <btnUpdate Text="更新" />
+      <btnProxy Text="代理" />
+      <btnPassword Text="密碼" />
+      <btnRedaction Text="密文" />
+      <btnCreateBlankPdf Text="空白PDF檔案" />
+      <btnShortcut Text="快捷方式" />
+      <btnLanguage Text="語言" />
+      <btnCancel Text="取消" />
+      <btnApply Text="套用" />
+    </PreferencesForm>
+    <GeneralPage Text="通用">
+      <lblRecentFilesList Text="最近使用的檔案列表" />
+      <lblDefaultPageLayout Text="預設排版" />
+      <lblDefaultZoom Text="預設縮放" />
+      <cbxDefaultZoom>
+        <!--"Automatic","Fit Width","Fit Height","Fit Page","10%","25%","50%","75%","100%","125%","150%","200%","400%","600%"-->
+        <Items>自動
+適合寬度
+適合高度
+適合頁面
+10%
+25%
+50%
+75%
+100%
+125%
+150%
+200%
+400%
+600%</Items>
+      </cbxDefaultZoom>
+      <cbHideMessageBar Text="永久隱藏檔案資訊欄" />
+      <cbCheckWordSpell Text="啟用單字拼寫檢查" />
+      <btnCustomDictionary Text="自訂字典" />
+      <lblSaveSetting Text="保存設置" />
+      <!--cbSaveSetting.Text 数字 lblSaveSettingMinutes.Text 会拼接成一个句子-->
+      <cbAutoSave Text="自動保存時間間隔" />
+      <lblAutoSaveMinutes Text="分鐘" />
+      <lblMeasurementUnits Text="測量單位" />
+      <rbInchs Text="英寸" />
+      <rbCentimeters Text="釐米" />
+      <rbMillimeters Text="毫米" />
+      <rbPoints Text="點" />
+      <rbPicas Text="皮卡" />
+    </GeneralPage>
+    <CustomDictionaryForm Text="自訂字典">
+      <lblWord Text="詞語" />
+      <lblDictionary Text="字典" />
+      <btnAdd Text="新增" />
+      <btnRemove Text="刪除" />
+      <btnRemoveAll Text="全部刪除" />
+      <txtWord />
+    </CustomDictionaryForm>
+    <FontPage Text="字體">
+      <lblEditTextFont Text="預設文本字體" />
+      <lblTextFont Text="字體" />
+      <lblTextSize Text="大小" />
+      <lblTextStyle Text="樣式" />
+      <cbxTextStyle>
+        <Items>普通</Items>
+      </cbxTextStyle>
+      <lblTextColor Text="顏色" />
+      <btnResetTextDefault Text="預設" />
+      <lblCommentBoxFont Text="預設註解文字方塊字體" />
+      <lblCommentFont Text="字體" />
+      <lblCommentSize Text="大小" />
+      <lblCommentStyle Text="樣式" />
+      <cbxCommentStyle>
+        <Items>普通</Items>
+      </cbxCommentStyle>
+      <lblCommentColor Text="顏色" />
+      <btnResetCommentDefault Text="預設" />
+    </FontPage>
+    <OcrPage Text="OCR">
+      <lblOcrMessage Text="對掃描的 PDF 檔案使用 OCR（光學字元辨識）功能後，您可以複製，編輯和搜尋文本" />
+      <lblRecognizelanguage Text="識別語言" />
+      <btnLanguageOver Text="超過三種語言會減慢識別速度" />
+      <fileListPanel FileTips="拖拽 PDF 檔案到此處" TaskName="OCR" />
+      <btnApply Text="套用" />
+      <gbOcrOption Text="OCR 選項" />
+      <btnOcrOptionTips Text="" ToolTip="可編輯文字：可以在OCR之後編輯PDF圖像中的文本。可搜索的文本：PDF圖像中的文本只能在OCR之後搜索。" />
+    </OcrPage>
+    <OptimizePage>
+      <fileListPanel FileTips="拖拽 PDF 檔案到此處" TaskName="壓縮">
+      </fileListPanel>
+      <btnApply Text="套用" />
+      <rdoHighCompression Text="高" ToolTip="高壓縮，低品質" />
+      <rdoMediumCompression Text="中" ToolTip="壓縮性好，品質好" />
+      <rdoLowCompression Text="低" ToolTip="低壓縮，高品質" />
+      <lblOutputFormat Text="壓縮選項" />
+    </OptimizePage>
+    <PasswordPage Text="OCR">
+      <lblPasswordDescription Text="打開任何加密的檔案時，PDFelement都會嘗試使用您在下面設定的密碼來解鎖它們。" />
+      <lblPassword1 Text="密碼1" />
+      <lblPassword2 Text="密碼2" />
+      <lblPassword3 Text="密碼3" />
+      <ckbAutoUnlock Text="永久使用上面的密碼自動解鎖檔案" />
+    </PasswordPage>
+    <UpdatePage Text="更新">
+      <lblUpdatesAutomatically Text="自動檢查更新" />
+      <cbxUpdatesAutomatically>
+        <!--"Every day","Every week","Every month","Every quarter","Every year","Turn off automatic updates"-->
+        <Items>每天
+每週
+每月
+每季度
+每年
+關閉自動更新</Items>
+      </cbxUpdatesAutomatically>
+    </UpdatePage>
+    <LanguagePage>
+      <lblDisplayLanguage Text="顯示語言：" />
+      <lblRestartTip Text="* 此設置在重啟後生效。" />
+    </LanguagePage>
+    <SecurityTemplateForm Text="新建安全範本">
+      <btnSave Text="保存" />
+      <btnCancel Text="取消" />
+      <ckbOpenPassword Text="打開密碼" />
+      <ckbPermissionPassword Text="許可權密碼" />
+      <lblPrintPermission Text="印刷許可" />
+      <lblChangesPermission Text="變更許可權" />
+      <ckbEnableCopy Text="啟用文字、圖像和其他內容的複製" />
+      <lblEncryptionLevel Text="加密等級" />
+      <rdo128AES Text="128位AES" />
+      <rdo256AES Text="256位AES" />
+      <rdo128RC4 Text="128位RC4" />
+      <lblTemplateName Text="名稱&lt;Font color=&quot;red&quot;&gt;*&lt;/Font&gt;" />
+      <lblTemplateDuplicate Text="具有相同名稱的範本已經存在。" />
+      <txtOpenPassword PlaceHolderText="輸入密碼">
+      </txtOpenPassword>
+      <txtPermissionPassword PlaceHolderText="輸入密碼">
+      </txtPermissionPassword>
+      <txtTemplateName PlaceHolderText="請輸入範本名稱" />
+      <lblPasswordTips Text="開啟密碼和許可密碼必須不同。" />
+    </SecurityTemplateForm>
+    <ScanMorePagesForm Text="掃描">
+      <btnYes Text="是" />
+      <rbComplete Text="掃描完成" />
+      <rbMorePages Text="掃描更多頁面（第2頁）" />
+      <rbReverseSides Text="掃描反面（紙張1的反面）" />
+    </ScanMorePagesForm>
+    <ScannerForm Text="掃描">
+      <cbPDFA Text="使其符合PDF/A-2b規範" />
+      <cbOCR Text="文本識別（OCR）" />
+      <cbbPreSet>
+        <Items>請選擇一個掃描器</Items>
+      </cbbPreSet>
+      <lbOptimize Text="壓縮掃描的PDF" />
+      <btnOK Text="掃描" />
+      <btnCancel Text="取消" />
+      <lblScanner Text="掃描機" />
+      <cbbScanner>
+        <Items>請選擇一個掃描機</Items>
+      </cbbScanner>
+      <cbShowScannerUI Text="顯示掃描機的使用介面" />
+      <btnSaveSetting Text="儲存設置" />
+      <cbbPages>
+        <Items>正面
+雙面</Items>
+      </cbbPages>
+      <lbPages Text="頁面:" />
+      <btnDefault Text="恢復預設值" />
+      <lbHeightTitle Text="高度：" />
+      <lbWidthTitle Text="寬度：" />
+      <cbbColorMode>
+        <Items>自動檢測
+彩色
+灰度
+黑白</Items>
+      </cbbColorMode>
+      <lbSanUsing Text="掃描參數" />
+      <lbColorMode Text="彩色模式：" />
+      <cbbResolution>
+        <Items>75 DPI
+100 DPI
+200 DPI
+300 DPI
+600 DPI
+1200 DPI</Items>
+      </cbbResolution>
+      <lbResolution Text="解析度：" />
+      <lbPaperSize Text="頁面大小：" />
+    </ScannerForm>
+    <OcrMiniForm>
+      <lblPercent Text="0%" />
+    </OcrMiniForm>
+    <OcrProcessProgressForm Text="OCR外掛程式下載">
+      <btnCancel Text="取消" />
+      <lblTopDescritption Text="正在下載OCR ...請稍候" />
+      <lblPercent Text="0%" />
+      <btnHide Text="隱藏" />
+      <lblBottomDescription Text="正在安裝" />
+      <imgDownloadFail ToolTip="下載失敗，請檢查您的網路" />
+      <btnRetry Text="重試" />
+    </OcrProcessProgressForm>
+    <SupportRemoveListItem>
+      <lblItemText Text="專案文字" />
+    </SupportRemoveListItem>
+    <ScanForm Text="掃描">
+      <ckbPDFA Text="使其符合PDF/A-2b規範" />
+      <ckbOCR Text="文本識別（OCR）" />
+      <lblOptimize Text="壓縮掃描的PDF" />
+      <btnOK Text="掃描" />
+      <btnCancel Text="取消" />
+      <lblScanner Text="掃描機" />
+      <cmbScanner>
+        <Items>請選擇一個掃描機</Items>
+      </cmbScanner>
+      <ckbShowScannerUI Text="顯示掃描機的使用介面" />
+      <lblPages Text="頁面:" />
+      <lblHeightTitle Text="高度：" />
+      <lblWidthTitle Text="寬度：" />
+      <lblScanUsing Text="掃描參數" />
+      <lblColorMode Text="彩色模式：" />
+      <lblResolution Text="解析度：" />
+      <btnDefault Text="恢復預設值" />
+      <btnSaveSetting Text="儲存設置" />
+      <lblPaperSize Text="頁面大小：" />
+    </ScanForm>
+    <CrashReportForm Text="崩潰報告">
+      <btnCancel Text="取消" />
+      <btnSubmit Text="提交" />
+      <lblAttachments Text="附件內容：" />
+      <lblHelp Text="如果方便的話，替換PDF文件發送給我們，這將幫助我們調查問題並提供解決方案。" />
+      <lblThankYou Text="很抱歉給您帶來不便！" />
+      <btnEditEmail Text="編輯郵箱" />
+      <lblAttachLogDesc Text="系統故障報告對於幫助我們分析問題非常重要。沒有這個，就很難解決問題。" />
+      <btnAddFile Text="新增文件" />
+      <rbSuggest Text="建議" />
+      <rbBug Text="缺陷" />
+      <rbComment Text="評論" />
+      <txtDescription Text="" PlaceHolderText="描述..." />
+      <txtUserEmail Text="" PlaceHolderText="輸入郵箱" />
+      <btnEmailOK Text="OK" />
+      <cbAddLogs Text="附加日誌文件（必填）" />
+    </CrashReportForm>
+    <FeedbackForm Text="用戶反饋">
+      <lblTitle Text="感謝您與我們聯繫！" />
+      <lblEMail Text="電子郵件:" />
+      <lblHelp Text="如果方便的話，替換PDF文件發送給我們，這將幫助我們調查問題並提供解決方案。" />
+      <lblDescription Text="描述:" />
+      <lnklblOptions Text="附件" />
+      <lblThankYou Text="感謝您聯繫我們！" />
+      <txtUserEmail PlaceHolderText="輸入郵箱" />
+      <btnEmailOK Text="OK" />
+      <btnEditEmail Text="編輯郵箱" />
+      <txtDescription PlaceHolderText="在此處輸入您的反饋！" />
+      <btnCancel Text="取消" />
+      <rbBug Text="缺陷" />
+      <rbComment Text="評論" />
+      <rbSuggest Text="建議" />
+      <btnSubmit Text="提交" />
+      <lblAttachments Text="附件內容：" />
+      <lblAttachPdfDesc Text="如果您方便，請把 PDF 檔發送給我們這將有助於我們重現問題並提供解決方案" />
+      <cbAttachLogFile Text="附加日誌檔" />
+      <cbAttachPdfFile Text="附加 PDF 檔（建議）" />
+      <lblAttachLogDesc Text="系統故障報告對於幫助我們分析問題非常重要。沒有這個，就很難理解故障原因。" />
+      <btnAddFile Text="新增文件" />
+      <lblTitleDesc Text="請在下面提交您的要求或建議" />
+    </FeedbackForm>
+    <TrialPurchaseTipForm>
+      <btnContinue Text="繼續嘗試" />
+      <btnBuy Text="購買" />
+      <lblTitle Text="訂閱許可權" />
+      <llblLogin Text="登入" />
+    </TrialPurchaseTipForm>
+    <TrialNoAuthPage>
+      <lblTitleWatermark Text="保存沒有試用浮水印的檔案" />
+      <lblDescWatermark Text="試用版保存帶有試用浮水印的檔案" />
+      <lblTitlePageLimit Text="轉換後的檔案沒有檔案限制" />
+      <lblDescPageLimit Text="試用版可將檔案限制為5頁" />
+      <lblTitleOcr Text="支援檔案以執行OCR文本識別" />
+      <lblDescOcr Text="試用版不支援使用OCR功能" />
+      <lblTitleDataExtraction Text="批次數據截取沒有頁面限制" />
+      <lblDescDataExtraction Text="批次數據截取的試用版最多限制為2個檔案" />
+      <lblTitleSupportXFA Text="支持對 XFA 文檔表單的填寫" />
+      <lblNote Text="註：試用版不支持以上特性" />
+    </TrialNoAuthPage>
+    <TrialStdAuthPage>
+      <lblTitleOcr Text="支援檔案以執行OCR文本識別" />
+      <lblDescOcr Text="標準版不支持使用OCR功能" />
+      <lblTitleOptimize Text="優化檔案以减小文件大小" />
+      <lblDescOptimize Text="標準版本不支持優化檔案" />
+      <lblTitleRedaction Text="編輯檔案以永久删除敏感文字或圖形" />
+      <lblDescRedaction Text="標準版本不支持使用編校功能" />
+      <lblTitleFormExtract Text="從檔案表單選取數據" />
+      <lblDescFormExtract Text="標準版本不支持使用選取數據功能" />
+      <lblTitleSupportXFA Text="支持對 XFA 文檔表單的填寫" />
+      <lblNote Text="註：標準版不支持以上特性" />
+    </TrialStdAuthPage>
+    <NewVersionNoteForm>
+      <btnBuy Text="購買" />
+      <btnInstallVersion7 Text="安裝版本7" />
+      <lblInstalled Text="You have installed the completely new version 8 of PDFelement." />
+      <lblHelper Text="PDFelement 8 is faster and more powerful to help you work on PDF documents." />
+      <lblLicense Text="You will get the perpetual license of PDFelement 8 Pro." />
+      <lblOnly Text="Only" />
+    </NewVersionNoteForm>
+    <TrialTipsForm>
+      <lblTitle Text="訂閱許可權" />
+      <lblDescWatermark Text="試用版保存帶有試用浮水印的檔案" />
+      <lblTitleWatermark Text="保存沒有試用浮水印的檔案" />
+      <lblDescPageLimit Text="試用版可將檔案限制為5頁" />
+      <lblTitlePageLimit Text="轉換後的檔案沒有檔案限制" />
+      <lblDescOcr Text="試用版不支援使用OCR功能" />
+      <lblTitleOcr Text="支援檔案以執行OCR文本識別" />
+      <lblDescDataExtraction Text="試用版僅限於2個檔案的資料擷取" />
+      <lblTitleDataExtraction Text="批次數據截取沒有頁面限制" />
+      <btnBuy Text="購買" />
+      <btnContinue Text="繼續嘗試" />
+    </TrialTipsForm>
+    <UpdateIsPayPage>
+      <labMessage Text="付款完成了嗎？" />
+      <btnLeftBottom Text="否" />
+      <btnRightBottom Text="是" />
+      <lblTitle Text="付款完成了嗎？" />
+    </UpdateIsPayPage>
+    <UpdatePayNotCompletePage>
+      <labMessage Text="您的付款似乎尚未完成。&#xA;如果您已經購買，請按一下“更新”以獲取PDFelement的授權。" />
+      <btnLeftBottom Text="取消" />
+      <btnRightBottom Text="更新" />
+      <lblTitle Text="看來您的付款尚未完成。" />
+      <lblMessage Text="如果您已經購買，請單擊“刷新”以獲取PDFelement 8 Pro的永久許可。" />
+    </UpdatePayNotCompletePage>
+    <UpdatePaySuccessfulPage>
+      <labMessage Text="購買成功！您現在擁有PDFelement的永久授權。" />
+      <btnRightBottom Text="確定" />
+      <lblTitle Text="購買成功。" />
+      <lblMessage Text="您現在擁有PDFelement 8 Pro的永久許可。" />
+    </UpdatePaySuccessfulPage>
+    <UpdateReLoginPage>
+      <labMessage Text="似乎網路狀態不穩定。請退出並再次登入，以啟動您的PDFelement的永久授權。" />
+      <btnLeftBottom Text="取消" />
+      <btnRightBottom Text="登出" />
+      <lblTitle Text="似乎網絡狀態不穩定。" />
+      <lblMessage Text="請註銷並再次登錄，以獲取您的PDFelement 8 Pro永久許可證。" />
+    </UpdateReLoginPage>
+    <BuyPage>
+      <gLabel1 Text="支付寶/微信掃碼支付" />
+      <labPayWait Text="支付中…" />
+      <lbPayTip Text="您已支付成功!" />
+      <gLabel2 Text="支付金額：" />
+      <lbpaiedName Text="PDFelement-3個月標準版" />
+      <gLabel3 Text="建立時間：" />
+      <lbpaiedCreateDate Text="2019-06-06" />
+      <gLabel4 Text="交易訂單：" />
+      <lbpaiedOrderId Text="123456789" />
+      <gLabel5 Text="物品：" />
+      <lbpaiedPrice Text="￥199" />
+    </BuyPage>
+    <PriceForm />
+    <PriceItem>
+      <labPrice Text="399" />
+      <labTime Text="gLabel3" />
+      <labTip Text="gLabel" />
+      <gLabel2 Text="NT$" />
+      <gLabel3 Text="NT$" />
+    </PriceItem>
+    <PricePage>
+      <lbMoney Text="0" />
+      <gLabel1 Text="共計：" />
+      <gLabel3 Text="NT$" />
+      <btnPro Text="專業版" />
+      <btnStd Text="標準版" />
+      <btnBuy Text="購買" />
+      <gLabel2 Text="歡迎購買PDFelement！" />
+      <gLabel5 Text="請檢查您的網路連接狀況後重新下載！" />
+      <gLabel4 Text="資訊下載失敗！" />
+      <btnReload Text="重新下載" />
+    </PricePage>
+    <DeviceExceedLimitPage>
+      <lblTitle Text="設備數量超過限制" />
+      <gLabel2 Text="升級您的帳戶以接收更多可用設備，或刪除以下設備之一以登入到目前使用設備。" />
+      <gHeaderItem1 Text="設備名稱" />
+      <gHeaderItem2 Text="狀態" />
+      <btnUpgrade Text="升級" />
+      <llblRefresh Text="如果您已經升級，請按一下&lt;a&gt;更新&lt;/a&gt;" />
+    </DeviceExceedLimitPage>
+    <DeviceListViewItem>
+      <rbMac Text="MAC地址" />
+      <btnUnbind Text="解開" />
+    </DeviceListViewItem>
+    <LabelErrorPanel>
+      <lblErrorTip Text="lblErrorTip" />
+    </LabelErrorPanel>
+    <LoginAccountPage>
+      <btnNext Text="下一步" />
+      <lblSignin Text="登入到您的Wondershare ID" />
+      <lblCreateAccount Text="沒有Wondershare ID？ &lt;a&gt;新建帳戶&lt;/a&gt;" />
+      <lblAccountError Text="請輸入正確的電子郵寄。" />
+      <txtAccount PlaceHolderText="電子郵寄" />
+      <gLabel1 Text="其他登入方式" />
+      <labLoginStyle Text="微信掃碼登入" />
+    </LoginAccountPage>
+    <LoginPwdPage>
+      <btnLogin Text="登入" />
+      <lblSignAnotherAccount Text="登入其他帳戶" />
+      <lblForgetPwd Text="忘記密碼？" />
+      <lblEnterPassword Text="輸入密碼" />
+      <lblAccountTip Text="電子郵件：" />
+      <lblAccount Text="dour@wondershare.cn" />
+      <lblPasswordError Text="密碼不能為空白" />
+      <txtPassword PlaceHolderText="密碼">
+      </txtPassword>
+    </LoginPwdPage>
+    <LoginRegisterForm />
+    <ProxySettingPage>
+      <rbtnNoProxy Text="不使用代理伺服器" />
+      <rbtnIEProxy Text="使用IE代理設置" />
+      <rbtnCustomProxy Text="使用自訂代理設定" />
+      <lblHost Text="Host" />
+      <lblUserName Text="用戶名稱" />
+      <lblPort Text="埠" />
+      <lblPassword Text="密碼" />
+      <btnTest Text="測試" />
+      <lblProxyOptions Text="代理伺服器設定" />
+      <btnReturn Text="返回" />
+    </ProxySettingPage>
+    <QRCodeLoginControl>
+      <lblQrCodeLoadFaild Text="二維碼載入失敗！" />
+      <gLabel3 Text="請檢查您的網路連接狀況後重新下載！" />
+      <btnReload Text="重新載入" />
+      <gLabel1 Text="微信掃碼，關注公眾號即可註冊登入" />
+    </QRCodeLoginControl>
+    <QRCodeLoginPage>
+      <gLabel1 Text="其他登入方式" />
+      <labLoginStyle Text="萬興帳號登入" />
+      <qrCodeCtrl Text="qrCodePanel1">
+      </qrCodeCtrl>
+    </QRCodeLoginPage>
+    <RegisterAccountPwdPage>
+      <btnRegister Text="新建帳號" />
+      <lblToLogin Text="返回登入" />
+      <lblAccountError Text="請輸入正確的電子郵寄" />
+      <lblAccount Text="&lt;Font color=&quot;#FF4F4F&quot;&gt;*&lt;/Font&gt;請輸入您的電子郵件" />
+      <lblPassword Text="&lt;Font color=&quot;#FF4F4F&quot;&gt;*&lt;/Font&gt;密碼" />
+      <lblPasswordError Text="密碼必須包含字母和數位，長度為6到32位，特殊字元不允許使用（~！@#$%^&amp;amp；*（）+=-{}）。" />
+      <txtFirstName PlaceHolderText="名字" />
+      <txtLastName PlaceHolderText="姓" />
+      <lblAgreement Text="&lt;div style=&quot;text-align:center&quot;&gt;按一下“新建帳戶”，我同意我已閱讀並接受&lt;a href=&quot;TermUrl&quot;&gt;使用條款&lt;/a&gt;和&lt;a href=&quot;PrivacyUrl&quot;&gt;隱私政策&lt;/a&gt;。&lt;/ div&gt;" />
+      <lblCountry Text="&lt;Font color=&quot;#FF4F4F&quot;&gt;*&lt;/Font&gt;國家" />
+      <lblCountryError Text="請選擇國家" />
+      <lblCreateAccount Text="新建Wondershare ID" />
+    </RegisterAccountPwdPage>
+    <RegisterCodePage>
+      <lblVerifyIdentity Text="驗證您的身份" />
+      <lblSendAccountCode Text="輸入發送的代碼" />
+      <lblSendAccount Text="morg@wondershare.cn" />
+      <btnRegister Text="驗證碼" />
+      <lblNotReceiveCode Text="沒有收到驗證碼嗎？" />
+      <lblSignAnotherAccount Text="返回登入" />
+      <lblBack Text="返回" />
+    </RegisterCodePage>
+    <UserCenterControl>
+      <lblUserCenter Text="用户中心" />
+      <lblEmail Text="morg@wondershare.cn" />
+      <btnExit Text="退出登录" />
+    </UserCenterControl>
+    <UserCenterAuthInfoControl>
+      <btnExpirationDate Text="过期日期：" />
+      <btnDeviceNumber Text="总设备数：" />
+    </UserCenterAuthInfoControl>
+    <UserCenterProfessionalPage>
+    </UserCenterProfessionalPage>
+    <UserCenterStandradPage>
+    </UserCenterStandradPage>
+    <UserCenterTrailPage>
+      <lblPermissions Text="订阅权限" />
+      <btnWatermark Text="保存沒有試用浮水印的檔案" />
+      <btnPageLimited Text="无限量转换文档" />
+      <btnOcr Text="OCR光学识别" />
+    </UserCenterTrailPage>
+    <ToolboxMainForm>
+      <lblBatchProcess Text="批次處理" />
+      <btnConvert Text="轉換" />
+      <btnCreate Text="新建" />
+      <btnOptimize Text="壓縮" />
+      <btnOcr Text="OCR" />
+      <btnBatesNumber Text="貝茨碼" />
+      <btnWatermark Text="浮水印" />
+      <btnSecurity Text="安全" />
+      <btnDataExtract Text="數據截取" />
+      <btnBatchPrint Text="批量列印" />
+    </ToolboxMainForm>
+    <BackgroundPage>
+      <btnApply Text="套用" />
+      <fileListPanel FileTips="拖拽 PDF 檔案到此處" TaskName="背景">
+      </fileListPanel>
+    </BackgroundPage>
+    <BaseTaskPage>
+      <btnApply Text="套用" />
+    </BaseTaskPage>
+    <BatchPrintPage>
+      <fileListPanel FileTips="拖拽 PDF 檔案到此處" TaskName="批量列印">
+      </fileListPanel>
+      <btnApply Text="套用" />
+      <btnMoreSettings Text="更多設定" />
+    </BatchPrintPage>
+    <BatesNumberPage>
+      <fileListPanel FileTips="拖拽 PDF 檔案到此處" TaskName="貝茨碼">
+      </fileListPanel>
+      <btnApply Text="套用" />
+      <ckbSortDocument Text="檔案排序" />
+    </BatesNumberPage>
+    <ConvertPage>
+      <fileListPanel FileTips="拖拽 PDF 檔案到此處" TaskName="轉換">
+      </fileListPanel>
+      <btnApply Text="套用" />
+      <gbOutputFormat Text="輸出格式" />
+    </ConvertPage>
+    <CreatePage>
+      <fileListPanel FileTips="拖拽文件到此處" TaskName="新建">
+      </fileListPanel>
+      <btnApply Text="套用" />
+      <lblOutputFormat Text="輸出格式" />
+      <lblPdf Text="PDF(*.pdf)" />
+    </CreatePage>
+    <DataExtractPage>
+      <fileListPanel FileTips="拖拽 PDF 檔案到此處" TaskName="數據截取" Text="">
+      </fileListPanel>
+      <btnApply Text="套用" />
+      <rdoFromMarkedPdf Text="從標注的PDF檔案截取數據" />
+      <rdoFromFields Text="從表單裡面截取數據" />
+      <multipleTemplatePanel TemplateTips="請先創建範本。&#xD;&#xA;注意：範本是通過在PDF中設定數據截取欄位來創建的。">
+      </multipleTemplatePanel>
+      <lblTemplateTips Text="注意：來自欄位的PDF中的資料將被提取到CSV檔案中" />
+    </DataExtractPage>
+    <HeaderFooterPage>
+      <fileListPanel FileTips="拖拽 PDF 檔案到此處" TaskName="頁首&amp;頁尾">
+      </fileListPanel>
+      <btnApply Text="套用" />
+    </HeaderFooterPage>
+    <ProxyPage Text="代理">
+      <lblProxyOptions Text="代理選項" />
+      <rbtnIEProxy Text="使用IE代理設置" />
+      <rbtnCustomProxy Text="使用自訂代理設置" />
+      <rbNoProxy Text="不使用代理伺服器" />
+      <rbIEProxy Text="使用IE代理設置" />
+      <rbCustomProxy Text="使用自訂代理設定" />
+      <lblHost Text="主機" />
+      <lblUserName Text="用戶名" />
+      <lblPort Text="埠" />
+      <lblPassword Text="密碼" />
+      <txtHost />
+      <txtUserName />
+      <txtPort />
+      <txtPassword />
+      <btnTestConnection Text="測試連接" />
+      <rbtnNoProxy Text="不使用代理伺服器" />
+    </ProxyPage>
+    <RedactionPage>
+      <lblEditCodeText Text="編輯文字字型" />
+      <btnAddSet Text="新增代碼集" />
+      <txbSet />
+      <lblCodeSets Text="代碼集" />
+      <btnRemoveSet Text="刪除代碼集" />
+      <btnAddEntry Text="新增代碼" />
+      <btnRemoveEntry Text="刪除代碼" />
+      <txbEntry />
+      <lblCodeEntries Text="代碼項" />
+    </RedactionPage>
+    <HotKeyPage Text="快捷方式">
+      <hiDescription Text="說明" />
+      <hiShortcutKey Text="快捷鍵" />
+    </HotKeyPage>
+    <UrlEditorForm Text="打開網址連結">
+      <lblEnterURL Text="輸入網址連結" />
+      <btnOK Text="確定" />
+      <btnCancel Text="取消" />
+      <lblEnterUrl Text="輸入網址連結" />
+    </UrlEditorForm>
+    <CalculationOrderForm Text="計算順序">
+      <btnOK Text="確定" />
+      <btnCancel Text="取消" />
+      <lblSelectFieldText Text="表單欄位" />
+      <btnUp Text="向上" />
+      <btnDown Text="向下" />
+    </CalculationOrderForm>
+    <LaunchFileForm Text="開機檔案">
+      <chbxShow Text="不再顯示該資訊" />
+      <btnOpen Text="打開" />
+      <btnNoOpen Text="不要打開" />
+      <lblFilePath Text="檔案路徑:" />
+    </LaunchFileForm>
+    <ButtonIconPlacementForm Text="圖示位置">
+      <lblWhenToScale Text="適用範圍：" />
+      <lblScale Text="比例：" />
+      <cbFitBounds Text="適用範圍" />
+      <lblButton Text="按鈕" />
+      <lblIcon Text="圖示" />
+      <lblUse Text="使用此對話框更改圖標進行縮放以適合做按鈕的方式" />
+      <btnReset Text="重新設定" />
+      <btnOK Text="確定" />
+      <btnCancel Text="取消" />
+      <lblLocation Text="(100,100)" />
+    </ButtonIconPlacementForm>
+    <FieldPropertyForm>
+      <lblFormTitle Text="屬性" />
+      <btnGeneral Text="常規" />
+      <btnAppearance Text="外觀" />
+      <btnPosition Text="位置" />
+      <btnTextBoxOtpion Text="選項" />
+      <btnCheckBoxOption Text="選項" />
+      <btnRadioBoxOption Text="選項" />
+      <btnListBoxOption Text="選項" />
+      <btnComboBoxOption Text="選項" />
+      <btnButtonOption Text="選項" />
+      <btnActions Text="動作" />
+      <btnSelectionChange Text="選擇變化" />
+      <btnSigned Text="已簽章" />
+      <btnFormat Text="格式" />
+      <btnValidate Text="驗證" />
+      <btnCalculate Text="計算" />
+      <btnClose Text="關閉" />
+      <cbLocked Text="鎖定" />
+    </FieldPropertyForm>
+    <ActionSettingPanel>
+      <lblSelectTrigger Text="選擇觸發：" />
+      <lblSelectAction Text="選擇動作：" />
+      <btnUp Text="向上" />
+      <btnDown Text="向下" />
+      <btnEdit Text="編輯" />
+      <btnDelete Text="刪除" />
+      <lblAddAction Text="增加一個動作" />
+      <lblActions Text="動作" />
+      <btnAdd Text="新增" />
+    </ActionSettingPanel>
+    <AppearancePropertyPanel>
+      <lblBorderColor Text="邊框顏色" />
+      <lblFillColor Text="顏色填充" />
+      <lblLineThickness Text="線的粗細" />
+      <lblLineStyle Text="線型" />
+      <lblFontSize Text="大小" />
+      <lblTextColor Text="文字顏色" />
+      <lblFont Text="字體" />
+      <gLabel1 Text="邊框和顏色" />
+      <gLabel2 Text="文本" />
+      <gLabel3 Text="風格" />
+    </AppearancePropertyPanel>
+    <ButtonOptionPropertyPanel>
+      <lblLayout Text="排版" />
+      <lblBehavior Text="行為" />
+      <btnAdvanced Text="高級" />
+      <lblState Text="狀態" />
+      <lblLabel Text="標籤" />
+      <lblIcon Text="圖示" />
+      <btnChooseIcon Text="選擇圖示" />
+      <btnClear Text="清除" />
+    </ButtonOptionPropertyPanel>
+    <CalculatePropertyPanel>
+      <rbValueNotCalculated Text="計算值" />
+      <rbValueIs Text="值是" />
+      <lblFollowingField Text="下列欄位：" />
+      <btnPick Text="選擇" />
+      <lblCustomCalculateWarning Text="重新計算值時，原始值將被刪除，將無法恢復。" />
+      <rbRunCalculate Text="啟動自訂計算腳本" />
+      <rbSimplifiedFieldNotation Text="簡化域標記法" />
+      <btnSimplifiedFieldNotationEdit Text="編輯" />
+    </CalculatePropertyPanel>
+    <CheckBoxOptionPropertyPanel>
+      <lblCheckboxStyle Text="核取方塊樣式" />
+      <lblCheckboxExportValue Text="匯出值" />
+      <cbDefaultChecked Text="預設情況下選中此核取方塊" />
+      <lblCheckboxOptionInfo Text="核取方塊應用於新建專案列表，可以一次選擇一個或多個專案。要列出只能選擇一個項目的項目列表，請使用選項按鈕欄位。" />
+    </CheckBoxOptionPropertyPanel>
+    <ComboBoxOptionPropertyPanel BaseType="ListOptionPropertyPanelBase">
+      <cbAllowEnterText Text="允許使用者輸入自訂文字" />
+      <cbCommit Text="立即輸入所選值" />
+    </ComboBoxOptionPropertyPanel>
+    <FormatPropertyPanel>
+      <lblSelectFormat Text="選擇格式類別：" />
+    </FormatPropertyPanel>
+    <CustomFormatSettingPanel>
+      <lblOptions Text="自訂選項" />
+      <btnCustomKeystrokeEdit Text="編輯" />
+      <lblCustomKeystrokeScript Text="自訂按鍵腳本：" />
+      <btnCustomFormatEdit Text="編輯" />
+      <lblCustomFormat Text="自訂格式腳本：" />
+      <lblCustom Text="能夠為自訂格式和敲鍵驗證定義Javascript" />
+    </CustomFormatSettingPanel>
+    <DateFormatSettingPanel>
+      <lblDateExample Text="目前格式範例" />
+      <lblDate Text="使用日期格式類別僅顯示日期或日期和時間值。使用時間格式類別僅顯示時間。" />
+      <lblOptions Text="日期選項" />
+    </DateFormatSettingPanel>
+    <NoneFormatSettingPanel>
+      <gLabelNone Text="欄位值將按照輸入的格式進行格式化。要自動格式化欄位，請從“格式化類別”列表中選擇一種格式。" />
+    </NoneFormatSettingPanel>
+    <NumberFormatSettingPanel>
+      <lblDecimalPlaces Text="小數位數" />
+      <lblSeparatorStyle Text="分隔符號樣式" />
+      <lblCurrencySymbol Text="貨幣符號" />
+      <lblNegativeNumberStyle Text="負數樣式" />
+      <lblExample Text="目前格式範例" />
+      <cbbDecimalPlaces>
+        <Items>0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10</Items>
+      </cbbDecimalPlaces>
+      <cbShowParentheses Text="顯示括弧" />
+      <cbUseRedText Text="使用紅色文字" />
+      <lblShowExample Text="-4,123.03" />
+      <lblNumber Text="使用數位格式類別顯示數位，包括貨幣樣式" />
+      <lblNumberOptions Text="數位選項" />
+    </NumberFormatSettingPanel>
+    <PercentFormatSettingPanel>
+      <lblPercentage Text="百分比格式類別將欄位值乘以100並顯示百分比符號" />
+      <lblPercentageDecimal Text="小數位數" />
+      <cbbPercentageDecimal>
+        <Items>0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10</Items>
+      </cbbPercentageDecimal>
+      <lblSeparator Text="分隔符號樣式" />
+      <lblPercantageShowExample Text="1,234.56%" />
+      <lblPercantageExample Text="當前格式示例" />
+      <lblOptions Text="百分比選項" />
+    </PercentFormatSettingPanel>
+    <SpecialFormatSettingPanel>
+      <lblOptions Text="特殊選項" />
+      <lblSpecial Text="使用“特殊格式”類別可以設置自訂格式並顯示電話號碼，郵遞區號和社會保險" />
+    </SpecialFormatSettingPanel>
+    <TimeFormatSettingPanel>
+      <lblTimeExample Text="目前格式範例" />
+      <lblTime Text="使用時間格式類別僅顯示時間值" />
+      <lblOptions Text="時間選擇" />
+    </TimeFormatSettingPanel>
+    <GeneralPropertyPanel>
+      <lblName Text="名稱" />
+      <lblTooltip Text="工具提示" />
+      <lblFormField Text="表單欄位：" />
+      <cbReadOnly Text="唯讀" />
+      <cbRequired Text="要求" />
+      <gLabel1 Text="共同屬性" />
+    </GeneralPropertyPanel>
+    <ListBoxOptionPropertyPanel BaseType="ListOptionPropertyPanelBase">
+      <cbCommit Text="立即輸入所選值" />
+      <cbMultipleSelection Text="多重選擇" />
+    </ListBoxOptionPropertyPanel>
+    <ListOptionPropertyPanelBase>
+      <lblItem Text="項目" />
+      <lblExportValue Text="导出值" />
+      <lblItemList Text="專案清單" />
+      <btnItemAdd Text="新增" />
+      <btnDeleteItemList Text="刪除" />
+      <btnUpItemList Text="向上" />
+      <btnDownItemList Text="向下" />
+      <cbSortItem Text="分類專案" />
+      <lblListOptionInfo Text="在列表中選擇一個項目使其成為預設選擇。" />
+    </ListOptionPropertyPanelBase>
+    <PositionlPropertyPanel>
+      <gGroupBoxCommonProperties Text="位置">
+      </gGroupBoxCommonProperties>
+      <gLabel1 Text="左對齊：" />
+      <gLabel2 Text="右對齊：" />
+      <gLabel3 Text="頂部對齊：" />
+      <gLabel4 Text="底部對齊：" />
+      <gLabel5 Text="寬度：" />
+      <gLabel7 Text="高度：" />
+      <cbChangeSize Text="改變位置的時候不修改寬度和高度" />
+    </PositionlPropertyPanel>
+    <RadioBoxOptionPropertyPanel>
+      <lblRadiobuttonOptionInfo Text="要新建一組互斥的選項按鈕（即一次只能選擇一個），請為欄位指定相同的名稱，但為它們分配不同的按鈕選擇。" />
+      <cbSameChoiceSelect Text="同時選擇具有相同名稱和按鈕選擇的按鈕" />
+      <cbChecked Text="按鈕為預設中所指定的" />
+      <lblRadioButtonChoice Text="選項按鈕選擇" />
+      <lblButtonStyle Text="按鈕樣式" />
+    </RadioBoxOptionPropertyPanel>
+    <SelectionChangePropertyPanel>
+      <lblSelectionChanges Text="當清單方塊選擇更改時：" />
+      <rbDoNothing Text="什麼也不做" />
+      <rbExecuteScript Text="執行這個腳本：" />
+      <btnSelectionChangeScriptEdit Text="編輯" />
+      <lblWarning4 Text="選擇更改的自訂內容如果您選擇“不做任何事”，將刪除原來的腳本，你無法恢復它" />
+    </SelectionChangePropertyPanel>
+    <SignedPropertyPanel>
+      <rbNothingHappen Text="簽名時沒有發生任何事情" />
+      <rbMarkReadOnly Text="標記為唯讀：" />
+      <rbSignScriptExecute Text="啟動自訂腳本" />
+      <btnSignedPick Text="選擇" />
+      <btnSignScriptExecute Text="編輯" />
+      <lblSignedWarning Text="存在用於簽名的自訂腳本。如果切換到任何其他操作，原始腳本將被刪除並且無法還原。" />
+    </SignedPropertyPanel>
+    <TextBoxOptionPropertyPanel>
+      <lblCharacters2 Text="字元" />
+      <cbCombOf Text="組合" />
+      <cbCheckSpell Text="拼寫檢查" />
+      <cbPassword Text="密碼" />
+      <lblCharacters Text="字元" />
+      <cbLimitOf Text="限制" />
+      <cbScrollLongText Text="滑動長文本" />
+      <cbMultiLine Text="多行" />
+      <gLabelDefaultValue Text="預設值" />
+      <gLabelAlignment Text="對齊" />
+      <cbFieldIsUse Text="欄位用於文件選擇" />
+    </TextBoxOptionPropertyPanel>
+    <ValidatePropertyPanel>
+      <tbFieldValueInvalidate Text="不驗證域值" />
+      <tbFieldValueRange Text="域值範圍：" />
+      <btnRunScriptEdit Text="編輯" />
+      <btnRunScript Text="啟動自訂驗證腳本：" />
+      <lblCustomValidateWarning Text="自訂驗證腳本存在。當您選擇任何其他方式來驗證欄位值時，自訂驗證腳本將被刪除並且無法還原" />
+      <lblFrom Text="從：" />
+      <lblTo Text="到：" />
+    </ValidatePropertyPanel>
+    <AcroFormMsgBarPage>
+      <lblTip Text="本檔案包含互動式表單欄位" />
+      <btnHighlight Text="凸顯表單欄位" />
+    </AcroFormMsgBarPage>
+    <ArchivesMsgBarPage>
+      <lblTip Text="該檔案符合{0}標準，並且設置為唯讀以防止修改" />
+      <btnStartEditing Text="啟用編輯" />
+    </ArchivesMsgBarPage>
+    <ScanMsgBarPage>
+      <lblTip Text="我們檢測到這是掃描的PDF，建議您執行OCR，這使您能夠從掃描的PDF檔案中複製，編輯和搜索文本。" />
+      <btnExecuteOcr Text="執行 OCR" />
+      <btnNotShow Text="此檔案不再顯示" />
+    </ScanMsgBarPage>
+    <SecurityMsgBarPage>
+      <lblTip Text="該檔案被保護，請輸入許可權密碼以啟用編輯" />
+      <btnStartEditing Text="啟用編輯" />
+      <lblProtectedView Text="檔案限制" />
+    </SecurityMsgBarPage>
+    <SignedMsgBarPage>
+      <lblTip Text="Tip:SignedMsgBarPage" />
+      <btnJumpTo Text="跳到簽名欄" />
+      <btnHighlight Text="顯示表單欄位" />
+    </SignedMsgBarPage>
+    <XFAMsgBarPage>
+      <lblTip Text="目前檔案包含XFA表單欄位" />
+      <btnHighlight Text="凸顯表單欄位" />
+    </XFAMsgBarPage>
+    <AnnotationsPage Text="註解">
+      <btnExport ToolTip="匯出註解" />
+      <btnImport ToolTip="導入註解" />
+      <btnSortMenu ToolTip="排序方式" />
+    </AnnotationsPage>
+    <cmsAnnotation>
+      <miDelete Text="刪除" />
+      <miExpandAll Text="全部展開" />
+      <miCollapseAll Text="全部折疊" />
+    </cmsAnnotation>
+    <cmsSort>
+      <miSortByPage Text="頁面" />
+      <miSortByDate Text="日期" />
+      <miSortByAuthor Text="作者" />
+      <miSortByType Text="類型" />
+    </cmsSort>
+    <AnnotListItem />
+    <AttachListItem />
+    <AttachmentsPage Text="附件">
+      <btnDel ToolTip="刪除附件" />
+      <btnEdit ToolTip="編輯描述" />
+      <btnAdd ToolTip="新增附件檔案" />
+      <btnSaveAs ToolTip="附件檔案另存為" />
+      <btnOpen ToolTip="打開附件檔案" />
+      <miOpen ShortcutKeyDisplayString="" Text="Open Attachment" ToolTipText="" />
+      <miSaveAs ShortcutKeyDisplayString="" Text="Save Attachment" ToolTipText="" />
+      <miAdd ShortcutKeyDisplayString="" Text="Add Attachment" ToolTipText="" />
+      <miEdit ShortcutKeyDisplayString="" Text="Edit Description" ToolTipText="" />
+      <miDelete ShortcutKeyDisplayString="" Text="Delete" ToolTipText="" />
+      <miExpandAll ShortcutKeyDisplayString="" Text="Expand All" ToolTipText="" />
+      <miCollapseAll ShortcutKeyDisplayString="" Text="Collapse All" ToolTipText="" />
+    </AttachmentsPage>
+    <cmsAttach>
+      <miOpen Text="打開附件" />
+      <miSaveAs Text="儲存附件" />
+      <miAdd Text="新增附件" />
+      <miEdit Text="編輯描述" />
+      <miDelete Text="刪除" />
+      <miExpandAll Text="全部展開" />
+      <miCollapseAll Text="全部折疊" />
+    </cmsAttach>
+    <BookmarksPage Text="書籤">
+      <btnAdd Text="新增" />
+      <lblNoBookmark Text="沒有書籤" />
+      <miDelete ShortcutKeyDisplayString="" Text="Delete Bookmark" ToolTipText="" />
+      <miRename ShortcutKeyDisplayString="" Text="Rename Bookmark" ToolTipText="" />
+      <miAdd ShortcutKeyDisplayString="" Text="Add Bookmark" ToolTipText="" />
+      <miAddChild ShortcutKeyDisplayString="" Text="Add Child" ToolTipText="" />
+      <miSetDestination ShortcutKeyDisplayString="" Text="Set Destination" ToolTipText="" />
+      <miExpandAll ShortcutKeyDisplayString="" Text="Expand All Bookmarks" ToolTipText="" />
+      <miCollapseAll ShortcutKeyDisplayString="" Text="Collapse All Bookmarks" ToolTipText="" />
+      <miPrintPages ShortcutKeyDisplayString="" Text="Print Page" ToolTipText="" />
+    </BookmarksPage>
+    <cmsBookmarks>
+      <miDelete Text="刪除書籤" />
+      <miRename Text="重命名書籤" />
+      <miAdd Text="新增書籤" />
+      <miAddChild Text="新增子書籤" />
+      <miSetDestination Text="設定目標" />
+      <miExpandAll Text="展開所有書籤" />
+      <miCollapseAll Text="折疊所有書籤" />
+      <miPrintPages Text="列印頁面" />
+    </cmsBookmarks>
+    <BottomStatusBar>
+      <btnHand ToolTip="按一下以平移檔案" />
+      <btnSelect ToolTip="按一下以選擇文本和圖像" />
+      <btnZoomOut ToolTip="縮小" />
+      <btnZoomIn ToolTip="放大" />
+      <btnPrevPage ToolTip="上一頁" />
+      <btnNextPage ToolTip="下一頁" />
+      <btnHide ToolTip="隱藏到左側" />
+    </BottomStatusBar>
+    <NavigatePage>
+      <btnThumbnail ToolTip="縮圖" />
+      <btnBookmark ToolTip="書籤" />
+      <btnAnnotations ToolTip="註解" />
+      <btnAttachments ToolTip="附件" />
+      <btnSearch ToolTip="搜尋" />
+      <btnSearchForRedaction ToolTip="搜尋修訂" />
+      <labTitle Text="縮圖" />
+      <btnClose ToolTip="關閉" />
+      <btnOptionalContent ToolTip="圖層" />
+    </NavigatePage>
+    <NavigateStatusBar>
+      <btnShowStatus ToolTip="顯示在檔案中" />
+      <btnZoomIn ToolTip="放大" />
+      <btnZoomOut ToolTip="縮小" />
+      <btnSelect ToolTip="使用滑鼠以選擇文字和圖像" />
+      <btnHand ToolTip="拖拽滑鼠以平移檔案" />
+    </NavigateStatusBar>
+    <OptionalContentPage Text="圖層">
+      <btnOperationMenu ToolTip="Options" />
+    </OptionalContentPage>
+    <OptionContentPropertyForm Text="圖層屬性">
+      <btnCancel Text="取消" />
+      <btnOK Text="確定" />
+      <lblLayerName Text="圖層名稱：" />
+      <lblIntent Text="意圖：" />
+      <rbtnView Text="視圖" />
+      <rbtnReference Text="引用" />
+      <lblDefaultState Text="默認狀態：" />
+      <chkLocked Text="鎖定" />
+      <lblIniteVisible Text="可見性：" />
+      <lblInitePrint Text="打印：" />
+      <lblInitExport Text="導出：" />
+      <lblPropertyTitle Text="屬性" />
+      <gLabel1 Text="初始狀態" />
+      <gLabel2 Text="鎖定狀態" />
+    </OptionContentPropertyForm>
+    <cmsOptionalContetNode>
+      <miVisible Text="顯示圖層" />
+      <miRename Text="重命名" />
+      <miDelete Text="刪除圖層" />
+      <miProperty Text="屬性" />
+    </cmsOptionalContetNode>
+    <cmsOptionalContentTree>
+      <miListAllPagesLayers Text="列出所有頁面的圖層" />
+      <miListVisiblePagesLayer Text="列出可見頁面的圖層" />
+      <miReset Text="重置為初始可見性" />
+      <miExpandAll Text="全部展開" />
+      <miCollapseAll Text="全部折疊" />
+      <miApplyPrint Text="應用打印優先" />
+      <miApplyExport Text="應用導出優先" />
+      <miApplyLayer Text="應用圖層優先" />
+      <miDeleteLayer Text="刪除圖層" />
+      <miLayerProperty Text="圖層屬性" />
+    </cmsOptionalContentTree>
+    <InsertBlankPageForm Text="插入">
+      <gLabel1 Text="頁數：" />
+      <btnOK Text="確定" />
+      <lblLimiteInfo Text="限制為“1-100”的整數" />
+    </InsertBlankPageForm>
+    <InsertPageForm Text="插入">
+      <lblInsert Text="插入" />
+      <lblPlaceAt Text="放置在" />
+      <rdoFirstPage Text="第一頁" />
+      <rdoLastPage Text="尾頁" />
+      <rdoPage Text="頁面" />
+      <lblLocation Text="位置:" />
+      <btnCancel Text="取消" />
+      <btnOK Text="確定" />
+      <lblSlash Text="/" />
+      <rdoBefore Text="之前" />
+      <rdoAfter Text="之後" />
+    </InsertPageForm>
+    <PageLabelSettingForm Text="頁面標籤">
+      <btnOK Text="套用" />
+      <btnCancel Text="取消" />
+      <btnDefault Text="清除所有" />
+      <lblPageRangeTitle Text="頁面範圍" />
+      <lblPageNumbering Text="頁面編碼" />
+      <lblStyle Text="風格" />
+      <lblPrifix Text="字首" />
+      <lblStartNumber Text="開始" />
+      <rdoNewSection Text="開始新的分段：" />
+      <rdoContinue Text="將上一節中使用的編號擴展到所選頁面" />
+      <rdoAllPages Text="所有頁面" />
+      <rdoSelectedPages Text="選定的頁面" />
+      <rdoPageRange Text="範圍" />
+      <lblTo Text="到" />
+      <lblSamples Text="1,2,3..." />
+      <lblSampleTitle Text="如：" />
+    </PageLabelSettingForm>
+    <ReplaceForm Text="取代">
+      <lblSelectPage Text="取代頁面" />
+      <lblReplace Text="頁面" />
+      <lblSelectFile Text="從" />
+      <btnOK Text="確定" />
+      <btnCancel Text="取消" />
+      <txtFilePath Text="未選中文件">
+      </txtFilePath>
+      <lblTo Text="到" />
+      <lblIn Text="在" />
+      <lblTo2 Text="到" />
+      <lblAddedDocPagesCount Text="/" />
+    </ReplaceForm>
+    <RotateForm Text="旋轉頁面">
+      <btnOK Text="確定" />
+      <btnCancel Text="取消" />
+      <lblDirection Text="方向" />
+      <lblTitle Text="旋轉" />
+      <pageRangePanel GropName="頁面範圍" />
+    </RotateForm>
+    <SearchForRedactionPage Text="搜尋和編輯">
+      <chkMatchWholeWord Text="全部文字一致" />
+      <chkMatchCase Text="區分大小寫" />
+      <lblCount Text="0 個結果" />
+      <btnApply Text="套用所有標記" />
+      <btnClear Text="清除結果" />
+    </SearchForRedactionPage>
+    <SearchPanelItem Text="搜尋">
+      <chkMatchCase Text="區分大小寫" />
+      <chkMatchWholeWord Text="全字匹配" />
+      <lblTitle Text="在檔案中搜索單詞或短語，並列出結果" />
+    </SearchPanelItem>
+    <SearchReplacePanel>
+      <btnReplace Text="取代" />
+      <btnReplaceAll Text="全部替換" />
+      <lbFind Text="查詢" />
+      <btnSearchPrev Text="上一個" ToolTip="查詢上一個結果" />
+      <btnSearchNext Text="下一個" ToolTip="查詢下一個結果" />
+      <ckbWholeWordsOnly Text="全字匹配" />
+      <ckbCaseSensitive Text="區分大小寫" />
+      <ckbReplaceWith Text="取代為" />
+    </SearchReplacePanel>
+    <ThumbnailsPage Text="縮圖" />
+    <OcrSettingForm Text="OCR PDF">
+      <lblOcrDescription Text="把掃描的檔案轉換為可編輯或可搜尋的檔案" />
+      <lblScanOption Text="掃描選項" />
+      <rdoSelectedPages Text="選定的頁面" />
+      <rdoAllPages Text="所有頁面" />
+      <rdoPageRange Text="範圍" />
+      <lblPageRangeTitle Text="頁面範圍" />
+      <btnApply Text="應用" />
+      <btnCancel Text="取消" />
+      <lblLanguage Text="檔案語言" />
+      <btnChangeLanguage Text="改變語言" />
+      <rdoEditableText Text="可編輯的文字" />
+      <rdoSearchableText Text="可搜尋文字的圖片" />
+      <btnEditableText ToolTip="PDF圖片將被替換成為可以編輯的文字" />
+      <btnSearchableText ToolTip="可以搜尋文字內容，但不能編輯文字" />
+      <lblTo Text="到" />
+    </OcrSettingForm>
+    <OcrRegionPropertyPage>
+      <btnRecognize Text="識別" />
+    </OcrRegionPropertyPage>
+    <OptimizeForm Text="壓縮PDF">
+      <rdoLowCompression Text="低" />
+      <rdoMediumCompression Text="中等" />
+      <rdoHighCompression Text="高" />
+      <lblHighDesc Text="高壓縮低品質" />
+      <lblMediumDesc Text="中壓縮中等品質" />
+      <lblLowDesc Text="低壓縮高品質" />
+      <lblFinalSize Text="最終大小：" />
+      <lblSizeReduced Text="大小壓縮了：" />
+      <lblFail Text="PDF的大小已被最小化，無法進一步減小。" />
+      <btnApply Text="套用" />
+      <btnCancel Text="取消" />
+      <btnOpen Text="打開" />
+      <btnStartOver Text="重來" />
+    </OptimizeForm>
+    <ExitTipPanel>
+      <gLabelBorderColor Text="按“ ESC”退出全螢幕" />
+    </ExitTipPanel>
+    <FullScreenForm Text="全螢幕表格">
+      <docTabControl Text="docTabControl">
+      </docTabControl>
+    </FullScreenForm>
+    <BlankPortfolioView>
+      <btnAddFiles Text="添加檔案" />
+      <btnAddFolder Text="添加資料夾" />
+    </BlankPortfolioView>
+    <DetailPortfolioView>
+      <btnOpen Text="打開" />
+    </DetailPortfolioView>
+    <FileIconView>
+      <btnOpen Text="打開" />
+    </FileIconView>
+    <FilePreviewView>
+      <btnPreView Text="預覽" />
+      <btnAlwaysCheck Text="總是信任此類型的檔案並顯示預覽" />
+    </FilePreviewView>
+    <FilePropertiesForm Text="文件屬性">
+      <btnOK Text="確定" />
+      <lblSize Text="大小" />
+      <lblCreated Text="已建立" />
+      <lblModified Text="已修改" />
+    </FilePropertiesForm>
+    <NewFolderForm Text="新建資料夾">
+      <btnEnterfolderName Text="輸入資料夾名稱" />
+      <btnOK Text="確定" />
+      <btnCancel Text="取消" />
+    </NewFolderForm>
+    <OpenFileForm Text="打開檔案">
+      <btnOK Text="確定" />
+      <btnCancel Text="取消" />
+      <lblWouldyouLikeTo Text="你想要：" />
+      <rbOpenFile Text="打開本檔案" />
+      <rbAlwayallowOpen Text="總是允許打開此類型檔案" />
+      <rbNotOpenFile Text="不打開本檔案" />
+    </OpenFileForm>
+    <PdfFileViewFloater>
+      <btnExtract ToolTip="擷取" />
+      <btnPrint ToolTip="列印" />
+      <btnZoomOut ToolTip="縮小" />
+      <btnZoomIn ToolTip="放大" />
+      <btnPrevious ToolTip="上一頁" />
+      <btnNext ToolTip="下一頁" />
+    </PdfFileViewFloater>
+    <PortfolioListView>
+      <btnDetails ToolTip="詳細信息" />
+      <btnIcons ToolTip="佈局" />
+      <btnDelete ToolTip="從包中删除…" />
+      <btnExtract ToolTip="從包中選取…" />
+      <btnAdd ToolTip="添加檔案…" />
+      <btnGoBack ToolTip="返回" />
+    </PortfolioListView>
+    <cmsPortfolioContext>
+      <tsmiOpen Text="打開" />
+      <tsmiExtract Text="擷取" />
+      <tsmiDelete Text="刪除" />
+      <tsmiProperties Text="屬性" />
+      <tsmiSortBy Text="排序依據" />
+      <tsmiName Text="名稱" />
+      <tsmiType Text="類型" />
+      <tsmiSize Text="大小" />
+      <tsmiCreated Text="已建立" />
+      <tsmiIncrease Text="遞增" />
+      <tsmiDecrease Text="遞減" />
+      <tsmiSelectAll Text="全選" />
+    </cmsPortfolioContext>
+    <cmsPortfolioAdd>
+      <tsmiAddFiles Text="添加檔案" />
+      <tsmiAddFolder Text="添加資料夾" />
+      <tsmiCreateFolder Text="創建資料夾…" />
+    </cmsPortfolioAdd>
+    <FieldSelectorForm Text="選擇表單欄位">
+      <gbSelectField Text="選擇表單欄位以提交" />
+      <cbSelectAll Text="全選" />
+      <btnOK Text="確定" />
+      <btnCancel Text="取消" />
+      <lblSelectFieldText Text="選擇表單欄位" />
+    </FieldSelectorForm>
+    <JavaScriptEditorForm Text="Javascript 編輯器">
+      <gbEditJavaScript Text="新建並編輯 JavaScript" />
+      <btnSelectLine Text="轉到…" />
+      <btnCancel Text="取消" />
+      <btnOK Text="確定" />
+      <lblTitle Text="建立和編輯JavaScript" />
+    </JavaScriptEditorForm>
+    <LineSelectorForm Text="跳到行">
+      <lblLineNumber Text="行號:" />
+      <btnCancel Text="取消" />
+      <btnOK Text="確定" />
+    </LineSelectorForm>
+    <ResetFieldSelectorForm Text="重置表單">
+      <gbSelectField Text="選擇表單欄位重置" />
+      <btnOK Text="確定" />
+      <btnCancel Text="取消" />
+      <btnSelectAll Text="全選" />
+      <btnDeselectAll Text="取消全選" />
+    </ResetFieldSelectorForm>
+    <OpenWaySelectorForm Text="指定打開選項">
+      <lblOpenDocumentWay Text="請說明如何將文件打開。" />
+      <rbNewWindow Text="新視窗" />
+      <rbExistingWindow Text="現有視窗" />
+      <btnCancel Text="取消" />
+      <btnOK Text="確定" />
+    </OpenWaySelectorForm>
+    <PreviewPageSelectorForm Text="轉到資料頁檢視">
+      <btnOK Text="確定" />
+      <btnCancel Text="取消" />
+      <pagePreview1 Text="pagePreview1" />
+      <pagePreviewPanel Text="pagePreviewPanel1">
+      </pagePreviewPanel>
+    </PreviewPageSelectorForm>
+    <ShowHideFieldSelectorForm Text="顯示/隱藏表單欄位">
+      <btnOK Text="確定" />
+      <btnCancel Text="取消" />
+      <cbSelectAll Text="全選" />
+      <lblSelectFieldText Text="選擇表單欄位" />
+      <rbShow Text="顯示" />
+      <rbHide Text="隱藏" />
+    </ShowHideFieldSelectorForm>
+    <SubmitFormForm Text="提交表單選擇">
+      <lblDateOptionInfo Text="日期以YYYYMMDD格式提交。" />
+      <cbConvertDate Text="將日期轉換為標準格式" />
+      <lblEnterURL Text="網址" />
+      <rbFDF Text="FDF 包含:" />
+      <rbHTML Text="HTML" />
+      <rbXFDF Text="XFDF 包含:" />
+      <rbPDF Text="PDF 格式的完整檔案" />
+      <cbFieldData Text="表單欄位數據" />
+      <cbComments Text="註解" />
+      <cbIncrementalPDF Text="增量更新到 PDF" />
+      <cbCommentsXFDF Text="註解" />
+      <cbFieldDataXFDF Text="表單欄位數據" />
+      <cbSelectAll Text="全選" />
+      <lblUrlMethod Text="提交到" />
+      <btnCancel Text="取消" />
+      <btnOK Text="確定" />
+      <gLabel1 Text="匯出格式" />
+      <gLabel2 Text="提交方法" />
+      <gLabel3 Text="日期選項" />
+      <gLabel4 Text="選擇表單" />
+    </SubmitFormForm>
+    <PreviewPageSelecterForm Text="轉換到一個頁面">
+      <lblPreview Text="預覽" />
+      <btnOK Text="確定" />
+      <btnCancel Text="取消" />
+    </PreviewPageSelecterForm>
+    <menuStripWatermark>
+      <tsmiOpen Text="打开" />
+      <tsmiFromFile Text="打开" />
+    </menuStripWatermark>
+    <AuthMessageForm>
+      <lblTitle Text="讀取授權" />
+      <btnGoogleLogin Text="使用Google登錄" />
+      <btnRefreshAuth Text="更新" />
+    </AuthMessageForm>
+    <CloudFileForm>
+      <btnUpload Text="上傳" />
+    </CloudFileForm>
+    <CloudNetErrorForm>
+      <btnRefreshAuth Text="更新" />
+    </CloudNetErrorForm>
+    <CloudAuthFailedForm>
+      <lblTitle Text="讀取授權" />
+      <btnRefreshAuth Text="更新" />
+      <btnGoogleLogin Text="使用Google登錄" />
+    </CloudAuthFailedForm>
+    <DownloadTipForm>
+      <lblPdfOnly Text="糟糕！您只能打開PDF格式檔案" />
+    </DownloadTipForm>
+    <CombineForm>
+      <btnApply Text="套用" />
+      <ckbGenerateCatalog Text="從書籤中建立新目錄" />
+      <fileListPanel FileTips="拖拽文件到此處" TaskName="合併">
+      </fileListPanel>
+    </CombineForm>
+    <CropSettingForm Text="裁切設定">
+      <btnOk Text="確定" />
+      <btnCancel Text="取消" />
+      <lblTips Text="調整裁切區域" />
+      <lblTop Text="頂部" />
+      <lblBottom Text="底部" />
+      <lblRight Text="右邊" />
+      <lblLeft Text="左邊" />
+      <pageRangePanel GropName="頁面範圍">
+      </pageRangePanel>
+      <lblSetCropBox Text="設定作物箱" />
+      <lblCropMargin Text="裁切邊際" />
+      <btnApply Text="套用" />
+    </CropSettingForm>
+    <PageBoxPanel>
+      <lblCroppedPageSize Text="裁切頁面大小：{0}" />
+    </PageBoxPanel>
+    <PageBoxSettingForm Text="頁面框設定">
+      <lblSetPageBox Text="設定頁面大小" />
+      <btnCancel Text="取消" />
+      <btnApply Text="套用" />
+      <lblLeft Text="左" />
+      <lblRight Text="右" />
+      <lblBottom Text="底部" />
+      <lblTop Text="頂部" />
+      <lblApplyTo Text="套用於" />
+      <btnReset Text="重新設定" />
+      <btnChangePageSize Text="更改頁面大小" />
+      <btnPageRange Text="頁面範圍" />
+      <cbbPageSize Text="無">
+      </cbbPageSize>
+      <lblPageSize Text="頁面大小" />
+      <rdoFixedSize Text="固定尺寸" />
+      <lblWidth Text="寬度" />
+      <rdoCustom Text="自訂" />
+      <lblHeight Text="高度" />
+      <lblXOffset Text="X偏移" />
+      <ckbCenter Text="中心" />
+      <lblYOffset Text="Y偏移" />
+      <pageRangePanel GropName="" Text="Page range panel 1">
+      </pageRangePanel>
+      <pageBoxPanel Text="頁面框面板">
+      </pageBoxPanel>
+    </PageBoxSettingForm>
+    <DataExtractModeForm Text="擷取模式">
+      <btnApply Text="套用" />
+      <btnCancel Text="取消" />
+      <rdoFromFields Text="從PDF的表單字段中擷取資料" />
+      <rdoFromMarkedPdf Text="根據選擇擷取資料" />
+      <lblFromFields Text="表單字段中的資料將以CSV格式擷取" />
+      <lblFromSelection Text="選擇要擷取的文字" />
+    </DataExtractModeForm>
+    <PE.UI.Document.DocumentsPage />
+    <GotoActionControl>
+      <pageTurnCtrl Text="page Turn Control 1">
+      </pageTurnCtrl>
+      <listView Text="page View 1">
+      </listView>
+    </GotoActionControl>
+    <LinkAppearanceControl>
+      <gLabel1 Text="彩色" />
+      <gLabel2 Text="線的粗細" />
+      <gLabel3 Text="凸顯模式" />
+      <gLabel4 Text="線型" />
+      <gLabel5 Text="連結類型" />
+      <cboHightLineMode>
+        <Items>無
+反色
+凹陷
+邊框</Items>
+      </cboHightLineMode>
+      <cboLineStyle>
+        <Items>實線
+虛線
+底線</Items>
+      </cboLineStyle>
+      <cboLinkVisible>
+        <Items>可見矩形
+不可見矩形</Items>
+      </cboLinkVisible>
+    </LinkAppearanceControl>
+    <LinkAppearanceControlSmall>
+      <gLabel1 Text="彩色" />
+      <gLabel2 Text="線的粗細" />
+      <gLabel3 Text="高光樣式" />
+      <gLabel4 Text="線型" />
+      <gLabel5 Text="連結類型" />
+      <cboHightLineMode>
+        <Items>無
+反色
+凹陷
+邊框</Items>
+      </cboHightLineMode>
+      <cboLineStyle>
+        <Items>實線
+虛線
+底線</Items>
+      </cboLineStyle>
+      <cboThickness>
+        <Items>1
+2
+3
+4
+5
+6
+7
+8
+9
+10</Items>
+      </cboThickness>
+      <cboLinkVisible>
+        <Items>可見矩形
+不可見矩形</Items>
+      </cboLinkVisible>
+    </LinkAppearanceControlSmall>
+    <LinkEditingGotoForm Text="頁面連結">
+      <btnCancel Text="取消" />
+      <btnOK Text="確定" />
+      <lblLinkTip Text="鏈接到頁面" />
+      <tabAction Text="行動">
+      </tabAction>
+      <tabAppearance Text="外觀">
+      </tabAppearance>
+      <actionCtrl Text="gotoActionControl1">
+      </actionCtrl>
+      <appearanceCtrl Text="linkAppearanceControl1">
+      </appearanceCtrl>
+    </LinkEditingGotoForm>
+    <LinkEditingOpenFileForm Text="檔案連結">
+      <btnCancel Text="取消" />
+      <btnOK Text="確定" />
+      <tabAction Text="行動">
+      </tabAction>
+      <tabAppearance Text="外觀">
+      </tabAppearance>
+      <actionCtrl Text="openFileActionControl1">
+      </actionCtrl>
+      <appearanceCtrl Text="linkAppearanceControl1">
+      </appearanceCtrl>
+    </LinkEditingOpenFileForm>
+    <LinkEditingOpenWebForm Text="網頁連結">
+      <btnCancel Text="取消" />
+      <btnOK Text="確定" />
+      <tabAction Text="行動">
+      </tabAction>
+      <tabAppearance Text="外觀">
+      </tabAppearance>
+      <appearanceCtrl Text="linkAppearanceControl1">
+      </appearanceCtrl>
+      <actionCtrl Text="openUrlActionControl1">
+      </actionCtrl>
+    </LinkEditingOpenWebForm>
+    <OpenFileActionControl>
+      <gLabel1 Text="選擇檔案" />
+      <txtPath PlaceHolderText="檔案路徑">
+      </txtPath>
+    </OpenFileActionControl>
+    <OpenUrlActionControl>
+      <gLabel1 Text="輸入網址" />
+    </OpenUrlActionControl>
+    <SignForm Text="添加簽字">
+      <btnOK Text="確定" ToolTip="" />
+      <btnCancel Text="取消" ToolTip="" />
+      <btnDraw Text="繪圖" />
+      <btnText Text="輸入" />
+      <btnImage Text="上傳" />
+      <cmbFont ToolTip="字體" />
+      <lblImageNote Text="提示：最好上傳白色背景圖片" />
+    </SignForm>
+    <SignImagePage>
+      <btnChooseImage Text="選擇圖像" />
+    </SignImagePage>
+    <SignCreateItem>
+      <btnCreate Text="創建" />
+    </SignCreateItem>
+    <SignTextPage>
+      <txbText PlaceHolderText="輸入簽名" />
+    </SignTextPage>
+    <StampCategoryPanel>
+      <labTitle Text="標題" />
+    </StampCategoryPanel>
+    <StampCreateCustomForm Text="新建自訂簽章">
+      <btnBrower Text="選擇圖片" />
+      <lblName Text="名稱" />
+      <btnOK Text="確定" />
+      <btnCancel Text="取消" />
+      <lblPreview Text="預覽" />
+      <txbName Text="新建簽章">
+      </txbName>
+    </StampCreateCustomForm>
+    <StampIdentityEditForm Text="編輯身份">
+      <lblTitle Text="請輸入將出現在您的數位身份簽章上的資訊" />
+      <lblUserName Text="名稱" />
+      <lblCompany Text="公司" />
+      <lblDepartment Text="部門" />
+      <lblLoginNameTitle Text="登入名" />
+      <lblLoginNameContent Text="登入名" />
+      <btnOK Text="確定" />
+      <btnCancel Text="取消" />
+      <lblIdentity Text="身份" />
+    </StampIdentityEditForm>
+    <StampManageForm Text="管理自訂簽章">
+      <btnCreate Text="建立" />
+      <btnEdit Text="編輯" />
+      <btnDelete Text="刪除" />
+      <btnOK Text="確定" />
+      <btnCancel Text="取消" />
+      <lblName Text="名稱" />
+      <lblPreview Text="預覽" />
+    </StampManageForm>
+    <PopupControl>
+      <lblAnnotType />
+      <lblModifyDate />
+      <lblAuthor />
+    </PopupControl>
+    <AttachmentStyleComboxItem />
+    <AttachmentStyleItem>
+      <lblStyle Text="風格" />
+      <lblColor Text="彩色" />
+    </AttachmentStyleItem>
+    <ColorItem>
+      <lblColor Text="彩色" />
+    </ColorItem>
+    <EndItem>
+      <lblEnd Text="終點" />
+    </EndItem>
+    <FillColorItem>
+      <lblFillColor Text="顏色填充" />
+    </FillColorItem>
+    <OpacityItem>
+      <lblOpacity Text="透明度" />
+    </OpacityItem>
+    <RedactOverlayTextItem>
+      <lblFillColor Text="顏色填充" />
+      <ckbOverlayText Text="覆蓋文字" />
+      <rdbtnActionText Text="密文代碼" />
+      <rdbtnCustomText Text="自訂文字" />
+      <btnAlignRight ToolTip="置中對齊" />
+      <btnAlignCenter ToolTip="右對齊" />
+      <btnAlignLeft ToolTip="左對齊" />
+      <lstbCodeEntries>
+        <Items>(b)(1)(A)
+(b)(1)(B)
+(b)(1)(A)
+(b)(1)(B)
+(b)(1)(A)
+(b)(1)(B)
+(b)(1)(A)
+(b)(1)(B)
+(b)(1)(A)
+(b)(1)(B)
+(b)(1)(A)
+(b)(1)(B)</Items>
+      </lstbCodeEntries>
+      <lblCodeEntries Text="代碼項" />
+      <lblCodeSets Text="代碼集" />
+      <cmboxRedactSize Text="10">
+        <Items>Auto
+5
+5.5
+6.5
+7.5
+8
+9
+10
+10.5
+11
+12
+14
+16
+18
+20
+22
+24
+26
+28
+36
+48
+72</Items>
+      </cmboxRedactSize>
+      <cmboxCodeSets>
+        <Items>U.S.FOIA
+U.S.FOIA
+U.S.FOIA
+U.S.FOIA</Items>
+      </cmboxCodeSets>
+    </RedactOverlayTextItem>
+    <StartItem>
+      <lblStart Text="開始" />
+    </StartItem>
+    <StyleItem>
+      <lblStyle Text="樣式" />
+    </StyleItem>
+    <ThicknessItem>
+      <lblThickness Text="厚度" />
+    </ThicknessItem>
+    <AnnotAppearanceControl>
+      <lblAppearance Text="外觀" />
+      <ckbOverlayText Text="覆蓋文字" />
+      <rdbtnActionText Text="操作文字" />
+      <rdbtnCustomText Text="自訂文字" />
+      <btnAlignRight ToolTip="置中對齊" />
+      <btnAlignCenter ToolTip="右對齊" />
+      <btnAlignLeft ToolTip="左對齊" />
+      <cmboxRedactSize Text="10">
+        <Items>5
+5.5
+6.5
+7.5
+8
+9
+10
+10.5
+11
+12
+14
+16
+18
+20
+22
+24
+26
+28
+36
+48
+72</Items>
+      </cmboxRedactSize>
+      <lstboxCodeSets>
+        <Items>(b)(1)(A)
+(b)(1)(B)
+(b)(1)(A)
+(b)(1)(B)
+(b)(1)(A)
+(b)(1)(B)
+(b)(1)(A)
+(b)(1)(B)
+(b)(1)(A)
+(b)(1)(B)
+(b)(1)(A)
+(b)(1)(B)</Items>
+      </lstboxCodeSets>
+      <lblCodeEntries Text="代碼集" />
+      <cmboxCodeSets>
+        <Items>U.S.FOIA
+U.S.FOIA
+U.S.FOIA
+U.S.FOIA</Items>
+      </cmboxCodeSets>
+      <lblCodeSets Text="代碼集" />
+    </AnnotAppearanceControl>
+    <AnnotDateControl>
+      <lblDate Text="日期" />
+      <lblCreatedTime />
+      <lblCreated Text="已建立" />
+      <lblModifiedTime />
+      <lblModified Text="已修改" />
+    </AnnotDateControl>
+    <AnnotFontControl>
+      <lblFontTitle Text="字體" />
+      <lblFont Text="字體" />
+      <lblFontColor Text="彩色" />
+      <lblFontStyle Text="風格" />
+      <lblFontSize Text="大小" />
+    </AnnotFontControl>
+    <AnnotInfoControl>
+      <lblAuthor Text="作者" />
+      <lblInfo Text="訊息" />
+      <lblSubject Text="主題" />
+      <lblDescription Text="描述" />
+    </AnnotInfoControl>
+    <AnnotTypeControl>
+      <lblType Text="類型" />
+    </AnnotTypeControl>
+    <AnnotUseAsDefaultControl>
+      <btnUseAsDefault Text="設為預設" />
+    </AnnotUseAsDefaultControl>
+    <PencilFloatingPanleOptionControl>
+      <lblTitle Text="屬性彈框" />
+    </PencilFloatingPanleOptionControl>
+    <HighlightTextFloatControl>
+      <btnHighlight ToolTip="凸顯" />
+      <btnStrikeout ToolTip="刪除線" />
+      <btnUnderline ToolTip="底線" />
+      <btnSquiggly ToolTip="波浪線" />
+      <btnCaret ToolTip="插入文字" />
+    </HighlightTextFloatControl>
+    <ContentPropertyPage>
+      <btnFontUnderline ToolTip="底線" />
+      <btnFontItalic ToolTip="斜體" />
+      <btnFontBold ToolTip="粗體" />
+      <btnFontStrikeout ToolTip="刪除線" />
+      <btnFontSuperscript ToolTip="上標" />
+      <btnFontSubscript ToolTip="下標" />
+      <btnFontZoomIn ToolTip="增加字體大小" />
+      <btnFontZoomOut ToolTip="減小字體大小" />
+      <btnAlignLeft ToolTip="左對齊" />
+      <btnAlignCenter ToolTip="置中對齊" />
+      <btnAlignRight ToolTip="右對齊" />
+      <btnAlignJustify ToolTip="兩端對齊" />
+      <btnOverturnHorizontal ToolTip="水平翻轉" />
+      <btnOverturnVertical ToolTip="垂直翻轉" />
+      <btnRotateRight ToolTip="順時針旋轉" />
+      <btnRotateLeft ToolTip="逆時針旋轉" />
+      <btnClipObject ToolTip="裁剪對象" />
+      <btnReplaceImage ToolTip="圖片替換" />
+      <btnArrangeDistribute ToolTip="分佈所選物件" />
+      <btnArrangeAlignment ToolTip="對齊所選對象" />
+      <lblOpacityTitle Text="透明度" />
+      <lblActionTitle Text="動作" />
+    </ContentPropertyPage>
+    <TextPropertyFloatControl>
+      <btnFontZoomIn ToolTip="增加字體大小" />
+      <btnFontZoomOut ToolTip="減小字體大小" />
+      <btnFontBold ToolTip="將所選文字設為粗體" />
+      <btnFontItalic ToolTip="將所選文字設為斜體" />
+      <btnFontUnderline ToolTip="底線" />
+      <btnFontStrikeout ToolTip="刪除線" />
+    </TextPropertyFloatControl>
+    <GColorPalettePanel2>
+      <labTheme Text="主題顏色" />
+      <labStand Text="標準顏色" />
+      <labRecent Text="最近選擇顏色" />
+      <labTransparent Text="透明色" />
+      <labMore Text="其它顏色" />
+    </GColorPalettePanel2>
+    <APNetworkErrorForm Text="帳號授權驗證失敗">
+      <lblMessage Text="產品似乎無法驗證您的帳號，請重試。" />
+      <btnClose Text="退出" />
+      <btnRetry Text="重試" />
+      <gLabel1 Text="提示：重試失敗3次後，產品將退出。" />
+    </APNetworkErrorForm>
+    <AppDamagedForm Text="產品已經損壞">
+      <lblMessage Text="感謝您使用 PDFelement。PDFelement似乎損壞了，請點擊下方按鈕下載並重新安裝產品。" />
+      <btnOK Text="下載" />
+    </AppDamagedForm>
+    <WIDVictimForm Text="下載正版 PDFelement">
+      <lblMessage Text="感謝您使用 PDFelement。為了更好產品使用體驗，請點擊下方按鈕下載官方正版軟體，感謝您的支持。" />
+      <btnOK Text="下載" />
+    </WIDVictimForm>
+    <BlankPageView>
+      <btnOpenFile Text="打開文件" />
+    </BlankPageView>
+    <MessagePushForm Text="消息中心">
+      <linkAllRead Text="全部已讀" />
+      <btnCancel Text="取消" />
+      <lblNoMessage Text="沒有消息哦" />
+      <lblLoadFail Text="網絡請求超時，加載失敗" />
+      <lblLoading Text="正在加載" />
+      <linkRefresh Text="點擊刷新" />
+    </MessagePushForm>
+    <cmsMessage>
+      <miDelete Text="刪除" />
+    </cmsMessage>
+    <CloudForm>
+      <lblNotfile Text="沒有文件在這裡" />
+      <btnDetail Text="雲盤詳情" />
+    </CloudForm>
+    <BlankFileCreatePage Text="空白PDF檔案">
+      <lblPageSize Text="大小" />
+      <lblPages Text="頁面" />
+      <lblQrientation Text="方向" />
+      <lblFileName Text="文件名" />
+      <lblWidth Text="寬度" />
+      <lblHeight Text="高度" />
+    </BlankFileCreatePage>
+    <CreateMultipleCopiesForm Text="新建多個副本">
+      <btnOK Text="確定" />
+      <btnCancel Text="取消" />
+      <lblHor Text="水平間隔:" />
+      <lblVer Text="垂直間隔:" />
+      <lbVerTip Text="縱向複製選中的表單域:" />
+      <lbHorTip Text="橫向複製選中的表單域:" />
+      <btnTop Text="上" />
+      <btnDown Text="下" />
+      <btnLeft Text="左" />
+      <btnRight Text="右" />
+      <lbNumOfFields Text="表單域的數量:" />
+      <lbIntervalOfFields Text="表單域的間隔:" />
+      <lbPositionOfFields Text="整體位置（所有表單域）：" />
+      <lbTimes1 Text="次" />
+      <lbTimes2 Text="次" />
+    </CreateMultipleCopiesForm>
+    <PencilColorFloatControl>
+      <lblOpacityTitle Text="透明度" />
+      <lblThicknessTitle Text="厚度" />
+      <lblProperties Text="設定" />
+    </PencilColorFloatControl>
+    <DataExtractInstructionPanel>
+      <lblStep1Title Text="第一步" />
+      <lblStep1Content Text="預覽區域太小（大）？點擊這裡進行放大（縮小）" />
+      <btnStep1GotIt Text="下一步" />
+      <lblStep2Title Text="第二步" />
+      <lblStep2Content Text="選擇數據標記模式" />
+      <btnStep2GotIt Text="下一步" />
+      <lblStep3Title Text="第三步" />
+      <lblStep3Content Text="標記數據提取區域" />
+      <btnStep3GotIt Text="下一步" />
+      <lblStep4Title Text="第四步" />
+      <lblStep4Content Text="修改數據提取區域名稱" />
+      <btnStep4GotIt Text="下一步" />
+      <lblStep5Title Text="第五步" />
+      <lblStep5Content Text="保存模板" />
+      <btnStep5GotIt Text="知道了" />
+      <lblField Text="區域" />
+    </DataExtractInstructionPanel>
+    <MobileDownloadPanel>
+      <lblSearchPDFelement Text="在 App Store 中搜索 &lt;span style=&quot;color:#4864FF;font-weight:bold;&quot;&gt;&lt;a href=&quot;https://pdf.wondershare.com/tw/pdfelement-ios/?utm_source=otherlang&amp;utm_medium=display&amp;utm_campaign=windows_pc&amp;utm_content=link_pe_pe_other_19063320_2021-04-28&quot;&gt;“PDFelement”&lt;/a&gt;&lt;/span&gt;並下載。" />
+      <lblScanQRCode Text="您也可以使用系統相機掃描以下二維碼，從App Store 獲取&lt;span style=&quot;color:#4864FF;font-weight:bold;&quot;&gt;&lt;a href=&quot;https://pdf.wondershare.com/tw/pdfelement-ios/?utm_source=otherlang&amp;utm_medium=display&amp;utm_campaign=windows_pc&amp;utm_content=link_pe_pe_other_19063320_2021-04-28&quot;&gt;“PDFelement”&lt;/a&gt;&lt;/span&gt;。" />
+      <ckbGotIt Text="不再提示" />
+    </MobileDownloadPanel>
+    <RegCodeLoginControl>
+      <btnRegister Text="Register" />
+    </RegCodeLoginControl>
+    <RegCodeProfilePanel>
+      <btnExpirationDate Text="Expiration Date" />
+      <btnExit Text="Exit" />
+    </RegCodeProfilePanel>
+    <RegisterForm>
+      <lnklblForgotKey Text="Oops, i forgot my keys!" />
+      <btnRegister Text="Register" />
+      <txtEmail PlaceHolderText="Email address" />
+      <txtRegCode PlaceHolderText="Registration code" />
+    </RegisterForm>
+    <CompareDashboardPage Text="檔案對比">
+      <btnChangesList Text="更改清單" />
+      <btnDashboard Text="儀錶盤" />
+      <lblTotalChange Text="總修改數:" />
+    </CompareDashboardPage>
+    <CompareFilterBar>
+      <lblDeletion Text="刪除數" />
+      <lblInsertion Text="插入數" />
+      <lblModification Text="修改數" />
+      <btnPreviousChange Text="上一處更改" />
+      <btnNextChange Text="下一處更改" />
+      <btnFilter Text="篩選" />
+      <btnShow Text="顯示" />
+    </CompareFilterBar>
+    <cmsFileSelection>
+      <miBrowseFile Text="瀏覽文件" />
+    </cmsFileSelection>
+    <cmsFilter>
+      <miText Text="文本" />
+      <miImage Text="圖像" />
+    </cmsFilter>
+    <cmsShow>
+      <miHideAll Text="全部隱藏" />
+      <miShowAll Text="全部顯示" />
+      <miHideDeletion Text="隱藏刪除項" />
+      <miShowDeletion Text="顯示刪除項" />
+      <miHideInsertion Text="隱藏插入項" />
+      <miShowInsertion Text="顯示插入項" />
+      <miHideModification Text="隱藏修改項" />
+      <miShowModification Text="顯示修改項" />
+    </cmsShow>
+    <CompareNavigatePage>
+      <btnComparison ToolTip="檔案對比" />
+    </CompareNavigatePage>
+    <CompareSaveForm Text="保存">
+      <lblChoose Text="請選擇你要的文件進行保存:" />
+      <btnSave Text="保存" />
+      <btnCancel Text="取消" />
+    </CompareSaveForm>
+    <CompareSelectionForm Text="檔案對比">
+      <lblSelectFile Text="選擇要比較的文件" />
+      <lblOldFile Text="舊文件" />
+      <lblNewFile Text="新文件" />
+      <btnSelectOldFile Text="選擇文件" />
+      <btnSelectNewFile Text="選擇文件" />
+      <btnCompare Text="比較" />
+    </CompareSelectionForm>
+  </Forms>
+</LanguageResource>

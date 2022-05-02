@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="OcrMiniDownloadResult">
+    <Image Name="OcrMiniDownloadResult.svg" />
+    <Slice Id="Success" rect="0,0,24,24" />
+    <Slice Id="Fail" rect="24,0,24,24" />
+  </Item>
+</Skin>

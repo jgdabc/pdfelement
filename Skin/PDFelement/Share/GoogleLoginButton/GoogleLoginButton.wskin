@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="GoogleLoginButton">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Image Name="GoogleLoginButton.svg" />
+      <State Left="0" Top="0" Width="193" Height="48">
+        <Margins Left="6" Top="6" Right="6" Bottom="6" />
+      </State>
+    </Part>
+  </Item>
+</Skin>

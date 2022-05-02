@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="PageEdit">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Image Name="PageEdit.svg" />
+      <Margins Left="6" Top="6" Right="6" Bottom="6" />
+      <State Left="0" Top="0" Width="64" Height="32">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+      </State>
+      <State Left="64" Top="0" Width="64" Height="32">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+      </State>
+      <State Left="128" Top="0" Width="64" Height="32">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+      </State>
+      <State Left="192" Top="0" Width="64" Height="32">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+        <Font Color="0xffc8bdbc" />
+      </State>
+    </Part>
+  </Item>
+</Skin>

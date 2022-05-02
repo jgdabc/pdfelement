@@ -1,0 +1,4253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageResource Id="JPN" Name="Japanese" LocaleName="Japan" Version="1.1" LangID="0x0411" CodePage="932">
+  <Default>
+    <Font Name="Meiryo" Size="9" />
+    <FontMapping>
+      <Item From="Open Sans" To="Meiryo" FailTo="Tahoma" />
+      <Item From="Open Sans Semibold" To="Meiryo" FailTo="Tahoma" />
+      <Item From="Tahoma" To="Meiryo" FailTo="Tahoma" />
+      <Item From="Arial" To="Meiryo" FailTo="Tahoma" />
+      <Item From="Inter" To="Meiryo" FailTo="Tahoma" />
+      <Item From="Helvetica" To="Meiryo" Failto="Tahoma" />
+    </FontMapping>
+  </Default>
+  <Strings>
+    <Info_ProductName>Wondershare PDFelement</Info_ProductName>
+    <Info_BusinessProductName>Wondershare PDFelement Business</Info_BusinessProductName>
+    <Info_CreatorApp>Wondershare PDFelement</Info_CreatorApp>
+    <Info_PDFVersion>1.7</Info_PDFVersion>
+    <Info_PermissionAllow>許可</Info_PermissionAllow>
+    <Info_PermissionNotAllow>許可しない</Info_PermissionNotAllow>
+    <Info_DocProperty_EmbeddedSubset>(埋込型サブセットフォント)</Info_DocProperty_EmbeddedSubset>
+    <Info_DocProperty_FontType>タイプ：</Info_DocProperty_FontType>
+    <Info_DocProperty_FontEncoding>エンコーディング：</Info_DocProperty_FontEncoding>
+    <Info_DocProperty_Custom>カスタム</Info_DocProperty_Custom>
+    <Info_DocProperty_ActualFont>実際のフォント：</Info_DocProperty_ActualFont>
+    <Info_DocProperty_ActualType>実際のフォントタイプ：</Info_DocProperty_ActualType>
+    <Info_InvalidFileName>無効なファイル名</Info_InvalidFileName>
+    <Info_FileNamePathToolLong>ファイル名が最大文字制限を超えています。</Info_FileNamePathToolLong>
+    <Info_Copyof>コピー</Info_Copyof>
+    <Info_PdfFileFilter>PDFファイル(*.pdf)|*.pdf</Info_PdfFileFilter>
+    <Info_AllFiles>すべてのファイル</Info_AllFiles>
+    <Info_Finished>完了</Info_Finished>
+    <Info_PrintToFile>PDFに印刷-  Wondershare PDFelement プリンター</Info_PrintToFile>
+    <Info_InsertSameFileWarning>文書を同一文書内に挿入することはできません。別の挿入先ファイルを選択してください。</Info_InsertSameFileWarning>
+    <Info_Scan_CbbScanner_SelectScanner>スキャナを選択してください</Info_Scan_CbbScanner_SelectScanner>
+    <SecurityPanel_PrintNone>印刷が制限されています</SecurityPanel_PrintNone>
+    <SecurityPanel_PrintLowResolution>低解像度</SecurityPanel_PrintLowResolution>
+    <SecurityPanel_PrintHighResolution>高解像度</SecurityPanel_PrintHighResolution>
+    <SecurityPanel_ChangesNone>変更することはできません</SecurityPanel_ChangesNone>
+    <SecurityPanel_ChangesPages>ページの挿入、削除、回転が可能です</SecurityPanel_ChangesPages>
+    <SecurityPanel_ChangesFillingAndSigning>フォームフィールドへの書き込み及び署名の追加が可能です</SecurityPanel_ChangesFillingAndSigning>
+    <SecurityPanel_ChangesCommentingFillingAndSigning>コメント、フォームフィールドへの書き込み、及び署名の追加が可能です</SecurityPanel_ChangesCommentingFillingAndSigning>
+    <SecurityPanel_ChangesAnyExceptExtractingPages>ページの抽出は禁止されています</SecurityPanel_ChangesAnyExceptExtractingPages>
+    <SecurityPanel_OpenPassword>オープンパスワード</SecurityPanel_OpenPassword>
+    <SecurityPanel_PermissionPassword>許可パスワード</SecurityPanel_PermissionPassword>
+    <SecurityPanel_PasswordEmptyWaring>{0}フィールドは空欄にできません</SecurityPanel_PasswordEmptyWaring>
+    <SecurityPanel_PasswordNotMatch>{0}が一致しません。もう一度確認してください。</SecurityPanel_PasswordNotMatch>
+    <SecurityTemplate_Title>セキュリティ</SecurityTemplate_Title>
+    <Security_EffectivePrompt>文書が保存されるまでセキュリティ設定は有効になりません。</Security_EffectivePrompt>
+    <SavedSettingPanel_NoneSpecified>[指定なし]</SavedSettingPanel_NoneSpecified>
+    <SavedSettingPanel_CustomNotSaved>[カスタム保存なし]</SavedSettingPanel_CustomNotSaved>
+    <SavedSettingPanel_ReplaceWarning>ファイル名「{0}」は既に存在します。置き換えますか？</SavedSettingPanel_ReplaceWarning>
+    <SavedSettingPanel_DeleteWarningWithName>本当にテンプレート「{0}」を削除しますか？</SavedSettingPanel_DeleteWarningWithName>
+    <SavedSettingPanel_DeleteWarning>本当にテンプレートを削除しますか？</SavedSettingPanel_DeleteWarning>
+    <SavedSettingPanel_Delete>削除</SavedSettingPanel_Delete>
+    <SavedSettingPanel_DeleteTitle>{0}を削除</SavedSettingPanel_DeleteTitle>
+    <SavedSettingPanel_Replace>置き換える</SavedSettingPanel_Replace>
+    <SavedSettingPanel_DeleteTag>{0}を削除してもよろしいですか？</SavedSettingPanel_DeleteTag>
+    <PageRangePanel_All>すべてのページ</PageRangePanel_All>
+    <PageRangePanel_Even>偶数ページ</PageRangePanel_Even>
+    <PageRangePanel_Odd>奇数ページ</PageRangePanel_Odd>
+    <PageRangePanel_SubsetAll>すべてのページにサブセット</PageRangePanel_SubsetAll>
+    <PageRangePanel_SubsetRange>選択範囲にサブセット</PageRangePanel_SubsetRange>
+    <PageRangePanel_ErrorTips>有効なページ範囲を入力してください。</PageRangePanel_ErrorTips>
+    <PageRangeToPanel_Current>現在のページ</PageRangeToPanel_Current>
+    <WatermarkPanel_FileNotFound>透かしのソースファイルが削除されました。</WatermarkPanel_FileNotFound>
+    <OcrPage_TextOnImage>編集可能なテキスト</OcrPage_TextOnImage>
+    <OcrPage_ImageOnText>検索可能なテキスト＆画像</OcrPage_ImageOnText>
+    <ProgressForm_CancelTips>{0}は完了していません。本当に終了しますか？</ProgressForm_CancelTips>
+    <Progress_ConvertTitle>{0}に変換</Progress_ConvertTitle>
+    <Progress_ConvertDesc>「{0}」を変換しています</Progress_ConvertDesc>
+    <Progress_ConvertSuccessTitle>正常に変換されました</Progress_ConvertSuccessTitle>
+    <Progress_ConvertSuccessContent>正常に「{0}」に変換されました。</Progress_ConvertSuccessContent>
+    <Progress_ConvertSuccessContentFolder>正常に{0}に変換されました。ファイルはフォルダ「{1}」に格納されています。</Progress_ConvertSuccessContentFolder>
+    <Progress_ConvertFailTitle>変換に失敗しました</Progress_ConvertFailTitle>
+    <Progress_ConvertFailContent>{0}への変換に失敗しました。</Progress_ConvertFailContent>
+    <Progress_OverwriteError>ファイルの上書きに失敗しました。パスを再選択してください。</Progress_OverwriteError>
+    <Progress_CreatetTitle>PDF作成</Progress_CreatetTitle>
+    <Progress_CreateDesc>PDFを作成しています</Progress_CreateDesc>
+    <Progress_CreateFailTitle>PDFの作成に失敗しました</Progress_CreateFailTitle>
+    <Progress_CreateFailContent>PDFの作成に失敗しました。</Progress_CreateFailContent>
+    <Progress_ClipboardCreateFailContent>クリップボードからPDFファイルを作成中にエラーが発生しました。</Progress_ClipboardCreateFailContent>
+    <Progress_CombineTitle>PDF結合</Progress_CombineTitle>
+    <Progress_CombineDesc>PDFを結合しています・・・</Progress_CombineDesc>
+    <Progress_DataExtractTitle>データを抽出</Progress_DataExtractTitle>
+    <Progress_DataExtractDesc>データを抽出しています</Progress_DataExtractDesc>
+    <Progress_DataExtractFailTitle>データの抽出に失敗しました</Progress_DataExtractFailTitle>
+    <Progress_DataExtractFailContent>データの抽出に失敗しました。</Progress_DataExtractFailContent>
+    <Progress_FlattenTitle>フラット化</Progress_FlattenTitle>
+    <Progress_FlattenDesc>フラット化しています</Progress_FlattenDesc>
+    <Progress_FlattenFailTitle>PDFのフラット化に失敗しました</Progress_FlattenFailTitle>
+    <Progress_FlattenFailContent>PDFのフラット化に失敗しました</Progress_FlattenFailContent>
+    <Progress_OcrTitle>OCR処理</Progress_OcrTitle>
+    <Progress_OcrDesc>OCR処理をしています…</Progress_OcrDesc>
+    <Progress_OcrFailTitle>OCR処理に失敗しました</Progress_OcrFailTitle>
+    <Progress_OcrFailContent>OCR処理に失敗しました。</Progress_OcrFailContent>
+    <Progress_OcrAreaTitle>OCRエリア</Progress_OcrAreaTitle>
+    <Progress_OcrAreaDesc>OCRエリアは処理中です…</Progress_OcrAreaDesc>
+    <Progress_OcrAreaFailTitle>OCRエリアが失敗しました</Progress_OcrAreaFailTitle>
+    <Progress_OcrAreaFailContent>おっと！ OCRエリアを完了できませんでした。</Progress_OcrAreaFailContent>
+    <SplitByBookmark_HeadPartSuffix>ヘッダー</SplitByBookmark_HeadPartSuffix>
+    <SplitByPages_PartSuffix>パート</SplitByPages_PartSuffix>
+    <Info_NotContainAnyBookmark>トップレベルのブックマークが含まれていないため、ドキュメントを分割することはできません。
+オプションを変更して、再度お試しください。</Info_NotContainAnyBookmark>
+    <Info_SplitSaveInfo>分割する前に文書を保存してください。</Info_SplitSaveInfo>
+    <Progress_SplitTitle>ページを分割</Progress_SplitTitle>
+    <Progress_SplitDesc>ページを分割しています・・・</Progress_SplitDesc>
+    <Progress_SplitResult>正常にページが分割されました。
+文書は{0}個の文書に分割されました。</Progress_SplitResult>
+    <Progress_FileAttachmentTitle>添付ファイルを追加</Progress_FileAttachmentTitle>
+    <Progress_FileAttachmentDesc>添付ファイルを追加しています…</Progress_FileAttachmentDesc>
+    <DeletePage_Title>ページを削除</DeletePage_Title>
+    <Info_DeletePage>本当にこのページを削除しますか？</Info_DeletePage>
+    <Info_DeletePages>ページを削除してもよろしいですか？</Info_DeletePages>
+    <Info_DeleteAllPagesWarning>すべてのページは削除できません - 少なくとも1ページは残してください。</Info_DeleteAllPagesWarning>
+    <DeletePage_DeleteButtonText>削除</DeletePage_DeleteButtonText>
+    <InsertPage_BlankPage>空白のページ</InsertPage_BlankPage>
+    <ExtractPagesForm_Caption>ページを抽出</ExtractPagesForm_Caption>
+    <Progress_CopyPagesDesc>ページをコピーしています...</Progress_CopyPagesDesc>
+    <Progress_PastingPages>ページを貼り付けています</Progress_PastingPages>
+    <Progress_PagesExtractTitle>ページを抽出</Progress_PagesExtractTitle>
+    <Progress_PagesExtractDesc>ページを抽出しています…</Progress_PagesExtractDesc>
+    <Progress_Redaction>墨消しを適用</Progress_Redaction>
+    <Progress_Search>検索オプション</Progress_Search>
+    <Progress_MarkForRedactions>墨消しをマーク</Progress_MarkForRedactions>
+    <TaskName_Combine>結合</TaskName_Combine>
+    <TaskName_Create>作成</TaskName_Create>
+    <TaskName_Convert>変換</TaskName_Convert>
+    <TaskName_Flatten>フラット化</TaskName_Flatten>
+    <TaskName_Optimize>最適化</TaskName_Optimize>
+    <TaskName_DataExtract>データを抽出</TaskName_DataExtract>
+    <Convert_Image>画像</Convert_Image>
+    <Convert_KeepOriginalDPI>オリジナルの解像度を保つ</Convert_KeepOriginalDPI>
+    <Combine_CloseTips>本当にファイルを終了しますか？</Combine_CloseTips>
+    <File_Image>画像</File_Image>
+    <File_FdfField>FDFファイル</File_FdfField>
+    <File_XfaDataField>FDFファイル</File_XfaDataField>
+    <File_Files>ファイル</File_Files>
+    <File_NotExist>このファイルは存在しません。</File_NotExist>
+    <File_ImageDamaged>画像の読み込みに失敗しました。ファイルが破損していないか確認してください。</File_ImageDamaged>
+    <Ocr_DownloadTitle>OCRダウンロード</Ocr_DownloadTitle>
+    <Ocr_Downloading>OCRをダウンロードしています…お待ちください。</Ocr_Downloading>
+    <Ocr_DownloadFail>OCRのダウンロードに失敗しました</Ocr_DownloadFail>
+    <Ocr_FileCorrupt>ダウンロードされたファイルが破損しています。もう一度試してください。</Ocr_FileCorrupt>
+    <Ocr_InstallTitile>OCRインストール</Ocr_InstallTitile>
+    <Ocr_Installing>OCRをインストールしています…お待ちください。</Ocr_Installing>
+    <Ocr_InstallCompleted>OCRのインストールが完了しました。</Ocr_InstallCompleted>
+    <Ocr_InstallFail>OCRのインストールに失敗しました。もう一度試してください。</Ocr_InstallFail>
+    <Ocr_InstallerStartFail>OCRダウンローダーの起動に失敗しました。</Ocr_InstallerStartFail>
+    <Ocr_ContinueDownload>続行</Ocr_ContinueDownload>
+    <Ocr_CancelDownload>ダウンロードをキャンセル</Ocr_CancelDownload>
+    <FilePrefix_ExtractPages>ページの元ファイル</FilePrefix_ExtractPages>
+    <FileSuffix_Create>作成</FileSuffix_Create>
+    <FileSuffix_DataExtract>データを抽出</FileSuffix_DataExtract>
+    <FileSuffix_BatesNumber>ベイツ番号</FileSuffix_BatesNumber>
+    <FileSuffix_Watermark>透かし</FileSuffix_Watermark>
+    <FileSuffix_Optimize>最適化</FileSuffix_Optimize>
+    <FileSuffix_Security>セキュリティ</FileSuffix_Security>
+    <FileSuffix_Background>背景</FileSuffix_Background>
+    <FileSuffix_Combine>結合</FileSuffix_Combine>
+    <FileSuffix_HeaderFooter>ヘッダー/フッター</FileSuffix_HeaderFooter>
+    <FileSuffix_Flatten>フラット化</FileSuffix_Flatten>
+    <TagName_Watermark>透かし</TagName_Watermark>
+    <TagName_BatesNumber>ベイツ番号</TagName_BatesNumber>
+    <TagName_Background>背景</TagName_Background>
+    <TagName_HeaderFooter>ヘッダー　フッター</TagName_HeaderFooter>
+    <TaskTips_UserCancel>操作がキャンセルされました。</TaskTips_UserCancel>
+    <TaskTips_Fail>操作が失敗しました。</TaskTips_Fail>
+    <TaskMain_Closing>進行中のタスクがありますが、終了してもよろしいですか？</TaskMain_Closing>
+    <TaskPage_Apply>適用</TaskPage_Apply>
+    <TaskPage_Cancel>キャンセル</TaskPage_Cancel>
+    <TaskPage_Cancelling>キャンセルしています…</TaskPage_Cancelling>
+    <FileListPanel_ClearAll>すべてをクリア</FileListPanel_ClearAll>
+    <FileListPanel_ClearAllTips>本当にすべてのファイルをクリアしますか？</FileListPanel_ClearAllTips>
+    <FileItem_FileNotExisted>ファイルが存在しません</FileItem_FileNotExisted>
+    <FileItem_NeedPermissionPwd>ファイルが暗号化されています。</FileItem_NeedPermissionPwd>
+    <FileItem_CannotOpen>文書を開くことができません。</FileItem_CannotOpen>
+    <FileItem_NotSupportXFA>現在の機能はXFAドキュメントをサポートしていません。</FileItem_NotSupportXFA>
+    <FileItem_PageCount>ページ数</FileItem_PageCount>
+    <FileItem_PageRange>ページ範囲</FileItem_PageRange>
+    <FileItem_All>すべて</FileItem_All>
+    <FileItem_RangeExample>ページ：例(1,3,5,1-7)</FileItem_RangeExample>
+    <FileFailReason_Duplicate>このファイルは既に追加されています</FileFailReason_Duplicate>
+    <FileFailReason_NotSupport>このファイルフォーマットはサポートされていません。</FileFailReason_NotSupport>
+    <FileFailReason_Damaged>この文書を開くことができません。ファイルが破損しているか、ファイルタイプがPDFelementでサポートされていない可能性があります。</FileFailReason_Damaged>
+    <FileFailReason_NotExist>このファイルは存在しません。</FileFailReason_NotExist>
+    <FileFailReason_CreateFail>PDFの作成に失敗しました</FileFailReason_CreateFail>
+    <FileFailReason_MergeFail>PDFの結合に失敗しました</FileFailReason_MergeFail>
+    <FileFailReason_NeedPassword>パスワードが必要です</FileFailReason_NeedPassword>
+    <FileFailReason_PathInvalid>パスが無効です</FileFailReason_PathInvalid>
+    <FileFailReason_Unauthorized>不正アクセスファイル</FileFailReason_Unauthorized>
+    <FileFailReason_OpenFail>開くに失敗しました</FileFailReason_OpenFail>
+    <FileFailReason_Unknown>不明</FileFailReason_Unknown>
+    <OutputPanel_InvalidPath>無効なパスです</OutputPanel_InvalidPath>
+    <OutputPanel_ErrorFolder>フォルダのパスが無効です。もう一度試してください。</OutputPanel_ErrorFolder>
+    <OutputPanel_ErrorPath>パスが無効です。確認してください。</OutputPanel_ErrorPath>
+    <OutputPanel_FolderReadOnly>フォルダのパスは読み込み専用です。確認してください。</OutputPanel_FolderReadOnly>
+    <OutputPanel_TooLong>パスが長すぎます。</OutputPanel_TooLong>
+    <DataExtract_ScannedNotForms>フォームではない文書はフォーム認識またはデータ抽出を使用することができません。</DataExtract_ScannedNotForms>
+    <DataExtract_File>ファイル</DataExtract_File>
+    <DataExtract_Field>フィールド</DataExtract_Field>
+    <DataExtract_FileError>ファイルの展開に失敗しましたのでプレビューを表示できません。ファイルが削除されているか、パスワードが変更されている可能性があります。</DataExtract_FileError>
+    <DataExtract_NoFieldsTips>フォームフィールドが検知されませんでした。
+最初にフォームフィールドとしてテキストを選択してください。</DataExtract_NoFieldsTips>
+    <DataExtract_Apply>適用</DataExtract_Apply>
+    <DataExtract_ApplyTemplate>抽出するテキストを選択してください</DataExtract_ApplyTemplate>
+    <DataExtract_HowToSelect>抽出するテキストの選択方法は？</DataExtract_HowToSelect>
+    <Capture_CopyFinish>選択エリアがコピーされました</Capture_CopyFinish>
+    <Operation_Add>追加</Operation_Add>
+    <Operation_Update>アップデート</Operation_Update>
+    <Operation_Remove>削除</Operation_Remove>
+    <PageNumber_One>##1##</PageNumber_One>
+    <PageNumber_OneOfN>##1## of ##n##</PageNumber_OneOfN>
+    <PageNumber_OneSlashN>##1##/##n##</PageNumber_OneSlashN>
+    <PageNumber_PageOne>ページ ##1##</PageNumber_PageOne>
+    <PageNumber_PageOneOfN>ページ ##1## of ##n##</PageNumber_PageOneOfN>
+    <CropPageSize>トリミングされたページサイズ：{0}</CropPageSize>
+    <PageBox_CropBox>トリミングサイズ</PageBox_CropBox>
+    <PageBox_BleedBox>裁ち落としサイズ</PageBox_BleedBox>
+    <PageBox_TrimBox>仕上がりサイズ</PageBox_TrimBox>
+    <PageBox_ArtBox>アートサイズ</PageBox_ArtBox>
+    <PageBox_SizeNone>無し</PageBox_SizeNone>
+    <Password_NeedPwd>「{0}」は保護されています。</Password_NeedPwd>
+    <Password_OpenFail>パスワードが間違っているため文書を開くことができませんでした。</Password_OpenFail>
+    <OpenResult_Success>正常にファイルが開かれました。</OpenResult_Success>
+    <OpenResult_Error>パスワードが間違っています。もう一度試してください。</OpenResult_Error>
+    <OpenResult_FileError>ファイルを開くことができませんでした。フォーマット設定が間違っている、またはファイルが破損している可能性があります。</OpenResult_FileError>
+    <OpenResult_EnterPassword>パスワードを入力してください。</OpenResult_EnterPassword>
+    <OpenResult_EnterOwner>この文書には許可パスワードが設定されています。許可パスワードを入力してください。</OpenResult_EnterOwner>
+    <OpenResult_PresetOpenFail>プリセットされたパスワードでは文書を開くことができません。</OpenResult_PresetOpenFail>
+    <FilePrint_ShowSetting>詳細設定</FilePrint_ShowSetting>
+    <FilePrint_HideSetting>非表示</FilePrint_HideSetting>
+    <HomePage_GoodMorning>おはようございます！</HomePage_GoodMorning>
+    <HomePage_GoodAfternoon>こんにちは！</HomePage_GoodAfternoon>
+    <HomePage_GoodEvening>こんばんは！</HomePage_GoodEvening>
+    <DocumentPage_ReadOnly>これは読取専用のファイルです。文書を保存する場合は、異なる名称、または異なるフォルダを使用してください。</DocumentPage_ReadOnly>
+    <DocumentPage_UseByOtherPorcesses>このファイルは別のプログラムで使用されているため、要求を実行することができませんでした。文書を保存する場合は、異なる名称、または異なるフォルダを使用してください。</DocumentPage_UseByOtherPorcesses>
+    <Info_MaxTabs>開くことができるのは50文書までとなっています。これ以上新しいファイルを開くことはできません。</Info_MaxTabs>
+    <Info_MaxTabsTitle>最大タブ</Info_MaxTabsTitle>
+    <Info_China_ExitTip>ログインしていない場合は本製品を使用することはできません。、本当に本製品からログアウトしますか？</Info_China_ExitTip>
+    <Recent_FileNotAvailable>開こうとしているドキュメントが存在しません。
+移動、名前変更、または削除された可能性があります。</Recent_FileNotAvailable>
+    <Recent_FileNotAvailable_Title>ファイルを開くことができませんでした</Recent_FileNotAvailable_Title>
+    <Info_SaveTipBeforeOperation>操作をする前に「{0}」を保存しますか？</Info_SaveTipBeforeOperation>
+    <Info_RenameNeedSave>名前を変更する前にファイルを保存してください。</Info_RenameNeedSave>
+    <Info_RenameFail>ファイルの名前変更に失敗しました</Info_RenameFail>
+    <Info_RenameExist>同じ名前「{0}」がすでに存在するため、ファイルの名前を変更できませんでした。</Info_RenameExist>
+    <Info_RenameInvalid>ファイル名に無効な文字を含めることはできません。</Info_RenameInvalid>
+    <Info_RenamePathError>ファイル名がエラーになっているため、ファイル名を変更できませんでした。</Info_RenamePathError>
+    <QatMenu_Email_SizeOver20>Outlookでは20MBを超える文書を添付することはできません。</QatMenu_Email_SizeOver20>
+    <QatMenu_Email_SizeOver20_Title>文書サイズが20MBを超えています</QatMenu_Email_SizeOver20_Title>
+    <TaskName_Print>印刷タスク</TaskName_Print>
+    <Print_PathError>ファイルに書き込むことができませんでした。不正なパスである、またはファイルが別のアプリケーションで使用されている可能性があります。別のファイルを試しますか？</Print_PathError>
+    <Print_PathError_Title>印刷エラー</Print_PathError_Title>
+    <Print_PrintError>PDFの印刷に失敗しました</Print_PrintError>
+    <Print_PrintError_Title>印刷に失敗しました</Print_PrintError_Title>
+    <Print_Printer_Invalid>ドキュメントを印刷できないため、プリンタがコンピュータから切断されている可能性があります。</Print_Printer_Invalid>
+    <Print_Printer_Invalid_Title>印刷に失敗しました</Print_Printer_Invalid_Title>
+    <Print_Printer_NoExist>プリンターが接続されていませんので、ご確認ください。</Print_Printer_NoExist>
+    <Print_Printer_NoExist_Title>プリンターが存在しません</Print_Printer_NoExist_Title>
+    <Print_Printer_Occupied>プリンターは別のドキュメントを準備しています。 現在のドキュメントを印刷する場合は、最初に[印刷]パネルを閉じます。</Print_Printer_Occupied>
+    <Print_Printer_Occupied_Title>プリンターが占有されています</Print_Printer_Occupied_Title>
+    <Bookmark_Newbookmark>新規ブックマーク</Bookmark_Newbookmark>
+    <Print_PagesPerSheetType_Sheets2>2</Print_PagesPerSheetType_Sheets2>
+    <Print_PagesPerSheetType_Sheets4>4</Print_PagesPerSheetType_Sheets4>
+    <Print_PagesPerSheetType_Sheets6>6</Print_PagesPerSheetType_Sheets6>
+    <Print_PagesPerSheetType_Sheets9>9</Print_PagesPerSheetType_Sheets9>
+    <Print_PagesPerSheetType_Sheets16>16</Print_PagesPerSheetType_Sheets16>
+    <Print_PagesPerSheetType_SheetsCustom>カスタム...</Print_PagesPerSheetType_SheetsCustom>
+    <Print_FlowDirection_LeftToRight>水平</Print_FlowDirection_LeftToRight>
+    <Print_FlowDirection_RightToLeft>水平反転</Print_FlowDirection_RightToLeft>
+    <Print_FlowDirection_TopDown>垂直</Print_FlowDirection_TopDown>
+    <Print_FlowDirection_BottomUp>垂直反転</Print_FlowDirection_BottomUp>
+    <Print_BindingType_Left>左</Print_BindingType_Left>
+    <Print_BindingType_Right>右</Print_BindingType_Right>
+    <Print_BookletSubsetType_BothSides>両面</Print_BookletSubsetType_BothSides>
+    <Print_BookletSubsetType_OnlyPositive>表面のみ</Print_BookletSubsetType_OnlyPositive>
+    <Print_BookletSubsetType_OnlyBack>裏面のみ</Print_BookletSubsetType_OnlyBack>
+    <Print_DuplexType_Simplex>Single sided printing</Print_DuplexType_Simplex>
+    <Print_DuplexType_Vertical>Flip on long edge</Print_DuplexType_Vertical>
+    <Print_DuplexType_Horizontal>Flip on short edge</Print_DuplexType_Horizontal>
+    <Print_DuplexType_Manual>Manual duplex printing</Print_DuplexType_Manual>
+    <Print_ManualDuplex_Tips>Please take out the printed paper from the output tray and put it back into the tray, and then press "OK" to continue printing.</Print_ManualDuplex_Tips>
+    <Print_CannotPrint_Tips>セキュリティ設定で文書の印刷が許可されていないため、このファイルを印刷できませんでした。</Print_CannotPrint_Tips>
+    <INF_NewText>新規テキスト</INF_NewText>
+    <INF_Information>情報</INF_Information>
+    <INF_Warning>警告</INF_Warning>
+    <INF_Error>エラー</INF_Error>
+    <INF_OK>OK</INF_OK>
+    <INF_Cancel>キャンセル</INF_Cancel>
+    <INF_Abort>中絶</INF_Abort>
+    <INF_Igore>無視する</INF_Igore>
+    <INF_Retry>再試行</INF_Retry>
+    <INF_Yes>はい</INF_Yes>
+    <INF_No>いいえ</INF_No>
+    <Preference_ChangeUILanguageTitle>言語設定</Preference_ChangeUILanguageTitle>
+    <Preference_ChangeUILanguageMessage>変更は次回の起動時に有効になります。すぐにプログラムを再起動しますか？</Preference_ChangeUILanguageMessage>
+    <BookmarkList_Newbookmark>新規ブックマーク</BookmarkList_Newbookmark>
+    <BookmarkList_ResetBookmarkMsg>ブックマークの目標を現在のページに設定してもよろしいですか？</BookmarkList_ResetBookmarkMsg>
+    <BookmarkList_SetBookmarkTitle>ブックマークの目標</BookmarkList_SetBookmarkTitle>
+    <AnnotationList_PageNumber>ページ{0}</AnnotationList_PageNumber>
+    <AnnotationList_DoubleClickToNote>ダブルクリックしてメモします。</AnnotationList_DoubleClickToNote>
+    <SearchList_SearchingIsEmpty>検索テキストを空にすることはできません。</SearchList_SearchingIsEmpty>
+    <SearchList_SearchResults>結果</SearchList_SearchResults>
+    <SearchList_SearchRecordChange>最後に検索されたときから文書が変更されており、検索結果が無効になっています。検索を繰り返しますか？</SearchList_SearchRecordChange>
+    <AttachmentList_PageNumber>ページ{0}</AttachmentList_PageNumber>
+    <AttachmentStyle_Graphics>グラフ</AttachmentStyle_Graphics>
+    <AttachmentStyle_Paperclip>ペーパークリップ</AttachmentStyle_Paperclip>
+    <AttachmentStyle_Attachment>添付</AttachmentStyle_Attachment>
+    <AttachmentStyle_Tag>タグ</AttachmentStyle_Tag>
+    <AdvancedSearch_LookFor>以下の場所で&lt;b&gt;{0}&lt;/b&gt;を検索</AdvancedSearch_LookFor>
+    <AdvancedSearch_AllOpenDocuments>開いているすべてのドキュメント</AdvancedSearch_AllOpenDocuments>
+    <AdvancedSearch_ProgressDesc>{0} ドキュメント、 {1} インスタンス</AdvancedSearch_ProgressDesc>
+    <AdvancedSearch_ReplaceResult>{0} ファイルのが置き換えられました。</AdvancedSearch_ReplaceResult>
+    <AdvancedSearch_NewSearch>新しい検索</AdvancedSearch_NewSearch>
+    <AdvancedSearch_Stop>停止</AdvancedSearch_Stop>
+    <AdvancedSearch_AllDocuments>すべてのドキュメント</AdvancedSearch_AllDocuments>
+    <AdvancedSearch_FileIsDamaged>ファイルが破損しています</AdvancedSearch_FileIsDamaged>
+    <AdvancedSearch_FileIsEncrypted>ファイルが暗号化されています</AdvancedSearch_FileIsEncrypted>
+    <AdvancedSearch_ReplaceSuffix>置き換える</AdvancedSearch_ReplaceSuffix>
+    <EditMenu_Redo>やり直し</EditMenu_Redo>
+    <EditMenu_Undo>元に戻す</EditMenu_Undo>
+    <EditMenu_Cut>切り取り</EditMenu_Cut>
+    <EditMenu_Copy>コピー</EditMenu_Copy>
+    <EditMenu_Paste>貼付け</EditMenu_Paste>
+    <EditMenu_Delete>削除</EditMenu_Delete>
+    <EditMenu_SelectAll>すべてを選択</EditMenu_SelectAll>
+    <Info_Screenshot_Undo>取り消す</Info_Screenshot_Undo>
+    <Info_Screenshot_Copy>コピー</Info_Screenshot_Copy>
+    <Info_Screenshot_SaveAs>節約</Info_Screenshot_SaveAs>
+    <Info_Screenshot_Exit>終了</Info_Screenshot_Exit>
+    <Info_Signed>署名済み</Info_Signed>
+    <Info_SignFailureIdentityExpired>証明書が無効なため、署名に失敗しました。</Info_SignFailureIdentityExpired>
+    <Info_SignatureValidBy>署名は有効です。{0}によって署名されています</Info_SignatureValidBy>
+    <Info_SignatureValid>署名は有効です。</Info_SignatureValid>
+    <Info_SimpleModified>この署名によって変換された文書が変更されませんでした。しかし、以降の変化が文書にありました。</Info_SimpleModified>
+    <Info_DamageModified>署名が適用されてから文書が変更または、破壊されています。</Info_DamageModified>
+    <Info_NotModified>この署名が適用されてから、文書は変更されていません。</Info_NotModified>
+    <Info_TrustedUser>署名者の身元は有効です。</Info_TrustedUser>
+    <Info_UnTrustedUser>署名者のIDは、信頼できるIDのリストに含まれておらず、その親証明書も信頼できるIDではないため、不明です。</Info_UnTrustedUser>
+    <Info_SignetimeOnComputer>署名時間は、署名者のコンピューターの時計からです。</Info_SignetimeOnComputer>
+    <Info_Finish>終了</Info_Finish>
+    <Info_Next>次</Info_Next>
+    <Info_Back>戻る</Info_Back>
+    <Info_DigitalIDTitle>ローカルデジタルIDファイル</Info_DigitalIDTitle>
+    <Info_DigitalIDFilesFilter>デジタルIDファイル</Info_DigitalIDFilesFilter>
+    <Info_FileNotExist>ファイルまたはフォルダが存在しません。</Info_FileNotExist>
+    <Info_OpenIDFileFailed>指定されたパスワードでデジタルIDファイルを開くことができませんでした。再試行してください。</Info_OpenIDFileFailed>
+    <Info_IdInfoNameRequired>自己署名のデジタルIDを作成するには名前が必要です。</Info_IdInfoNameRequired>
+    <Info_EnterPasswordToOpen>パスワードを入力して、デジタルIDファイルを開きます。</Info_EnterPasswordToOpen>
+    <Info_EmailFormError>メールアドレスはxxx@xx.comの形式である必要があります</Info_EmailFormError>
+    <Info_PasswordNotMatch>パスワードが一致していません。</Info_PasswordNotMatch>
+    <Info_ReplaceExistID>この名前のデジタルIDファイルはすでに存在します。既存のファイルを置き換えますか？</Info_ReplaceExistID>
+    <Info_PasswordSixlong>パスワードが不十分です。パスワードは6文字以上である必要があります。</Info_PasswordSixlong>
+    <Info_ImageFileError>写真はエラーです！画像パスを確認するか、別のパスを試してください。</Info_ImageFileError>
+    <Info_AutoSave>自動保存</Info_AutoSave>
+    <MainMenus_BlankPdf>無題</MainMenus_BlankPdf>
+    <Stamp_ImageFormatNotSupported>画像形式はサポートされていません。</Stamp_ImageFormatNotSupported>
+    <Info_NoFileSelected>ファイルが選択されていません</Info_NoFileSelected>
+    <Warn_ReplaceSelf>ドキュメントをそれ自体に置き換えることはできません。別のドキュメントを選択してください。</Warn_ReplaceSelf>
+    <PageLabelSettingsForm_NumberStyle_NotSet>無し</PageLabelSettingsForm_NumberStyle_NotSet>
+    <PageLabelSettingsForm_StError>数値は1から入力してください。</PageLabelSettingsForm_StError>
+    <PageLabelSettingsForm_PageNumberError>ドキュメント内にページ番号'{0}'は、存在しません。</PageLabelSettingsForm_PageNumberError>
+    <PageLabelSettingsForm_PageRangeError>最初のページ番号は最後のページ番号より大きくしてはいけません。</PageLabelSettingsForm_PageRangeError>
+    <Info_StandardStyle>標準スタイル</Info_StandardStyle>
+    <Info_RefreshIDList>IDリストを更新</Info_RefreshIDList>
+    <Info_CreateNewStyle>新しいスタイルを作成する</Info_CreateNewStyle>
+    <Info_SignReasonExample1>署名の理由</Info_SignReasonExample1>
+    <Info_SignReasonExample2>このファイルの所有者です</Info_SignReasonExample2>
+    <Info_SignReasonExample3>この文書を確認しました</Info_SignReasonExample3>
+    <Info_SignReasonExample4>文書が伝えることは真実である</Info_SignReasonExample4>
+    <Info_SignReasonExample5>本規約を読み、同意します。</Info_SignReasonExample5>
+    <Info_EnterPublicName>公開名を入力してください</Info_EnterPublicName>
+    <Info_EnterDistinguishedName>識別名を入力してください</Info_EnterDistinguishedName>
+    <Info_EnterYourSignature>署名の理由を入力してください</Info_EnterYourSignature>
+    <Info_EnterLocation>署名の場所を入力してください</Info_EnterLocation>
+    <Info_NotAvailable>利用不可</Info_NotAvailable>
+    <Info_NotSupportFontTip>選択したフォントの一部の文字が使用できません。
+他のフォントを選択してみてください。</Info_NotSupportFontTip>
+    <Info_PdfAStanderTip>このファイルは{0}標準に準拠しており、変更を防ぐために読み取り専用で開かれています。</Info_PdfAStanderTip>
+    <Save_SaveError_Title>エラーを保存</Save_SaveError_Title>
+    <SaveAs_SaveAsError_Title>エラーとして保存</SaveAs_SaveAsError_Title>
+    <Save_SaveNotice_Title>通知を保存</Save_SaveNotice_Title>
+    <Save_SaveNotice_Cancel>保存動作をキャンセルすると、ドキュメントは保存されません。</Save_SaveNotice_Cancel>
+    <Save_SaveNotice_Unknown>保存中に問題が発生しました。もう一度お試しください。</Save_SaveNotice_Unknown>
+    <Feedback_MailAddressToLong>メールアドレスは200文字を超えることはできません。</Feedback_MailAddressToLong>
+    <Feedback_MailAddressNotValid>入力したメールフォーマットが間違っていますので、ご確認ください。</Feedback_MailAddressNotValid>
+    <Feedback_MailAddressNotValidTitle>無効なEメールアドレス形式です。</Feedback_MailAddressNotValidTitle>
+    <Feedback_MailNoContentAndAttachment>問題の説明を入力してください</Feedback_MailNoContentAndAttachment>
+    <Feedback_AttachmentFileNotExist>アタッチメントは存在しません</Feedback_AttachmentFileNotExist>
+    <Feedback_AttachmentSizeOutOfRange>アタッチメントが使用可能な最大サイズを超えました。</Feedback_AttachmentSizeOutOfRange>
+    <AnnotName_Rectangle>長方形</AnnotName_Rectangle>
+    <AnnotName_TypeWriter>タイプライター</AnnotName_TypeWriter>
+    <AnnotName_TextBox>テキストボックス</AnnotName_TextBox>
+    <AnnotName_Circle>楕円</AnnotName_Circle>
+    <AnnotName_Pencil>鉛筆</AnnotName_Pencil>
+    <AnnotName_Polygon>多角形</AnnotName_Polygon>
+    <AnnotName_Cloud>クラウド</AnnotName_Cloud>
+    <AnnotName_Oval>楕円</AnnotName_Oval>
+    <AnnotName_Line>線</AnnotName_Line>
+    <AnnotName_PolyLine>接続線</AnnotName_PolyLine>
+    <AnnotName_Arrow>矢印</AnnotName_Arrow>
+    <AnnotName_Note>注記</AnnotName_Note>
+    <AnnotName_Link>リンク</AnnotName_Link>
+    <AnnotName_Stamp>スタンプ</AnnotName_Stamp>
+    <AnnotName_Attachment>添付</AnnotName_Attachment>
+    <AnnotName_Redact>墨消し</AnnotName_Redact>
+    <AnnotName_Highlight>ハイライト</AnnotName_Highlight>
+    <AnnotName_AreaHighlight>エリアハイライト</AnnotName_AreaHighlight>
+    <AnnotName_Caret>キャレットを挿入</AnnotName_Caret>
+    <AnnotName_Strikeout>ストライクアウト</AnnotName_Strikeout>
+    <AnnotName_Squigglyline>波線</AnnotName_Squigglyline>
+    <AnnotName_Underline>下線</AnnotName_Underline>
+    <AnnotName_Callout>吹き出し</AnnotName_Callout>
+    <Info_Redaction>墨消し</Info_Redaction>
+    <Info_ApplyRedactNote>墨消しでは、機密情報を永久的にブラックアウトして取り除くことができます。文書を保存すると、この操作を撤回することはできません。
+
+本当に続行しますか？</Info_ApplyRedactNote>
+    <ApplyRedact_DontShowAgain>二度と表示しない</ApplyRedact_DontShowAgain>
+    <ApplyRedact_Continue>続行</ApplyRedact_Continue>
+    <Fields_DefaultName_Text>テキスト</Fields_DefaultName_Text>
+    <Fields_DefaultName_CheckBox>チェックボックス</Fields_DefaultName_CheckBox>
+    <Fields_DefaultName_RadioBox>グループ</Fields_DefaultName_RadioBox>
+    <Fields_DefaultName_ComboBox>コンボボックス</Fields_DefaultName_ComboBox>
+    <Fields_DefaultName_ListBox>リストボックス</Fields_DefaultName_ListBox>
+    <Fields_DefaultName_Button>ボタン</Fields_DefaultName_Button>
+    <Fields_DefaultName_Signature>デジタル署名</Fields_DefaultName_Signature>
+    <Fields_DefaultName_Image>画像</Fields_DefaultName_Image>
+    <Fields_Properties_FormTitle>フォームプロパティ</Fields_Properties_FormTitle>
+    <Fields_Properties_TextFieldProperties>テキストフィールドプロパティ</Fields_Properties_TextFieldProperties>
+    <Fields_Properties_CheckBoxProperties>チェックボックスプロパティ</Fields_Properties_CheckBoxProperties>
+    <Fields_Properties_RadioButtonProperties>切替ボタンプロパティ</Fields_Properties_RadioButtonProperties>
+    <Fields_Properties_DropdownProperties>コンボボックスプロパティ</Fields_Properties_DropdownProperties>
+    <Fields_Properties_ListBoxProperties>リストボックスプロパティ</Fields_Properties_ListBoxProperties>
+    <Fields_Properties_ButtonProperties>ボタンプロパティ</Fields_Properties_ButtonProperties>
+    <Fields_Properties_SignedTheseFields>これらのフィールドのみを選択</Fields_Properties_SignedTheseFields>
+    <Fields_Properties_DigitalSignatureProperties>デジタル署名プロパティ</Fields_Properties_DigitalSignatureProperties>
+    <Fields_Properties_General>一般</Fields_Properties_General>
+    <Fields_Properties_Appearance>外観</Fields_Properties_Appearance>
+    <Fields_Properties_Positionl>位置</Fields_Properties_Positionl>
+    <Fields_Properties_Options>オプション</Fields_Properties_Options>
+    <Fields_Properties_Format>フォーマット</Fields_Properties_Format>
+    <Fields_Properties_Validate>有効</Fields_Properties_Validate>
+    <Fields_Properties_Calculation>計算</Fields_Properties_Calculation>
+    <Fields_Properties_Selection>選択内容を変更</Fields_Properties_Selection>
+    <Fields_Properties_Signed>署名済み</Fields_Properties_Signed>
+    <Fields_Properties_Action>アクション</Fields_Properties_Action>
+    <Fields_Properties_Visible>表示</Fields_Properties_Visible>
+    <Fields_Properties_Hidden>非表示</Fields_Properties_Hidden>
+    <Fields_Properties_VisibleNotPrint>表示するが印刷しない</Fields_Properties_VisibleNotPrint>
+    <Fields_Properties_HiddenPrintable>非表示だが印刷する</Fields_Properties_HiddenPrintable>
+    <Fields_Properties_FiledNameAlreadyExist>入力された名称は既に他のフィールドで使用されています。異なる名称を使用する、またはフィールドタイプを変更して既存フィールドと一致させてください。</Fields_Properties_FiledNameAlreadyExist>
+    <Fields_Properties_MulitActionText>無効</Fields_Properties_MulitActionText>
+    <Fields_Properties_ActionsFile>ファイル：{0}</Fields_Properties_ActionsFile>
+    <Fields_Properties_ActionsPage>ページ：{0}</Fields_Properties_ActionsPage>
+    <Fields_Properties_Custom>カスタム</Fields_Properties_Custom>
+    <Fields_Properties_None>無し</Fields_Properties_None>
+    <Fields_Properties_JavaScriptLineColumn>ライン{0}、列{1}</Fields_Properties_JavaScriptLineColumn>
+    <FontStyle_Regular>レギュラー</FontStyle_Regular>
+    <FontStyle_Bold>太字</FontStyle_Bold>
+    <FontStyle_Italic>斜体</FontStyle_Italic>
+    <FontStyle_BoldItalic>太字斜体</FontStyle_BoldItalic>
+    <FontStyle_Underline>下線</FontStyle_Underline>
+    <FontStyle_Strikeout>ストライクアウト</FontStyle_Strikeout>
+    <AntiPiracy_AuthFailedTitle>アカウント認証に失敗しました</AntiPiracy_AuthFailedTitle>
+    <AntiPiracy_AuthFailedMessage>認証に失敗しました。もう一度ログインしてください。</AntiPiracy_AuthFailedMessage>
+    <UserCenter_Trial>無料トライアル</UserCenter_Trial>
+    <UserCenter_Standard>標準版</UserCenter_Standard>
+    <UserCenter_Professional>プロ版</UserCenter_Professional>
+    <UserCenter_Business>ビジネス向け</UserCenter_Business>
+    <Setting_RemoveAllDictionaryWords>すべてのディクショナリーワードを削除する場合は「はい」をクリックしてください。</Setting_RemoveAllDictionaryWords>
+    <HotKey_CommonHelpOnline>オンラインヘルプページを開く</HotKey_CommonHelpOnline>
+    <HotKey_CommonShowVersion>プロンプト製品バージョンポップアップ</HotKey_CommonShowVersion>
+    <HotKey_CommonOpenFile>プロンプト文書ポップアップ</HotKey_CommonOpenFile>
+    <HotKey_CommonSearchPanel>検索パネルポップアップ</HotKey_CommonSearchPanel>
+    <HotKey_CommonAdvancedSearch>高度な検索を開く</HotKey_CommonAdvancedSearch>
+    <HotKey_CommonRibbonToolTip>リボンショートキーのツールチップを表示する</HotKey_CommonRibbonToolTip>
+    <HotKey_FileManageCloseFile>現在の文書を閉じる</HotKey_FileManageCloseFile>
+    <HotKey_FileManageSaveFile>現在の文書を保存</HotKey_FileManageSaveFile>
+    <HotKey_FileManageSaveAsFile>現在の文書として保存</HotKey_FileManageSaveAsFile>
+    <HotKey_FileManageUndo>最後の変更を元に戻す</HotKey_FileManageUndo>
+    <HotKey_FilePanelRedo>最後の変更をやり直す</HotKey_FilePanelRedo>
+    <HotKey_FilePanelHideFilePanel>ファイルパネルを非表示</HotKey_FilePanelHideFilePanel>
+    <HotKey_FilePanelNew>新しい文書パネルへジャンプ</HotKey_FilePanelNew>
+    <HotKey_FilePanelPrint>印刷パネルをポップアップ</HotKey_FilePanelPrint>
+    <HotKey_FilePanelFilePrintPanel>文書印刷パネルへジャンプ</HotKey_FilePanelFilePrintPanel>
+    <HotKey_FilePanelMaximumWindows>ウインドウサイズの最大化/復元</HotKey_FilePanelMaximumWindows>
+    <HotKey_ViewScaleActually>実際のページサイズに合わせる</HotKey_ViewScaleActually>
+    <HotKey_ViewScaleAdaptedWidth>ウインドウ幅に合わせる</HotKey_ViewScaleAdaptedWidth>
+    <HotKey_ViewScaleAdaptedHeight>ウインドウ高さに合わせる</HotKey_ViewScaleAdaptedHeight>
+    <HotKey_ViewScaleAdaptedPage>ページをウインドウに合わせる</HotKey_ViewScaleAdaptedPage>
+    <HotKey_ViewScaleZoomPagePercent>ページをズームイン</HotKey_ViewScaleZoomPagePercent>
+    <HotKey_ViewScaleZoomOutPange>ページをズームアウト</HotKey_ViewScaleZoomOutPange>
+    <HotKey_ViewScaleExitFullScreen>全画面モードに開始/終了</HotKey_ViewScaleExitFullScreen>
+    <HotKey_ViewModeSinglePage>シングルページ表示</HotKey_ViewModeSinglePage>
+    <HotKey_ViewModeContinuePage>シングルページ 連続</HotKey_ViewModeContinuePage>
+    <HotKey_ViewModeDoublePage>2ページ表示</HotKey_ViewModeDoublePage>
+    <HotKey_ViewModeDoubleContinuePage>2ページ 連続</HotKey_ViewModeDoubleContinuePage>
+    <HotKey_ViewJumpScrollingUp>スクロールアップ/前のページを表示</HotKey_ViewJumpScrollingUp>
+    <HotKey_ViewJumpScrollingDown>スクロールダウン/最終ページを表示</HotKey_ViewJumpScrollingDown>
+    <HotKey_ViewJumpScrollingLeft>左側へ表示をスクロール</HotKey_ViewJumpScrollingLeft>
+    <HotKey_ViewJumpScrollingRight>右側へ表示をスクロール</HotKey_ViewJumpScrollingRight>
+    <HotKey_ViewJumpLastPage>前の表示へジャンプ</HotKey_ViewJumpLastPage>
+    <HotKey_ViewJumpNextPage>次の表示へジャンプ</HotKey_ViewJumpNextPage>
+    <HotKey_SidebarHideLeft>左側のサイドバーを非表示</HotKey_SidebarHideLeft>
+    <HotKey_SidebarHideThumbnail>サムネイルを表示</HotKey_SidebarHideThumbnail>
+    <HotKey_SidebarShowBookmark>ブックマークを表示</HotKey_SidebarShowBookmark>
+    <HotKey_SidebarShowSearchList>検索リストを表示</HotKey_SidebarShowSearchList>
+    <HotKey_SidebarShowAttachmentList>添付リストを表示</HotKey_SidebarShowAttachmentList>
+    <HotKey_SidebarShowCommentList>コメントリストを表示</HotKey_SidebarShowCommentList>
+    <HotKey_RibbonMenuSwitchNextRibbonPage>次のリボンタブに切り替え</HotKey_RibbonMenuSwitchNextRibbonPage>
+    <HotKey_RibbonMenuSwitchLastRibbonPage>前のリボンタブに切り替え</HotKey_RibbonMenuSwitchLastRibbonPage>
+    <HotKey_RibbonMenuShowHideRibbonMenu>リボンメニューを畳む/広げる</HotKey_RibbonMenuShowHideRibbonMenu>
+    <HotKey_FileTabActiveNextFile>次の文書に切り替え</HotKey_FileTabActiveNextFile>
+    <HotKey_FileTabActiveLastFile>前の文書に切り替え</HotKey_FileTabActiveLastFile>
+    <HotKey_SwitchModelSwitchToSelect>選択ツールに切り替え</HotKey_SwitchModelSwitchToSelect>
+    <HotKey_SwitchModelSwitchToEdit>テキスト編集モードに切り替え</HotKey_SwitchModelSwitchToEdit>
+    <HotKey_SwitchModelSwitchToHand>テキストハンドツールに切り替え</HotKey_SwitchModelSwitchToHand>
+    <HotKey_SwitchModelSwitchToComment>コメントに切り替え</HotKey_SwitchModelSwitchToComment>
+    <HotKey_SwitchModelSwitchToLink>リンク編集モードに切り替え</HotKey_SwitchModelSwitchToLink>
+    <HotKey_SwitchModelEscTempStatus>一時編集ステータスを終了</HotKey_SwitchModelEscTempStatus>
+    <HotKey_CommentBubble>吹き出しコメントを追加</HotKey_CommentBubble>
+    <HotKey_CommentTextbox>テキストボックスコメントを追加</HotKey_CommentTextbox>
+    <HotKey_CommentLine>ラインコメントを追加</HotKey_CommentLine>
+    <HotKey_CommentArrow>矢印コメントを追加</HotKey_CommentArrow>
+    <HotKey_CommentEllipse>楕円コメントを追加</HotKey_CommentEllipse>
+    <HotKey_CommentRectangle>四角コメントを追加</HotKey_CommentRectangle>
+    <HotKey_CommentPolygon>多角形コメントを追加</HotKey_CommentPolygon>
+    <HotKey_CommentCloud>雲形コメントを追加</HotKey_CommentCloud>
+    <HotKey_CommentPolyline>接続線コメントを追加</HotKey_CommentPolyline>
+    <HotKey_CommentPen>鉛筆コメントを追加</HotKey_CommentPen>
+    <HotKey_CommentErase>消しゴム</HotKey_CommentErase>
+    <HotKey_CommentUnderLine>下線</HotKey_CommentUnderLine>
+    <HotKey_TextEditEdit>テキスト編集モードに移行</HotKey_TextEditEdit>
+    <HotKey_TextEditBlod>選択したテキストを太字にする</HotKey_TextEditBlod>
+    <HotKey_TextEditItalic>選択したテキストを斜体にする</HotKey_TextEditItalic>
+    <HotKey_TextEditChangeFontName>ドロップダウンを開いてフォントを編集</HotKey_TextEditChangeFontName>
+    <HotKey_TextEditChangeFontSize>ドロップダウンを開いてフォントサイズを編集</HotKey_TextEditChangeFontSize>
+    <HotKey_TextEditZoomOutFontSize>フォントサイズを小さくする</HotKey_TextEditZoomOutFontSize>
+    <HotKey_TextEditZoomInFontSize>フォントサイズを大きくする</HotKey_TextEditZoomInFontSize>
+    <HotKey_PageManagedShowDeleteDialog>ドロップダウンを開いてページを削除</HotKey_PageManagedShowDeleteDialog>
+    <HotKey_PageManagedInsertBlankPage>ドロップダウンを開いてページを挿入</HotKey_PageManagedInsertBlankPage>
+    <HotKey_PageManagedRotateToLeft>ページを左側に回転</HotKey_PageManagedRotateToLeft>
+    <HotKey_PageManagedRotateToRight>ページを右側に回転</HotKey_PageManagedRotateToRight>
+    <HotKey_BookmarkAddBookmark>ブックマークを追加</HotKey_BookmarkAddBookmark>
+    <HotKey_BookmarkRenameBookmark>選択したブックマークの名称を変更</HotKey_BookmarkRenameBookmark>
+    <Cloud_CancelButton>キャンセル</Cloud_CancelButton>
+    <Cloud_UploadButton>アップロード</Cloud_UploadButton>
+    <Cloud_OKButton>OK</Cloud_OKButton>
+    <Cloud_DownloadSuccessedStatus>ダウンロードされました！</Cloud_DownloadSuccessedStatus>
+    <Cloud_DownloadFailedStatus>ダウンロードに失敗しました</Cloud_DownloadFailedStatus>
+    <Cloud_UploadSuccessedStatus>完了しました！</Cloud_UploadSuccessedStatus>
+    <Cloud_UploadFailedStatus>アップロードに失敗しました</Cloud_UploadFailedStatus>
+    <Cloud_NetError>ネットワーク接続を確認してからもう一度試してください。</Cloud_NetError>
+    <Cloud_DropboxUnAuth>まず、お使いのDropboxアカウントからのPDF文書へのアクセスをPDFelementに許可してください。それから、下のボタンをクリックしてください。</Cloud_DropboxUnAuth>
+    <Cloud_DropboxFileName>My Dropbox</Cloud_DropboxFileName>
+    <Cloud_DropboxCloudFormText>Dropbox</Cloud_DropboxCloudFormText>
+    <Cloud_DropboxAuthFormText>Dropbox</Cloud_DropboxAuthFormText>
+    <Cloud_GoogleDriveUnAuth>まず、お使いのGoogle DriveアカウントからのPDF文書へのアクセスをPDFelementに許可してください。それから、下のボタンをクリックしてください。</Cloud_GoogleDriveUnAuth>
+    <Cloud_GoogleDriveFileName>My Google Drive</Cloud_GoogleDriveFileName>
+    <Cloud_GoogleDriveCloudFormText>Google Drive</Cloud_GoogleDriveCloudFormText>
+    <Cloud_GoogleDriveAuthFormText>Google Drive</Cloud_GoogleDriveAuthFormText>
+    <Cloud_PECloudFileName>My Wondershare Cloud</Cloud_PECloudFileName>
+    <Cloud_PECloudCloudFormText>Wondershare Cloud</Cloud_PECloudCloudFormText>
+    <Cloud_PECloudAuthFormText>Wondershare Cloud</Cloud_PECloudAuthFormText>
+    <Cloud_OneDriveUnAuth>まず、お使いのOneDriveアカウントからのPDF文書へのアクセスをPDFelementに許可してください。それから、下のボタンをクリックしてください。</Cloud_OneDriveUnAuth>
+    <Cloud_OneDriveFileName>My OneDrive</Cloud_OneDriveFileName>
+    <Cloud_OneDriveCloudFormText>OneDrive</Cloud_OneDriveCloudFormText>
+    <Cloud_OneDriveAuthFormText>OneDrive</Cloud_OneDriveAuthFormText>
+    <Cloud_BoxUnAuth>まず、お使いのBoxアカウントからのPDF文書へのアクセスをPDFelementに許可してください。それから、下のボタンをクリックしてください。</Cloud_BoxUnAuth>
+    <Cloud_BoxFileName>My Box</Cloud_BoxFileName>
+    <Cloud_BoxCloudFormText>Box</Cloud_BoxCloudFormText>
+    <Cloud_BoxAuthFormText>Box</Cloud_BoxAuthFormText>
+    <Cloud_BaiduPanUnAuth>まず、お使いのBaiduPanアカウントからのPDF文書へのアクセスをPDFelementに許可してください。それから、下のボタンをクリックしてください。</Cloud_BaiduPanUnAuth>
+    <Cloud_BaiduPanFileName>My BaiduPan</Cloud_BaiduPanFileName>
+    <Cloud_BaiduPanCloudFormText>BaiduPan</Cloud_BaiduPanCloudFormText>
+    <Cloud_BaiduPanAuthFormText>BaiduPan</Cloud_BaiduPanAuthFormText>
+    <Cloud_UploadLimitSize>アップロードに失敗しました。アップロードする文書のファイルサイズは{0}以下に制限されています。</Cloud_UploadLimitSize>
+    <Cloud_DownloadNotEnoughSpace>ダウンロードに失敗しました。コンピュータの空き容量が不足しています。</Cloud_DownloadNotEnoughSpace>
+    <Info_Account_DisableSendCode>&lt;Font color="#808080"&gt;メッセージが届くまで数分お待ちください。スパムフォルダを確認する、または&lt;/Font&gt;コードを再送(&lt;Font color="#007BFF"&gt;{0}s&lt;/Font&gt;)してください。</Info_Account_DisableSendCode>
+    <Info_Account_EnableSendCode>&lt;a color="#007BFF"&gt; コードの再送信 &lt;/a&gt;</Info_Account_EnableSendCode>
+    <Info_Account_Mobile_DisableSendCode>&lt;Font color ="#808080"&gt;短信已发送，请检查您的手机短信或&lt;/Font&gt;重新发送验证码（&lt;Font color ="#007BFF"&gt; {0} s &lt;/Font&gt;）。</Info_Account_Mobile_DisableSendCode>
+    <Info_Account_Mobile_EnableSendCode>&lt;Font color ="#808080"&gt;短信已发送，请检查您的手机短信或&lt;/Font&gt; &lt;a color ="#007BFF"&gt;重新发送验证码&lt;/a&gt;。</Info_Account_Mobile_EnableSendCode>
+    <Info_WSID_SendVerifyCodeFaild>認証コードの送信に失敗しました。 エラーコード：{0}</Info_WSID_SendVerifyCodeFaild>
+    <Info_WSID_Upgrade>アップグレード</Info_WSID_Upgrade>
+    <Info_WSID_BuyNow>購入</Info_WSID_BuyNow>
+    <Info_WSID_Register>ログイン</Info_WSID_Register>
+    <Info_WSID_DeviceDisableLogoutTip>アカウントが無効になったため、自動的にログアウトされました。</Info_WSID_DeviceDisableLogoutTip>
+    <Info_WSID_DeviceLimitFormTitle>デバイスの数が制限{0}を超えています</Info_WSID_DeviceLimitFormTitle>
+    <Info_WSIDCodeMsg_ErrorCode>エラーコード</Info_WSIDCodeMsg_ErrorCode>
+    <Info_WSIDCodeMsg_Sucessed>成功しました！</Info_WSIDCodeMsg_Sucessed>
+    <Info_WSIDCodeMsg_NetError>ネットワークの接続に失敗しました。ネットワークを確認するか、&lt;a href="ProxySetting"&gt;プロキシ設定&lt;/a&gt;を使用してもう一度試してみてください。</Info_WSIDCodeMsg_NetError>
+    <Info_WSIDCodeMsg_PhoneFormatError>電話番号のフォーマットが間違っています。</Info_WSIDCodeMsg_PhoneFormatError>
+    <Info_WSIDCodeMsg_PhoneNumberError>不正な電話番号</Info_WSIDCodeMsg_PhoneNumberError>
+    <Info_WSIDCodeMsg_PhoneNumberExist>本電話番号は既に弊社システム内に存在します。</Info_WSIDCodeMsg_PhoneNumberExist>
+    <Info_WSIDCodeMsg_VerifyCodeWrong>認証コードエラー</Info_WSIDCodeMsg_VerifyCodeWrong>
+    <Info_WSIDCodeMsg_UserNotExist>本ユーザーは存在しません。新しいアカウントを作成してください。</Info_WSIDCodeMsg_UserNotExist>
+    <Info_WSIDCodeMsg_AccountOrPwdWrong>ユーザー名またはパスワードが間違っています</Info_WSIDCodeMsg_AccountOrPwdWrong>
+    <Info_WSIDCodeMsg_SMSSendTooFrequent>SMSメッセージの数が制限を超えています。</Info_WSIDCodeMsg_SMSSendTooFrequent>
+    <Info_WSIDCodeMsg_SMSSendExceedLimit>送信済メッセージの数が制限を超えています。</Info_WSIDCodeMsg_SMSSendExceedLimit>
+    <Info_WSIDCodeMsg_EmailFormatError>このメールの形式が正しくありません。</Info_WSIDCodeMsg_EmailFormatError>
+    <Info_WSIDCodeMsg_EmailExist>このEメールは弊社データベース内に既に存在しています。</Info_WSIDCodeMsg_EmailExist>
+    <Info_WSIDCodeMsg_PwdError>パスワードが正しくありません。</Info_WSIDCodeMsg_PwdError>
+    <Info_WSIDCodeMsg_EmailSendTooFrequent>送信済メールの数が制限を超えています。</Info_WSIDCodeMsg_EmailSendTooFrequent>
+    <Info_WSIDCodeMsg_EmailVerifyCodeSendTooFrequent>認証コードは1分間に1度だけ送信することができます。</Info_WSIDCodeMsg_EmailVerifyCodeSendTooFrequent>
+    <Info_WSIDCodeMsg_AccountLocked>アカウントがロックされています。問題が解消されない場合はカスタマーサポートにご連絡ください。&lt;a href="url"&gt;(サポートセンター)&lt;/a&gt;</Info_WSIDCodeMsg_AccountLocked>
+    <Info_WSIDCodeMsg_PwdLengthError>パスワードが短すぎます。</Info_WSIDCodeMsg_PwdLengthError>
+    <Info_WSIDCodeMsg_EmailSendExceedLimt>送信済メールの数が制限を超えています。</Info_WSIDCodeMsg_EmailSendExceedLimt>
+    <Info_WSIDCodeMsg_AccountNotExist>本アカウントは存在しません</Info_WSIDCodeMsg_AccountNotExist>
+    <Info_WSIDCodeMsg_AccountExist>本アカウントは既に存在しています</Info_WSIDCodeMsg_AccountExist>
+    <Info_WSIDCodeMsg_PasswordError5AccountWillLock>間違ったパスワードを5回入力するとアカウントが1時間ロックされます。パスワードをリセットしたい場合は「パスワードを忘れた」をクリックしてください。</Info_WSIDCodeMsg_PasswordError5AccountWillLock>
+    <Info_WSIDCodeMsg_PasswordError5AccountLocked>間違ったパスワードを5回入力されましたのでアカウントがロックされました。カスタマーサポートにご連絡ください。&lt;a href="url"&gt;(カスタマーサポート)&lt;/a&gt;</Info_WSIDCodeMsg_PasswordError5AccountLocked>
+    <Info_WSIDCodeMsg_NotHaveEnableAuth>利用可能なライセンスはありません。</Info_WSIDCodeMsg_NotHaveEnableAuth>
+    <Info_WSIDCodeMsg_NotHavePlan>認証プランはありません。</Info_WSIDCodeMsg_NotHavePlan>
+    <Info_WSIDCodeMsg_DevicesExceedLimit>使用されているデバイス数が制限を超えています。</Info_WSIDCodeMsg_DevicesExceedLimit>
+    <Info_WSIDCodeMsg_DeviceIsDisabled>デバイスが無効になりました。</Info_WSIDCodeMsg_DeviceIsDisabled>
+    <Info_WSIDCodeMsg_RequestTooQuickly>リクエスト数が制限に達しました。</Info_WSIDCodeMsg_RequestTooQuickly>
+    <Info_WSIDDeviceLimit_Display>ディスプレイ</Info_WSIDDeviceLimit_Display>
+    <Info_WSIDDeviceLimit_DisplayTip>ディスプレイがデバイスにバインドされていた。</Info_WSIDDeviceLimit_DisplayTip>
+    <Info_WSIDDeviceLimit_NetError>ネットワークが不安定であるようです。</Info_WSIDDeviceLimit_NetError>
+    <Info_PwdPage_AccountType_Email>Eメール：</Info_PwdPage_AccountType_Email>
+    <Info_PwdPage_AccountType_Mobile>Mobile</Info_PwdPage_AccountType_Mobile>
+    <Info_UserCenter_PerpetualUserRight>永続ライセンス</Info_UserCenter_PerpetualUserRight>
+    <Info_ProxyTestResult_Sucessed>プロキシサービスが利用可能です</Info_ProxyTestResult_Sucessed>
+    <Info_ProxyTestResult_Faild>プロキシサービスが利用できません</Info_ProxyTestResult_Faild>
+    <Info_ProxyTestResult_AuthError>プロキシサービスで認証エラーが発生しています</Info_ProxyTestResult_AuthError>
+    <Info_Ribbon_HideAnnot>注記を非表示</Info_Ribbon_HideAnnot>
+    <Info_Ribbon_ShowAnnot>注釈を表示する</Info_Ribbon_ShowAnnot>
+    <Info_Recent_Today>今日</Info_Recent_Today>
+    <Info_Recent_Yesterday>昨日</Info_Recent_Yesterday>
+    <Info_Recent_ThisWeek>今週</Info_Recent_ThisWeek>
+    <Info_Recent_LastWeek>先週</Info_Recent_LastWeek>
+    <Info_Recent_Earlier>ついさっき</Info_Recent_Earlier>
+    <Info_Stamp_Custom>カスタム</Info_Stamp_Custom>
+    <Info_Stamp_Standard>標準的なビジネス</Info_Stamp_Standard>
+    <Info_Stamp_SignHera>こちらにサインして下さい</Info_Stamp_SignHera>
+    <Info_Stamp_Dynamic>動的</Info_Stamp_Dynamic>
+    <Info_Stamp_Digital>デジタルスタンプ</Info_Stamp_Digital>
+    <Info_Chinese_VipPage>Member Center</Info_Chinese_VipPage>
+    <Info_Chinese_UpgradeAccount>アカウントをアップグレード</Info_Chinese_UpgradeAccount>
+    <Info_Chinese_ExpirationDate>Expiration：</Info_Chinese_ExpirationDate>
+    <Info_QRCodePayPage_OriginPrice>Original price:</Info_QRCodePayPage_OriginPrice>
+    <Info_LicenseTime_Subscription>{0} months</Info_LicenseTime_Subscription>
+    <Info_LicenseTime_Perpetual>永続ライセンス</Info_LicenseTime_Perpetual>
+    <Info_LicenseTime_ThreeYear>3 years in total, Equivalent to ￥ {0} yuan / month</Info_LicenseTime_ThreeYear>
+    <Info_PriceTip_PerMonth>Equivalent to ￥ {0} yuan / month</Info_PriceTip_PerMonth>
+    <Info_PriceTip_Perpetual>permanent use</Info_PriceTip_Perpetual>
+    <Info_BuyPage_3Year>2 years get 1 year</Info_BuyPage_3Year>
+    <Info_PriceItem_OriginPrice>Original price:{0}</Info_PriceItem_OriginPrice>
+    <Info_BuyPage_Year>{0}year</Info_BuyPage_Year>
+    <Info_EditPDFFile>Edit PDF file</Info_EditPDFFile>
+    <Info_ConvertPDF>Convert PDF format</Info_ConvertPDF>
+    <Info_CommentPDF>Notes, comments pdf</Info_CommentPDF>
+    <Info_DigitalSignature>Digital signature</Info_DigitalSignature>
+    <Info_InfiniteExport>Export PDF unlimited</Info_InfiniteExport>
+    <Info_InfiniteConvert>Unlimited conversion of documents</Info_InfiniteConvert>
+    <Info_SaveWithoutWatermark>Save document without watermark</Info_SaveWithoutWatermark>
+    <Info_BatchProcessing>Batch processing</Info_BatchProcessing>
+    <Info_OCRFuncion>OCR処理</Info_OCRFuncion>
+    <Info_UserCenter_MoreDevice>その他のデバイス&gt;</Info_UserCenter_MoreDevice>
+    <Info_UserCenter_Upgrade>アップグレード&gt;</Info_UserCenter_Upgrade>
+    <Info_UserCenter_Buy>購入 &gt;</Info_UserCenter_Buy>
+    <Catalog_Title>カタログ</Catalog_Title>
+    <ConfigPreview_Add>{0}を追加</ConfigPreview_Add>
+    <ConfigPreview_Edit>{0}を編集</ConfigPreview_Edit>
+    <MultipleTemplate_NoTags>本文書内には{0}が見つかりませんでした。</MultipleTemplate_NoTags>
+    <Tag_CurrentPdf>現在のPDF</Tag_CurrentPdf>
+    <Tag_CurrentImage>現在の画像</Tag_CurrentImage>
+    <Annot_PopupContextMenu_Edit>編集</Annot_PopupContextMenu_Edit>
+    <Annot_PopupContextMenu_Delete>削除</Annot_PopupContextMenu_Delete>
+    <Annot_LinkToolTip_Goto>ページへ移動</Annot_LinkToolTip_Goto>
+    <Annot_LinkToolTip_OpenUrl>リンクを開く</Annot_LinkToolTip_OpenUrl>
+    <Annot_LinkToolTip_OpenFile>ファイルを開く</Annot_LinkToolTip_OpenFile>
+    <Annot_Stamp_SelectPictureDlgFileFilter>サポートされている画像ファイルタイプ(*.bmp;*.jpg;*.jpeg;*.png;*.tif;*.tiff;*.svg;*.svgz)|*.bmp;*.jpg;*.jpeg;*.png;*.tif;*.tiff;*.svg;*.svgz</Annot_Stamp_SelectPictureDlgFileFilter>
+    <Update_CancelUpdateTips>本当にアップデートをキャンセルしますか？</Update_CancelUpdateTips>
+    <Update_ContinueUpdate>アップデートを続ける</Update_ContinueUpdate>
+    <Update_CancelUpdate>アップデートをキャンセル</Update_CancelUpdate>
+    <Update_Downloading>新しいバージョンをダウンロードしています…</Update_Downloading>
+    <Update_DownloadFileError>ダウンロードされたファイルが破損しています。もう一度試してください。</Update_DownloadFileError>
+    <Update_DownloadFail>ダウンロードが失敗しました。ネットワークを確認してください。</Update_DownloadFail>
+    <Update_WhatsNewTitle>最新情報</Update_WhatsNewTitle>
+    <Update_Version>バージョン</Update_Version>
+    <SearchReplace_Search>検索</SearchReplace_Search>
+    <SearchReplace_NoResult>検索が完了しました。検索アイテムと一致するものは見つかりませんでした。</SearchReplace_NoResult>
+    <View_Single>シングルページ表示</View_Single>
+    <View_SingleContinue>シングルページ連続</View_SingleContinue>
+    <View_Facing>2ページ表示</View_Facing>
+    <View_FacingContinue>2ページ 連続</View_FacingContinue>
+    <HomePage_RemoveAllHistory>本当にリストからすべてのアイテムを削除しますか？</HomePage_RemoveAllHistory>
+    <OcrSetting_LanguageNone>OCR処理に使用する言語を選択してください。</OcrSetting_LanguageNone>
+    <MsgBar_EditingPDFA>PDFを編集することでPDF/Aに準拠しなくなります。本当に続行しますか？
+
+注記：PDF/Aへの準拠が必要な場合、編集後に必ずファイル&gt;エクスポート&gt;PDF/Aを実行するようにしてください。</MsgBar_EditingPDFA>
+    <Info_OpenAttachmentForbid_Tip>ファイル「{0}」は添付を開くことができません。PDFファイル添付設定により本ファイルタイプを開くことが禁止されています。</Info_OpenAttachmentForbid_Tip>
+    <Info_OpenAttachmentOnce>ファイルを開く</Info_OpenAttachmentOnce>
+    <Info_OpenAttachmentAlways>このタイプのファイルを開くことを常に許可する</Info_OpenAttachmentAlways>
+    <Info_OpenAttachmentNever>このタイプのファイルを開くことを禁止する</Info_OpenAttachmentNever>
+    <Info_AttachmentsInUse_Tip>次のファイルは別のアプリケーションで使用されています。先にファイルを保存して閉じない限り、これらのファイルに対して行われた変更はPFDに保存されません。{0}</Info_AttachmentsInUse_Tip>
+    <Info_AttachmentsInUseClick>これらのファイルへの変更を保存する場合は、ファイルを閉じてからもう一度試すをクリックしてください。\n開いているファイルに対するすべての変更を無視する場合は無視をクリックしてください。</Info_AttachmentsInUseClick>
+    <Info_Attachment_ReplacePrompt>このポートフォリオにすでに名前が "{0}" "のファイルが存在しています。\nあなたは交換しますか？</Info_Attachment_ReplacePrompt>
+    <Info_OpenAttachment_Conflict_Tip>指定されたファイルはすでに開かれて いるか、他のアプリケーションで使用中です。</Info_OpenAttachment_Conflict_Tip>
+    <Info_AllFilesFilter>すべてのファイル(*.*)|*.*</Info_AllFilesFilter>
+    <INFO_AutoSaveMessage>PDFelementは、シャットダウン前に正しく保存されなかったファイルを復元しました。
+
+復元されたファイルを開く場合は「はい」をクリックしてください。
+変更を破棄する場合は「いいえ」をクリックしてください。</INFO_AutoSaveMessage>
+    <INFO_AutoSave_Title>文書を復元</INFO_AutoSave_Title>
+    <Info_AutoSaveTask>自動保存…</Info_AutoSaveTask>
+    <Info_SaveTitle>保存</Info_SaveTitle>
+    <Info_SaveTip>閉じる前に「{0}」を保存しますか？</Info_SaveTip>
+    <Info_SaveTask>保存…</Info_SaveTask>
+    <Info_SaveAsTask>名前を付けて保存…</Info_SaveAsTask>
+    <Info_SaveAsTitle>名前を付けて保存</Info_SaveAsTitle>
+    <OpenRecent_ClearAll>すべてをクリア</OpenRecent_ClearAll>
+    <Fields_RangeValidate_InvalidValue>無効な値：{0}以上{1}以下である必要があります。</Fields_RangeValidate_InvalidValue>
+    <Fields_ActionSetting_URLNotAllowEmpty>URLは空欄にできません</Fields_ActionSetting_URLNotAllowEmpty>
+    <Fields_ActionSetting_SaveDocBeforeSubmitForm>文書を保存しますか？</Fields_ActionSetting_SaveDocBeforeSubmitForm>
+    <Fields_ActionSetting_EMailSubject>{0}からのフォームデータ</Fields_ActionSetting_EMailSubject>
+    <Fields_ActionSetting_EMailContent_Pdf>添付されたファイルには、フォームフィールドデータを含むオリジナルのPDFコンテンツが含まれます。</Fields_ActionSetting_EMailContent_Pdf>
+    <Fields_ActionSetting_EMailContent_Data>添付されたファイルにはPDFフォームに入力されたデータのみが含まれます。PDFフォーム自体ではありません。</Fields_ActionSetting_EMailContent_Data>
+    <Fields_ActionSetting_EMailUserAbort>ユーザーがリクエストをキャンセルしたため、データは送信されませんでした。</Fields_ActionSetting_EMailUserAbort>
+    <Fields_ActionSetting_ExportDataNotSupport>本プログラムは、このファイルフォーマットからのデータ抽出をサポートしていません。</Fields_ActionSetting_ExportDataNotSupport>
+    <Fields_ActionSetting_SubmitProgress>データを送信しています…</Fields_ActionSetting_SubmitProgress>
+    <Fields_ActionSetting_SubmitSuccess>正常にデータが送信されました。</Fields_ActionSetting_SubmitSuccess>
+    <Fields_ActionSetting_SubmitFail>データの送信に失敗しました。</Fields_ActionSetting_SubmitFail>
+    <Fields_ActionSetting_SubmitUserAbort>ユーザーがリクエストをキャンセルしたため、データは送信されませんでした。</Fields_ActionSetting_SubmitUserAbort>
+    <Fields_ActionSetting_OpenUrlWarnTitle>警告</Fields_ActionSetting_OpenUrlWarnTitle>
+    <Fields_ActionSetting_OpenUrlWarnMsgHead>開こうとしているページにはセキュリティリスクが存在します。</Fields_ActionSetting_OpenUrlWarnMsgHead>
+    <Fields_ActionSetting_OpenUrlWarnMsgFmt>本当にURL「{0}」を開きますか？</Fields_ActionSetting_OpenUrlWarnMsgFmt>
+    <Fields_ActionSetting_ClickResult>開く場合は「はい」を、キャンセルする場合は「いいえ」をクリックしてください。</Fields_ActionSetting_ClickResult>
+    <Fields_ActionSetting_ExportDataFail>データのエクスポートに失敗しました。</Fields_ActionSetting_ExportDataFail>
+    <Fields_ActionSetting_SelectFieldsToReset>リセットするフィールドを選択</Fields_ActionSetting_SelectFieldsToReset>
+    <Fields_ActionSetting_MultilineNotFormat>マルチラインテキストフィールドにはフォーマット設定を適用することができません。「オプション」パネルに移動して「マルチライン」のチェックを外してください。</Fields_ActionSetting_MultilineNotFormat>
+    <Fields_ActionSetting_FormatNotMacthValue>本フォーマットは、指定されたデフォルト値[{0}]と一致しません。デフォルト値と一致するフォーマットを選択する、またはオプションパネル内のデフォルト値を変更して本フォーマットと一致させてください。</Fields_ActionSetting_FormatNotMacthValue>
+    <Fields_ActionSetting_ValueNotMacthFormat>本デフォルト値は、指定されたフォーマット({0})と一致しません。フォーマットと一致するデフォルト値を入力する、またはフォーマットパネルを変更して本デフォルト値と一致させてください。</Fields_ActionSetting_ValueNotMacthFormat>
+    <Fields_Action_InvalidDateTime>無効な日付/時間：日付/時間が有効であるか確認してください。フィールド[{0}]はフォーマット{1}と一致している必要があります</Fields_Action_InvalidDateTime>
+    <Fields_Action_InvalidSpecialFormat>入力された値は、フィールド[{0}]のフォーマットと一致していません。</Fields_Action_InvalidSpecialFormat>
+    <Fields_Action_FileNotExist>ファイルまたはフォルダが存在しません。</Fields_Action_FileNotExist>
+    <Fields_Action_FileTypeNotDefaultApp>ファイルタイプ：{0}には、関連付けられたデフォルトアプリケーションがありません。</Fields_Action_FileTypeNotDefaultApp>
+    <Fields_Action_OpenFileConfirmation>ファイル{0}を開こうとしています。本ファイルには、コンピュータに有害なプログラム、マクロ、またはウイルスが含まれている可能性があります。ファイルの安全性に確信がある場合のみ開くようにしてください。信頼できる人物またはプログラムによってこのファイルが作成されている場合は、「開く」をクリックしてファイルを表示することができます。</Fields_Action_OpenFileConfirmation>
+    <Fields_Action_OpenUrlWarnTitle>警告</Fields_Action_OpenUrlWarnTitle>
+    <Fields_Action_OpenUrlWarnMsgFormat>「{0}」を開いています。本サイトを信頼する場合は「はい」をクリックし、そうでない場合は「いいえ」をクリックしてください。</Fields_Action_OpenUrlWarnMsgFormat>
+    <MsgForm_DontShowAgain>二度とこのメッセージを表示しない。</MsgForm_DontShowAgain>
+    <Fields_TabOrderCompleted>すべてのフィールドのオーダー設定を完了しました。処理を終了しますか？</Fields_TabOrderCompleted>
+    <Fields_RecognizedClearStack>操作を元に戻すことはできません。続行しますか？</Fields_RecognizedClearStack>
+    <Fields_RecognizedFail>新しいフォームフィールドは検知されませんでした。</Fields_RecognizedFail>
+    <FiledEditingContextMenu_Properties>プロパティ</FiledEditingContextMenu_Properties>
+    <FiledEditingContextMenu_CreateMultipleCopies>複数のコピーを作成</FiledEditingContextMenu_CreateMultipleCopies>
+    <FiledEditingContextMenu_SetTabOrder>タブオーダーを設定</FiledEditingContextMenu_SetTabOrder>
+    <FiledEditingContextMenu_UseAsDefault>デフォルトとして使用</FiledEditingContextMenu_UseAsDefault>
+    <ContextMenu_Cut>切り取り</ContextMenu_Cut>
+    <ContextMenu_Copy>複写</ContextMenu_Copy>
+    <ContextMenu_Paste>貼付け</ContextMenu_Paste>
+    <ContextMenu_Delete>削除</ContextMenu_Delete>
+    <ContextMenu_SelectAll>すべてを選択</ContextMenu_SelectAll>
+    <ContextMenu_Alignment>配置</ContextMenu_Alignment>
+    <ContextMenu_Distribute>分配</ContextMenu_Distribute>
+    <Info_CertificateNotIndate>選択した証明書の有効期限が切れています！</Info_CertificateNotIndate>
+    <Info_PasswordRequired>このデジタルIDを使用するには、パスワードを必要とします。</Info_PasswordRequired>
+    <Info_AllSignatureValidata>署名済みであり、すべての署名は有効です。</Info_AllSignatureValidata>
+    <Info_LetSignatureInvalidate>1つ以上の署名が無効です。</Info_LetSignatureInvalidate>
+    <Info_SignedByNode>署名者：</Info_SignedByNode>
+    <Info_SignedByUnkonwn>署名の完全性が不明です。</Info_SignedByUnkonwn>
+    <Info_SignatureDetails>情報</Info_SignatureDetails>
+    <Info_CertifacateDetail>情報：</Info_CertifacateDetail>
+    <Info_SignatureInvalid>署名が無効です。</Info_SignatureInvalid>
+    <Info_SignatureUnknown>署名の有効性は不明です。</Info_SignatureUnknown>
+    <Info_SaveFailed>ドキュメントは、読み取り専用であるか、別のユーザが閲覧中のため保存できません。別の名前で保存するか、異なるフォルダに指定してください。</Info_SaveFailed>
+    <Info_MouseClickDragSignArea>マウスを使用してクリックアンドドラッグし、署名を表示する領域を描画します。目的の領域のドラッグが終了すると、署名プロセスの次のステップに進みます。</Info_MouseClickDragSignArea>
+    <Info_MultiSignatureDocument>この文書には、複数の未署名フィールドを含んでいます。署名プロセスを開始するには、署名したい署名フィールドをクリックしてください。</Info_MultiSignatureDocument>
+    <DigitalSignature_Signer>デジタル署名者：</DigitalSignature_Signer>
+    <DigitalSignature_DistinguishedName>DN：</DigitalSignature_DistinguishedName>
+    <DigitalSignature_Reason>理由：</DigitalSignature_Reason>
+    <DigitalSignature_Location>ロケーション：</DigitalSignature_Location>
+    <DigitalSignature_Date>日付：</DigitalSignature_Date>
+    <Fields_FontSize_Auto>自動</Fields_FontSize_Auto>
+    <Info_SignTask>署名…</Info_SignTask>
+    <CaptionStyle_CaptionOnly>ラベルのみ</CaptionStyle_CaptionOnly>
+    <CaptionStyle_IconOnly>アイコンのみ</CaptionStyle_IconOnly>
+    <CaptionStyle_CapBelowIC>アイコントップ、ラベルボタン</CaptionStyle_CapBelowIC>
+    <CaptionStyle_CapAboveIC>ラベルトップ、アイコンボタン</CaptionStyle_CapAboveIC>
+    <CaptionStyle_CapRightIC>アイコン左、ラベル右</CaptionStyle_CapRightIC>
+    <CaptionStyle_CapLeftIC>ラベル左、アイコン右</CaptionStyle_CapLeftIC>
+    <CaptionStyle_CapOverlaidIC>アイコンの上にラベル</CaptionStyle_CapOverlaidIC>
+    <Info_None>無し</Info_None>
+    <HighlightModeKind_None>無し</HighlightModeKind_None>
+    <HighlightModeKind_Push>プッシュ</HighlightModeKind_Push>
+    <HighlightModeKind_Outline>アウトライン</HighlightModeKind_Outline>
+    <HighlightModeKind_Invert>反転</HighlightModeKind_Invert>
+    <FieldButtonState_Up>上</FieldButtonState_Up>
+    <FieldButtonState_Down>下</FieldButtonState_Down>
+    <FieldButtonState_Rollover>ロールオーバー</FieldButtonState_Rollover>
+    <IconScaleStyle_Always>常に調整</IconScaleStyle_Always>
+    <IconScaleStyle_Never>無し</IconScaleStyle_Never>
+    <IconScaleStyle_IconBigger>アイコンが大きすぎます</IconScaleStyle_IconBigger>
+    <IconScaleStyle_IconSmaller>アイコンが小さすぎます</IconScaleStyle_IconSmaller>
+    <IconScalingStyle_Proportional>プロポーショナル</IconScalingStyle_Proportional>
+    <IconScalingStyle_Anamorphic>非プロポーショナル</IconScalingStyle_Anamorphic>
+    <BorderThickness_Thin>細線</BorderThickness_Thin>
+    <BorderThickness_Medium>普通線</BorderThickness_Medium>
+    <BorderThickness_Thick>太線</BorderThickness_Thick>
+    <BorderStyleKind_Solid>実線</BorderStyleKind_Solid>
+    <BorderStyleKind_Dashed>破線</BorderStyleKind_Dashed>
+    <BorderStyleKind_Beveled>斜線</BorderStyleKind_Beveled>
+    <BorderStyleKind_Insert>挿入</BorderStyleKind_Insert>
+    <BorderStyleKind_Underline>下線</BorderStyleKind_Underline>
+    <BoxButtonStyle_Checkmark>チェックマーク</BoxButtonStyle_Checkmark>
+    <BoxButtonStyle_Circle>円</BoxButtonStyle_Circle>
+    <BoxButtonStyle_Furcation>分岐</BoxButtonStyle_Furcation>
+    <BoxButtonStyle_Diamond>ダイアモンド</BoxButtonStyle_Diamond>
+    <BoxButtonStyle_Square>四角</BoxButtonStyle_Square>
+    <BoxButtonStyle_Star>星</BoxButtonStyle_Star>
+    <TextAlignKind_LeftJustified>左</TextAlignKind_LeftJustified>
+    <TextAlignKind_Centered>中央</TextAlignKind_Centered>
+    <TextAlignKind_RightJustified>右</TextAlignKind_RightJustified>
+    <FieldsLockState_All>すべてのフィールド</FieldsLockState_All>
+    <FieldsLockState_Exclude>選択されていないすべてのフィールド</FieldsLockState_Exclude>
+    <FieldsLockState_Include>選択したフィールドのみ</FieldsLockState_Include>
+    <TriggerEventKind_AnnotMouseUp>マウス アップ</TriggerEventKind_AnnotMouseUp>
+    <TriggerEventKind_AnnotMouseDown>マウス ダウン</TriggerEventKind_AnnotMouseDown>
+    <TriggerEventKind_AnnotMouseEnter>マウス エンター</TriggerEventKind_AnnotMouseEnter>
+    <TriggerEventKind_AnnotMouseExit>マウス 終了</TriggerEventKind_AnnotMouseExit>
+    <TriggerEventKind_WidgetGotFocus>フォーカス</TriggerEventKind_WidgetGotFocus>
+    <TriggerEventKind_WidgetLostFocus>ぼかし</TriggerEventKind_WidgetLostFocus>
+    <PDFActionKind_URI>ウェブリンクを開く</PDFActionKind_URI>
+    <PDFActionKind_Launch>ファイルを開く</PDFActionKind_Launch>
+    <PDFActionKind_ImportData>フォームデータをインポート</PDFActionKind_ImportData>
+    <PDFActionKind_SubmitForm>フォームを送信</PDFActionKind_SubmitForm>
+    <PDFActionKind_GoTo>ページビューへ移動</PDFActionKind_GoTo>
+    <PDFActionKind_Hide>フィールドを表示/非表示</PDFActionKind_Hide>
+    <PDFActionKind_JavaScript>Javascriptを実行</PDFActionKind_JavaScript>
+    <PDFActionKind_ResetForm>フォームをリセット</PDFActionKind_ResetForm>
+    <FormSubmitMethod_HTTPAddress>HTTPアドレス</FormSubmitMethod_HTTPAddress>
+    <FormSubmitMethod_EmailAddress>Eメールアドレス</FormSubmitMethod_EmailAddress>
+    <FieldFormatType_None>無し</FieldFormatType_None>
+    <FieldFormatType_Number>番号</FieldFormatType_Number>
+    <FieldFormatType_Percentage>パーセンテージ</FieldFormatType_Percentage>
+    <FieldFormatType_Date>日付</FieldFormatType_Date>
+    <FieldFormatType_Time>時間</FieldFormatType_Time>
+    <FieldFormatType_Special>特殊</FieldFormatType_Special>
+    <FieldFormatType_Custom>カスタム</FieldFormatType_Custom>
+    <SpecialFormatType_ZipCode>郵便番号</SpecialFormatType_ZipCode>
+    <SpecialFormatType_ZipCode4>郵便番号　+4</SpecialFormatType_ZipCode4>
+    <SpecialFormatType_PhoneNumber>電話番号</SpecialFormatType_PhoneNumber>
+    <SpecialFormatType_SocialSecurityNumber>社会保障番号</SpecialFormatType_SocialSecurityNumber>
+    <SpecialFormatType_ArbitraryMask>任意マスク</SpecialFormatType_ArbitraryMask>
+    <EvaluateType_Sum>合計(+)</EvaluateType_Sum>
+    <EvaluateType_Prd>乗積（x）</EvaluateType_Prd>
+    <EvaluateType_Avg>平均</EvaluateType_Avg>
+    <EvaluateType_Min>最小化</EvaluateType_Min>
+    <EvaluateType_Max>最大化</EvaluateType_Max>
+    <ScreenshotForm_DragTip>マウスの左ボタンをドラッグして、スクリーンショット領域を指定します。</ScreenshotForm_DragTip>
+    <MessageType_Campaign>[キャンペーン]</MessageType_Campaign>
+    <MessageType_Tutorial>[チュートリアル]</MessageType_Tutorial>
+    <MessageType_Update>[アップデート]</MessageType_Update>
+    <MessageType_Function>[機能]</MessageType_Function>
+    <MessageType_Research>[検索]</MessageType_Research>
+    <MessageType_Test>[テスト]</MessageType_Test>
+    <MessageType_Notice>[注意]</MessageType_Notice>
+    <MessageType_Other>[その他]</MessageType_Other>
+    <Info_PEServer_ChangePwd_AccountNotExist>パスワードの変更に失敗し、アカウントが存在しません。</Info_PEServer_ChangePwd_AccountNotExist>
+    <Info_PEServer_ChangePwd_FaildUnKnown>パスワードの変更に失敗しました。理由は不明です。</Info_PEServer_ChangePwd_FaildUnKnown>
+    <Info_PEServer_ChangePwd_NewPwdInvalid>パスワードの変更に失敗しました。新しいパスワードは無効です。</Info_PEServer_ChangePwd_NewPwdInvalid>
+    <Info_PEServer_ChangePwd_OldPwdWrong>パスワードの変更に失敗しました。古いパスワードが正しくありません。</Info_PEServer_ChangePwd_OldPwdWrong>
+    <Info_PEServerLogin_AccountNotExist>アカウントが存在しません！ 管理者に連絡してください。</Info_PEServerLogin_AccountNotExist>
+    <Info_PEServerLogin_PwdWrong>パスワードが正しくないため、PEServerにログインできません。</Info_PEServerLogin_PwdWrong>
+    <Info_PEServerLogin_UsingByOhterAccount>現在、別のアカウントにログインしています。</Info_PEServerLogin_UsingByOhterAccount>
+    <Info_PEServerLogin_LoggedInAnohterDevice>アカウントは別のデバイスにログインしています。</Info_PEServerLogin_LoggedInAnohterDevice>
+    <Info_PEServerLogin_ForceLogin>ログインは必須ですか？ これにより、アカウントを使用している別のデバイスが起動します。</Info_PEServerLogin_ForceLogin>
+    <Info_PEServer_Conected>接続済み</Info_PEServer_Conected>
+    <Info_PEServer_NotConected>接続されていません</Info_PEServer_NotConected>
+    <Info_PEServer_ChangePwd_Sucessed>パスワードが更新されました。</Info_PEServer_ChangePwd_Sucessed>
+    <Info_OldPassword>以前のパスワード</Info_OldPassword>
+    <Info_NewPassword>新しいパスワード</Info_NewPassword>
+    <Info_ConfirmPassword>パスワードを認証する</Info_ConfirmPassword>
+    <Info_PEServer_ChangePwd_NewPwdNotMatch>2つの新しいパスワードエントリに一貫性がありません。</Info_PEServer_ChangePwd_NewPwdNotMatch>
+    <Info_PEServer_NameInvalid>アカウント名が無効です。</Info_PEServer_NameInvalid>
+    <Info_PEServer_NameRepeated>アカウントはすでに存在しており、そのアカウントでログインできます。</Info_PEServer_NameRepeated>
+    <Info_PEServer_NoEnoughLicenses>サーバー認証の数がなくなりました。 管理者に連絡してください。</Info_PEServer_NoEnoughLicenses>
+    <Info_PEServer_RegisterFaildunknown>登録に失敗しました。エラーの原因は不明です。 エラーコード：{0}</Info_PEServer_RegisterFaildunknown>
+    <Info_Account>アカウント</Info_Account>
+    <Info_Password>パスワード</Info_Password>
+    <Info_PEServer_ConnetServerFaild>サーバーに接続できません。管理者に連絡してください。</Info_PEServer_ConnetServerFaild>
+    <Info_PEServer_OffLineTimeWarning>PDFelementサーバーから{0}日以上切断されています。アカウントは{1}日後に認証が解除されます。時間内にPDFelementサーバーに接続してください。</Info_PEServer_OffLineTimeWarning>
+    <Info_ServerRefuseAuth>サーバーが登録アプリケーションに合格しませんでした。管理者に連絡してください。</Info_ServerRefuseAuth>
+    <Info_CBSOnlineDeactivePcMessage>おっと！ ライセンス登録は取り消されました。 詳細については、システム管理者にお問い合わせください。</Info_CBSOnlineDeactivePcMessage>
+    <Info_FileAuthBeyondLimitDate>サーバーに接続できず、オフライン使用時間を超えた場合は、管理者に連絡してください。</Info_FileAuthBeyondLimitDate>
+    <Info_FileAuthNotAuthorized>サーバーに接続できず、許可されていません。管理者に連絡してください。</Info_FileAuthNotAuthorized>
+    <Info_Register>登録</Info_Register>
+    <Info_NoDefaultMailClient>デフォルトのメールクライアントがないか、現在のメールクライアントがメールリクエストを実行できません。</Info_NoDefaultMailClient>
+    <Info_NoDefaultMailClientCaption>	送信に失敗しました</Info_NoDefaultMailClientCaption>
+    <!--Stamp-->
+    <Info_CustomStamp>カスタム</Info_CustomStamp>
+    <Info_DigitalSignatureGroupText>デジタルスタンプ</Info_DigitalSignatureGroupText>
+    <Info_CustomStamp>カスタム</Info_CustomStamp>
+    <Info_DynamicGroupText>動的</Info_DynamicGroupText>
+    <Info_SignHereGroupText>こちらにサインして下さい</Info_SignHereGroupText>
+    <Info_StandardBusinessGroupText>標準的なビジネス</Info_StandardBusinessGroupText>
+    <Info_DynamicRevised>修正済</Info_DynamicRevised>
+    <Info_DynamicReviewed>検</Info_DynamicReviewed>
+    <Info_DynamicReceived>領収</Info_DynamicReceived>
+    <Info_DynamicApproved>承認済</Info_DynamicApproved>
+    <Info_DynamicConfidential>極秘</Info_DynamicConfidential>
+    <Info_SignHereWitness>承認者</Info_SignHereWitness>
+    <Info_SignHereInitialHere>初期位置</Info_SignHereInitialHere>
+    <Info_SignHereSignHere>サイン</Info_SignHereSignHere>
+    <Info_SignHereAccepted>承認</Info_SignHereAccepted>
+    <Info_SignHereRejected>拒否</Info_SignHereRejected>
+    <Info_StandardApproved>承認済</Info_StandardApproved>
+    <Info_StandardNotApproved>未承認</Info_StandardNotApproved>
+    <Info_StandardDraft>草稿</Info_StandardDraft>
+    <Info_StandardFinal>最终</Info_StandardFinal>
+    <Info_StandarCompleted>完了</Info_StandarCompleted>
+    <Info_StandarConfidential>極秘</Info_StandarConfidential>
+    <Info_StandarForPublicRelease>公開許可</Info_StandarForPublicRelease>
+    <Info_StandarNotForPublicRelease>公開不可</Info_StandarNotForPublicRelease>
+    <Info_StandarForComment>コメント</Info_StandarForComment>
+    <Info_StandarVoid>無効</Info_StandarVoid>
+    <Info_StandarPreliminaryResults>予備段階の結果</Info_StandarPreliminaryResults>
+    <Info_StandarInformationOnly>参考用</Info_StandarInformationOnly>
+    <Info_StampProperties>スタンプのプロパティ</Info_StampProperties>
+    <Info_Scan_MorePages>さらにスキャン(シート{0})</Info_Scan_MorePages>
+    <Info_Scan_ReverseSides>裏面をスキャン(シート{0}の裏面)</Info_Scan_ReverseSides>
+    <PageSize_Auto>自動</PageSize_Auto>
+    <PageSize_Letter>US Letter (8.5x16 in)</PageSize_Letter>
+    <PageSize_Legal>US Legal (8.5x13 in)</PageSize_Legal>
+    <PageSize_A5>A5 (148x212 mm)</PageSize_A5>
+    <PageSize_A4>A4 (210 x299 mm)</PageSize_A4>
+    <PageSize_A3>A3 (297x422 mm)</PageSize_A3>
+    <PageSize_B5>B5 (176x252 mm)</PageSize_B5>
+    <PageSize_B4>B4 (250x355 mm)</PageSize_B4>
+    <PageSize_Custom>カスタム</PageSize_Custom>
+    <Dpi_100>100 dpi</Dpi_100>
+    <Dpi_150>150 dpi</Dpi_150>
+    <Dpi_200>200 dpi</Dpi_200>
+    <Dpi_300>300 dpi</Dpi_300>
+    <Dpi_400>400 dpi</Dpi_400>
+    <Dpi_600>600 dpi</Dpi_600>
+    <Dpi_800>800 dpi</Dpi_800>
+    <Dpi_1200>1200 dpi</Dpi_1200>
+    <Info_Layer_DeleteTip>選択したレイヤーを削除してもよろしいですか？削除すると、レーヤーを元に戻せません。</Info_Layer_DeleteTip>
+    <Layer_CheckBoxTip_Locked>このレイヤーはロックされており、表示設定を変更することはできません。</Layer_CheckBoxTip_Locked>
+    <Layer_CheckBoxTip_ApplyPrint>印刷の設定を優先して適用されているため、、このレイヤーは無効になっています。</Layer_CheckBoxTip_ApplyPrint>
+    <Layer_CheckBoxTip_ApplyExport>エクスポートの設定を優先して適用されているため、このレイヤーは無効になっています。</Layer_CheckBoxTip_ApplyExport>
+    <Layer_CheckBoxTip_ApplyLayer>レイヤーの設定を優先して適用されているため、このレイヤーは無効になっています。</Layer_CheckBoxTip_ApplyLayer>
+    <Layer_CheckBoxTip_ParentUnChecked>親レイヤーが無効になっているため、このレイヤーも無効になっています。</Layer_CheckBoxTip_ParentUnChecked>
+    <Layer_Visible_WhenOn>オンのときに表示</Layer_Visible_WhenOn>
+    <Layer_Visible_Never>常に表示しない</Layer_Visible_Never>
+    <Layer_Visible_Always>常に表示する</Layer_Visible_Always>
+    <Layer_Print_WhenOn>表示のときに印刷</Layer_Print_WhenOn>
+    <Layer_Print_Never>常に印刷しない</Layer_Print_Never>
+    <Layer_Print_Always>常に印刷する</Layer_Print_Always>
+    <Layer_Export_WhenOn>表示のときにエクスポート</Layer_Export_WhenOn>
+    <Layer_Export_Never>常にエクスポートしない</Layer_Export_Never>
+    <Layer_Export_Always>常にエクスポートする</Layer_Export_Always>
+    <Layer_DefState_On>オン</Layer_DefState_On>
+    <Layer_DefState_Off>オフ</Layer_DefState_Off>
+    <Source_Glass>表面</Source_Glass>
+    <Source_Feeder>Feeder</Source_Feeder>
+    <Source_Duplex>両面</Source_Duplex>
+    <BitDepth_24Color>カラー</BitDepth_24Color>
+    <BitDepth_8Grayscale>グレースケール</BitDepth_8Grayscale>
+    <BitDepth_1BlackAndWhite>白黒</BitDepth_1BlackAndWhite>
+    <BitDepth_AutoDetect>自動検知</BitDepth_AutoDetect>
+    <Info_Please_Select_Scanner>スキャナを選択してください</Info_Please_Select_Scanner>
+    <PageSizeUnit_Inch>in</PageSizeUnit_Inch>
+    <PageSizeUnit_Centimetre>cm</PageSizeUnit_Centimetre>
+    <PageSizeUnit_Millimetre>mm</PageSizeUnit_Millimetre>
+    <PaperKind_Letter>レター</PaperKind_Letter>
+    <PaperKind_Tabloid>タブロイド</PaperKind_Tabloid>
+    <PaperKind_Legal>リーガル</PaperKind_Legal>
+    <PaperKind_Custom>カスタム</PaperKind_Custom>
+    <Sign_TextFont_Pristina>Pristina</Sign_TextFont_Pristina>
+    <Sign_TextFont_Parchment>Parchment</Sign_TextFont_Parchment>
+    <Sign_TextFont_Vivaldi>Vivaldi</Sign_TextFont_Vivaldi>
+    <Sign_TextFont_Magneto>Magneto</Sign_TextFont_Magneto>
+    <Sign_TextFont_Mistral>Mistral</Sign_TextFont_Mistral>
+    <Portfolio_CeateFileName>PDF ポートフォリオ</Portfolio_CeateFileName>
+    <Portfolio_OpenFileTips>ファイルの'{0}'には、有害なプログラム、マクロ、またはウイルスが含まれている可能性があります。
+
+安全を確認してからファイルを開いてください。</Portfolio_OpenFileTips>
+    <Portfolio_GetPdfelement>PDFelementをダウンロード</Portfolio_GetPdfelement>
+    <Portfolio_OpenPortfolioInPDFelement>PDFelementでPDF ポートフォリオを開いてください</Portfolio_OpenPortfolioInPDFelement>
+    <Portfolio_FolderBrowserDialogTip>ポートフォリオを追加するフォルダーを選択します。</Portfolio_FolderBrowserDialogTip>
+    <Portfolio_DeleteDialogMsg>選択したファイルを削除してもよろしいですか？</Portfolio_DeleteDialogMsg>
+    <Portfolio_DeleteDialogCaption>ファイルを削除</Portfolio_DeleteDialogCaption>
+    <Portfolio_DeleteDialogYesBtn>削除</Portfolio_DeleteDialogYesBtn>
+    <Portfolio_ReplaceFileTips>ポートフォリオには、「{0} "」という名前のファイルがすでに含まれています。
+
+ファイル "{0}"を置き換えますか？</Portfolio_ReplaceFileTips>
+    <RegCodeAuth_EmailOrCodeError>*The licensed e-mail or registration code you entered is invalid. Please try again with a vaild licensed e-mail or registration code. If the problem persists, contract customer support. ee &lt;a href="SupportPage"&gt;(Support Center)&lt;/a&gt;</RegCodeAuth_EmailOrCodeError>
+    <RegCodeAuth_RegisterSuccess>Register Success</RegCodeAuth_RegisterSuccess>
+    <RegCodeAuth_AuthExpired>Your license has expired, please purchase a new license to continue using PDFelement.</RegCodeAuth_AuthExpired>
+    <RegCodeAuth_AuthExceedPcs>You have exceeded the permitted number of program activations. Please Contact &lt;a href="ContactPage"&gt;Customer Service&lt;/a&gt; immediately for assistance.</RegCodeAuth_AuthExceedPcs>
+    <RegCodeAuth_AuthTrialOrQuit>Your product key has been cancelled or is no longer valid. Please Contact &lt;a href="ContactPage"&gt;Customer Service&lt;/a&gt; immediately for assistance.</RegCodeAuth_AuthTrialOrQuit>
+    <RegCodeAuth_AuthBlackList>Your product key has been cancelled or is no longer valid. If this is not a genuine copy or your license has expired, please purchase a new license to continue using PDFelement.</RegCodeAuth_AuthBlackList>
+    <RegCodeAuth_AuthRefundQuit>Your product key has been refunded, please purchase a new license to continue using PDFelement.</RegCodeAuth_AuthRefundQuit>
+    <Comparison_Title>ファイル比較</Comparison_Title>
+    <Comparison_SameDocError>比較する2つの異なるドキュメントを選択してください。</Comparison_SameDocError>
+    <Comparison_OldFile>[元のファイル]</Comparison_OldFile>
+    <Comparison_NewFile>[新しいファイル]</Comparison_NewFile>
+    <Comparison_CompareFile>[ファイルの比較]</Comparison_CompareFile>
+    <Progress_CompareTitle>ファイル比較</Progress_CompareTitle>
+    <Progress_CompareDesc>比較しています</Progress_CompareDesc>
+    <Progress_CompareFailTitle>比較に失敗しました</Progress_CompareFailTitle>
+    <Progress_CompareFailContent>比較に失敗しました。</Progress_CompareFailContent>
+    <Progress_CompareNoDifferent>2つのドキュメントに違いはありません。</Progress_CompareNoDifferent>
+    <Comparison_Delete>削除</Comparison_Delete>
+    <Comparison_Insert>挿入</Comparison_Insert>
+    <Comparison_Modify>変更</Comparison_Modify>
+    <Comparison_Document>文書</Comparison_Document>
+    <Comparison_Page>ページ</Comparison_Page>
+    <Comparison_TextObject>テキストオブジェクト</Comparison_TextObject>
+    <Comparison_Flow>テキストコンテンツ</Comparison_Flow>
+    <Comparison_Block>ブロック</Comparison_Block>
+    <Comparison_Paragraph>段落</Comparison_Paragraph>
+    <Comparison_TextLine>テキスト行</Comparison_TextLine>
+    <Comparison_Word>テキスト</Comparison_Word>
+    <Comparison_Char>文字</Comparison_Char>
+    <Comparison_Path>パス</Comparison_Path>
+    <Comparison_PathLine>パスライン</Comparison_PathLine>
+    <Comparison_Image>画像</Comparison_Image>
+    <Comparison_ImagePixels>画像ピクセル</Comparison_ImagePixels>
+    <GeneralConfig_PageLayoutKind_Automatic>自動</GeneralConfig_PageLayoutKind_Automatic>
+    <GeneralConfig_PageLayoutKind_SinglePage>シングルページ表示</GeneralConfig_PageLayoutKind_SinglePage>
+    <GeneralConfig_PageLayoutKind_SinglePageContinuous>シングルページ連続</GeneralConfig_PageLayoutKind_SinglePageContinuous>
+    <GeneralConfig_PageLayoutKind_TwoPages>2ページ表示</GeneralConfig_PageLayoutKind_TwoPages>
+    <GeneralConfig_PageLayoutKind_TwoPagesContinuous>2ページ連続</GeneralConfig_PageLayoutKind_TwoPagesContinuous>
+    <AdvancedSearch_Replace>置き換える</AdvancedSearch_Replace>
+    <AdvancedSearch_SearchRecordChange>ドキュメントが変更されたため、この検索結果が無効になっています。もう一度検索してください。</AdvancedSearch_SearchRecordChange>
+    <AdvancedSearch_SearchFailedMessage>{0} 個のファイルが破損しているか、開く権限がないため、検索をスキップしました。</AdvancedSearch_SearchFailedMessage>
+    <AdvancedSearch_ReplaceFailedMessage>{0} 個のファイルが破損しているか、開く権限がないため、検索をスキップしました。</AdvancedSearch_ReplaceFailedMessage>
+  </Strings>
+  <Forms>
+    <AuthMessageForm>
+      <lblTitle Text="アクセス認証" />
+      <btnGoogleLogin Text="Googleでサインイン" />
+      <btnRefreshAuth Text="更新" />
+    </AuthMessageForm>
+    <CloudFileForm>
+      <btnUpload Text="アップロード" />
+    </CloudFileForm>
+    <CloudNetErrorForm>
+      <btnRefreshAuth Text="更新" />
+    </CloudNetErrorForm>
+    <CloudAuthFailedForm>
+      <lblTitle Text="アクセス認証" />
+      <btnRefreshAuth Text="更新" />
+      <btnGoogleLogin Text="Googleでサインイン" />
+    </CloudAuthFailedForm>
+    <DownloadTipForm>
+      <lblPdfOnly Text="PDFファイルのみ開くことができます。" />
+    </DownloadTipForm>
+    <CombineForm>
+      <btnApply Text="適用" />
+      <ckbGenerateCatalog Text="ブックマークから新しいカタログを生成" />
+      <fileListPanel FileTips="ファイルをここにドラッグアンドドロップします" TaskName="結合">
+      </fileListPanel>
+    </CombineForm>
+    <CropSettingForm Text="切り取り設定">
+      <btnOk Text="OK" />
+      <btnCancel Text="キャンセル" />
+      <lblTips Text="トリミングエリアを調整" />
+      <lblTop Text="上" />
+      <lblBottom Text="下" />
+      <lblRight Text="右" />
+      <lblLeft Text="左" />
+      <pageRangePanel GropName="ページ範囲">
+      </pageRangePanel>
+      <lblSetCropBox Text="トリミングボックスを設定" />
+      <lblCropMargin Text="トリミング余白" />
+      <btnApply Text="適用" />
+    </CropSettingForm>
+    <PageBoxPanel>
+      <lblCroppedPageSize Text="トリミングされたページサイズ：{0}" />
+    </PageBoxPanel>
+    <PageBoxSettingForm Text="PageBoxSettingForm">
+      <lblSetPageBox Text="ページサイズを設定" />
+      <btnCancel Text="キャンセル" />
+      <btnApply Text="適用" />
+      <lblLeft Text="左" />
+      <lblRight Text="右" />
+      <lblBottom Text="ボトム" />
+      <lblTop Text="トップ" />
+      <lblApplyTo Text="適用対象" />
+      <btnReset Text="リセット" />
+      <btnChangePageSize Text="ページサイズを変更" />
+      <btnPageRange Text="ページ範囲" />
+      <cbbPageSize Text="無し">
+      </cbbPageSize>
+      <lblPageSize Text="ぺーズサイズ" />
+      <rdoFixedSize Text="固定サイズ" />
+      <lblWidth Text="幅" />
+      <rdoCustom Text="カスタム" />
+      <lblHeight Text="高さ" />
+      <lblXOffset Text="Xオフセット" />
+      <ckbCenter Text="中央" />
+      <lblYOffset Text="Yオフセット" />
+      <pageRangePanel GropName="" Text="ページ範囲パネル1">
+      </pageRangePanel>
+      <pageBoxPanel Text="ページボックスパネル">
+      </pageBoxPanel>
+    </PageBoxSettingForm>
+    <DataExtractModeForm Text="抽出モード">
+      <btnApply Text="適用" />
+      <btnCancel Text="キャンセル" />
+      <rdoFromFields Text="PDF内のフォームフィールドからデータを抽出" />
+      <rdoFromMarkedPdf Text="選択されたPDFからデータを抽出" />
+      <lblFromFields Text="フォームフィールド内のデータはCSV形式で抽出されます" />
+      <lblFromSelection Text="選択されたテキストを抽出されます。" />
+    </DataExtractModeForm>
+    <PE.UI.Document.DocumentsPage />
+    <GotoActionControl>
+      <pageTurnCtrl Text="ページ ターンコントロール1">
+      </pageTurnCtrl>
+      <listView Text="ページ 表示1">
+      </listView>
+    </GotoActionControl>
+    <LinkAppearanceControl>
+      <gLabel1 Text="カラー" />
+      <gLabel2 Text="ライン太さ" />
+      <gLabel3 Text="ハイライトスタイル" />
+      <gLabel4 Text="ラインスタイル" />
+      <gLabel5 Text="ラインタイプ" />
+      <cboHightLineMode>
+        <Items>無し
+反転
+プッシュ
+アウトライン</Items>
+      </cboHightLineMode>
+      <cboLineStyle>
+        <Items>実線
+破線
+下線</Items>
+      </cboLineStyle>
+      <cboLinkVisible>
+        <Items>枠線あり
+枠線無し</Items>
+      </cboLinkVisible>
+    </LinkAppearanceControl>
+    <LinkAppearanceControlSmall>
+      <gLabel1 Text="カラー" />
+      <gLabel2 Text="ライン太さ" />
+      <gLabel3 Text="ハイライトスタイル" />
+      <gLabel4 Text="ラインスタイル" />
+      <gLabel5 Text="ラインタイプ" />
+      <cboHightLineMode>
+        <Items>無し
+反転
+プッシュ
+アウトライン</Items>
+      </cboHightLineMode>
+      <cboLineStyle>
+        <Items>実線
+破線
+下線</Items>
+      </cboLineStyle>
+      <cboThickness>
+        <Items>1
+2
+3
+4
+5
+6
+7
+8
+9
+10</Items>
+      </cboThickness>
+      <cboLinkVisible>
+        <Items>枠線あり
+枠線無し</Items>
+      </cboLinkVisible>
+    </LinkAppearanceControlSmall>
+    <LinkEditingGotoForm Text="ページリンク">
+      <btnCancel Text="キャンセル" />
+      <btnOK Text="OK" />
+      <lblLinkTip Text="ページへのリンク" />
+      <tabAction ImageKey="" Text="アクション" ToolTipText="">
+      </tabAction>
+      <tabAppearance ImageKey="" Text="外観" ToolTipText="">
+      </tabAppearance>
+      <actionCtrl Text="gotoActionControl1">
+      </actionCtrl>
+      <appearanceCtrl Text="linkAppearanceControl1">
+      </appearanceCtrl>
+    </LinkEditingGotoForm>
+    <LinkEditingOpenFileForm Text="ファイルリンク">
+      <btnCancel Text="キャンセル" />
+      <btnOK Text="OK" />
+      <tabAction ImageKey="" Text="アクション" ToolTipText="">
+      </tabAction>
+      <tabAppearance ImageKey="" Text="外観" ToolTipText="">
+      </tabAppearance>
+      <actionCtrl Text="openFileActionControl1">
+      </actionCtrl>
+      <appearanceCtrl Text="linkAppearanceControl1">
+      </appearanceCtrl>
+    </LinkEditingOpenFileForm>
+    <LinkEditingOpenWebForm Text="ウェブリンク">
+      <btnCancel Text="キャンセル" />
+      <btnOK Text="OK" />
+      <tabAction ImageKey="" Text="アクション" ToolTipText="">
+      </tabAction>
+      <tabAppearance ImageKey="" Text="外観" ToolTipText="">
+      </tabAppearance>
+      <appearanceCtrl Text="linkAppearanceControl1">
+      </appearanceCtrl>
+      <actionCtrl Text="openUrlActionControl1">
+      </actionCtrl>
+    </LinkEditingOpenWebForm>
+    <OpenFileActionControl>
+      <gLabel1 Text="ファイルを選択" />
+      <txtPath PlaceHolderText="ファイルパス">
+      </txtPath>
+    </OpenFileActionControl>
+    <OpenUrlActionControl>
+      <gLabel1 Text="ウェブリンクURLを入力" />
+    </OpenUrlActionControl>
+    <SignForm Text="署名の追加">
+      <btnOK Text="OK" ToolTip="" />
+      <btnCancel Text="キャンセル" ToolTip="" />
+      <btnDraw Text="描画" />
+      <btnText Text="入力" />
+      <btnImage Text="アップロード" />
+      <cmbFont ToolTip="フォント" />
+      <lblImageNote Text="注：白い背景の画像をアップロードすしてください。" />
+    </SignForm>
+    <SignImagePage>
+      <btnChooseImage Text="画像を選択" />
+    </SignImagePage>
+    <SignCreateItem>
+      <btnCreate Text="作成" />
+    </SignCreateItem>
+    <SignTextPage>
+      <txbText PlaceHolderText="署名を入力" />
+    </SignTextPage>
+    <StampCategoryPanel>
+      <labTitle Text="タイトル" />
+    </StampCategoryPanel>
+    <StampCreateCustomForm Text="カスタムスタンプフォーム">
+      <btnBrower Text="画像を選択" />
+      <lblName Text="名前" />
+      <btnOK Text="OK" />
+      <btnCancel Text="キャンセル" />
+      <lblPreview Text="プレビュー" />
+      <txbName Text="新しいスタンプ">
+      </txbName>
+    </StampCreateCustomForm>
+    <StampIdentityEditForm Text="IDを編集">
+      <lblTitle Text="デジタル署名IDスタンプ上に表示される情報を入力してください。" />
+      <lblUserName Text="名前" />
+      <lblCompany Text="会社" />
+      <lblDepartment Text="部署" />
+      <lblLoginNameTitle Text="ログイン名" />
+      <lblLoginNameContent Text="ログイン名" />
+      <btnOK Text="OK" />
+      <btnCancel Text="キャンセル" />
+      <lblIdentity Text="ID" />
+    </StampIdentityEditForm>
+    <StampManageForm Text="カスタムスタンプを管理">
+      <btnCreate Text="作成" />
+      <btnEdit Text="編集" />
+      <btnDelete Text="削除" />
+      <btnOK Text="OK" />
+      <btnCancel Text="キャンセル" />
+      <lblName Text="名前" />
+      <lblPreview Text="プレビュー" />
+    </StampManageForm>
+    <PopupControl>
+      <lblAnnotType />
+      <lblModifyDate />
+      <lblAuthor />
+    </PopupControl>
+    <AttachmentStyleComboxItem />
+    <AttachmentStyleItem>
+      <lblStyle Text="スタイル" />
+      <lblColor Text="カラー" />
+    </AttachmentStyleItem>
+    <ColorItem>
+      <lblColor Text="カラー" />
+    </ColorItem>
+    <EndItem>
+      <lblEnd Text="終了" />
+    </EndItem>
+    <FillColorItem>
+      <lblFillColor Text="塗りつぶし" />
+    </FillColorItem>
+    <OpacityItem>
+      <lblOpacity Text="不透明度" />
+    </OpacityItem>
+    <RedactOverlayTextItem>
+      <lblFillColor Text="塗りつぶし" />
+      <ckbOverlayText Text="オーバーレイテキスト" />
+      <rdbtnActionText Text="アクションテキスト" />
+      <rdbtnCustomText Text="カスタムテキスト" />
+      <btnAlignRight ToolTip="中央揃え" />
+      <btnAlignCenter ToolTip="右揃え" />
+      <btnAlignLeft ToolTip="左揃え" />
+      <lstbCodeEntries>
+        <Items>(b)(1)(A)
+(b)(1)(B)
+(b)(1)(A)
+(b)(1)(B)
+(b)(1)(A)
+(b)(1)(B)
+(b)(1)(A)
+(b)(1)(B)
+(b)(1)(A)
+(b)(1)(B)
+(b)(1)(A)
+(b)(1)(B)</Items>
+      </lstbCodeEntries>
+      <lblCodeEntries Text="コード入力" />
+      <lblCodeSets Text="コードセット" />
+      <cmboxRedactSize Text="10">
+        <Items>Auto
+5
+5.5
+6.5
+7.5
+8
+9
+10
+10.5
+11
+12
+14
+16
+18
+20
+22
+24
+26
+28
+36
+48
+72</Items>
+      </cmboxRedactSize>
+      <cmboxCodeSets>
+        <Items>U.S.FOIA
+U.S.FOIA
+U.S.FOIA
+U.S.FOIA</Items>
+      </cmboxCodeSets>
+    </RedactOverlayTextItem>
+    <StartItem>
+      <lblStart Text="開始" />
+    </StartItem>
+    <StyleItem>
+      <lblStyle Text="スタイル" />
+    </StyleItem>
+    <ThicknessItem>
+      <lblThickness Text="太さ" />
+    </ThicknessItem>
+    <AnnotAppearanceControl>
+      <lblAppearance Text="外観" />
+      <ckbOverlayText Text="オーバーレイテキスト" />
+      <rdbtnActionText Text="アクションテキスト" />
+      <rdbtnCustomText Text="カスタムテキスト" />
+      <btnAlignRight ToolTip="中央揃え" />
+      <btnAlignCenter ToolTip="右揃え" />
+      <btnAlignLeft ToolTip="左揃え" />
+      <cmboxRedactSize Text="10">
+        <Items>5
+5.5
+6.5
+7.5
+8
+9
+10
+10.5
+11
+12
+14
+16
+18
+20
+22
+24
+26
+28
+36
+48
+72</Items>
+      </cmboxRedactSize>
+      <lstboxCodeSets>
+        <Items>(b)(1)(A)
+(b)(1)(B)
+(b)(1)(A)
+(b)(1)(B)
+(b)(1)(A)
+(b)(1)(B)
+(b)(1)(A)
+(b)(1)(B)
+(b)(1)(A)
+(b)(1)(B)
+(b)(1)(A)
+(b)(1)(B)</Items>
+      </lstboxCodeSets>
+      <lblCodeEntries Text="コードセット" />
+      <cmboxCodeSets>
+        <Items>U.S.FOIA
+U.S.FOIA
+U.S.FOIA
+U.S.FOIA</Items>
+      </cmboxCodeSets>
+      <lblCodeSets Text="コードセット" />
+    </AnnotAppearanceControl>
+    <AnnotDateControl>
+      <lblDate Text="日付" />
+      <lblCreatedTime />
+      <lblCreated Text="作成日" />
+      <lblModifiedTime />
+      <lblModified Text="編集日" />
+    </AnnotDateControl>
+    <AnnotFontControl>
+      <lblFontTitle Text="フォント" />
+      <lblFont Text="フォント" />
+      <lblFontColor Text="カラー" />
+      <lblFontStyle Text="スタイル" />
+      <lblFontSize Text="サイズ" />
+    </AnnotFontControl>
+    <AnnotInfoControl>
+      <lblAuthor Text="作成者" />
+      <lblInfo Text="情報" />
+      <lblSubject Text="サブジェクト" />
+      <lblDescription Text="説明" />
+    </AnnotInfoControl>
+    <AnnotTypeControl>
+      <lblType Text="タイプ" />
+    </AnnotTypeControl>
+    <AnnotUseAsDefaultControl>
+      <btnUseAsDefault Text="デフォルトとして使用" />
+    </AnnotUseAsDefaultControl>
+    <PencilFloatingPanleOptionControl>
+      <lblTitle Text="ポップアッププロパティ" />
+    </PencilFloatingPanleOptionControl>
+    <HighlightTextFloatControl>
+      <btnHighlight ToolTip="ハイライト" />
+      <btnStrikeout ToolTip="ストライクアウト" />
+      <btnUnderline ToolTip="下線" />
+      <btnSquiggly ToolTip="波線" />
+      <btnCaret ToolTip="テキストを挿入" />
+    </HighlightTextFloatControl>
+    <ContentPropertyPage>
+      <btnFontUnderline ToolTip="下線" />
+      <btnFontItalic ToolTip="選択したテキストを斜体にする" />
+      <btnFontBold ToolTip="選択されたテキストを太字にする" />
+      <btnFontStrikeout ToolTip="ストライクアウト" />
+      <btnFontSuperscript ToolTip="スーパースクリプト" />
+      <btnFontSubscript ToolTip="サブスクリプト" />
+      <btnFontZoomIn ToolTip="フォントサイズを大きくする" />
+      <btnFontZoomOut ToolTip="フォントサイズを小さくする" />
+      <btnAlignLeft ToolTip="左揃え" />
+      <btnAlignCenter ToolTip="中央揃え" />
+      <btnAlignRight ToolTip="右揃え" />
+      <btnAlignJustify ToolTip="位置調整" />
+      <btnOverturnHorizontal ToolTip="左右反転" />
+      <btnOverturnVertical ToolTip="上下反転" />
+      <btnRotateRight ToolTip="右に回転" />
+      <btnRotateLeft ToolTip="左に回転" />
+      <btnClipObject ToolTip="オブジェクトをクリップ" />
+      <btnReplaceImage ToolTip="画像を置き換える" />
+      <btnArrangeDistribute ToolTip="選択したすべてのオブジェクトを配布" />
+      <btnArrangeAlignment ToolTip="選択したすべてのオブジェクトを整列" />
+      <lblOpacityTitle Text="不透明度" />
+      <lblActionTitle Text="アクション" />
+    </ContentPropertyPage>
+    <TextPropertyFloatControl>
+      <btnFontZoomIn ToolTip="フォントサイズを大きくする" />
+      <btnFontZoomOut ToolTip="フォントサイズを小さくする" />
+      <btnFontBold ToolTip="選択したテキストを太字にする" />
+      <btnFontItalic ToolTip="選択したテキストを斜体にする" />
+      <btnFontUnderline ToolTip="下線" />
+      <btnFontStrikeout ToolTip="ストライクアウト" />
+    </TextPropertyFloatControl>
+    <FieldSelectorForm Text="フィールドを選択">
+      <btnOK Text="OK" />
+      <btnCancel Text="キャンセル" />
+      <lblSelectFieldText Text="フィールドを選択" />
+      <cbSelectAll Text="すべてを選択" />
+    </FieldSelectorForm>
+    <JavaScriptEditorForm Text="Javascriptエディタ">
+      <btnSelectLine Text="移動…" />
+      <btnCancel Text="キャンセル" />
+      <btnOK Text="OK" />
+      <lblTitle Text="Javascriptの作成と編集" />
+    </JavaScriptEditorForm>
+    <LineSelectorForm Text="ラインに移動">
+      <lblLineNumber Text="ライン番号" />
+      <btnOK Text="OK" />
+      <btnCancel Text="キャンセル" />
+    </LineSelectorForm>
+    <OpenWaySelectorForm Text="オープンプレファレンスを指定">
+      <lblOpenDocumentWay Text="文書をどのように開くべきか指定してください。" />
+      <rbNewWindow Text="新しいウインドウ" />
+      <rbExistingWindow Text="既存のウインドウ" />
+      <btnOK Text="OK" />
+      <btnCancel Text="キャンセル" />
+    </OpenWaySelectorForm>
+    <PreviewPageSelectorForm Text="ページビューへ移動">
+      <btnOK Text="OK" />
+      <btnCancel Text="キャンセル" />
+      <pagePreview1 Text="pagePreview1" />
+      <pagePreviewPanel Text="pagePreviewPanel1">
+      </pagePreviewPanel>
+    </PreviewPageSelectorForm>
+    <ShowHideFieldSelectorForm Text="フィールドを表示/非表示">
+      <btnOK Text="OK" />
+      <btnCancel Text="キャンセル" />
+      <cbSelectAll Text="すべてを選択" />
+      <lblSelectFieldText Text="フィールドを選択" />
+      <rbShow Text="表示" />
+      <rbHide Text="非表示" />
+    </ShowHideFieldSelectorForm>
+    <SubmitFormForm Text="フォームを送信">
+      <lblDateOptionInfo Text="データはYYYYMMDDフォーマットで送信されます…" />
+      <cbConvertDate Text="日付を標準フォーマットに変換する" />
+      <lblEnterURL Text="URL" />
+      <rbFDF Text="FDF" />
+      <rbHTML Text="HTML" />
+      <rbXFDF Text="XFDF" />
+      <rbPDF Text="PDF" />
+      <cbFieldData Text="フィールドデータ" />
+      <cbComments Text="コメント" />
+      <cbIncrementalPDF Text="PDFへの増分変更" />
+      <cbCommentsXFDF Text="コメント" />
+      <cbFieldDataXFDF Text="フィールドデータ" />
+      <cbSelectAll Text="すべてを選択" />
+      <lblUrlMethod Text="送信先" />
+      <btnCancel Text="キャンセル" />
+      <btnOK Text="OK" />
+      <gLabel1 Text="フォーマットをエクスポート" />
+      <gLabel2 Text="メソッドを送信" />
+      <gLabel3 Text="日付オプション" />
+      <gLabel4 Text="フィールド選択" />
+    </SubmitFormForm>
+    <UrlEditorForm Text="ウェブリンクを開く">
+      <lblEnterUrl Text="このリンクのURLを開く" />
+      <btnOK Text="OK" />
+      <btnCancel Text="キャンセル" />
+    </UrlEditorForm>
+    <CalculationOrderForm Text="計算順序">
+      <btnOK Text="OK" />
+      <btnCancel Text="キャンセル" />
+      <lblSelectFieldText Text="フォームフィールド" />
+      <btnUp Text="上" />
+      <btnDown Text="下" />
+    </CalculationOrderForm>
+    <LaunchFileForm Text="ファイルを起動">
+      <chbxShow Text="二度とこのメッセージを表示しない" />
+      <btnOpen Text="開く" />
+      <btnNoOpen Text="開かない" />
+      <lblFilePath Text="ファイルパス：" />
+    </LaunchFileForm>
+    <ButtonIconPlacementForm Text="アイコン配置">
+      <lblWhenToScale Text="スケーリングするタイミング：" />
+      <lblScale Text="スケール：" />
+      <cbFitBounds Text="境界線に合わせる" />
+      <lblButton Text="ボタン" />
+      <lblIcon Text="アイコン" />
+      <lblUse Text="ダイアローグボックスを使用して大きさを合わせるためのスケールアイコンです。" />
+      <btnReset Text="リセット" />
+      <btnOK Text="OK" />
+      <btnCancel Text="キャンセル" />
+      <lblLocation Text="(100,100)" />
+    </ButtonIconPlacementForm>
+    <FieldPropertyForm>
+      <lblFormTitle Text="プロパティ" />
+      <btnGeneral Text="一般" />
+      <btnAppearance Text="外観" />
+      <btnPosition Text="位置" />
+      <btnTextBoxOtpion Text="オプション" />
+      <btnCheckBoxOption Text="オプション" />
+      <btnRadioBoxOption Text="オプション" />
+      <btnListBoxOption Text="オプション" />
+      <btnComboBoxOption Text="オプション" />
+      <btnButtonOption Text="オプション" />
+      <btnActions Text="アクション" />
+      <btnSelectionChange Text="選択の変更" />
+      <btnSigned Text="署名済み" />
+      <btnFormat Text="フォーマット" />
+      <btnValidate Text="確定" />
+      <btnCalculate Text="計算" />
+      <btnClose Text="閉じる" />
+      <cbLocked Text="ロック状態" />
+    </FieldPropertyForm>
+    <ActionSettingPanel>
+      <lblSelectTrigger Text="トリガを選択：" />
+      <lblSelectAction Text="アクションを選択：" />
+      <btnUp Text="上" />
+      <btnDown Text="下" />
+      <btnEdit Text="編集" />
+      <btnDelete Text="削除" />
+      <lblAddAction Text="アクションを追加" />
+      <lblActions Text="アクション" />
+      <btnAdd Text="追加" />
+    </ActionSettingPanel>
+    <AppearancePropertyPanel>
+      <lblBorderColor Text="境界線の色" />
+      <lblFillColor Text="塗りつぶし" />
+      <lblLineThickness Text="ライン太さ" />
+      <lblLineStyle Text="ラインスタイル" />
+      <lblFontSize Text="サイズ" />
+      <lblTextColor Text="テキストカラー" />
+      <lblFont Text="フォント" />
+      <gLabel1 Text="境界線と色" />
+      <gLabel2 Text="テキスト" />
+      <gLabel3 Text="スタイル" />
+    </AppearancePropertyPanel>
+    <ButtonOptionPropertyPanel>
+      <lblLayout Text="レイアウト" />
+      <lblBehavior Text="挙動" />
+      <btnAdvanced Text="アドバンスト" />
+      <lblState Text="ステート" />
+      <lblLabel Text="ラベル" />
+      <lblIcon Text="アイコン" />
+      <btnChooseIcon Text="アイコンを選択" />
+      <btnClear Text="クリア" />
+    </ButtonOptionPropertyPanel>
+    <CalculatePropertyPanel>
+      <rbValueNotCalculated Text="値は計算されません" />
+      <rbValueIs Text="値は" />
+      <lblFollowingField Text="次のフィールドの：" />
+      <btnPick Text="選ぶ" />
+      <lblCustomCalculateWarning Text="値を再計算するとオリジナルは削除され、復元することができなくなります。" />
+      <rbRunCalculate Text="カスタム計算スクリプトを実行" />
+      <rbSimplifiedFieldNotation Text="簡単フィールド注釈" />
+      <btnSimplifiedFieldNotationEdit Text="編集" />
+    </CalculatePropertyPanel>
+    <CheckBoxOptionPropertyPanel>
+      <lblCheckboxStyle Text="チェックボックススタイル" />
+      <lblCheckboxExportValue Text="値をエクスポート" />
+      <cbDefaultChecked Text="チェックボックスはデフォルトで選択されています" />
+      <lblCheckboxOptionInfo Text="1度に複数のアイテムを選択することができるアイテムリストを作成する際にチェックボックスを使用します。1つのアイテムのみ選択可能なリストを作成する場合はラジオボタンフィールドを使用します。" />
+    </CheckBoxOptionPropertyPanel>
+    <ComboBoxOptionPropertyPanel BaseType="ListOptionPropertyPanelBase">
+      <cbAllowEnterText Text="ユーザーによるカスタムフィールドへの入力を許可" />
+      <cbCommit Text="選択された値を即座に入力" />
+    </ComboBoxOptionPropertyPanel>
+    <FormatPropertyPanel>
+      <lblSelectFormat Text="フォーマットカテゴリを選択：" />
+    </FormatPropertyPanel>
+    <CustomFormatSettingPanel>
+      <lblOptions Text="カスタムオプション" />
+      <btnCustomKeystrokeEdit Text="編集" />
+      <lblCustomKeystrokeScript Text="カスタムキーストロークスクリプト：" />
+      <btnCustomFormatEdit Text="編集" />
+      <lblCustomFormat Text="カスタムフォーマットスクリプト：" />
+      <lblCustom Text="カスタムフォーマット作成及びキーストローク検証のためにJavascriptを定義する能力" />
+    </CustomFormatSettingPanel>
+    <DateFormatSettingPanel>
+      <lblDateExample Text="現在のフォーマット例：" />
+      <lblDate Text="日付フォーマットカテゴリを使用して日付または日付と時間の値を表示します。時間フォーマットカテゴリを使用して時間のみを表示します。" />
+      <lblOptions Text="日付オプション" />
+    </DateFormatSettingPanel>
+    <NoneFormatSettingPanel>
+      <gLabelNone Text="フィールドの値は入力されると同時にフォーマットされていきます。自動的にフィールドをフォーマットしたい場合はフォーマットカテゴリリストからフォーマットフォームを選択してください。" />
+    </NoneFormatSettingPanel>
+    <NumberFormatSettingPanel>
+      <lblDecimalPlaces Text="小数点位置" />
+      <lblSeparatorStyle Text="セパレータースタイル" />
+      <lblCurrencySymbol Text="通貨シンボル" />
+      <lblNegativeNumberStyle Text="マイナスナンバースタイル" />
+      <lblExample Text="現在のフォーマット例：" />
+      <cbbDecimalPlaces>
+        <Items>0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10</Items>
+      </cbbDecimalPlaces>
+      <cbShowParentheses Text="カッコを表示" />
+      <cbUseRedText Text="赤色のテキストを使用" />
+      <lblShowExample Text="-4,123.03" />
+      <lblNumber Text="ナンバーフォーマットカテゴリを使用して数字を表示します。これには、通貨スタイルも含まれます" />
+      <lblNumberOptions Text="数字オプション" />
+    </NumberFormatSettingPanel>
+    <PercentFormatSettingPanel>
+      <lblPercentage Text="パーセンテージフォーマットカテゴリは、フィールド値を100倍して%マークと共に表示します" />
+      <lblPercentageDecimal Text="小数点位置" />
+      <cbbPercentageDecimal>
+        <Items>0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10</Items>
+      </cbbPercentageDecimal>
+      <lblSeparator Text="セパレータースタイル" />
+      <lblPercantageShowExample Text="1,234.56%" />
+      <lblPercantageExample Text="現在のフォーマット例：" />
+      <lblOptions Text="パーセンテージオプション" />
+    </PercentFormatSettingPanel>
+    <SpecialFormatSettingPanel>
+      <lblOptions Text="スペシャルオプション" />
+      <lblSpecial Text="スペシャルフォーマットカテゴリを使用してカスタムフォーマットを設定し、電話番号やZIPコード、社会保障番号などを表示します" />
+    </SpecialFormatSettingPanel>
+    <TimeFormatSettingPanel>
+      <lblTimeExample Text="現在のフォーマット例：" />
+      <lblTime Text="時間フォーマットカテゴリを使用して時間の値のみを表示します" />
+      <lblOptions Text="時間オプション" />
+    </TimeFormatSettingPanel>
+    <GeneralPropertyPanel>
+      <lblName Text="名前" />
+      <lblTooltip Text="Tooltip" />
+      <lblFormField Text="フォームフィールド：" />
+      <cbReadOnly Text="読み取り専用" />
+      <cbRequired Text="必須" />
+      <gLabel1 Text="共通プロパティ" />
+    </GeneralPropertyPanel>
+    <ListBoxOptionPropertyPanel BaseType="ListOptionPropertyPanelBase">
+      <cbCommit Text="選択された値を即座に入力" />
+      <cbMultipleSelection Text="複数選択" />
+    </ListBoxOptionPropertyPanel>
+    <ListOptionPropertyPanelBase>
+      <lblItem Text="アイテム" />
+      <lblExportValue Text="値をエクスポート" />
+      <lblItemList Text="アイテムリスト" />
+      <btnItemAdd Text="追加" />
+      <btnDeleteItemList Text="削除" />
+      <btnUpItemList Text="上" />
+      <btnDownItemList Text="下" />
+      <cbSortItem Text="アイテムをソート" />
+      <lblListOptionInfo Text="リスト内のアイテムを選択してデフォルトのアイテムにしてください。" />
+    </ListOptionPropertyPanelBase>
+    <PositionlPropertyPanel>
+      <gGroupBoxCommonProperties Text="位置">
+      </gGroupBoxCommonProperties>
+      <gLabel1 Text="左揃え：" />
+      <gLabel2 Text="右揃え：" />
+      <gLabel3 Text="上揃え：" />
+      <gLabel4 Text="下揃え：" />
+      <gLabel5 Text="幅：" />
+      <gLabel7 Text="高さ：" />
+      <cbChangeSize Text="位置を変更する際に高さや幅を変更しないでください。" />
+    </PositionlPropertyPanel>
+    <RadioBoxOptionPropertyPanel>
+      <lblRadiobuttonOptionInfo Text="互いに排他的なラジオボタン(すなわち、1度に1つしか選択できない)を作成する場合は、フィールドに同じ名前を付けて異なるボタンチョイスを割り当ててください。" />
+      <cbSameChoiceSelect Text="同じ名前のボタンとボタンチョイスが同時に選択されます" />
+      <cbChecked Text="ボタンはデフォルトでチェックされています" />
+      <lblRadioButtonChoice Text="ラジオボタンチョイス" />
+      <lblButtonStyle Text="ボタンスタイル" />
+    </RadioBoxOptionPropertyPanel>
+    <SelectionChangePropertyPanel>
+      <lblSelectionChanges Text="リストボックスの選択が変更された場合:" />
+      <rbDoNothing Text="何もしない" />
+      <rbExecuteScript Text="このスクリプトを実行：" />
+      <btnSelectionChangeScriptEdit Text="編集" />
+      <lblWarning4 Text="変更可能なカスタムコンテンツが既に存在します。「何も実行しない」を選択すると、元のスクリプトは削除され、更に復元することもできません。" />
+    </SelectionChangePropertyPanel>
+    <SignedPropertyPanel>
+      <rbNothingHappen Text="署名されても何も起こらない" />
+      <rbMarkReadOnly Text="読み取り専用とマーク：" />
+      <rbSignScriptExecute Text="カスタムスクリプトを実行" />
+      <btnSignedPick Text="選ぶ" />
+      <btnSignScriptExecute Text="編集" />
+      <lblSignedWarning Text="署名のカスタムスクリプトが存在します。他のアクションに切り替えるとオリジナルのスクリプトは削除され、復元できなくなります。" />
+    </SignedPropertyPanel>
+    <TextBoxOptionPropertyPanel>
+      <lblCharacters2 Text="文字" />
+      <cbCombOf Text="組み合わせ" />
+      <cbCheckSpell Text="スペルをチェック" />
+      <cbPassword Text="パスワード" />
+      <lblCharacters Text="文字" />
+      <cbLimitOf Text="制限" />
+      <cbScrollLongText Text="スクロールロングテキスト" />
+      <cbMultiLine Text="マルチライン" />
+      <gLabelDefaultValue Text="デフォルト値" />
+      <gLabelAlignment Text="配置" />
+      <cbFieldIsUse Text="フィールドはファイル選択に使用されます" />
+    </TextBoxOptionPropertyPanel>
+    <ValidatePropertyPanel>
+      <tbFieldValueInvalidate Text="フィールドの値は検証されていません" />
+      <tbFieldValueRange Text="フィールドの値は範囲内です：" />
+      <btnRunScriptEdit Text="編集" />
+      <btnRunScript Text="カスタム検証スクリプトを実行：" />
+      <lblCustomValidateWarning Text="カスタム検証スクリプトが存在します。フィールドの値を検証するために別の方法を選択した場合、カスタム検証スクリプトは削除され、復元できなくなります。" />
+      <lblFrom Text="From:" />
+      <lblTo Text="To:" />
+    </ValidatePropertyPanel>
+    <AcroFormMsgBarPage>
+      <lblTip Text="本文書にはインタラクティブフォームフィールドが含まれています。" />
+      <btnHighlight Text="ハイライトフィールド" />
+    </AcroFormMsgBarPage>
+    <ArchivesMsgBarPage>
+      <lblTip Text="本ファイルは{0}標準に準拠しており、編集を防ぐために読み取り専用ファイルとして設定されています。" />
+      <btnStartEditing Text="編集を有効にする" />
+    </ArchivesMsgBarPage>
+    <ScanMsgBarPage>
+      <lblTip Text="スキャンされたファイルを検知しました。OCR処理を推奨します。これにより、スキャンされたPDF文書をコピー、編集、テキスト検索することができるようになります。" />
+      <btnExecuteOcr Text="OCR処理を実行" />
+      <btnNotShow Text="このファイルに対して二度と表示しない" />
+    </ScanMsgBarPage>
+    <SecurityMsgBarPage>
+      <lblTip Text="本文書は保護されています。編集を可能にするには許可パスワードを入力してください。" />
+      <btnStartEditing Text="編集を有効にする" />
+      <lblProtectedView Text="文書制限" />
+    </SecurityMsgBarPage>
+    <SignedMsgBarPage>
+      <lblTip Text="Tip:SignedMsgBarPage" />
+      <btnJumpTo Text="署名にジャンプ" />
+      <btnHighlight Text="ハイライトフィールド" />
+    </SignedMsgBarPage>
+    <XFAMsgBarPage>
+      <lblTip Text="本文書にはXFAフォームフィールドが含まれています。" />
+      <btnHighlight Text="ハイライトフィールド" />
+    </XFAMsgBarPage>
+    <AnnotationsPage Text="コメント">
+      <btnExport ToolTip="注釈をエクスポート" />
+      <btnImport ToolTip="注釈をインポート" />
+      <btnSortMenu ToolTip="並び替え方法" />
+    </AnnotationsPage>
+    <cmsAnnotation>
+      <miDelete ShortcutKeyDisplayString="" Text="削除" ToolTipText="" />
+      <miExpandAll ShortcutKeyDisplayString="" Text="すべてを展開" ToolTipText="" />
+      <miCollapseAll ShortcutKeyDisplayString="" Text="すべてを折りたたむ" ToolTipText="" />
+    </cmsAnnotation>
+    <cmsSort>
+      <miSortByPage ShortcutKeyDisplayString="" Text="ページ" ToolTipText="" />
+      <miSortByDate ShortcutKeyDisplayString="" Text="日付" ToolTipText="" />
+      <miSortByAuthor ShortcutKeyDisplayString="" Text="作成者" ToolTipText="" />
+      <miSortByType ShortcutKeyDisplayString="" Text="タイプ" ToolTipText="" />
+    </cmsSort>
+    <AnnotListItem />
+    <AttachListItem />
+    <AttachmentsPage Text="添付">
+      <btnDel ToolTip="添付を削除" />
+      <btnEdit ToolTip="説明を編集" />
+      <btnAdd ToolTip="添付ファイルを追加" />
+      <btnSaveAs ToolTip="添付ファイルに名前を付けて保存" />
+      <btnOpen ToolTip="添付ファイルを開く" />
+      <miOpen ShortcutKeyDisplayString="" Text="添付を開く" ToolTipText="" />
+      <miSaveAs ShortcutKeyDisplayString="" Text="添付を保存" ToolTipText="" />
+      <miAdd ShortcutKeyDisplayString="" Text="添付を追加" ToolTipText="" />
+      <miEdit ShortcutKeyDisplayString="" Text="説明を編集" ToolTipText="" />
+      <miDelete ShortcutKeyDisplayString="" Text="削除" ToolTipText="" />
+      <miExpandAll ShortcutKeyDisplayString="" Text="すべてを展開" ToolTipText="" />
+      <miCollapseAll ShortcutKeyDisplayString="" Text="すべてを折りたたむ" ToolTipText="" />
+    </AttachmentsPage>
+    <BookmarksPage Text="ブックマーク">
+      <miDelete ShortcutKeyDisplayString="" Text="ブックマークを削除" ToolTipText="" />
+      <miRename ShortcutKeyDisplayString="" Text="ブックマークの名称変更" ToolTipText="" />
+      <miAdd ShortcutKeyDisplayString="" Text="ブックマークを追加" ToolTipText="" />
+      <miAddChild ShortcutKeyDisplayString="" Text="サブを追加" ToolTipText="" />
+      <miSetDestination ShortcutKeyDisplayString="" Text="目標を設定" ToolTipText="" />
+      <miExpandAll ShortcutKeyDisplayString="" Text="すべてのブックマークを展開" ToolTipText="" />
+      <miCollapseAll ShortcutKeyDisplayString="" Text="すべてのブックマークを折りたたむ" ToolTipText="" />
+      <miPrintPages ShortcutKeyDisplayString="" Text="ページを印刷" ToolTipText="" />
+      <btnAdd Text="追加" />
+      <lblNoBookmark Text="ブックマークがありません。" />
+    </BookmarksPage>
+    <BottomStatusBar>
+      <btnHand ToolTip="クリックして手のひらツールを使用" />
+      <btnSelect ToolTip="クリックしてテキストと画像を選択" />
+      <btnZoomOut ToolTip="ズームアウト" />
+      <btnZoomIn ToolTip="ズームイン" />
+      <btnPrevPage ToolTip="前のページ" />
+      <btnNextPage ToolTip="次のページ" />
+      <btnHide ToolTip="左側で表示" />
+    </BottomStatusBar>
+    <NavigatePage>
+      <btnThumbnail ToolTip="サムネイル" />
+      <btnBookmark ToolTip="ブックマーク" />
+      <btnAnnotations ToolTip="コメント" />
+      <btnAttachments ToolTip="添付" />
+      <btnSearch ToolTip="検索" />
+      <btnSearchForRedaction ToolTip="墨塗り検索" />
+      <labTitle Text="サムネイル" />
+      <btnClose ToolTip="閉じる" />
+      <btnOptionalContent ToolTip="レイヤー" />
+    </NavigatePage>
+    <NavigateStatusBar>
+      <btnShowStatus ToolTip="文書上で表示" />
+      <btnZoomIn ToolTip="ズームイン" />
+      <btnZoomOut ToolTip="ズームアウト" />
+      <btnSelect ToolTip="クリックしてテキストと画像を選択" />
+      <btnHand ToolTip="クリックして手のひらツールを使用" />
+    </NavigateStatusBar>
+    <OptionalContentPage Text="レイヤー">
+      <btnOperationMenu ToolTip="Options" />
+    </OptionalContentPage>
+    <OptionContentPropertyForm Text="レイヤーのプロパティ">
+      <btnCancel Text="キャンセル" />
+      <btnOK Text="OK" />
+      <lblLayerName Text="レイヤー名：" />
+      <lblIntent Text="インテント：" />
+      <rbtnView Text="表示" />
+      <rbtnReference Text="参照" />
+      <lblDefaultState Text="デフォルトの状態：" />
+      <chkLocked Text="ロック状態" />
+      <lblIniteVisible Text="表示：" />
+      <lblInitePrint Text="印刷：" />
+      <lblInitExport Text="エクスポート：" />
+      <lblPropertyTitle Text="プロパティ" />
+      <gLabel1 Text="初期状態" />
+      <gLabel2 Text="ロック状態" />
+    </OptionContentPropertyForm>
+    <cmsOptionalContetNode>
+      <miVisible Text="レイヤーを表示" />
+      <miRename Text="名前を変更" />
+      <miDelete Text="レイヤーを削除" />
+      <miProperty Text="プロパティ" />
+    </cmsOptionalContetNode>
+    <cmsOptionalContentTree>
+      <miListAllPagesLayers Text="すべてのページのレイヤーを表示" />
+      <miListVisiblePagesLayer Text="可視レイヤーのみを表示" />
+      <miReset Text="レイヤーの表示を初期状態にリセット" />
+      <miExpandAll Text="すべて展開" />
+      <miCollapseAll Text="すべて折り畳む" />
+      <miApplyPrint Text="印刷の設定を優先して適用" />
+      <miApplyExport Text="エクスポートの設定を優先して適用" />
+      <miApplyLayer Text="レイヤーの設定を優先して適用" />
+      <miDeleteLayer Text="レイヤーを削除" />
+      <miLayerProperty Text="レイヤーのプロパティ" />
+    </cmsOptionalContentTree>
+    <InsertBlankPageForm Text="挿入">
+      <gLabel1 Text="ページ数：" />
+      <btnOK Text="OK" />
+      <lblLimiteInfo Text="「1-100」整数に制限されています" />
+    </InsertBlankPageForm>
+    <InsertPageForm Text="挿入">
+      <lblInsert Text="挿入" />
+      <lblPlaceAt Text="配置" />
+      <rdoFirstPage Text="最初のページ" />
+      <rdoLastPage Text="最後のページ" />
+      <rdoPage Text="ページ" />
+      <lblLocation Text="ロケーション：" />
+      <btnCancel Text="キャンセル" />
+      <btnOK Text="OK" />
+      <lblSlash Text="/" />
+      <rdoBefore Text="前" />
+      <rdoAfter Text="後" />
+    </InsertPageForm>
+    <PageLabelSettingForm Text="ページラベル">
+      <btnOK Text="適用" />
+      <btnCancel Text="キャンセル" />
+      <btnDefault Text="すべてをクリア" />
+      <lblPageRangeTitle Text="ページ範囲" />
+      <lblPageNumbering Text="ページ番号付け" />
+      <lblStyle Text="スタイル" />
+      <lblPrifix Text="プレフィックス" />
+      <lblStartNumber Text="開始" />
+      <rdoNewSection Text="新しいセクションを開始" />
+      <rdoContinue Text="前のセクションで使用されたナンバリングを選択されたページに展開する" />
+      <rdoAllPages Text="すべてのページ" />
+      <rdoSelectedPages Text="選択したページ" />
+      <rdoPageRange Text="範囲" />
+      <lblTo Text="TO" />
+      <lblSamples Text="1,2,3..." />
+      <lblSampleTitle Text="サンプル：" />
+    </PageLabelSettingForm>
+    <ReplaceForm Text="置き換える">
+      <lblSelectPage Text="ページの差し替え" />
+      <lblReplace Text="ページ付き" />
+      <lblSelectFile Text="FROM" />
+      <btnOK Text="OK" />
+      <btnCancel Text="キャンセル" />
+      <txtFilePath Text="ファイルが選択されていません">
+      </txtFilePath>
+      <lblTo Text="TO" />
+      <lblIn Text="IN" />
+      <lblTo2 Text="TO" />
+      <lblAddedDocPagesCount Text="/" />
+    </ReplaceForm>
+    <RotateForm Text="ページを回転">
+      <btnOK Text="OK" />
+      <btnCancel Text="キャンセル" />
+      <lblDirection Text="オリエンテーション" />
+      <lblTitle Text="回転" />
+      <pageRangePanel GropName="ページ範囲" />
+    </RotateForm>
+    <SearchForRedactionPage Text="検索＆墨塗り">
+      <chkMatchWholeWord Text="単語全体のみ" />
+      <chkMatchCase Text="大文字と小文字を区別" />
+      <lblCount Text="0結果" />
+      <btnApply Text="すべてのマークを適用" />
+      <btnClear Text="結果をクリア" />
+    </SearchForRedactionPage>
+    <SearchPanelItem Text="検索">
+      <chkMatchCase Text="大文字と小文字を区別" />
+      <chkMatchWholeWord Text="完全に一致する単語だけを検索" />
+      <lblTitle Text="単語またはフレーズを現在の文書内で検索し、結果をリスト化します。" />
+    </SearchPanelItem>
+    <SearchReplacePanel>
+      <btnReplace Text="置き換える" />
+      <btnReplaceAll Text="すべて置換" />
+      <lbFind Text="検索" />
+      <btnSearchPrev Text="前へ" ToolTip="1 つ前のテキスト出現箇所に移動。" />
+      <btnSearchNext Text="次へ" ToolTip="次のテキスト出現箇所に移動。" />
+      <ckbWholeWordsOnly Text="完全に一致する単語だけを検索" />
+      <ckbCaseSensitive Text="大文字と小文字を区別" />
+      <ckbReplaceWith Text="置換" />
+    </SearchReplacePanel>
+    <ThumbnailsPage Text="サムネイル" />
+    <OcrSettingForm Text="OCR PDF">
+      <lblOcrDescription Text="OCRはスキャンされたPDF文書を編集可能または検索可能にします。" />
+      <lblScanOption Text="オプションをスキャン" />
+      <rdoSelectedPages Text="選択したページ" />
+      <rdoAllPages Text="すべてのページ" />
+      <rdoPageRange Text="範囲" />
+      <lblPageRangeTitle Text="ページ範囲" />
+      <btnApply Text="適用" />
+      <btnCancel Text="キャンセル" />
+      <lblLanguage Text="文書言語" />
+      <btnChangeLanguage Text="言語を変更" />
+      <rdoEditableText Text="スキャンして編集可能テキストに変換" />
+      <rdoSearchableText Text="画像をスキャンして検索可能テキストに変換" />
+      <btnEditableText ToolTip="スキャン後、PDF画像内のテキストが編集できるようになります。" />
+      <btnSearchableText ToolTip="PDF画像内のテキストがスキャン後に検索可能になります。" />
+      <lblTo Text="TO" />
+    </OcrSettingForm>
+    <OcrRegionPropertyPage>
+      <btnRecognize Text="認識" />
+    </OcrRegionPropertyPage>
+    <OptimizeForm Text="PDFを最適化">
+      <rdoLowCompression Text="低" />
+      <rdoMediumCompression Text="標準" />
+      <rdoHighCompression Text="高" />
+      <lblHighDesc Text="高圧縮、低品質" />
+      <lblMediumDesc Text="中圧縮、中品質" />
+      <lblLowDesc Text="低圧縮、高品質" />
+      <lblFinalSize Text="最終サイズ：" />
+      <lblSizeReduced Text="削減サイズ：" />
+      <lblFail Text="PDFのサイズは最大まで削減されていますのでこれ以上削減することはできません。" />
+      <btnApply Text="適用" />
+      <btnCancel Text="キャンセル" />
+      <btnOpen Text="開く" />
+      <btnStartOver Text="やり直す" />
+    </OptimizeForm>
+    <ExitTipPanel>
+      <gLabelBorderColor Text="「ESC」を押して全画面表示を終了" />
+    </ExitTipPanel>
+    <FullScreenForm Text="FullScreenForm">
+      <docTabControl Text="docTabControl">
+      </docTabControl>
+    </FullScreenForm>
+    <BlankPortfolioView>
+      <btnAddFiles Text="ファイルを追加" />
+      <btnAddFolder Text="フォルダを追加" />
+    </BlankPortfolioView>
+    <DetailPortfolioView>
+      <btnOpen Text="開く" />
+    </DetailPortfolioView>
+    <FileIconView>
+      <btnOpen Text="開く" />
+    </FileIconView>
+    <FilePreviewView>
+      <btnPreView Text="プレビュー" />
+      <btnAlwaysCheck Text="このタイプのファイルを常に信頼し、そしてプレビューを表示します。" />
+    </FilePreviewView>
+    <FilePropertiesForm Text="プロパティ">
+      <btnOK Text="OK" />
+      <lblSize Text="サイズ" />
+      <lblCreated Text="作成日" />
+      <lblModified Text="編集日" />
+    </FilePropertiesForm>
+    <NewFolderForm Text="新規作成">
+      <btnEnterfolderName Text="フォルダ名を入力してください" />
+      <btnOK Text="OK" />
+      <btnCancel Text="キャンセル" />
+    </NewFolderForm>
+    <OpenFileForm Text="ファイルを開く">
+      <btnOK Text="OK" />
+      <btnCancel Text="キャンセル" />
+      <lblWouldyouLikeTo Text="操作を選択します：" />
+      <rbOpenFile Text="ファイルを開きます" />
+      <rbAlwayallowOpen Text="本タイプのファイルを開くことを常に許可" />
+      <rbNotOpenFile Text="ファイルを開きません" />
+    </OpenFileForm>
+    <PdfFileViewFloater>
+      <btnExtract ToolTip="抽出" />
+      <btnPrint ToolTip="印刷" />
+      <btnZoomOut ToolTip="ズームアウト" />
+      <btnZoomIn ToolTip="ズームイン" />
+      <btnPrevious ToolTip="前のページ" />
+      <btnNext ToolTip="次のページ" />
+    </PdfFileViewFloater>
+    <PortfolioListView>
+      <btnDetails ToolTip="リスト" />
+      <btnIcons ToolTip="サムネイル" />
+      <btnDelete ToolTip="ポートフォリオから削除..." />
+      <btnExtract ToolTip="ポートフォリオから抽出..." />
+      <btnAdd ToolTip="ファイルを追加..." />
+      <btnGoBack ToolTip="戻る" />
+    </PortfolioListView>
+    <cmsPortfolioContext>
+      <tsmiOpen Text="開く" />
+      <tsmiExtract Text="抽出" />
+      <tsmiDelete Text="削除" />
+      <tsmiProperties Text="プロパティ" />
+      <tsmiSortBy Text="並び替え" />
+      <tsmiName Text="名前" />
+      <tsmiType Text="タイプ" />
+      <tsmiSize Text="サイズ" />
+      <tsmiCreated Text="作成日" />
+      <tsmiIncrease Text="昇順" />
+      <tsmiDecrease Text="降順" />
+      <tsmiSelectAll Text="すべてを選択" />
+    </cmsPortfolioContext>
+    <cmsPortfolioAdd>
+      <tsmiAddFiles Text="ファイルを追加" />
+      <tsmiAddFolder Text="フォルダを追加" />
+      <tsmiCreateFolder Text="フォルダを作成..." />
+    </cmsPortfolioAdd>
+    <FilePrintForm Text="FilePrintForm">
+      <lblPrint Text="印刷" />
+      <lblPrinter Text="プリンタ" />
+      <lblCopies Text="コピー" />
+      <lblPageSize Text="ページサイズ" />
+      <ckbGrayPrint Text="グレー印刷" />
+      <lblQrientation Text="オリエンテーション" />
+      <btnPrint Text="印刷" />
+      <ckbForm Text="フォーム" />
+      <lblPrintContent Text="印刷内容" />
+      <ckbComment Text="コメント" />
+      <ckbReversePages Text="裏面ページ" />
+      <ckbDocument Text="文書" />
+      <ckbPrintAsImg Text="画像として印刷" ToolTip="シンプルな画像としてPDFを印刷" />
+      <lblPrintOption Text="印刷オプション" />
+      <btnSize Text="サイズ" />
+      <btnPoster Text="ポスター" />
+      <btnMultiple Text="複数" />
+      <btnBooklet Text="冊子" />
+      <lblPrintMode Text="印刷モード" />
+      <btnAdvancePrintMode ToolTip="詳細設定" />
+      <ckbSelectPaper Text="PDFページサイズに合わせて用紙ソースを選択" />
+      <filePrintPreview Text="filePrintPreview1">
+      </filePrintPreview>
+    </FilePrintForm>
+    <PageRangeControl>
+      <lblPageRange Text="印刷範囲" />
+      <lblPages Text="ページ" />
+      <lblSubset Text="サブセット" />
+      <cmbPageRange>
+        <Items>すべてのページを印刷
+現在のページを印刷
+カスタムページを印刷</Items>
+      </cmbPageRange>
+      <txbPages ToolTip="複数ページ（例えば1,3,4-8,9,11-19）">
+      </txbPages>
+      <cmbSubset>
+        <Items>範囲内のすべてのページ
+範囲内のすべての奇数ページ
+範囲内のすべての偶数ページ</Items>
+      </cmbSubset>
+    </PageRangeControl>
+    <BookletPage>
+      <ckbAutoRotate Text="自動回転" />
+      <ckbAutoCenter Text="自動中央揃え" />
+      <lblBinding Text="缀じ方:" />
+      <lblTo Text="TO" />
+      <lblSheetsFrom Text="開始シート：" />
+      <lblBookletSubset Text="冊子サブセット：" />
+      <cmbBinding>
+        <Items>左
+右</Items>
+      </cmbBinding>
+      <cmbBookletSubset>
+        <Items>両面
+表面のみ
+裏面のみ</Items>
+      </cmbBookletSubset>
+    </BookletPage>
+    <MultiplePage>
+      <ckbPrintPageBorder Text="ページの境界線を印刷" />
+      <ckbAutoRotate Text="自動回転" />
+      <ckbAutoCenter Text="自動中央揃え" />
+      <lblPageOrder Text="ページ順序：" />
+      <lblPagesPerSheet Text="シートごとのページ数：" />
+      <lblX Text="X" />
+      <cmbPageOrder>
+        <Items>水平
+水平反転
+垂直
+垂直反転</Items>
+      </cmbPageOrder>
+      <cmbPagePreSheet>
+        <Items>2
+4
+6
+9
+16
+カスタム...</Items>
+      </cmbPagePreSheet>
+    </MultiplePage>
+    <PosterPage>
+      <ckbAutoRotate Text="自動回転" />
+      <ckbAutoCenter Text="自動中央揃え" />
+      <ckbLabels Text="ラベル" />
+      <ckbCutMarks Text="マークを切り取り" />
+      <lblOverlap Text="オーバーラップ：" />
+      <lblTileScale Text="タイルスケール：" />
+    </PosterPage>
+    <SizePage>
+      <ckbAutoRotate Text="自動回転" />
+      <ckbAutoCenter Text="自動中央揃え" />
+      <rbCustomScale Text="カスタムスケール：" />
+      <rbActualSize Text="実際のサイズ" />
+      <rbFit Text="合わせる" />
+    </SizePage>
+    <FilePrintPreview>
+      <pageTurn Text="pageTurnControl1">
+      </pageTurn>
+    </FilePrintPreview>
+    <PageTurnControl />
+    <PrintProgressForm Text="印刷">
+      <btnCancel Text="キャンセル" />
+      <lblPage Text="ページ" />
+      <lblslash Text="/" />
+    </PrintProgressForm>
+    <ProgressDialogForm Text="進捗">
+      <btnCancel Text="キャンセル" />
+      <lblTopDescritption Text="処理中…" />
+      <lblPercent Text="0%" />
+      <lblSuccessContent Text="正しく処理されました。" />
+      <lblSuccessTitle Text="正しく処理されました。" />
+      <btnSuccessOk Text="開く" />
+      <btnFailOk Text="OK" />
+      <lblFailTitle Text="処理に失敗しました。" />
+      <lblFailContent Text="処理に失敗しました。" />
+    </ProgressDialogForm>
+    <ProgressForm Text="ProgressForm">
+      <lblMsg Text="メッセージ" />
+    </ProgressForm>
+    <PropertiesForm>
+      <lblFormTitle Text="プロパティ" />
+      <btnDescription Text="説明" />
+      <btnInitialView Text="イニシャルビュー" />
+      <btnSecurity Text="セキュリティ" />
+      <btnFonts Text="フォント" />
+      <btnApply Text="適用" />
+      <btnCancel Text="キャンセル" />
+    </PropertiesForm>
+    <DescriptionPage>
+      <lblApplication Text="アプリケーション：" />
+      <lblPDFVersion Text="PDFバージョン：" />
+      <lblApplicationInfo Text="ApplicationInfo" />
+      <lblFilePath Text="FilePath" />
+      <lblPDFProducer Text="PDF作成者：" />
+      <lblFileName Text="FileName" />
+      <lblPDFVersionInfo Text="PDFVersionInfo" />
+      <lblFileSize Text="ファイルサイズ：" />
+      <lblLastModified Text="最終更新日:" />
+      <lblPageSizeInfo Text="PageSizeInfo" />
+      <lblPDFProducerInfo Text="PDFProducerInfo" />
+      <lblFileSizeInfo Text="FileSizeInfo" />
+      <lblCreated Text="作成日：" />
+      <lblNumberOfPagesInfo Text="NumberOfPageInfo" />
+      <lblLastModifiedInfo Text="LastModifiedInfo" />
+      <lblPageSize Text="ページサイズ：" />
+      <lblAuthor Text="作成者：" />
+      <lblNumberOfPages Text="ページ数：" />
+      <lblCreatedInfo Text="CreatedInfo" />
+      <lblTitle Text="タイトル：" />
+      <lblSubject Text="サブジェクト：" />
+      <lblKeywords Text="キーワード：" />
+      <txbTitle PlaceHolderText="タイトルを追加">
+      </txbTitle>
+      <txbKeywords PlaceHolderText="キーワードを追加">
+      </txbKeywords>
+      <txbAuthor PlaceHolderText="作者を追加">
+      </txbAuthor>
+      <txbSubject PlaceHolderText="件名を追加">
+      </txbSubject>
+    </DescriptionPage>
+    <FontsPage>
+      <lblFonts Text="フォント" />
+    </FontsPage>
+    <InitialViewPage>
+      <lblLayoutAndView Text="レイアウトと表示" />
+      <lblPageMode Text="ナビゲーションタブ：" />
+      <cmbPageMode>
+        <Items>ページのみ
+ブックマークとページ
+サムネイルとページ</Items>
+      </cmbPageMode>
+      <lblPageLayout Text="レイアウト：" />
+      <cmbPageLayout>
+        <Items>デフォルト
+シングルページ表示
+シングルページ連続
+2ページ表示
+2ページ連続</Items>
+      </cmbPageLayout>
+      <lblPageZoom Text="表示：" />
+      <cmbPageZoom>
+        <Items>デフォルト
+実際のサイズ
+ページに合わせる
+幅に合わせる
+高さに合わせる
+10%
+25%
+50%
+75%
+100%
+125%
+150%
+200%
+400%
+800%
+1600%
+2400%
+3200%
+6400%</Items>
+      </cmbPageZoom>
+      <lblOpenToPage Text="ページ:" />
+      <lblOfPage Text="/ {0}" />
+    </InitialViewPage>
+    <SecurityPage>
+      <lblPermissions Text="許可" />
+      <btnPermissions Text="許可" />
+      <lblPrinting Text="印刷：" />
+      <lblCreationTempPages Text="暫定ページの作成：" />
+      <lblPrintingInfo Text="可" />
+      <lblRestrictionsSummary Text="文書制限の概要" />
+      <lblChangeDocInfo Text="可" />
+      <lblCreationTempPagesInfo Text="可" />
+      <lblChangeDoc Text="文書の変更：" />
+      <lblSigning Text="署名：" />
+      <lblDocAssembleInfo Text="可" />
+      <lblSigningInfo Text="可" />
+      <lblDocAssemble Text="文書の統合：" />
+      <lblFillFormFields Text="フォームフィールドの入力：" />
+      <lblContenCopyInfo Text="可" />
+      <lblFillFormFieldsInfo Text="可" />
+      <lblContenCopy Text="コンテンツのコピー：" />
+      <lblComment Text="コメント：" />
+      <lblContentCopyAccessInfo Text="可" />
+      <lblCommentInfo Text="可" />
+      <lblContentCopyAccess Text="アクセシビリティのためのコンテンツコピー：" />
+      <lblPageExtraction Text="ページの抽出：" />
+      <lblPageExtractionInfo Text="可" />
+      <fileListPanel FileTips="PDFファイルをここにドラッグアンドドロップします" TaskName="セキュリティ" />
+      <btnApply Text="適用" />
+    </SecurityPage>
+    <WatermarkPage>
+      <fileListPanel FileTips="PDFファイルをここにドラッグアンドドロップします" TaskName="透かし">
+      </fileListPanel>
+      <btnApply Text="適用" />
+    </WatermarkPage>
+    <SearchSettingPanel>
+      <lblSearching Text="検索オプション" />
+      <cbMatchCase Text="大文字と小文字を区別" />
+      <cbMatchWholeWord Text="完全に一致する単語だけを検索" />
+      <cbIncludeComments Text="コメントを含む" />
+      <cbIncludeBookmarks Text="ブックマークを含む" />
+      <cbIncludeAttachement Text="添付ファイルを含む" />
+      <btnCancel Text="キャンセル" />
+      <btnSearch Text="検索" />
+      <rbAllOpenDocuments Text="開いているすべてのドキュメント" />
+      <txtLocation PlaceHolderText="保存場所" />
+      <txtSearchKey PlaceHolderText="キーワードで検索" />
+      <labFileLocation Text="検索場所" />
+      <rbCurrentDoc Text="現在のドキュメント" />
+      <rbBrowseLocation Text="フォルダの場所を参照する" />
+    </SearchSettingPanel>
+    <SearchResultPanel>
+      <lblReplace Text="置き換える" />
+      <lblResults Text="結果:" />
+      <btnStop Text="停止" />
+    </SearchResultPanel>
+    <ReplaceSettingPanel>
+      <lblReplaceWith Text="置換後の文字" />
+      <lblSaveAs Text="保存場所" />
+      <btnApply Text="適用" />
+      <lblReplace Text="置き換える" />
+      <lblNote Text="注：文字列のみを置き換えます" />
+      <lblSelectDoc Text="ドキュメントを選択" />
+      <lblInitialText Text="検索する文字" />
+    </ReplaceSettingPanel>
+    <ReplaceResultPanel>
+      <lblSaveAs Text="名前を付けて保存" />
+      <lblResults Text="結果:" />
+      <btnCancel Text="キャンセル" />
+      <cbOpenFolder Text="置換後にフォルダを開く" />
+      <btnFinish Text="終了" />
+      <lblReplace Text="置き換える" />
+    </ReplaceResultPanel>
+    <ReplacePanelItem Text="検索と置換">
+      <ckbCaseSensitive Text="大文字と小文字を区別" />
+      <ckbWholeWordsOnly Text="完全に一致する単語だけを検索" />
+      <btnSearchNext Text="次へ" ToolTip="次のテキスト出現箇所に移動。" />
+      <btnSearchPrev Text="前へ" ToolTip="1 つ前のテキスト出現箇所に移動。" />
+      <btnReplace Text="置き換える" />
+      <btnReplaceAll Text="すべて置換" />
+      <lblCount Text="置換" />
+    </ReplacePanelItem>
+    <AdvancedSearchForm Text="高度な検索">
+    </AdvancedSearchForm>
+    <FileListMessageForm>
+      <cbNeverShow Text="二度とこのメッセージを表示しない。" />
+      <btnOK Text="OK" />
+    </FileListMessageForm>
+    <cmsSearchMode>
+      <tsmiSearch Text="検索" />
+      <tsmiSearchAndReplace Text="検索と置換" />
+      <tsmiAdvancedSearch Text="高度な検索" />
+    </cmsSearchMode>
+    <cmsFormMenu>
+      <miProperties Text="プロパティ" />
+      <miCut Text="切り取り" />
+      <miCopy Text="複写" />
+      <miPaste Text="貼付け" />
+      <miDelete Text="削除" />
+      <miSelectAll Text="すべてを選択" />
+      <miAlignment Text="配置" />
+      <miAlignLeft Text="左揃え" />
+      <miAlignRight Text="右揃え" />
+      <miAlignTop Text="上に揃える" />
+      <miAlignBottom Text="下に揃える" />
+      <miAlignHorizontalCenter Text="水平方向の中央に揃える" />
+      <miAlignVerticalCenter Text="垂直方向の中央に揃える" />
+      <miCenterPageHorizontally Text="ページを水平方向に中央揃え" />
+      <miCenterPageVertically Text="ページを垂直方向に中央揃え" />
+      <miBoth Text="ページを水平および垂直に中央揃え" />
+      <miDistribute Text="分配" />
+      <miDistributeHorizontally Text="水平方向" />
+      <miDistributeVertically Text="垂直方向" />
+      <miMultipleCopiesOfFields Text="フィールドの複数のコピーを作成する" />
+      <miSetTabOrder Text="タブオーダーを設定" />
+      <miSetAsDefault Text="デフォルトとして設定" />
+    </cmsFormMenu>
+    <cmsAlignment>
+      <miAlignLeft Text="左揃え" />
+      <miAlignRight Text="右揃え" />
+      <miAlignTop Text="上に揃える" />
+      <miAlignBottom Text="下に揃える" />
+      <miAlignHorizontalCenter Text="水平方向の中央に揃える" />
+      <miAlignVerticalCenter Text="垂直方向の中央に揃える" />
+      <miCenterPageHorizontal Text="ページを水平方向に中央揃え" />
+      <miCenterPageVertical Text="ページを垂直方向に中央揃え" />
+      <miCenterPage Text="ページを水平および垂直に中央揃え" />
+    </cmsAlignment>
+    <cmsAnnotMenu>
+      <miAddAttachment Text="添付を開く" />
+      <miSaveAttachment Text="添付を保存" />
+      <miOpenPopupNote Text="ポップアップノートを開く" />
+      <miCut Text="切り取り" />
+      <miCopy Text="複写" />
+      <miPaste Text="貼付け" />
+      <miDelete Text="削除" />
+      <miSelectAll Text="すべてを選択" />
+      <miSetAsDefault Text="デフォルトとして設定" />
+      <miProperties Text="プロパティ" />
+      <miEditLink Text="編集" />
+    </cmsAnnotMenu>
+    <cmsContentMenu>
+      <miCut Text="切り取り" />
+      <miCopy Text="複写" />
+      <miPaste Text="貼付け" />
+      <miDelete Text="削除" />
+      <miSelectAll Text="すべてを選択" />
+      <miZOrder Text="Zオーダー" />
+      <miBringToFront Text="最上階に移動" />
+      <miSendToBack Text="最下階に移動" />
+      <miBringForward Text="上に移動" />
+      <miSendBackward Text="下に移動" />
+      <miRotateLeft Text="左に回転" />
+      <miRotateRight Text="右に回転" />
+      <miHorizontalFlip Text="水平反転" />
+      <miVerticalFlip Text="垂直反転" />
+      <miExtractImage Text="画像を抽出する" />
+      <miReplaceImage Text="画像を置き換える" />
+      <miAlignment Text="配置" />
+      <miDistribute Text="分配" />
+      <miProperties Text="プロパティ" />
+    </cmsContentMenu>
+    <cmsDistribute>
+      <miDistributeHorizontally Text="水平方向" />
+      <miDistributeVertically Text="垂直方向" />
+    </cmsDistribute>
+    <menuDropAddImage>
+      <miAddAsImage Text="画像として追加" />
+      <miCreateAsPdf Text="新規PDFファイルとして作成" />
+    </menuDropAddImage>
+    <cmsEditMenu>
+      <miCut Text="切り取り" />
+      <miCopy Text="複写" />
+      <miPaste Text="貼付け" />
+      <miDelete Text="削除" />
+      <miSelectAll Text="すべてを選択" />
+      <miAddText Text="テキスト" />
+      <miAddImage Text="画像" />
+    </cmsEditMenu>
+    <cmsHandMenu>
+      <miZoomIn Text="ズームイン" />
+      <miZoomOut Text="ズームアウト" />
+      <miNextView Text="次のビュー" />
+      <miPreviousView Text="前のビュー" />
+      <miRotatePages Text="ページを回転" />
+      <miAddNote Text="メモを追加" />
+      <miAddBookmark Text="ブックマークを追加" />
+      <miPrint Text="印刷" />
+      <miShare Text="共有" />
+    </cmsHandMenu>
+    <cmsOcrRegion>
+      <miDelete Text="削除" />
+      <miSelectAll Text="すべてを選択" />
+    </cmsOcrRegion>
+    <cmsSelectMenu>
+      <miPaste Text="貼付け" />
+      <miSelectAll Text="すべてを選択" />
+    </cmsSelectMenu>
+    <cmsShare>
+      <miSendToEvernote Text="Evernoteに送信" />
+      <miSendToDropBox Text="PDFをDropboxに送信する" />
+      <miSendAllToDropBox Text="開いているすべてのPDFをDropboxに送信します" />
+      <miSendToGoogleDrive Text="PDFをGoogleドライブに送信する" />
+      <miSendAllToGoogleDrive Text="開いているすべてのPDFをGoogleドライブに送信する" />
+      <miSendToPECloud Text="PDFをWondershareCloudに送信する" />
+      <miSendAllToPECloud Text="開いているすべてのPDFをWondershareCloudに送信します" />
+      <miSendToOneDrive Text="PDFをOneDriveに送信する" />
+      <miSendAllToOneDrive Text="開いているすべてのPDFをOneDriveに送信します" />
+      <miSendToBox Text="PDFをBoxに送信する" />
+      <miSendAllToBox Text="開いているすべてのPDFをBoxに送信します" />
+      <miSendToBaiduPan Text="PDFをBaiduPanに送信する" />
+      <miSendAllToBaiduPan Text="開いているすべてのPDFをBaiduPanに送信します" />
+    </cmsShare>
+    <cmsTextEdit>
+      <miCut Text="切り取り" />
+      <miCopy Text="複写" />
+      <miPaste Text="貼付け" />
+      <miDelete Text="削除" />
+      <miSelectAll Text="すべてを選択" />
+      <miCreateLink Text="リンクを作成する" />
+      <miProperties Text="プロパティ" />
+    </cmsTextEdit>
+    <cmsTextSelectionMenu>
+      <miCopyText Text="テキストをコピーする" />
+      <miSelectAll Text="すべてを選択" />
+      <miDeselectAll Text="すべての選択を解除" />
+      <miHighlight Text="ハイライト" />
+      <miUnderline Text="下線" />
+      <miStrikeout Text="取り消し線" />
+      <miReplace Text="置き換える" />
+      <miSquiggly Text="波線" />
+      <miCaret Text="キャレット" />
+      <miAddNote Text="テキストにメモを追加" />
+      <miAddBookmark Text="ブックマークを追加" />
+      <miCreateLink Text="リンクを作成する" />
+    </cmsTextSelectionMenu>
+    <cmsZoom>
+      <miActualSize Text="実際のサイズ" />
+      <miFitPage Text="ページに合わせる" />
+      <miFitWidth Text="幅に合わせる" />
+      <miFitHeight Text="高さに合わせる" />
+      <miFullScreen Text="全画面" />
+    </cmsZoom>
+    <cmsViewMode>
+      <tsmiSingle Text="シングルページ表示" />
+      <tsmiSingleContinue Text="シングルページ連続" />
+      <tsmiFacing Text="2ページ表示" />
+      <tsmiFacingContinue Text="2ページ 連続" />
+    </cmsViewMode>
+    <cmsThumbnail>
+      <miCopyPages Text="複写" />
+      <miPastePages Text="貼付け" />
+      <miDeletePages Text="削除" />
+      <miInsertPages Text="ページを挿入" />
+      <miInsertBlankPages Text="空白のページ" />
+      <miInsertFromPDF Text="PDFから挿入" />
+      <miReplacePages Text="ページの差し替え" />
+      <miExtractPages Text="ページを抽出" />
+      <miRotatePages Text="ページを回転" />
+      <miOCRPages Text="OCRページ" />
+      <miPageBoxes Text="ページボックス" />
+      <miPageLabels Text="ページラベル" />
+      <miPrintPages Text="ページを印刷する" />
+      <miExtractToImage Text="すべてページを1つの画像として隣接させる" />
+      <miEnlargeThumb Text="ページのサムネイルを拡大" />
+      <miReduceThumb Text="ページのサムネイルを縮小" />
+    </cmsThumbnail>
+    <cmsHelp>
+      <miFeedback Text="フィードバック" />
+      <miUserGuide Text="ユーザーガイド" />
+      <miSupportCenter Text="サポートセンター" />
+      <miFacebook Text="Facebook" />
+      <miYoutube Text="YouTube" />
+      <miWeibo Text="Weibo" />
+      <miBilibili Text="Bilibili" />
+      <miCheckForUpdates Text="アップデートを確認" />
+      <miAbout Text="製品情報" />
+    </cmsHelp>
+    <cmsFile>
+      <tsmiOpen Text="開く" />
+      <tsmiOpenRecent Text="最近使用したファイル" />
+      <tsmiOpenCloud Text="クラウドを開く" />
+      <tsmiFromDropbox Text="Dropboxから開く" />
+      <tsmiGoogleDrive Text="Google Driveから開く" />
+      <tsmiPECloud Text="Wondershare Cloudから開く" />
+      <tsmiOneDrive Text="OneDriveから開く" />
+      <tsmiBox Text="Boxから開く" />
+      <tsmiBaiduPan Text="BaiduPanから開く" />
+      <tsmiFromLibrary Text="ライブラリーから開く" />
+      <tsmiFromWsCloud Text="Wondershare DocumentCloudから開く" />
+      <tsmiCreate Text="作成" />
+      <tsmiFromFile Text="ファイルから作成" />
+      <tsmiFromScanner Text="スキャナーから作成" />
+      <tsmiBlankPdf Text="空白のPDF" />
+      <tsmiFromClipboard Text="クリップボードから作成" />
+      <tsmiPortfolio Text="PDF ポートフォリオ" />
+      <tsmiSave Text="保存" />
+      <tsmiSaveAs Text="名前を付けて保存" />
+      <tsmiSaveRecent Text="最近使用したフォルダに保存" />
+      <tsmiShare Text="共有" />
+      <tsmiShareEvernote Text="Evernote" />
+      <tsmiShareDropbox Text="Dropbox" />
+      <tsmiShareGoogleDrive Text="Google Drive" />
+      <tsmiShareWSCloud Text="Wondershare Cloud" />
+      <tsmiShareOneDrive Text="OneDrive" />
+      <tsmiShareBox Text="Box" />
+      <tsmiShareBaiduPan Text="BaiduPan" />
+      <tsmiExportTo Text="エクスポート" />
+      <tsmiWord Text="ワード" />
+      <tsmiExcel Text="Excel" />
+      <tsmiPowerPoint Text="PowerPoint" />
+      <tsmiImage Text="画像" />
+      <tsmiText Text="テキスト" />
+      <tsmiEpub Text="Epub" />
+      <tsmiHtml Text="HTML" />
+      <tsmiRtf Text="RTF" />
+      <tsmiPdfA Text="PDF / A" />
+      <tsmiHwp Text="HWP" />
+      <tsmiPrint Text="印刷" />
+      <tsmiProperties Text="プロパティ" />
+      <tsmiPerferences Text="環境設定" />
+      <tsmiPng Text="PNG" />
+      <tsmiBMP Text="BMP" />
+      <tsmiGif Text="GIF" />
+      <tsmiTiff Text="TIFF" />
+      <tsmiPdfA_1a Text="PDF / A-1a" />
+      <tsmiPdfA_1b Text="PDF / A-1b" />
+      <tsmiPdfA_2a Text="PDF / A-2a" />
+      <tsmiPdfA_2b Text="PDF / A-2b" />
+      <tsmiPdfA_2u Text="PDF / A-2u" />
+      <tsmiPdfA_3a Text="PDF / A-3a" />
+      <tsmiPdfA_3b Text="PDF / A-3b" />
+      <tsmiPdfA_3u Text="PDF / A-3u" />
+    </cmsFile>
+    <cmsCommentShapeMore>
+      <miLine Text="線" />
+      <miCloud Text="クラウド" />
+      <miPolygon Text="多角形" />
+      <miConnectedLine Text="接続線" />
+    </cmsCommentShapeMore>
+    <cmsCommentTextMore>
+      <miAreaHighlight Text="エリアハイライト" />
+      <miSquigglyLine Text="波線" />
+      <miInsertText Text="キャレットを挿入" />
+    </cmsCommentTextMore>
+    <cmsEditMode>
+      <miLineMode Text="行モード" />
+      <miLineMode ToolTipText="Edit the text line by line " />
+      <miParagraphMode Text="段落モード" />
+      <miParagraphMode ToolTipText="Edit the text by Paragraph " />
+    </cmsEditMode>
+    <cmsLink>
+      <tsmiActionGoto Text="ページビューへ移動" />
+      <tsmiActionWeb Text="Webページを開く" />
+      <tsmiActionFile Text="ファイルを開く" />
+    </cmsLink>
+    <cmsTile>
+      <miHorizontalTile Text="水平反転" />
+      <miVerticalTile Text="垂直反転" />
+    </cmsTile>
+    <cmsInsertPages>
+      <miInsertBlankPages Text="空白のページ" />
+      <miInsertPagesFromPDF Text="PDFから挿入" />
+    </cmsInsertPages>
+    <cmsConvertToOther>
+      <miToPDFA Text="PDF/Aに変換" />
+      <miToEpub Text="EPUBに変換" />
+      <miToRtf Text="RTFに変換" />
+      <miToHtml Text="HTMLに変換" />
+      <miToHwp Text="HWPに変換" />
+    </cmsConvertToOther>
+    <cmsFormAlign>
+      <miAlignLeft Text="左揃え" />
+      <miAlignRight Text="右揃え" />
+      <miAlignTop Text="上に揃える" />
+      <miAlignBottom Text="下に揃える" />
+      <miAlignHorizontalCenter Text="水平方向の中央に揃える" />
+      <miAlignVerticalCenter Text="垂直方向の中央に揃える" />
+      <miCenterPageHorizontally Text="ページを水平方向に中央揃え" />
+      <miCenterPageVertically Text="ページを垂直方向に中央揃え" />
+      <miBoth Text="ページを水平および垂直に中央揃え" />
+    </cmsFormAlign>
+    <cmsFormMore>
+      <tsmiDataExtraction Text="データを抽出" />
+      <tsmiFieldRecognition Text="フォームフィールドの自動認識" />
+      <tsmiCalculateOrder Text="順序を計算する" />
+      <tsmiDataExport Text="データのエクスポート" />
+      <tsmiDataImport Text="データのインポート" />
+    </cmsFormMore>
+    <cmsToolsMore>
+      <miBackground Text="バックグラウンド" />
+      <miToolAddBackground Text="背景を追加" />
+      <miToolEditBackground Text="背景を編集" />
+      <miHeaderFooter Text="ヘッダー＆フッター" />
+      <miAddHeaderFooter Text="ヘッダー&amp;&amp;フッターを追加" />
+      <miEditHeaderFooter Text="ヘッダー&amp;&amp;フッターの編集" />
+      <miBatesNumber Text="ベイツ番号" />
+      <miAddBatesNumber Text="ベイツ番号を追加" />
+      <miEditBatesNumber Text="ベイツ番号の編集" />
+      <miDataExtract Text="データを抽出" />
+    </cmsToolsMore>
+    <cmsHeaderFooter>
+      <tsmiAddHeaderFooter Text="ヘッダー&amp;&amp;フッターを追加" />
+      <tsmiEditHeaderFooter Text="ヘッダー&amp;&amp;フッターの編集" />
+    </cmsHeaderFooter>
+    <cmsWatermark>
+      <tsmiAddWatermark Text="透かしを追加する" />
+      <tsmiEditWatermark Text="透かしを編集する" />
+    </cmsWatermark>
+    <cmsBatesNumber>
+      <tsmiAddBatesNumber Text="ベイツ番号を追加" />
+      <tsmiEditBatesNumber Text="ベイツ番号の編集" />
+    </cmsBatesNumber>
+    <cmsBackground>
+      <tsmiAddBackground Text="背景を追加" />
+      <tsmiEditBackground Text="背景を編集" />
+    </cmsBackground>
+    <cmsDataExtract>
+      <miDeleteItems Text="選択したファイルを削除します" />
+    </cmsDataExtract>
+    <cmsFileTab>
+      <tsmiRenameFile Text="ファイル名を変更する" />
+      <tsmiOpenFileLocation Text="ファイルの場所を開く" />
+      <tsmiClose Text="閉じる" />
+      <tsmiCloseOthers Text="その他を閉じる" />
+      <tsmiCloseAll Text="すべて閉じる" />
+    </cmsFileTab>
+    <cmsMsg>
+      <tsmiArchives Text="ドキュメントがアーカイブされました" />
+      <tsmiSecurity Text="ドキュメントには暗号化権限が含まれています" />
+      <tsmiSigned Text="ドキュメントはデジタル署名で保護されています" />
+      <tsmiScanned Text="ドキュメントはスキャンされたドキュメントです" />
+      <tsmiXfa Text="このドキュメントには、XFAフォームコントロールが含まれています" />
+      <tsmiAcroForm Text="ドキュメントにはフォームコントロールが含まれています" />
+    </cmsMsg>
+    <cmsCloud>
+      <tsmiDropbox Text="Dropbox" />
+      <tsmiGoogleDrive Text="Google Drive" />
+      <tsmiPECloud Text="Wondershare Cloud" />
+      <tsmiOneDrive Text="OneDrive" />
+      <tsmiBox Text="Box" />
+      <tsmiBaiduPan Text="BaiduPan" />
+      <tsmiEvernote Text="Evernote" />
+    </cmsCloud>
+    <cmsQat>
+      <tsmiOpen Text="開く" />
+      <tsmiSave Text="保存" />
+      <tsmiEmail Text="メールに添付" />
+      <tsmiPrint Text="印刷" />
+      <tsmiShare Text="共有" />
+      <tsmiUndo Text="元に戻す" />
+      <tsmiRedo Text="やり直し" />
+      <tsmiRibbon Text="メニュー" />
+    </cmsQat>
+    <cmsSignature>
+      <miClear Text="署名の削除" />
+      <miValidate Text="署名の確認" />
+      <miProperties Text="署名のプロパティを表示" />
+    </cmsSignature>
+    <cmsCommentStamp>
+      <tsmiStampCreate Text="作成" />
+      <tsmiStampManage Text="スタンプの管理" />
+      <tsmiStampIdentityEdit Text="IDを編集" />
+    </cmsCommentStamp>
+    <GColorPalettePanel2>
+      <labTheme Text="テーマの色" />
+      <labStand Text="標準色" />
+      <labRecent Text="最近の色" />
+      <labTransparent Text="透明色" />
+      <labMore Text="その他の色" />
+    </GColorPalettePanel2>
+    <APNetworkErrorForm Text="アカウント認証に失敗しました">
+      <lblMessage Text="アプリがアカウントを確認できないようです。もう一度お試しください。" />
+      <btnClose Text="終了" />
+      <btnRetry Text="再試行" />
+      <gLabel1 Text="注：3回の再試行に失敗すると、製品は終了します。" />
+    </APNetworkErrorForm>
+    <AppDamagedForm Text="  PDFelementが破損している">
+      <lblMessage Text="PDFelementをご利用いただきありがとうございます。 PDFelementが破損しているようです。公式ウェブサイトからアプリをダウンロードして再インストールしてください。" />
+      <btnOK Text="ダウンロード" />
+    </AppDamagedForm>
+    <WIDVictimForm Text="正式のPDFelementをダウンロードする">
+      <lblMessage Text="PDFelementをご利用いただきありがとうございます。 より良い体験のために、公式ウェブサイトからPDFelementをダウンロードすることをお勧めします。" />
+      <btnOK Text="ダウンロード" />
+    </WIDVictimForm>
+    <RecentFilesControl>
+      <lblRecent Text="最近" />
+      <btnClearRecent ToolTip="クリア" />
+      <btnOpenFile Text="OpenFile..." />
+      <lblNoneRecentTip Text="まだファイルを開いていません。「ファイルを開く」をクリックして文書を選択してください。" />
+    </RecentFilesControl>
+    <RecentListItem>
+      <btnPin ToolTip="PIN" />
+      <btnDelete ToolTip="削除" />
+      <labFileName Text="FileName" />
+      <labPath Text="パス" />
+    </RecentListItem>
+    <RecentFolderListItem>
+      <btnPin ToolTip="PIN" />
+      <btnDelete ToolTip="削除" />
+      <labPath Text="パス" />
+    </RecentFolderListItem>
+    <RedactMarkMsgForm Text="墨消し">
+      <lblAllow Text="選択した機密テキスト及び画像を永久にブラックアウトします。" />
+      <lblRequires Text="墨塗りには2つの手順が必要です：" />
+      <lblMark Text="1. 墨塗りしたいエリアをマークします" />
+      <lblApply Text="2. 「適用」を選択して墨塗りを永久に適用します" />
+      <lblNote Text="注記：" />
+      <lblNoteMsg Text="変更を保存するために「適用」を必ずクリックしてください。" />
+      <chkNeverShow Text="二度と表示しない" />
+      <btnOK Text="OK" />
+    </RedactMarkMsgForm>
+    <RightSideView>
+      <labTitle Text="プロパティ" />
+      <btnClose ToolTip="閉じる" />
+    </RightSideView>
+    <AddDigitalIDForm Text="デジタルIDを追加">
+      <gBtnCancel Text="キャンセル" />
+      <gBtnNext Text="次&gt;" />
+      <gBtnBack Text="&lt;戻る" />
+      <gRBtnNewID Text="新しいデジタルアイデアを作成したい" />
+      <gLabelPassword Text="パスワード：" />
+      <gBtnBrowse Text="ブラウズ…" />
+      <gRBtnExistingID Text="ファイルからの既存デジタルID" />
+      <gLabelUsing Text="本文書への署名方法：" />
+      <gLabelStore Text="署名したデジタルIDをどこに保管しますか？" />
+      <gRadioBtnPKCSID Text="新しいPKCS#12デジタルIDファイル" />
+      <gRadioButton2 Text="Windows証明書ストア" />
+      <gLabelPKCSInfo Text="標準PKCS#12フォーマットを使用したデジタルIDファイルを保護するための新しいパスワードを作成してください。この一般的なデジタルIDファイルフォーマットはほとんどのセキュリティソフトウェアアプリケーションでサポートされています。それには主要なウェブブラウザも含まれます。PKCS#12ファイルには.pfxまたは.p12の拡張子が付きます。" />
+      <gLabelWinCertificateStoreInfo Text="お使いのデジタルIDは、他のWindowsアプリケーションからも利用が可能なWindows認証ストアに格納されます。デジタルIDはWindowsログインで保護されます。" />
+      <gLabelEnterInfo Text="署名認証を生成する際に使用するID情報を入力してください。" />
+      <gLabelName Text="名前：" />
+      <gLabelOrganizationUnit Text="組織単位：" />
+      <gLabelOrganizationName Text="組織名：" />
+      <gLabelAsterisk2 Text="必須" />
+      <gLabelEmailAddress Text="Eメールアドレス：" />
+      <gLabelCounty Text="国/地域：" />
+      <gLabelAsterisk1 Text="必須" />
+      <gLabelEnterPathInfo Text="新しいデジタルID用のファイルロケーションとパスワードを入力してください。署名のためにデジタルIDを使用する、もしくは文書を解読するためにパスワードが必要になります。ファイルロケーションについてメモを取り、バックアップや他の目的でファイルをコピーできるようにすることを推奨します。セキュリティ設定ダイアローグから後でこのファイルに対するオプションを変更することができます。" />
+      <gLabelFileName Text="ファイル名：" />
+      <gLabelPassword2 Text="パスワード：" />
+      <gLabelConfirmPassword Text="パスワードを確認：" />
+      <gButtonBrowse Text="ブラウズ…" />
+      <gLabelListTitle Text="署名または暗号化の際に使用することができるデジタルIDのリストに次のデジタルIDが追加されます。" />
+      <gHeaderItemName Text="名前">
+      </gHeaderItemName>
+      <gHeaderItemIssuser Text="発行者">
+      </gHeaderItemIssuser>
+      <gHeaderItemExpires Text="期限">
+      </gHeaderItemExpires>
+    </AddDigitalIDForm>
+    <SelectPictureForm Text="写真を選択">
+      <lblFilePath Text="ファイル：" />
+      <btnBrower Text="ブラウズ…" />
+      <gbSample Text="サンプル">
+      </gbSample>
+      <btnOK Text="OK" />
+      <btnCancel Text="キャンセル" />
+    </SelectPictureForm>
+    <SignAppearanceForm Text="署名スタイルを設定">
+      <gGroupBoxTextProperties Text="テキストプロパティ">
+      </gGroupBoxTextProperties>
+      <gLabelDirection Text="テキスト方向：" />
+      <gRadioButtonAuto Text="自動" />
+      <gRadioButtonLeftToRight Text="左から右" />
+      <gRadioButtonRightToLeft Text="右から左" />
+      <gGroupBoxConfigureText Text="テキストを設定">
+      </gGroupBoxConfigureText>
+      <gLabelTextShow Text="表示：" />
+      <gCheckBoxName Text="名前" />
+      <gCheckBoxLocation Text="ロケーション" />
+      <gCheckBoxDistinguishedName Text="識別名" />
+      <gCheckBoxLogo Text="ロゴ" />
+      <gCheckBoxDate Text="日付" />
+      <gCheckBoxReason Text="理由" />
+      <gCheckBoxLabels Text="ラベル" />
+      <gGroupBoxConfigureGraphic Text="グラフィックを設定">
+      </gGroupBoxConfigureGraphic>
+      <gLabelShow Text="表示：" />
+      <gRadioButtonNoGraphic Text="グラフィック無し" />
+      <gRadioButtonImportedGraphic Text="インポートされたグラフィック" />
+      <gRadioButtonName Text="名前" />
+      <gBtnFile Text="ブラウズ" />
+      <gLabelTitle Text="タイトル：" />
+      <gGroupBoxPreview Text="プレビュー">
+      </gGroupBoxPreview>
+      <btnOK Text="OK" />
+      <btnCancel Text="キャンセル" />
+    </SignAppearanceForm>
+    <SignatureDocForm Text="文書に署名">
+      <gLabelSignAs Text="署名者：" />
+      <gLabelPassword Text="パスワード：" />
+      <gBtnNewID Text="新規ID" />
+      <gLabelIssuedBy Text="認証発行者：" />
+      <gBtnInfo Text="情報" />
+      <gLabelAppearance Text="外観：" />
+      <gBtnSign Text="署名" />
+      <gBtnCancel Text="キャンセル" />
+      <gCheckBoxLock Text="署名後に文書をロック" />
+      <gLabelSignatrueReason Text="理由：" />
+      <gLabelLocation Text="ロケーション：" />
+    </SignatureDocForm>
+    <SignaturePropertiesForm Text="署名プロパティ">
+      <gLabelSignInfo Text="署名は有効です。署名者：" />
+      <gGroupBoxAdvanceInfo Text="詳細">
+      </gGroupBoxAdvanceInfo>
+      <gLabelSignedBy Text="署名者：" />
+      <gLabelReason Text="理由：" />
+      <gLabelDate Text="日付：" />
+      <gLabelLocation Text="ロケーション：" />
+      <gButton1 Text="認証を表示" />
+      <gGroupBoxValiditySummary Text="検証概要">
+      </gGroupBoxValiditySummary>
+      <gLabelSummaryDocModify Text="本文書は署名されてから変更されていません。" />
+      <gLabelSummaryDocSignUser Text="本文書は現在のユーザーによって署名されています。" />
+      <gLabelSummaryDocSignTime Text="署名日/時間は署名者のコンピュータ上の時計から取得されます。" />
+      <gBtnValidateSignature Text="署名を検証" />
+      <gBtnClose Text="閉じる" />
+    </SignaturePropertiesForm>
+    <SignatureValidStatusForm Text="署名検証ステータス">
+      <gLabelSingInfo Text="署名は有効です。署名者：" />
+      <gBtnSignProperties Text="署名プロパティ" />
+      <gBtnClose Text="閉じる" />
+    </SignatureValidStatusForm>
+    <ValidataAllSignatureForm Text="すべての署名を検証">
+      <btnOK Text="OK" />
+      <btnCancel Text="キャンセル" />
+    </ValidataAllSignatureForm>
+    <SplitForm Text="分割">
+      <rdoNumber Text="ページ数で分割" />
+      <rdoBookmarks Text="上位ブックマークで分割" />
+      <lblMax Text="ページ" />
+      <lblOutputFolder Text="保存" />
+      <btnOK Text="OK" />
+      <btnCancel Text="キャンセル" />
+      <txtFolderPath Text="ファイルが選択されていません">
+      </txtFolderPath>
+    </SplitForm>
+    <AboutForm>
+      <lblVersion Text="バージョン：{0}" />
+      <lblCopyrightMessage Text="Copyright © 2021 Wondershare. All rights reserved." />
+      <lblAboutMessage Text="Wondershareは、2003年に設立され、スマート ホーム テクノロジーを世界的にリードする企業となることを目指しています。強力なテクノロジーソリューション、並びに世界水準のカスタマー・サービスを提供しており 、世界150か国以上の何百万もの人々から信頼されています。 我々Wondershareは、ユーザーが自分の情熱を追求できるよう、より創造的な世界を構築できるように支援しております。 &lt;br/&gt;&lt;br/&gt;詳細については、&lt;a href=&quot;HomePage&quot;&gt;Wondershareホームページ&lt;/a&gt; 及び &lt;a href=&quot;ProductPage&quot;&gt;Wondershare PDFelement公式サイト&lt;/a&gt; をご覧ください。" />
+    </AboutForm>
+    <HomeLoginToBuy>
+      <btnBuyNow Text="今すぐ購入" />
+      <btnLogin Text="ログイン" />
+      <avatarCtrl Text="avatarControl1">
+      </avatarCtrl>
+      <btnMobile Text="iPhone / iPad" />
+    </HomeLoginToBuy>
+    <HomePage>
+      <btnBack Text="戻る" />
+    </HomePage>
+    <RecentControl>
+      <lblHello Text="こんにちは" />
+      <btnClearAll Text="すべてをクリア" />
+      <lblRecent Text="最近" />
+      <btnOpenFiles Text="ファイルを開く">
+      </btnOpenFiles>
+      <btnComparePdf Text="PDF比較" />
+      <btnCombinePdf Text="PDFを結合">
+      </btnCombinePdf>
+      <btnOptimizePdf Text="PDFを最適化">
+      </btnOptimizePdf>
+      <btnOcr Text="OCR PDF">
+      </btnOcr>
+      <btnConverPdf Text="PDFを変換">
+      </btnConverPdf>
+      <btnCreatePdf Text="PDFを作成">
+      </btnCreatePdf>
+      <btnBatchPdf Text="一括PDF">
+      </btnBatchPdf>
+      <lblNoRecentTitle Text="ここには最近使われたファイルはありません。" />
+      <lblNoRecentContent Text="閲覧したPDFファイルがここに表示されます。" />
+    </RecentControl>
+    <MainForm Text="Wondershare PDFelement">
+      <btnFile Text="ファイル" />
+      <btnHome Text="ホーム" />
+      <btnHelp Text="ヘルプ" />
+      <commentPage ImageKey="" Text="コメント">
+      </commentPage>
+      <editPage ImageKey="" Text="編集">
+      </editPage>
+      <convertPage ImageKey="" Text="変換">
+      </convertPage>
+      <toolPage ImageKey="" Text="ツール">
+      </toolPage>
+      <viewPage ImageKey="" Text="表示">
+      </viewPage>
+      <formPage ImageKey="" Text="フォーム">
+      </formPage>
+      <protectPage ImageKey="" Text="保護">
+      </protectPage>
+      <pagePage ImageKey="" Text="ページ">
+      </pagePage>
+    </MainForm>
+    <QatTopMenu>
+      <btnOpen ToolTip="開く" />
+      <btnSave ToolTip="保存" />
+      <btnEmail ToolTip="Eメールを送信" />
+      <btnPrint ToolTip="印刷" />
+      <btnShare ToolTip="共有" />
+      <btnUndo ToolTip="元に戻す" />
+      <btnRedo ToolTip="やり直し" />
+      <btnCustomize ToolTip="カスタマイズ" />
+    </QatTopMenu>
+    <BaseRibbonPage />
+    <CommentRibbonPage>
+      <btnHighlight ToolTip="ハイライト" />
+      <btnUnderline ToolTip="下線" />
+      <btnStrikeout ToolTip="取り消し線" />
+      <btnAreaHighlight ToolTip="エリアハイライト" />
+      <btnRect ToolTip="長方形" />
+      <btnOval ToolTip="楕円" />
+      <btnArrow ToolTip="矢印" />
+      <btnPencil ToolTip="鉛筆" />
+      <btnEraser ToolTip="消しゴム" />
+      <btnStamp ToolTip="スタンプ" />
+      <btnCustomStamp ToolTip="カスタムスタンプ" />
+      <btnSign ToolTip="署名" />
+      <btnNote ToolTip="注記" />
+      <btnTypeWriter ToolTip="タイプライター" />
+      <btnTextBox ToolTip="テキストボックス" />
+      <btnCallout ToolTip="吹き出し" />
+      <btnAttachment ToolTip="添付を追加" />
+      <ckbKeepToolSelected Text="選択したツールを維持" />
+    </CommentRibbonPage>
+    <ConvertRibbonPage>
+      <btnToHWP Text="HWPへ" ToolTip="PDFをHWPに変換します" />
+      <btnToPPT Text="PPTへ" ToolTip="PDFをPowerPointに変換します" />
+      <btnToWord Text="Wordへ" ToolTip="PDFをWordに変換します" />
+      <btnToExcel Text="Excelへ" ToolTip="PDFをExcelに変換します" />
+      <btnToImage Text="画像へ" ToolTip="PDFを画像に変換します" />
+      <btnToText Text="テキストへ" ToolTip="PDFをテキストに変換します" />
+      <btnToPDFA Text="PDF/Aへ" ToolTip="PDFをPDF/Aに変換します" />
+      <btnToOther ToolTip="PDFをEPUB、RTF、またはHTMLに変換します" />
+      <btnConvertSetting ToolTip="変換の設定" />
+      <btnBatchProcess Text="一括処理" ToolTip="一括処理" />
+    </ConvertRibbonPage>
+    <EditRibbonPage>
+      <lblEdit Text="編集" />
+      <btnEdit ToolTip="編集" />
+      <lblRead Text="読み取り" />
+      <btnAddText Text="テキスト" ToolTip="文書にテキストを追加します" />
+      <btnAddImage Text="画像" ToolTip="文書に画像を追加します" />
+      <btnAddLink Text="リンク" ToolTip="文書またはウェブページへのリンクを追加します" />
+      <btnWatermark Text="透かし" ToolTip="文書に透かしを追加または編集します" />
+      <btnBackground Text="バックグラウンド" ToolTip="文書に背景を追加または編集します" />
+      <btnHeaderFooter Text="ヘッダー＆フッター" ToolTip="文書のヘッダー＆フッターを追加または編集します" />
+      <btnBatesNumber Text="ベイツ番号" ToolTip="文書にベイツ番号を追加または編集します" />
+      <btnEditSetting ToolTip="モード設定を編集" />
+    </EditRibbonPage>
+    <FormRibbonPage>
+      <lblEdit Text="編集" />
+      <btnFormsEditPreview ToolTip="フォーム編集" />
+      <lblPreview Text="プレビュー" />
+      <ckbKeepToolSelected Text="選択したツールを維持" />
+      <btnTextField ToolTip="テキストの追加" />
+      <btnCheckBox ToolTip="チェックボックスを追加" />
+      <btnRadioButton ToolTip="ラジオボタンを追加" />
+      <btnComboBox ToolTip="コンボボックスを追加" />
+      <btnListBox ToolTip="リストボックスを追加" />
+      <btnPushButton ToolTip="プッシュボタンを追加" />
+      <btnImageButton ToolTip="画像を追加" />
+      <btnSignature ToolTip="デジタル署名を追加" />
+      <btnClear ToolTip="フォームフィールドのデータをクリア" />
+      <btnAlign Text="整列" ToolTip="すべての選択されたオブジェクトを整列" />
+      <btnMore Text="詳細" />
+    </FormRibbonPage>
+    <HelpRibbonPage>
+      <btnFeedback Text="フィードバック" />
+      <btnUserGuide Text="ユーザーガイド" />
+      <btnCommunity Text="コミュニティ" />
+      <btnYoutube Text="YouTube" />
+      <btnSupport Text="サポートセンター" />
+      <btnCheckUpdate Text="アップデートを確認" />
+      <btnAbout Text="弊社について" />
+    </HelpRibbonPage>
+    <PageRibbonPage>
+      <btnExtract Text="抽出" ToolTip="ページを新しいPDF文書に抽出します" />
+      <btnInsert Text="挿入" ToolTip="空白のページまたはPDF文書を現在の文書に挿入します" />
+      <btnSplit Text="分割" ToolTip="現在の文書を複数のPDF文書に分割します" />
+      <btnReplace Text="置き換える" ToolTip="現在の文書のページを差し替えます" />
+      <btnPageBoxes Text="ページボックス" ToolTip="文書のページサイズをトリミングします" />
+      <btnPageLabel Text="ページラベル" ToolTip="文書にページラベルを設定します" />
+      <btnZoomIn ToolTip="サムネイルを拡大" />
+      <btnZoomOut ToolTip="サムネイルを縮小" />
+      <cbxPageRange PlaceHolderText="ページ番号を入力" ToolTip="例. 1,3,5,7-10" />
+      <btnRotateLeft ToolTip="左に回転" />
+      <btnRotateRight ToolTip="右に回転" />
+      <btnPageDel ToolTip="ページを削除" />
+    </PageRibbonPage>
+    <ProtectRibbonPage>
+      <btnPassword Text="パスワードを設定" ToolTip="文書にパスワードを設定します" />
+      <btnMarkRedaction Text="墨消しをマーク" ToolTip="永久的にブラックアウトするために機密テキストまたは画像をマークします" />
+      <btnApplyRedaction Text="墨塗りを適用" ToolTip="機密テキストまたは画像を永久的にブラックアウトします" />
+      <btnSearchRedaction Text="検索＆墨塗り" ToolTip="墨塗りするテキストを検索します" />
+      <btnSignDocument Text="文書に署名" ToolTip="文書にデジタル署名を追加" />
+      <btnValidAllSignatures Text="すべての署名を検証" ToolTip="文書上のすべての署名を検証します" />
+      <btnClearSignature Text="すべての署名をクリア" ToolTip="文書上のすべての署名をクリアします" />
+      <btnSignCloudFile Text="電子署名" ToolTip="ワンダーシェアーオンライン署名サービスで文書に署名します。" />
+    </ProtectRibbonPage>
+    <ShareRibbonPage>
+      <btnToDocSend Text="DocSendで送信及び追跡" />
+      <btnSendToEmail Text="Eメールを送信" />
+      <btnSendToEvernote Text="Evernoteに送信" />
+      <btnSendToDropbox Text="Dropboxに送信" />
+      <btnSendToGoogleDrive Text="Google Driveに送信" />
+    </ShareRibbonPage>
+    <ToolRibbonPage>
+      <btnCombineFiles Text="ファイルを結合" ToolTip="複数の文書を1つのPDFに結合します" />
+      <btnOCR Text="OCR処理" ToolTip="スキャンされたPDFを編集可能及び検索可能テキストとして認識します" />
+      <btnOCRArea Text="OCRエリア" ToolTip="スキャンした画像の選択範囲を編集可能なテキストとして認識します。" />
+      <btnOptimizePDF Text="PDFを最適化" ToolTip="文書のサイズを縮小します" />
+      <btnFlattenFile Text="ファイルをフラット化" ToolTip="PDF上の注釈、フォームフィールド、レイヤーをフラット化します" />
+      <btnPagesCrop Text="トリミング" ToolTip="文書のページサイズをトリミングします" />
+      <btnWatermark Text="透かし" ToolTip="文書に透かしを追加または編集します" />
+      <btnSnapshot Text="キャプチャ" ToolTip="文書のスナップショットをとります" />
+      <btnMore Text="詳細" />
+      <btnBatchProcess Text="一括処理" ToolTip="一括処理" />
+      <btnCompareFiles Text="ファイル比較" ToolTip="2つのドキュメントを比較して、違いを確認します。" />
+    </ToolRibbonPage>
+    <ViewRibbonPage>
+      <btnZoomOut ToolTip="ズームアウト" />
+      <btnZoomIn ToolTip="ズームイン" />
+      <btnActualSize ToolTip="実際のページサイズに合わせる" />
+      <btnFitWidth ToolTip="ウインドウ幅に合わせる" />
+      <btnFitHeight ToolTip="ウインドウ高さに合わせる" />
+      <btnFitPage ToolTip="ウインドウサイズに合わせる" />
+      <btnFullScreen ToolTip="全画面" />
+      <btnFirstPage ToolTip="最初のページ" />
+      <btnPrevPage ToolTip="前のページ" />
+      <btnNextPage ToolTip="次のページ" />
+      <btnLastPage ToolTip="最後のページ" />
+      <btnSinglContinue ToolTip="スクロールを有効にしてページを表示" />
+      <btnSingle ToolTip="1ページずつ表示" />
+      <btnFacing ToolTip="2つのページを並べて表示" />
+      <btnFacingContinue ToolTip="スクロールを有効にして2つのページを並べて表示" />
+      <btnCompareFiles ToolTip="2つのドキュメントを比較して、違いを確認します。" />
+      <btnTile ToolTip="タイル文書" />
+    </ViewRibbonPage>
+    <MessageCenterForm Text="メッセージセンター" />
+    <NPSForm />
+    <UpdateForm Text="アップデート">
+      <btnUpdate Text="アップデート" />
+      <btnCancelUpdate Text="キャンセル" />
+      <btnCancelChecking Text="キャンセル" />
+      <lblUpdateChecking Text="新しいバージョンをチェックしています…" />
+      <btnLatestVersion Text="OK" />
+      <lblLatestVersion Text="最新バージョンになりました。現在利用可能な更新はありません。" />
+      <lblCheckFailTips Text="再度試してみるか、ネットワークの状態を確認してください。" />
+      <lblCheckFail Text="更新に失敗しました。" />
+      <btnCancelCheckFail Text="キャンセル" />
+      <btnRetryCheck Text="再試行" />
+      <imgDownloadFail ToolTip="ダウンロードに失敗しました。ネットワークを確認してください。" />
+      <lblTopDescritption Text="新しいバージョンをダウンロードしています…" />
+      <btnRetryDownload Text="再試行" />
+      <btnCancelDownload Text="キャンセル" />
+      <btnInstall Text="インストール" />
+      <btnCancelInstall Text="キャンセル" />
+      <lblDownloadSuccess Text="正常にダウンロードされました。" />
+      <lblInstallTips Text="新しいバージョンの準備ができました。「インストール」をクリックして新しいバージョンに更新してください。" />
+    </UpdateForm>
+    <AttachmentOpenAttentionForm>
+      <gLabelMsg Text="コンピュータに危害を加える可能性のあるプログラム、マクロ、またはウイルスがファイルに含まれている可能性があります。安全である確証がある場合にのみファイルを開封してください。&#xA;どうされますか？" />
+      <gRadioButtonOpen Text="このファイルを開く" />
+      <gRadioButtonAlwaysOpen Text="本タイプのファイルを開くことを常に許可" />
+      <gRadioButtonNeverOpen Text="本タイプのファイルを開くことを禁止" />
+      <btnOk Text="はい" />
+      <btnCancel Text="キャンセル" />
+    </AttachmentOpenAttentionForm>
+    <AttachmentOpenForbid>
+      <lblMsg Text="PDFファイルの添付設定により、添付ファイルを開封することができません。" />
+      <btnClear Text="クリア" />
+      <btnOk Text="OK" />
+    </AttachmentOpenForbid>
+    <BasePdfCloseForm>
+      <gButtonCancel Text="キャンセル" />
+      <gButtonTryAgain Text="もう一度試す" />
+      <gButtonIgnore Text="無視する" />
+      <gLabelMsg Text="ファイルは別のアプリケーションで開かれています。このPDFファイルへの変更は保存してファイルを閉じない限り反映されることはありません。" />
+      <gLabelClick Text="ファイルを閉じてもう一度試すをクリックし、ファイルを保存してください。本ファイルへの変更を破棄する場合は無視するをクリックしてください。" />
+    </BasePdfCloseForm>
+    <ConfigPreviewForm>
+      <btnApply Text="適用" />
+      <multipleTemplatePanel TemplateTips="最初にテンプレートを作成してください。">
+      </multipleTemplatePanel>
+      <pagePreviewPanel Text="pagePreviewPanel">
+      </pagePreviewPanel>
+    </ConfigPreviewForm>
+    <MultipleTemplatePanel>
+      <lblTemplateTips Text="まずテンプレートを作成してください。" />
+    </MultipleTemplatePanel>
+    <FilesFailTipsForm Text="ファイル不具合">
+      <lblFileAddedFail Text="以下のファイルの操作に失敗しました" />
+      <btnOk Text="OK" />
+    </FilesFailTipsForm>
+    <OutputPanel>
+      <gbOutputFolder Text="出力フォルダ" />
+      <txtOutputDir />
+    </OutputPanel>
+    <PageRangeForm Text="ページ範囲">
+      <btnOK Text="OK" />
+      <btnCancel Text="キャンセル" />
+      <pageRangeControl GropName="ページ範囲">
+      </pageRangeControl>
+    </PageRangeForm>
+    <PageRangePanel>
+      <rdoRange Text="範囲" />
+      <rdoAllPage Text="すべて" />
+      <btnRangeTips ToolTip="ページ範囲を入力してください。例：1,3,5,7-10" />
+      <lblPageRange Text="ページ範囲" />
+      <lblSubset Text="すべてのページにサブセット" />
+    </PageRangePanel>
+    <AppearancePanel>
+      <btn45Degree Text="45°" />
+      <btn0Degree Text="0°" />
+      <btnMinus45Degree Text="-45°" />
+      <lblOpacity Text="不透明度" />
+      <lblRotation Text="回転" />
+    </AppearancePanel>
+    <FontPanel>
+      <lblFont Text="フォント" />
+    </FontPanel>
+    <ImageSelectPanel>
+      <lblImage Text="画像&lt;Font color=&quot;red&quot;&gt;*&lt;/Font&gt;" />
+      <txtPath PlaceHolderText="ファイルパス" />
+    </ImageSelectPanel>
+    <MarginPanel>
+      <lblTop Text="上" />
+      <lblBottom Text="下" />
+      <lblLeft Text="左" />
+      <lblRight Text="右" />
+    </MarginPanel>
+    <PdfFileSelectPanel>
+      <lblPdf Text="PDFファイル&lt;Font color=&quot;red&quot;&gt;*&lt;/Font&gt;" />
+      <lblPageNumber Text="ページ番号を選択" />
+      <txtPath PlaceHolderText="ファイルパス" />
+    </PdfFileSelectPanel>
+    <PositionPanel>
+      <lblPosition Text="位置" />
+    </PositionPanel>
+    <TaggedScalePanel>
+      <rdoAbsoluteScale Text="絶対スケール" />
+      <rdoRelativeScale Text="ページの比率" />
+    </TaggedScalePanel>
+    <ConvertSettingsForm>
+      <lblSetting Text="設定" />
+      <btnToWord Text="PDFからWord" />
+      <btnToExcel Text="PDFからExcel" />
+      <btnToPpt Text="PDFからPPT" />
+      <btnToImage Text="PDFから画像" />
+      <btnToText Text="PDFからテキスト" />
+      <btnToRtf Text="PDFからRTF" />
+      <btnToEpub Text="PDFからEpub" />
+      <btnToHtml Text="PDFからHTML" />
+      <btnApply Text="適用" />
+      <btnCancel Text="キャンセル" />
+    </ConvertSettingsForm>
+    <EpubBookCoverPanel>
+      <gbBookCover Text="ブックカバー" />
+      <rdoNoCover Text="ブックカバー無し" />
+      <rdoAddCover Text="ブックカバーを追加" />
+      <txtCoverPath />
+    </EpubBookCoverPanel>
+    <EpubSettingForm Text="Epub設定">
+      <btnDefault Text="デフォルト" />
+      <btnCancel Text="キャンセル" />
+      <btnOk Text="OK" />
+    </EpubSettingForm>
+    <ExcelSettingForm Text="エクセル設定">
+      <btnDefault Text="デフォルト" />
+      <btnCancel Text="キャンセル" />
+      <btnOk Text="OK" />
+      <ckbCombineAll Text="すべてのページを1つのエクセルシートに結合" />
+    </ExcelSettingForm>
+    <HtmlSettingForm Text="HTML設定">
+      <btnDefault Text="デフォルト" />
+      <btnCancel Text="キャンセル" />
+      <btnOk Text="OK" />
+    </HtmlSettingForm>
+    <ImageSettingForm Text="画像設定">
+      <btnDefault Text="デフォルト" />
+      <btnCancel Text="キャンセル" />
+      <btnOk Text="OK" />
+      <imageSettingPanel Text="imageSettingPanel1">
+      </imageSettingPanel>
+      <pageRangePanel GropName="ページ範囲">
+      </pageRangePanel>
+    </ImageSettingForm>
+    <ImageSettingPanel>
+      <gbImageQuality Text="画像品質" />
+      <gbImageSetting Text="画像設定" />
+      <rdoToSingleImage Text="すべてページを1つの画像として隣接させる" />
+      <rdoPageAsImage Text="PDFのページごとに画像を作成" />
+      <rdoExtractImage Text="PDF内のすべての画像を抽出" />
+      <lblZoom Text="ズーム" />
+      <lblBorderWidth Text="境界線幅" />
+      <lblBorderColor Text="境界線の色" />
+      <btnDPITips ToolTip="ドキュメントを変換するときに高いDPIを使用すると、ソフトウェアがフリーズして変換が遅くなる可能性があります。" />
+    </ImageSettingPanel>
+    <OcrPriorityPanel>
+      <gbPriority Text="プライオリティ" />
+      <rdoRecognitionPriority Text="テキスト認識プライオリティ" />
+      <rdoLayoutPriority Text="テキストレイアウトプライオリティ" />
+    </OcrPriorityPanel>
+    <OcrRecognitionPanel>
+      <gbOcrRecognition Text="OCR認識" />
+      <rdoAllFiles Text="すべてのファイル" />
+      <rdoOnlyScannedPdf Text="スキャンされたPDFのみ" />
+      <rdoDisable Text="OCR認識を無効化" />
+    </OcrRecognitionPanel>
+    <PdfASettingForm Text="PDF/A設定">
+      <btnCancel Text="キャンセル" />
+      <btnOk Text="OK" />
+      <gbPdfAStandard Text="PDF/A標準：" />
+    </PdfASettingForm>
+    <PowerPointSettingForm Text="PowerPoint設定">
+      <btnDefault Text="デフォルト" />
+      <btnCancel Text="キャンセル" />
+      <btnOk Text="OK" />
+    </PowerPointSettingForm>
+    <RtfSettingForm Text="RTF設定">
+      <btnDefault Text="デフォルト" />
+      <btnCancel Text="キャンセル" />
+      <btnOk Text="OK" />
+    </RtfSettingForm>
+    <ToEpubPage>
+      <epubBookCoverPanel Text="epubBookCoverPanel">
+      </epubBookCoverPanel>
+    </ToEpubPage>
+    <ToExcelPage>
+      <ckbCombineAll Text="すべてのページを1つのエクセルシートに結合" />
+    </ToExcelPage>
+    <ToImagePage>
+      <imageSettingPanel Text="imageSettingPanel">
+      </imageSettingPanel>
+      <pageRangePanel GropName="ページ範囲" Text="pageRangePanel">
+      </pageRangePanel>
+    </ToImagePage>
+    <TxtSettingForm Text="テキスト設定">
+      <btnDefault Text="デフォルト" />
+      <btnCancel Text="キャンセル" />
+      <btnOk Text="OK" />
+    </TxtSettingForm>
+    <WordSettingForm Text="Word設定">
+      <btnOk Text="OK" />
+      <btnCancel Text="キャンセル" />
+      <btnDefault Text="デフォルト" />
+    </WordSettingForm>
+    <XmlSettingForm Text="XML設定">
+      <btnDefault Text="デフォルト" />
+      <btnCancel Text="キャンセル" />
+      <btnOk Text="OK" />
+      <ckbCombineAll Text="すべてのページを1つのエクセルシートに結合" />
+    </XmlSettingForm>
+    <BackgroundColorTemplateForm Text="WatermarkTemplateForm">
+      <lblCreateTemplate Text="背景テンプレートを作成" />
+      <lblColor Text="カラー" />
+      <btnCancel Text="キャンセル" />
+      <btnSave Text="保存" />
+    </BackgroundColorTemplateForm>
+    <BackgroundImageTemplateForm Text="WatermarkTemplateForm">
+      <lblCreateTemplate Text="背景テンプレートを作成" />
+      <btnCancel Text="キャンセル" />
+      <btnSave Text="保存" />
+    </BackgroundImageTemplateForm>
+    <BackgroundMoreSettingPanel>
+      <btnAppearance Text="外観" />
+      <btnPageRange Text="ページ範囲" />
+      <pageRangePanel GropName="">
+      </pageRangePanel>
+    </BackgroundMoreSettingPanel>
+    <BackgroundPdfTemplateForm Text="WatermarkTemplateForm">
+      <lblCreateTemplate Text="背景テンプレートを作成" />
+      <btnCancel Text="キャンセル" />
+      <btnSave Text="保存" />
+      <pagePreviewPanel Text="pagePreviewPanel1">
+      </pagePreviewPanel>
+    </BackgroundPdfTemplateForm>
+    <BackgroundTypeForm Text="背景タイプ">
+      <btnColor Text="カラー" />
+      <btnPdf Text="PDF" />
+      <btnImage Text="画像" />
+    </BackgroundTypeForm>
+    <PrintPreviewForm>
+      <lblPrint Text="プレビュー" />
+      <btnOk Text="OK" />
+    </PrintPreviewForm>
+    <PrintSettingsForm>
+      <lblPrinter Text="プリンタ" />
+      <lblPrint Text="設定" />
+      <ckbSelectPaper Text="ページサイズで印刷用紙を選択" />
+      <lblCopies Text="コピー" />
+      <lblPageSize Text="ページサイズ" />
+      <ckbGrayPrint Text="グレー印刷" />
+      <lblQrientation Text="オリエンテーション" />
+      <btnApply Text="適用" />
+      <ckbForm Text="フォーム" />
+      <lblPrintContent Text="印刷内容" />
+      <ckbComment Text="送信" />
+      <ckbReversePages Text="裏面ページ" />
+      <ckbDocument Text="文書" />
+      <ckbPrintAsImg Text="画像として印刷" ToolTip="シンプルな画像としてPDFを印刷" />
+      <lblPrintOption Text="印刷オプション" />
+      <lblPrintMode Text="印刷モード" />
+      <btnSize Text="サイズ" />
+      <btnPoster Text="ポスター" />
+      <btnMultiple Text="複数" />
+      <btnBooklet Text="冊子" />
+      <btnAdvancePrintMode ToolTip="詳細設定" />
+    </PrintSettingsForm>
+    <BatesNumberTemplateForm Text="WatermarkTemplateForm">
+      <lblCreateTemplate Text="ベイツ番号テンプレートを作成" />
+      <btnCancel Text="キャンセル" />
+      <btnSave Text="保存" />
+      <ckbNumberReverse Text="ベイツ番号リバース" />
+      <txtSuffix />
+      <lblSuffix Text="サフィックス" />
+      <lblStartAt Text="開始" />
+      <txtStartAt Text="1" PlaceHolderText="電話番号を入力してください" />
+      <txtPrefix />
+      <lblPrefix Text="プレフィックス" />
+      <btnAppearance Text="外観" />
+      <btnPageRange Text="ページ範囲" />
+      <pageRangePanel GropName="">
+      </pageRangePanel>
+      <rdoIncrementEveryPage Text="ページごとに数字を1進める" />
+      <rdoIncrementBatesPages Text="ベイツ番号付けされたページごとに数字を1進める" />
+      <btnPosition Text="位置" />
+    </BatesNumberTemplateForm>
+    <DataExtractTemplateForm Text="DataExtractTemplateForm">
+      <lblDataExtractTitle Text="エリア認識フレームテンプレートを作成" />
+      <btnCancel Text="キャンセル" />
+      <btnSave Text="保存" />
+      <lblTemplateName Text="テンプレート名" />
+      <lblTemplateDuplicate Text="その名前は既に存在します。" />
+      <txtTemplateName PlaceHolderText="ここにフィードバックを入力してください！" />
+      <lblField Text="フィールド名" />
+      <lblLanguage Text="言語認識" />
+      <linkHowToCreate Text="テンプレートをどのように作成しますか?" />
+    </DataExtractTemplateForm>
+    <HeaderFooterTemplateForm Text="WatermarkTemplateForm">
+      <lblCreateTemplate Text="ヘッダー＆フッター" />
+      <lblText Text="ヘッダー＆フッター&lt;Font color=&quot;red&quot;&gt;*&lt;/Font&gt;" />
+      <txtContent PlaceHolderText="コンテンツ" />
+      <btnCancel Text="キャンセル" />
+      <btnSave Text="保存" />
+      <lblPageNumberStyle Text="ページ番号スタイル" />
+      <lblStartPage Text="開始ページ番号" />
+      <btnAddPageNumber Text="ページ番号を追加" />
+      <btnAddDate Text="日付を追加" />
+      <lblDateStyle Text="日付スタイル" />
+      <pageRangePanel GropName="">
+      </pageRangePanel>
+      <btnPageRange Text="ページ範囲" />
+      <btnPosition Text="位置" />
+      <btnMacros Text="マクロ" />
+    </HeaderFooterTemplateForm>
+    <WatermarkImageTemplateForm Text="WatermarkTemplateForm">
+      <lblCreateTemplate Text="透かしテンプレートを作成" />
+      <btnCancel Text="キャンセル" />
+      <btnSave Text="保存" />
+    </WatermarkImageTemplateForm>
+    <WatermarkMoreSettingPanel>
+      <btnAppearance Text="外観" />
+      <btnPosition Text="位置" />
+      <btnPageRange Text="ページ範囲" />
+      <pageRangePanel GropName="">
+      </pageRangePanel>
+    </WatermarkMoreSettingPanel>
+    <WatermarkPdfTemplateForm Text="WatermarkTemplateForm">
+      <lblCreateTemplate Text="透かしテンプレートを作成" />
+      <btnCancel Text="キャンセル" />
+      <btnSave Text="保存" />
+    </WatermarkPdfTemplateForm>
+    <WatermarkPositionPanel>
+      <lblVertical Text="垂直" />
+      <lblHorizontal Text="水平" />
+      <ckbTile Text="タイル" />
+      <rdoBehind Text="ページの裏側をみる" />
+      <rdoAbove Text="ページの上側をみる" />
+      <cbbTileHorizontal ToolTip="文字間隔オプションを選択">
+      </cbbTileHorizontal>
+      <cbbTileVertical ToolTip="空行の数を選択">
+      </cbbTileVertical>
+    </WatermarkPositionPanel>
+    <WatermarkTextTemplateForm Text="WatermarkTemplateForm">
+      <lblCreateTemplate Text="透かしテンプレートを作成" />
+      <lblText Text="テキスト&lt;Font color=&quot;red&quot;&gt;*&lt;/Font&gt;" />
+      <ckbRelativeScale Text="ページの比率" />
+      <txtWatermarkContent PlaceHolderText="コンテンツ" />
+      <btnCancel Text="キャンセル" />
+      <btnSave Text="保存" />
+    </WatermarkTextTemplateForm>
+    <WatermarkTypeForm Text="透かしタイプ">
+      <btnText Text="テキスト" />
+      <btnPdf Text="PDF" />
+      <btnImage Text="画像" />
+    </WatermarkTypeForm>
+    <AddFilesProgressForm Text="読み込み中">
+      <btnCancel Text="キャンセル" />
+      <lblAddingFiles Text="ファイルを追加しています…" />
+    </AddFilesProgressForm>
+    <FileItem>
+      <btnRemove ToolTip="削除" />
+    </FileItem>
+    <PdfFileItem>
+      <btnRemove ToolTip="削除" />
+    </PdfFileItem>
+    <FileListPanel>
+      <btnAdd Text="ファイルを追加" />
+      <btnClearAll ToolTip="すべてをクリア" />
+      <hiNo Text="No." />
+      <hiName Text="名前" />
+      <hiSize Text="サイズ" />
+      <hiStatus Text="ステータス" />
+      <hiAction Text="アクション" />
+    </FileListPanel>
+    <FileToAddPanel>
+      <btnChooseFile Text="ファイルを選択" />
+      <lblOr Text="または" />
+    </FileToAddPanel>
+    <OcrDownloadForm Text="OCRコンポーネントダウンロード">
+      <lblOcrDownload Text="変換認識ではOCRのダウンロードが必要です" />
+      <btnDownloadOCR Text="ダウンロード" />
+      <lblOcrDescription Text="OCR(光学的文字認識)技術では、文書または画像のテキストを認識し、そのテキストの編集、検索、コピーを可能にしてくれます。" />
+      <btnCancel Text="キャンセル" />
+    </OcrDownloadForm>
+    <OcrLanguageEnumeratePanel>
+      <btnLanguageOver Text="3言語を超えると認識速度が遅くなる場合があります。" />
+    </OcrLanguageEnumeratePanel>
+    <OcrLanguagePanel>
+      <lblLanguageOver Text="3言語を超えると認識速度が遅くなる場合があります。" />
+      <lblTextFont Text="言語認識" />
+    </OcrLanguagePanel>
+    <PasswordForm Text="パスワード">
+      <lblOpenBy Text="指定した方法で文書を開く" />
+      <btnCancel Text="キャンセル" />
+      <btnOk Text="OK" />
+      <lblPasswordWrong Text="パスワードが間違っています。もう一度試してください。" />
+      <txtPassword PlaceHolderText="パスワードを入力する">
+      </txtPassword>
+      <lblPresetWrong Text="プリセットされたパスワードでは文書を開くことができません。" />
+      <lblUsing Text="使用：" />
+      <linkPresetPassword Text="プリセットパスワード" />
+    </PasswordForm>
+    <OwnerPasswordForm Text="パスワード">
+      <lblPasswordTitle Text="パスワードを入力して編集を開始します" />
+      <btnCancel Text="キャンセル" />
+      <btnOk Text="OK" />
+      <lblPasswordWrong Text="パスワードが間違っています。もう一度試してください。" />
+      <txtPassword PlaceHolderText="パスワードを入力する" />
+    </OwnerPasswordForm>
+    <CustomDictionaryForm Text="カスタム辞書">
+      <txtWord />
+      <lblWord Text="ワード" />
+      <lblDictionary Text="辞書" />
+      <btnAdd Text="追加" />
+      <btnRemove Text="削除" />
+      <btnRemoveAll Text="すべてを削除" />
+    </CustomDictionaryForm>
+    <FontPage Text="フォント">
+      <lblEditTextFont Text="テキストのフォント" />
+      <lblTextFont Text="フォント" />
+      <lblTextSize Text="サイズ" />
+      <cbxTextStyle>
+        <Items>レギュラー</Items>
+      </cbxTextStyle>
+      <lblTextStyle Text="スタイル" />
+      <lblTextColor Text="カラー" />
+      <btnResetTextDefault Text="デフォルトをリセット" />
+      <lblCommentBoxFont Text="コメントテキストボックスのフォント" />
+      <lblCommentFont Text="フォント" />
+      <lblCommentSize Text="サイズ" />
+      <cbxCommentStyle>
+        <Items>レギュラー</Items>
+      </cbxCommentStyle>
+      <lblCommentStyle Text="スタイル" />
+      <lblCommentColor Text="カラー" />
+      <btnResetCommentDefault Text="デフォルトをリセット" />
+    </FontPage>
+    <GeneralPage Text="一般">
+      <lblRecentFilesList Text="最近使用したファイルリスト" />
+      <lblDefaultPageLayout Text="デフォルトページレイアウト" />
+      <lblDefaultZoom Text="デフォルトズーム" />
+      <cbxDefaultZoom>
+        <Items>自動
+幅に合わせる
+高さに合わせる
+ページに合わせる
+10%
+25%
+50%
+75%
+100%
+125%
+150%
+200%
+400%
+600%</Items>
+      </cbxDefaultZoom>
+      <cbHideMessageBar Text="フォーム文書メッセージバーを常に隠す" />
+      <lblSaveSetting Text="設定を保存" />
+      <lblMeasurementUnits Text="測定単位" />
+      <cbCheckWordSpell Text="Wordスペルチェックを有効化" />
+      <btnCustomDictionary Text="カスタム辞書" />
+      <cbAutoSave Text="毎分ファイルを自動で保存する" />
+      <lblAutoSaveMinutes Text="で保存する" />
+      <rbInchs Text="in." />
+      <rbCentimeters Text="cm" />
+      <rbMillimeters Text="mm" />
+      <rbPoints Text="ポイント" />
+      <rbPicas Text="パイカ" />
+    </GeneralPage>
+    <HotKeyPage Text="ショートカット">
+      <hiDescription Text="説明" />
+      <hiShortcutKey Text="ショートカットキー" />
+    </HotKeyPage>
+    <OcrPage Text="OCR処理">
+      <lblOcrMessage Text="OCR(光学的文字認識)技術では、スキャンしたPDF文書からテキストをコピー、編集、検索することができます。" />
+      <btnLanguageOver Text="3言語を超えると認識速度が遅くなる場合があります。" />
+      <fileListPanel FileTips="PDFファイルをここにドラッグアンドドロップします" TaskName="OCR" />
+      <btnApply Text="適用" />
+      <gbOcrOption Text="OCRオプション" />
+      <btnOcrOptionTips Text="" ToolTip="編集可能テキスト：OCR処理後、PDF画像内のテキストを編集することができます。&#xA;検索可能テキスト：OCR処理後、PDF画像内のテキストを検索することができます。" />
+    </OcrPage>
+    <OptimizePage>
+      <fileListPanel FileTips="PDFファイルをここにドラッグアンドドロップします" TaskName="最適化">
+      </fileListPanel>
+      <btnApply Text="適用" />
+      <rdoHighCompression Text="高さ：" ToolTip="高圧縮、低品質" />
+      <rdoMediumCompression Text="普通線" ToolTip="中圧縮、中品質" />
+      <rdoLowCompression Text="低" ToolTip="低圧縮、高品質" />
+      <lblOutputFormat Text="オプションの最適化" ToolTip="" />
+    </OptimizePage>
+    <PasswordPage Text="OCR処理">
+      <lblPasswordDescription Text="暗号化された文書を開く場合、PDFelementは以下のパスワードを使用して解読を試みます。" />
+      <lblPassword1 Text="パスワード1" />
+      <lblPassword2 Text="パスワード2" />
+      <lblPassword3 Text="パスワード3" />
+      <ckbAutoUnlock Text="常に上のパスワードを使用して文書を解読する" />
+    </PasswordPage>
+    <PreferencesForm>
+      <lblFormTitle Text="環境設定" />
+      <btnGeneral Text="一般" />
+      <btnFont Text="フォント" />
+      <btnOCR Text="OCR処理" />
+      <btnUpdate Text="アップデート" />
+      <btnProxy Text="プロキシ" />
+      <btnPassword Text="パスワード" />
+      <btnRedaction Text="墨消し" />
+      <btnCreateBlankPdf Text="空白のPDF" />
+      <btnShortcut Text="ショートカット" />
+      <btnLanguage Text="言語" />
+      <btnApply Text="適用" />
+      <btnCancel Text="キャンセル" />
+    </PreferencesForm>
+    <ProxyPage Text="プロキシ">
+      <rbtnNoProxy Text="プロキシサーバーを使用しないでください" />
+      <lblProxyOptions Text="プロキシオプション" />
+      <rbtnIEProxy Text="IEプロキシ設定を使用" />
+      <rbtnCustomProxy Text="カスタムプロキシ設定を使用" />
+      <lblHost Text="ホスト" />
+      <lblUserName Text="ユーザー名" />
+      <lblPort Text="ポート" />
+      <lblPassword Text="パスワード" />
+      <txtHost />
+      <txtUserName />
+      <txtPort />
+      <txtPassword />
+      <btnTestConnection Text="テスト接続" />
+    </ProxyPage>
+    <RedactionPage>
+      <lblEditCodeText Text="テキストフォントを編集" />
+      <btnAddSet Text="セットを追加" />
+      <txbSet />
+      <lblCodeSets Text="コードセット" />
+      <btnRemoveSet Text="セットを削除" />
+      <btnAddEntry Text="コードを追加" />
+      <btnRemoveEntry Text="コードを削除" />
+      <txbEntry />
+      <lblCodeEntries Text="コード入力" />
+    </RedactionPage>
+    <UpdatePage Text="アップデート">
+      <lblUpdatesAutomatically Text="自動的に更新をチェック" />
+      <cbxUpdatesAutomatically Text="アップデート">
+        <Items>毎日
+毎週
+毎月
+毎四半期
+毎年
+自動更新を切る</Items>
+      </cbxUpdatesAutomatically>
+    </UpdatePage>
+    <LanguagePage>
+      <lblDisplayLanguage Text="表示言語：" />
+      <lblRestartTip Text="* この設定は再起動後に有効になります。" />
+    </LanguagePage>
+    <SecurityTemplateForm Text="セキュリティテンプレートを作成">
+      <btnSave Text="保存" />
+      <btnCancel Text="キャンセル" />
+      <ckbOpenPassword Text="オープンパスワード" />
+      <ckbPermissionPassword Text="許可パスワード" />
+      <lblPrintPermission Text="印刷許可" />
+      <lblChangesPermission Text="変更許可" />
+      <ckbEnableCopy Text="テキストや画像、その他のコンテンツのコピーを許可します" />
+      <lblEncryptionLevel Text="暗号化レベル" />
+      <rdo128AES Text="128 bit AES" />
+      <rdo256AES Text="256 bit AES" />
+      <rdo128RC4 Text="128 bit RC4" />
+      <lblTemplateName Text="名前&lt;Font color=&quot;red&quot;&gt;*&lt;/Font&gt;" />
+      <lblTemplateDuplicate Text="同一の名前を持つテンプレートが既に存在しています。" />
+      <txtOpenPassword PlaceHolderText="パスワードを入力する">
+      </txtOpenPassword>
+      <txtPermissionPassword PlaceHolderText="パスワードを入力する">
+      </txtPermissionPassword>
+      <txtTemplateName PlaceHolderText="ここにフィードバックを入力してください！" />
+      <lblPasswordTips Text="開封パスワードと許可パスワードは異なっている必要があります。" />
+    </SecurityTemplateForm>
+    <ScanMorePagesForm Text="スキャン">
+      <btnYes Text="はい" />
+      <rbComplete Text="スキャンが完了しました" />
+      <rbMorePages Text="さらにスキャン(シート2)" />
+      <rbReverseSides Text="裏面をスキャン(シート1の裏面)" />
+    </ScanMorePagesForm>
+    <ScannerForm Text="スキャン">
+      <cbPDFA Text="PDF/A-2bに準拠させる" />
+      <cbOCR Text="テキスト認識(OCR)" />
+      <cbbPreSet>
+        <Items>スキャナを選択してください</Items>
+      </cbbPreSet>
+      <lbOptimize Text="スキャンされたPDFを最適化" />
+      <btnOK Text="スキャン" />
+      <btnCancel Text="キャンセル" />
+      <lblScanner Text="スキャナ" />
+      <cbbScanner>
+        <Items>スキャナを選択してください</Items>
+      </cbbScanner>
+      <cbShowScannerUI Text="スキャナーのインターフェースを使用" />
+      <btnSaveSetting Text="設定を保存" />
+      <cbbPages>
+        <Items>表面
+両面</Items>
+      </cbbPages>
+      <lbPages Text="ページ：" />
+      <btnDefault Text="デフォルトに戻す" />
+      <lbHeightTitle Text="高さ：" />
+      <lbWidthTitle Text="幅：" />
+      <cbbColorMode>
+        <Items>自動検知
+カラー
+グレースケール
+白黒</Items>
+      </cbbColorMode>
+      <lbSanUsing Text="スキャン" />
+      <lbColorMode Text="カラーモード：" />
+      <cbbResolution>
+        <Items>75 DPI
+100 DPI
+200 DPI
+300 DPI
+600 DPI
+1200 DPI</Items>
+      </cbbResolution>
+      <lbResolution Text="解像度：" />
+      <lbPaperSize Text="紙サイズ：" />
+    </ScannerForm>
+    <OcrMiniForm>
+      <lblPercent Text="0%" />
+    </OcrMiniForm>
+    <OcrProcessProgressForm Text="OCRライブラリダウンロード">
+      <btnCancel Text="キャンセル" />
+      <lblTopDescritption Text="OCRをダウンロードしています…お待ちください。" />
+      <lblPercent Text="0%" />
+      <btnHide Text="非表示" />
+      <lblBottomDescription Text="インストールしています" />
+      <imgDownloadFail ToolTip="ダウンロードに失敗しました。ネットワークを確認してください。" />
+      <btnRetry Text="再試行" />
+    </OcrProcessProgressForm>
+    <SupportRemoveListItem>
+      <lblItemText Text="アイテムテキスト" />
+    </SupportRemoveListItem>
+    <ScanForm Text="スキャン">
+      <ckbPDFA Text="PDF/A-2bに準拠させる" />
+      <ckbOCR Text="テキスト認識(OCR)" />
+      <lblOptimize Text="スキャンされたPDFを最適化" />
+      <btnOK Text="スキャン" />
+      <btnCancel Text="キャンセル" />
+      <lblScanner Text="スキャナ" />
+      <cmbScanner>
+        <Items>スキャナを選択してください</Items>
+      </cmbScanner>
+      <ckbShowScannerUI Text="スキャナーのインターフェースを使用" />
+      <lblPages Text="ページ：" />
+      <lblHeightTitle Text="高さ：" />
+      <lblWidthTitle Text="幅：" />
+      <lblScanUsing Text="スキャン" />
+      <lblColorMode Text="カラーモード：" />
+      <lblResolution Text="解像度：" />
+      <btnDefault Text="デフォルトに戻す" />
+      <btnSaveSetting Text="設定を保存" />
+      <lblPaperSize Text="紙サイズ：" />
+    </ScanForm>
+    <CrashReportForm Text="クラッシュレポート">
+      <btnCancel Text="キャンセル" />
+      <btnSubmit Text="送信" />
+      <lblHelp Text="よろしければPDFファイルをお送りください。不具合を再現して解決する助けになります。" />
+      <lblThankYou Text="ご迷惑をおかけして申し訳ありませんでした!" />
+      <btnEditEmail Text="メールを編集する" />
+      <btnAddFile Text="添付" />
+      <rbSuggest Text="アドバイス" />
+      <rbBug Text="バグ" />
+      <rbComment Text="コメント" />
+      <txtDescription Text="" PlaceHolderText="説明..." />
+      <txtUserEmail Text="" PlaceHolderText="メールアドレス" />
+      <btnEmailOK Text="OK" />
+      <cbAddLogs Text="ログファイル（必須）" />
+    </CrashReportForm>
+    <FeedbackForm Text="フィードバック">
+      <lblHelp Text="よろしければPDFファイルをお送りください。不具合を再現して解決する助けになります。" />
+      <btnAddFile Text="添付" />
+      <lblThankYou Text="ご連絡ありがとうございます！" />
+      <txtUserEmail PlaceHolderText="メールアドレス" />
+      <btnEmailOK Text="OK" />
+      <btnEditEmail Text="メールを編集する" />
+      <txtDescription PlaceHolderText="ここにフィードバックを入力してください！" />
+      <btnCancel Text="キャンセル" />
+      <rbBug Text="バグ" />
+      <rbComment Text="送信" />
+      <rbSuggest Text="アドバイス" />
+      <btnSubmit Text="送信" />
+    </FeedbackForm>
+    <TrialPurchaseTipForm>
+      <btnContinue Text="続行" />
+      <btnBuy Text="購入" />
+      <lblTitle Text="プロ版機能" />
+      <llblLogin Text="ログイン" />
+    </TrialPurchaseTipForm>
+    <TrialNoAuthPage>
+      <lblTitleWatermark Text="透かし無しで文書を保存" />
+      <lblDescWatermark Text="試用版では、透かし付きで文書が保存されます" />
+      <lblTitlePageLimit Text="PDFを変換する際に、ページ数の制限がありません" />
+      <lblDescPageLimit Text="試用版では、変換された文書は5ページしか保存できません" />
+      <lblTitleOcr Text="スキャンされた文書のOCR処理ができる" />
+      <lblDescOcr Text="試用版ではOCR機能はサポートしません" />
+      <lblTitleDataExtraction Text="データの一括抽出にページ制限はありません" />
+      <lblDescDataExtraction Text="試用版では、データの一括抽出は最大2ファイルをサポートします" />
+      <lblTitleSupportXFA Text="XFAフォームに入力できる" />
+      <lblNote Text="注：試用版は上記の機能をサポートしていません" />
+    </TrialNoAuthPage>
+    <TrialStdAuthPage>
+      <lblTitleOcr Text="スキャンされた文書のOCR処理ができる" />
+      <lblDescOcr Text="試用版ではOCR機能はサポートしません" />
+      <lblTitleOptimize Text="文書を最適化してファイルサイズを縮小" />
+      <lblDescOptimize Text="標準版では文書の最適化はサポートされていません" />
+      <lblTitleRedaction Text="文書を墨塗りして機密テキスト/グラフィックを永久に削除することができます" />
+      <lblDescRedaction Text="標準版では墨塗り機能の使用はサポートされていません" />
+      <lblTitleFormExtract Text="文書フォームからデータを抽出" />
+      <lblDescFormExtract Text="標準版では墨塗り機能の使用はサポートされていません" />
+      <lblTitleSupportXFA Text="XFAフォームに入力できる" />
+      <lblNote Text="注：標準版は上記の機能をサポートしていません" />
+    </TrialStdAuthPage>
+    <NewVersionNoteForm Text="＼要チェック／これを見た人だけのお買い得情報！">
+      <btnBuy Text="超お買い得価格で＼購入／" />
+      <btnInstallVersion7 Text="購入しないので元のバージョンに戻す" />
+      <lblInstalled Text="PDFエレメントのインストールありがとうございます！" />
+      <lblHelper Text="PDFエレメントはバージョン8を新リリース致しました！&#xD;&#xA;起動が速くなり、編集もパワフルにパワーアップ！" />
+      <lblLicense Text="製品版をお使いいただけます！" />
+      <lblOnly Text="のみ" />
+    </NewVersionNoteForm>
+    <TrialTipsForm>
+      <lblTitle Text="プロ版機能" />
+      <lblDescWatermark Text="試用版では、透かし付きで文書が保存されます" />
+      <lblTitleWatermark Text="透かし無しで文書を保存" />
+      <lblDescPageLimit Text="試用版では、変換された文書は5ページしか保存できません" />
+      <lblTitlePageLimit Text="PDFを変換する際に、ページ数の制限がありません" />
+      <lblDescOcr Text="試用版ではOCR機能はサポートしません" />
+      <lblTitleOcr Text="OCRテキスト認識を実行するためのサポート文書" />
+      <lblDescDataExtraction Text="トライアル版の一括データ抽出は最大2ファイルに制限されます。" />
+      <lblTitleDataExtraction Text="データの一括抽出にページ制限はありません" />
+      <btnBuy Text="購入" />
+      <btnContinue Text="続行" />
+    </TrialTipsForm>
+    <UpdateIsPayPage>
+      <lblTitle Text="支払いは完了しましたか？" />
+      <btnLeftBottom Text="いいえ" />
+      <btnRightBottom Text="はい" />
+    </UpdateIsPayPage>
+    <UpdatePayNotCompletePage>
+      <lblTitle Text="お支払いが完了していないようです。" />
+      <lblMessage Text="すでに購入している場合は、[更新]をクリックして、PDFelement 8Proの永久ライセンスを取得してください。" />
+      <btnLeftBottom Text="キャンセル" />
+      <btnRightBottom Text="更新" />
+    </UpdatePayNotCompletePage>
+    <UpdatePaySuccessfulPage>
+      <lblTitle Text="購入に成功しました。" />
+      <lblMessage Text="PDFelement 8Proの永久ライセンスを購入しました。" />
+      <btnRightBottom Text="OK" />
+    </UpdatePaySuccessfulPage>
+    <UpdateReLoginPage>
+      <lblTitle Text="ネットワークの状態が不安定なようです。" />
+      <lblMessage Text="PDFelement 8 Proの永久ライセンスを取得するには、ログアウトしてから再度ログインしてください。" />
+      <btnLeftBottom Text="キャンセル" />
+      <btnRightBottom Text="サインアウト" />
+    </UpdateReLoginPage>
+    <BuyPage>
+      <gLabel1 Text="支付宝,微信扫码支付" />
+      <labPayWait Text="支付中。。。。。" />
+      <lbPayTip Text="您已支付成功!" />
+      <gLabel2 Text="支付金额：" />
+      <lbpaiedName Text="万兴PDF-3个月标准版" />
+      <gLabel3 Text="创建时间：" />
+      <lbpaiedCreateDate Text="2019-06-06" />
+      <gLabel4 Text="交易订单：" />
+      <lbpaiedOrderId Text="123456789" />
+      <gLabel5 Text="物品：" />
+      <lbpaiedPrice Text="￥199" />
+    </BuyPage>
+    <PriceForm />
+    <PriceItem>
+      <labPrice Text="399" />
+      <labTime Text="gLabel3" />
+      <labTip Text="gLabel" />
+      <gLabel2 Text="￥" />
+      <gLabel3 Text="￥" />
+    </PriceItem>
+    <PricePage>
+      <lbMoney Text="0" />
+      <gLabel1 Text="共计：" />
+      <gLabel3 Text="￥" />
+      <btnPro Text="专业版" />
+      <btnStd Text="标准版" />
+      <btnBuy Text="购买" />
+      <gLabel2 Text="欢迎购买万兴PDF！" />
+      <gLabel5 Text="请检查您的网络连接状况后重新加载！" />
+      <gLabel4 Text="信息加载失败！" />
+      <btnReload Text="重新加载" />
+    </PricePage>
+    <DeviceExceedLimitPage>
+      <lblTitle Text="デバイスの数が制限を超えています" />
+      <gLabel2 Text="アカウントをアップグレードして利用可能なデバイス数を増やすか、以下のいずれかのデバイスを削除して現在のデバイスでログインしてください。" />
+      <gHeaderItem1 Text="デバイス名" />
+      <gHeaderItem2 Text="ステータス" />
+      <btnUpgrade Text="アップグレード" />
+      <llblRefresh Text="既にアップグレード済みの場合は&lt;a&gt;更新&lt;/a&gt;をクリックしてください" />
+    </DeviceExceedLimitPage>
+    <DeviceListViewItem>
+      <rbMac Text="Macアドレス" />
+      <btnUnbind Text="バインド解除" />
+    </DeviceListViewItem>
+    <LabelErrorPanel>
+      <lblErrorTip Text="lblErrorTip" />
+    </LabelErrorPanel>
+    <LoginAccountPage>
+      <btnNext Text="次へ" />
+      <lblSignin Text="ワンダーシェアーIDでログイン" />
+      <lblCreateAccount Text="ワンダーシェアーIDがありませんか？&lt;a&gt;アカウントを作成&lt;/a&gt;" />
+      <lblAccountError Text="正しいメールアドレスを入力してください。" />
+      <txtAccount PlaceHolderText="Eメールアドレス" />
+      <gLabel1 Text="其他登陆方式" />
+      <labLoginStyle Text="微信扫码登录" />
+    </LoginAccountPage>
+    <LoginPwdPage>
+      <btnLogin Text="ログイン" />
+      <lblSignAnotherAccount Text="別のアカウントにログイン" />
+      <lblForgetPwd Text="パスワードをお忘れですか？" />
+      <lblEnterPassword Text="パスワードを入力" />
+      <lblAccountTip Text="Eメール：" />
+      <lblAccount Text="dour@wondershare.cn" />
+      <lblPasswordError Text="パスワードは空欄にはできません。" />
+      <txtPassword PlaceHolderText="パスワード">
+      </txtPassword>
+    </LoginPwdPage>
+    <LoginRegisterForm />
+    <ProxySettingPage>
+      <rbtnNoProxy Text="プロキシサーバーを使用しないでください" />
+      <rbtnIEProxy Text="IEプロキシ設定を使用" />
+      <rbtnCustomProxy Text="カスタムプロキシ設定を使用" />
+      <lblHost Text="ホスト" />
+      <lblUserName Text="ユーザー名" />
+      <lblPort Text="ポート" />
+      <lblPassword Text="パスワード" />
+      <btnTest Text="テスト" />
+      <lblProxyOptions Text="プロキシ設定" />
+      <btnReturn Text="戻る" />
+    </ProxySettingPage>
+    <QRCodeLoginControl>
+      <lblQrCodeLoadFaild Text="二维码加载失败！" />
+      <gLabel3 Text="请检查您的网络连接状况后重新加载！" />
+      <btnReload Text="重新加载" />
+      <gLabel1 Text="微信扫码，关注公众号即可注册登录" />
+    </QRCodeLoginControl>
+    <QRCodeLoginPage>
+      <gLabel1 Text="其他登陆方式" />
+      <labLoginStyle Text="万兴账号登录" />
+      <qrCodeCtrl Text="qrCodePanel1">
+      </qrCodeCtrl>
+    </QRCodeLoginPage>
+    <RegisterAccountPwdPage>
+      <btnRegister Text="アカウントを作成" />
+      <lblToLogin Text="ログインに戻る" />
+      <lblAccountError Text="正しいメールアドレスを入力してください。" />
+      <lblAccount Text="&lt;Font color=&quot;#FF4F4F&quot;&gt;*&lt;/Font&gt;Eメールアドレスを入力してください" />
+      <lblPassword Text="&lt;Font color=&quot;#FF4F4F&quot;&gt;*&lt;/Font&gt;パスワード" />
+      <lblPasswordError Text="パスワードには、文字と数字が含まれている必要があります。また、文字数は6 - 32文字である必要があります。(~!@#$%^&amp;*()_+=-{})以外の記号は使用できません。" />
+      <txtFirstName PlaceHolderText="名" />
+      <txtLastName PlaceHolderText="姓" />
+      <lblAgreement Text="&lt;div style=&quot;text-align:center&quot;&gt;アカウントを作成をクリックすると、&lt;a href=&quot;TermUrl&quot;&gt;利用規約&lt;/a&gt;及び&lt;a href=&quot;PrivacyUrl&quot;&gt;プライバシーポリシー&lt;/a&gt;に同意したものとみなされます。&lt;/div&gt;" />
+      <lblCountry Text="&lt;Font color=&quot;#FF4F4F&quot;&gt;*&lt;/Font&gt;国" />
+      <lblCountryError Text="国を選択してください。" />
+      <lblCreateAccount Text="ワンダーシェアーIDを作成" />
+    </RegisterAccountPwdPage>
+    <RegisterCodePage>
+      <lblVerifyIdentity Text="IDを認証" />
+      <lblSendAccountCode Text="次のアドレスに送信されたコードを入力してください" />
+      <lblSendAccount Text="morg@wondershare.cn" />
+      <btnRegister Text="認証コード" />
+      <lblNotReceiveCode Text="コードを受信しませんでしたか？" />
+      <lblSignAnotherAccount Text="サインインに戻る" />
+      <lblBack Text="戻る" />
+    </RegisterCodePage>
+    <UserCenterControl>
+      <lblUserCenter Text="ユーザーセンター&gt;" />
+      <lblEmail Text="morg@wondershare.cn" />
+      <btnExit Text="ログアウト" />
+    </UserCenterControl>
+    <UserCenterAuthInfoControl>
+      <btnExpirationDate Text="有効期限" />
+      <btnDeviceNumber Text="デバイス：" />
+    </UserCenterAuthInfoControl>
+    <UserCenterProfessionalPage>
+    </UserCenterProfessionalPage>
+    <UserCenterStandradPage>
+    </UserCenterStandradPage>
+    <UserCenterTrailPage>
+      <lblPermissions Text="プロ版機能" />
+      <btnWatermark Text="透かし無しで文書を保存できる" />
+      <btnPageLimited Text="ページ制限無しで文書を変換できる" />
+      <btnOcr Text="OCR光学認識機能" />
+    </UserCenterTrailPage>
+    <ToolboxMainForm>
+      <lblBatchProcess Text="一括処理" />
+      <btnConvert Text="変換" />
+      <btnCreate Text="作成" />
+      <btnOptimize Text="最適化" />
+      <btnOcr Text="OCR処理" />
+      <btnBatesNumber Text="ベイツ番号" />
+      <btnWatermark Text="透かし" />
+      <btnSecurity Text="セキュリティ" />
+      <btnDataExtract Text="データを抽出" />
+      <btnBatchPrint Text="一括印刷" />
+    </ToolboxMainForm>
+    <BackgroundPage>
+      <btnApply Text="適用" />
+      <fileListPanel FileTips="PDFファイルをここにドラッグアンドドロップします" TaskName="バックグラウンド">
+      </fileListPanel>
+    </BackgroundPage>
+    <BaseTaskPage>
+      <btnApply Text="適用" />
+    </BaseTaskPage>
+    <BatchPrintPage>
+      <fileListPanel FileTips="PDFファイルをここにドラッグアンドドロップします" TaskName="一括印刷">
+      </fileListPanel>
+      <btnApply Text="適用" />
+      <btnMoreSettings Text="詳細設定" />
+    </BatchPrintPage>
+    <BatesNumberPage>
+      <fileListPanel FileTips="PDFファイルをここにドラッグアンドドロップします" TaskName="ベイツ番号">
+      </fileListPanel>
+      <btnApply Text="適用" />
+      <ckbSortDocument Text="文書をソート" />
+    </BatesNumberPage>
+    <ConvertPage>
+      <fileListPanel FileTips="PDFファイルをここにドラッグアンドドロップします" TaskName="変換">
+      </fileListPanel>
+      <btnApply Text="適用" />
+      <gbOutputFormat Text="出力フォーマット" />
+    </ConvertPage>
+    <CreatePage>
+      <fileListPanel FileTips="ファイルをここにドラッグアンドドロップします" TaskName="作成">
+      </fileListPanel>
+      <btnApply Text="適用" />
+      <lblOutputFormat Text="出力フォーマット" />
+      <lblPdf Text="PDF(*.pdf)" />
+    </CreatePage>
+    <DataExtractPage>
+      <fileListPanel FileTips="PDFファイルをここにドラッグアンドドロップします" TaskName="データを抽出" Text="" ToolTip="">
+      </fileListPanel>
+      <btnApply Text="適用" />
+      <rdoFromMarkedPdf Text="マーク付きのPDFからデータを抽出" />
+      <rdoFromFields Text="PDFフォームフィールドからデータを抽出" />
+      <multipleTemplatePanel TemplateTips="最初にテンプレートを作成してください。&#xD;&#xA;注：PDFでデータ抽出フィールドを設定して、テンプレートを作成します。">
+      </multipleTemplatePanel>
+      <lblTemplateTips Text="注記：PDFフォームフィールドからのデータはCSVファイルに抽出されます。" ToolTip="" />
+    </DataExtractPage>
+    <HeaderFooterPage>
+      <fileListPanel FileTips="PDFファイルをここにドラッグアンドドロップします" TaskName="ヘッダー &amp; フッター">
+      </fileListPanel>
+      <btnApply Text="適用" />
+    </HeaderFooterPage>
+    <BlankPageView>
+      <btnOpenFile Text="ファイルを開く" />
+    </BlankPageView>
+    <MessagePushForm Text="メッセージセンター">
+      <linkAllRead Text="すべて既読にする" />
+      <btnCancel Text="キャンセル" />
+      <lblNoMessage Text="メッセージなし" />
+      <lblLoadFail Text="ネットワークリクエストがタイムアウトし、読み込みに失敗しました" />
+      <lblLoading Text="読み込み中" />
+      <linkRefresh Text="リフレッシュをクリックしてください" />
+    </MessagePushForm>
+    <cmsMessage>
+      <miDelete Text="削除" />
+    </cmsMessage>
+    <CloudForm>
+      <lblNotfile Text="ここにファイルはありません。" />
+      <btnDetail Text="詳細" />
+    </CloudForm>
+    <BlankFileCreatePage Text="空白のPDF">
+      <lblPageSize Text="サイズ" />
+      <lblPages Text="ページ" />
+      <lblQrientation Text="オリエンテーション" />
+      <lblFileName Text="ファイル名" />
+      <lblWidth Text="幅" />
+      <lblHeight Text="高さ" />
+    </BlankFileCreatePage>
+    <CreateMultipleCopiesForm Text="複数のコピーを作成">
+      <btnOK Text="OK" />
+      <btnCancel Text="キャンセル" />
+      <lblHor Text="水平間隔：" />
+      <lblVer Text="垂直間隔：" />
+      <lbVerTip Text="選択したフォームドを縦方向にコピーします：" />
+      <lbHorTip Text="選択したフィールドを横方向にコピーします：" />
+      <btnTop Text="上" />
+      <btnDown Text="下" />
+      <btnLeft Text="左" />
+      <btnRight Text="右" />
+      <lbNumOfFields Text="フィールドの数：" />
+      <lbIntervalOfFields Text="フィールドの間隔：" />
+      <lbPositionOfFields Text="全体の位置（全フィールド）：" />
+      <lbTimes1 Text="回" />
+      <lbTimes2 Text="回" />
+    </CreateMultipleCopiesForm>
+    <PencilColorFloatControl>
+      <lblOpacityTitle Text="不透明度" />
+      <lblThicknessTitle Text="太さ" />
+      <lblProperties Text="設定" />
+    </PencilColorFloatControl>
+    <DataExtractInstructionPanel>
+      <lblStep1Title Text="ステップ1" />
+      <lblStep1Content Text="プレビューが小さすぎる（大きすぎる）場合は、ここをクリックしてズームイン（アウト）できます。" />
+      <btnStep1GotIt Text="次へ" />
+      <lblStep2Title Text="ステップ2" />
+      <lblStep2Content Text="マーキングフィールドモードを選択します。" />
+      <btnStep2GotIt Text="次へ" />
+      <lblStep3Title Text="ステップ3" />
+      <lblStep3Content Text="データ抽出フィールドをマークします。" />
+      <btnStep3GotIt Text="次へ" />
+      <lblStep4Title Text="ステップ4" />
+      <lblStep4Content Text="データ抽出フィールド名を変更します。" />
+      <btnStep4GotIt Text="次へ" />
+      <lblStep5Title Text="ステップ5" />
+      <lblStep5Content Text="テンプレートを保存します。" />
+      <btnStep5GotIt Text="了解" />
+      <lblField Text="フィールド" />
+    </DataExtractInstructionPanel>
+    <MobileDownloadPanel>
+      <lblSearchPDFelement Text="AppStoreで&lt;span style=&quot;color:#4864FF;font-weight:bold;&quot;&gt;&lt;a href=&quot;https://pdf.wondershare.jp/pdfelement-app.html?utm_source=link_in_app&amp;utm_medium=ownmedia&amp;utm_campaign=wspe&amp;utm_term=2021-0428-windows-jp&amp;utm_content=link_pe_pe_en_17092820_2021-04-28&quot;&gt;「PDFelement -パワフルなPDFツール」&lt;/a&gt;&lt;/span&gt;を検索してダウンロードする。" />
+      <lblScanQRCode Text="カメラAppで下記のQRコードをスキャンし、AppStoreから&lt;span style=&quot;color:#4864FF;font-weight:bold;&quot;&gt;&lt;a href=&quot;https://pdf.wondershare.jp/pdfelement-app.html?utm_source=link_in_app&amp;utm_medium=ownmedia&amp;utm_campaign=wspe&amp;utm_term=2021-0428-windows-jp&amp;utm_content=link_pe_pe_en_17092820_2021-04-28&quot;&gt;「PDFelement -パワフルなPDFツール」&lt;/a&gt;&lt;/span&gt;をインストールすることもできます。" />
+      <ckbGotIt Text="ダウンロード済み" />
+    </MobileDownloadPanel>
+    <RegCodeLoginControl>
+      <btnRegister Text="Register" />
+    </RegCodeLoginControl>
+    <RegCodeProfilePanel>
+      <btnExpirationDate Text="Expiration Date" />
+      <btnExit Text="Exit" />
+    </RegCodeProfilePanel>
+    <RegisterForm>
+      <lnklblForgotKey Text="Oops, i forgot my keys!" />
+      <btnRegister Text="Register" />
+      <txtEmail PlaceHolderText="Email address" />
+      <txtRegCode PlaceHolderText="Registration code" />
+    </RegisterForm>
+    <CompareDashboardPage Text="ファイル比較">
+      <btnChangesList Text="変更履歴" />
+      <btnDashboard Text="ダッシュボード" />
+      <lblTotalChange Text="合計：" />
+    </CompareDashboardPage>
+    <CompareFilterBar>
+      <lblDeletion Text="削除" />
+      <lblInsertion Text="挿入" />
+      <lblModification Text="変更" />
+      <btnPreviousChange Text="前の変更箇所" />
+      <btnNextChange Text="次の変更箇所" />
+      <btnFilter Text="フィルタ" />
+      <btnShow Text="表示" />
+    </CompareFilterBar>
+    <cmsFileSelection>
+      <miBrowseFile Text="参照" />
+    </cmsFileSelection>
+    <cmsFilter>
+      <miText Text="テキスト" />
+      <miImage Text="画像" />
+    </cmsFilter>
+    <cmsShow>
+      <miHideAll Text="すべて非表示" />
+      <miShowAll Text="すべて表示" />
+      <miHideDeletion Text="削除を非表示" />
+      <miShowDeletion Text="削除を表示" />
+      <miHideInsertion Text="挿入を非表示" />
+      <miShowInsertion Text="挿入を表示" />
+      <miHideModification Text="変更を非表示" />
+      <miShowModification Text="変更を表示" />
+    </cmsShow>
+    <CompareNavigatePage>
+      <btnComparison ToolTip="ファイル比較" />
+    </CompareNavigatePage>
+    <CompareSaveForm Text="保存">
+      <lblChoose Text="保存するファイルを選択してください：" />
+      <btnSave Text="保存" />
+      <btnCancel Text="キャンセル" />
+    </CompareSaveForm>
+    <CompareSelectionForm Text="ファイル比較">
+      <lblSelectFile Text="比較するファイルを選択します" />
+      <lblOldFile Text="元のファイル" />
+      <lblNewFile Text="新しいファイル" />
+      <btnSelectOldFile Text="ファイルを選択" />
+      <btnSelectNewFile Text="ファイルを選択" />
+      <btnCompare Text="比較する" />
+    </CompareSelectionForm>
+  </Forms>
+</LanguageResource>

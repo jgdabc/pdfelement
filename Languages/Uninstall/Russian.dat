@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageResource Id="RUS" Name="Russian" LocaleName="Russia" Version="1.1" LangID="0x0419" CodePage="1251">
+  <Default>
+    <Font Name="Segoe UI" Size="9" />
+    <FontMapping>
+      <Item From="Open Sans" To="Segoe UI" FailTo="Tahoma" />
+      <Item From="Open Sans Semibold" To="Segoe UI Semibold" FailTo="Tahoma" />
+      <Item From="Tahoma" To="Segoe UI" FailTo="Tahoma" />
+      <Item From="Arial" To="Segoe UI" FailTo="Tahoma" />
+      <Item From="Inter" To="Segoe UI" FailTo="Tahoma" />
+      <Item From="Helvetica" To="Segoe UI" Failto="Tahoma" />
+    </FontMapping>
+  </Default>
+  <Strings>
+    <Info_RemainTime>Осталось около {0} секунд</Info_RemainTime>
+    <Info_MoreApp>Больше Приложений, Которые Вам Могут Понравиться</Info_MoreApp>
+  </Strings>
+  <Forms>
+    <UninstallForm Text="Удалить" />
+    <UninstallMakeSureForm>
+      <lblUninstallMakeSure Text="Вы уверены, что хотите удалить Wondershare PDFelement?" />
+      <cbRemoveResource Text="Remove all the effect resource files" />
+      <btnRemove Text="Удалять" />
+      <btnCancel Text="Отменить" />
+    </UninstallMakeSureForm>
+    <UninstallProductMainPage>
+      <btnAll Text="Все" />
+      <btnCreativity Text="Креативность" />
+      <btnProductivity Text="Эффективность" />
+      <btnUtility Text="Утилиты" />
+    </UninstallProductMainPage>
+    <UninstallReasonDefaultPage>
+      <lblMessage Text="Здравствуйте! &#xA;&#xA;Wondershare PDFelement принадлежит Wondershare Technology. Мы постараемся сделать его максимально подходящим для вас. Вот простая анкета, которая поможет нам улучшить продукт. &#xA;&#xA;Благодарим вас за отзыв и надеемся увидеться с вами снова. &#xA;&#xA;Спасибо!" />
+    </UninstallReasonDefaultPage>
+    <UninstallReasonMainPage>
+      <lblTitle Text="Могу ли я узнать причину удаления?" />
+      <rbCrash Text="Программа зависла или рухнула на моем компьютере." />
+      <rbFixSoftware Text="Исправить программное обеспечение" />
+      <rbOther Text="Другое" />
+      <txtOther PlaceHolderText="Пожалуйста, опишите возникшую у вас проблему" />
+      <btnCancel Text="Отменить" />
+      <btnContinue Text="Продолжать" />
+    </UninstallReasonMainPage>
+    <UninstallReasonOtherPage>
+      <lblMessage Text="Благодарим за ваш отзыв, надеемся увидеться с вами снова!" />
+    </UninstallReasonOtherPage>
+    <UninstallUpdateLatestVersionForm>
+      <lblLatestVersion Text="У вас уже последняя версия!" />
+      <btnOK Text="OK" />
+    </UninstallUpdateLatestVersionForm>
+    <UninstallRepairProgressPage>
+      <lblWait Text="Ремонт, пожалуйста, подождите..." />
+      <btnCancel Text="Отменить" />
+    </UninstallRepairProgressPage>
+    <UninstallRepairSuccessfulPage>
+      <lblCompleted Text="Ремонт завершен" />
+      <btnExecute Text="Запуск" />
+    </UninstallRepairSuccessfulPage>
+    <UninstallUpdateProgressPage>
+      <lblWait Text="Upgraden, een ogenblik geduld ..." />
+      <btnCancel Text="Отменить" />
+    </UninstallUpdateProgressPage>
+    <UninstallUpdateSuccessfulPage>
+      <btnExecute Text="Запуск" />
+      <lblCompleted Text="Обновление завершено" />
+      <lblNewVersion Text="Новая версия стабильнее и быстрее!" />
+    </UninstallUpdateSuccessfulPage>
+    <UninstallWorkeFailedPage>
+      <lblFailed Text="Ошибка обновления" />
+      <lblTry Text="При удалении произошли ошибки. Пожалуйста, попробуйте удалить еще раз." />
+      <btnClose Text="Закрыть" />
+    </UninstallWorkeFailedPage>
+    <UninstallWorkeMainPage>
+      <lblMoreApp Text="Больше Приложений, Которые Вам Могут Понравиться" />
+      <btnMoreProduct Text="Больше Продуктов" />
+    </UninstallWorkeMainPage>
+    <UninstallWorkeProgressPage>
+      <lblThanks Text="Спасибо за ваши отзывы! Удаление..." />
+    </UninstallWorkeProgressPage>
+    <UninstallWorkeSuccessfulPage>
+      <lblSuccessful Text="Успешно удалена" />
+      <txtContact PlaceHolderText="Адрес электронной почты" />
+      <lblUpdate Text="Введите свой адрес электронной почты, чтобы получать последние новости" />
+      <lblContactError Text="Пожалуйста, введите правильный адрес электронной почты." />
+      <btnDone Text="Готово" />
+    </UninstallWorkeSuccessfulPage>
+    <UpdateFailedForm>
+      <lblMessage Text="Ошибка обновления" />
+      <btnOK Text="OK" />
+    </UpdateFailedForm>
+    <UpdateLatestVersionForm>
+      <lblLatestVersion Text="У вас уже последняя версия!" />
+      <btnOK Text="OK" />
+    </UpdateLatestVersionForm>
+    <CloseMainAppForm>
+      <lblMessage Text="Wondershare PDFelement запущен, пожалуйста, сначала выйдите из него." />
+      <btnRetry Text="Повторить" />
+      <btnCancel Text="Отменить" />
+    </CloseMainAppForm>
+    <RepairFailedForm>
+      <lblMessage Text="Ремонт не удался" />
+      <btnOK Text="OK" />
+    </RepairFailedForm>
+  </Forms>
+</LanguageResource>

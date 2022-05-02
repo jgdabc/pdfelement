@@ -1,0 +1,14 @@
+<StyleSheet>
+  <Control>White</Control>
+  <ControlText>#212648</ControlText>
+  <Window>White</Window>
+  <WindowText>#212648</WindowText>
+
+  <ThumbnailSelectionBorder>72, 100, 255</ThumbnailSelectionBorder>
+  <ThumbnailSelectionFill>25, 72, 100, 255</ThumbnailSelectionFill>
+  <PagePreviewLine>Blue</PagePreviewLine>
+  <PageOrganizeViewBack>235, 237, 242</PageOrganizeViewBack>
+  <DocumentViewBack>235, 237, 242</DocumentViewBack>
+  <PageBoxResizeHandler>Blue</PageBoxResizeHandler>
+  <PageBoxResizeHandlerFrame>Blue</PageBoxResizeHandlerFrame>
+</StyleSheet>

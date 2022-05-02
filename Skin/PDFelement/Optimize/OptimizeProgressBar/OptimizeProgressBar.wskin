@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="OptimizeProgressBar">
+    <Part id="0" Name="Frame" Style="1" TransparentMode="Alpha">
+      <Image Name="OptimizeProgressBar.svg" />
+      <State Left="14" Top="0" Width="14" Height="8">
+        <Margins Left="8" Top="2" Right="2" Bottom="2" />
+        <Font Color="clWhite" />
+      </State>
+      <State Left="0" Top="0" Width="14" Height="8">
+        <Margins Left="2" Top="2" Right="8" Bottom="2" />
+        <Font Color="0xff482621" />
+      </State>
+    </Part>
+  </Item>
+</Skin>

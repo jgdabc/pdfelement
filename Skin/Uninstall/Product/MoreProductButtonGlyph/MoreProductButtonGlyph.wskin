@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="MoreProductButtonGlyph">
+    <Part id="0" Name="Frame"  FillMode="center" TransparentMode="Alpha">
+      <Image Name="MoreProductButtonGlyph.svg" />
+      <State Left="0" Top="0" Width="20" Height="20">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+      </State>
+    </Part>
+  </Item>
+</Skin>

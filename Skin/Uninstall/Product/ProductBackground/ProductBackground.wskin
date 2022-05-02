@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="ProductBackground">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Image Name="ProductBackground.svg" />
+      <State Left="0" Top="0" Width="64" Height="64">
+        <Margins Left="9" Top="9" Right="9" Bottom="9" />
+      </State>
+    </Part>
+  </Item>
+</Skin>

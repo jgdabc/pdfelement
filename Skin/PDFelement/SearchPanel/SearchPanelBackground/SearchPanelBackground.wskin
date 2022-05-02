@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="SearchPanelBackground">
+	 <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Image Name="SearchPanelBackground.svg" />
+      <Extension Left="64" Top="64" Right="64" Bottom="64" />
+      <State Left="0" Top="0" Width="160" Height="160">
+        <Margins Left="71" Top="71" Right="71" Bottom="71" />
+      </State>
+	  <State Left="160" Top="0" Width="160" Height="160">
+        <Margins Left="71" Top="71" Right="71" Bottom="71" />
+      </State>
+    </Part>
+  </Item>
+</Skin>

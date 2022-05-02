@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="ExitFullScreenDeleteButton">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Image Name="ExitFullScreenDeleteButton.png" />
+      <State Left="0" Top="0" Width="13" Height="13">
+        <Margins Left="6" Top="6" Right="6" Bottom="6" />
+      </State>
+      <State Left="13" Top="0" Width="13" Height="13">
+        <Margins Left="6" Top="6" Right="6" Bottom="6" />
+      </State>
+      <State Left="26" Top="0" Width="13" Height="13">
+        <Margins Left="6" Top="6" Right="6" Bottom="6" />
+      </State>
+    </Part>
+  </Item>
+</Skin>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Skin>
+  <Item Name="SignWarningSmallImage">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Image Name="SignWarningSmallImage.png" />
+      <State Left="0" Top="0" Width="16" Height="16" />
+    </Part>
+  </Item>
+</Skin>

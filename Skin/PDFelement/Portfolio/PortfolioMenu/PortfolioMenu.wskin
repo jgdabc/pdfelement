@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="PortfolioMenu">
+    <Part id="0" Name="AddFiles" TransparentMode="Alpha">
+      <Image Name="AddFiles.svg" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="1" Name="AddFolder" TransparentMode="Alpha">
+      <Image Name="AddFolder.svg" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="2" Name="CreateFolder" TransparentMode="Alpha">
+      <Image Name="CreateFolder.svg" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="3" Name="Open" TransparentMode="Alpha">
+      <Image Name="Open.svg" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="4" Name="Extract" TransparentMode="Alpha">
+      <Image Name="Extract.svg" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="5" Name="Delete" TransparentMode="Alpha">
+      <Image Name="Delete.svg" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="6" Name="Properties" TransparentMode="Alpha">
+      <Image Name="Properties.svg" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="7" Name="SortBy" TransparentMode="Alpha">
+      <Image Name="SortBy.svg" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="8" Name="SelectAll" TransparentMode="Alpha">
+      <Image Name="SelectAll.svg" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+</Skin>

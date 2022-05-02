@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageResource Id="JPN" Name="Japanese" LocaleName="Japan" Version="1.1" LangID="0x0411" CodePage="932">
+  <Default>
+    <Font Name="Meiryo" Size="9" />
+    <FontMapping>
+      <Item From="Open Sans" To="Meiryo" FailTo="Tahoma" />
+      <Item From="Open Sans Semibold" To="Meiryo" FailTo="Tahoma" />
+      <Item From="Tahoma" To="Meiryo" FailTo="Tahoma" />
+      <Item From="Arial" To="Meiryo" FailTo="Tahoma" />
+      <Item From="Inter" To="Meiryo" FailTo="Tahoma" />
+      <Item From="Helvetica" To="Meiryo" Failto="Tahoma" />
+    </FontMapping>
+  </Default>
+  <Strings>
+    <Info_RemainTime>残り：約{0}秒</Info_RemainTime>
+    <Info_MoreApp>人気製品</Info_MoreApp>
+  </Strings>
+  <Forms>
+    <UninstallForm Text="アンインストール" />
+    <UninstallMakeSureForm>
+      <lblUninstallMakeSure Text="本当にWondershare PDFelementをアンインストールしますか？" />
+      <cbRemoveResource Text="Remove all the effect resource files" />
+      <btnRemove Text="アンインストール" />
+      <btnCancel Text="キャンセル" />
+    </UninstallMakeSureForm>
+    <UninstallProductMainPage>
+      <btnAll Text="すべて" />
+      <btnCreativity Text="クリエイティビティ" />
+      <btnProductivity Text="オフィス効率化" />
+      <btnUtility Text="ユティリティ" />
+    </UninstallProductMainPage>
+    <UninstallReasonDefaultPage>
+      <lblMessage Text="Wondershare PDFelementはWondershareテクノロジーに属しています。我々は、お客様の期待に応える使いやすいソフトウェアを提供できるように最善を尽くしています。ソフトの品質の改善と向上を目指し、お客様の声を伺うアンケートを実施しております。&#xA;&#xA;ご協力をお願い申し上げます。" />
+    </UninstallReasonDefaultPage>
+    <UninstallReasonMainPage>
+      <lblTitle Text="アンインストールする理由をお聞かせください" />
+      <rbCrash Text="クラッシュまたはフリーズが多い" />
+      <rbFixSoftware Text="　ソフトウェア修復" />
+      <rbOther Text="その他" />
+      <txtOther PlaceHolderText="問題について詳しく教えてください" />
+      <btnCancel Text="キャンセル" />
+      <btnContinue Text="続行" />
+    </UninstallReasonMainPage>
+    <UninstallReasonOtherPage>
+      <lblMessage Text="フィードバックをお寄せいただきありがとうございます。" />
+    </UninstallReasonOtherPage>
+    <UninstallUpdateLatestVersionForm>
+      <lblLatestVersion Text="最新版を利用されています。" />
+      <btnOK Text="はい" />
+    </UninstallUpdateLatestVersionForm>
+    <UninstallRepairProgressPage>
+      <lblWait Text="修復中、しばらくお待ちください..." />
+      <btnCancel Text="キャンセル" />
+    </UninstallRepairProgressPage>
+    <UninstallRepairSuccessfulPage>
+      <lblCompleted Text="修復が完了しました" />
+      <btnExecute Text="起動する" />
+    </UninstallRepairSuccessfulPage>
+    <UninstallUpdateProgressPage>
+      <lblWait Text="アップデート中、お待ちください..." />
+      <btnCancel Text="キャンセル" />
+    </UninstallUpdateProgressPage>
+    <UninstallUpdateSuccessfulPage>
+      <btnExecute Text="起動する" />
+      <lblCompleted Text="アップデート完了" />
+      <lblNewVersion Text="新バージョンでは、全体的な安定性とパフォーマンスが向上しています。" />
+    </UninstallUpdateSuccessfulPage>
+    <UninstallWorkeFailedPage>
+      <lblFailed Text="アップデートに失敗しました" />
+      <lblTry Text="アンインストールでエラーが発生しました。 もう一度お試しください。" />
+      <btnClose Text="閉じる" />
+    </UninstallWorkeFailedPage>
+    <UninstallWorkeMainPage>
+      <lblMoreApp Text="人気製品" />
+      <btnMoreProduct Text="その他の製品" />
+    </UninstallWorkeMainPage>
+    <UninstallWorkeProgressPage>
+      <lblThanks Text="ご意見ありがとうございます! アンインストールしています..." />
+    </UninstallWorkeProgressPage>
+    <UninstallWorkeSuccessfulPage>
+      <lblSuccessful Text="アンインストールは成功しました" />
+      <txtContact PlaceHolderText="メールアドレス" />
+      <lblUpdate Text="メールアドレスをご入力いただくと、製品に関する最新情報を入手できます" />
+      <lblContactError Text="正しいメールアドレスを入力してください" />
+      <btnDone Text="完了" />
+    </UninstallWorkeSuccessfulPage>
+    <UpdateFailedForm>
+      <lblMessage Text="アップデートに失敗しました" />
+      <btnOK Text="はい" />
+    </UpdateFailedForm>
+    <UpdateLatestVersionForm>
+      <lblLatestVersion Text="最新版を利用されています。" />
+      <btnOK Text="はい" />
+    </UpdateLatestVersionForm>
+    <CloseMainAppForm>
+      <lblMessage Text="Wondershare PDFelementは既に実行中です。先に終了してください。" />
+      <btnRetry Text="再試行" />
+      <btnCancel Text="キャンセル" />
+    </CloseMainAppForm>
+    <RepairFailedForm>
+      <lblMessage Text="修復に失敗しました" />
+      <btnOK Text="はい" />
+    </RepairFailedForm>
+  </Forms>
+</LanguageResource>

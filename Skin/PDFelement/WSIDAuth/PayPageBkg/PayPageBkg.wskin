@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="PayPageBkg">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Image Name="PayPageBkg.svg" />
+      <Font Size="9" Color="clWhite" Style="Bold" />
+      <Padding Left="8" Right="8" />
+      <State Left="0" Top="0" Width="480" Height="39">
+        <Margins Top="22" Bottom="10" />
+      </State>
+    </Part>
+  </Item>
+</Skin>

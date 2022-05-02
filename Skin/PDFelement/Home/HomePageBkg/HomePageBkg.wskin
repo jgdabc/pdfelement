@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="HomePageBkg">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <State>
+        <Font Color="33, 38, 72" />
+      </State>
+      <State>
+        <Font Color="77, 73, 178" />
+      </State>
+      <State>
+        <Font Color="77, 73, 178" />
+      </State>
+    </Part>
+  </Item>
+</Skin>

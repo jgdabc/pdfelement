@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="SearchStartGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Image Name="SearchStartGlyph.svg" />
+      <State Left="0" Top="0" Width="15" Height="15" />
+      <State Left="0" Top="0" Width="15" Height="15" />
+      <State Left="0" Top="0" Width="15" Height="15" />
+      <State Left="0" Top="0" Width="15" Height="15" />
+    </Part>
+  </Item>
+</Skin>

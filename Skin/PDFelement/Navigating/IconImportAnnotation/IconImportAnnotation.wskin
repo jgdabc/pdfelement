@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="IconImportAnnotation">
+    <Part id="0" Name="Frame" FillMode="center" TransparentMode="Alpha">
+      <Image Name="IconImportAnnotation.svg" />
+      <State Left="2" Top="0" Width="22" Height="24" />
+      <State Left="2" Top="0" Width="22" Height="24" />
+      <State Left="2" Top="0" Width="22" Height="24" />
+      <State Left="26" Top="0" Width="22" Height="24" />
+    </Part>
+  </Item>
+</Skin>

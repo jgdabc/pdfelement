@@ -1,0 +1,10 @@
+<StyleSheet>
+  <ForeColor>#4D4D4D</ForeColor>
+  <HighlightForeColor>#4D4D4D</HighlightForeColor>
+  <HighlightBackColor>#ECECEC</HighlightBackColor>
+  <HighlightNoFocusForeColor>#4D4D4D</HighlightNoFocusForeColor>
+  <HighlightNoFocusBackColor>#ECECEC</HighlightNoFocusBackColor>
+  <HotlightForeColor>#4D4D4D</HotlightForeColor>
+  <HotlightBackColor>#F2F2F2</HotlightBackColor>
+  <ItemHeight>24</ItemHeight>
+</StyleSheet>

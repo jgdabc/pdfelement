@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageResource Id="ENG" Name="English" LocaleName="United Kingdom" Version="1.0" LangID="0x0809" CodePage="1252">
+  <Default>
+    <Font Name="Segoe UI" Size="9" />
+    <FontMapping>
+      <Item From="Open Sans" To="Segoe UI" FailTo="Tahoma" />
+      <Item From="Open Sans Semibold" To="Segoe UI Semibold" FailTo="Tahoma" />
+      <Item From="Tahoma" To="Segoe UI" FailTo="Tahoma" />
+      <Item From="Arial" To="Segoe UI" FailTo="Tahoma" />
+      <Item From="Inter" To="Segoe UI" FailTo="Tahoma" />
+      <Item From="Helvetica" To="Segoe UI" Failto="Tahoma" />
+    </FontMapping>
+  </Default>
+
+  <Strings>
+    <Info_RemainTime>Time remaining: About {0} seconds</Info_RemainTime>
+    <Info_MoreApp>More Apps You Might Like</Info_MoreApp>
+  </Strings>
+
+  <Forms>
+    <CloseMainAppForm>
+      <lblMessage Text="Wondershare PDFelement is running, please exit it first." />
+
+      <btnRetry Text="Retry" />
+      <btnCancel Text="Cancel" />
+    </CloseMainAppForm>
+    <RepairFailedForm>
+      <lblMessage Text="Repair failed" />
+      <btnOK Text="OK" />
+    </RepairFailedForm>
+    <UninstallForm Text="Uninstall">
+    </UninstallForm>
+    <UninstallMakeSureForm>
+      <lblUninstallMakeSure Text="Are you sure you want to remove Wondershare PDFelement？" />
+      <cbRemoveResource Text="Remove all the effect resource files" />
+      <btnRemove Text="Remove" />
+      <btnCancel Text="Cancel" />
+    </UninstallMakeSureForm>
+    <UninstallProductMainPage>
+      <btnAll Text="All" />
+      <btnCreativity Text="Creativity" />
+      <btnProductivity Text="Productivity" />
+      <btnUtility Text="Utility" />
+    </UninstallProductMainPage>
+    <UninstallReasonDefaultPage>
+    <lblMessage Text="Hello there,&#xA;&#xA;Wondershare PDFelement belongs to Wondershare Technology. We are committed to creating easy-to-use software. We will try our best to make it as suitable as possible for you. Here is a simple questionnaire, helping us improve the product.&#xA;&#xA;Thank you for your feedback. Hope to meet you again.&#xA;&#xA;Thank you!" />
+    </UninstallReasonDefaultPage>
+    <UninstallReasonMainPage>
+      <lblTitle Text="Can you tell me why you want to uninstall?" />
+      <rbCrash Text="It crashed or frozen on my computer." />
+      <rbFixSoftware Text="Fix software." />
+      <rbOther Text="Other" />
+      <txtOther PlaceHolderText="Please describe the problem you encountered." />
+      <btnCancel Text="Cancel" />
+      <btnContinue Text="Continue" />
+    </UninstallReasonMainPage>
+    <UninstallReasonOtherPage>
+      <lblMessage Text="Thanks for your feedback, looking forward to seeing you again!" />
+    </UninstallReasonOtherPage>
+    <UninstallUpdateLatestVersionForm>
+      <lblLatestVersion Text="You are already the latest version!" />
+      <btnOK Text="OK" />
+    </UninstallUpdateLatestVersionForm>
+    <UninstallRepairProgressPage>
+      <lblWait Text="Repair, please wait..." />
+      <btnCancel Text="Cancel" />
+    </UninstallRepairProgressPage>
+    <UninstallRepairSuccessfulPage>
+      <lblCompleted Text="Repair completed" />
+      <btnExecute Text="Launch" />
+    </UninstallRepairSuccessfulPage>
+    <UninstallUpdateProgressPage>
+      <lblWait Text="Upgrading, please wait..." />
+      <btnCancel Text="Cancel" />
+    </UninstallUpdateProgressPage>
+    <UninstallUpdateSuccessfulPage>
+      <btnExecute Text="Launch" />
+      <lblCompleted Text="Upgrade completed" />
+      <lblNewVersion Text="The new version is more stable and faster!" />
+    </UninstallUpdateSuccessfulPage>
+    <UninstallWorkeFailedPage>
+      <lblFailed Text="Uninstall Failed" />
+      <lblTry Text="Your uninstallation encountered errors. Please try uninstalling again." />
+      <btnClose Text="Close" />
+    </UninstallWorkeFailedPage>
+    <UninstallWorkeMainPage>
+      <lblMoreApp Text="More Apps You Might Like" />
+      <btnMoreProduct Text="More Products" />
+    </UninstallWorkeMainPage>
+    <UninstallWorkeProgressPage>
+      <lblThanks Text="Thanks for your feedback!&#xD;&#xA;Uninstalling..." />
+    </UninstallWorkeProgressPage>
+    <UninstallWorkeSuccessfulPage>
+      <lblSuccessful Text="Successfully uninstalled" />
+      <txtContact PlaceHolderText="Email address" />
+      <lblUpdate Text="Enter your email to get the latest news" />
+      <lblContactError Text="Please enter your correct email address." />
+      <btnDone Text="Done" />
+    </UninstallWorkeSuccessfulPage>
+    <UpdateFailedForm>
+      <lblMessage Text="Upgrade failed" />
+      <btnOK Text="OK" />
+    </UpdateFailedForm>
+    <UpdateLatestVersionForm>
+      <lblLatestVersion Text="You are already the latest version!" />
+      <btnOK Text="OK" />
+    </UpdateLatestVersionForm>
+  </Forms>
+
+</LanguageResource>

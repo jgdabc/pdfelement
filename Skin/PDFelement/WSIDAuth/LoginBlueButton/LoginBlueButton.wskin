@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="LoginBlueButton">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Image Name="LoginBlueButton.svg" />
+      <Font Size="10.5" Style="Bold" />
+      <State Left="0" Top="0" Width="104" Height="40">
+        <Margins Left="14" Top="2" Right="14" Bottom="2" />
+        <Font Color="clWhite" Style="Bold" />
+      </State>
+      <State Left="104" Top="0" Width="104" Height="40">
+        <Margins Left="14" Top="2" Right="14" Bottom="2" />
+        <Font Color="clWhite" Style="Bold" />
+      </State>
+      <State Left="208" Top="0" Width="104" Height="40">
+        <Margins Left="14" Top="2" Right="14" Bottom="2" />
+        <Font Color="clWhite" Style="Bold" />
+      </State>
+      <State Left="312" Top="0" Width="104" Height="40">
+        <Margins Left="14" Top="2" Right="14" Bottom="2" />
+        <Font Color="clWhite" Style="Bold" />
+      </State>
+    </Part>
+  </Item>
+</Skin>

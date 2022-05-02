@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="RibbonExpandGlyph">
+    <Part id="0" Name="Expand" FillMode="center" TransparentMode="Alpha">
+      <Image Name="RibbonExpandGlyph.svg" />
+      <State Left="0" Top="0" Width="20" Height="20" />
+      <State Left="20" Top="0" Width="20" Height="20" />
+      <State Left="40" Top="0" Width="20" Height="20" />
+      <State Left="60" Top="0" Width="20" Height="20" />
+    </Part>
+    <Part id="1" Name="UnExpand" FillMode="center" TransparentMode="Alpha">
+      <Image Name="RibbonUnExpandGlyph.svg" />
+      <State Left="0" Top="0" Width="20" Height="20" />
+      <State Left="20" Top="0" Width="20" Height="20" />
+      <State Left="40" Top="0" Width="20" Height="20" />
+      <State Left="60" Top="0" Width="20" Height="20" />
+    </Part>
+  </Item>
+</Skin>

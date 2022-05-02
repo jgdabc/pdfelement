@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="FirstPageGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Image Name="FirstPageGlyph.svg" />
+      <State Left="0" Top="0" Width="32" Height="32" />
+      <State Left="0" Top="0" Width="32" Height="32" />
+      <State Left="0" Top="0" Width="32" Height="32" />
+      <State Left="32" Top="0" Width="32" Height="32" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Image Name="FirstPageGlyph.svg" />
+      <State Left="0" Top="0" Width="32" Height="32" />
+      <State Left="0" Top="0" Width="32" Height="32" />
+      <State Left="0" Top="0" Width="32" Height="32" />
+      <State Left="32" Top="0" Width="32" Height="32" />
+    </Part>
+  </Item>
+</Skin>

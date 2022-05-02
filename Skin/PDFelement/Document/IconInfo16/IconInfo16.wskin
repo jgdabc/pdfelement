@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Skin>
+  <Item Name="IconInfo16">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="IconInfo16.png" />
+      <State Left="0" Top="0" Width="18" Height="18" />
+      <State Left="0" Top="0" Width="18" Height="18" />
+      <State Left="0" Top="0" Width="18" Height="18" />
+      <State Left="0" Top="0" Width="18" Height="18" />
+    </Part>
+  </Item>
+</Skin>

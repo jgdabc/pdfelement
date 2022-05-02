@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="ViewContinueGlyph">
+    <Part id="0" Name="Frame" FillMode="center" TransparentMode="Alpha">
+      <Image Name="ViewContinueGlyph.svg" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+</Skin>

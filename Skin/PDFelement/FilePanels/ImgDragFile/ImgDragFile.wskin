@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="ImgDragFile">
+    <Part id="0" Name="Frame" FillMode="Center" TransparentMode="Alpha">
+      <Image Name="ImgDragFile.svg" />
+      <State Left="0" Top="0" Width="112" Height="112" />
+    </Part>
+  </Item>
+</Skin>

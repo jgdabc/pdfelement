@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Skin>
+  <Item Name="AttachmentTypeTag">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="AttachmentTypeTag.png" />
+      <State Left="0" Top="0" Width="120" Height="80" />
+    </Part>
+  </Item>
+</Skin>

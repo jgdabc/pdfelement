@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="AddDocGlyph">
+    <Part id="0" Name="Frame" FillMode="center" TransparentMode="Alpha">
+      <Image Name="AddDocGlyph.svg" />
+      <State Left="0" Top="0" Width="11" Height="11" />
+      <State Left="11" Top="0" Width="11" Height="11" />
+      <State Left="22" Top="0" Width="11" Height="11" />
+      <State Left="22" Top="0" Width="11" Height="11" />
+    </Part>
+  </Item>
+</Skin>

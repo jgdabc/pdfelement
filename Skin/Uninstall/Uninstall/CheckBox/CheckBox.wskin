@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="CheckBox">
+    <Part id="0" Name="Checked" FillMode="Center" TransparentMode="Alpha">
+      <Image Name="CheckBox_Checked.svg" />
+      <State Left="0" Top="0" Width="18" Height="18">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+      </State>
+      <State Left="18" Top="0" Width="18" Height="18">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+      </State>
+      <State Left="36" Top="0" Width="18" Height="18">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+      </State>
+      <State Left="54" Top="0" Width="18" Height="18">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+        <Font Color="#999999" />
+      </State>
+    </Part>
+    <Part id="1" Name="UnChecked" FillMode="Center" TransparentMode="Alpha">
+      <Image Name="CheckBox_UnChecked.svg" />
+      <State Left="0" Top="0" Width="18" Height="18">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+      </State>
+      <State Left="18" Top="0" Width="18" Height="18">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+      </State>
+      <State Left="36" Top="0" Width="18" Height="18">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+      </State>
+      <State Left="54" Top="0" Width="18" Height="18">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+        <Font Color="#999999" />
+      </State>
+    </Part>
+  </Item>
+</Skin>

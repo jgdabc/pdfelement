@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="RecentItemPinBkg">
+    <Part id="0" Name="Checked" TransparentMode="Alpha">
+      <Image Name="PinGlyph.svg" />
+      <State Left="0" Top="0" Width="32" Height="48" />
+      <State Left="32" Top="0" Width="32" Height="48" />
+      <State Left="64" Top="0" Width="32" Height="48" />
+      <State Left="96" Top="0" Width="32" Height="48" />
+    </Part>
+    <Part id="1" Name="UnChecked" TransparentMode="Alpha">
+      <Image Name="UnPinGlyph.svg" />
+      <State Left="0" Top="0" Width="32" Height="48" />
+      <State Left="32" Top="0" Width="32" Height="48" />
+      <State Left="64" Top="0" Width="32" Height="48" />
+      <State Left="96" Top="0" Width="32" Height="48" />
+    </Part>
+  </Item>
+</Skin>

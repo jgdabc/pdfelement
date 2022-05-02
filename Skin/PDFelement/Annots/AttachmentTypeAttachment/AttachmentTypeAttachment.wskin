@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Skin>
+  <Item Name="AttachmentTypeAttachment">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="AttachmentTypeAttachment.png" />
+      <State Left="0" Top="0" Width="80" Height="120" />
+    </Part>
+  </Item>
+</Skin>

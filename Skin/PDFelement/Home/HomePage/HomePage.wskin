@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="HomePage">
+    <Part id="0" Name="Back" TransparentMode="Alpha">
+      <Image Name="IconBack.svg" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="1" Name="ClearAll" TransparentMode="Alpha">
+      <Image Name="IconClearAll.svg" />
+      <Font Color="72, 100, 255" />
+      <State Left="0" Top="0" Width="16" Height="16" />
+    </Part>
+    <Part id="2" Name="OpenPdf" TransparentMode="Alpha">
+      <Image Name="IconOpenPdf.svg" />
+      <State Left="0" Top="0" Width="48" Height="48" />
+      <State Left="48" Top="0" Width="48" Height="48" />
+      <State Left="48" Top="0" Width="48" Height="48" />
+    </Part>
+    <Part id="3" Name="CombinePdf" TransparentMode="Alpha">
+      <Image Name="IconCombinePdf.svg" />
+      <State Left="0" Top="0" Width="48" Height="48" />
+    </Part>
+    <Part id="4" Name="OptimizePdf" TransparentMode="Alpha">
+      <Image Name="IconOptimizePdf.svg" />
+      <State Left="0" Top="0" Width="48" Height="48" />
+    </Part>
+    <Part id="5" Name="OcrPdf" TransparentMode="Alpha">
+      <Image Name="IconOcrPdf.svg" />
+      <State Left="0" Top="0" Width="48" Height="48" />
+    </Part>
+    <Part id="6" Name="ConverPdf" TransparentMode="Alpha">
+      <Image Name="IconConverPdf.svg" />
+      <State Left="0" Top="0" Width="48" Height="48" />
+    </Part>
+    <Part id="7" Name="CreatePdf" TransparentMode="Alpha">
+      <Image Name="IconCreatePdf.svg" />
+      <State Left="0" Top="0" Width="48" Height="48" />
+    </Part>
+    <Part id="8" Name="BatchPdf" TransparentMode="Alpha">
+      <Image Name="IconBatchPdf.svg" />
+      <State Left="0" Top="0" Width="48" Height="48" />
+    </Part>
+    <Part id="9" Name="ComparePdf" TransparentMode="Alpha">
+      <Image Name="IconComparePdf.svg" />
+      <State Left="0" Top="0" Width="48" Height="48" />
+    </Part>
+  </Item>
+</Skin>

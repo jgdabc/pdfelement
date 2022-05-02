@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="UpdateSuccessfulImage">
+    <Part id="0" Name="Frame"  FillMode="stretch" TransparentMode="Alpha">
+      <Image Name="UpdateSuccessfulImage.png" />
+      <State Left="0" Top="0" Width="192" Height="192">
+      </State>
+    </Part>
+  </Item>
+</Skin>

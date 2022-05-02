@@ -1,0 +1,13 @@
+<StyleSheet>
+  <Font>Segoe UI, 10.5pt</Font>
+  <ForeColor>#4D4D4D</ForeColor>
+  <BackColor>Transparent</BackColor>
+  <HighlightForeColor>#4D4D4D</HighlightForeColor>
+  <HighlightBackColor>#C5D3FA</HighlightBackColor>
+  <HighlightNoFocusForeColor>#4D4D4D</HighlightNoFocusForeColor>
+  <HighlightNoFocusBackColor>#C5D3FA</HighlightNoFocusBackColor>
+  <HotlightForeColor>#4D4D4D</HotlightForeColor>
+  <HotlightBackColor>#C5D3FA</HotlightBackColor>
+  <LineColor>Transparent</LineColor>
+  <PlusMinusSkin>PlusMinusArrowGlyph</PlusMinusSkin>
+</StyleSheet>

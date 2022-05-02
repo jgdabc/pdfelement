@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="OpenProductUrlButton">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Image Name="OpenProductUrlButton.svg" />
+      <State Left="0" Top="0" Width="64" Height="32">
+        <Margins Left="18" Top="9" Right="18" Bottom="9" />
+      </State>
+    </Part>
+  </Item>
+</Skin>

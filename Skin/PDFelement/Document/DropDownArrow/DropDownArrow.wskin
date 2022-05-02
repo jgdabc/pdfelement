@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="DropDownArrow">
+    <Part id="0" Name="Frame" FillMode="center" TransparentMode="Alpha">
+      <Image Name="DropDownArrow.svg" />
+      <State Left="0" Top="0" Width="8" Height="8" />
+      <State Left="0" Top="0" Width="8" Height="8" />
+      <State Left="0" Top="0" Width="8" Height="8" />
+      <State Left="8" Top="0" Width="8" Height="8" />
+    </Part>
+  </Item>
+</Skin>

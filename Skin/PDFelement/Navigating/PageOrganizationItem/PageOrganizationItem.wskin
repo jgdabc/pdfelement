@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="PageOrganizationItem">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Image Name="PageOrganizationItem_Frame.svg" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="32" Height="32">
+        <Color>clTransparent</Color>
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+      </State>
+      <State Left="32" Top="0" Width="32" Height="32">
+        <Color>clTransparent</Color>
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+      </State>
+    </Part>
+  </Item>
+</Skin>

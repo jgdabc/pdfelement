@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="CloudNotFile">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Image Name="CloudNotFile.svg" />
+      <State Left="0" Top="0" Width="248" Height="160" />
+    </Part>
+  </Item>
+</Skin>
